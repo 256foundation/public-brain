@@ -97,3 +97,20 @@ Supporting tools and libraries: asic-rs, HashScope, btc-toolkit.
 | [HashScope](tools/hashscope.md) | Transparent Stratum man-in-the-middle proxy with a live web UI: architecture, quick start, configuration, API. | 2026-10-07 |
 | [HashScope Agent Fleet](tools/hashscope-agent-fleet.md) | Distributed load-testing agents that replay real shares to target pools, coordinated through a Nostr relay. | 2026-10-07 |
 | [BTC Toolkit](tools/btc-toolkit.md) | Desktop GUI built on asic-rs and iced.rs for scanning networks and viewing miner details. | 2026-10-07 |
+
+## pod256
+
+The POD256 podcast: overview, episode guides, guests and themes.
+
+| Article | Summary | Updated |
+|---------|---------|---------|
+| [POD256 Podcast](pod256/pod256-podcast.md) | Hosts, format changes, recording locations, listener support and the show's link to the 256 Foundation. | 2026-10-07 |
+| [POD256 Episode Guide: 2022 and 2023](pod256/episode-guide-2022-2023.md) | Episodes 001 to 032 with dates, guests and topics; the news-show era and the first Telehash idea. | 2026-10-07 |
+| [POD256 Episode Guide: 2024](pod256/episode-guide-2024.md) | Episodes 033 to 058; halving countdown, pool builders as guests, and the 256 Foundation taking shape. | 2026-10-07 |
+| [POD256 Episode Guide: 2025](pod256/episode-guide-2025.md) | Episodes 060 to 100; Telehash block, the four projects, Tyler joins, Samourai plea to sentence. | 2026-10-07 |
+| [POD256 Episode Guide: 2026](pod256/episode-guide-2026.md) | Episodes 101 to 127 plus forum recording announcements; Mujina on existing miners, Telehash #3 and #4, AI tooling. | 2026-10-07 |
+| [POD256 Guests](pod256/guests.md) | Who appeared on the show, grouped by what they represent, with episode numbers. | 2026-10-07 |
+| [Open-Source Mining Stack Coverage on POD256](pod256/open-source-mining-stack-coverage.md) | Per-project timeline of Ember One, Libre Board, Mujina, Hydra Pool, Telehash, chips and funding as told on the show. | 2026-10-07 |
+| [Samourai Wallet and Developer Prosecutions on POD256](pod256/samourai-and-developer-prosecutions.md) | The show's Samourai coverage from 2023 guest spot through plea, sentencing and pardon campaign, plus related privacy topics. | 2026-10-07 |
+| [Home Mining and Heat Reuse on POD256](pod256/home-mining-and-heat-reuse.md) | Home Miner of the Week picks, 120V hardware, hashrate heating practice, Heatpunk Summit, and solar matching. | 2026-10-07 |
+| [State of the Network Snapshots, 2023 to 2024](pod256/state-of-the-network-snapshots.md) | Block heights, halving countdowns, difficulty, hashrate and hashvalue printed in the notes for episodes 005 to 046. | 2026-10-07 |
