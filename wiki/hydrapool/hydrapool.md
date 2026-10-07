@@ -1,7 +1,7 @@
 # Hydrapool
 
-> Sources: 256 Foundation (projects page), collected 2026-10-07; Hydrapool project (GitHub README), collected 2026-10-07; 256 Foundation (telehash page), collected 2026-10-07; 256 Foundation (newsroom: MARA Foundation), collected 2026-10-07
-> Raw: [256foundation.org projects](../../raw/foundation/256foundation-org-projects.md); [256foundation/hydrapool README](../../raw/hydrapool/github-256foundation-hydrapool.md); [256foundation.org telehash](../../raw/foundation/256foundation-org-telehash.md); [MARA Foundation $100,000](../../raw/foundation/256foundation-org-newsroom-mara-foundation-tier1-supporter.md)
+> Sources: 256 Foundation (projects page), collected 2026-10-07; Hydrapool project (GitHub README), collected 2026-10-07; 256 Foundation (telehash page), collected 2026-10-07; 256 Foundation (newsroom: MARA Foundation), collected 2026-10-07; Hydrapool project (hydrapool.org home page), collected 2026-10-07
+> Raw: [256foundation.org projects](../../raw/foundation/256foundation-org-projects.md); [256foundation/hydrapool README](../../raw/hydrapool/github-256foundation-hydrapool.md); [256foundation.org telehash](../../raw/foundation/256foundation-org-telehash.md); [MARA Foundation $100,000](../../raw/foundation/256foundation-org-newsroom-mara-foundation-tier1-supporter.md); [hydrapool.org](../../raw/hydrapool/hydrapool-org-home.md)
 > Updated: 2026-10-07
 
 ## Overview
@@ -26,6 +26,9 @@ The foundation's comparison is WordPress for pools: a core platform with payouts
 
 The README notes a current limit of up to 100 users, for coinbase and block weight reasons. Workers are limited only by hardware.
 
+> **Status: Disputed**
+> The GitHub README says the pool only accommodates up to 100 users. The hydrapool.org home page says 100 unique users in the coinbase is a default that the user can configure. See [Running Your Own Hydrapool](running-hydrapool.md).
+
 ## Where it runs
 
 - The foundation's instance is live at pool.256foundation.org:3333.
@@ -40,3 +43,6 @@ Jungly is the core architect and lead maintainer.
 
 - [Telehash](../foundation/telehash.md)
 - [Mujina Firmware](../mujina/mujina-firmware.md)
+- [Running Your Own Hydrapool](running-hydrapool.md)
+- [Hydrapool Hardware Tests](hydrapool-hardware-tests.md)
+- [GridPool](gridpool.md)

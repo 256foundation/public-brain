@@ -112,3 +112,218 @@
 - Raw: raw/foundation/256foundation-org-our-work.md
 - Raw: raw/mujina/mujina-org-explanation-status.md
 - Raw: raw/foundation/256foundation-org-newsroom-mara-foundation-tier1-supporter.md
+
+## [2026-10-07] ingest | Cross-source conflicts found during second pass
+- Disposition: Update; Disputed
+- Raw: raw/hardware/emberone-org-home.md
+- Raw: raw/hydrapool/hydrapool-org-home.md
+- Raw: raw/foundation/2026-04-26-forum-telehash-4-may-19th-bitcoin-park-austin.md
+- Raw: raw/mujina/mujina-org-reference-hardware-compatibility.md
+- Raw: raw/mujina/github-256foundation-mujina.md
+- Updated: Ember One
+- Updated: Hydrapool
+- Updated: Telehash
+- Updated: Mujina Firmware
+
+## [2026-10-07] ingest | Mujina Dev Calls
+- Disposition: New
+- Raw: raw/mujina/2026-05-03-forum-mujina-dev-call.md
+- Raw: raw/mujina/2026-05-05-forum-mujina-dev-call-2.md
+- Raw: raw/mujina/2026-05-29-forum-mujina-dev-call-3.md
+- Raw: raw/mujina/2026-06-08-forum-mujina-dev-call-4-20260615.md
+- Raw: raw/mujina/2026-06-29-forum-mujina-dev-call-5-20260706.md
+- Raw: raw/mujina/2026-07-06-forum-mujina-dev-call-6-20260720.md
+- Raw: raw/mujina/2026-07-21-forum-mujina-dev-call-7-20260803.md
+- Raw: raw/mujina/2026-08-16-forum-mujina-dev-call-8-20260817.md
+- Raw: raw/mujina/2026-08-18-forum-mujina-dev-call-9-20260831.md
+- Raw: raw/mujina/2026-09-14-forum-mujina-dev-call-10-20260914.md
+- Raw: raw/mujina/2026-09-27-forum-mujina-dev-call-11-20260928.md
+- Raw: raw/mujina/mujina-org-community.md
+
+## [2026-10-07] ingest | Mujina Hardware Compatibility
+- Disposition: New; Disputed
+- Raw: raw/mujina/mujina-org-reference-hardware-compatibility.md
+- Raw: raw/mujina/mujina-org-explanation-status.md
+- Raw: raw/mujina/mujina-org-explanation-why-mujina.md
+- Raw: raw/mujina/github-256foundation-mujina.md
+- Raw: raw/mujina/2026-05-11-forum-mujina-antminer.md
+- Raw: raw/mujina/2026-05-18-forum-best-practices-for-hacking-mujina-onto-other-miners.md
+- Raw: raw/mujina/2026-05-03-forum-mujina-dev-call.md
+
+## [2026-10-07] ingest | Running Mujina
+- Disposition: New; Disputed
+- Raw: raw/mujina/mujina-org-tutorial-first-run.md
+- Raw: raw/mujina/mujina-org-howto-connect-to-a-pool.md
+- Raw: raw/mujina/mujina-org-home.md
+- Raw: raw/mujina/github-256foundation-mujina.md
+- Raw: raw/mujina/2026-07-01-forum-wsl-issues-prevents-bitaxe-raw-talking-to-mijuna.md
+- Raw: raw/mujina/2026-05-05-forum-mujina-dev-call-2.md
+
+## [2026-10-07] ingest | Contributing and Mujina Improvement Proposals
+- Disposition: New
+- Raw: raw/mujina/mujina-org-community.md
+- Raw: raw/mujina/github-256foundation-mujina-mips.md
+- Raw: raw/mujina/github-256foundation-mujina.md
+- Raw: raw/mujina/2026-05-03-forum-mujina-dev-call.md
+- Raw: raw/mujina/2026-05-05-forum-mujina-dev-call-2.md
+- Raw: raw/mujina/2026-06-08-forum-mujina-dev-call-4-20260615.md
+
+## [2026-10-07] ingest | Mujina Xilinx Platform
+- Disposition: New; Disputed
+- Raw: raw/mujina/github-256foundation-mujina-xilinx-platform.md
+- Raw: raw/mujina/github-256foundation-mujina.md
+- Raw: raw/mujina/mujina-org-explanation-status.md
+- Raw: raw/mujina/2026-05-11-forum-mujina-antminer.md
+
+## [2026-10-07] ingest | Porting Mujina to Other Miners
+- Disposition: New
+- Raw: raw/mujina/2026-05-18-forum-best-practices-for-hacking-mujina-onto-other-miners.md
+- Raw: raw/mujina/2026-05-11-forum-mujina-antminer.md
+- Raw: raw/mujina/2026-05-05-forum-mujina-dev-call-2.md
+- Raw: raw/mujina/mujina-org-reference-hardware-compatibility.md
+
+## [2026-10-07] ingest | 256 Foundation FAQ
+- Disposition: New
+- Raw: raw/foundation/256foundation-org-faq.md
+
+## [2026-10-07] ingest | Donate and Get Involved
+- Disposition: New; Disputed
+- Raw: raw/foundation/256foundation-org-donate.md
+- Raw: raw/foundation/256foundation-org-community.md
+- Raw: raw/foundation/256foundation-org-contact.md
+- Raw: raw/foundation/256foundation-org-home.md
+- Raw: raw/foundation/dash-256f-org-home.md
+- Raw: raw/foundation/github-256foundation-grants.md
+- Raw: raw/foundation/github-256foundation-news.md
+
+## [2026-10-07] ingest | Hashrate Heatpunks
+- Disposition: New
+- Raw: raw/foundation/heatpunks-org-home.md
+- Raw: raw/foundation/heatpunks-org-mission.md
+- Raw: raw/foundation/heatpunks-org-education.md
+- Raw: raw/foundation/heatpunks-org-summit.md
+- Raw: raw/foundation/2026-07-22-forum-2027-heatpunk-summit-waitlist-open.md
+- Raw: raw/foundation/256foundation-org-community.md
+
+## [2026-10-07] ingest | RY3T Nova
+- Disposition: New
+- Raw: raw/foundation/256foundation-org-newsroom-ry3t-nova.md
+
+## [2026-10-07] ingest | Presidio Bitcoin Fundraiser and the Case for Commoditizing Mining
+- Disposition: New
+- Raw: raw/foundation/256foundation-org-newsroom-presidio-bitcoin-fundraiser.md
+
+## [2026-10-07] ingest | Telehash 4
+- Disposition: New; Disputed
+- Raw: raw/foundation/2026-04-26-forum-telehash-4-may-19th-bitcoin-park-austin.md
+- Raw: raw/foundation/2026-05-08-forum-telehash-talking-points-what-are-you-building.md
+- Raw: raw/foundation/2026-05-21-forum-telehash-4-performance-metrics.md
+- Raw: raw/foundation/256-foundation-forum-event-calendar.md
+- Raw: raw/foundation/256foundation-org-telehash.md
+
+## [2026-10-07] ingest | Red Team Program
+- Disposition: New
+- Raw: raw/foundation/github-256foundation-256-redteam-public.md
+- Raw: raw/foundation/256foundation-org-our-work.md
+- Raw: raw/foundation/256foundation-org-newsroom-presidio-bitcoin-fundraiser.md
+
+## [2026-10-07] ingest | Events and Calendar
+- Disposition: New
+- Raw: raw/foundation/256-foundation-forum-event-calendar.md
+- Raw: raw/foundation/2026-05-14-forum-bitcoin-las-vegas-2026-256f-panels.md
+- Raw: raw/foundation/2026-04-27-forum-vote-for-256f-to-win-100k-from-mara-foundation.md
+- Raw: raw/foundation/256foundation-org-telehash.md
+- Raw: raw/foundation/256foundation-org-home.md
+- Raw: raw/foundation/256foundation-org-newsroom-presidio-bitcoin-fundraiser.md
+
+## [2026-10-07] ingest | Nonprofit Record and Legal Status
+- Disposition: New
+- Raw: raw/foundation/256-foundation-irs-nonprofit-record-propublica-nonprofit-exp.md
+- Raw: raw/foundation/256foundation-org-faq.md
+
+## [2026-10-07] ingest | 256 Foundation Forum
+- Disposition: New
+- Raw: raw/foundation/2026-03-18-forum-welcome-to-the-256-foundation-wave.md
+- Raw: raw/foundation/2026-04-28-forum-auradine-support.md
+- Raw: raw/foundation/2026-05-05-forum-messing-around-with-fpga-mining.md
+- Raw: raw/foundation/2026-05-15-forum-waterblock-stl.md
+- Raw: raw/foundation/2026-06-27-forum-where-is-s19jpro-support.md
+- Raw: raw/foundation/2026-07-23-forum-new-user-facing-website-prs-welcome.md
+
+## [2026-10-07] ingest | Website and Newsroom
+- Disposition: New
+- Raw: raw/foundation/github-256foundation-website.md
+- Raw: raw/foundation/256foundation-org-newsroom.md
+- Raw: raw/foundation/256foundation-org-grants-announcements.md
+- Raw: raw/foundation/256foundation-org-home.md
+
+## [2026-10-07] ingest | no material: raw/foundation/github-256foundation-256-foundation-website.md
+- Disposition: No material
+
+## [2026-10-07] ingest | Ember One Hardware Details
+- Disposition: New; Disputed
+- Raw: raw/hardware/emberone-org-home.md
+- Raw: raw/hardware/github-256foundation-emberone00-pcb.md
+- Raw: raw/hardware/github-256foundation-emberone01-pcb.md
+- Raw: raw/hardware/github-256foundation-emberone-usbserial-fw.md
+- Raw: raw/hydrapool/hydrapool-org-hardware-tests-html.md
+
+## [2026-10-07] ingest | Libre Board Design and Grant Scope
+- Disposition: New
+- Raw: raw/hardware/libreboard-org-home.md
+- Raw: raw/hardware/github-256foundation-libreboard.md
+
+## [2026-10-07] ingest | Running Your Own Hydrapool
+- Disposition: New; Disputed
+- Raw: raw/hydrapool/github-256foundation-hydrapool.md
+- Raw: raw/hydrapool/hydrapool-org-home.md
+- Raw: raw/hydrapool/2026-07-27-forum-hydrapool-on-umbrel.md
+
+## [2026-10-07] ingest | Hydrapool Hardware Tests
+- Disposition: New
+- Raw: raw/hydrapool/hydrapool-org-hardware-tests-html.md
+- Raw: raw/hydrapool/hydrapool-org-home.md
+
+## [2026-10-07] ingest | GridPool
+- Disposition: New
+- Raw: raw/hydrapool/2026-06-16-forum-new-gridpool-landing-page-is-up.md
+- Raw: raw/hydrapool/2026-09-15-forum-gridpool-1-click-packages-are-released.md
+
+## [2026-10-07] ingest | RHAP: Raw Hardware Access Protocol
+- Disposition: New
+- Raw: raw/protocols/github-256foundation-rhap.md
+- Raw: raw/protocols/github-256foundation-rhapd-bitaxe-gamma.md
+- Raw: raw/hardware/github-256foundation-emberone-usbserial-fw.md
+
+## [2026-10-07] ingest | asic-rs
+- Disposition: New
+- Raw: raw/tools/github-256foundation-asic-rs.md
+- Raw: raw/tools/docs-asic-rs.md
+- Raw: raw/tools/docs-asic-rs-getting-started.md
+- Raw: raw/tools/docs-asic-rs-api.md
+- Raw: raw/tools/docs-asic-rs-development-documentation.md
+
+## [2026-10-07] ingest | asic-rs Supported Devices
+- Disposition: New
+- Raw: raw/tools/docs-asic-rs-supported-devices.md
+- Raw: raw/tools/github-256foundation-asic-rs.md
+
+## [2026-10-07] ingest | HashScope
+- Disposition: New
+- Raw: raw/tools/github-256foundation-hashscope.md
+- Raw: raw/tools/docs-hashscope.md
+- Raw: raw/tools/docs-hashscope-overview.md
+- Raw: raw/tools/docs-hashscope-architecture.md
+- Raw: raw/tools/docs-hashscope-quickstart.md
+- Raw: raw/tools/docs-hashscope-api-reference.md
+- Raw: raw/tools/docs-hashscope-developer-guide.md
+- Raw: raw/tools/docs-hashscope-contributing.md
+
+## [2026-10-07] ingest | HashScope Agent Fleet
+- Disposition: New; Disputed
+- Raw: raw/tools/docs-hashscope-agent-fleet.md
+- Raw: raw/tools/github-256foundation-hashscope.md
+
+## [2026-10-07] ingest | BTC Toolkit
+- Disposition: New
+- Raw: raw/tools/github-256foundation-btc-toolkit.md

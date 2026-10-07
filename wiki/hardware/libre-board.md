@@ -44,3 +44,4 @@ Schnitzel is the core architect and lead maintainer.
 - [Ember One](ember-one.md)
 - [Mujina Firmware](../mujina/mujina-firmware.md)
 - [Grants and Funding](../foundation/grants-and-funding.md)
+- [Libre Board Design and Grant Scope](libre-board-design.md)

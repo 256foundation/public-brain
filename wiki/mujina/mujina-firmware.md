@@ -1,7 +1,7 @@
 # Mujina Firmware
 
-> Sources: 256 Foundation (projects page), collected 2026-10-07; Mujina project (mujina.org status page, current as of July 2026), collected 2026-10-07; Mujina project (mujina.org why-mujina page), collected 2026-10-07; 256 Foundation (newsroom: HRF renews support), collected 2026-10-07
-> Raw: [256foundation.org projects](../../raw/foundation/256foundation-org-projects.md); [mujina.org status](../../raw/mujina/mujina-org-explanation-status.md); [mujina.org why Mujina](../../raw/mujina/mujina-org-explanation-why-mujina.md); [HRF renews support](../../raw/foundation/256foundation-org-newsroom-hrf-renews-support.md)
+> Sources: 256 Foundation (projects page), collected 2026-10-07; Mujina project (mujina.org status page, current as of July 2026), collected 2026-10-07; Mujina project (mujina.org why-mujina page), collected 2026-10-07; 256 Foundation (newsroom: HRF renews support), collected 2026-10-07; Mujina project (mujina.org hardware compatibility), collected 2026-10-07; Mujina project (GitHub README), collected 2026-10-07
+> Raw: [256foundation.org projects](../../raw/foundation/256foundation-org-projects.md); [mujina.org status](../../raw/mujina/mujina-org-explanation-status.md); [mujina.org why Mujina](../../raw/mujina/mujina-org-explanation-why-mujina.md); [HRF renews support](../../raw/foundation/256foundation-org-newsroom-hrf-renews-support.md); [mujina.org hardware compatibility](../../raw/mujina/mujina-org-reference-hardware-compatibility.md); [256foundation/mujina README](../../raw/mujina/github-256foundation-mujina.md)
 > Updated: 2026-10-07
 
 ## Overview
@@ -45,6 +45,10 @@ The foundation's projects page lists as key features: per-chip power targeting a
 
 - Making the prototype S19j/S19k Pro fork product-grade and merging it into mainline.
 - EmberOne/00 bring-up in mainline, for the foundation's [Ember One](../hardware/ember-one.md) hash board.
+
+> **Status: Disputed**
+> The status page says mainline EmberOne/00 support is being reworked and is in progress. The mujina.org hardware compatibility matrix lists EmberOne/00 as "Working" in mainline, and the GitHub README lists it under "Landing now". See [Mujina Hardware Compatibility](hardware-compatibility.md).
+
 - Intel BZM2 drivers, in progress on a contributor branch.
 
 Hardware support often lives in forks first. Bringing up a board involves experiments that may brick hardware and fast iteration that mainline review would slow.
@@ -62,3 +66,9 @@ Ryan Kuester is the core architect and lead maintainer. Biweekly developer calls
 - [Libre Board](../hardware/libre-board.md)
 - [Ember One](../hardware/ember-one.md)
 - [Hydrapool](../hydrapool/hydrapool.md)
+- [Mujina Hardware Compatibility](hardware-compatibility.md)
+- [Running Mujina](running-mujina.md)
+- [Mujina Dev Calls](mujina-dev-calls.md)
+- [Contributing and Mujina Improvement Proposals](contributing-and-mips.md)
+- [Mujina Xilinx Platform](mujina-xilinx-platform.md)
+- [Porting Mujina to Other Miners](porting-mujina-to-other-miners.md)
