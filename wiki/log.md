@@ -58,3 +58,57 @@
 - Raw: raw/inbox/2026-10-07-github-ecosystem-contributor-metrics.md
 - Raw: raw/inbox/2026-10-07-github-legitlist-vendor-regions.md
 - Raw: raw/inbox/2026-10-07-bitaxe-open-source-mining-blocks-found.md
+## [2026-10-07] ingest | 256 Foundation: Mission and Organization
+- Disposition: New
+- Raw: raw/foundation/256foundation-org-mission.md
+- Raw: raw/foundation/256foundation-org-our-work.md
+
+## [2026-10-07] ingest | Grants and Funding
+- Disposition: New
+- Raw: raw/foundation/256foundation-org-grants.md
+- Raw: raw/foundation/256foundation-org-newsroom-hrf-renews-support.md
+- Raw: raw/foundation/256foundation-org-newsroom-mara-foundation-tier1-supporter.md
+- Raw: raw/foundation/256foundation-org-newsroom-libre-board-funding.md
+- Raw: raw/foundation/256foundation-org-newsroom-ember-one-first-grant.md
+- Raw: raw/foundation/256foundation-org-our-work.md
+
+## [2026-10-07] ingest | Telehash
+- Disposition: New
+- Raw: raw/foundation/256foundation-org-telehash.md
+- Raw: raw/foundation/256foundation-org-our-work.md
+
+## [2026-10-07] ingest | Ember One
+- Disposition: New
+- Raw: raw/foundation/256foundation-org-projects.md
+- Raw: raw/foundation/256foundation-org-newsroom-ember-one-first-grant.md
+- Raw: raw/foundation/256foundation-org-grants.md
+
+## [2026-10-07] ingest | Libre Board
+- Disposition: New
+- Raw: raw/foundation/256foundation-org-projects.md
+- Raw: raw/foundation/256foundation-org-newsroom-libre-board-funding.md
+- Raw: raw/foundation/256foundation-org-newsroom-mara-foundation-tier1-supporter.md
+
+## [2026-10-07] ingest | Mujina Firmware
+- Disposition: New; Disputed
+- Raw: raw/foundation/256foundation-org-projects.md
+- Raw: raw/mujina/mujina-org-explanation-status.md
+- Raw: raw/mujina/mujina-org-explanation-why-mujina.md
+- Raw: raw/foundation/256foundation-org-newsroom-hrf-renews-support.md
+
+## [2026-10-07] ingest | Hydrapool
+- Disposition: New
+- Raw: raw/foundation/256foundation-org-projects.md
+- Raw: raw/hydrapool/github-256foundation-hydrapool.md
+- Raw: raw/foundation/256foundation-org-telehash.md
+- Raw: raw/foundation/256foundation-org-newsroom-mara-foundation-tier1-supporter.md
+
+## [2026-10-07] ingest | Bitaxe and Open Source Miners United
+- Disposition: New
+- Raw: raw/ecosystem/osmu-wiki-osmu-about.md
+- Raw: raw/ecosystem/osmu-wiki-bitaxe-about.md
+- Raw: raw/foundation/256foundation-org-newsroom-ember-one-first-grant.md
+- Raw: raw/foundation/256foundation-org-mission.md
+- Raw: raw/foundation/256foundation-org-our-work.md
+- Raw: raw/mujina/mujina-org-explanation-status.md
+- Raw: raw/foundation/256foundation-org-newsroom-mara-foundation-tier1-supporter.md
