@@ -58,3 +58,12 @@
 - Raw: raw/inbox/2026-10-07-github-ecosystem-contributor-metrics.md
 - Raw: raw/inbox/2026-10-07-github-legitlist-vendor-regions.md
 - Raw: raw/inbox/2026-10-07-bitaxe-open-source-mining-blocks-found.md
+
+## [2026-10-07] ingest | On-chain block verification, release history, fork genealogy, ecosystem/press/proto research (batch github-2)
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-mempool-onchain-block-verification.md
+- Raw: raw/inbox/2026-10-07-github-release-history-key-repos.md
+- Raw: raw/inbox/2026-10-07-github-fork-genealogy.md
+- Raw: raw/inbox/2026-10-07-github-ecosystem-discovery.md
+- Raw: raw/inbox/2026-10-07-press-media-talks-research.md
+- Raw: raw/inbox/2026-10-07-research-proto-braidpool-canaan-grants.md
