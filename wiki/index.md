@@ -20,6 +20,11 @@ The 256 Foundation itself: mission, governance, grants, funding and events.
 | [Nonprofit Record and Legal Status](foundation/nonprofit-record.md) | The IRS record (EIN, ruling date, first financial figures) and what 501(c)(3) status means for donors and grantees. | 2026-10-07 |
 | [256 Foundation Forum](foundation/forum.md) | How the forum is organized, ways to get involved, and what early threads settled on Auradine, S19j Pro, waterblocks and FPGA mining. | 2026-10-07 |
 | [Website and Newsroom](foundation/website-and-newsroom.md) | The public site: home page message, pages, newsroom posts, the grant funding log and its rules, build stack, design rules. | 2026-10-07 |
+| [Origin Story: From POD256 to the 256 Foundation](foundation/origin-story.md) | How a podcast account became a nonprofit: the 2023 POD256 era, the telehash idea, the 2024-02-02 initiative post, first supporters and grant. | 2026-10-07 |
+| [X Timeline, 2023 to 2024](foundation/x-timeline-2023-2024.md) | Dated record of @256FOUNDATION posts from 2023-07-22 to 2024-11-11: episodes, Home Miner picks, HRF support, Ember One grant. | 2026-10-07 |
+| [X Timeline, 2025 to 2026](foundation/x-timeline-2025-2026.md) | Dated record from 2025-02-10 to 2026-10-05: grant cohort and lead developers, releases, Telehash events, supporters, Red Team updates. | 2026-10-07 |
+| [Supporters and Sponsors Announced on X](foundation/supporters-and-sponsors.md) | Who backed the foundation and when per X: HRF, Heatbit, Proto, OpenSats, MARA Foundation, hashrate contributors, donated chips. | 2026-10-07 |
+| [X Archive of @256FOUNDATION](foundation/x-archive.md) | What the keyword-search archive covers, how it was collected, per-file ranges and post counts, known gaps. | 2026-10-07 |
 
 ## hardware
 
@@ -77,6 +82,14 @@ Bitaxe, OSMU and allied open-mining projects.
 | [Buying a Bitaxe](ecosystem/buying-a-bitaxe.md) | The bitaxe.org vendors list, how the community-reviewed legitlist admits and removes vendors, and the older legacy list. | 2026-10-07 |
 | [Building a Bitaxe: PCBs, Assembly and FAQ](ecosystem/building-a-bitaxe.md) | Exporting Gerbers from KiCad, toaster-oven reflow steps, and the FAQ on low hashrate, overclocking and safe operating ranges. | 2026-10-07 |
 | [OSMU Wiki and the FOSS Miner List](ecosystem/osmu-wiki-and-foss-miner-list.md) | What the OSMU wiki covers and how it is built, and the bitaxeorg list of open miners and firmware. | 2026-10-07 |
+| [Skot on Bitaxe and Copyleft](ecosystem/skot-on-bitaxe-and-copyleft.md) | Skot's X posts on the Bitaxe copyleft terms, his attributed GPL claims about named vendors, and 2026 project news. | 2026-10-07 |
+| [Bitaxe Launch Posts on X](ecosystem/bitaxe-launch-posts.md) | Skot's announcement posts for the Ultra, Supra, Gamma and Gamma Hex with stated chips and early figures, plus firmware support. | 2026-10-07 |
+| [OSMU on X](ecosystem/osmu-on-x.md) | What the OSMU account posted 2024 to 2026: firmware releases, community hardware, block finds, funding, events and its copyleft stance. | 2026-10-07 |
+| [Public Pool on X](ecosystem/public-pool-on-x.md) | Public Pool posts 2025 to 2026: block finds, near misses, Stratum V2 support, and attributed claims about vendors and licenses. | 2026-10-07 |
+| [Canaan Mujina Port](ecosystem/canaan-mujina-port.md) | Dated timeline of a community developer's reported Mujina port to the Canaan Nano 3S and follow-on Mini 3 work. | 2026-10-07 |
+| [Open Mining Voices on X](ecosystem/open-mining-voices-on-x.md) | Posts by jungly on Hydrapool, WantClue on Bitaxe firmware, and Michael Schmid's 256 Red Team launch thread. | 2026-10-07 |
+| [Heatpunks Channels](ecosystem/heatpunks-channels.md) | The Heatpunks forum, X account and Telegram group: sizes, recent forum topics, and the 2027 summit announcement. | 2026-10-07 |
+| [Community Channels](ecosystem/community-channels.md) | Where the community gathers: Telegram groups, the foundation Nostr profile, OSMU Discord, forums, with measured counts. | 2026-10-07 |
 
 ## protocols
 

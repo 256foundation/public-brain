@@ -1070,3 +1070,96 @@
 ## [2026-10-07] ingest | Curated quotes/sentiment + POD256 episode index (batch github-3)
 - Disposition: New
 - Raw: raw/inbox/2026-10-07-curated-quotes-and-pod256-index.md
+
+## [2026-10-07] ingest | Skot on Bitaxe and Copyleft
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-x-notable-skot-bitaxe.md
+- Raw: raw/inbox/2026-10-07-x-notable-open-source-mining.md
+
+## [2026-10-07] ingest | Bitaxe Launch Posts on X
+- Disposition: New; Disputed
+- Raw: raw/inbox/2026-10-07-x-notable-bitaxe-ultra-supra.md
+- Raw: raw/inbox/2026-10-07-x-notable-bitaxe-gamma.md
+- Raw: raw/inbox/2026-10-07-x-notable-skot-bitaxe.md
+- Raw: raw/inbox/2026-10-07-x-notable-wantclue.md
+
+## [2026-10-07] ingest | OSMU on X
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-x-osmu-global-2024-q1.md
+- Raw: raw/inbox/2026-10-07-x-osmu-global-2024.md
+- Raw: raw/inbox/2026-10-07-x-osmu-global.md
+
+## [2026-10-07] ingest | Public Pool on X
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-x-notable-public-pool.md
+- Raw: raw/inbox/2026-10-07-x-notable-open-source-mining.md
+- Raw: raw/inbox/2026-10-07-x-osmu-global.md
+
+## [2026-10-07] ingest | Canaan Mujina Port
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-x-notable-canaan-mujina-port.md
+- Raw: raw/inbox/2026-10-07-x-notable-open-source-mining.md
+
+## [2026-10-07] ingest | Open Mining Voices on X
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-x-notable-jungly-hydrapool.md
+- Raw: raw/inbox/2026-10-07-x-notable-wantclue.md
+- Raw: raw/inbox/2026-10-07-x-notable-open-source-mining.md
+
+## [2026-10-07] ingest | Heatpunks Channels
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-x-heatpunks.md
+- Raw: raw/foundation/2026-10-07-forum-heatpunks-latest.md
+- Raw: raw/ecosystem/2026-10-07-telegram-public-groups.md
+- Raw: raw/inbox/2026-10-07-x-notable-open-source-mining.md
+
+## [2026-10-07] ingest | Community Channels
+- Disposition: New
+- Raw: raw/ecosystem/2026-10-07-telegram-public-groups.md
+- Raw: raw/foundation/2026-10-07-nostr-256foundation-profile.md
+- Raw: raw/inbox/2026-10-07-x-osmu-global.md
+- Raw: raw/foundation/2026-10-07-forum-heatpunks-latest.md
+
+## [2026-10-07] ingest | Origin Story: From POD256 to the 256 Foundation
+- Disposition: New; Disputed
+- Raw: raw/inbox/2026-10-07-x-256foundation-2023.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2024-origin.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2024-q1.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2024.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2025-h1.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2026.md
+
+## [2026-10-07] ingest | X Timeline, 2023 to 2024
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-x-256foundation-2023.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2024-origin.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2024-q1.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2024.md
+
+## [2026-10-07] ingest | X Timeline, 2025 to 2026
+- Disposition: New; Disputed
+- Raw: raw/inbox/2026-10-07-x-256foundation-2025-h1.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2025.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2025-h2.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2026.md
+
+## [2026-10-07] ingest | Supporters and Sponsors Announced on X
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-x-256foundation-2024-q1.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2024.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2025-h1.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2025.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2025-h2.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2026.md
+
+## [2026-10-07] ingest | X Archive of @256FOUNDATION
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-x-archive-method.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2023.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2024-origin.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2024-q1.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2024.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2025-h1.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2025.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2025-h2.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2026.md
