@@ -26,3 +26,12 @@
 - Raw: raw/inbox/2026-10-07-x-osmu-global.md
 - Raw: raw/inbox/2026-10-07-x-notable-open-source-mining.md
 
+
+## [2026-10-07] ingest | X archive inbox dump (batch 2)
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-x-256foundation-2024.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2025-h1.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2025-h2.md
+- Raw: raw/inbox/2026-10-07-x-osmu-global-2024.md
+- Raw: raw/inbox/2026-10-07-x-notable-canaan-mujina-port.md
+- Raw: raw/inbox/2026-10-07-x-notable-skot-bitaxe.md
