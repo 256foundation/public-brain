@@ -128,3 +128,10 @@ The Assembling Freedom newsletter: timelines, essays and recurring themes.
 | [State of the Network, April to September 2025](newsletter/state-of-the-network-2025.md) | Monthly hashrate, difficulty, ASIC price, hashvalue and halving-countdown figures from the six issues that carried the section. | 2026-10-07 |
 | [Hashrate Heat Reuse and the Heatpunk Summit](newsletter/hashrate-heat-reuse.md) | Mining heat reuse builds from 2025, the TEMS cooling panel, the foundation's demos, and Heatpunk Summit 2026 with the Hashtub. | 2026-10-07 |
 | [Open Mining Ecosystem News, 2025 to 2026](newsletter/open-mining-ecosystem-news.md) | Pool concentration, Stratum v2 and other pool designs, solo block finds, Bitaxe ecosystem news, and vendor moves including Proto Rig. | 2026-10-07 |
+## ecosystem
+
+Bitaxe and allied open-source mining projects.
+
+| Article | Summary | Updated |
+| --- | --- | --- |
+| [Bitaxe Development History](ecosystem/bitaxe-development-history.md) | Origins, dated hardware and firmware milestones, model lineage, funding, block wins, and community development. | 2026-10-07 |

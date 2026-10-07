@@ -1070,3 +1070,26 @@
 ## [2026-10-07] ingest | Curated quotes/sentiment + POD256 episode index (batch github-3)
 - Disposition: New
 - Raw: raw/inbox/2026-10-07-curated-quotes-and-pod256-index.md
+
+## [2026-10-07] ingest | Bitaxe Development History
+- Disposition: New
+- Article: wiki/ecosystem/bitaxe-development-history.md
+- Raw: raw/ecosystem/2022-05-26-bitaxe-bm1387-prototype-readme.md
+- Raw: raw/ecosystem/2023-05-11-bitaxe-bm1397-platform-readme.md
+- Raw: raw/ecosystem/2023-07-20-bitaxe-ultra-prototype-readme.md
+- Raw: raw/ecosystem/2022-11-25-bitaxe-mit-license.md
+- Raw: raw/ecosystem/bitaxe-hardware-commit-records.md
+- Raw: raw/ecosystem/bitaxe-firmware-release-records.md
+- Raw: raw/ecosystem/bitaxe-hardware-release-records.md
+- Raw: raw/ecosystem/2024-10-22-skot-bitaxe-origins-interview.md
+- Raw: raw/ecosystem/2024-02-25-opensats-bitaxe-grant.md
+- Raw: raw/ecosystem/2026-04-21-opensats-bitaxe-impact-report.md
+- Raw: raw/ecosystem/2025-03-10-ckpool-bitaxe-ultra-block-log.md
+- Raw: raw/ecosystem/bitaxe-current-repository-license-records.md
+- Context: Converted the requested development history to Markdown and grounded its chronology in historical README snapshots, GitHub commits and releases, archived launch posts, OpenSats records, and CKPool logs.
+
+## [2026-10-07] lint | 389 issues found, 0 auto-fixed
+- Context: Validated the Bitaxe Development History ingest and the full current wiki.
+- Evidence: 0 fidelity suspects and 0 evidence errors.
+- Structure: Relative links, source metadata, article depth, and index registration verified.
+- Backlog: 389 raw source files remain unreferenced by compiled wiki articles.
