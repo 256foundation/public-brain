@@ -1031,3 +1031,21 @@
 - Raw: raw/newsletter/2026-04-05-pod256-episode-110-newsletter-april-fools-real-progress-open.md
 - Updated: Telehash
 - Updated: Mujina Firmware
+
+## [2026-10-07] ingest | On-chain block verification, release history, fork genealogy, ecosystem/press/proto research (batch github-2)
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-mempool-onchain-block-verification.md
+- Raw: raw/inbox/2026-10-07-github-release-history-key-repos.md
+- Raw: raw/inbox/2026-10-07-github-fork-genealogy.md
+- Raw: raw/inbox/2026-10-07-github-ecosystem-discovery.md
+- Raw: raw/inbox/2026-10-07-press-media-talks-research.md
+- Raw: raw/inbox/2026-10-07-research-proto-braidpool-canaan-grants.md
+## [2026-10-07] ingest | Gap-list live sources (pool, Telegram, Nostr, CleanPool, Heatpunks forum, test.hydrapool.org)
+- Disposition: New
+- Raw: raw/hydrapool/2026-10-07-pool-256foundation-operator.md
+- Raw: raw/ecosystem/2026-10-07-telegram-public-groups.md
+- Raw: raw/hydrapool/2026-10-07-cleanpool-caylon.md
+- Raw: raw/hydrapool/2026-10-07-cleanpool-payouts-filters-prom.md
+- Raw: raw/foundation/2026-10-07-nostr-256foundation-profile.md
+- Raw: raw/foundation/2026-10-07-forum-heatpunks-latest.md
+- Raw: raw/hydrapool/2026-10-07-test-hydrapool-org.md
