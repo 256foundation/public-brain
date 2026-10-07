@@ -88,3 +88,8 @@
 - Raw: raw/mujina/github-256foundation-mujina-website.md
 - Raw: raw/foundation/github-256foundation-website-heatpunks.md
 - Raw: raw/inbox/2026-10-07-github-256foundation-visibility.md
+
+## [2026-10-07] ingest | pool.256foundation.org HTML is a 301 to dash.256f.org
+- Disposition: New
+- Raw: raw/hydrapool/2026-10-07-pool-256foundation-html-redirect.md
+- Note: Corrects the HTML paragraph in raw/hydrapool/2026-10-07-pool-256foundation-operator.md. Prometheus numbers in that file still stand. raw/ was not rewritten.
