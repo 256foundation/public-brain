@@ -327,3 +327,132 @@
 ## [2026-10-07] ingest | BTC Toolkit
 - Disposition: New
 - Raw: raw/tools/github-256foundation-btc-toolkit.md
+
+## [2026-10-07] ingest | Bitaxe Model Lineup
+- Disposition: New; Disputed
+- Raw: raw/ecosystem/osmu-wiki-models.md
+- Raw: raw/ecosystem/osmu-wiki-bitaxe-100.md
+- Raw: raw/ecosystem/osmu-wiki-bitaxe-200.md
+- Raw: raw/ecosystem/osmu-wiki-bitaxe-400.md
+- Raw: raw/ecosystem/osmu-wiki-bitaxe-600.md
+- Raw: raw/ecosystem/bitaxe-org-hardware.md
+- Raw: raw/ecosystem/bitaxe-org-home.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxemax.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxeultra.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxesupra.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxegamma.md
+- Raw: raw/ecosystem/github-bitaxeorg-foss-miner-list.md
+
+## [2026-10-07] ingest | Multi-Chip Bitaxe Designs
+- Disposition: New; Disputed
+- Raw: raw/ecosystem/osmu-wiki-bitaxe-300.md
+- Raw: raw/ecosystem/osmu-wiki-bitaxe-650.md
+- Raw: raw/ecosystem/osmu-wiki-bitaxe-801.md
+- Raw: raw/ecosystem/github-bitaxeorg-ultrahex.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxegt.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxegammahex.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxenaja.md
+- Raw: raw/ecosystem/github-bitaxeorg-naja-duo.md
+- Raw: raw/ecosystem/github-bitaxeorg-foss-miner-list.md
+- Raw: raw/ecosystem/bitaxe-org-hardware.md
+
+## [2026-10-07] ingest | AxeOS / ESP-Miner Firmware
+- Disposition: New
+- Raw: raw/ecosystem/osmu-wiki-axeos-about.md
+- Raw: raw/ecosystem/osmu-wiki-axeos-compile.md
+- Raw: raw/ecosystem/osmu-wiki-axeos-install-onto-bitaxe.md
+- Raw: raw/ecosystem/github-bitaxeorg-esp-miner.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxe-web-flasher.md
+
+## [2026-10-07] ingest | AxeOS API
+- Disposition: New
+- Raw: raw/ecosystem/osmu-wiki-bitaxe-api.md
+- Raw: raw/ecosystem/github-bitaxeorg-esp-miner.md
+
+## [2026-10-07] ingest | Bitmain Mining ASIC Chips
+- Disposition: New; Disputed
+- Raw: raw/ecosystem/osmu-wiki-osmu-lab-about.md
+- Raw: raw/ecosystem/osmu-wiki-osmu-lab-bm1362.md
+- Raw: raw/ecosystem/osmu-wiki-osmu-lab-bm1366.md
+- Raw: raw/ecosystem/osmu-wiki-osmu-lab-bm1368.md
+- Raw: raw/ecosystem/osmu-wiki-osmu-lab-bm1370.md
+- Raw: raw/ecosystem/osmu-wiki-osmu-lab-bm1397.md
+- Raw: raw/ecosystem/osmu-wiki-bitaxe-200.md
+- Raw: raw/ecosystem/osmu-wiki-bitaxe-400.md
+- Raw: raw/ecosystem/osmu-wiki-bitaxe-600.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxemax.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxeultra.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxesupra.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxegamma.md
+- Raw: raw/ecosystem/github-bitaxeorg-ultrahex.md
+- Raw: raw/foundation/256foundation-org-projects.md
+
+## [2026-10-07] ingest | Intel BZM2 Designs: BIRDS and Bonanza
+- Disposition: New
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxebirds.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxebonanza.md
+
+## [2026-10-07] ingest | The Nerd Miner Family
+- Disposition: New; Disputed
+- Raw: raw/ecosystem/osmu-wiki-nerdminer-about.md
+- Raw: raw/ecosystem/osmu-wiki-nerdnos-about.md
+- Raw: raw/ecosystem/osmu-wiki-nerdaxe-about.md
+- Raw: raw/ecosystem/osmu-wiki-nerdqaxeplus-about.md
+- Raw: raw/ecosystem/osmu-wiki-nerdqaxeplusplus-about.md
+- Raw: raw/ecosystem/github-bitaxeorg-foss-miner-list.md
+
+## [2026-10-07] ingest | PiAxe, QAxe and BitForge Nano
+- Disposition: New
+- Raw: raw/ecosystem/osmu-wiki-piaxe-about.md
+- Raw: raw/ecosystem/osmu-wiki-qaxe-about.md
+- Raw: raw/ecosystem/osmu-wiki-qaxe-assembly.md
+- Raw: raw/ecosystem/osmu-wiki-qaxe-installation.md
+- Raw: raw/ecosystem/osmu-wiki-bitforge-bitforge.md
+- Raw: raw/ecosystem/github-bitaxeorg-foss-miner-list.md
+
+## [2026-10-07] ingest | Open Mining Tools and Bitaxe Accessories
+- Disposition: New
+- Raw: raw/ecosystem/osmu-wiki-antsniffer-about.md
+- Raw: raw/ecosystem/osmu-wiki-bitcrane-about.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxe-raw.md
+- Raw: raw/ecosystem/osmu-wiki-bitaxe-bap.md
+- Raw: raw/ecosystem/osmu-wiki-bitaxe-bithalo.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxegt.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxegammahex.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxebirds.md
+
+## [2026-10-07] ingest | Public Pool
+- Disposition: New
+- Raw: raw/ecosystem/osmu-wiki-public-pool-about.md
+- Raw: raw/ecosystem/osmu-wiki-nerdminer-about.md
+- Raw: raw/ecosystem/osmu-wiki-home.md
+
+## [2026-10-07] ingest | Buying a Bitaxe
+- Disposition: New
+- Raw: raw/ecosystem/bitaxe-org-buy.md
+- Raw: raw/ecosystem/bitaxe-org-legacy-list.md
+- Raw: raw/ecosystem/github-bitaxeorg-legitlist.md
+- Raw: raw/ecosystem/bitaxe-org-home.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxegamma.md
+
+## [2026-10-07] ingest | Building a Bitaxe: PCBs, Assembly and FAQ
+- Disposition: New
+- Raw: raw/ecosystem/osmu-wiki-tips-building-pcbs.md
+- Raw: raw/ecosystem/osmu-wiki-tips-assembly.md
+- Raw: raw/ecosystem/osmu-wiki-tips-faq.md
+- Raw: raw/ecosystem/github-bitaxeorg-bitaxegamma.md
+- Raw: raw/ecosystem/osmu-wiki-bitaxe-100.md
+
+## [2026-10-07] ingest | OSMU Wiki and the FOSS Miner List
+- Disposition: New
+- Raw: raw/ecosystem/osmu-wiki-home.md
+- Raw: raw/ecosystem/github-bitaxeorg-osmu-wiki.md
+- Raw: raw/ecosystem/github-bitaxeorg-foss-miner-list.md
+- Raw: raw/ecosystem/bitaxe-org-faq.md
+- Raw: raw/ecosystem/osmu-wiki-osmu-about.md
+
+## [2026-10-07] ingest | no material: raw/ecosystem/osmu-wiki-piaxe-assembly.md
+- Disposition: No material
+
+## [2026-10-07] ingest | no material: raw/ecosystem/osmu-wiki-piaxe-building.md
+- Disposition: No material

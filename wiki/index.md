@@ -64,6 +64,19 @@ Bitaxe, OSMU and allied open-mining projects.
 | Article | Summary | Updated |
 |---------|---------|---------|
 | [Bitaxe and Open Source Miners United](ecosystem/bitaxe-and-osmu.md) | The single-chip open miner and its community, and how both led to the 256 Foundation. | 2026-10-07 |
+| [Bitaxe Model Lineup](ecosystem/bitaxe-models.md) | Compares the single-chip Max, Ultra, Supra and Gamma: chips, stated hashrate and power, shared parts, and conflicting revision counts. | 2026-10-07 |
+| [Multi-Chip Bitaxe Designs](ecosystem/multi-chip-bitaxe-designs.md) | Hex/UltraHex, Gamma Duo, Gamma Turbo, Gamma Hex and the Naja prototypes: chips, power design, revisions and status. | 2026-10-07 |
+| [AxeOS / ESP-Miner Firmware](ecosystem/axeos-esp-miner-firmware.md) | The Bitaxe firmware: installing with Bitaxetool or the web flasher, building from source, unified firmware, recovery, mDNS and router issues. | 2026-10-07 |
+| [AxeOS API](ecosystem/axeos-api.md) | The HTTP API on a Bitaxe: endpoints, changeable settings, response notes and status codes. | 2026-10-07 |
+| [Bitmain Mining ASIC Chips](ecosystem/mining-asic-chips.md) | OSMU Lab notes on BM1397, BM1362, BM1366, BM1368 and BM1370, compared with README claims on efficiency, price and footprint. | 2026-10-07 |
+| [Intel BZM2 Designs: BIRDS and Bonanza](ecosystem/intel-bzm2-designs.md) | Two bitaxeorg prototype boards built on Intel's BZM2 chip: the four-chip BIRDS and the non-working eight-chip Bonanza. | 2026-10-07 |
+| [The Nerd Miner Family](ecosystem/nerd-miner-family.md) | Nerdminer, NerdNOS, NerdAxe, NerdQAxe+ and NerdQAxe++: chips, stated hashrate, setup, firmware forks and larger variants. | 2026-10-07 |
+| [PiAxe, QAxe and BitForge Nano](ecosystem/other-open-miners.md) | Three open miners beside the Bitaxe line: a Raspberry Pi HAT, a four-chip STM32 board, and a two-chip home miner. | 2026-10-07 |
+| [Open Mining Tools and Bitaxe Accessories](ecosystem/tools-and-accessories.md) | Antsniffer, Bitcrane and bitaxe-raw for hardware development, plus the Bitaxe Accessories Port and the BitHalo light board. | 2026-10-07 |
+| [Public Pool](ecosystem/public-pool.md) | Open-source solo mining pool with an official instance and a self-host option; the Nerdminer's default pool. | 2026-10-07 |
+| [Buying a Bitaxe](ecosystem/buying-a-bitaxe.md) | The bitaxe.org vendors list, how the community-reviewed legitlist admits and removes vendors, and the older legacy list. | 2026-10-07 |
+| [Building a Bitaxe: PCBs, Assembly and FAQ](ecosystem/building-a-bitaxe.md) | Exporting Gerbers from KiCad, toaster-oven reflow steps, and the FAQ on low hashrate, overclocking and safe operating ranges. | 2026-10-07 |
+| [OSMU Wiki and the FOSS Miner List](ecosystem/osmu-wiki-and-foss-miner-list.md) | What the OSMU wiki covers and how it is built, and the bitaxeorg list of open miners and firmware. | 2026-10-07 |
 
 ## protocols
 
