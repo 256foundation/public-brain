@@ -16,3 +16,13 @@
 - Context: Relocated the POD256 transcript archive into raw/pod256/transcripts/2026-10-07/ and added source metadata headers.
 - Evidence: 0 fidelity suspects and 0 evidence errors; all transcript bodies and original file checksums verified.
 - Backlog: 365 raw Markdown documents await references from compiled wiki articles, including the transcript snapshot index.
+
+## [2026-10-07] ingest | X archive inbox dump (batch 1)
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-x-archive-method.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2026.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2025.md
+- Raw: raw/inbox/2026-10-07-x-heatpunks.md
+- Raw: raw/inbox/2026-10-07-x-osmu-global.md
+- Raw: raw/inbox/2026-10-07-x-notable-open-source-mining.md
+
