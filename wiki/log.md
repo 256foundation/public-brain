@@ -1163,3 +1163,31 @@
 - Raw: raw/inbox/2026-10-07-x-256foundation-2025.md
 - Raw: raw/inbox/2026-10-07-x-256foundation-2025-h2.md
 - Raw: raw/inbox/2026-10-07-x-256foundation-2026.md
+
+## [2026-10-07] ingest | POD256 Episode 086: Open Source vs. Closed Source: The Future of Bitcoin Mining
+- Disposition: New; Disputed
+- Raw: raw/pod256/transcripts/2026-10-07/transcripts/2025/2025-09-10-e086.md
+
+## [2026-10-07] ingest | POD256 Episode 087: Heat, Hash, and Hardware Freedom: Live at Bitcoin Park
+- Disposition: New
+- Raw: raw/pod256/transcripts/2026-10-07/transcripts/2025/2025-09-17-e087.md
+
+## [2026-10-07] ingest | POD256 Episode 088: Freedom Tech in Action: Open Miners, Sovereign Homes, and the Post-ImagineIF Debrief
+- Disposition: New
+- Raw: raw/pod256/transcripts/2026-10-07/transcripts/2025/2025-09-24-e088.md
+
+## [2026-10-07] ingest | POD256 Episode 089: Copyleft and Cold Rooms: Open Hardware, Passive Heat, and Economic Nodes
+- Disposition: New
+- Raw: raw/pod256/transcripts/2026-10-07/transcripts/2025/2025-10-05-e089.md
+
+## [2026-10-07] ingest | POD256 Episode 090: Make Every Meetup a Pool: Stratum v2, Hole Punching, and Open Mining
+- Disposition: New
+- Raw: raw/pod256/transcripts/2026-10-07/transcripts/2025/2025-10-15-e090.md
+
+## [2026-10-07] ingest | POD256 Episode 091: Hash, Heat, and Hardware: LibreBoard, Mujina, and the BitAxe Battle
+- Disposition: New
+- Raw: raw/pod256/transcripts/2026-10-07/transcripts/2025/2025-10-22-e091.md
+
+## [2026-10-07] ingest | POD256 Episode 092: Hashrate at Home: Zigbee Thermostats, Bitaxe Wins, and Dockerized Pools
+- Disposition: New; Disputed
+- Raw: raw/pod256/transcripts/2026-10-07/transcripts/2025/2025-10-29-e092.md
