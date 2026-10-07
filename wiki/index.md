@@ -127,13 +127,13 @@ The POD256 podcast: overview, episode guides, guests and themes.
 | [Samourai Wallet and Developer Prosecutions on POD256](pod256/samourai-and-developer-prosecutions.md) | The show's Samourai coverage from 2023 guest spot through plea, sentencing and pardon campaign, plus related privacy topics. | 2026-10-07 |
 | [Home Mining and Heat Reuse on POD256](pod256/home-mining-and-heat-reuse.md) | Home Miner of the Week picks, 120V hardware, hashrate heating practice, Heatpunk Summit, and solar matching. | 2026-10-07 |
 | [State of the Network Snapshots, 2023 to 2024](pod256/state-of-the-network-snapshots.md) | Block heights, halving countdowns, difficulty, hashrate and hashvalue printed in the notes for episodes 005 to 046. | 2026-10-07 |
-| [POD256 Episode 086: Open Source vs. Closed Source: The Future of Bitcoin Mining](pod256/episode-086-digest.md) | Episode 086 was published on 2025-09-10 and runs 01:49:34. | 2026-10-07 |
-| [POD256 Episode 087: Heat, Hash, and Hardware Freedom: Live at Bitcoin Park](pod256/episode-087-digest.md) | Episode 087 was published on 2025-09-17 and runs 01:29:09. | 2026-10-07 |
-| [POD256 Episode 088: Freedom Tech in Action: Open Miners, Sovereign Homes, and the Post-ImagineIF Debrief](pod256/episode-088-digest.md) | Episode 088 was published on 2025-09-24 and runs 00:55:04. | 2026-10-07 |
-| [POD256 Episode 089: Copyleft and Cold Rooms: Open Hardware, Passive Heat, and Economic Nodes](pod256/episode-089-digest.md) | Episode 089 was published on 2025-10-05 and runs 01:09:02. | 2026-10-07 |
-| [POD256 Episode 090: Make Every Meetup a Pool: Stratum v2, Hole Punching, and Open Mining](pod256/episode-090-digest.md) | Episode 090 was published on 2025-10-15 and runs 01:22:16. | 2026-10-07 |
-| [POD256 Episode 091: Hash, Heat, and Hardware: LibreBoard, Mujina, and the BitAxe Battle](pod256/episode-091-digest.md) | Episode 091 was published on 2025-10-22 and runs 01:41:51. | 2026-10-07 |
-| [POD256 Episode 092: Hashrate at Home: Zigbee Thermostats, Bitaxe Wins, and Dockerized Pools](pod256/episode-092-digest.md) | Episode 092 was published on 2025-10-29 and runs 02:15:16, the longest of this run. | 2026-10-07 |
+| [POD256 Episode 086: Open Source vs. Closed Source: The Future of Bitcoin Mining](pod256/episode-086-digest.md) | The voices on it are Skot, eco and Tyler; Rod is away preparing the ImagineIF event. | 2026-10-07 |
+| [POD256 Episode 087: Heat, Hash, and Hardware Freedom: Live at Bitcoin Park](pod256/episode-087-digest.md) | It was recorded in the studio at Bitcoin Park in Nashville during the Bitcoin custody and treasury summit, two days before the ImagineIF conference. | 2026-10-07 |
+| [POD256 Episode 088: Freedom Tech in Action: Open Miners, Sovereign Homes, and the Post-ImagineIF Debrief](pod256/episode-088-digest.md) | Rod is back after a month away organizing ImagineIF, and joins eco, Skot and Tyler; Jack helps produce in the background. | 2026-10-07 |
+| [POD256 Episode 089: Copyleft and Cold Rooms: Open Hardware, Passive Heat, and Economic Nodes](pod256/episode-089-digest.md) | Only Skot and Tyler are on it; eco and Rod are away. The source is the publisher's machine transcript, so names and terms are often misspelled and speakers… | 2026-10-07 |
+| [POD256 Episode 090: Make Every Meetup a Pool: Stratum v2, Hole Punching, and Open Mining](pod256/episode-090-digest.md) | eco and Tyler carry the first half hour. Skot then joins live from TABConf in Atlanta with a guest, AverageGary, who works on Stratum v2 tooling. | 2026-10-07 |
+| [POD256 Episode 091: Hash, Heat, and Hardware: LibreBoard, Mujina, and the BitAxe Battle](pod256/episode-091-digest.md) | eco hosts with Skot and Tyler. The source is the publisher's machine transcript, so names and terms are often misspelled and speakers are not labelled. | 2026-10-07 |
+| [POD256 Episode 092: Hashrate at Home: Zigbee Thermostats, Bitaxe Wins, and Dockerized Pools](pod256/episode-092-digest.md) | eco, Skot and Tyler are on it. The source is the publisher's machine transcript, so names and terms are often misspelled and speakers are not labelled. | 2026-10-07 |
 
 ## newsletter
 
