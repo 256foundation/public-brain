@@ -93,3 +93,7 @@
 - Disposition: New
 - Raw: raw/hydrapool/2026-10-07-pool-256foundation-html-redirect.md
 - Note: Corrects the HTML paragraph in raw/hydrapool/2026-10-07-pool-256foundation-operator.md. Prometheus numbers in that file still stand. raw/ was not rewritten.
+
+## [2026-10-07] ingest | Curated quotes/sentiment + POD256 episode index (batch github-3)
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-curated-quotes-and-pod256-index.md
