@@ -1,0 +1,4444 @@
+1
+00:00:00,000 --> 00:00:04,160
+Unknown: Welcome to pod two fifty six episode
+
+2
+00:00:04,160 --> 00:00:05,280
+one zero eight.
+
+3
+00:00:05,520 --> 00:00:06,880
+One zero eight. Live.
+
+4
+00:00:07,520 --> 00:00:09,040
+Live from
+
+5
+00:00:09,040 --> 00:00:12,080
+Denver and Scott's undisclosed location.
+
+6
+00:00:12,945 --> 00:00:13,825
+Unknown: That's right.
+
+7
+00:00:14,385 --> 00:00:17,505
+Unknown: I have FOMO. Looks like you guys are having fun over there.
+
+8
+00:00:18,305 --> 00:00:22,224
+Unknown: Yeah. Iko didn't bring his swim trunks, though. I was displeased.
+
+9
+00:00:22,945 --> 00:00:28,840
+Unknown: I'll I'm ready to go in my underwear. It's just, you know, there's, like, a school next door,
+
+10
+00:00:29,240 --> 00:00:29,800
+and
+
+11
+00:00:30,760 --> 00:00:32,200
+it's just not really appropriate.
+
+12
+00:00:32,680 --> 00:00:33,880
+Unknown: Show them how it's done. But
+
+13
+00:00:34,840 --> 00:00:41,400
+Unknown: I was in there this morning while the kids were getting dropped off for school. Oh, you were? Yeah. With my morning coffee. It's a little awkward.
+
+14
+00:00:42,875 --> 00:00:44,235
+Unknown: Just stay submerged.
+
+15
+00:00:44,395 --> 00:00:50,555
+But, yeah, there's a awesome event going on tonight at the space. So Tyler and I are at the space in Denver,
+
+16
+00:00:51,114 --> 00:00:54,875
+and there's an awesome event going on tonight with Lauren Rodriguez,
+
+17
+00:00:55,240 --> 00:00:57,960
+the wife of Kioni Rodriguez,
+
+18
+00:00:57,960 --> 00:01:00,600
+is serving a five year prison sentence
+
+19
+00:01:00,920 --> 00:01:03,560
+for writing the software
+
+20
+00:01:03,720 --> 00:01:05,960
+that was Samurai Wallet.
+
+21
+00:01:06,520 --> 00:01:07,560
+His
+
+22
+00:01:07,560 --> 00:01:08,360
+partner,
+
+23
+00:01:08,360 --> 00:01:11,905
+Bill, is serving four years in prison for the same.
+
+24
+00:01:13,505 --> 00:01:19,345
+So Danny Knowles from What Bitcoin Did is in town, and he's gonna be
+
+25
+00:01:19,985 --> 00:01:24,785
+doing a fireside chat with Lauren tonight here at the space. So if you're in the Denver area,
+
+26
+00:01:26,230 --> 00:01:30,390
+come on down. Doors are at five. Event should go until about 08:00.
+
+27
+00:01:30,390 --> 00:01:31,670
+There's gonna be some
+
+28
+00:01:32,230 --> 00:01:33,510
+drinks, some food,
+
+29
+00:01:33,910 --> 00:01:34,390
+and
+
+30
+00:01:35,030 --> 00:01:40,630
+we're gonna try and raise as much support as we can for the Samurai Wallet developers.
+
+31
+00:01:41,284 --> 00:01:43,204
+We're working on getting them a pardon.
+
+32
+00:01:43,445 --> 00:01:51,685
+We're gonna have, like, a writing station with all the information people need and the materials people need to write Kioni a letter.
+
+33
+00:01:52,005 --> 00:01:55,970
+So we'll have the address to send the letter to. I brought stamps and envelopes
+
+34
+00:01:55,970 --> 00:01:57,650
+and pens and paper.
+
+35
+00:01:59,330 --> 00:02:09,405
+So we just want Kioni to know that people are out here and we miss him and we support him and we're waiting eagerly for him and
+
+36
+00:02:09,485 --> 00:02:12,445
+his partner Bill's pardon to
+
+37
+00:02:12,845 --> 00:02:13,645
+manifest.
+
+38
+00:02:13,645 --> 00:02:18,445
+Unknown: I think we're gonna try and livestream that tonight too, hopefully. Yeah. Yeah. We're gonna try and livestream it.
+
+39
+00:02:18,845 --> 00:02:25,470
+Unknown: That was gonna be a livestream this. I think we can livestream that. So That's true. Yeah. That's true. Why did
+
+40
+00:02:26,270 --> 00:02:30,430
+Unknown: so a couple questions on this, and it's a great event. I'm I'm really looking forward to it.
+
+41
+00:02:30,830 --> 00:02:38,825
+I've seen some chatter on the Twitter sphere, Bitcoin Twitter lately that there's been some commentary by the federal government about how
+
+42
+00:02:39,625 --> 00:02:46,505
+it's not a crime to do what they did. Mhmm. Have you seen that? You probably know better than I do. I think the treasury,
+
+43
+00:02:47,224 --> 00:02:49,144
+Unknown: in some report statement
+
+44
+00:02:49,720 --> 00:02:50,680
+document
+
+45
+00:02:50,680 --> 00:02:55,080
+some way they communicated the the US Treasury communicated that
+
+46
+00:02:55,560 --> 00:02:56,280
+using
+
+47
+00:02:57,480 --> 00:03:03,055
+mixers or, you know, I'm not quoting, but it's they said something to the effect of using
+
+48
+00:03:03,055 --> 00:03:04,975
+mixers with cryptocurrency
+
+49
+00:03:04,975 --> 00:03:07,855
+is not a crime in and of itself.
+
+50
+00:03:08,415 --> 00:03:09,695
+Unknown: What do you know? And
+
+51
+00:03:10,095 --> 00:03:18,670
+Unknown: yeah. And, you know, I think I think a lot of us are are standing here like, well, yeah. Duh. Why the fuck is Samurai Wallet behind bars?
+
+52
+00:03:20,030 --> 00:03:23,470
+You know, what what the document doesn't address is
+
+53
+00:03:23,550 --> 00:03:24,270
+the
+
+54
+00:03:26,270 --> 00:03:27,310
+persecution
+
+55
+00:03:27,390 --> 00:03:35,105
+that the Southern District Of New York engaged in to put the Samurai Wallet developers behind bars. And so they referenced
+
+56
+00:03:35,825 --> 00:03:36,945
+things like
+
+57
+00:03:37,505 --> 00:03:41,425
+a tweet from the Samurai Wallet Twitter account
+
+58
+00:03:41,665 --> 00:03:43,505
+that jokingly
+
+59
+00:03:43,825 --> 00:03:44,625
+welcomed
+
+60
+00:03:45,260 --> 00:03:46,540
+Russian oligarchs
+
+61
+00:03:46,540 --> 00:03:48,380
+to use samurai wallet
+
+62
+00:03:48,700 --> 00:03:49,820
+right after
+
+63
+00:03:50,300 --> 00:03:55,340
+some sanctions were put in place on said Russian oligarchs,
+
+64
+00:03:55,660 --> 00:03:56,540
+you know, and
+
+65
+00:03:57,215 --> 00:04:02,655
+which is ridiculous because they they're basically trying to say that that tweet in and of itself
+
+66
+00:04:03,215 --> 00:04:04,015
+was
+
+67
+00:04:04,894 --> 00:04:06,335
+colluding with
+
+68
+00:04:06,575 --> 00:04:07,615
+criminals
+
+69
+00:04:07,694 --> 00:04:08,894
+to launder money.
+
+70
+00:04:10,290 --> 00:04:19,970
+It doesn't matter that it wasn't in Russian. It doesn't matter that the oligarchs weren't using Bitcoin. It doesn't matter that Samurai Wallet never had any direct communications
+
+71
+00:04:20,050 --> 00:04:21,250
+with any criminals.
+
+72
+00:04:21,905 --> 00:04:22,945
+No
+
+73
+00:04:22,945 --> 00:04:24,945
+logic and reason matters
+
+74
+00:04:25,985 --> 00:04:27,665
+in their witch hunt to
+
+75
+00:04:28,065 --> 00:04:29,905
+throw these guys behind bars.
+
+76
+00:04:30,625 --> 00:04:32,865
+So it's it's a totally egregious case.
+
+77
+00:04:34,065 --> 00:04:37,985
+It it doesn't conform with reality, so it's not surprising to me that
+
+78
+00:04:38,169 --> 00:04:41,130
+when a government agency like the Treasury
+
+79
+00:04:41,210 --> 00:04:46,090
+says something somewhat based in reality, using mixers isn't a crime,
+
+80
+00:04:46,409 --> 00:04:50,729
+yeah, that's a very factual and logical and reasonable position to take.
+
+81
+00:04:51,815 --> 00:04:58,455
+But that just goes to show you how far out of whack the Southern District Of New York is and how
+
+82
+00:04:58,855 --> 00:05:05,655
+insane these federal prosecutors are and the lengths to which they'll go and the letter of the law that they'll twist
+
+83
+00:05:05,870 --> 00:05:09,470
+to throw somebody behind bars for really no reason at all.
+
+84
+00:05:10,350 --> 00:05:15,470
+Unknown: Remind the listeners for everyone tuning in. Why was it tried there? Because that's a notorious
+
+85
+00:05:15,550 --> 00:05:16,430
+jurisdiction,
+
+86
+00:05:16,430 --> 00:05:18,030
+that court specifically.
+
+87
+00:05:19,070 --> 00:05:19,470
+Unknown: Yes.
+
+88
+00:05:20,935 --> 00:05:22,134
+So typically,
+
+89
+00:05:22,134 --> 00:05:23,895
+the Southern District Of New York
+
+90
+00:05:25,815 --> 00:05:28,695
+handles a lot of financial crimes
+
+91
+00:05:29,255 --> 00:05:31,655
+because the majority of the,
+
+92
+00:05:32,055 --> 00:05:34,935
+like, financial infrastructure in this country
+
+93
+00:05:35,160 --> 00:05:42,920
+tunnels through New York, through all the banks that are in New York. So when there's when we're talking about money laundering
+
+94
+00:05:43,080 --> 00:05:43,640
+or,
+
+95
+00:05:44,120 --> 00:05:46,440
+you know, any of the other crimes
+
+96
+00:05:46,680 --> 00:05:53,075
+that have to do with money, it it typically involves New York somehow, and they typically get jurisdiction over it.
+
+97
+00:05:55,875 --> 00:06:01,715
+Because of that, and because the prosecutors there are just kind of like
+
+98
+00:06:02,435 --> 00:06:03,315
+untethered
+
+99
+00:06:03,315 --> 00:06:04,595
+to
+
+100
+00:06:05,000 --> 00:06:12,200
+answering for what they do. They've developed a reputation for themselves, and it's known as the Sovereign District Of New York.
+
+101
+00:06:13,640 --> 00:06:24,845
+Because essentially, you know, they're saying like, fuck you, we're gonna we can indict a ham sandwich if we want. And they've said that explicitly. I'm I'm quoting the Southern District Of New York prosecutors there.
+
+102
+00:06:25,565 --> 00:06:26,205
+So
+
+103
+00:06:26,764 --> 00:06:29,725
+not the fuck you part, but the ham sandwich part.
+
+104
+00:06:31,645 --> 00:06:34,044
+So, anyways, for in the samurai wallet case,
+
+105
+00:06:34,920 --> 00:06:40,280
+what they did was they sent an FBI agent down to the streets of Manhattan,
+
+106
+00:06:40,920 --> 00:06:42,280
+which is in the
+
+107
+00:06:42,680 --> 00:06:45,240
+jurisdiction of the Southern District Of New York.
+
+108
+00:06:45,800 --> 00:06:48,920
+The agent loaded Samurai Wallet on his phone,
+
+109
+00:06:49,634 --> 00:06:51,155
+deposited Bitcoin,
+
+110
+00:06:51,555 --> 00:06:52,835
+used Ricochet,
+
+111
+00:06:52,835 --> 00:06:54,275
+and used Whirlpool.
+
+112
+00:06:54,835 --> 00:06:56,995
+And that is how they
+
+113
+00:06:57,474 --> 00:06:58,275
+claimed
+
+114
+00:06:58,354 --> 00:06:59,395
+jurisdiction
+
+115
+00:07:00,115 --> 00:07:02,275
+over the Samurai Wallet developers.
+
+116
+00:07:02,354 --> 00:07:12,730
+Even though they hadn't stepped foot in the Southern District Of New York in a decade, they had zero business operations in New York. They had absolutely nothing to do with New York
+
+117
+00:07:13,130 --> 00:07:15,530
+or the Southern District Of New York. But
+
+118
+00:07:16,410 --> 00:07:19,690
+the prosecutors still claimed jurisdiction and
+
+119
+00:07:20,185 --> 00:07:22,825
+brought an indictment against them because
+
+120
+00:07:23,385 --> 00:07:27,465
+one of their agents was able to access Samurai Wallet over the Internet
+
+121
+00:07:27,705 --> 00:07:28,425
+and
+
+122
+00:07:28,585 --> 00:07:29,705
+and use it.
+
+123
+00:07:30,905 --> 00:07:47,460
+Unknown: So is this that's their argument because they could use the tool there. Mhmm. This is similar. I think last night I saw like Jack Mallers had a big event, pub key in New York because strike is now finally available in New York. Bit key finally available in New York. Mean, this has just been a state that's insanely hard for people to access Bitcoin tools in
+
+124
+00:07:48,005 --> 00:07:57,845
+even from these companies that aren't doing they're they're the KYC companies. Right. Yeah. That makes sense. I mean Yep. It doesn't make sense. It's fucked. But Yeah. Yeah. Does the does the bit license
+
+125
+00:07:58,005 --> 00:07:58,885
+Unknown: apply
+
+126
+00:07:59,044 --> 00:07:59,285
+to
+
+127
+00:08:00,060 --> 00:08:07,420
+Samurai Wallet in New York? I mean, was that was this FBI agent allowed to use Samurai Wallet there, like, according to their rules?
+
+128
+00:08:08,220 --> 00:08:12,620
+Unknown: Yeah. I mean, I I I think any, like, competent attorney would argue
+
+129
+00:08:12,884 --> 00:08:16,805
+bit license does not apply to Samurai Wallet because they did not have any
+
+130
+00:08:17,764 --> 00:08:18,565
+footprint
+
+131
+00:08:18,565 --> 00:08:24,805
+or they weren't domiciled. They had no business operations in in New York whatsoever, so it shouldn't apply.
+
+132
+00:08:24,965 --> 00:08:29,240
+But using the twisted logic of the federal prosecutors there,
+
+133
+00:08:30,919 --> 00:08:34,360
+so it's that question's up in the air all of a sudden. Right?
+
+134
+00:08:35,000 --> 00:08:43,475
+Unknown: Sounds like someone was trying to do trying to violate the bit license there, that federal prosecutor. Right? Someone needs to go
+
+135
+00:08:43,635 --> 00:08:44,515
+after them.
+
+136
+00:08:45,795 --> 00:08:49,395
+Unknown: Yeah. And that's that's a that's a good point. Like,
+
+137
+00:08:49,955 --> 00:08:50,275
+the
+
+138
+00:08:51,410 --> 00:08:53,010
+prosecutors don't
+
+139
+00:08:53,090 --> 00:08:57,090
+get the the pointy end of their weaponization.
+
+140
+00:08:57,330 --> 00:09:00,210
+And like the way they twist these laws, right?
+
+141
+00:09:00,930 --> 00:09:02,050
+They, you
+
+142
+00:09:02,610 --> 00:09:04,530
+know, who's who's gonna hold them accountable?
+
+143
+00:09:07,355 --> 00:09:08,875
+Unknown: Why did Bill
+
+144
+00:09:08,875 --> 00:09:10,235
+get a different sentence?
+
+145
+00:09:11,595 --> 00:09:15,435
+Unknown: I just saw Lauren walk in. Oh, nice. Maybe she'll join us on the podcast.
+
+146
+00:09:15,995 --> 00:09:17,195
+Unknown: She's walking up.
+
+147
+00:09:18,634 --> 00:09:20,555
+Unknown: So, yeah, Bill got
+
+148
+00:09:20,954 --> 00:09:22,315
+a slightly lower sentence.
+
+149
+00:09:23,110 --> 00:09:28,310
+He got four years. He was sentenced to four years. K. Let's see if we can get Lauren in here. Yeah.
+
+150
+00:09:31,510 --> 00:09:33,350
+Unknown: We're
+
+151
+00:09:33,350 --> 00:09:37,955
+Unknown: live now if you wanna stop in. Do you do you wanna join us in Pod 256?
+
+152
+00:09:38,435 --> 00:09:40,755
+So good to see you. Hi.
+
+153
+00:09:40,835 --> 00:09:42,515
+Unknown: I love the sweatshirt.
+
+154
+00:09:42,915 --> 00:09:45,795
+Unknown: Take my seat. Here. Yes. Thank you. Please.
+
+155
+00:09:46,115 --> 00:09:47,155
+Unknown: Hi. Hello.
+
+156
+00:09:50,115 --> 00:09:54,260
+Unknown: So I only got the two lapel mics, so we'll have to share. But
+
+157
+00:09:54,740 --> 00:09:55,540
+Hello.
+
+158
+00:09:55,620 --> 00:09:58,660
+Can you can you hear us both okay if I put the mic there?
+
+159
+00:09:58,980 --> 00:10:00,180
+Unknown: It's not quite as good.
+
+160
+00:10:00,980 --> 00:10:04,820
+Unknown: Not quite as good? Okay. Okay. You can hold it up when you chat. Here. Take your mic. Okay.
+
+161
+00:10:05,654 --> 00:10:14,135
+Unknown: Hi, Lauren. Welcome to pod two fifty six. Hi. Thanks so much for having me on. It's nice surprise just walking right in the middle.
+
+162
+00:10:14,375 --> 00:10:16,935
+Unknown: So, yeah, sorry to to
+
+163
+00:10:17,510 --> 00:10:18,470
+to just
+
+164
+00:10:19,830 --> 00:10:29,990
+surprise you with the podcast, but we're we're streaming live to Twitter right now. I'm I'm happy to be here. And we to see you. We were just talking about the Samurai Wallet case. We just opened the podcast,
+
+165
+00:10:30,645 --> 00:10:36,485
+and I was talking about the event that we're doing tonight. And we were just giving a little bit of background on
+
+166
+00:10:36,965 --> 00:10:39,205
+Samurai Wallet case, what happened.
+
+167
+00:10:40,245 --> 00:10:43,940
+You know, we've mentioned now that the prosecutors
+
+168
+00:10:43,940 --> 00:10:45,700
+in the Southern District Of New York
+
+169
+00:10:46,579 --> 00:10:49,300
+claimed jurisdiction over Samurai Wallet because
+
+170
+00:10:49,700 --> 00:10:51,779
+they had an agent access
+
+171
+00:10:51,779 --> 00:10:53,779
+Samurai Wallet over the Internet,
+
+172
+00:10:54,660 --> 00:10:59,615
+Unknown: which is totally fucked up. I went down down the streets of Manhattan, downloaded it, and made a transaction.
+
+173
+00:10:59,774 --> 00:11:04,654
+Unknown: Therefore, they have jurisdiction. So Yeah. It it's it's insane. Yeah. And
+
+174
+00:11:05,454 --> 00:11:15,990
+Unknown: and what else did we say about Samurai Wallet? We were saying We were talking about the recent commentary from the treasury department and how Oh, right. It it's been interesting to see them speak
+
+175
+00:11:16,230 --> 00:11:17,590
+like it's not a crime.
+
+176
+00:11:18,310 --> 00:11:31,935
+And then to have the Southern District Of New York come in and say, we could prosecute a ham sandwich as you said. So. Yeah. Did you see what they said recently? I did. But it you know, everything that they then made in that what was published, the memo that they published
+
+177
+00:11:32,175 --> 00:11:37,055
+Unknown: was exactly what Finson had been saying since 2013 and then reiterating in 2019.
+
+178
+00:11:38,040 --> 00:11:42,200
+And FinCEN's obviously under Treasury, so this has been long standing,
+
+179
+00:11:43,640 --> 00:11:45,880
+you know, their opinions on
+
+180
+00:11:46,200 --> 00:11:46,840
+money
+
+181
+00:11:47,480 --> 00:11:51,315
+transmitters and who qualifies and being non custodial
+
+182
+00:11:51,475 --> 00:11:52,355
+means you
+
+183
+00:11:52,915 --> 00:11:53,875
+need a license.
+
+184
+00:11:54,435 --> 00:11:58,595
+So I wasn't surprised at all by the statements. It was good to hear,
+
+185
+00:11:59,235 --> 00:11:59,955
+obviously.
+
+186
+00:12:00,675 --> 00:12:01,955
+But in our case
+
+187
+00:12:02,850 --> 00:12:05,010
+I'm sure they mentioned it in tornado
+
+188
+00:12:05,010 --> 00:12:12,209
+cash and Roman Storm's case the Southern District of New York, DOJ, under Biden and they're reprosecuting,
+
+189
+00:12:12,209 --> 00:12:14,850
+so they consider themselves a sovereign district
+
+190
+00:12:15,250 --> 00:12:15,570
+they
+
+191
+00:12:16,215 --> 00:12:16,935
+said,
+
+192
+00:12:17,175 --> 00:12:19,015
+we don't care what the regulator says.
+
+193
+00:12:19,335 --> 00:12:21,015
+Even though Congress gives
+
+194
+00:12:21,495 --> 00:12:24,135
+the Financial Crimes Enforcement Network
+
+195
+00:12:24,855 --> 00:12:26,615
+the power to enforce
+
+196
+00:12:26,615 --> 00:12:27,975
+the laws as written,
+
+197
+00:12:29,095 --> 00:12:30,535
+DOJ said we don't care. So
+
+198
+00:12:31,900 --> 00:12:34,460
+you you know, I don't know. Clearly,
+
+199
+00:12:35,820 --> 00:12:38,540
+these new statements by the treasury is not,
+
+200
+00:12:38,940 --> 00:12:46,540
+Unknown: having any bearing on their opinions. Right. And we saw that before when Todd Blanche sent out his memo,
+
+201
+00:12:47,020 --> 00:12:48,675
+you know, and he's
+
+202
+00:12:48,755 --> 00:12:51,555
+so the the Southern District Of New York is
+
+203
+00:12:51,954 --> 00:13:05,579
+under the umbrella of the Department of Justice. Yes. And Todd Blanche is the assistant attorney general, so like the number two in command at the Department of Justice? Correct. And what was it like April
+
+204
+00:13:05,579 --> 00:13:07,220
+2024?
+
+205
+00:13:07,220 --> 00:13:08,259
+Unknown: 2025.
+
+206
+00:13:08,259 --> 00:13:10,660
+Unknown: 2025. He released a memo stating
+
+207
+00:13:10,980 --> 00:13:13,459
+that it was the department's
+
+208
+00:13:14,885 --> 00:13:19,125
+I'm I'm gonna summarize here. Basically, they they weren't gonna prosecute
+
+209
+00:13:19,125 --> 00:13:20,485
+software developers.
+
+210
+00:13:20,885 --> 00:13:24,965
+And For the crimes of their users. Yes. For the crimes of their users.
+
+211
+00:13:25,205 --> 00:13:27,445
+And I I remember at that time,
+
+212
+00:13:28,780 --> 00:13:34,220
+I thought that was like I was like, oh, they're totally gonna drop the charges against Samurai Wallet.
+
+213
+00:13:34,380 --> 00:13:36,860
+And, like, there was just this, like,
+
+214
+00:13:37,500 --> 00:13:39,660
+fever pitch happening. I I totally
+
+215
+00:13:40,155 --> 00:13:45,115
+thought we were going to get the charges dropped. This is all going to go away
+
+216
+00:13:45,515 --> 00:13:47,915
+and like since and
+
+217
+00:13:48,475 --> 00:13:51,675
+logic would be restored to the world again. Me too.
+
+218
+00:13:52,075 --> 00:13:57,320
+And then they just they they just kept doubling down and doubling down. And they came out with, I
+
+219
+00:13:57,880 --> 00:14:03,160
+think, right after that, the if correct me if I'm wrong, the prosecutors in the Samurai Wallet case
+
+220
+00:14:03,880 --> 00:14:10,165
+issued a superseding indictment after that. And that's the point where they said, Okay,
+
+221
+00:14:11,045 --> 00:14:15,045
+we're not going to charge you guys because you didn't have a license,
+
+222
+00:14:15,285 --> 00:14:18,245
+but you're still an unlicensed money transmitter
+
+223
+00:14:18,245 --> 00:14:18,965
+because
+
+224
+00:14:20,565 --> 00:14:22,165
+you were aware
+
+225
+00:14:22,620 --> 00:14:23,660
+criminals
+
+226
+00:14:23,660 --> 00:14:26,940
+were able to use your software to commit crimes.
+
+227
+00:14:27,180 --> 00:14:30,140
+Unknown: Yeah. So there's kind of twofold with the whole superseding
+
+228
+00:14:30,140 --> 00:14:31,020
+indictment,
+
+229
+00:14:32,779 --> 00:14:39,195
+which is interesting because that definitely plays into it, that they they changed the language where you're not, you know, this,
+
+230
+00:14:39,755 --> 00:14:42,795
+you're guilt, we think you're guilty of the subsection,
+
+231
+00:14:42,875 --> 00:14:50,075
+but not of the previous section, which I don't know, it doesn't make sense to me. But in addition to that, they filed it,
+
+232
+00:14:50,780 --> 00:14:54,780
+the superseding indictment, shortly after we had submitted our motion to dismiss,
+
+233
+00:14:55,980 --> 00:15:06,060
+and then cited in their response to ours, well, you didn't address anything in the superseding indictment that we put out after you submitted. So, you know, it was a lot of game play. And apparently,
+
+234
+00:15:06,504 --> 00:15:09,545
+yeah, as I've learned through this process, this is how
+
+235
+00:15:10,105 --> 00:15:13,305
+the federal prosecutors work. And
+
+236
+00:15:13,704 --> 00:15:21,944
+it's unfortunate, but that's that's the truth of the matter, not just in our case, in in many cases. It's insane. Do you do you guys catch what she's saying? They
+
+237
+00:15:22,320 --> 00:15:24,640
+Unknown: they filed a motion to dismiss.
+
+238
+00:15:25,760 --> 00:15:26,800
+After that,
+
+239
+00:15:27,360 --> 00:15:28,640
+the prosecutors
+
+240
+00:15:28,640 --> 00:15:34,080
+updated their indictment. They changed the dollar amount that they claimed were criminal proceeds.
+
+241
+00:15:34,160 --> 00:15:37,795
+They changed the subsections of the charges around.
+
+242
+00:15:38,035 --> 00:15:40,195
+They made different allegations.
+
+243
+00:15:40,355 --> 00:15:45,954
+The after they filed a motion to dismiss. And then in their and then they said,
+
+244
+00:15:46,834 --> 00:15:49,394
+we disagree with your motion to dismiss because
+
+245
+00:15:50,670 --> 00:15:55,709
+issues or you didn't address these new issues in the updated indictment, which came out after their
+
+246
+00:15:56,910 --> 00:15:59,550
+and the judge is allowing this to go on.
+
+247
+00:15:59,950 --> 00:16:02,029
+The judge, which, by the way, was
+
+248
+00:16:02,510 --> 00:16:14,925
+Unknown: mysteriously swapped out for an unexplained reason in the middle of the trial. Yeah. Our first judge, which is Judge Berman, he, as far as I know, is still a judge. He was recused himself. Don't know why.
+
+249
+00:16:16,605 --> 00:16:19,725
+We were, you know, this was shortly before we were scheduled to
+
+250
+00:16:20,880 --> 00:16:25,600
+present in front of him on our motion to dismiss, well as a number of other motions,
+
+251
+00:16:25,920 --> 00:16:36,560
+and have oral arguments on these motions. So a few days prior to that, we get told we have this new judge, Judge Denise Coates. Both these judges are in their 80s. Both were Clinton appointees.
+
+252
+00:16:36,905 --> 00:16:41,465
+The biggest difference between the two is that Judge Berman was one of the few
+
+253
+00:16:41,945 --> 00:16:45,385
+federal judges within the Southern District Of New York who
+
+254
+00:16:46,265 --> 00:16:48,665
+was not formally a prosecutor,
+
+255
+00:16:48,825 --> 00:16:53,460
+while Judge Denise Coats was not only formally a prosecutor,
+
+256
+00:16:53,860 --> 00:16:56,180
+she was formerly the
+
+257
+00:16:56,740 --> 00:17:02,580
+chief of the criminal division of the Southern District Of New York, so the people who were bringing charges against us.
+
+258
+00:17:03,245 --> 00:17:03,964
+And
+
+259
+00:17:04,205 --> 00:17:10,205
+I forget what the exact number, but it was a few days before we get told, new judge, we go in, expecting
+
+260
+00:17:10,445 --> 00:17:11,725
+to be able to present
+
+261
+00:17:11,885 --> 00:17:13,245
+our oral arguments
+
+262
+00:17:13,725 --> 00:17:16,044
+on again, like I said, it was numerous
+
+263
+00:17:16,845 --> 00:17:18,125
+topics
+
+264
+00:17:17,740 --> 00:17:20,859
+that this hearing was supposed to cover, the motion to dismiss,
+
+265
+00:17:20,860 --> 00:17:21,499
+the
+
+266
+00:17:22,140 --> 00:17:23,500
+amicus briefs,
+
+267
+00:17:23,500 --> 00:17:24,139
+the
+
+268
+00:17:25,019 --> 00:17:26,940
+ruling on the Brady violation,
+
+269
+00:17:27,019 --> 00:17:37,245
+and arguments over whether it was Brady violation, which it was, and some other minor things. And again, we expect to spend all day in court. This is our first real
+
+270
+00:17:37,965 --> 00:17:38,764
+hearing.
+
+271
+00:17:39,085 --> 00:17:39,565
+And
+
+272
+00:17:40,125 --> 00:17:43,644
+we're a year into trial at this point, or into
+
+273
+00:17:44,840 --> 00:17:47,640
+yeah, pretrial, I guess. Pretrial, yeah. And,
+
+274
+00:17:47,800 --> 00:17:51,399
+we go in, and the whole thing lasts five to five or ten minutes.
+
+275
+00:17:51,720 --> 00:17:53,880
+And she just says, I'm denying everything.
+
+276
+00:17:54,840 --> 00:17:58,840
+And that was basically it. And we left. And at that point, we're like, wow, this is
+
+277
+00:17:59,625 --> 00:18:00,105
+mathematics,
+
+278
+00:18:00,985 --> 00:18:02,025
+which are already
+
+279
+00:18:02,585 --> 00:18:06,664
+so stacked against you as a defendant going up against the federal government,
+
+280
+00:18:07,625 --> 00:18:09,705
+massively changed at that point.
+
+281
+00:18:11,065 --> 00:18:12,825
+And our lawyers both lawyers advised,
+
+282
+00:18:14,770 --> 00:18:16,690
+this judge is not going to
+
+283
+00:18:17,010 --> 00:18:24,289
+let us put on the defense we want to put on. And I didn't really realize this until this whole process being kind of front row seats to it.
+
+284
+00:18:25,010 --> 00:18:35,794
+Your judge really determines the outcome of the case. A judge determines what kind of defense you're allowed to put on. They determine which witnesses you're allowed to present, which evidence the jury can see,
+
+285
+00:18:36,674 --> 00:18:39,315
+even what words, what language you're allowed to use
+
+286
+00:18:39,794 --> 00:18:40,674
+within the court.
+
+287
+00:18:41,470 --> 00:18:44,910
+So they really do make or break, you know, and and
+
+288
+00:18:45,070 --> 00:18:50,990
+against you know, going up against this this woman, she was she was a fifth prosecutor from the bench. Yeah.
+
+289
+00:18:51,390 --> 00:18:53,230
+Unknown: So we've got a case
+
+290
+00:18:53,815 --> 00:18:56,055
+being brought against noncustodial
+
+291
+00:18:56,055 --> 00:18:57,735
+software wallet developers
+
+292
+00:18:58,215 --> 00:18:59,095
+for
+
+293
+00:18:59,575 --> 00:19:00,934
+crimes that are,
+
+294
+00:19:01,415 --> 00:19:04,135
+by technical definition, reserved for
+
+295
+00:19:04,615 --> 00:19:06,215
+people taking custody of funds.
+
+296
+00:19:09,259 --> 00:19:09,899
+Then
+
+297
+00:19:10,299 --> 00:19:14,299
+you the the Samurai Wallet developers cannot
+
+298
+00:19:14,460 --> 00:19:23,659
+call the witnesses they want. They can't introduce the amicus briefs they want. They can't even argue their logic behind their
+
+299
+00:19:23,315 --> 00:19:26,195
+masterfully written motion to dismiss.
+
+300
+00:19:28,515 --> 00:19:31,075
+The judge gets swapped out in the middle of it.
+
+301
+00:19:31,715 --> 00:19:32,195
+Like, what
+
+302
+00:19:32,835 --> 00:19:40,750
+Unknown: I'll just I'll just correct the so the amicus briefs, they're they're not even necessarily for us. They happen to be because the industry understood
+
+303
+00:19:41,070 --> 00:19:43,549
+what the guidance was from FinCEN
+
+304
+00:19:43,950 --> 00:19:46,110
+in the same they had the same interpretation
+
+305
+00:19:46,110 --> 00:19:55,225
+as we did. So they were probably going to be more favorable. But what an amicus brief is is just a a letter a friend of the court letter, meaning in technical
+
+306
+00:19:55,225 --> 00:19:56,344
+or complex
+
+307
+00:19:56,745 --> 00:20:03,704
+cases such as this, where you can't expect these judges to be experts in all these different topics. It's just a way for
+
+308
+00:20:04,264 --> 00:20:06,105
+interested parties
+
+309
+00:20:06,510 --> 00:20:08,910
+to share some insights. Now the judge
+
+310
+00:20:09,950 --> 00:20:23,554
+usually the case is they kind of accept them, but that you know, it has no bearing on what they rule. They can completely ignore them, but it's just added information for the judge, and she did not even want those. Didn't care. No. Yeah. 80 years old, probably
+
+311
+00:20:23,715 --> 00:20:29,315
+Unknown: rarely heard of Bitcoin prior to this, and just doesn't even want an unbiased,
+
+312
+00:20:31,955 --> 00:20:32,914
+informal
+
+313
+00:20:32,914 --> 00:20:33,954
+insight
+
+314
+00:20:34,115 --> 00:20:39,729
+from from someone who's or an organization who's expert in in the field.
+
+315
+00:20:41,330 --> 00:20:46,129
+I mean, how can it's so unfair what's happened to them and.
+
+316
+00:20:48,049 --> 00:20:53,825
+You know, I think that's why events like what we're doing tonight are super important to try and get some community engagement.
+
+317
+00:20:55,505 --> 00:20:57,984
+You know, Keoni was doing a
+
+318
+00:20:58,785 --> 00:20:59,264
+rapid
+
+319
+00:20:59,905 --> 00:21:01,664
+fire podcasting
+
+320
+00:21:01,985 --> 00:21:03,265
+spree before
+
+321
+00:21:03,889 --> 00:21:05,409
+he surrendered himself.
+
+322
+00:21:05,570 --> 00:21:09,329
+And I remember, like, the online engagement was picking up.
+
+323
+00:21:09,570 --> 00:21:12,929
+It really felt like the movement was gaining a lot of momentum.
+
+324
+00:21:13,570 --> 00:21:14,289
+And
+
+325
+00:21:15,809 --> 00:21:18,210
+even Donald Trump said
+
+326
+00:21:18,785 --> 00:21:21,345
+his name on national television.
+
+327
+00:21:21,345 --> 00:21:26,465
+Mhmm. And I just I remember hearing that. I'm like, wow. I really like the way he just said Rodriguez.
+
+328
+00:21:26,625 --> 00:21:28,144
+I think this is, like,
+
+329
+00:21:28,544 --> 00:21:38,610
+this is looking good. Like, good things are gonna happen here. And and, again, it's it's just I I felt that way when the Todd Blanche memo came out. I felt that way,
+
+330
+00:21:38,930 --> 00:21:41,809
+you know, before the surrender date and
+
+331
+00:21:42,210 --> 00:21:43,330
+time and again,
+
+332
+00:21:45,010 --> 00:21:46,050
+the pardon
+
+333
+00:21:46,245 --> 00:21:51,125
+and the relief that the community has been seeking just hasn't hasn't arrived.
+
+334
+00:21:52,565 --> 00:22:07,820
+And since then, you know, it just to me, the the the impression I get is that the, know, the engagement has kind of died off. And I'm like, you know, objectively, just looking at the number of signatures we've been getting on the change.org petition,
+
+335
+00:22:08,140 --> 00:22:14,059
+it just I remember, like, it was climbing pretty steadily, and then, like, right before 15,000
+
+336
+00:22:14,059 --> 00:22:14,620
+signatures,
+
+337
+00:22:15,195 --> 00:22:17,834
+it just kinda felt like we hit a brick wall. And
+
+338
+00:22:18,475 --> 00:22:21,195
+I just I think maybe, like, we've
+
+339
+00:22:21,434 --> 00:22:24,714
+kind of exhausted the reach of our
+
+340
+00:22:25,115 --> 00:22:27,114
+social media accounts.
+
+341
+00:22:27,195 --> 00:22:36,480
+Like, you know, I like, I use the Econo Alchemist account to try and get as much engagement as possible, but there's only so much reach there. And and I think
+
+342
+00:22:37,039 --> 00:22:40,480
+there's some shadow banning going on that I suspect, and
+
+343
+00:22:42,559 --> 00:22:45,434
+it's just the the Bitcoin community
+
+344
+00:22:46,235 --> 00:22:50,075
+I saw I saw it rally for Huddl not and,
+
+345
+00:22:50,075 --> 00:22:55,275
+like, really come together and stand up when Huddl not was doing his case against Craig Wright.
+
+346
+00:22:56,715 --> 00:22:57,995
+I saw the
+
+347
+00:22:58,315 --> 00:22:58,875
+community.
+
+348
+00:22:59,410 --> 00:23:03,970
+There was another issue they coalesced around, and and I'm drawing a blank right now.
+
+349
+00:23:05,490 --> 00:23:15,044
+But I've seen the Bitcoin community show up in a big way in the past, and I just I haven't really seen that in the Samurai wallet case and it's it's disheartening
+
+350
+00:23:15,125 --> 00:23:15,764
+but.
+
+351
+00:23:16,804 --> 00:23:21,684
+You know we've got to keep fighting because every single day these guys are behind bars is just.
+
+352
+00:23:23,044 --> 00:23:26,965
+It's time being stolen from them and their families and it's not fair
+
+353
+00:23:27,440 --> 00:23:29,840
+for many of the reasons that we've talked about.
+
+354
+00:23:30,799 --> 00:23:34,399
+The case is just completely stacked against them it wasn't a fair trial.
+
+355
+00:23:34,880 --> 00:23:38,799
+It the charges weren't even fair they should have never been charged for those.
+
+356
+00:23:40,735 --> 00:23:45,615
+Crimes in the first place because they didn't commit the crimes. They wrote software.
+
+357
+00:23:45,855 --> 00:23:47,054
+They didn't
+
+358
+00:23:48,415 --> 00:23:51,215
+operate an unlicensed money transmitting business.
+
+359
+00:23:52,895 --> 00:23:53,135
+And
+
+360
+00:23:55,429 --> 00:23:57,109
+Even the federal government
+
+361
+00:23:57,270 --> 00:23:58,549
+and the Treasury.
+
+362
+00:23:59,510 --> 00:24:01,270
+Seemed
+
+363
+00:24:01,270 --> 00:24:06,789
+to to seem to be in opposition to the federal prosecutors in this case.
+
+364
+00:24:07,190 --> 00:24:08,309
+So it's just.
+
+365
+00:24:08,950 --> 00:24:13,274
+You know if you haven't if for the audience out there listening, if you haven't
+
+366
+00:24:13,435 --> 00:24:16,715
+gone to change.org/bill
+
+367
+00:24:16,715 --> 00:24:21,274
+and keone, please do so. It takes two minutes to sign. There's no downside.
+
+368
+00:24:21,995 --> 00:24:25,195
+Every signature helps. We're still fighting to get these guys pardoned.
+
+369
+00:24:26,610 --> 00:24:32,129
+Write them a letter we're going to have like a letter writing station tonight I brought like stamps and envelopes and pens
+
+370
+00:24:32,450 --> 00:24:34,769
+to encourage the people that are actually
+
+371
+00:24:35,010 --> 00:24:36,929
+here in person to write letters.
+
+372
+00:24:38,450 --> 00:24:41,090
+And yeah we'll live stream the event tonight too so.
+
+373
+00:24:41,855 --> 00:24:43,295
+Yeah, we're trying.
+
+374
+00:24:43,455 --> 00:24:43,934
+And
+
+375
+00:24:45,375 --> 00:24:49,855
+if anyone out there knows Donald Trump or anyone in his circle, like, put in a good word.
+
+376
+00:24:50,975 --> 00:24:54,815
+Unknown: Yeah. I think, you know, when you compare it to these other
+
+377
+00:24:56,039 --> 00:24:56,919
+cases,
+
+378
+00:24:56,919 --> 00:25:07,559
+whether it be, you know, Ross or Holdenaut or I don't know if it's if it's a timing thing. You know, the community was smaller. It felt more us versus them back then. Or if it's a matter of,
+
+379
+00:25:08,200 --> 00:25:14,445
+oh, they're privacy guys. And, you know, people, for whatever reason, don't don't realize that everyone
+
+380
+00:25:14,605 --> 00:25:17,484
+values and relies on privacy. So I just flew in this morning,
+
+381
+00:25:17,965 --> 00:25:18,445
+and,
+
+382
+00:25:19,245 --> 00:25:23,565
+it was quite disheartening because I was standing in, you know, line in the airports through security,
+
+383
+00:25:24,210 --> 00:25:25,970
+And it was decently long
+
+384
+00:25:26,210 --> 00:25:27,009
+to get
+
+385
+00:25:28,049 --> 00:25:40,184
+in. And I think I was the only one who opted out of the The face scan? Yeah. And they have big signs saying you can, but everyone just goes up and smiles happily. And it's just like it's just been chipping away.
+
+386
+00:25:40,745 --> 00:25:44,265
+And I'm sitting here with my face on camera. Like it's but
+
+387
+00:25:44,905 --> 00:25:45,625
+selectively
+
+388
+00:25:45,785 --> 00:25:49,065
+that's what being privacy is, selectively choosing to reveal
+
+389
+00:25:49,385 --> 00:25:53,119
+information about yourself. And that's all they were doing. Right.
+
+390
+00:25:53,600 --> 00:26:00,639
+You know, if you still you had all the information if you wanted to report every transaction to the IRS, you were able to do so within the wallet. Yep.
+
+391
+00:26:01,600 --> 00:26:05,665
+You were protecting yourself using Whirlpool, using these tools from
+
+392
+00:26:06,225 --> 00:26:08,785
+data breaches or from, you know, someone
+
+393
+00:26:08,945 --> 00:26:14,945
+seeing your transaction you made for your coffee and realizing, oh, this person's a multimillionaire
+
+394
+00:26:14,945 --> 00:26:17,745
+and I can go and rot. Like and just
+
+395
+00:26:18,065 --> 00:26:19,265
+so people not
+
+396
+00:26:19,630 --> 00:26:25,070
+realizing, one, that privacy affects them, but then, two, the implications of this case further.
+
+397
+00:26:25,549 --> 00:26:33,549
+Bob Burnett, who's for ocean mining, he made the the comment that, you know, transaction's not really a transaction until it's included in a block.
+
+398
+00:26:34,745 --> 00:26:35,465
+And
+
+399
+00:26:35,945 --> 00:26:38,345
+so if they are money transmitters
+
+400
+00:26:38,505 --> 00:26:40,345
+by being software providers,
+
+401
+00:26:41,304 --> 00:26:42,504
+the whole network
+
+402
+00:26:42,985 --> 00:26:44,664
+is now vulnerable
+
+403
+00:26:45,385 --> 00:26:47,065
+to these novel theories
+
+404
+00:26:47,500 --> 00:26:50,139
+put forth by the Southern District Of New York.
+
+405
+00:26:51,020 --> 00:26:54,299
+Every you know, the argument can be made. Every node operator,
+
+406
+00:26:54,460 --> 00:26:55,499
+every miner,
+
+407
+00:26:55,580 --> 00:26:58,059
+every lightning node. Yeah. And
+
+408
+00:26:58,860 --> 00:27:03,695
+so it's not just the the weird privacy privacy people. People. Right. It really does affect
+
+409
+00:27:03,934 --> 00:27:05,615
+all of Bitcoin. Yeah.
+
+410
+00:27:06,415 --> 00:27:15,375
+And hopefully people wake up because right now, we're in a friendly environment, which is awesome, and I hope it continues. You know, hope clarity gets passed and, you know, all this good stuff.
+
+411
+00:27:16,300 --> 00:27:18,700
+But it still doesn't address the fact that
+
+412
+00:27:19,100 --> 00:27:20,460
+certain prosecutors
+
+413
+00:27:20,460 --> 00:27:21,580
+have an agenda,
+
+414
+00:27:22,460 --> 00:27:26,620
+and given the opportunity, you know, they can ramp it right back up. There was another judge,
+
+415
+00:27:26,860 --> 00:27:27,740
+Radcough
+
+416
+00:27:27,740 --> 00:27:28,540
+Radcliffe
+
+417
+00:27:28,540 --> 00:27:32,764
+Radcliffe, I believe, within the Southern District Of York that made the comment shortly after,
+
+418
+00:27:33,325 --> 00:27:34,764
+our case was through
+
+419
+00:27:35,005 --> 00:27:36,845
+saying he sees
+
+420
+00:27:37,485 --> 00:27:38,684
+no benefit
+
+421
+00:27:39,565 --> 00:27:40,924
+to cryptocurrencies
+
+422
+00:27:40,924 --> 00:27:43,830
+other than for crime and fraud. Yep.
+
+423
+00:27:44,150 --> 00:27:47,990
+Those people have control Yeah. Over your freedom. Yeah.
+
+424
+00:27:48,309 --> 00:27:50,309
+Unknown: And apparently unchecked
+
+425
+00:27:50,470 --> 00:27:59,775
+power to continue doing whatever they want. Yes. Like, despite the president's executive orders and despite the Department of Justice's own memos,
+
+426
+00:28:00,095 --> 00:28:03,295
+they just keep doing whatever they want and doubling down.
+
+427
+00:28:04,095 --> 00:28:06,735
+And now they're, like, reopening the case
+
+428
+00:28:07,295 --> 00:28:09,135
+to retry Roman Storm,
+
+429
+00:28:09,940 --> 00:28:12,980
+which is just like, dude, it's it's so
+
+430
+00:28:13,380 --> 00:28:14,179
+aggravating.
+
+431
+00:28:14,180 --> 00:28:20,100
+And I'm like The war on crypto is not over. No. Not at all. They're they're indicted under Biden,
+
+432
+00:28:20,180 --> 00:28:21,620
+imprisoned under Trump,
+
+433
+00:28:21,940 --> 00:28:24,740
+and there's no corrective actions taking place.
+
+434
+00:28:26,475 --> 00:28:28,875
+It's so aggravating. I try to, like,
+
+435
+00:28:30,475 --> 00:28:31,195
+manage
+
+436
+00:28:31,435 --> 00:28:32,955
+the anger, and
+
+437
+00:28:33,835 --> 00:28:42,200
+it's difficult. You know? The only way I've been able to, like, handle it is is just distancing myself from Twitter lately because it's just so
+
+438
+00:28:43,640 --> 00:28:50,120
+it's just it's really fucked up. And I don't know I don't know what to do to fix it, but I know that, like,
+
+439
+00:28:50,440 --> 00:28:51,720
+there's a petition,
+
+440
+00:28:51,800 --> 00:28:53,880
+and I know that Ross
+
+441
+00:28:53,585 --> 00:28:58,065
+said himself on that spaces with Keone that the petition was instrumental
+
+442
+00:28:58,225 --> 00:28:59,985
+in his pardon
+
+443
+00:29:00,145 --> 00:29:00,705
+so.
+
+444
+00:29:01,745 --> 00:29:05,425
+You know take it from him if you don't want to believe me but like.
+
+445
+00:29:06,580 --> 00:29:13,780
+There is something to that petition. So I I think we keep fighting to get signatures on that and just keep praying that
+
+446
+00:29:14,260 --> 00:29:20,820
+Donald Trump, of these days, is going to announce that they're pardoned. Yeah. So the fact is, right, it's it's not,
+
+447
+00:29:22,335 --> 00:29:27,935
+Unknown: it's not President Trump who's just being like, I don't want to sign this right now. He's
+
+448
+00:29:27,935 --> 00:29:30,335
+president of The United States. He's got a lot going on.
+
+449
+00:29:30,895 --> 00:29:34,415
+There's a lot of people that are around him
+
+450
+00:29:34,720 --> 00:29:37,600
+who determine what gets on his desk. And
+
+451
+00:29:38,160 --> 00:29:42,320
+they care about, I'm sure, a variety of things. But one of those is,
+
+452
+00:29:44,080 --> 00:29:45,440
+will these actions
+
+453
+00:29:45,440 --> 00:29:46,560
+be popular?
+
+454
+00:29:47,200 --> 00:29:57,585
+And to demonstrate whether an action will be popular, best way to do that is to show, look, these many people care about this issue. Right. This is something they are willing to put their name on,
+
+455
+00:29:59,345 --> 00:30:07,679
+you know, even if people are willing to call their representatives or their senators just to say, hey, this is an issue that I care about personally
+
+456
+00:30:08,640 --> 00:30:14,479
+and make it personal. Because, again, a lot of these people don't know. It's not their fault. They just
+
+457
+00:30:15,200 --> 00:30:17,039
+have other things going on. And
+
+458
+00:30:18,135 --> 00:30:21,654
+trust me, I tried to call a lot of senators, a lot of representatives,
+
+459
+00:30:21,895 --> 00:30:23,975
+and it's hard to get through. I
+
+460
+00:30:24,455 --> 00:30:25,174
+left
+
+461
+00:30:25,335 --> 00:30:26,934
+messages and voicemails.
+
+462
+00:30:27,335 --> 00:30:28,455
+Just even
+
+463
+00:30:28,775 --> 00:30:29,895
+trying to get their
+
+464
+00:30:30,230 --> 00:30:31,990
+privacy or cryptocurrency
+
+465
+00:30:31,990 --> 00:30:35,510
+staffer to call me back was virtually impossible.
+
+466
+00:30:35,670 --> 00:30:38,950
+So, yeah, if you have those connections, like, every little bit
+
+467
+00:30:39,430 --> 00:30:41,909
+just helps just to bring awareness. Right.
+
+468
+00:30:42,070 --> 00:30:42,789
+Unknown: Right.
+
+469
+00:30:43,270 --> 00:30:46,995
+What what else can people be doing to to show support?
+
+470
+00:30:47,395 --> 00:30:47,875
+Is
+
+471
+00:30:48,435 --> 00:30:49,395
+I mean, like,
+
+472
+00:30:49,715 --> 00:30:59,395
+writing letters to Keoni, like, is that is that helpful? Like, to let him know there's someone out there that cares? Like Yeah. I mean, he feels, like, very disconnected,
+
+473
+00:30:59,580 --> 00:31:02,539
+Unknown: obviously, especially, you know, as we all are. We're very
+
+474
+00:31:03,100 --> 00:31:08,059
+connected via the Internet. Well, he doesn't have the Internet in there. Right. And for someone who's
+
+475
+00:31:08,539 --> 00:31:12,299
+you know, for for the ten years of of working on Samurai was
+
+476
+00:31:12,940 --> 00:31:16,554
+interacting with people all all across the world and friends and
+
+477
+00:31:16,794 --> 00:31:17,674
+for,
+
+478
+00:31:18,875 --> 00:31:24,315
+you know, every day for that long. Then to have that cut off, it's definitely he appreciates,
+
+479
+00:31:24,315 --> 00:31:28,554
+yeah, getting the letters. And yeah, it's when he doesn't
+
+480
+00:31:28,875 --> 00:31:36,350
+have one for a while, definitely hear him like, okay, guess I need to write a card. I go see him in person. But, yeah, I send I send cards to just to
+
+481
+00:31:36,750 --> 00:31:38,990
+but no, he does. He does appreciate them. He likes
+
+482
+00:31:39,630 --> 00:31:46,605
+Unknown: yeah. It's just a little little tether to to the real world. Right. Right. I can imagine. I I mean, I can only imagine what
+
+483
+00:31:47,645 --> 00:31:49,565
+what the isolation is like.
+
+484
+00:31:49,965 --> 00:31:51,885
+And I'd
+
+485
+00:31:51,885 --> 00:31:55,325
+Unknown: be happy to get a letter. So he's gotten some from you.
+
+486
+00:31:56,365 --> 00:31:58,489
+Unknown: Yeah. I them. We're pen pals now.
+
+487
+00:31:58,730 --> 00:31:59,210
+So
+
+488
+00:31:59,770 --> 00:32:00,970
+Yeah. Yeah.
+
+489
+00:32:02,650 --> 00:32:07,850
+Scott, Tyler, you guys have been quiet. I don't want I don't want to hog the mic. I think
+
+490
+00:32:08,570 --> 00:32:09,129
+Unknown: one
+
+491
+00:32:10,090 --> 00:32:12,730
+of the things that I find interesting is these
+
+492
+00:32:13,125 --> 00:32:16,485
+these judges that act upon their will. Right?
+
+493
+00:32:17,205 --> 00:32:21,125
+And, unfortunately, I think you're right. A lot of people aren't aware in bringing awareness.
+
+494
+00:32:21,765 --> 00:32:26,245
+In the same vein, not to say, like, get too political, but you also see commentary when
+
+495
+00:32:26,580 --> 00:32:39,700
+the president has some executive order and then some rogue judge shuts it down. And that lights a spark under a huge mass, like 50% of the population depending on what side of aisle they're on. And so I'm hopeful in a sense that
+
+496
+00:32:40,585 --> 00:32:43,785
+this recurring theme of, like, rogue judges
+
+497
+00:32:43,945 --> 00:32:44,985
+starts to
+
+498
+00:32:46,505 --> 00:32:48,825
+become more aware by the masses.
+
+499
+00:32:50,425 --> 00:32:57,490
+I think that tide is starting to turn, And I hope it applies to cases like this as well where just it becomes more
+
+500
+00:32:57,810 --> 00:33:00,850
+common awareness. That's one of my initial thoughts. What do you think, Scott?
+
+501
+00:33:01,650 --> 00:33:04,930
+Or feel free to chime in whenever, Lauren. I
+
+502
+00:33:05,595 --> 00:33:21,800
+Unknown: I mean, I I hope it does become more common knowledge about how just fucked up this system is. Right? I mean, this seems so insanely unfair. Like, this is just not the way the court system is presented in in movies and TV shows and stuff. Right? It's like,
+
+503
+00:33:22,840 --> 00:33:30,520
+this is absolutely ridiculous. I think the more that we can, you know, get that out there in regards to this specific case and others just,
+
+504
+00:33:31,000 --> 00:33:33,640
+I mean, highlights the need for reform and, like,
+
+505
+00:33:34,705 --> 00:33:39,425
+shutting down these these, you know, rogue courts. This is absolutely crazy.
+
+506
+00:33:40,545 --> 00:33:45,185
+Unknown: Yeah. I'll just say it starts with the prosecutors. Right? It's these line prosecutors,
+
+507
+00:33:45,185 --> 00:33:45,665
+the, you know,
+
+508
+00:33:47,299 --> 00:33:56,340
+head of the DOJ, whoever's the, you USA, the Pam Bondi or whatever, they they don't know. Like, it's it's really the line prosecutors, and they're the bureaucrats that stay with
+
+509
+00:33:56,900 --> 00:34:05,654
+you know, they don't get switched out Right. When a new president comes in. So they have their own agenda, and there's some statistics that, you know, people that are going into specifically
+
+510
+00:34:06,855 --> 00:34:10,295
+prosecution roles are very heavily liberal.
+
+511
+00:34:10,375 --> 00:34:12,775
+Mhmm. So that comes with their agenda.
+
+512
+00:34:13,015 --> 00:34:15,735
+And then, you know, on top of it, this is not
+
+513
+00:34:16,780 --> 00:34:25,180
+and as much as it is a bitcoin issue, because there was a lot of bitcoin companies that it wasn't just us and that, it's
+
+514
+00:34:25,180 --> 00:34:26,780
+just opened up my eyes to
+
+515
+00:34:27,420 --> 00:34:32,295
+how much broader of an issue, and specifically conspiracy
+
+516
+00:34:32,295 --> 00:34:33,015
+charges.
+
+517
+00:34:34,615 --> 00:34:43,415
+There's a lot of people in prison with Keoni or other people that I've met that have reached out that have just said, same. This happened to me. And some
+
+518
+00:34:43,410 --> 00:34:46,130
+even crazier stories than ours almost,
+
+519
+00:34:46,369 --> 00:34:47,490
+or at least different.
+
+520
+00:34:48,530 --> 00:34:51,170
+But so many similarities between them.
+
+521
+00:34:51,650 --> 00:34:52,290
+And
+
+522
+00:34:52,530 --> 00:34:57,809
+they're all primarily conspiracy charges. And a conspiracy charge is supposed to be
+
+523
+00:34:58,085 --> 00:35:00,964
+where the government needs to prove that
+
+524
+00:35:01,444 --> 00:35:02,405
+two people
+
+525
+00:35:02,644 --> 00:35:04,085
+conspired to
+
+526
+00:35:04,325 --> 00:35:05,925
+an actual agreement
+
+527
+00:35:06,325 --> 00:35:07,925
+to break federal law.
+
+528
+00:35:08,244 --> 00:35:12,484
+But the way that they've been applied for way too long now has been
+
+529
+00:35:14,540 --> 00:35:15,420
+conspiracy
+
+530
+00:35:15,420 --> 00:35:31,755
+is like the easiest thing to get, because I think juries don't understand it. And they're just like, well, you brought charges. I guess something's wrong, so sure. So even with these cases that they've beat, like, eight out of that have gone to jury trials and have beaten,
+
+531
+00:35:32,474 --> 00:35:34,155
+you know, nine out of 10 charges,
+
+532
+00:35:34,474 --> 00:35:38,474
+they'll still be charged with a conspiracy charge. And it's like, what what is going
+
+533
+00:35:39,210 --> 00:35:46,890
+Unknown: systems? Yeah. Because because they don't have the prosecutors don't have to prove that the defendants actually committed the crime
+
+534
+00:35:47,609 --> 00:35:51,530
+of the underlying crime. Like, they they don't have to prove that
+
+535
+00:35:51,905 --> 00:35:53,665
+that Bill and Kioni
+
+536
+00:35:53,984 --> 00:35:59,665
+actually operated an unlicensed money transmitting business. They just have to prove
+
+537
+00:35:59,984 --> 00:36:16,350
+Unknown: that there was a conspiracy to do so. So in in our case, in the Samurai case, the conspiracy was not between what you would think. Right? You're like a money laundering conspiracy. Oh, there must be some criminal that they talked with. Yep. No. The conspiracy was in the creation,
+
+538
+00:36:16,430 --> 00:36:22,725
+the development, the writing of the code of the software. Yep. How that doesn't go into Bernstein
+
+539
+00:36:23,125 --> 00:36:24,645
+versus The US or
+
+540
+00:36:24,964 --> 00:36:35,470
+which said code of speech. Like just all these things that it's really mind blowing when you dig a little bit deeper into what the government was saying, what these prosecutors were saying,
+
+541
+00:36:35,950 --> 00:36:38,110
+and then what we've understood
+
+542
+00:36:38,750 --> 00:36:41,950
+the industry, but then kind of, you know, further back
+
+543
+00:36:42,109 --> 00:36:45,070
+the Bitcoin. Right? Like, this is going back to code
+
+544
+00:36:45,869 --> 00:36:46,670
+Yeah. Prior to
+
+545
+00:36:47,710 --> 00:36:53,525
+Unknown: they've just done away it. Yeah. Because they're novel and that goes back to that that subsection
+
+546
+00:36:53,525 --> 00:36:54,085
+of
+
+547
+00:36:55,445 --> 00:36:56,165
+I if
+
+548
+00:36:56,725 --> 00:37:00,005
+I I might get it wrong, but isn't it, like, like, 1960
+
+549
+00:37:00,005 --> 00:37:04,190
+b one c Yeah. Is the the subsection
+
+550
+00:37:04,190 --> 00:37:05,790
+of the charge that they
+
+551
+00:37:07,150 --> 00:37:08,990
+that was in the plea agreement.
+
+552
+00:37:09,710 --> 00:37:10,350
+And
+
+553
+00:37:11,230 --> 00:37:16,109
+so, basically, the novel idea from the prosecutors here is that by creating the code,
+
+554
+00:37:17,375 --> 00:37:18,415
+they were
+
+555
+00:37:18,494 --> 00:37:20,175
+and they knew
+
+556
+00:37:20,175 --> 00:37:22,175
+that it would be possible.
+
+557
+00:37:22,974 --> 00:37:28,415
+Not not that they knew of a specific criminal doing anything wrong, but they knew it could be possible
+
+558
+00:37:28,860 --> 00:37:31,180
+for a criminal to take that code
+
+559
+00:37:31,340 --> 00:37:32,700
+and do something
+
+560
+00:37:33,340 --> 00:37:34,540
+illicit with it.
+
+561
+00:37:35,260 --> 00:37:36,460
+Unknown: And this is where,
+
+562
+00:37:36,700 --> 00:37:39,820
+like, as much as, you know, I hope clarity passes and all that,
+
+563
+00:37:40,140 --> 00:37:44,380
+this is where the crux of the issue happens because there's still a
+
+564
+00:37:45,595 --> 00:37:46,875
+statute within
+
+565
+00:37:46,955 --> 00:37:49,835
+The United States law called willful blindness,
+
+566
+00:37:50,555 --> 00:37:54,875
+which could again be used even if clarity gets passed, could be used against
+
+567
+00:37:55,275 --> 00:37:56,155
+developers.
+
+568
+00:37:56,395 --> 00:37:59,960
+And what it what it means is even if you didn't know,
+
+569
+00:38:00,200 --> 00:38:06,120
+because you didn't look, I guess, because you were willfully not looking, you were willfully blind,
+
+570
+00:38:07,480 --> 00:38:09,080
+then you're still
+
+571
+00:38:09,400 --> 00:38:10,200
+liable
+
+572
+00:38:10,200 --> 00:38:11,720
+for any crime
+
+573
+00:38:12,125 --> 00:38:19,964
+as if you did know. And they never looked because they were not a money service business, therefore they did not need to comply with AML KYC regulations.
+
+574
+00:38:19,964 --> 00:38:28,990
+That's part of the reasons they never wanted to take custody on top of the fact that you know be your own bank is was kind of a, you know, mantra back back in the day.
+
+575
+00:38:30,670 --> 00:38:34,030
+Yeah. It's it's crazy. It's crazy. It's insane.
+
+576
+00:38:37,150 --> 00:38:40,670
+Unknown: Well, we're super glad you're here to tell the story and
+
+577
+00:38:40,355 --> 00:38:43,315
+keep spreading awareness. I understand you're
+
+578
+00:38:43,635 --> 00:38:50,355
+perhaps doing another podcast in a little bit to get the word out there, which is exciting, and I know a lot of people here in the Denver area are
+
+579
+00:38:50,674 --> 00:38:54,434
+very eager to come here at firsthand. So thank you for flying in for this.
+
+580
+00:38:55,500 --> 00:39:04,860
+Unknown: Thank you guys for having me and for the space is beautiful. So if, you know, if you're not in the Denver area, you make your way here, I definitely say stop by because it's very cool.
+
+581
+00:39:05,180 --> 00:39:08,220
+Fantastic. Thanks for having me on the the podcast,
+
+582
+00:39:08,220 --> 00:39:16,025
+and and I hope people come with questions tonight. That would be that would be great. So, yeah, thank you. Awesome. Well, don't
+
+583
+00:39:16,505 --> 00:39:20,025
+Unknown: don't leave yet because we do we do this thing on pod 256
+
+584
+00:39:20,025 --> 00:39:20,665
+where
+
+585
+00:39:20,840 --> 00:39:24,040
+we have our guests read out the names of our supporters.
+
+586
+00:39:24,360 --> 00:39:25,000
+So
+
+587
+00:39:25,480 --> 00:39:31,000
+I can't read very well. Lauren, will you will you please give our hashers a shout out?
+
+588
+00:39:31,640 --> 00:39:32,120
+So
+
+589
+00:39:32,760 --> 00:39:34,360
+Unknown: I can't read these.
+
+590
+00:39:35,320 --> 00:39:44,205
+I'll highlight them. Okay. You got a mic. I can't pronounce half these. That's the fun part. That's the Sarca? Sarca? Sarca? What?
+
+591
+00:39:44,525 --> 00:39:50,204
+Oh, wait. Oh, I'm reading the top part. Okay. Thought Yes. Just the top part. So we're on -.256f.org.
+
+592
+00:39:50,204 --> 00:39:56,170
+Unknown: These are people that are contributing Bitcoin mining hash rate, processing, settling transactions.
+
+593
+00:39:56,410 --> 00:39:57,930
+Watch out. Watch out.
+
+594
+00:39:58,569 --> 00:40:02,010
+Unknown: These are unlicensed money transfer. That's right. Canadian
+
+595
+00:40:02,010 --> 00:40:04,490
+Unknown: hash and coin. Canadian hash and coin.
+
+596
+00:40:04,650 --> 00:40:06,250
+Unknown: Back 777.
+
+597
+00:40:06,924 --> 00:40:08,845
+Good luck there, I guess.
+
+598
+00:40:10,204 --> 00:40:11,005
+Xergy.
+
+599
+00:40:11,005 --> 00:40:11,805
+Unknown: Nice.
+
+600
+00:40:12,525 --> 00:40:15,325
+That's my company. Shout out. Shout out.
+
+601
+00:40:16,125 --> 00:40:17,724
+Unknown: Hardestblocks.org.
+
+602
+00:40:19,750 --> 00:40:23,990
+Who's that? We don't know who that is. Who is that guy? How do you spell that? I'm on
+
+603
+00:40:25,349 --> 00:40:25,990
+Unknown: the list.
+
+604
+00:40:27,029 --> 00:40:27,829
+Unknown: Serving
+
+605
+00:40:27,829 --> 00:40:28,710
+Bitcoin.
+
+606
+00:40:31,829 --> 00:40:32,549
+Satoki.
+
+607
+00:40:33,605 --> 00:40:34,885
+D plus plus.
+
+608
+00:40:35,444 --> 00:40:36,724
+Unknown: D plus plus
+
+609
+00:40:36,964 --> 00:40:39,685
+made this beautiful dashboard for us. Shout out to d.
+
+610
+00:40:41,125 --> 00:40:43,605
+Unknown: Hash rate heat punks. Nice.
+
+611
+00:40:43,765 --> 00:40:44,404
+Unknown: That's our hot Andy.
+
+612
+00:40:48,100 --> 00:40:51,700
+Unknown: I X tech. X tech. I don't know how we're saying that.
+
+613
+00:40:52,900 --> 00:40:53,780
+Schnitzel.
+
+614
+00:40:56,340 --> 00:41:01,785
+Mon Montan Mon Montan one? I don't know. Montani, he goes by. Okay. Yeah.
+
+615
+00:41:02,345 --> 00:41:07,945
+Unknown: Blackwater Mining Collective. I said Blackwater Mining Collective too. It's backwater, and I got corrected.
+
+616
+00:41:08,025 --> 00:41:09,625
+Unknown: Yeah. Backwater. Sorry.
+
+617
+00:41:10,665 --> 00:41:11,945
+Woodminer.
+
+618
+00:41:12,265 --> 00:41:14,745
+Unknown: Shut up. You don't you don't have to read that one. A Bitcoin address?
+
+619
+00:41:16,000 --> 00:41:24,160
+Unknown: Western Mass Bitcoin meetup. Another Bitcoin address. That's it. Alright. Yay. Thank all of you people who are contributing hash. Yes.
+
+620
+00:41:24,319 --> 00:41:25,200
+Unknown: Fantastic.
+
+621
+00:41:26,000 --> 00:41:32,055
+Unknown: Well, thank you so much, Lauren. Thanks, Lauren. Thank you. Yeah. Thank you. And Should exit, I I don't know how this
+
+622
+00:41:32,615 --> 00:41:41,495
+Unknown: Sure. Yeah. Sure. Yeah. We can wrap up. We'll, you know, we'll be live streaming tonight, so you can catch Lauren and Danny doing their fireside chat tonight at the space.
+
+623
+00:41:42,455 --> 00:41:45,494
+Be watching on Twitter for links to that.
+
+624
+00:41:46,210 --> 00:41:46,850
+And
+
+625
+00:41:47,010 --> 00:41:53,730
+Lauren, thank you so much for making the trip out here and being here at the space with us today. Thank you so much.
+
+626
+00:41:54,050 --> 00:41:59,985
+Unknown: Thank you both. Thank you for your continued support. And I know you guys have really been keeping the light on
+
+627
+00:42:00,305 --> 00:42:03,985
+the topic. So it's really appreciated. And thank you everyone out there.
+
+628
+00:42:05,184 --> 00:42:05,825
+Unknown: Fantastic.
+
+629
+00:42:05,984 --> 00:42:07,665
+Unknown: Thanks. We'll open the door here.
+
+630
+00:42:14,770 --> 00:42:16,450
+That was nice. Yeah.
+
+631
+00:42:16,690 --> 00:42:17,570
+Unknown: Unexpected
+
+632
+00:42:17,570 --> 00:42:18,770
+surprise there.
+
+633
+00:42:19,250 --> 00:42:22,610
+I'm glad she's here. I'm glad she's keeping the fight alive.
+
+634
+00:42:23,775 --> 00:42:29,055
+It's crazy. It's absolutely crazy. We're just gonna keep helping as much as we can where we can.
+
+635
+00:42:30,974 --> 00:42:32,575
+Yeah. Back to you, Scott.
+
+636
+00:42:33,295 --> 00:42:33,855
+Unknown: I just
+
+637
+00:42:35,055 --> 00:42:40,540
+it just seems like a thinly veiled attempt to just attack Bitcoin. Right? Like,
+
+638
+00:42:41,980 --> 00:42:49,180
+Unknown: my conspiracy theory is this is part of the attack on self custody. And I think eventually,
+
+639
+00:42:49,980 --> 00:42:52,060
+it's it's coming where
+
+640
+00:42:53,115 --> 00:42:55,595
+maybe they don't, like, explicitly
+
+641
+00:42:55,595 --> 00:42:56,555
+outlaw
+
+642
+00:42:56,635 --> 00:42:57,835
+self custody,
+
+643
+00:42:58,155 --> 00:43:01,835
+but they're gonna make it so uncomfortable and burdensome,
+
+644
+00:43:01,995 --> 00:43:04,475
+and they're gonna make it such a hassle
+
+645
+00:43:04,635 --> 00:43:05,595
+to spend
+
+646
+00:43:05,995 --> 00:43:08,075
+your self custody Bitcoin
+
+647
+00:43:08,010 --> 00:43:10,010
+that nobody's gonna do it anyways.
+
+648
+00:43:10,410 --> 00:43:13,050
+And what I mean by that, like, for example,
+
+649
+00:43:14,170 --> 00:43:18,490
+you know, people are stoked about Square integration with Bitcoin payments
+
+650
+00:43:18,810 --> 00:43:19,610
+and
+
+651
+00:43:20,170 --> 00:43:24,795
+merchants accepting Bitcoin, but really I foresee a future where
+
+652
+00:43:25,355 --> 00:43:28,475
+I bring my Bitcoin wallet into
+
+653
+00:43:29,115 --> 00:43:30,395
+stake and shake
+
+654
+00:43:30,875 --> 00:43:32,395
+and I try to spend,
+
+655
+00:43:33,290 --> 00:43:37,290
+but there's a warning that pops up that my UTXO
+
+656
+00:43:37,290 --> 00:43:40,010
+is not coming from a white labeled exchange,
+
+657
+00:43:40,490 --> 00:43:41,609
+and therefore,
+
+658
+00:43:41,609 --> 00:43:42,650
+the compliance
+
+659
+00:43:42,650 --> 00:43:46,730
+of that Bitcoin cannot be guaranteed and the merchant's not going to accept it.
+
+660
+00:43:47,395 --> 00:43:52,595
+And we've already we've already seen this happen even among Bitcoin companies
+
+661
+00:43:52,755 --> 00:43:54,515
+that reject whirlpooled
+
+662
+00:43:54,515 --> 00:43:55,635
+UTXOs.
+
+663
+00:43:55,715 --> 00:43:57,075
+If the UTXO
+
+664
+00:43:57,075 --> 00:44:01,075
+has a very recent history of being part of a coin joint transaction,
+
+665
+00:44:02,070 --> 00:44:07,510
+they'll reject it. That's happened. That happened with Happens on coin base, think. Happens on
+
+666
+00:44:09,030 --> 00:44:09,830
+probably,
+
+667
+00:44:09,910 --> 00:44:17,190
+it wouldn't surprise me. Heard that from a friend here. Yeah. We know that when we're doing the tele hash, it happened with brains,
+
+668
+00:44:18,035 --> 00:44:19,955
+the Hashrate That's
+
+669
+00:44:19,955 --> 00:44:24,915
+right. Someone tried to buy Hashrate with the UTXO that had recently been in Whirlpool,
+
+670
+00:44:25,155 --> 00:44:26,355
+and Brains
+
+671
+00:44:26,515 --> 00:44:27,795
+said they couldn't
+
+672
+00:44:27,955 --> 00:44:30,515
+spend that the money was no good there.
+
+673
+00:44:31,710 --> 00:44:32,590
+And so
+
+674
+00:44:33,390 --> 00:44:35,870
+it's not a far stretch to think
+
+675
+00:44:36,670 --> 00:44:38,510
+that with the trajectory
+
+676
+00:44:38,510 --> 00:44:43,150
+and the way everything's going that that it's like, yeah, sure. You can self custody all you want.
+
+677
+00:44:44,415 --> 00:44:46,175
+But if you're
+
+678
+00:44:46,495 --> 00:44:49,135
+trying to spend Bitcoin with merchants
+
+679
+00:44:49,215 --> 00:44:51,215
+that are accepting it and,
+
+680
+00:44:51,535 --> 00:44:56,815
+you know, use the use Bitcoin in these convenient rails that are being developed,
+
+681
+00:44:57,590 --> 00:45:00,230
+I I think there's gonna be a lot of headwind there.
+
+682
+00:45:02,790 --> 00:45:03,910
+Call me crazy.
+
+683
+00:45:05,110 --> 00:45:06,550
+Unknown: In that dystopian
+
+684
+00:45:06,550 --> 00:45:07,270
+future
+
+685
+00:45:08,230 --> 00:45:09,030
+where
+
+686
+00:45:09,270 --> 00:45:11,750
+your way of acquiring Bitcoin is through these
+
+687
+00:45:12,615 --> 00:45:13,415
+accepted
+
+688
+00:45:13,415 --> 00:45:17,095
+white labeled exchanges that require extensive KYC.
+
+689
+00:45:17,655 --> 00:45:19,895
+It highlights the importance of
+
+690
+00:45:20,135 --> 00:45:21,335
+open source mining
+
+691
+00:45:21,735 --> 00:45:25,415
+and why it's so relevant to the stuff that Scott and team
+
+692
+00:45:25,980 --> 00:45:44,535
+are working on with two five six just to loop it all together. I mean, we have to ensure that the tools the Freedom Tech tools are available. You said it well last year, Ico. It's not a don't tread on me. It's can't tread on me. Right. But that doesn't necessarily mean that the rest of society won't try to block you out Right. Which sucks. And Yeah.
+
+693
+00:45:45,974 --> 00:45:46,615
+Unknown: Like,
+
+694
+00:45:46,934 --> 00:45:48,535
+I I don't think the
+
+695
+00:45:48,775 --> 00:45:49,895
+the censorship
+
+696
+00:45:50,630 --> 00:45:55,110
+resistant properties of Bitcoin are are gonna go away, not very easily anyways.
+
+697
+00:45:55,430 --> 00:45:56,950
+So, like, technically,
+
+698
+00:45:57,430 --> 00:46:05,535
+yes, the individual will retain an asymmetric advantage where, technically, they can transact peer to peer even if
+
+699
+00:46:05,935 --> 00:46:07,055
+all the
+
+700
+00:46:07,295 --> 00:46:10,175
+military might in the world doesn't want them to.
+
+701
+00:46:11,935 --> 00:46:12,735
+However,
+
+702
+00:46:13,455 --> 00:46:19,870
+you know, that's not gonna be very practical for the end user just trying to spend their Bitcoin,
+
+703
+00:46:20,590 --> 00:46:21,950
+at Steak and Shake
+
+704
+00:46:22,270 --> 00:46:28,590
+Unknown: or, you know, whatever the application is. Dylan had a pretty good comment in the in the, the Lightning chat.
+
+705
+00:46:29,550 --> 00:46:32,270
+Buying a burger on chain is wild. Right? I mean, this
+
+706
+00:46:33,234 --> 00:46:35,555
+doesn't doesn't Lightning obfuscate
+
+707
+00:46:35,714 --> 00:46:42,355
+sort of that a bit. Right? It's like if the if the Lightning channel has been opened with, you know, flagged coins,
+
+708
+00:46:42,915 --> 00:46:44,994
+that doesn't necessarily mean that's the Bitcoin
+
+709
+00:46:45,480 --> 00:46:48,280
+that is coming over lightning to stake and shake.
+
+710
+00:46:50,120 --> 00:46:56,440
+Unknown: That's that yes. It's very rational of you to point out. I don't think the
+
+711
+00:46:56,920 --> 00:47:01,055
+the you know like we've seen in the past that I don't think prosecutors
+
+712
+00:47:01,055 --> 00:47:04,495
+or people trying to enforce the regulations are necessarily
+
+713
+00:47:05,375 --> 00:47:07,935
+going to see it with that kind of clarity and
+
+714
+00:47:09,295 --> 00:47:10,815
+you know understanding
+
+715
+00:47:10,815 --> 00:47:12,575
+of the mechanics under the hood.
+
+716
+00:47:13,290 --> 00:47:16,410
+Unknown: Can you blacklist Lightning nodes? I mean, I guess you could. Right?
+
+717
+00:47:17,690 --> 00:47:20,330
+Unknown: Could blacklist Lightning nodes. You could also, like,
+
+718
+00:47:20,650 --> 00:47:24,650
+have software that refuses to open Lightning channels with, like,
+
+719
+00:47:24,810 --> 00:47:25,770
+flagged coins.
+
+720
+00:47:28,115 --> 00:47:29,635
+Unknown: And I there was a guy
+
+721
+00:47:30,595 --> 00:47:32,915
+who's the guy that was, like, in that Facebook
+
+722
+00:47:33,155 --> 00:47:34,515
+cryptocurrency
+
+723
+00:47:36,355 --> 00:47:40,035
+a while back? Facebook was gonna launch their own cryptocurrency.
+
+724
+00:47:40,035 --> 00:47:42,195
+Unknown: David Marcus? David Marcus. Yeah.
+
+725
+00:47:42,515 --> 00:47:47,770
+Unknown: He's now at, like, Light Spark? Yeah. He's he's heavily involved and he's like his whole
+
+726
+00:47:48,010 --> 00:47:50,810
+if I'm understanding correctly, like, whole
+
+727
+00:47:51,850 --> 00:47:54,490
+spiel is like compliant lightning.
+
+728
+00:47:55,930 --> 00:47:56,570
+Unknown: Right.
+
+729
+00:47:57,050 --> 00:47:57,690
+Yeah.
+
+730
+00:47:57,930 --> 00:48:04,425
+To make it easier for the large institutions to run Lightning nodes and services. Right. Which, you Interconnectivity
+
+731
+00:48:04,425 --> 00:48:05,545
+between companies.
+
+732
+00:48:05,705 --> 00:48:06,985
+Unknown: By proximity
+
+733
+00:48:07,145 --> 00:48:07,945
+suggests
+
+734
+00:48:07,945 --> 00:48:12,665
+that, like, all compliance best practices are gonna be upheld and
+
+735
+00:48:13,430 --> 00:48:18,790
+Unknown: mean, I this is why we need to demand open source. I mean, it's a it's a big thing in Bitcoin
+
+736
+00:48:18,950 --> 00:48:27,590
+mining because so few people do it, but in in all of these aspects. Right? If this isn't something that you can just take and fork and remove
+
+737
+00:48:28,425 --> 00:48:33,225
+this oppressive bullshit from it, then it's it's no kind of solution.
+
+738
+00:48:34,265 --> 00:48:34,985
+Totally.
+
+739
+00:48:35,465 --> 00:48:43,145
+Unknown: Well, and and to that point too, like, we've seen, you know, not just in the Bitcoin space, but, like, open source development and
+
+740
+00:48:43,569 --> 00:48:46,130
+other development in general under attack
+
+741
+00:48:46,770 --> 00:48:49,730
+Graphene. And, yeah, being forced into these
+
+742
+00:48:50,450 --> 00:48:52,130
+compliance regimes.
+
+743
+00:48:52,130 --> 00:48:52,690
+So
+
+744
+00:48:53,650 --> 00:48:54,770
+for example,
+
+745
+00:48:56,369 --> 00:49:00,765
+Google is making it so that on their on their devices,
+
+746
+00:49:01,405 --> 00:49:06,045
+apps you install have to come from the Google Play Store. Actually, there was a recent case,
+
+747
+00:49:07,325 --> 00:49:10,445
+and I I think the the courts ruled that
+
+748
+00:49:12,220 --> 00:49:14,380
+Google was not gonna be able to do that.
+
+749
+00:49:14,940 --> 00:49:36,025
+Because on on Android devices, you can get alternative app stores? Mhmm. Because this has not been on iOS for all the Apple users. Right. Yeah. So on Android devices, you can so there's there's the Google Play Store where you can get the majority of apps from. Yep. But there's other repositories of apps that you can you can do what's called sideloading.
+
+750
+00:49:36,425 --> 00:49:52,720
+Like switching your marketplace on Start Nine. Right? From the official Start Nine marketplace to the community marketplace. Is it akin to that type of thing? I think so. I haven't used Start Nine myself, but it sounds similar. Yeah. So it's basically, you know, one of them was called F Droid. Another popular one is the Aurora store.
+
+751
+00:49:53,244 --> 00:49:54,525
+And they basically
+
+752
+00:49:54,765 --> 00:49:56,765
+act just the same as
+
+753
+00:49:57,165 --> 00:50:00,845
+Google Play Store where you can in the sense that you can fetch apps
+
+754
+00:50:00,925 --> 00:50:05,645
+from that repository and install them on your device. Now, like, on a Graphene OS device,
+
+755
+00:50:06,190 --> 00:50:12,590
+I don't have the Google Play Store on here. I get all of my apps from F Droid and from the Aurora store.
+
+756
+00:50:13,070 --> 00:50:13,630
+And
+
+757
+00:50:14,670 --> 00:50:15,790
+you can, like,
+
+758
+00:50:16,430 --> 00:50:21,175
+find developers that are making apps that you want that host their own repositories,
+
+759
+00:50:21,175 --> 00:50:24,055
+and you can load those repositories into F Droid and
+
+760
+00:50:24,455 --> 00:50:27,335
+gain access to those apps from there. So anytime
+
+761
+00:50:27,415 --> 00:50:31,255
+they, like, update their app, it gets pushed to the repository,
+
+762
+00:50:31,415 --> 00:50:41,280
+Unknown: and then you can, like, automatically update your app. From there. But the case had something to do, I think it sounds familiar to me, with being monopolistic from Google. Right? Yeah. That so Google was trying to make it so that you
+
+763
+00:50:41,600 --> 00:50:42,640
+Unknown: could not
+
+764
+00:50:42,800 --> 00:50:48,160
+load an app on a Google device unless it came from the Google Play Store.
+
+765
+00:50:50,705 --> 00:50:52,065
+Wild. And
+
+766
+00:50:52,385 --> 00:50:55,585
+they were taking it a step further and saying that
+
+767
+00:50:55,825 --> 00:50:56,545
+you
+
+768
+00:50:57,185 --> 00:51:04,440
+if you wanted to submit an app to the Google Play Store, you as a developer, you had to provide personally
+
+769
+00:51:04,440 --> 00:51:05,480
+identifying
+
+770
+00:51:05,480 --> 00:51:06,600
+documentation
+
+771
+00:51:07,240 --> 00:51:12,760
+so that they could irrevocably attach your identity to the software that you're providing.
+
+772
+00:51:15,080 --> 00:51:20,805
+Unknown: Is Android open source, Scott? Or Yes. I had the same question. I mean, I thought so.
+
+773
+00:51:21,525 --> 00:51:28,965
+Unknown: Yeah. It is. But it's maintained by Google so they can I I don't know? Yeah. What's stopping me from from forking Android and removing
+
+774
+00:51:29,300 --> 00:51:48,435
+That's how I understand it works. It's like not everyone has a Google Pixel, their hardware device, meaning, you know, Samsung's got their fork of Android with the Samsung OS, and Graphene is very bare bones version of that privacy focused. So do you know? Well, I think I think the Google fork of the Android
+
+775
+00:51:48,435 --> 00:51:50,915
+Unknown: open source project, AOSP,
+
+776
+00:51:51,475 --> 00:51:52,115
+is,
+
+777
+00:51:52,755 --> 00:51:56,355
+like, just getting so far removed that it's it's
+
+778
+00:51:57,099 --> 00:51:58,780
+it's losing its
+
+779
+00:52:01,900 --> 00:52:11,785
+it it's it's almost becoming its own separate thing now. Yeah. I'm having a hard time putting that into words. Yeah. So they they you know, it's not GPL,
+
+780
+00:52:11,945 --> 00:52:22,505
+Unknown: and they, you know, they have so many shiny bells and whistles features added to the the Google Android that that's what people wanna run, I guess. And so
+
+781
+00:52:22,665 --> 00:52:24,425
+Yeah. That's what most people do.
+
+782
+00:52:25,150 --> 00:52:27,550
+But I guess unlike Apple, it does
+
+783
+00:52:27,870 --> 00:52:29,710
+leave you the option where you could
+
+784
+00:52:29,950 --> 00:52:33,390
+run an alternative build on your phone. You know?
+
+785
+00:52:34,030 --> 00:52:37,390
+Unknown: Right? Well, and this is part of the part of the reason that
+
+786
+00:52:38,110 --> 00:52:39,230
+GrapheneOS
+
+787
+00:52:39,230 --> 00:52:40,110
+is
+
+788
+00:52:41,375 --> 00:52:42,095
+currently
+
+789
+00:52:42,575 --> 00:52:45,215
+trying to determine if they're going to continue
+
+790
+00:52:45,615 --> 00:52:48,815
+developing their software for the Pixel platform.
+
+791
+00:52:48,815 --> 00:52:50,735
+Right. It sounds like
+
+792
+00:52:52,335 --> 00:52:53,215
+maybe
+
+793
+00:52:53,490 --> 00:53:00,210
+the Google Pixel 10 is gonna be the last device that the Graphene project is compatible with.
+
+794
+00:53:01,170 --> 00:53:07,570
+We know that they have made an agreement with another flagship Motorola. I saw that. Manufacturer,
+
+795
+00:53:07,570 --> 00:53:13,755
+and there's there's good evidence to support the hypothesis Okay. Sorry. That it's Motorola.
+
+796
+00:53:14,635 --> 00:53:17,595
+Unknown: I just read the headlines. Yeah. So there yeah. There's
+
+797
+00:53:18,715 --> 00:53:22,570
+Unknown: there's rumors circulating that the the flagship
+
+798
+00:53:22,650 --> 00:53:24,970
+hardware manufacturer is Motorola.
+
+799
+00:53:25,210 --> 00:53:27,130
+So we may soon see,
+
+800
+00:53:28,250 --> 00:53:53,270
+Unknown: you know, going forward, graphene OS available on mode Motorola devices. Another example to show a small market share company that used to have former glory Yeah. You know, turn the tides towards open source, and they're gonna have a mass wave of support and adoption if that happens to be the case. I hope so. I'm I'm looking forward to it. That's cool. I'm seeing, you know, mixed reactions from people online, but, personally,
+
+801
+00:53:53,430 --> 00:54:08,795
+Unknown: I'm looking forward to it. I wanna try one out. Yeah. You know, what also is interesting too is what what does a graphene partnership with Motorola look like? Why do we need that? That's a good question. Right? Like, I don't have to form a partnership with my
+
+802
+00:54:08,955 --> 00:54:11,835
+with Raspberry Pi to load a different OS on there.
+
+803
+00:54:13,115 --> 00:54:14,955
+You know, maybe that partnership
+
+804
+00:54:15,275 --> 00:54:20,780
+provides some additional documentation that Graphene needs to make their software compatible with that hardware platform.
+
+805
+00:54:22,780 --> 00:54:27,500
+Unknown: But I think there's I think there's something at the hardware level
+
+806
+00:54:27,900 --> 00:54:29,420
+that the manufacturer
+
+807
+00:54:29,420 --> 00:54:30,780
+can do to
+
+808
+00:54:31,925 --> 00:54:35,285
+make it real really difficult, if not impossible,
+
+809
+00:54:35,285 --> 00:54:35,765
+to
+
+810
+00:54:36,325 --> 00:54:40,725
+Unknown: put GrapheneOS on the device? Well, that makes sense if it's their own silicon.
+
+811
+00:54:40,725 --> 00:54:41,205
+Like,
+
+812
+00:54:41,685 --> 00:54:57,100
+Google is building their own silicon now with the Tensor Suite, and Apple's got their silicon. But I don't know about Motorola, so it's a good question. Perhaps, yeah, it's something hardware locked down that they're just saying committing to not doing, maybe. Yeah. You could imagine it's like a secure boot type situation where the processor
+
+813
+00:54:57,339 --> 00:54:57,980
+Unknown: is
+
+814
+00:54:58,285 --> 00:55:01,565
+is locked down so that it will not run unsigned code.
+
+815
+00:55:02,685 --> 00:55:04,925
+Be very curious to know if that's the situation
+
+816
+00:55:04,925 --> 00:55:05,885
+that we're in.
+
+817
+00:55:06,845 --> 00:55:15,400
+Unknown: So, like, to to your point, like, when Graphene first started doing this, I don't think they, like, approached Google. I don't think they ever had an agreement with Google.
+
+818
+00:55:15,640 --> 00:55:18,760
+I don't think they asked Google for permission. They just started making
+
+819
+00:55:19,079 --> 00:55:20,280
+Unknown: It was a jailbreak,
+
+820
+00:55:20,599 --> 00:55:21,319
+effectively.
+
+821
+00:55:21,400 --> 00:55:23,880
+Unknown: A set well, yeah, essentially. I mean, I don't
+
+822
+00:55:24,375 --> 00:55:28,535
+the the Pixel devices aren't locked down. They're not? Okay. Well, if
+
+823
+00:55:29,335 --> 00:55:32,215
+some of them are. I think if you get one from Verizon,
+
+824
+00:55:32,215 --> 00:55:36,615
+I think it's it's locked, and you can't go in and change
+
+825
+00:55:36,615 --> 00:55:37,175
+the
+
+826
+00:55:37,495 --> 00:55:50,730
+boot sequence so that you can load a separate operating system on it. So I know, like, every time I've purchased a Pixel device, I have to get an unlocked one. Gotcha. And I know that none of those have been Verizon phones.
+
+827
+00:55:52,890 --> 00:56:00,735
+So but, yeah, I mean, it's just they never asked for permission. They just started doing it, you know? But I think as the,
+
+828
+00:56:01,055 --> 00:56:03,135
+you know, the hardware technology
+
+829
+00:56:03,135 --> 00:56:03,935
+has
+
+830
+00:56:04,015 --> 00:56:05,535
+become more sophisticated,
+
+831
+00:56:06,895 --> 00:56:10,575
+I I think and I may not be a 100% correct on this, but I think
+
+832
+00:56:11,049 --> 00:56:12,970
+it's gotten to a point where
+
+833
+00:56:13,450 --> 00:56:16,730
+Google is basically able to produce hardware that
+
+834
+00:56:18,089 --> 00:56:23,369
+cannot be compatible with Graphene OS, and this is why they're looking for other solutions.
+
+835
+00:56:23,769 --> 00:56:24,650
+I may not,
+
+836
+00:56:25,244 --> 00:56:26,525
+like, understand
+
+837
+00:56:27,404 --> 00:56:38,045
+Unknown: that a don't quote me on that. It makes sense, though. I mean, I I do think they're literally making their own processors now and everything and modem chips and all, so they could they could do that.
+
+838
+00:56:38,525 --> 00:56:39,164
+It's wild.
+
+839
+00:56:39,660 --> 00:56:40,539
+I I wonder
+
+840
+00:56:42,539 --> 00:56:45,980
+you see this tightening, this constrict you know, constriction from
+
+841
+00:56:46,539 --> 00:56:49,660
+the the story that Lauren just so eloquently told to
+
+842
+00:56:49,819 --> 00:56:50,780
+open source
+
+843
+00:56:51,500 --> 00:56:53,340
+firmware on miners to
+
+844
+00:56:53,579 --> 00:56:54,220
+phones.
+
+845
+00:56:54,984 --> 00:57:00,825
+And then, you know, Scott's over here just hacking the planet doing whatever the hell he wants with his
+
+846
+00:57:01,464 --> 00:57:11,350
+good friend named Claude. And it makes me wonder, like, to tie these things together, like, can they keep tightening and trying to choke you out when this software is, like, free
+
+847
+00:57:11,670 --> 00:57:14,390
+and it's not and closed source software is becoming
+
+848
+00:57:14,950 --> 00:57:16,230
+very hard to build.
+
+849
+00:57:16,630 --> 00:57:23,805
+Like, truly closed source impenetrable closed source software. Yeah. What do you think about that, Scott? We've got an amazing new tool
+
+850
+00:57:23,805 --> 00:57:25,085
+Unknown: in our toolkit
+
+851
+00:57:25,085 --> 00:57:25,885
+in,
+
+852
+00:57:26,525 --> 00:57:32,285
+in AI. It's so good at this stuff. I've been trying to build my own image,
+
+853
+00:57:32,765 --> 00:57:35,805
+to load on AntMiner control boards,
+
+854
+00:57:36,045 --> 00:57:36,525
+and,
+
+855
+00:57:36,925 --> 00:57:37,485
+like,
+
+856
+00:57:37,885 --> 00:57:41,060
+it's just it's making amazing progress.
+
+857
+00:57:41,140 --> 00:57:46,420
+Right? And and just watching the things that it's doing, it's just making these connections so quickly
+
+858
+00:57:46,580 --> 00:57:54,100
+and building these tools to try things out and test, you know, how the hardware is set up and how it's configured so quickly.
+
+859
+00:57:54,735 --> 00:57:55,375
+Like,
+
+860
+00:57:55,935 --> 00:58:03,295
+I imagine, you know, obviously, you it has been done manually before, but it would have taken, you know, months
+
+861
+00:58:03,455 --> 00:58:06,175
+to figure out. Right? And now we're talking days.
+
+862
+00:58:07,535 --> 00:58:10,260
+This is this is insane. Like,
+
+863
+00:58:10,820 --> 00:58:11,940
+a lot of things
+
+864
+00:58:12,100 --> 00:58:13,700
+are going to be
+
+865
+00:58:13,940 --> 00:58:19,940
+open sourced as a result of this. There just needs to be the will from someone to to wanna do it.
+
+866
+00:58:20,340 --> 00:58:26,765
+There isn't that, like, overhead of, like, oh, it's it's gonna be very difficult and take months
+
+867
+00:58:26,845 --> 00:58:27,885
+of of,
+
+868
+00:58:28,125 --> 00:58:30,445
+you know, banging your head on it. That's
+
+869
+00:58:31,325 --> 00:58:33,085
+that that time frame is
+
+870
+00:58:33,325 --> 00:58:34,205
+dramatically
+
+871
+00:58:34,205 --> 00:58:34,685
+reduced,
+
+872
+00:58:35,880 --> 00:58:40,680
+and it's only getting better. So I think we're gonna see lots of hardware devices
+
+873
+00:58:40,920 --> 00:58:43,160
+all across the board. You know, miners,
+
+874
+00:58:43,400 --> 00:58:44,200
+phones,
+
+875
+00:58:45,079 --> 00:58:46,039
+computers,
+
+876
+00:58:46,039 --> 00:58:47,079
+dishwashers,
+
+877
+00:58:47,079 --> 00:58:49,960
+everything is going to get, jailbroken.
+
+878
+00:58:50,694 --> 00:58:51,174
+And,
+
+879
+00:58:51,575 --> 00:59:01,175
+it's now the barrier to to providing a replacement firmware that gives you the actual control you want is dramatically lower. This is this is very exciting for Freedom Tech.
+
+880
+00:59:02,375 --> 00:59:05,575
+Unknown: I just saw a headline recently that
+
+881
+00:59:05,780 --> 00:59:07,460
+there's like like
+
+882
+00:59:08,099 --> 00:59:13,460
+well, two two headlines recently. One, there's an open source project now that
+
+883
+00:59:13,700 --> 00:59:17,380
+you can get for free that tells you if your
+
+884
+00:59:17,859 --> 00:59:18,820
+mobile
+
+885
+00:59:18,820 --> 00:59:19,859
+device is
+
+886
+00:59:20,875 --> 00:59:25,835
+the target of a stinger attack. Yes. Where Yes. Like the
+
+887
+00:59:27,035 --> 00:59:32,875
+three letter agencies will use these stinger devices to basically, if I understand it correctly, and correct me if I'm wrong,
+
+888
+00:59:34,200 --> 00:59:41,080
+the Stinger device basically acts like a man in the middle between your cell phone and the actual cell phone tower. Yep. And
+
+889
+00:59:41,400 --> 00:59:42,920
+it can see
+
+890
+00:59:43,160 --> 00:59:46,920
+the information that you're sending back and forth, and they can
+
+891
+00:59:47,805 --> 00:59:49,725
+they can screw with that information.
+
+892
+00:59:50,605 --> 00:59:51,405
+They can
+
+893
+00:59:53,165 --> 00:59:55,885
+they can spy on you with that if you're within range.
+
+894
+00:59:56,605 --> 00:59:59,565
+Yeah. And so there's an open source tool now. Essentially.
+
+895
+00:59:59,565 --> 01:00:03,590
+Unknown: Like, doesn't have to be a tower. It can just be a device nearby you, and your phone
+
+896
+01:00:04,309 --> 01:00:13,990
+has surprisingly little checks to see if this is, like, a real, like, AT and T tower or just, like, a device in a briefcase somewhere. We'll just connect to it and happily,
+
+897
+01:00:14,789 --> 01:00:15,589
+make phone calls.
+
+898
+01:00:17,615 --> 01:00:23,935
+Unknown: Or I saw an open source project where a guy released the code to effectively
+
+899
+01:00:25,935 --> 01:00:42,450
+we've heard about this as a conspiracy for a while. Your Wi Fi router being able to detect motion in your home Oh, yeah. And and accurately map body movement behind walls and all of this. And for a long while, were like, you're a kook. That's not a real thing. And then this guy was like, here's the open source code. You can do it with your router right now. Yeah.
+
+900
+01:00:44,075 --> 01:00:44,395
+I
+
+901
+01:00:44,954 --> 01:00:46,315
+and I I don't know if they can
+
+902
+01:00:47,434 --> 01:00:52,555
+I hope this points towards people being more aware of having open source built
+
+903
+01:00:52,714 --> 01:00:59,570
+products built on open source so that they can verify and inspect and audit if they want that that's not crazy things aren't happening to them?
+
+904
+01:01:01,170 --> 01:01:14,744
+I don't know, like, can they try and chokehold the what the AIs can and cannot do? Because, I mean, I I'm playing around a little bit with local models that seems to be I I'm sure it's not as good as Anthropics, Claude Code. Right?
+
+905
+01:01:14,984 --> 01:01:19,385
+But I'm I'm hopeful like the cat's out of the bag and it's too late to even,
+
+906
+01:01:19,625 --> 01:01:26,825
+you know, try and stop Scott from doing what he's doing to, you know, jailbreak the the Bitmain control board. Right? And and and I hope that
+
+907
+01:01:27,720 --> 01:01:39,320
+Unknown: this it's just the wild west now. Take it or leave it. Well, I think a lot of things have been that, like, they've been at that cat out of the bag moment. Like, think Bitcoin was one of those Sure. Cat out of the bag moments, and
+
+908
+01:01:40,200 --> 01:01:43,000
+I think a, like, persistent attack vector
+
+909
+01:01:43,295 --> 01:01:47,055
+is just going to be what they're trying to do now with the age verification
+
+910
+01:01:47,055 --> 01:01:50,655
+stuff. They're
+
+911
+01:01:50,655 --> 01:01:52,575
+trying to make operating systems
+
+912
+01:01:53,135 --> 01:01:55,055
+require age verification
+
+913
+01:01:55,215 --> 01:02:00,870
+before your device works. And that's gonna go for mobile and for laptops and desktops and
+
+914
+01:02:01,270 --> 01:02:06,790
+Unknown: Under the guise of cover your ass because the companies don't wanna be liable. It's all this stuff. Right. That's their
+
+915
+01:02:07,110 --> 01:02:07,910
+cop out.
+
+916
+01:02:08,550 --> 01:02:11,110
+Unknown: Yeah. When really the the actual
+
+917
+01:02:12,525 --> 01:02:14,285
+motivation is control
+
+918
+01:02:14,525 --> 01:02:16,685
+Yeah. And and surveillance.
+
+919
+01:02:17,405 --> 01:02:25,550
+Unknown: But, you know, now that now the tools to circumvent that, to disable that, to, you know, to change that are
+
+920
+01:02:25,870 --> 01:02:26,910
+widely
+
+921
+01:02:26,910 --> 01:02:27,710
+available.
+
+922
+01:02:28,350 --> 01:02:32,990
+Right. Right. With AI. Like, if it doesn't exist already, if someone hasn't done it, you can do it yourself.
+
+923
+01:02:33,950 --> 01:02:34,590
+Right.
+
+924
+01:02:34,750 --> 01:02:38,750
+You know? And I think, you know, your your point about, like, will AI be,
+
+925
+01:02:40,005 --> 01:02:40,805
+you know,
+
+926
+01:02:41,285 --> 01:02:42,085
+restricted
+
+927
+01:02:42,085 --> 01:02:46,965
+to try and prevent these things? I think, yeah. I mean, they currently try to do that,
+
+928
+01:02:47,365 --> 01:02:47,925
+but
+
+929
+01:02:49,125 --> 01:02:57,060
+I I feel like AI itself is capable of circumventing that. I mean, we see these things where you can I forget the term for it, but there's something you can do,
+
+930
+01:02:58,340 --> 01:02:59,300
+to, like,
+
+931
+01:02:59,940 --> 01:03:00,900
+access,
+
+932
+01:03:01,620 --> 01:03:04,980
+you know, things that a model doesn't wanna let you do?
+
+933
+01:03:05,700 --> 01:03:08,775
+I haven't looked too much into it, but, you know, there
+
+934
+01:03:09,575 --> 01:03:16,535
+OpenAI is using AI to program these things now, right, and to set up the training parameters. Right? Use AI to
+
+935
+01:03:17,255 --> 01:03:18,215
+to get
+
+936
+01:03:18,535 --> 01:03:19,415
+around those features.
+
+937
+01:03:20,850 --> 01:03:25,090
+I think the cat is out of the bag. I mean, they're certainly gonna try. They're gonna be compelled
+
+938
+01:03:25,170 --> 01:03:27,730
+to to do this by governments. But
+
+939
+01:03:28,050 --> 01:03:33,090
+Unknown: What they what what their their attempts are gonna look like is something more like,
+
+940
+01:03:34,075 --> 01:03:37,195
+it's now illegal to host your own LLM.
+
+941
+01:03:39,435 --> 01:03:43,995
+Like and so yeah. It's like, yes. The cat's out of the bag. Yes. It
+
+942
+01:03:44,555 --> 01:03:49,690
+you know, it can route around these things. Yes. We can still do it, but it's like,
+
+943
+01:03:49,930 --> 01:03:52,810
+there's gonna be this this risk where it's like, well,
+
+944
+01:03:53,289 --> 01:03:57,210
+do I do I really wanna, like, run this software
+
+945
+01:03:57,289 --> 01:03:58,490
+illegally?
+
+946
+01:03:59,130 --> 01:04:01,770
+You know, they're just they're gonna criminalize the activity.
+
+947
+01:04:02,089 --> 01:04:13,235
+Unknown: To self opt out. Yeah. Exactly. Because I don't think you could fingerprint that. I don't know how from a utility meter to, you know, network ISP, you can't really if it's local Right. You compute.
+
+948
+01:04:13,555 --> 01:04:19,180
+Unknown: I mean, that that I think they can't stop you from running it, but I guess they can take the same tactic here and go after
+
+949
+01:04:20,540 --> 01:04:25,500
+the people who are working on it. Right? Creating the open source models. Right? The open source developers
+
+950
+01:04:25,500 --> 01:04:31,415
+in that case to try and do the same kind of thing they're trying to do with Samurai, which is create that
+
+951
+01:04:32,694 --> 01:04:47,140
+Unknown: that sense of risk of your working on this and spreading this. How dare you make an AI without restrictions on it? Right. Straight to jail. And that that's why it's so important to stand up for the Samurai Wallet guys, because I think a lot of people are just
+
+952
+01:04:47,620 --> 01:04:53,780
+they've either got their blinders on or they don't have the foresight, or maybe I just really suck at communicating
+
+953
+01:04:54,405 --> 01:04:56,005
+the risks involved
+
+954
+01:04:56,245 --> 01:05:02,565
+with these novel legal theories that have been put forth in the samurai wallet case. But, like, literally,
+
+955
+01:05:03,605 --> 01:05:04,245
+the
+
+956
+01:05:05,525 --> 01:05:08,725
+future of a free of our free society hinges
+
+957
+01:05:09,369 --> 01:05:10,090
+on
+
+958
+01:05:10,970 --> 01:05:13,450
+these kinds of decisions getting overturned.
+
+959
+01:05:13,609 --> 01:05:17,210
+Like, there is no freedom without freedom technology
+
+960
+01:05:17,290 --> 01:05:18,730
+in the modern world.
+
+961
+01:05:20,089 --> 01:05:27,755
+Unknown: I think that this is just anecdotal experience from some of the people, friends, or family that I've orange peeled in my life that, you know, they
+
+962
+01:05:28,395 --> 01:05:33,595
+they range from having the ETF to not caring about non KYC. Right? Because it's not a pain point for them.
+
+963
+01:05:33,995 --> 01:05:35,995
+And and they see the Samurai wallet
+
+964
+01:05:37,780 --> 01:05:50,339
+and they see it kind of as like, well, if you have nothing to hide, why they go build it? Right? Why didn't they just follow the rules, which there's a whole litany of reasons why they did follow the rules and there was no crime to begin with. Then they'll arrive at the,
+
+965
+01:05:50,915 --> 01:06:07,450
+like you mentioned, the Russian oligarch tweet like taunting. Right? And I attribute to that as no different as me making fun of a financial adviser online saying this is financial advice when I tell them to run open source mining firmware. But they Totally. I I don't think people are connecting those dots. I mean, they still trip themselves up to say,
+
+966
+01:06:07,690 --> 01:06:19,095
+they shouldn't have done that. I can't get behind it. I've seen that with some of my friends, and I I feel the same frustration where it's like, what am I not communicating well? Right. Yeah. Yep. It is frustrating.
+
+967
+01:06:20,855 --> 01:06:28,535
+And and I don't know if there's just more Bitcoiners nowadays that, like, maybe for the Ross thing because it was so long ago, it was which Bitcoin was more,
+
+968
+01:06:29,335 --> 01:06:30,950
+you know, hacky,
+
+969
+01:06:32,789 --> 01:06:33,670
+libertarian.
+
+970
+01:06:33,670 --> 01:06:34,230
+Right?
+
+971
+01:06:34,710 --> 01:06:38,869
+Unknown: Freedom tech. It was it was it seemed like Now it's so institutional.
+
+972
+01:06:38,950 --> 01:06:42,710
+The majority of people in Bitcoin during that time,
+
+973
+01:06:43,375 --> 01:06:44,175
+you know,
+
+974
+01:06:44,495 --> 01:06:45,055
+were
+
+975
+01:06:46,015 --> 01:06:47,615
+championing
+
+976
+01:06:48,575 --> 01:06:49,935
+be your own bank.
+
+977
+01:06:50,175 --> 01:06:52,975
+Yeah. Censorship resistance, permissionless.
+
+978
+01:06:53,055 --> 01:06:55,455
+This is these are transactions that you can't stop.
+
+979
+01:06:56,280 --> 01:07:00,280
+Where that crowd of people, as more and more
+
+980
+01:07:02,280 --> 01:07:05,000
+people have flooded into the Bitcoin ecosystem,
+
+981
+01:07:05,080 --> 01:07:06,200
+that original
+
+982
+01:07:06,280 --> 01:07:07,320
+group that
+
+983
+01:07:07,720 --> 01:07:10,760
+all shared those values have become such a minority
+
+984
+01:07:12,355 --> 01:07:14,195
+in that larger group that,
+
+985
+01:07:14,435 --> 01:07:22,835
+Unknown: you know, that message just gets flooded out. Someone said it funny at an event here, and it stuck with me. They were like, as more people become Bitcoiners, then Bitcoin becomes more
+
+986
+01:07:24,035 --> 01:07:24,675
+of
+
+987
+01:07:25,155 --> 01:07:25,955
+an average,
+
+988
+01:07:26,589 --> 01:07:30,030
+like, IQ slash slash sentiment of the masses,
+
+989
+01:07:30,109 --> 01:07:34,030
+which is perhaps not as focused on freedom maximization
+
+990
+01:07:34,030 --> 01:07:35,870
+as it once was. Yeah.
+
+991
+01:07:38,589 --> 01:07:39,550
+So
+
+992
+01:07:40,525 --> 01:07:42,685
+keep doing events and education and
+
+993
+01:07:43,565 --> 01:07:44,765
+carrying the torch.
+
+994
+01:07:45,085 --> 01:07:49,565
+Unknown: Yeah. Trying. I mean, I I definitely believe that
+
+995
+01:07:50,925 --> 01:07:56,685
+people should be able to transact with who they want when they want, and there
+
+996
+01:07:56,040 --> 01:07:57,000
+shouldn't be
+
+997
+01:07:58,840 --> 01:08:02,040
+third party in the middle of that enforcing
+
+998
+01:08:02,040 --> 01:08:03,480
+some arbitrary
+
+999
+01:08:03,480 --> 01:08:04,440
+morality
+
+1000
+01:08:04,920 --> 01:08:06,920
+on the transactions.
+
+1001
+01:08:06,920 --> 01:08:07,800
+You know?
+
+1002
+01:08:09,160 --> 01:08:15,065
+Unknown: It's literally like how are the how is Ford Motor Company not liable for vehicular manslaughter?
+
+1003
+01:08:15,145 --> 01:08:23,305
+Unknown: It's the same thing. Yeah. According to the the precedence that's being put forth, the social precedence that's being put forth, not legal precedence, but,
+
+1004
+01:08:24,360 --> 01:08:25,800
+yeah, it's the same.
+
+1005
+01:08:26,920 --> 01:08:31,800
+Unknown: Speaking of doing what you want, Scott, I wanted to touch on this before we we wrap here today.
+
+1006
+01:08:32,040 --> 01:08:34,440
+What's this Wi Fi dongle thing you got going on?
+
+1007
+01:08:35,320 --> 01:08:38,280
+Unknown: Well, I've been hacking the planet on these
+
+1008
+01:08:37,725 --> 01:08:39,965
+Antminer control boards, and
+
+1009
+01:08:40,365 --> 01:08:43,565
+turns out they have a USB port on it. It's just turned off.
+
+1010
+01:08:43,965 --> 01:08:48,125
+So got that turned back on. It's just turned off. Got that turned back on.
+
+1011
+01:08:49,165 --> 01:08:57,620
+Did have to recompile the kernel, but, AI makes short work of that. Got that loaded on there and boom, we got USB WiFi dongle support now.
+
+1012
+01:08:58,340 --> 01:09:02,580
+Dude, that's amazing. Yeah. It works really well. It works really, really well.
+
+1013
+01:09:03,460 --> 01:09:17,435
+Unknown: You're telling me I don't need a $10 purple VONITS that I from god knows where that like, that little Wi Fi Ethernet adapter that takes forty five minutes to to set up and troubleshoot every time? No. You don't. You never did.
+
+1014
+01:09:19,080 --> 01:09:20,679
+Unknown: Sorry.
+
+1015
+01:09:20,679 --> 01:09:25,159
+That thing does look dumb, and you have to, like, power it separately and everything. Yeah. Yeah. Yeah.
+
+1016
+01:09:26,520 --> 01:09:35,255
+You know, I had my doubts that this would work, but you can just do things. And so had AI poke at it for a while, and, yeah, it's a full featured, like, USB two
+
+1017
+01:09:35,495 --> 01:09:36,215
+port.
+
+1018
+01:09:38,375 --> 01:09:43,255
+So, you know, you could you could connect all sorts of things. I got a a flash drive mounted on it.
+
+1019
+01:09:44,510 --> 01:09:48,110
+You know, the sky's the limit with things you could attach via USB.
+
+1020
+01:09:48,510 --> 01:09:51,150
+So I think there's a lot of cool opportunities there.
+
+1021
+01:09:52,830 --> 01:09:54,030
+It just kinda really
+
+1022
+01:09:54,670 --> 01:10:01,215
+you know, a control board, it's like a Raspberry Pi. Like, it's not quite as good as a Raspberry Pi. It has, like, less RAM,
+
+1023
+01:10:01,935 --> 01:10:10,575
+but it's a quad core, like, ARM processor on there. It's very capable. It's a very capable system. It's just we have this stupid firmware on there that's totally locked down.
+
+1024
+01:10:12,310 --> 01:10:14,470
+But the good news is we are,
+
+1025
+01:10:15,110 --> 01:10:19,190
+well on our way to our to blasting that firmware open. I've,
+
+1026
+01:10:19,990 --> 01:10:21,830
+been working on creating a
+
+1027
+01:10:22,230 --> 01:10:27,275
+a set of install scripts to make it so that you can just load your own Linux image
+
+1028
+01:10:27,755 --> 01:10:29,435
+on these control boards.
+
+1029
+01:10:29,835 --> 01:10:31,915
+In the future, that can contain Mugena.
+
+1030
+01:10:33,195 --> 01:10:37,995
+Yeah. And then and then kinda the sky's the limit there. So that should be ready pretty soon.
+
+1031
+01:10:38,395 --> 01:10:50,250
+Unknown: But So are you are you putting Claude code on the control board and doing brain surgery on it while it's live? Or are you pointing it like SSH at it? I'm pointing SSH at it.
+
+1032
+01:10:50,810 --> 01:10:54,010
+Unknown: Okay. Yeah. I mean, it could probably run. I mean, we've seen
+
+1033
+01:10:55,795 --> 01:11:01,554
+OpenCLaw run on Right. ESP 30 twos and stuff. So I think someone got it running on a Bidax.
+
+1034
+01:11:02,514 --> 01:11:04,514
+It certainly is probably Yeah.
+
+1035
+01:11:05,155 --> 01:11:08,195
+Unknown: That's cool. I want live I want live brain surgery logs.
+
+1036
+01:11:09,570 --> 01:11:10,209
+Unknown: Yeah.
+
+1037
+01:11:10,370 --> 01:11:12,369
+Yeah. I mean, you could definitely do that.
+
+1038
+01:11:12,770 --> 01:11:15,409
+I've been just, you know, pointing at it from my computer.
+
+1039
+01:11:15,889 --> 01:11:17,570
+That seems to work pretty well.
+
+1040
+01:11:18,929 --> 01:11:23,090
+But it it's just so impressive to see all the connections that it makes because
+
+1041
+01:11:23,595 --> 01:11:26,235
+dealing with these, like, stripped down,
+
+1042
+01:11:26,475 --> 01:11:30,875
+like, very vendor specific Linux images is is madness.
+
+1043
+01:11:32,475 --> 01:11:33,035
+But
+
+1044
+01:11:33,435 --> 01:11:35,275
+AI just powers through it.
+
+1045
+01:11:38,410 --> 01:11:43,369
+Unknown: And then I saw there was some chatter in the two five six Foundation Telegram about
+
+1046
+01:11:44,330 --> 01:11:48,489
+a biweekly call perhaps with Magina. Do you wanna talk about that? Oh,
+
+1047
+01:11:48,970 --> 01:11:55,784
+Unknown: I haven't really been following along too closely with that, but I you know, what I did observe was that a
+
+1048
+01:11:57,465 --> 01:12:04,105
+person from the community who's interested in learning and understanding and contributing to Mucina
+
+1049
+01:12:04,920 --> 01:12:09,960
+felt like it would be useful to have a call periodically
+
+1050
+01:12:10,440 --> 01:12:13,080
+to discuss what's going on with Mugena,
+
+1051
+01:12:13,080 --> 01:12:16,280
+development, problems, issues, pull requests,
+
+1052
+01:12:17,160 --> 01:12:17,960
+bugs,
+
+1053
+01:12:18,040 --> 01:12:18,840
+fixes,
+
+1054
+01:12:19,320 --> 01:12:21,584
+all sorts of things, feature requests.
+
+1055
+01:12:23,905 --> 01:12:25,824
+So they I saw that
+
+1056
+01:12:26,304 --> 01:12:52,835
+they had posted a link to like an external link to like a poll they had created. Okay. And then he kind of like left a comment underneath that and he said he said, I wanted to create the poll on Twitter on Telegram here. It would have been much cooler if I could, but I couldn't figure it out. But since I'm an admin in the group, I had the ability to create the poll. Gotcha. So I just went ahead and created the poll for him Gotcha. And and posted it right under his comment.
+
+1057
+01:12:54,035 --> 01:12:56,355
+Unknown: But, yes. This highlights the importance of
+
+1058
+01:12:56,675 --> 01:12:57,475
+continued
+
+1059
+01:12:57,715 --> 01:13:18,175
+grant support for the core maintainers of these projects. Yes. Because it it really is building a community movement, a momentum. It takes, you know, a long long amount of hours and technical efforts all the way down to this kind of stuff, which is hopping on calls to chat things through with other contributors. Yeah. And I I think it's common among open source projects. I know OSMU
+
+1060
+01:13:18,175 --> 01:13:24,815
+Unknown: has these periodic town halls where anyone is welcome to sit in and listen and share their ideas.
+
+1061
+01:13:26,800 --> 01:13:28,479
+I know Bitcoin Core
+
+1062
+01:13:28,640 --> 01:13:29,280
+has
+
+1063
+01:13:29,520 --> 01:13:33,519
+done that in the past as well. I believe they still do it.
+
+1064
+01:13:35,199 --> 01:13:39,760
+So it's not surprising to me that it's starting to happen now with Mugena.
+
+1065
+01:13:40,000 --> 01:13:47,195
+Unknown: Exciting. The Mugena community is is starting to ramp up. Right? We've got a lot of interest to people. There's you know, I'm getting,
+
+1066
+01:13:47,675 --> 01:13:50,315
+messages or notifications from GitHub,
+
+1067
+01:13:50,395 --> 01:13:52,235
+you know, multiple a day now,
+
+1068
+01:13:52,715 --> 01:13:54,315
+where people want to,
+
+1069
+01:13:54,635 --> 01:13:56,155
+are proposing features,
+
+1070
+01:13:56,155 --> 01:13:56,475
+talking
+
+1071
+01:13:57,180 --> 01:13:59,100
+architecture, wanting to add on to it.
+
+1072
+01:13:59,740 --> 01:14:00,380
+So
+
+1073
+01:14:00,780 --> 01:14:04,300
+that's that's really cool. Right? This is what we wanna see happen.
+
+1074
+01:14:05,420 --> 01:14:12,655
+All of the two fifty six Foundation projects are really big projects, but Imogene is is especially big one. And I think it's especially impactful,
+
+1075
+01:14:12,655 --> 01:14:14,415
+and so it's really good to see a
+
+1076
+01:14:14,975 --> 01:14:21,135
+community developing around this so that we can get this stuff going because it's gonna be amazing. Right.
+
+1077
+01:14:21,375 --> 01:14:24,175
+Unknown: Yeah. Because if there you know, if there's not a community of
+
+1078
+01:14:25,369 --> 01:14:31,929
+that community is not there, then what are we really doing at the end of the day? You know, just making this stuff for ourselves. So yeah, yeah, exactly.
+
+1079
+01:14:32,730 --> 01:14:33,129
+Unknown: Yeah.
+
+1080
+01:14:35,050 --> 01:14:38,090
+Unknown: I I'm confident that there will be
+
+1081
+01:14:38,785 --> 01:14:41,505
+the the community will continue to grow.
+
+1082
+01:14:44,225 --> 01:14:46,864
+And I I'd like to see this get so
+
+1083
+01:14:47,345 --> 01:15:03,560
+out of control that, like, it's difficult to even keep up with. And I I, for me, I feel feel that way in the Telegram. Yeah. In the Telegram chat, I feel like we're getting there where it's like, I'll open Telegram and there's, like, a 108 unread messages, and I'm like, I'm
+
+1084
+01:15:03,560 --> 01:15:05,320
+not gonna read all that, but I'm
+
+1085
+01:15:05,635 --> 01:15:09,475
+I'm happy for you or I'm Or sorry that happened. Or sorry that happened.
+
+1086
+01:15:10,995 --> 01:15:18,595
+Unknown: Oh, man. You should well awesome. You're holy crap. There's so many Well, we're gonna test out some other stuff, I think, as we mentioned on the previous pod. So we should have
+
+1087
+01:15:19,900 --> 01:15:24,619
+we're gonna internally test the discourse forum soon, I think. Oh, yeah. Yeah. And
+
+1088
+01:15:25,420 --> 01:15:27,579
+hopefully start to, you know, organize
+
+1089
+01:15:28,140 --> 01:15:30,699
+that among the projects and where you can,
+
+1090
+01:15:31,260 --> 01:15:35,295
+you know, find all the information you need, be it pointing to -.256.org
+
+1091
+01:15:35,295 --> 01:15:40,415
+and and really interlinking the web of all of our resources and tools and community support and
+
+1092
+01:15:41,295 --> 01:15:47,615
+make a cohesive structure so that it's it's easy easy as possible. You go to your one stop shop and you know exactly how you can get involved.
+
+1093
+01:15:50,349 --> 01:15:50,909
+Unknown: Yeah.
+
+1094
+01:15:51,710 --> 01:15:59,229
+It's gonna just keep getting better and more polished from here. So get in on the Ground Floor if you know what's good for you.
+
+1095
+01:15:59,789 --> 01:16:00,510
+Unknown: Totally.
+
+1096
+01:16:01,230 --> 01:16:02,030
+Should we
+
+1097
+01:16:02,670 --> 01:16:06,494
+Unknown: wrap? Yeah. Let's wrap it up there. What do you say, Scott?
+
+1098
+01:16:06,815 --> 01:16:10,814
+Unknown: Man, sounds good to me. It's been awesome chatting with you guys.
+
+1099
+01:16:11,775 --> 01:16:12,574
+Unknown: Likewise.
+
+1100
+01:16:12,735 --> 01:16:14,014
+Unknown: Yeah. Definitely.
+
+1101
+01:16:14,974 --> 01:16:19,760
+Check us out tonight. Livestream from the space. That's right. And
+
+1102
+01:16:20,880 --> 01:16:22,160
+pardon samurai.
+
+1103
+01:16:22,400 --> 01:16:23,680
+Unknown: Pardon samurai.
+
+1104
+01:16:24,160 --> 01:16:26,320
+Unknown: Pardon samurai. 100%.
+
+1105
+01:16:26,320 --> 01:16:28,960
+Oh. I'm driving here. What do I gotta do?
+
+1106
+01:16:29,440 --> 01:16:30,800
+Unknown: Okay. So at this point
+
+1107
+01:16:31,505 --> 01:16:33,184
+Unknown: Our our eloquent,
+
+1108
+01:16:33,264 --> 01:16:35,824
+you know, endings to every pod two fifty six.
+
+1109
+01:16:36,385 --> 01:16:40,704
+At this point, just go ahead and hit stop. After Scott says cheers.
+
+1110
+01:16:40,704 --> 01:16:41,425
+Unknown: Cheers.
+
+1111
+01:16:42,465 --> 01:16:42,945
+Unknown: See you.
+

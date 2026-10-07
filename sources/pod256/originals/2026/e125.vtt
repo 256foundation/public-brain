@@ -1,0 +1,2268 @@
+WEBVTT
+
+NOTE
+Transcription provided by Podhome.fm
+Created: 9/22/2026 2:47:22 AM
+Duration: 3215.83
+Channels: 1
+
+1
+00:00:00.000 --> 00:00:01.520
+<v Unknown> What's up guys? Gentlemen.
+
+2
+00:00:02.159 --> 00:00:07.359
+<v Unknown> Yo. Welcome. Pod two fifty six, 09/07/2026.
+
+3
+00:00:07.359 --> 00:00:08.240
+Episode,
+
+4
+00:00:08.960 --> 00:00:10.400
+is it '1 125?
+
+5
+00:00:10.400 --> 00:00:15.724
+<v Unknown> Let's see here. It's '1 125. Yeah. If you couldn't tell, am,
+
+6
+00:00:16.125 --> 00:00:17.244
+<v Unknown> what's the term,
+
+7
+00:00:17.805 --> 00:00:26.285
+flying by the seam of my pants. We had a couple week hiatus. Now we're back. Yeah, it's been a while. It's been a A little more organized
+
+8
+00:00:26.285 --> 00:00:27.404
+than before.
+
+9
+00:00:27.805 --> 00:00:35.430
+<v Unknown> Do you want to talk about what a BuzzRelay is, Tyler? Yeah. We've been diving deep into the BuzzRelay, which is an open source
+
+10
+00:00:35.910 --> 00:00:36.870
+communication
+
+11
+00:00:36.950 --> 00:00:38.309
+and collaboration
+
+12
+00:00:38.470 --> 00:00:39.350
+application
+
+13
+00:00:39.430 --> 00:00:40.950
+built on Noster,
+
+14
+00:00:41.030 --> 00:00:54.085
+which is rad from Block. I do think it's cool to see projects like this from companies like Block. It's a free tool. I think they were using it internally. It really helped their productivity and collaboration amongst
+
+15
+00:00:54.405 --> 00:00:58.559
+a remote team. And then they release a source. And so think of it like Slack
+
+16
+00:00:59.680 --> 00:01:00.480
+or
+
+17
+00:01:00.640 --> 00:01:01.920
+Matrix servers,
+
+18
+00:01:02.079 --> 00:01:13.075
+but agents are native. They actually get their own Noster key pair. You can run them on the server side relay or the client side, meaning you can have your agents on your computer with your local file directories,
+
+19
+00:01:13.075 --> 00:01:17.314
+passing context, talking to server side agents. And we've been using that to
+
+20
+00:01:17.634 --> 00:01:19.874
+build our digital employees,
+
+21
+00:01:19.875 --> 00:01:20.594
+slaves really.
+
+22
+00:01:21.960 --> 00:01:27.719
+And it's been super rad. We got one here prepping us for the podcast today, 256PodAgent,
+
+23
+00:01:27.720 --> 00:01:40.575
+telling us all the happenings in the Bitcoin network, hash rate, what's going on in the regular Bitcoin industry, mining specifically, and then the niche of the niche, open source mining. Okay, so here's what's cool about it. You
+
+24
+00:01:41.935 --> 00:01:43.854
+<v Unknown> basically have this chat
+
+25
+00:01:43.854 --> 00:01:47.055
+application where we have different groups and topics
+
+26
+00:01:47.695 --> 00:01:53.330
+and we can collaborate there as a team. So it's got all those basic awesome features.
+
+27
+00:01:54.050 --> 00:01:55.330
+It's well organized.
+
+28
+00:01:55.970 --> 00:01:56.610
+And
+
+29
+00:01:57.170 --> 00:02:03.730
+one of the topics we have is for Pod two fifty six. And so when we go in there, you have an AI
+
+30
+00:02:03.810 --> 00:02:06.995
+agent. Correct my terms here if I misuse
+
+31
+00:02:06.995 --> 00:02:08.035
+any of the terms.
+
+32
+00:02:09.075 --> 00:02:11.395
+But you have an AI agent that we can just
+
+33
+00:02:12.835 --> 00:02:14.595
+tag and say, hey,
+
+34
+00:02:16.115 --> 00:02:21.920
+give us a rundown of what kinds of mining news has been breaking,
+
+35
+00:02:22.640 --> 00:02:24.800
+what the network stats are,
+
+36
+00:02:24.960 --> 00:02:31.360
+and give us some good ideas for the podcast for today. And then it comes back with all this content,
+
+37
+00:02:32.545 --> 00:02:37.425
+And then it makes it really easy to just go through the show and follow, like, a logical
+
+38
+00:02:38.145 --> 00:02:42.465
+string of thoughts. So I don't know. Maybe this leads to less tangents. Maybe not.
+
+39
+00:02:42.945 --> 00:02:43.985
+<v Unknown> No way. Never.
+
+40
+00:02:45.105 --> 00:02:46.545
+<v Unknown> Hopefully, an organized podcast.
+
+41
+00:02:47.240 --> 00:02:58.120
+<v Unknown> One of the cool things it does, which I don't think any of the other chat apps do, is it these agents that are sort of members of your chat have the whole chat history as context.
+
+42
+00:02:58.200 --> 00:03:08.285
+Yeah. Because they're noster events. Yeah. So, like, you know, chats like they do, they're like, stuff's just flying by. There's a bunch of different channels, but it can take it all as context. And I think at least Discord,
+
+43
+00:03:08.285 --> 00:03:17.340
+right, they they, like, specifically don't let your agents do that. And I think that's they're really missing out on the, you know, this wave of the future. So
+
+44
+00:03:17.740 --> 00:03:38.745
+<v Unknown> it's pretty neat. It's been cool. One of the features I added to the agent instructions and skill for this podcast agent is I said, okay, we've got this self hosted open source hydropool that we use from the foundation for our HashDash where people can contribute and donate Hashrate. In attempts to solo mine a block, we've gamified it. We usually close out the show with it.
+
+45
+00:03:39.880 --> 00:03:55.465
+It's Nostr enabled as well. So you can have a worker or username be your NPUB and it will link to your Nostr profile. And I was like, well, we have, I think a two week rolling history or fifteen day rolling history in the logs of the Prometheus and Grafana API,
+
+46
+00:03:55.625 --> 00:03:57.065
+which is the database.
+
+47
+00:03:57.224 --> 00:03:59.625
+And so I was like, tell me effectively,
+
+48
+00:03:59.625 --> 00:04:05.865
+you know, who's taken over who? And over the past week it can query and tell us easily, in the past week it says,
+
+49
+00:04:06.185 --> 00:04:22.840
+let's see, let me find it, peak of five eighty terahash per second on the hash dash over the past week, a peak of 21 users and 51 workers, new people that joined, Kenneth. We've got who overtook who in the loyalty. Tyler overtook Scott from nine to ten.
+
+50
+00:04:24.975 --> 00:04:26.175
+Fax777
+
+51
+00:04:26.175 --> 00:04:27.615
+overtook HardistBlox.
+
+52
+00:04:27.695 --> 00:04:29.695
+Who had big windows of contributions?
+
+53
+00:04:29.695 --> 00:04:32.175
+Dylan, when he was testing his Mugena
+
+54
+00:04:32.175 --> 00:04:33.135
+implementation
+
+55
+00:04:33.615 --> 00:04:48.040
+on the S19K Pro he's got. Who dropped off, who got booted, who's unchanged. So that's just a cool way where we can summarize over the past week since the last podcast what's been going on on our Hashdash. Am I reading this right? PUBKey has the best difficulty now?
+
+56
+00:04:49.635 --> 00:04:53.475
+Personal best, pubkey took pool best 1.73E
+
+57
+00:04:53.475 --> 00:04:55.795
+to the tenth to 1.265E
+
+58
+00:04:55.795 --> 00:04:58.115
+<v Unknown> to the eleventh. Is that the difficulty?
+
+59
+00:04:58.195 --> 00:05:00.195
+Yep. Let's like
+
+60
+00:05:00.595 --> 00:05:03.280
+a different way to express difficulty from really? A
+
+61
+00:05:04.160 --> 00:05:06.560
+<v Unknown> So it's not the overall difficulty.
+
+62
+00:05:06.639 --> 00:05:11.120
+It is in the past two weeks that was the highest difficulty. But it's a T.
+
+63
+00:05:11.600 --> 00:05:13.919
+<v Unknown> That's a bit axe. So that's pretty cool.
+
+64
+00:05:15.315 --> 00:05:17.155
+That's a lucky miner. Is
+
+65
+00:05:17.155 --> 00:05:19.635
+<v Unknown> it 1,265,000,000,000?
+
+66
+00:05:19.635 --> 00:05:22.515
+<v Unknown> Is that what it's saying? E to the eleventh is what?
+
+67
+00:05:24.355 --> 00:05:26.835
+<v Unknown> That's Well, so nine is
+
+68
+00:05:27.155 --> 00:05:28.035
+G
+
+69
+00:05:28.355 --> 00:05:29.075
+and
+
+70
+00:05:29.235 --> 00:05:34.420
+12 is T. So that's It's 126,000,000,000.
+
+71
+00:05:34.420 --> 00:05:35.700
+Yeah. 126
+
+72
+00:05:35.700 --> 00:05:48.435
+<v Unknown> gs. So that's Okay. Okay. That's not quite a T, but that's still pretty good. Yeah. Awesome. So shout out pub key. Shout out pub key. That'd be cool to add to the UI as well. Kind of the best difficulty, you know, in a rolling time window. Yeah, definitely.
+
+73
+00:05:48.595 --> 00:05:53.315
+Should set when your agent's on that. Yeah. So where do we wanna start now that we've got this organized
+
+74
+00:05:53.395 --> 00:06:05.980
+<v Unknown> recap on the happenings in Bitcoin and Bitcoin mining? Mean, I like the go ahead, Scott. I was just gonna say maybe we should just go off script right away with this Yeah. Perfect. Liquid thing Tangent. Happened last night. Tangent.
+
+75
+00:06:07.500 --> 00:06:13.100
+Specifically Bitcoin mining related, but still insanely interesting, we don't have to dwell on it. But
+
+76
+00:06:14.125 --> 00:06:15.085
+Blockstream
+
+77
+00:06:15.805 --> 00:06:18.604
+from Adam Back and and Friends
+
+78
+00:06:19.564 --> 00:06:29.820
+has been running this side chain for a while now called Liquid. I don't really know how it works. But It's a shitcoin project. He I think he was gonna say it's a shitcoin.
+
+79
+00:06:30.380 --> 00:06:41.595
+But okay. Yeah. So they have the sidechain Liquid. You can, like, peg in and out of Bitcoin, and they have an exchange and and whatnot. Anyways, last night, yesterday,
+
+80
+00:06:42.395 --> 00:06:43.515
+some hackers
+
+81
+00:06:44.235 --> 00:06:55.195
+withdrew 4,000 Bitcoin, which is basically all of the Bitcoin that I think was amongst the federation that sets up the nodes for this side chain. It was all the pegged collateral.
+
+82
+00:06:55.275 --> 00:07:02.410
+Okay. Right? Like, that's what backs the liquid. Okay. So that's not necessarily all Blockstream's money, but probably mostly.
+
+83
+00:07:04.409 --> 00:07:23.365
+Anyways, they would they've just withdrew it all. There was some bug in the way that the pegging worked, and I don't know exactly know how that works, but they were able to withdraw the Bitcoins and not liquid tokens, but the Bitcoin 4,000 Bitcoin. They left a message, an opportune message in the transaction that said we are white hat hackers, contact us on chain,
+
+84
+00:07:24.860 --> 00:07:31.580
+which is That's the funniest part of this whole thing. It's like, contact us on chain. It's this chat platform. You've heard of it. Right? And
+
+85
+00:07:34.860 --> 00:07:35.740
+so
+
+86
+00:07:35.979 --> 00:07:46.015
+Blockstream did immediately contact them on chain. And so this is great because we can all see these messages back and forth. And they were like, yeah. Like, fix your fix the bug.
+
+87
+00:07:46.495 --> 00:07:57.660
+And, you know, they they were using, like, PGP signatures and to verify that everything was right. And blockchain's like, okay. Yeah. We fixed it. Send back the money. And they sent back,
+
+88
+00:07:57.980 --> 00:07:59.180
+85%
+
+89
+00:07:59.180 --> 00:08:04.700
+of the of the 4,000 Bitcoin, leaving about 600 Bitcoin for themselves.
+
+90
+00:08:05.335 --> 00:08:13.335
+Right? They kind of just decided to take that as their own fee for this bug bounty work. Is that how white hacking works? You get to keep Yeah,
+
+91
+00:08:14.055 --> 00:08:18.380
+that's exactly my question. That is not how white hacking works. And
+
+92
+00:08:18.780 --> 00:08:22.940
+I think that that was stupid on their point, like, because they're still
+
+93
+00:08:23.180 --> 00:08:23.979
+stealing
+
+94
+00:08:24.060 --> 00:08:25.979
+50, roughly $50,000,000
+
+95
+00:08:25.979 --> 00:08:29.100
+worth of Bitcoin. Right? So it's not quite as much.
+
+96
+00:08:29.500 --> 00:08:36.225
+But now they're still in this situation where they're, like, you know, running from the feds and looking over their shoulder for the rest of their lives
+
+97
+00:08:37.185 --> 00:08:39.505
+because they've stolen $50,000,000.
+
+98
+00:08:40.865 --> 00:08:48.870
+And I don't know. It just doesn't seem like that's enough to, like, buy a private island and disappear with a new identity for the rest of your lives. So I don't know. It seems like
+
+99
+00:08:49.750 --> 00:08:55.110
+They should have returned it all, and I'm sure Blockstream would have compensated them for a bug
+
+100
+00:08:55.269 --> 00:09:05.115
+bounty kind of thing. And then they would be in the free and clear, and they would have done a great thing and got some money out of it. But now they're still thieves of $50,000,000
+
+101
+00:09:05.115 --> 00:09:10.715
+<v Unknown> So on chain comms is not necessarily responsible disclosure? Yeah, stealing the
+
+102
+00:09:11.115 --> 00:09:15.355
+<v Unknown> Bitcoin and then telling the prior owner after the fact
+
+103
+00:09:15.835 --> 00:09:20.079
+in public is probably not the most responsible disclosure
+
+104
+00:09:20.079 --> 00:09:20.959
+method,
+
+105
+00:09:21.920 --> 00:09:26.160
+that's at their disposal. But, yes, that's one way of doing it, I suppose.
+
+106
+00:09:27.440 --> 00:09:32.320
+<v Unknown> Yeah. This really seems like some kids that just got at Kimmy and found something and just,
+
+107
+00:09:32.695 --> 00:09:34.535
+I don't know, don't really know what they're doing.
+
+108
+00:09:35.095 --> 00:09:48.055
+<v Unknown> Yeah, it doesn't seem very well thought out. Does not seem very well thought out. I saw someone tweeted that they replicated the bug find with a five word prompt. Yeah, that was orange surf. Yeah. And he did a write up too on like what the exploit was
+
+109
+00:09:48.740 --> 00:09:54.020
+or at least, like, a long form Twitter post that I read last night.
+
+110
+00:09:54.660 --> 00:09:58.740
+It had something to do with the way Liquid cashed
+
+111
+00:09:59.220 --> 00:09:59.620
+keys,
+
+112
+00:10:00.335 --> 00:10:00.895
+and
+
+113
+00:10:03.295 --> 00:10:09.055
+I'm not gonna pretend like I know how the technicals of Liquid worked, but
+
+114
+00:10:09.455 --> 00:10:21.860
+I don't know. See Orange Surf on Twitter. He's got a good post on it that explains what And I think they paused the liquid side chain. Right? Because you still have your liquid coins,
+
+115
+00:10:22.180 --> 00:10:26.260
+<v Unknown> but they just aren't pegged to real Bitcoin anymore. Or now they're pegged to less
+
+116
+00:10:26.714 --> 00:10:29.755
+<v Unknown> Well, think they stopped the liquid network and all the exchanges
+
+117
+00:10:29.755 --> 00:10:56.695
+<v Unknown> also paused, right? So the liquid network is like a 100% down. It's hits after hits with Bolts getting hacked too. Like I think of Francis and the Bolt Bitcoin team, like these apps that were using Bolts for Lightning Swaps and the Liquid Network. That's two of their main tools that have been attacked, you know? And then you had the cold card debacle from last month, and there's a lot of threat vectors coming after Bitcoin, but it makes sense. It's final settlement. Can't stop it.
+
+118
+00:10:57.175 --> 00:11:00.935
+It makes me glad to think that I'm not in the custody space.
+
+119
+00:11:01.495 --> 00:11:03.015
+That would be stressful.
+
+120
+00:11:03.095 --> 00:11:05.895
+And also I'm curious what you guys think. It made me oftentimes
+
+121
+00:11:06.375 --> 00:11:14.720
+this makes me think back to our friend Rob Warren. This argument that Bitcoin mining secures your Bitcoin, right? It secures the blockchain. Well, it's like
+
+122
+00:11:15.120 --> 00:11:15.760
+really
+
+123
+00:11:16.000 --> 00:11:16.800
+encryption
+
+124
+00:11:16.800 --> 00:11:30.014
+secures your Bitcoin. What does it mean that mining's function is in this? Because I think these examples have highlighted that the miners didn't stop this. They didn't secure it from happening, right? Well, and to be even more specific, it's actually-
+
+125
+00:11:30.894 --> 00:11:33.615
+You're cutting out for a second. Token fee that secures
+
+126
+00:11:34.095 --> 00:11:36.495
+<v Unknown> your Bitcoin in an extremely
+
+127
+00:11:36.495 --> 00:11:38.095
+large and uncomprehensible
+
+128
+00:11:38.095 --> 00:11:43.650
+number space. There's no real encryption involved. But yeah, to your point, it's,
+
+129
+00:11:44.370 --> 00:11:49.490
+you know, yeah, the miners didn't stop this from happening, and I do think people overuse
+
+130
+00:11:49.570 --> 00:11:50.530
+the term
+
+131
+00:11:51.090 --> 00:12:00.295
+mining secures the network. I think what they're trying to say is, you know, miners will ensure that blocks continue to get mined. But in terms of, like,
+
+132
+00:12:01.495 --> 00:12:02.295
+miners
+
+133
+00:12:03.014 --> 00:12:17.030
+stopping hacks from happening or, like, preventing other people's Bitcoin from getting stolen, you know, that's that should definitely not be convoluted or confused for what miners' function actually is. Miners I mean, there's a lot of
+
+134
+00:12:17.670 --> 00:12:22.630
+<v Unknown> of different facets of of securing the Bitcoin network. Yeah. It's a Venn diagram.
+
+135
+00:12:22.870 --> 00:12:34.175
+Miners do do it. Right? Like, they do a important piece of securing the network. Right? Because you could have, you know, your PGP keys that say, I am eco, and that can't be faked.
+
+136
+00:12:34.415 --> 00:12:45.820
+Mhmm. But then if someone else comes along and says, I'm eco. Here's my PGP keys. Right? Now we have this problem. And that's that's kind of what miners secure is that, you know, this this this blockchain is
+
+137
+00:12:46.060 --> 00:12:47.340
+the the
+
+138
+00:12:47.660 --> 00:12:54.380
+<v Unknown> ledger going forward. You can't change that. Yeah. Right. Yeah. Different roles and different security now,
+
+139
+00:12:55.375 --> 00:12:59.215
+<v Unknown> Lootcoin is not a part of that. Yes. I heard it's called
+
+140
+00:12:59.695 --> 00:13:00.735
+<v Unknown> Bcasher,
+
+141
+00:13:00.975 --> 00:13:02.175
+Bcash JR.
+
+142
+00:13:02.255 --> 00:13:10.010
+<v Unknown> That's my new favorite name for it. Bcasher. Perfect. I love it. Well, I'm curious to see what comes from this liquid event.
+
+143
+00:13:10.090 --> 00:13:16.250
+<v Unknown> Yeah. They're gonna be hunting these people. It does bring up some interesting questions about what does responsible disclosure look like now.
+
+144
+00:13:17.130 --> 00:13:23.565
+You know, you can imagine if these are just some kids, and they're like, woah, shit. We we got on Kimmy, we found this this exploit.
+
+145
+00:13:23.644 --> 00:13:44.205
+They're not the only ones who could do that. Yeah. Exactly. There could be other people who are hot on this trail as well. And so, like, you at least have to ask yourself, like, is there time for responsible disclosure? I would argue, yes. But, you know, the analogy is like, there's a kitten in the road, and there's a car speeding towards it. Right? Like, maybe maybe. This is just hypothetical,
+
+146
+00:13:44.205 --> 00:13:51.725
+but, like, you know, in this case, you just grab the kit and get it out of the road and get it to the side. Now they did hold it for ransom once they got it. But
+
+147
+00:13:53.245 --> 00:13:59.290
+<v Unknown> Yes. Like, if it had if it had been, like, North Korea or some other, like, even worse actor,
+
+148
+00:13:59.370 --> 00:14:08.010
+they could have just kept 100% of those 4,000 Bitcoin and not returned any of it. Right? So, I mean, you do have to give these
+
+149
+00:14:08.010 --> 00:14:10.330
+quote unquote white hackers
+
+150
+00:14:11.855 --> 00:14:15.134
+some credit for returning 85%
+
+151
+00:14:15.134 --> 00:14:27.375
+<v Unknown> of it, but still it's like- Gray hat. Gray hat. Yeah, it's not really white hat. Yeah, it's well, to your point, Scott, too, it's like there used to be some technical expertise skill level required to find these exploits,
+
+152
+00:14:27.660 --> 00:14:31.660
+right? Right. And those people understood what responsible
+
+153
+00:14:31.980 --> 00:14:55.085
+<v Unknown> disclosure meant, and now it's anyone can find exploits. Yeah, and it's the time to do it is just dramatically decreased, So you you have to assume that if you found something, like, someone else maybe already has it or is about to have it. So there is that. But I still think that they could have, you know, as soon as they found it, like, fired off an email to, to Blockstream.
+
+154
+00:14:55.430 --> 00:15:06.149
+And then, you know, instead of a thirty day disclosure window, maybe you have like a thirty minute disclosure window, but like still, you know, you can do this. So so we shouldn't we shouldn't
+
+155
+00:15:07.110 --> 00:15:12.795
+<v Unknown> when we're doing two five six red team work, take a bunch of hashrate and point it at -.256f.org
+
+156
+00:15:12.795 --> 00:15:14.635
+as our responsible disclosure.
+
+157
+00:15:14.635 --> 00:15:29.459
+<v Unknown> Just put point exahash upon exahash at our solo mining pool. Yeah. So we figured out how to like command and control the entire Bitcoin mining network. We should we shouldn't just point it all at our own wallets right away. Yeah, give them at least thirty days. Which,
+
+158
+00:15:29.940 --> 00:15:30.660
+<v Unknown> I mean,
+
+159
+00:15:31.380 --> 00:15:35.620
+do we wanna talk about Red Hat and what's going on with those efforts?
+
+160
+00:15:37.335 --> 00:15:39.175
+<v Unknown> Red team? Red team?
+
+161
+00:15:39.815 --> 00:15:48.375
+<v Unknown> Scott, think you're more involved, right? Have you been working with Schnitzel on it? Yes. I mean, Schnitzel has been doing the lion's share of the work, but I've been following along.
+
+162
+00:15:49.015 --> 00:15:52.260
+Schnitzel has been putting the latest and greatest
+
+163
+00:15:52.980 --> 00:15:54.020
+AI tools,
+
+164
+00:15:54.260 --> 00:15:57.220
+especially ones that are like Kimi that are,
+
+165
+00:15:57.620 --> 00:15:59.140
+don't have these
+
+166
+00:15:59.700 --> 00:16:03.780
+supposed moral qualms about doing network research, security research stuff,
+
+167
+00:16:04.655 --> 00:16:06.335
+which are very expensive,
+
+168
+00:16:06.415 --> 00:16:13.695
+by the way. But yeah, Schnitzel's been diving into that all the latest and greatest tools at our disposal to look at
+
+169
+00:16:14.415 --> 00:16:31.110
+these projects. And, you know, a lot of the red teamwork that's happening out there is with open source projects. And so that makes it a lot easier to analyze how the code is functioning and find these problems. In our case, none of the tools are open source. That's the whole reason why we're doing two fifty six foundations to fix that.
+
+170
+00:16:34.495 --> 00:16:37.454
+Schnitzel is, you know, decompiling these binaries,
+
+171
+00:16:37.454 --> 00:16:38.095
+which
+
+172
+00:16:38.415 --> 00:16:46.654
+aren't sometimes aren't even very easy to get the binaries themselves. So you gotta get the binary. You gotta decompile with tools like we're talking about with Gidra before Gidra.
+
+173
+00:16:49.320 --> 00:16:55.240
+And then kind of set up a sandbox environment where you can run it and you can try
+
+174
+00:16:55.639 --> 00:17:02.135
+setting up your own network and do man in the middle attacks, things like that. And really hitting it from all angles, malformed inputs,
+
+175
+00:17:02.215 --> 00:17:03.175
+trying to see,
+
+176
+00:17:03.654 --> 00:17:05.815
+you know, trying to to test it for holes.
+
+177
+00:17:06.055 --> 00:17:07.575
+And unsurprisingly,
+
+178
+00:17:07.575 --> 00:17:21.299
+I guess, or maybe surprisingly, depending on how you think this all works, he's found lots of lots of issues, you know, lots of sort of low and medium severity type stuff, and I think a couple very surprising high severity
+
+179
+00:17:21.700 --> 00:17:22.580
+issues.
+
+180
+00:17:22.580 --> 00:17:24.500
+We are doing full disclosure
+
+181
+00:17:25.245 --> 00:17:27.085
+to the manufacturers,
+
+182
+00:17:27.085 --> 00:17:29.485
+responsible disclosure, thirty day window,
+
+183
+00:17:30.684 --> 00:17:31.245
+and,
+
+184
+00:17:32.205 --> 00:17:35.485
+you know, genuinely trying to provide this information to them first.
+
+185
+00:17:37.245 --> 00:17:46.270
+And I don't actually know if how I guess some of them have been responding. Some of the some of the manufacturers, some of the miners are interested in working on this. Others not so much.
+
+186
+00:17:46.990 --> 00:17:52.270
+So, yeah, the thirty window thirty day window is gonna be up. I think it's next week. Should be the eleventh.
+
+187
+00:17:53.375 --> 00:17:54.974
+<v Unknown> Yes. So Friday.
+
+188
+00:17:55.455 --> 00:17:56.174
+<v Unknown> Friday.
+
+189
+00:17:56.255 --> 00:17:56.974
+So Damn.
+
+190
+00:17:57.534 --> 00:17:59.934
+Yeah. That's when the findings
+
+191
+00:18:00.335 --> 00:18:02.174
+become public and
+
+192
+00:18:02.495 --> 00:18:03.375
+people
+
+193
+00:18:03.375 --> 00:18:14.110
+can see what's going on there. I assume that that will inspire more people to dig into this stuff with their own agents and see what they can come up with. It's highlighted a couple of things.
+
+194
+00:18:16.110 --> 00:18:23.394
+<v Unknown> One being that a lot of large operators have their own custom firmware images, be it their own firmware or
+
+195
+00:18:23.395 --> 00:18:26.195
+tweaked versions of other firmware providers.
+
+196
+00:18:26.275 --> 00:18:34.035
+And so it's been interesting to see the collaboration in that niche of the industry. The other thing that I've picked up from some conversations
+
+197
+00:18:34.200 --> 00:18:35.959
+watching the guys work is,
+
+198
+00:18:36.679 --> 00:18:42.759
+which is just chef's kiss for the industry, it's like, Hey, I found this bug in this one firmware from this one manufacturer.
+
+199
+00:18:42.840 --> 00:18:46.519
+Does anyone know anyone at that company? And they're like, No.
+
+200
+00:18:47.159 --> 00:18:50.274
+So very immature indication of where
+
+201
+00:18:50.275 --> 00:18:54.515
+we're at and it reinforces what we've been talking about for 124
+
+202
+00:18:54.515 --> 00:18:58.274
+<v Unknown> previous episodes. Yeah, it is really ridiculous. I mean, there's
+
+203
+00:18:58.755 --> 00:19:19.129
+<v Unknown> BIG with a capital B industry that relies on these tools. So it's taking seriously. Well, stay tuned for breaking news on Friday. Yeah. Yeah. Next week, I'm sure will be a fun pod. Are we gonna post that from the two fifty six Twitter account or just follow Schnitzel or what? Follow both. Both. Okay. Yeah. And there'll be
+
+204
+00:19:19.665 --> 00:19:21.985
+<v Unknown> a lot of detail on our website as well
+
+205
+00:19:23.265 --> 00:19:29.505
+coming up. Scott, what's been going on with KiCad and Astra? So KiCad is fantastic
+
+206
+00:19:29.505 --> 00:19:33.745
+<v Unknown> GPL open source software for designing PCBs. It's been around for a long time.
+
+207
+00:19:35.450 --> 00:20:01.345
+It kinda went from this project that was like this goofball project that no one would use. Like, I remember trying to use it around, like, version four, and I was like, this is a hot mess. I can't even figure out how to install it, much less, like, actually make a PCB with it. And then I came back to it around version six. I was like, Okay, I think I was using like a prerelease version of six. And I was like, I was doing contract design work back then. And I was like, I think I can do a project with this.
+
+208
+00:20:02.960 --> 00:20:13.840
+And now they're on. Well, we're on the heels of version 11 being released and it's gotten really good. It's very usable. You can do professional grade work with it and it's all open source.
+
+209
+00:20:15.685 --> 00:20:20.245
+<v Unknown> A complete novice like me was even able to use it productively.
+
+210
+00:20:20.245 --> 00:20:23.045
+<v Unknown> Which is saying a lot because these tools are
+
+211
+00:20:23.525 --> 00:20:24.325
+these
+
+212
+00:20:24.325 --> 00:20:29.205
+CAD tools, they call them ECAD electronics CAD tools are notorious
+
+213
+00:20:29.205 --> 00:20:30.005
+for being
+
+214
+00:20:30.460 --> 00:20:31.260
+really
+
+215
+00:20:32.380 --> 00:20:38.940
+just dense. Right? And it's not like an intuitive process and a huge learning curve. So that is saying a lot.
+
+216
+00:20:39.340 --> 00:20:42.300
+KiCad is really neat because it's open source. It's free.
+
+217
+00:20:43.115 --> 00:20:44.955
+Whereas the other tools
+
+218
+00:20:45.035 --> 00:20:49.355
+are, you know, thousands of dollars a year for a license.
+
+219
+00:20:49.355 --> 00:20:53.835
+You know, they're all SaaS, and they're all very expensive. And they do have a lot more features, but
+
+220
+00:20:55.789 --> 00:20:59.230
+kinda like specialist stuff. Anyways, Keycut is fantastic
+
+221
+00:20:59.230 --> 00:21:00.029
+project.
+
+222
+00:21:00.190 --> 00:21:05.070
+I've been you know, all the bit axes were designed with that. The Ember one, the LibreBoard,
+
+223
+00:21:05.070 --> 00:21:13.535
+like very workable software. Well, then this AI thing happened. I don't know if you guys heard, but AI has been pretty popular lately. No.
+
+224
+00:21:13.615 --> 00:21:16.255
+Yeah. Yeah. It's totally crazy. And so
+
+225
+00:21:16.575 --> 00:21:27.679
+it's a natural fit that, like, people would point their AI tools at open source software, KiCad, and try and integrate it. And people have been working on that for a while, and it's been
+
+226
+00:21:28.400 --> 00:21:29.440
+it's been,
+
+227
+00:21:29.840 --> 00:21:31.039
+you know, helpful,
+
+228
+00:21:31.120 --> 00:21:33.999
+but it wasn't like you just one shot a PCB. You know?
+
+229
+00:21:34.720 --> 00:21:39.885
+In the past, LLMs have had really difficult time with kind of, like, spatial
+
+230
+00:21:39.885 --> 00:21:48.765
+stuff, you know, like like, make a JPEG and connect these two lines together, and it would just sort of, like, fail. Right? It's a large language model, not like a large, like, graphics model or something.
+
+231
+00:21:49.930 --> 00:22:01.290
+So it always you could get it to make a schematic, but, like, the lines wouldn't connect, and you're like, what's going on? Well, I guess, ASTRO, one of its one of its main features that they added was improving that, like, spatial
+
+232
+00:22:02.465 --> 00:22:03.345
+ability
+
+233
+00:22:03.745 --> 00:22:07.265
+so that it can actually, like, generate cohesive schematics.
+
+234
+00:22:08.385 --> 00:22:30.460
+And they before they released it, they actually demoed it, like, from OpenAI. They had a demo video that they posted of a board being auto routed, like, the the parts being placed on the board and rotated and doing all the tracks and laying it all out. That blew my mind when I saw that because like we have not been anywhere near that with AI tools. Like we've had auto routers as software for a decade or more,
+
+235
+00:22:32.025 --> 00:22:51.070
+but you've never seen an AI tool do it. So that was really cool. And then there was just immediately, like, you know, the whole Twitterverse that pays attention to this stuff was blown up with, how do we do this? Like, they, you know, they just released a video, like, no prompts or scale files or anything like that. And so Wow. A lot of people have been digging into it, including myself.
+
+236
+00:22:51.310 --> 00:22:52.030
+And
+
+237
+00:22:52.910 --> 00:23:02.455
+I'm proud to report that it it is a huge stepwise improvement in the ability of AI LLM models to generate PCBs.
+
+238
+00:23:02.455 --> 00:23:03.014
+I
+
+239
+00:23:04.615 --> 00:23:17.860
+have got a project which is kind of a separate board for that contains the display for the Bidax Proto, and it need I needed to change the display. And I I wasn't exactly one shotting it, but, like, it's doing the work. Crazy.
+
+240
+00:23:17.860 --> 00:23:20.899
+So I think the the future where you you can,
+
+241
+00:23:21.059 --> 00:23:21.700
+like,
+
+242
+00:23:22.580 --> 00:23:31.835
+use AI to build a real working PCB design and then, you know, have a manufacturer build it or maybe build it yourself, that's coming really quickly.
+
+243
+00:23:32.715 --> 00:23:33.274
+<v Unknown> Wow.
+
+244
+00:23:33.515 --> 00:23:35.835
+<v Unknown> Not ten years? No, no. I think
+
+245
+00:23:37.034 --> 00:23:38.554
+ten months we
+
+246
+00:23:39.195 --> 00:23:43.000
+will be one shotting basic PCBs and 'll be enabling,
+
+247
+00:23:43.640 --> 00:23:52.679
+people with minimal prior experience to bang out very complicated PCBs in a hurry. So that's really cool. That's really, really cool. I think that this relates to,
+
+248
+00:23:53.160 --> 00:23:57.815
+what we're trying to do at 256 on the hardware side of things in that now
+
+249
+00:23:58.455 --> 00:24:03.015
+with our reference designs, like number one and LibreBoard and maybe future projects,
+
+250
+00:24:03.975 --> 00:24:06.615
+things we can provide are are like skill files
+
+251
+00:24:06.775 --> 00:24:11.415
+Mhmm. As to like how to do it. It can use the reference design as context,
+
+252
+00:24:11.415 --> 00:24:33.104
+and you could just talk to your LM and be like, I want to add, I want to double the number of ASICs on it, or I want to make it the form factor to fit in this shoebox or this hot water heater. And you can iterate now very quickly and modify this to do what you want, which before was a very, very involved manual process. And these large models thrive
+
+253
+00:24:33.345 --> 00:24:34.624
+<v Unknown> on examples,
+
+254
+00:24:34.784 --> 00:24:37.984
+right? Because that's what they ingest as their context.
+
+255
+00:24:37.985 --> 00:24:48.200
+And so it reinforces the skill file, sure, and the compute power and the model's ability to do that is one thing, but then having a reference of an open source firmware,
+
+256
+00:24:48.280 --> 00:25:02.495
+<v Unknown> hash board, control board, and mining pool is what is going to allow this rapid development. Yes. I I think the future where you could take, you know, the the the output of two fifty six and all the the reference designs
+
+257
+00:25:03.615 --> 00:25:08.575
+and a skill file that says how to use KiCad and maybe a skill file that shows how to use
+
+258
+00:25:09.460 --> 00:25:28.404
+Fusion three sixty or whatever mechanical CAD package you like. So now you have a reference design, you have the the skill files, so your AI can interact with your tools, and you can say, make it do this, and it'll just go. And then you can say, check it, simulate it, like, you know, do everything to convince me that it's right. Great. Generate the manufacturing files,
+
+259
+00:25:28.405 --> 00:25:30.965
+send that out to your your manufacturer,
+
+260
+00:25:31.445 --> 00:25:40.550
+and, you know you know, in a week, you get back the boards. And maybe you send the mechanical stuff to send, cut, send or whatever, and you get back the mechanical enclosure,
+
+261
+00:25:40.550 --> 00:25:43.990
+and you just start putting together things. Now this will be prototypes,
+
+262
+00:25:43.990 --> 00:25:49.429
+and there'll probably be some iteration that needs to go. But surprise, surprise, AI tools are very good at,
+
+263
+00:25:49.830 --> 00:25:52.885
+at testing. This is really cool. I actually pointed
+
+264
+00:25:52.885 --> 00:26:01.125
+I have an oscilloscope that has a ethernet connection on it. And so I just pointed I hooked up the probes from the oscilloscope to the device I wanted to test, and
+
+265
+00:26:02.005 --> 00:26:04.130
+I hooked up. I,
+
+266
+00:26:04.130 --> 00:26:24.695
+you know, gave my agent the IP address of the oscilloscope, and I was like, this isn't working. Test it and figure it out. And it was generating PDF reports that it gave to me with plots of the waveforms and being like, okay, this is not right. This is what's happening. It had access to the schematic for the board I was testing, and it'd be like, you know, if you change the capacitance of this one capacitor,
+
+267
+00:26:24.855 --> 00:26:31.330
+that could damp this spike that you're seeing here. Like, it's just madness. It's so fast. Dude, that's amazing.
+
+268
+00:26:31.490 --> 00:26:32.049
+<v Unknown> So,
+
+269
+00:26:32.929 --> 00:26:49.134
+<v Unknown> yeah, it's hard to explain how exciting this is. And this is gonna come to the broader electronic space and all niche industries, right? But it won't come to mining unless there are these reference building blocks. Yeah. Yeah. That's a really important point. You need to have something
+
+270
+00:26:49.695 --> 00:26:51.054
+<v Unknown> to give your
+
+271
+00:26:51.375 --> 00:26:54.174
+model, to give your LM context.
+
+272
+00:26:54.335 --> 00:27:09.300
+I guess you could reverse engineer it. You could have it reverse engineer it. But that's a whole Well, that's what everyone's been doing. That's a whole sideways path into this. And then you don't, like, completely know how it works. So, yeah, having having this output from 256,
+
+273
+00:27:09.300 --> 00:27:19.235
+the stuff we're working on, the open source stuff, and then all the people in the community who have commented what they've done and what's worked, what they've tried, what hasn't worked, all that is context.
+
+274
+00:27:19.235 --> 00:27:21.554
+You can build so fast.
+
+275
+00:27:21.795 --> 00:27:22.434
+I'm pumped.
+
+276
+00:27:22.915 --> 00:27:25.635
+<v Unknown> So that idiots like Eco and I can build miners.
+
+277
+00:27:26.899 --> 00:27:31.539
+<v Unknown> Everyone's going to be building their miners. So the question is now, which ASIC manufacturer
+
+278
+00:27:31.539 --> 00:27:37.859
+will sell chips? Yeah, who's selling all those chips? There was a really funny post. There's this guy, he's an electronics
+
+279
+00:27:37.860 --> 00:27:39.299
+commentary guy on Twitter.
+
+280
+00:27:42.095 --> 00:27:43.135
+He's he's
+
+281
+00:27:43.295 --> 00:27:49.135
+I two c Jack, like J A K. Amazing follow. Just the funniest stuff. But he's like,
+
+282
+00:27:50.815 --> 00:28:05.290
+look what I just one shotted with the new Astra model, and it's this picture of a like a full size room machine from TSMC. It's just like a render of it, but he was just implying that he'd made his own PC or his own chip fab. Obviously, he can't do that yet, but
+
+283
+00:28:05.770 --> 00:28:17.104
+the the sentiment is correct. Like, this stuff is moving very fast. Things that you can design and build now are things that were impossibly out of reach six months ago. That's crazy. Yeah. So we're excited
+
+284
+00:28:17.905 --> 00:28:49.855
+<v Unknown> to go to the open source AI summit that Presidio Bitcoin is putting on this coming week, two, five, six team, a handful of us will be there because these are tools that integrate directly into our work and our mission, everyone's work and mission. So hopefully there's some more learnings we can extract. Yeah. Yeah. I'm really excited about that. I think they really focus on local stuff, which is important too. Mhmm. I was telling Tyler earlier, was I was just jamming away on my on in codex, like, blah blah, and it it totally blew its brains out. It just like it printed some Korean characters
+
+285
+00:28:50.095 --> 00:28:58.140
+<v Unknown> and then started showing me, like, inner monologue, which was really weird. And then it said mentioned something about recipes and chefs and things, and it just stopped.
+
+286
+00:28:58.940 --> 00:29:03.740
+And Dude, what? It was weird. But my heart sank. I was like, no. No. No. Like, I gotta have this.
+
+287
+00:29:04.485 --> 00:29:09.445
+Don't be failing me now. I'm in the middle of a project. I gotta get this done. You could just imagine
+
+288
+00:29:09.845 --> 00:29:19.749
+if the powers that be rugged our access to AI, it would crash the global economy at this point. Much less take all of us freedom tech fighters offline.
+
+289
+00:29:20.070 --> 00:29:23.190
+<v Unknown> Do you do you run your own local agent or,
+
+290
+00:29:23.510 --> 00:29:31.235
+<v Unknown> like Well so, yes, I do. I don't I'm not using it for my, like, mainline development. I'm using OpenAI's
+
+291
+00:29:31.235 --> 00:29:35.234
+Astra now. But I'd actually, you can see it right there. I got this box,
+
+292
+00:29:35.955 --> 00:29:36.514
+and
+
+293
+00:29:37.875 --> 00:29:39.154
+I got an old
+
+294
+00:29:40.995 --> 00:29:42.195
+a very old
+
+295
+00:29:42.355 --> 00:29:43.394
+NVIDIA,
+
+296
+00:29:43.394 --> 00:29:45.475
+like, workstation GPU
+
+297
+00:29:45.390 --> 00:29:47.710
+and put it in there and loaded
+
+298
+00:29:49.230 --> 00:29:50.909
+a QUEN 3.8
+
+299
+00:29:51.070 --> 00:29:53.549
+on there. And it's surprisingly
+
+300
+00:29:53.550 --> 00:30:05.254
+<v Unknown> good. That's awesome. Yeah. Like, I think it could, you know, in the AI apocalypse, it sustain me. So for the listeners, how do they get started if they want to start hacking on either mining software
+
+301
+00:30:05.255 --> 00:30:08.134
+or mining firmware or mining hardware
+
+302
+00:30:08.135 --> 00:30:12.695
+with AI tools? Is it as dumb simple as
+
+303
+00:30:12.070 --> 00:30:20.790
+getting an account or downloading a local model and then pointing it at some public repos and asking it to start hacking around? You know that old meme like when your
+
+304
+00:30:20.950 --> 00:30:28.794
+<v Unknown> mom or something would ask you like, Oh, how do I get the printer working? Just Google it. Like, please, Google Nest ideas. The new is like, just ask ChatGPT.
+
+305
+00:30:29.274 --> 00:30:38.235
+I say this all the time now and those seem to discord as people will be like, oh, you know, like I'm having trouble doing this. I'm like, like, I could help you, but like, you should ask OpenAI.
+
+306
+00:30:38.235 --> 00:30:51.249
+Like, if you have to reference the ESP minor GitHub, put that in there, tell it what you're trying to do. You could talk all night with that thing like any questions you have. It'll lead you down the right path. It'll answer them so that that's what I recommend is.
+
+307
+00:30:51.809 --> 00:30:55.170
+You don't even need to get fancy like get the the free
+
+308
+00:30:56.294 --> 00:30:57.575
+chat GPT
+
+309
+00:30:57.735 --> 00:31:00.054
+or grok or
+
+310
+00:31:00.615 --> 00:31:01.414
+claud
+
+311
+00:31:02.375 --> 00:31:03.335
+chat
+
+312
+00:31:03.335 --> 00:31:04.215
+agent
+
+313
+00:31:04.215 --> 00:31:13.859
+and just start asking it questions like it be like it will. It will give you the two fifty six repos if that's pertinent to what you're trying to do. But ask it your questions,
+
+314
+00:31:14.419 --> 00:31:27.555
+start a dialogue with it, and just It will take you very far down the rabbit hole. So yeah, that's what I would do. I'd be like, you know, if you, like, have something in a goal in mind that you wanna do, like, say, I wanna build a number one,
+
+315
+00:31:28.355 --> 00:31:33.235
+you know, you can give it the the repo. You can give it the the two fifty six website,
+
+316
+00:31:33.235 --> 00:31:36.515
+the the the discourse
+
+317
+00:31:35.850 --> 00:31:37.769
+chat room as context,
+
+318
+00:31:37.770 --> 00:31:52.475
+and it will help you understand a ton about that. Get it up get up to speed really quickly. You can even, like, chat with it. Right? You don't have to type. You can just talk to it while you're driving to work or, like, sitting on the bus. Like In your cyber cab robotaxi?
+
+319
+00:31:52.475 --> 00:31:54.715
+Yes. While you're in your robotaxi,
+
+320
+00:31:55.515 --> 00:31:59.995
+it'll get you up to speed really quickly. And then you can jump off and get
+
+321
+00:32:00.235 --> 00:32:03.195
+a development environment set up, testing tools,
+
+322
+00:32:03.355 --> 00:32:04.475
+all that, be
+
+323
+00:32:05.320 --> 00:32:11.720
+a 10x engineer overnight. That's wild. It's never been easier. Yeah, right. And
+
+324
+00:32:11.720 --> 00:32:12.840
+it's
+
+325
+00:32:12.840 --> 00:32:15.960
+exponentially easier and it's getting easier
+
+326
+00:32:16.040 --> 00:32:18.680
+<v Unknown> by the day. You see that Bitmain's
+
+327
+00:32:18.680 --> 00:32:19.960
+new S23
+
+328
+00:32:19.960 --> 00:32:21.160
+XP
+
+329
+00:32:20.924 --> 00:32:22.125
+is 8.9
+
+330
+00:32:22.125 --> 00:32:24.044
+joules per terahash. Crazy.
+
+331
+00:32:24.284 --> 00:32:26.364
+<v Unknown> That's crazy. Liquid cooled? Yeah,
+
+332
+00:32:26.845 --> 00:32:31.724
+it's a hydro only. Yeah, three And it runs on, yeah, three phase. That
+
+333
+00:32:32.284 --> 00:32:34.445
+<v Unknown> is interesting. You gotta be a special
+
+334
+00:32:34.850 --> 00:32:55.754
+kind of crazy if you wanna try that at home. Not even commercial buildings have four eighty volt power very often. It's usually two zero eight, three fifty. Yeah, two zero eight. Need a step up transformer. It's like, yeah, you gotta need it to have it. Like if I didn't have so many projects already, I feel like, what do we need to do here? We need to understand how those hash boards work,
+
+335
+00:32:56.394 --> 00:32:57.754
+how the firmware works,
+
+336
+00:32:58.394 --> 00:33:12.149
+but we could hook up a different power supply to it. If you want to usually, Like they have three hash boards in there. If you want to, maybe you could just run one. That's probably, like, a couple thousand watts. That's now we're in the the realm of single phase power.
+
+337
+00:33:12.470 --> 00:33:18.054
+We just need a different power supply. We need to figure out how to deliver 24 volts or whatever the hash board wants.
+
+338
+00:33:18.775 --> 00:33:30.700
+And then you gotta keep it cool, and you gotta have firmware that doesn't just blow its brains out when it doesn't recognize the stock power supply, which is what Magena will do for you. So these things are these things are within reach.
+
+339
+00:33:32.540 --> 00:33:36.220
+It's just said, for example, 24 volt power supply
+
+340
+00:33:36.540 --> 00:33:38.460
+at the rated power
+
+341
+00:33:39.340 --> 00:33:41.020
+for these hash boards.
+
+342
+00:33:41.644 --> 00:33:46.124
+And so if you want to just run one, we could do it. Yeah, the physics don't change.
+
+343
+00:33:47.804 --> 00:33:51.005
+<v Unknown> Dylan had Mugino working on an S19K
+
+344
+00:33:51.005 --> 00:33:52.445
+Pro last week and
+
+345
+00:33:52.605 --> 00:33:54.445
+he was trying to implement the
+
+346
+00:33:54.940 --> 00:34:10.220
+power set feature where you demand a specific wattage when really that's one input but under the hood it's tweaking voltage and frequency, so two knobs and that results in some wattage consumption and some current that many miners don't report. And so
+
+347
+00:34:11.795 --> 00:34:14.515
+it was funny, the stock AMLogic
+
+348
+00:34:14.515 --> 00:34:21.555
+control board had both brains and Mugena on it at the same time, and it was just switching back and forth. They're both like, what the hell is going on?
+
+349
+00:34:22.035 --> 00:34:24.755
+Couldn't run them both at the same time, but it was switching back and forth.
+
+350
+00:34:25.800 --> 00:34:32.600
+And it was effectively trying to figure out this, is it a lookup table, Scott? So it's interesting, like LuxOS
+
+351
+00:34:32.600 --> 00:34:41.240
+in the UI, it just gives you the two knobs. It says set voltage, set frequency. And then it shows you that resulting wattage estimate. BrainsOS says put in your wattage request,
+
+352
+00:34:41.585 --> 00:34:53.505
+but it's tweaking voltage and frequency behind screen. And you made me think of that with wattage and single board because we came into the space the next day and the whole building smelled like burnt PCBs.
+
+353
+00:34:53.744 --> 00:34:54.705
+<v Unknown> Oh no.
+
+354
+00:34:55.265 --> 00:35:05.140
+<v Unknown> Delightful smell in the morning. Yeah. So that's part of development, but it's been interesting. That is reverse engineering, right? Like how does this work? Because they didn't have the current sensor on there.
+
+355
+00:35:06.020 --> 00:35:06.820
+And so the
+
+356
+00:35:07.300 --> 00:35:11.620
+LLM has to teach itself. Okay, if I tweak this and don't tweak that, what happens?
+
+357
+00:35:11.860 --> 00:35:19.645
+<v Unknown> I think one of the, ouch when you're when you're playing with these things, one of the first things you wanna get down is your temperature sensors
+
+358
+00:35:19.964 --> 00:35:23.404
+and a tight loop control sequence
+
+359
+00:35:23.404 --> 00:35:27.130
+that says, if the temperature exceeds this amount, turn it That's
+
+360
+00:35:27.130 --> 00:35:29.610
+important. Now you're safe to just
+
+361
+00:35:29.930 --> 00:35:33.850
+start throwing things at it as long as you have that in there. That's your parachute.
+
+362
+00:35:33.850 --> 00:35:36.730
+<v Unknown> We did. One of the fans died. Oh, wasn't really?
+
+363
+00:35:37.050 --> 00:35:37.530
+<v Unknown> You're right.
+
+364
+00:35:38.090 --> 00:35:39.850
+The temperature goes up and you turn it off.
+
+365
+00:35:40.535 --> 00:35:43.735
+<v Unknown> Luckily, didn't burn the building down. Did it catch on fire?
+
+366
+00:35:44.535 --> 00:35:49.335
+<v Unknown> It just smelled like it was cooked. Yeah. Is it cooked? Is it done? Have you tried turning it back I
+
+367
+00:35:50.295 --> 00:35:51.575
+<v Unknown> think it's cooked. I
+
+368
+00:35:52.695 --> 00:35:57.450
+<v Unknown> had a similar situation happen where I didn't take my own advice and didn't have that thermal
+
+369
+00:35:58.170 --> 00:36:06.490
+safety in there and got a s 19 j pro so hot that even after it was off, the fan grill on the outside, like,
+
+370
+00:36:07.130 --> 00:36:08.250
+burned my skin.
+
+371
+00:36:08.810 --> 00:36:10.810
+Damn. Tripped the breaker in my house
+
+372
+00:36:11.335 --> 00:36:11.975
+and
+
+373
+00:36:12.135 --> 00:36:22.535
+but it actually still worked after that. So the fans didn't work, but the the minor did. I don't Crazy. Sometimes they can recover from that. Which model was that did you say? That was a J Pro. Okay.
+
+374
+00:36:22.935 --> 00:36:46.945
+<v Unknown> Run running like a Mugena, like hacked a piece Mugena on it. Yeah. Is this going to be the status quo for getting Mugena support to subsequent machines where you have to relearn its behavior every time before you make the image? As far as estimating the power? Yeah. I mean, guess some machines do have current sensors, Some do not. I don't think any Bitmain machines do have current sensors as far as I know. Maybe the brand new ones,
+
+375
+00:36:47.665 --> 00:36:54.690
+<v Unknown> but they typically for whatever reason don't put that in there. What's Miner does? So you can ask the power supply, what's the current right now?
+
+376
+00:36:55.090 --> 00:37:06.610
+And then that allows you to just say this is the power. And if you wanna tune for a different power, you can just, you know, change the voltage and frequency until your power supply says you're at that power.
+
+377
+00:37:07.215 --> 00:37:15.375
+But, yeah, I mean, you're alluding to is it has to it's all kind of faked on bitmain machines with a third party firmware because you can't
+
+378
+00:37:15.455 --> 00:37:19.135
+actually get the current, so you can't actually get the power.
+
+379
+00:37:19.935 --> 00:37:34.450
+Power is current times voltage. And in these cases, you only have voltage, so you can't really get it. So they clearly, they've done is they have a lab setup where they have an ammeter connected to it, can measure the current, and can try all these combinations and create
+
+380
+00:37:35.244 --> 00:37:44.445
+like a transfer function to say, you know, if we set this hash frequency and voltage, this is what the power is. So then they can give that to you. But it's not actual.
+
+381
+00:37:44.525 --> 00:37:46.125
+It's just estimated.
+
+382
+00:37:46.365 --> 00:37:53.940
+<v Unknown> Yeah. It's like when you put your foot on the gas in your car, it doesn't tell the engine make this much horsepower. It adds more fuel and air and you result
+
+383
+00:37:53.940 --> 00:38:00.339
+in some horsepower. Yes. But then you have the speedometer for feedback. Yep. Yeah. That's fascinating. It's fun to develop.
+
+384
+00:38:00.579 --> 00:38:06.984
+I mean, effectively through all these projects, what we've done for the better part of a year, all of 2025 for sure was
+
+385
+00:38:07.224 --> 00:38:40.205
+<v Unknown> all you guys reverse engineered the whole industry and figured out how it worked. And then we showed that in early twenty twenty six as a dev kit and started bringing it to conferences and talking to people about it. And our findings and feedback loop has been, no one knows how this industry works. Yeah. Yeah. It's really interesting. Yeah. It is really It's funny how closed source does that. Yeah. Yeah. That's a really good point. How it keeps everybody in the dark. Like there are people who know exactly how this works, clearly. I mean, someone had to build it. Hopefully they know exactly how it works, but they're not talking to anyone. They're not talking to their customers. They're not talking to,
+
+386
+00:38:40.445 --> 00:38:46.950
+you know, their competitors. They're not talking to anyone. And so it just kind of stays there and that loop doesn't get any
+
+387
+00:38:47.590 --> 00:38:48.870
+chance to amplify.
+
+388
+00:38:49.350 --> 00:38:57.590
+<v Unknown> And I want to shout out a tool that we used for that reverse engineering because Dylan was using this extensively last week, a tool that Schnitzel made called HashScope
+
+389
+00:38:57.865 --> 00:39:25.910
+that sits in between the server side pool and the client side firmware instance, and it watches shares and network traffic. And so that was paramount in getting Mugena working on the S19K Pro because it can actually see the traffic of what's going on, what's being submitted, what's being rejected. And it's just funny to figure out how Stratum one worked through the development of Mugena and HydroPool. We had to make this ancillary tool that sits in the middle and it goes, I think the firmware is trying to tell the pool this. And we're like, Okay, write that down.
+
+390
+00:39:27.975 --> 00:39:28.855
+<v Unknown> It's
+
+391
+00:39:28.855 --> 00:39:36.615
+insane. It is insane. But like we were talking about earlier, this industry just doesn't have any
+
+392
+00:39:36.775 --> 00:39:39.175
+concept of open standards,
+
+393
+00:39:39.175 --> 00:39:40.295
+much less open source.
+
+394
+00:39:42.150 --> 00:39:58.625
+Everyone's just kind of in their own little fiefdoms and not sharing anything presumably to protect their profits. But I think it's kind of doing the opposite. Yeah, don't Bitmain and What's Miner have an agreement to not have like components on their miners?
+
+395
+00:39:59.105 --> 00:40:00.065
+<v Unknown> Yeah. That's
+
+396
+00:40:01.025 --> 00:40:01.745
+<v Unknown> Yeah. Word on the
+
+397
+00:40:02.945 --> 00:40:07.105
+<v Unknown> That's wild. It is wild. Well, It can't be sustainable.
+
+398
+00:40:07.105 --> 00:40:09.585
+There's just no way. I don't see it. I wanna
+
+399
+00:40:09.840 --> 00:40:22.640
+<v Unknown> open up an interesting topic of discussion though. If closed source is not sustainable, which I think we all agree and it stifles the industry and holds it back, it's very immature. We're 18 in, seventeen years in, still very immature.
+
+400
+00:40:24.305 --> 00:40:25.825
+Fully open source,
+
+401
+00:40:26.065 --> 00:40:28.625
+whether you call that MIT or no license,
+
+402
+00:40:28.865 --> 00:40:30.545
+with the agentic
+
+403
+00:40:30.545 --> 00:40:35.744
+tooling that's now available, also seems to me like the opposite. It's like equally
+
+404
+00:40:35.744 --> 00:40:40.650
+as chaotic cause everybody just has their vibe coded versions of everything and nothing is interoperable.
+
+405
+00:40:40.650 --> 00:40:43.850
+There's no standards. There's no well thought out architecture.
+
+406
+00:40:43.850 --> 00:40:49.930
+And it's something I've been thinking a lot about as we communicate our projects and our licenses and just seeing all of the
+
+407
+00:40:51.195 --> 00:41:07.460
+new miners that are coming out that are, you can tell it's got some Vibe coded one shot firmware. Maybe it's closed, maybe it's fully open, Scott. I'm sure you're thinking about this as well. It's interesting to me. It's like the opposite of closed source, but I don't think, I also think it introduces similar problems where it's just like there's no ecosystem.
+
+408
+00:41:07.460 --> 00:41:08.580
+<v Unknown> Yeah. And there's no
+
+409
+00:41:08.900 --> 00:41:12.660
+like like if you have, like, MIT Open Source,
+
+410
+00:41:12.900 --> 00:41:13.620
+for example,
+
+411
+00:41:13.860 --> 00:41:15.700
+and people aren't publishing
+
+412
+00:41:15.860 --> 00:41:35.390
+their changes because they're not required to. Like, it just silos it off, and it it just sort of dies in those silos or or fails to get any better. Right? It's like you're you're kinda just it's growing. It's growing. And then you just, like, cap it right there in your own silo. And so, yeah, you can use LLMs to
+
+413
+00:41:35.630 --> 00:41:41.710
+make progress on top of that. But you're now you're in this this little circle that is your organization,
+
+414
+00:41:42.430 --> 00:41:44.350
+and that's where it stops.
+
+415
+00:41:44.430 --> 00:41:49.285
+They're all forks. Yeah, they're all forks. And they and they don't they don't benefit from
+
+416
+00:41:49.605 --> 00:41:57.445
+what people are doing. Right? Like, sure, you're you're hyping, like, screenshots of what you're doing online and stuff, but that doesn't that doesn't actually benefit anything,
+
+417
+00:41:57.605 --> 00:42:06.010
+you. Right? Including the person that forked it off. Right? Because they were they were relying on the open source community to get them to where they started. And
+
+418
+00:42:06.490 --> 00:42:08.330
+then they just stopped
+
+419
+00:42:08.330 --> 00:42:08.890
+that
+
+420
+00:42:09.210 --> 00:42:14.170
+you know, forked off from that right there. And then they're just relying on what they can do themselves.
+
+421
+00:42:14.410 --> 00:42:15.530
+So I think
+
+422
+00:42:15.995 --> 00:42:19.515
+<v Unknown> Yeah, because all the mature It's so excited. All the mature industries
+
+423
+00:42:19.515 --> 00:42:35.790
+seem to have two criteria, open source, but then it's wherever the community goes and the contributor flywheel is in effect and you have the snowball effect of compounding progress, right? And having one doesn't necessarily get you the other. It's kind of a winner takes all. Yeah, but I just think it's gonna
+
+424
+00:42:36.350 --> 00:42:37.230
+<v Unknown> be hard to
+
+425
+00:42:38.350 --> 00:42:40.750
+be the winner if you just silo yourself off.
+
+426
+00:42:41.675 --> 00:42:51.755
+Maybe in the long term, it's going be hard to be the winner. Maybe in the short term, you're like, Oh, this is great. I added this rad new feature. None of my competitors have it. I can make more money now. But let's
+
+427
+00:42:51.755 --> 00:42:52.555
+high type inference.
+
+428
+00:42:53.570 --> 00:43:02.610
+<v Unknown> Yeah, we talked about it a little bit this morning. It's like this forcing effect, right? The Linux kernel is so polished from a security
+
+429
+00:43:02.690 --> 00:43:04.450
+feature set standpoint
+
+430
+00:43:04.610 --> 00:43:31.390
+that you wouldn't really go waste your time trying to make your own fork or version, right? And trying to get what doesn't exist that doesn't exist in the mining industry and we're trying to build it and then get that forcing function to break through where everyone comes to start contributing to this project with that ecosystem and community has been a narrative we're trying to tell. And I guess that goes back to my comment on no one knows how this industry works or how anything works. And it's been a little bit difficult at times to get people to understand that.
+
+431
+00:43:31.869 --> 00:43:34.195
+<v Unknown> You do see this in Linux where
+
+432
+00:43:34.915 --> 00:43:36.835
+a new CPU manufacturer,
+
+433
+00:43:36.835 --> 00:43:38.595
+for example, will make a new CPU.
+
+434
+00:43:38.675 --> 00:43:44.115
+And so they fork the Linux kernel and they add what is needed to support their
+
+435
+00:43:44.275 --> 00:43:45.075
+CPU.
+
+436
+00:43:45.075 --> 00:43:50.730
+Right? And they'll they'll release it. Right? They wanna make sure that people who are building on this CPU have
+
+437
+00:43:51.530 --> 00:43:56.730
+Linux kernel that supports that CPU. So they'll they'll release it. Sometimes a source,
+
+438
+00:43:57.210 --> 00:43:58.330
+usually the source.
+
+439
+00:43:58.490 --> 00:43:59.050
+But
+
+440
+00:43:59.290 --> 00:44:04.835
+if they don't get their changes merged into mainline Linux eventually,
+
+441
+00:44:05.075 --> 00:44:10.675
+then it their fork gets stale. And you'll be like, oh, you could use the new x y z CPU,
+
+442
+00:44:10.755 --> 00:44:19.150
+but it's only supported by this old Linux kernel version. And so you're gonna be left behind by all the other features that are getting that other people are adding to Linux.
+
+443
+00:44:20.110 --> 00:44:25.870
+You see this all the time. Back in the Raspberry Pi craze, when everyone was trying to make a Raspberry Pi killer,
+
+444
+00:44:26.350 --> 00:44:33.865
+and releasing their own single board computers, this happened all the time. It'd be like, Oh, you could get this one, but it's on an old
+
+445
+00:44:34.185 --> 00:44:35.225
+Linux kernel.
+
+446
+00:44:35.465 --> 00:44:38.025
+You don't want to do that because it's now you
+
+447
+00:44:38.265 --> 00:44:49.830
+<v Unknown> can't do all this other good stuff that Linux does. So that points out it's not like, Hey, you added these features, you put in this work, you're giving them away. It also ensures that your project and the efforts that you made
+
+448
+00:44:50.630 --> 00:44:54.790
+<v Unknown> last and are usable. Yeah, yeah. Right? So publishing
+
+449
+00:44:55.670 --> 00:44:58.635
+your fork is great. And in a lot of cases,
+
+450
+00:44:58.875 --> 00:44:59.995
+it's required.
+
+451
+00:45:00.315 --> 00:45:00.955
+But
+
+452
+00:45:01.435 --> 00:45:04.315
+making that effort to get your changes
+
+453
+00:45:04.555 --> 00:45:07.115
+merged back into the mainline branch
+
+454
+00:45:07.515 --> 00:45:14.530
+is is good for you in the long run. You get the furthest reach. Yeah. It's been fascinating to think more about. But, you know, that said,
+
+455
+00:45:15.490 --> 00:45:26.515
+even with the GPL stuff that we're doing, right, you you can't like, say you're a big mega miner, right? You can take it and you can add your special sauce on top of it, And
+
+456
+00:45:26.515 --> 00:45:40.915
+you can run that at your farm, and you don't have to tell anyone, and you can keep those advances secret for yourself. I would argue that it will help you in more in the long run to contribute that back to mainline Maginha or whatever it is that you're using, but you're not required to.
+
+457
+00:45:41.610 --> 00:45:45.850
+You're only required to release your changes when you just when you start selling it, essentially.
+
+458
+00:45:46.250 --> 00:45:46.810
+So
+
+459
+00:45:47.290 --> 00:45:51.210
+that that choice is yours. So I don't want I don't want potential
+
+460
+00:45:51.770 --> 00:45:53.930
+users of open source software to think like,
+
+461
+00:45:54.575 --> 00:46:04.734
+oh, you know, we can't do that because we don't wanna give away our secrets. You can keep your secrets secret if that's the bad decision you want. What's that meme from Lord of the Rings? Keep your secrets.
+
+462
+00:46:04.974 --> 00:46:10.700
+<v Unknown> Yeah, makes sense. What else is going on? Anything you guys wanna hit on? Should we give a shout out to some miners? Yeah.
+
+463
+00:46:10.859 --> 00:46:13.500
+Let me pull up the hash dash. 140
+
+464
+00:46:13.500 --> 00:46:15.260
+terahash per second
+
+465
+00:46:15.500 --> 00:46:19.180
+live on the -256f.org.
+
+466
+00:46:19.260 --> 00:46:25.985
+20 users, 43 workers. New user, Kenis, Q E N I S, 70 terahash.
+
+467
+00:46:25.985 --> 00:46:28.385
+<v Unknown> All right. Thanks for your support. Zarka.
+
+468
+00:46:29.265 --> 00:46:29.825
+<v Unknown> Same Yeah.
+
+469
+00:46:30.385 --> 00:46:31.665
+A longtime supporter.
+
+470
+00:46:31.745 --> 00:46:40.940
+<v Unknown> Those Bitcoin Park miners in Austin that you took over, Scott, are still online. All right. Going strong. One of those is one of Ronin miners cool hydro
+
+471
+00:46:40.940 --> 00:46:50.380
+<v Unknown> cooled bit axes. That's right. That thing is rad. Very happy, cool chip, I'm sure. Yeah. And a very pleasant sort of gurgling sound. Fax777,
+
+472
+00:46:50.460 --> 00:47:02.435
+bunch of bit axes and nerd axes. PUBKEY also has their bit axes pointed still. That's PUBKEY DC, right? I think so. Yeah, we did an event there a while back and
+
+473
+00:47:02.835 --> 00:47:27.405
+<v Unknown> it was kind of neat. You could see that eventually we found out they had three bit axes sort of it's a really big bar and they had three stashed all around. And so Schnitzel has a pretty awesome script that will just automatically seek them out and change the address that they're mining to. Yeah, Teaser, I think that's one of the red team findings that if you can get on any operator's land, you basically can do whatever you want, steal all their hash rate. Yeah, yeah, that's right. That
+
+474
+00:47:27.805 --> 00:47:28.445
+is
+
+475
+00:47:29.885 --> 00:47:30.525
+how
+
+476
+00:47:30.765 --> 00:47:33.325
+all miners seem to work, including the Bitaxe.
+
+477
+00:47:34.230 --> 00:47:38.470
+I Yeah. Seems to be that way, especially for the larger miners, right? You could
+
+478
+00:47:38.550 --> 00:47:44.390
+<v Unknown> have decent network security on your miners firmware. Yeah. Schnitzel was telling me this term flat
+
+479
+00:47:44.390 --> 00:47:45.190
+LAN.
+
+480
+00:47:45.190 --> 00:47:52.865
+What does that mean? Does it mean all the machines are on the same network and it's not staggered? That's how I interpreted it. I don't know. I don't know.
+
+481
+00:47:54.385 --> 00:48:16.220
+<v Unknown> I don't really know. I imagine it's some sort of access control for the network. Like you can have both wired and wireless networks that don't allow arbitrary clients to connect. Yeah. That's thing you could do is, like, if you if you have a white list that says only these machines allow to connect to this network and outside subnets can't connect to the network, then you don't have to have security necessarily on your machines
+
+482
+00:48:17.165 --> 00:48:25.245
+<v Unknown> because no one can join it to change it. Would be one way to do Well, we're thinking about the network security engineers and all these large operators.
+
+483
+00:48:25.645 --> 00:48:26.845
+They've been the
+
+484
+00:48:27.165 --> 00:48:31.485
+most vocal ones working with Schnitzel on the two fifty six Red Team efforts being like,
+
+485
+00:48:32.220 --> 00:48:36.620
+I've been claiming this for years and no one paid attention. So stay tuned for Friday.
+
+486
+00:48:37.340 --> 00:48:38.619
+Hardestblocks.org,
+
+487
+00:48:38.619 --> 00:48:42.460
+another longtime supporter. I got a couple of rigs on there. D plus plus
+
+488
+00:48:43.260 --> 00:48:46.619
+Exergy with a Slim nineteen, Econo Alchemist,
+
+489
+00:48:46.905 --> 00:48:49.625
+Backwater Mining Collective, Satoki,
+
+490
+00:48:49.625 --> 00:48:52.825
+Agent P, Scott nine thousand, P. Buttweiler,
+
+491
+00:48:52.905 --> 00:48:54.585
+Schnitzel, Pizandy,
+
+492
+00:48:54.585 --> 00:48:55.385
+Dillon,
+
+493
+00:48:55.385 --> 00:48:57.305
+Clear and Nuclear.
+
+494
+00:48:57.465 --> 00:49:05.119
+I don't see any changes in that overall difficulty leaderboard. Electron's still leading. Did Orange Surf take down his BIP110
+
+495
+00:49:05.599 --> 00:49:08.960
+monitoring site? Don't know. I think it was OrangeDotSurf.
+
+496
+00:49:08.960 --> 00:49:11.839
+<v Unknown> I'm having trouble pulling it up. OrangeDotSurf,
+
+497
+00:49:11.839 --> 00:49:12.799
+<v Unknown> BIP110.
+
+498
+00:49:12.799 --> 00:49:14.720
+<v Unknown> I think it was BIP110.
+
+499
+00:49:14.799 --> 00:49:15.839
+OrangeDotSurf.
+
+500
+00:49:15.839 --> 00:49:17.680
+<v Unknown> Yeah. Looks like it's down. Case closed.
+
+501
+00:49:18.375 --> 00:49:19.975
+<v Unknown> Wasn't there also fork.
+
+502
+00:49:19.975 --> 00:49:22.615
+Observer? I think that's gone too. That was
+
+503
+00:49:24.055 --> 00:49:24.935
+<v Unknown> B10C Yeah,
+
+504
+00:49:25.735 --> 00:49:34.110
+B10C. Yeah. Anyways, I wanted to see, did they ever get a third block or did it stop at two blocks? They did. They got two more after that.
+
+505
+00:49:34.750 --> 00:49:47.565
+<v Unknown> I think they got a total of four blocks. And then they switched to block a two b? Yes. They switched to block a two b. I wonder because, you know, they changed the the mining algorithm, the hash algorithm.
+
+506
+00:49:47.565 --> 00:49:49.165
+But as far as I know,
+
+507
+00:49:49.725 --> 00:49:54.205
+all their Bitcoin 10 fork hash rate was coming from the what were those guys called?
+
+508
+00:49:55.085 --> 00:49:55.885
+Wildcat?
+
+509
+00:49:55.885 --> 00:49:57.645
+<v Unknown> Oh, Roughnecks. Roughnecks. Yeah.
+
+510
+00:49:58.205 --> 00:50:07.650
+<v Unknown> Yeah. So what are the roughnecks doing with all those machines? Wasn't a lot of it rented hash rate? Probably. Was rented hash rate. Yeah. Paying a premium to virtue signal. That
+
+511
+00:50:07.970 --> 00:50:09.090
+is pretty roughneck.
+
+512
+00:50:09.090 --> 00:50:10.530
+<v Unknown> Final boss of Bitcoin
+
+513
+00:50:10.690 --> 00:50:11.490
+is
+
+514
+00:50:11.490 --> 00:50:11.810
+yourself.
+
+515
+00:50:12.345 --> 00:50:22.825
+Yeah. It's funny even chatting with some people here at the space that I would call Bitcoiners or members here at the space and ask them about Bitcoin 10. They're like, what? What's Blake?
+
+516
+00:50:23.545 --> 00:50:23.865
+<v Unknown> Black.
+
+517
+00:50:24.579 --> 00:50:30.340
+Yeah. It well, it doesn't have anything to do with Bitcoin anymore. I I read a little bit about the that
+
+518
+00:50:30.900 --> 00:50:32.100
+<v Unknown> hash algorithm.
+
+519
+00:50:32.180 --> 00:50:33.140
+I guess the
+
+520
+00:50:33.380 --> 00:50:34.340
+the NSA
+
+521
+00:50:34.579 --> 00:50:37.380
+held a contest to see what was gonna be the
+
+522
+00:50:37.635 --> 00:50:48.915
+the follow on hashing algorithm to SHA two. So SHA two fifty six is an algorithm that's in the class called SHA two. So they want they're trying to they held a contest amongst cryptographers
+
+523
+00:50:48.915 --> 00:50:54.609
+years ago to see what was gonna be the successor, what was gonna be the algorithm used in SHA three.
+
+524
+00:50:56.609 --> 00:50:57.250
+And
+
+525
+00:50:57.410 --> 00:50:59.250
+Blake Balake was
+
+526
+00:50:59.569 --> 00:51:01.089
+did not win. It was the runner-up.
+
+527
+00:51:01.905 --> 00:51:07.265
+They actually chose for for Shaw three. They chose an algorithm called Kecak,
+
+528
+00:51:07.265 --> 00:51:09.025
+Kecak, something like that,
+
+529
+00:51:09.585 --> 00:51:12.785
+k e c c a k, I think. So that Kecak
+
+530
+00:51:12.785 --> 00:51:13.585
+is
+
+531
+00:51:13.985 --> 00:51:22.140
+is Shaw three. But Balake was the runner was the runner-up. And they they, you know, were like, we got something that seems to be working here. And so they
+
+532
+00:51:22.380 --> 00:51:23.660
+formalized it as
+
+533
+00:51:24.060 --> 00:51:25.660
+as Balake.
+
+534
+00:51:25.660 --> 00:51:25.819
+And
+
+535
+00:51:28.535 --> 00:51:30.695
+it it is kind of interesting.
+
+536
+00:51:30.695 --> 00:51:35.415
+It my agent wasn't entirely clear, but it thought that possibly
+
+537
+00:51:35.575 --> 00:51:42.455
+Block A is better suited to making an ASIC for than SHA two fifty six. Apparently,
+
+538
+00:51:42.455 --> 00:51:42.855
+it
+
+539
+00:51:43.460 --> 00:51:44.820
+just uses
+
+540
+00:51:44.900 --> 00:51:46.819
+add and XOR
+
+541
+00:51:46.819 --> 00:51:48.099
+logic functions,
+
+542
+00:51:48.260 --> 00:51:48.900
+whereas
+
+543
+00:51:49.220 --> 00:51:51.060
+SHA two fifty six uses
+
+544
+00:51:51.460 --> 00:51:53.380
+a bunch of, like, carries
+
+545
+00:51:53.619 --> 00:51:55.700
+and shift registers and things like that.
+
+546
+00:51:57.045 --> 00:52:03.445
+<v Unknown> Interesting. Sounds like they got options for the next time. Yeah. Who knows? Who knows? I just think it's retarded that they picked
+
+547
+00:52:03.685 --> 00:52:04.645
+<v Unknown> ZiaCoin
+
+548
+00:52:04.645 --> 00:52:21.970
+hash construction. That was a terrible idea. You shouldn't launch your new cryptocurrency with ASIC support. You're just like you're like, you know, like, you're you're giving your little kid, like, keys to the car before he knows how to It's crazy too that the Knott's Twitter account is going around saying
+
+549
+00:52:22.050 --> 00:52:23.170
+<v Unknown> that Bitcoin
+
+550
+00:52:23.170 --> 00:52:26.450
+was like, they're calling their minority fork
+
+551
+00:52:26.664 --> 00:52:27.464
+Bitcoin,
+
+552
+00:52:27.464 --> 00:52:36.265
+referring to it as such. And it's so confusing for people that don't know what's happening or like how ingenuine they're being about it.
+
+553
+00:52:36.984 --> 00:52:42.184
+It's frustrating to watch, you know, but basically they're just trying to push this narrative that Bitcoin was forked,
+
+554
+00:52:43.029 --> 00:52:44.390
+it's being attacked,
+
+555
+00:52:45.029 --> 00:52:46.150
+and this
+
+556
+00:52:46.789 --> 00:52:47.910
+four blockchain
+
+557
+00:52:47.910 --> 00:52:50.950
+that they have now is the actual Bitcoin.
+
+558
+00:52:52.309 --> 00:52:53.750
+Yeah. Dude, it's sad.
+
+559
+00:52:54.714 --> 00:53:01.675
+<v Unknown> So dumb. And deranged. I think it's a bad choice on their decision too, because it's just like bad SEO,
+
+560
+00:53:01.835 --> 00:53:05.115
+right? Like, they're never gonna dominate the results for Bitcoin.
+
+561
+00:53:05.275 --> 00:53:09.515
+Right. So how's anyone gonna find out about this? Yeah. We wish them well.
+
+562
+00:53:09.835 --> 00:53:12.470
+<v Unknown> Yeah. They can burn in hell. Oh boy.
+
+563
+00:53:13.590 --> 00:53:26.070
+<v Unknown> We wish them. Yeah. All right, gents. Well, good rip. Next week, I'm sure we're gonna dive deep. We'll have to see if maybe we can get Schnitzel on for red team stuff. Yes. That was a great idea. Oh yeah, that'd be good. Right after the announcement?
+
+564
+00:53:27.965 --> 00:53:33.085
+<v Unknown> Okay. Cool. Stay tuned. Thanks guys. All right. Till next time. See you guys. Peace.
+
+565
+00:53:33.485 --> 00:53:34.045
+<v Unknown> See you.
+

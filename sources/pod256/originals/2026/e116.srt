@@ -1,0 +1,1800 @@
+1
+00:00:00,000 --> 00:00:16,165
+Unknown: Welcome to pod two fifty six episode one sixteen. It's June 10. We've got a special guest in the studio with us today. Agent P, welcome to the show. Welcome. Thanks for having me, guys. Yeah. We're stoked to have you here. You've been a longtime listener,
+
+2
+00:00:16,325 --> 00:00:21,045
+longtime supporter of the show. I know you've been pointing minors to donation
+
+3
+00:00:21,445 --> 00:00:31,890
+pool for a while and interacting with the community on the telegram. And now we've got our new forum up. So thanks for being here. Thanks for being active in the community.
+
+4
+00:00:32,290 --> 00:00:38,290
+And you yourself have been taking some of these open source tools and tackling
+
+5
+00:00:38,290 --> 00:00:58,190
+mining centralization in your own way. And we think you've come up well, we recognize that you've come up with some pretty clever solutions, and we wanna hear about it and showcase it on the show and introduce our listeners to GridPool and other exciting things that you're working on. Awesome. Thank you, guys. Yeah. First, I just wanna say I'm really excited to be on the show. This is super
+
+6
+00:00:58,430 --> 00:01:06,430
+Unknown: fun for me. I've been listening since episode one. I remember when the show came out at at the time. So I I got into Bitcoin 2021,
+
+7
+00:01:06,510 --> 00:01:09,150
+but actually didn't didn't buy in right away
+
+8
+00:01:09,470 --> 00:01:21,665
+because I was trying to study it and understand it. And the thing that held me off from jumping in during the COVID liquidity rush and stimulus checks and everything was was mining centralization.
+
+9
+00:01:21,665 --> 00:01:26,170
+I I was trying to understand the system, and I looked and realized that 70%
+
+10
+00:01:26,170 --> 00:01:46,885
+of the hash rate is physically located within People's Republic Of China. And that seemed like a security vulnerability to me that I was not okay with. So I actually did not jump in with both feet in terms of buying until after the China mining ban. Because that ban happened, all the miners, instead of getting confiscated and used against the network,
+
+11
+00:01:47,460 --> 00:01:51,620
+were allowed to leave the country, which to me seems like one of the biggest geopolitical
+
+12
+00:01:51,620 --> 00:01:56,340
+mistakes in history. But whatever. We'll see how this plays out. So mining centralization's
+
+13
+00:01:56,340 --> 00:02:08,115
+kind of always been front and center for me in terms of how I understand the network and the the major challenges that I see facing it over the next decade plus. Obviously, the the mining ban happened. The miners distributed
+
+14
+00:02:08,115 --> 00:02:09,235
+all over the world.
+
+15
+00:02:09,475 --> 00:02:17,410
+I saw that as positive and jumped in. But then as I started learning more about how mining actually functions, realized that pools were a thing. Pools were centralized.
+
+16
+00:02:17,410 --> 00:02:20,290
+So it was somewhere in in, I think, 2023
+
+17
+00:02:20,290 --> 00:02:28,785
+when I was learning more about how mining actually functions and realizing how many problems were still out there and how close the whole ecosystem
+
+18
+00:02:28,785 --> 00:02:34,705
+was that February pod February started. And I was like, oh, these are the guys talking about the exact
+
+19
+00:02:34,945 --> 00:02:48,260
+problems that I am seeing. I hadn't seen anyone talking about solutions yet until this podcast showed up. So it really is exciting for me to be able to to be on here and just contribute in my own way, however I can. So with that framing, mining centralization,
+
+20
+00:02:48,260 --> 00:02:59,105
+I started tinkering on a lot of different things, some hardware stuff, some solar stuff, direct DC. So you've seen that before. For work, I thought I was gonna not have access to a garage and a shop for a while starting
+
+21
+00:02:59,105 --> 00:03:00,145
+in 2025.
+
+22
+00:03:00,145 --> 00:03:31,395
+And so I tried to shift my focus and find a software only project that I could tinker on. So that's what that's how this came about. I was, what what can I do in software to start tackling the the problem of mining centralization? You guys had, I believe you had already announced HydroPool or or maybe shortly after, you started looking at a few different decentralized pool efforts that were in the works. Ocean was starting up. I'm I'm a big Ocean fan. I like what they're doing. I think it it solves some of the problems, but not all. And just being a, I guess, a paranoid cypherpunk and
+
+23
+00:03:31,635 --> 00:03:45,140
+fairly my my day job is is in the security world, I guess, broadly speaking. So I think a lot about adversarial thinking and and that kind of stuff. And so I like that Ocean decentralized the template for block template creation
+
+24
+00:03:45,140 --> 00:03:47,459
+aspect of it. But because they're still
+
+25
+00:03:47,885 --> 00:03:51,485
+managing the payouts from a centralized company,
+
+26
+00:03:51,485 --> 00:04:07,210
+centralized server, that still presents a weak point. And I was trying to figure out how if there's a way to actually decentralize the the the payout split, the reward split. P two pool version one attempted this a long time ago. So this is an old problem in Bitcoin,
+
+27
+00:04:07,290 --> 00:04:15,210
+and it got partially solved with p two p a p two pool v one, but not completely in that protocol had some flaws,
+
+28
+00:04:15,675 --> 00:04:18,555
+which ended up causing further centralization
+
+29
+00:04:18,555 --> 00:04:29,835
+pressure, basically related to their fast block times because they're running a, essentially, a side chain with faster block times, the share chain. Because it kind of is modeled after Bitcoin, it's a winner take all scenario,
+
+30
+00:04:30,720 --> 00:04:33,040
+That means that latency becomes
+
+31
+00:04:33,280 --> 00:04:39,760
+pretty big factor when you're determining who wins that share, who gets to add the next block to the share chain.
+
+32
+00:04:40,240 --> 00:04:48,585
+It's just like Bitcoin. Latency is a factor. At ten minutes for the for the Bitcoin chain, latency is a thing, but it's not. It hasn't caused extreme
+
+33
+00:04:48,585 --> 00:04:49,544
+centralization.
+
+34
+00:04:49,544 --> 00:04:57,544
+You see some of it if if you're a big mining pool, big miner, and you need to eke out every last fraction of a percent of profitability,
+
+35
+00:04:57,865 --> 00:05:05,190
+then then network latency can be a thing. But for everyone else, it's not not a big deal. When you shorten block times to
+
+36
+00:05:05,430 --> 00:05:14,070
+as fast as p two pool v one was having to do, latency becomes a really big factor. And that means if you can get latency down, you can artificially
+
+37
+00:05:14,070 --> 00:05:25,975
+increase your your hash rate and your control of of that share chain. And so miners that were able to centralize hash rate on p two pool v one were making a lot more than the miners that were decentralized.
+
+38
+00:05:25,975 --> 00:05:40,830
+That's a problem. So I'm I'm trying to say very carefully p two pool v one to differentiate it from p two pool v two, which is an ongoing effort, a re a a total rethinking of that pool structure. And they have come up with some technical solutions using UNCLE's
+
+39
+00:05:40,910 --> 00:05:45,055
+UNCLE blocks, I believe, from elsewhere in the crypto world,
+
+40
+00:05:45,055 --> 00:05:48,975
+but pulling those ideas back into Bitcoin, which should should
+
+41
+00:05:48,975 --> 00:05:50,415
+solve the latency
+
+42
+00:05:50,574 --> 00:05:51,375
+centralization
+
+43
+00:05:51,615 --> 00:06:20,805
+latency driven centralization pressure. So a lot a lot of things I wanna differentiate, like, p two pool v one had problems. V two, they're working on fixing those problems. And I think it's awesome. I think they're doing great work, and I I want to, like I don't wanna throw shade anywhere. I think they're doing great work. I like it for new problems. I like trying many different solutions. So so I am essentially attacking the exact same problem that p two pool v two is attacking. I don't think that's a bad thing. I think I think we should try a lot of different solutions.
+
+44
+00:06:21,340 --> 00:06:28,140
+Each one is gonna have different engineering trade offs. And then we'll see in the end which one turns out to be more useful.
+
+45
+00:06:28,380 --> 00:06:37,235
+Maybe both stick around and have their, you know, their their different advantages and disadvantages. Yeah. I think you've got a great point in that there's
+
+46
+00:06:37,235 --> 00:06:42,355
+Unknown: no silver bullet to solving these problems and that they all have trade offs.
+
+47
+00:06:43,235 --> 00:06:46,835
+Just to kind of recap here, so you recognized
+
+48
+00:06:47,419 --> 00:07:03,295
+issues around mining centralization from the get go. And then that was at a very interesting time, like right before the big Chinese mining ban in the summer of twenty twenty one, when majority of the hash rate went offline as it was relocating itself globally.
+
+49
+00:07:03,295 --> 00:07:09,375
+And then you're kind of able to start peeling back the layers as you start learning more about this. It becomes,
+
+50
+00:07:10,175 --> 00:07:14,975
+you realize that mining centralization doesn't just mean geographically
+
+51
+00:07:15,520 --> 00:07:16,400
+centralized,
+
+52
+00:07:16,400 --> 00:07:18,000
+but it also means
+
+53
+00:07:18,240 --> 00:07:24,800
+that the mining pools are a centralizing force. And then, you know, we start understanding that the,
+
+54
+00:07:24,960 --> 00:07:26,639
+you know, manufacturers
+
+55
+00:07:26,719 --> 00:07:32,015
+building the hardware are centralized forces and that they have control over the firmware.
+
+56
+00:07:32,095 --> 00:07:32,495
+And
+
+57
+00:07:33,135 --> 00:07:38,415
+even the mining rewards going to just a handful of custodians
+
+58
+00:07:38,415 --> 00:07:40,895
+is another centralizing force. So there's all these
+
+59
+00:07:41,135 --> 00:07:43,640
+different layers to centralization.
+
+60
+00:07:43,720 --> 00:07:49,480
+And then you kind of look around at the landscape and you see oceans working on it in their own way.
+
+61
+00:07:49,720 --> 00:07:54,680
+And it's great that they've taken a step forward toward decentralization
+
+62
+00:07:54,680 --> 00:08:01,945
+in that the miners get to contribute to the template that they're mining on, but there's still that centralized
+
+63
+00:08:02,025 --> 00:08:07,385
+point in there where the mining pool operator controls the coin base payout.
+
+64
+00:08:07,625 --> 00:08:15,190
+So like it's a silver bullet solution. You look at other solutions that are out there like P2Pool V1,
+
+65
+00:08:15,190 --> 00:08:17,750
+but like you mentioned, there's issues with that,
+
+66
+00:08:18,070 --> 00:08:25,725
+the speed of the blocks on the side chain that they're mining on. And then we've got Jungly, who's a February Foundation developer
+
+67
+00:08:25,805 --> 00:08:27,245
+who built HydraPool,
+
+68
+00:08:27,245 --> 00:08:30,605
+working in tandem on P2Pool V2,
+
+69
+00:08:30,605 --> 00:08:37,210
+which incorporated the uncle blocks. I believe that idea came from the Monero community and incorporating
+
+70
+00:08:37,210 --> 00:08:46,650
+that into the side chain to help with that centralizing force. And then now we land at grid pool that you're working on. And so you've kind of taken
+
+71
+00:08:47,245 --> 00:08:59,565
+a lot of the perspective that you've built over the last few years, and you've come up with a pretty clever solution to take a stab at some of these centralized issues. So should we get into
+
+72
+00:08:59,810 --> 00:09:08,850
+to some of the technical details on how on how GridPool sorry. I'm I muted my mic. On how GridPool approaches this? Yeah. And how it's different from p to p. Yes.
+
+73
+00:09:09,010 --> 00:09:16,605
+Unknown: Yeah. Let's do that. We're before we jump to technical stuff, I wanna frame I wanna frame it with a hypothetical scenario.
+
+74
+00:09:16,765 --> 00:09:24,205
+End of the world, the government decides it's time to clamp down on mining. They roll into ocean. So totally hypothetical.
+
+75
+00:09:24,685 --> 00:09:30,380
+They roll into Ocean and they say, your decentralized block templates are great, but you're only allowed to pay
+
+76
+00:09:30,700 --> 00:09:37,340
+and credit miners with shares if they comply with with our transaction set. Let's say. So if a miner
+
+77
+00:09:37,535 --> 00:09:41,215
+sends you a share that includes one of these censored transactions,
+
+78
+00:09:41,295 --> 00:09:57,860
+you're not allowed to pay them. Right? That's that's really the the critical choke point. What do those miners do if they still need to be able to mine Bitcoin, get payouts, but they don't wanna do they don't wanna comply with the censorship. That's really what it's what it comes down to. So this is related
+
+79
+00:09:58,100 --> 00:10:04,900
+the reason I mentioned this is this is related to your vision for this the a similar scenario for why you built HydroPool.
+
+80
+00:10:05,745 --> 00:10:29,310
+In a similar fashion, I've I've heard I think I've heard you say something like this before that, you know, in a in a end of the world and hypothetical scenario and all the pools get shut down or centralized or or the the controllers come in, we want anybody to be able to quickly and easily spin up their own pool instance to be able to keep building blocks and keep mining Bitcoin without having to comply. This is what keeps keeps Bitcoin free and keeps its censorship resistant,
+
+81
+00:10:29,630 --> 00:10:58,690
+which I think is an awesome vision and HydroPool absolutely needed to exist. So here's where here's where GridPool comes in. Let's say the miners that leave Ocean and the miners that spin up their own HydroPool instances don't have enough hash rate to guarantee that they'll be able to get a block, a payout of some kind before their power bills do. Right? If they're a huge miner and they can get a block a month, they're probably gonna be fine. If it's a small shop, if it's a couple of p to hash, they could go years
+
+82
+00:10:58,944 --> 00:11:03,264
+plus without getting a payout. So then We had a 2.5
+
+83
+00:11:03,264 --> 00:11:14,720
+Unknown: x a hash at the last telehash and still didn't hit a block. Yeah. I I I know the the time was very short in duration, but I just, I think you're approaching this with a very realistic
+
+84
+00:11:14,720 --> 00:11:15,839
+and practical
+
+85
+00:11:15,920 --> 00:11:23,920
+mindset for what an adversarial environment looks like. And to your credit, I don't think it's all that hypothetical
+
+86
+00:11:23,920 --> 00:11:25,600
+based on the trajectory
+
+87
+00:11:25,855 --> 00:11:29,295
+that we've seen things developing over the last few years.
+
+88
+00:11:30,015 --> 00:11:32,495
+Yeah, keep going. I love it. Exactly.
+
+89
+00:11:32,495 --> 00:11:33,135
+Unknown: And, okay,
+
+90
+00:11:33,535 --> 00:11:43,260
+quick sidebar. I'm for my day job, I used to do a lot with deterrence theory. So I would love to build the technical solutions
+
+91
+00:11:43,579 --> 00:11:48,060
+that exist that make it so that such an attack is obviously
+
+92
+00:11:48,060 --> 00:11:52,220
+impossible and futile. And that would guarantee that it never actually happens.
+
+93
+00:11:52,725 --> 00:12:03,524
+That's deterrence theory. So if we build these now and get it in place and make it work really, really well, then it's a given that this would be the obvious fallback option. So
+
+94
+00:12:03,925 --> 00:12:04,964
+using this
+
+95
+00:12:05,640 --> 00:12:15,400
+hypothetical scenario, how do these smallish miners pay their power bills? So, not everyone is going to be able to go full off grid and go without a payout for years.
+
+96
+00:12:15,720 --> 00:12:30,675
+That's just reality is they're gonna be forced to choose between do I scale down and just run a bid axe on my desk because that's what I can afford, or do I do I comply? Or is there a way that we can get a decentralized payout structure going? So GridPool is built.
+
+97
+00:12:31,250 --> 00:12:35,970
+This is why I spent it took me a year reverse engineering Datum Prime.
+
+98
+00:12:36,130 --> 00:12:41,250
+So let's talk about Ocean. Their built their effort to decentralize template construction
+
+99
+00:12:41,250 --> 00:12:44,610
+uses Datum, and what they open sourced was the Datum
+
+100
+00:12:44,690 --> 00:12:57,464
+client software. So that's what individual miners use to build their templates and then submit shares. So Grid, I in order to make this compatible with Ocean Miners, I spent a while basically reverse engineering the Datum protocol
+
+101
+00:12:57,545 --> 00:13:10,800
+from their open source client so that GridPool nodes can act as Datum servers, Datum prime servers, in the same way that Ocean servers do. So GridPool right now is fully compatible with every miner
+
+102
+00:13:10,880 --> 00:13:12,079
+on OceanPool.
+
+103
+00:13:12,079 --> 00:13:20,074
+All they do is go into their config settings for Datum and point it to a different server address, put in a different public key.
+
+104
+00:13:20,714 --> 00:13:30,520
+Unknown: So wait, let me just like rephrase, run this back to you in my own words, because I think you I think what you've accomplished there is actually pretty monumental,
+
+105
+00:13:31,080 --> 00:13:55,910
+but you just kinda like glazed over it like it was no big deal. So just to be clear, the ocean server is closed source. They haven't open sourced the pool server that they operate. But they did open source the Datum client that they built. And so essentially what you've done, if if I can just recap in my own words, is you've taken that client, reverse engineered it, and understood
+
+106
+00:13:55,910 --> 00:14:04,390
+what how to construct a server for that client just based on the client alone without any insight into how the Ocean server actually
+
+107
+00:14:05,045 --> 00:14:09,045
+Unknown: is constructed. Exactly. It's amazing. Thank you. I guess I haven't thought
+
+108
+00:14:09,285 --> 00:14:23,240
+I haven't thought about that in a while. I did that reverse engineering work a year ago, and I hadn't thought about that step of the process of the project. But the reason I did that is because the vast majority of miners who are currently building their own templates,
+
+109
+00:14:23,480 --> 00:14:27,800
+right, sovereign minded miners are on Ocean Pool. Like, 99%
+
+110
+00:14:27,800 --> 00:14:39,385
+of the hash rate of people building their own templates are doing it on Ocean and submitting their shares to Ocean. And so I wanted Grid Cool Pool to be instantly compatible with that 99%
+
+111
+00:14:39,385 --> 00:14:57,420
+of miners that are already doing their own template construction. I'm making up the 99% number, but it's it's a lot. Right? Ocean has a lot of hash rate. They get blocks every day. And, you know, so I mean, just for any listeners that aren't clear and, you know, in my own words, it's like Datum is essentially
+
+112
+00:14:57,420 --> 00:14:58,460
+Unknown: Ocean's
+
+113
+00:14:58,460 --> 00:15:05,575
+stab at Stratum V2. And it incorporates a lot of the same upgrades that Stratum V2 promised.
+
+114
+00:15:05,815 --> 00:15:07,575
+The issue is availability
+
+115
+00:15:07,654 --> 00:15:09,415
+of Stratum V2
+
+116
+00:15:09,815 --> 00:15:13,200
+compatible pools, right? So there's like demand,
+
+117
+00:15:13,360 --> 00:15:29,375
+but if I think you have to like sign up and request access to mine to demand right now, or they may have opened it to the public, I don't know. Last time I checked, which was not that long ago, you had to like go through a sign up process. And then I think Brains has some sort of
+
+118
+00:15:30,015 --> 00:15:40,415
+Stratum V2 server that miners can mine to, if I understand correctly. But all that is to say is that the choices are pretty limited. And what Ocean did was
+
+119
+00:15:41,030 --> 00:15:52,390
+they looked at Stratum V2, decided there were some things about it they didn't really like, and then they came out with Datum. And so, yeah, I think you're spot on. I think the vast majority, maybe not 99%
+
+120
+00:15:52,390 --> 00:16:03,225
+exactly, but the vast majority, I think it's safe to say, of miners who are building their own templates are doing so via ocean because it's kind of this trade off where you're
+
+121
+00:16:03,945 --> 00:16:15,460
+not solo mining, so you're not gonna get like the full block reward. We can save the debate on the definition of solo mining. But what I mean here is that it's not like you're
+
+122
+00:16:15,780 --> 00:16:22,365
+building your own template and then keeping a 100% of the block reward for yourself. Their trade off was that you could still
+
+123
+00:16:22,605 --> 00:16:24,525
+earn small amounts of Bitcoin
+
+124
+00:16:24,685 --> 00:16:31,325
+proportional to your hash rate contribution, and you were selecting which transactions went into the template. Yeah.
+
+125
+00:16:31,725 --> 00:16:33,165
+Unknown: Well said. Stratum V2,
+
+126
+00:16:33,980 --> 00:16:41,819
+the protocol is open source. My understanding is that it's just complex, so adoption has not been very fruitful
+
+127
+00:16:41,819 --> 00:16:50,055
+from these other pools or running the client on your end. Then on the other side of the aisle, the Datum attempt to solve this problem, the
+
+128
+00:16:50,695 --> 00:16:57,735
+server's not open source, they're saying if you want to use it, you have to use it with Ocean Pool. That's what you have reverse engineered.
+
+129
+00:16:57,735 --> 00:16:58,615
+So effectively,
+
+130
+00:16:58,695 --> 00:17:11,059
+Datum becomes on a level playing field with Stratum V2 right now, where it could be a simpler implementation and you could implement it to other pools. And then you've got grid pool to solve the actual payout centralization
+
+131
+00:17:11,059 --> 00:17:12,340
+structure itself,
+
+132
+00:17:12,580 --> 00:17:20,914
+I think, and I want to hear about that. But I just want to frame it that this reverse engineering of the Datum server from the client is effectively
+
+133
+00:17:21,075 --> 00:17:26,835
+bringing a competitor to Stratum V2 to other pools. Is that correct? Yeah, I think you framed that well.
+
+134
+00:17:27,500 --> 00:17:33,900
+Unknown: GridPool is totally open source. So if someone wants to see how to make a Datum compatible server,
+
+135
+00:17:34,220 --> 00:17:44,904
+they can start with my code and then do whatever they want with it from there. You know, if if they don't wanna do the decentralized reward sharing aspect of it. What I'm not doing in grid pool is is
+
+136
+00:17:45,145 --> 00:17:50,585
+tides the share accounting system associated with with Ocean. I'm not doing any share accounting.
+
+137
+00:17:50,904 --> 00:17:58,690
+We'll get to that in a minute. So if someone wanted to make their own Datum compatible pool, they'll have to do that part on their own. But the actual communications
+
+138
+00:17:58,690 --> 00:18:10,015
+structure, they can look at mine and just go from there, fork and do whatever they want. Okay. So I think we I think we set up the problem. Let's go into how GridPool works, and hopefully that it will start to come together.
+
+139
+00:18:10,415 --> 00:18:12,575
+Unknown: Just to quickly frame it quick. So
+
+140
+00:18:13,055 --> 00:18:16,495
+I do want to get into the technicals, the block template construction
+
+141
+00:18:16,495 --> 00:18:47,335
+has been the big talk of town. Everyone seems to know about this. That's like you said, all these cypherpunk minded miners. That's why a vast majority of them are on ocean. Not a lot of people understand the problem of just having a central authority that issues the payout from the Coinbase altogether. And that's what we're teeing up here, right? That's what P2Pool V1 and V2 and GridPool aim to discuss, which is or to overcome, which is why have any central authority issuing the payouts? Can we make this itself a protocol? Is that correct? And then you want to dive into it. Exactly.
+
+142
+00:18:47,335 --> 00:18:55,980
+Unknown: Yep. Yep. The other attempts at this have been pretty complex. They've been good attempts. They had technical issues. So as the as as we talked about before,
+
+143
+00:18:56,140 --> 00:18:56,940
+GridPool's
+
+144
+00:18:56,940 --> 00:18:59,419
+approach is actually, like, really,
+
+145
+00:18:59,580 --> 00:19:06,284
+really simple compared to all the other ones. We make some engineering trade offs that allow us to get that
+
+146
+00:19:06,684 --> 00:19:07,965
+hypersimplicity,
+
+147
+00:19:08,205 --> 00:19:21,760
+and I think it it it allows us to navigate sort of a different solution space in this. But it it really is a simple concept. I'm not like a brilliant developer. I write code on on the side. I I do have a a computer engineering degree
+
+148
+00:19:22,080 --> 00:19:25,600
+that I got a decade and a half ago, and I haven't used it since,
+
+149
+00:19:25,920 --> 00:19:27,360
+except in my hobbies.
+
+150
+00:19:27,440 --> 00:19:47,645
+So I'm I'm not a professional. Let's go go through how this works with a a a toy example. This is gonna be the easiest way to dive into it, I think. Let's say you and all your friends have bid access, and instead of and you wanted to to make your own you wanted to share the reward amongst each other. You you and nine other friends. Right? So 10 people, you each have a one terahash
+
+151
+00:19:47,645 --> 00:19:59,660
+bid access, and you and you'd rather 10 x your chance of getting something. And you know that everyone's putting in about the same work. You could just agree a verbal agreement to say, let's just split the reward
+
+152
+00:20:00,060 --> 00:20:37,015
+10 ways. So we'll all configure our block templates. We'll put in each other's nine other addresses, an even 10 way split. And then whenever any of us gets a block, then we all get something. Right? So everyone has now increased their chances of getting something, 10 x, in exchange for only taking 10% of the block reward and sharing the other 90% with everyone else. Right? But you get a 10 x improvement in your variance. That's kind of how you would just do just a verbal agreement. Now let's say you wanted to make sure that everyone else kept their bid access turned on. So you you arrange to have have your different template construction software. You know, one guy might be using
+
+153
+00:20:37,335 --> 00:20:42,375
+HydroPool, another guy's using Datum in solo mode or something. Send each other shares
+
+154
+00:20:42,535 --> 00:20:51,289
+of, hey. Here's the latest template and nonce that I found so that the other guys can see that you're still including all of their addresses in your Coinbase template.
+
+155
+00:20:51,529 --> 00:21:00,970
+Right? So every once in a while, you send them a share, say, yep, I'm still working on it. I haven't found one yet, but my difficulty is too low, but here's a 1,000,000,
+
+156
+00:21:00,970 --> 00:21:02,729
+here's a one g diff share.
+
+157
+00:21:02,730 --> 00:21:06,795
+It's got all 10 addresses in it. This is how you start to reduce the trust
+
+158
+00:21:06,955 --> 00:21:09,915
+layer. Now it doesn't have to just be 10 friends.
+
+159
+00:21:10,075 --> 00:21:19,610
+It can kind of start to get a lot less trusted if you're actually sharing evidence that you have been working on a template that shares those rewards
+
+160
+00:21:19,610 --> 00:21:20,410
+properly.
+
+161
+00:21:20,410 --> 00:21:24,330
+And that's kind of the consensus layer of GridPool. So GridPool
+
+162
+00:21:24,330 --> 00:21:30,570
+pulls a lot of concepts in from p two pool and from Bitcoin itself. There is the concept of consensus
+
+163
+00:21:30,570 --> 00:21:31,610
+in it. It's
+
+164
+00:21:31,924 --> 00:21:33,524
+a winner take all approach
+
+165
+00:21:34,085 --> 00:21:52,090
+based on difficulty, whatever difficulty the share reaches. We'll get into that in a minute. Unlike p two pool, we're not actually using a a side chain at all. Alright. So now we can go to maybe how how GridPool actually works. Everyone has can have their own node. The the website that you go to, if you see gridpool.net,
+
+166
+00:21:52,090 --> 00:22:17,409
+is just my node. In order to bootstrap a network, just like Bitcoin, there's there's hard coded addresses. And so when this thing launches, we'll have to have a decent number of people that are willing to run stable nodes that are gonna be reachable to anyone new joining the network. That's how Bitcoin bootstraps itself as well when you turn on a new node. So when when you go to the website, that is that is my node, but anyone can run their own and should run their own. Each node
+
+167
+00:22:17,650 --> 00:22:25,889
+is keeping a list. Okay, now we have to define a couple of things. In the code, I call them the winners list and the on deck list.
+
+168
+00:22:26,289 --> 00:22:33,205
+I'm not good at naming things. If someone has better names, I'm all ears. The winners list is that list of payouts.
+
+169
+00:22:33,365 --> 00:22:34,725
+Whose addresses
+
+170
+00:22:34,885 --> 00:22:38,885
+get added to the coin base for everyone who is wanting
+
+171
+00:22:39,365 --> 00:22:47,909
+to participate in the pool. That's the winners list. The on deck list is a running tally of whose shares have achieved the highest difficulty.
+
+172
+00:22:47,909 --> 00:23:03,485
+Who got closest to winning a real block with a share that included the correct set of payouts in the winners. It matches the winners list. Let me pause there and make sure that those concepts kind of make sense. Any questions? Yeah, I think I'm with you. So I'm looking at
+
+173
+00:23:03,805 --> 00:23:05,165
+Unknown: the grid pool website,
+
+174
+00:23:05,645 --> 00:23:07,805
+which again is gridpool.net.
+
+175
+00:23:07,805 --> 00:23:13,610
+And it's pulling this information in from your node that you're running. Anyone can run their own node. And
+
+176
+00:23:14,010 --> 00:23:16,490
+essentially, you've got it split up into
+
+177
+00:23:16,490 --> 00:23:17,129
+the
+
+178
+00:23:17,530 --> 00:23:40,830
+Unknown: on deck list and the winners list. Is that the same as the the next payout queue and the current paid team? Looking now to make sure I'm looking at the same thing. I just I wanna make sure I see the winners. Let's make sure we're on the same view. In the top section, there's a little box that says view. You can do lottery, business, or nerd mode. These are just different ways of of viewing the data, and they surface different attributes.
+
+179
+00:23:41,470 --> 00:23:44,350
+It's a UI thing. It's working the same on the back end.
+
+180
+00:23:44,670 --> 00:23:45,230
+Unknown: Okay.
+
+181
+00:23:45,549 --> 00:24:00,315
+Unknown: So, yeah, when I click on Nerd, now I see the on deck list and the winners list. Yep. Yeah. So on Nerd, when you scroll all the way down to the bottom, there's a box, winner lists. It's defaults to collapse, but you can expand it and you'll see a whole list of 299
+
+182
+00:24:00,315 --> 00:24:02,475
+different slots, payout slots.
+
+183
+00:24:02,715 --> 00:24:09,355
+So all these are even even payouts. And on the right hand the right hand column is the difficulty that that share
+
+184
+00:24:09,435 --> 00:24:14,839
+achieved in order to win that slot on the list. Okay. So even if
+
+185
+00:24:15,159 --> 00:24:24,039
+Unknown: one of these participants on the winners list is has submitted a much greater difficulty than some of the other participants,
+
+186
+00:24:24,120 --> 00:24:26,514
+their their reward split is still
+
+187
+00:24:26,835 --> 00:24:30,675
+It's the same split. It's the same split across all
+
+188
+00:24:30,675 --> 00:24:31,475
+the users.
+
+189
+00:24:31,795 --> 00:24:34,514
+Unknown: Yep. And this this is important mathematically.
+
+190
+00:24:34,515 --> 00:24:39,634
+I don't know that I can explain all the math behind it. I did have a codex generate
+
+191
+00:24:39,635 --> 00:24:44,799
+the math behind it into a nice little markdown paper that you can read, assuming that's correct.
+
+192
+00:24:44,880 --> 00:24:46,479
+This is how we maintain fairness,
+
+193
+00:24:46,559 --> 00:24:56,335
+payout fairness. So in a normal pool, they don't pay by the difficulty, they pay by the number of shares. And you commit to achieving a specific minimum difficulty,
+
+194
+00:24:56,654 --> 00:25:01,695
+and then however many shares you can generate at that point, that's that's how they estimate
+
+195
+00:25:01,774 --> 00:25:13,269
+your hash rate, how much power you're putting into the pool, and then they correlate the payout with that with some minor nuances depending on the pool and other stuff. If you were to do payouts based on difficulty,
+
+196
+00:25:13,269 --> 00:25:28,684
+you introduce a whole bunch of statistical variants that you don't wanna you don't wanna do. Because someone they roll a lucky share, and they get paid out a huge amount. So by keeping the payout splits even and just sorting them by difficulty, we still get a mathematically fair breakdown
+
+197
+00:25:28,684 --> 00:25:36,150
+according to how much hash rate you're putting in, but we don't have to track every single share with a lot of fine grained detail.
+
+198
+00:25:36,470 --> 00:26:02,445
+This is a core thing that differentiates grid pool from p two pool v two and v one, I guess. P two pool is still trying to estimate hash rate with a with a stream of shares, getting frequent shares, they're not looking at difficulty at all, except to make sure that the shares meet a minimum target threshold. We are looking at difficulty, but we don't correlate the payout amount with it. What this breaks down to though is that statistically,
+
+199
+00:26:02,525 --> 00:26:05,629
+if you're putting in 50 percent of the team's,
+
+200
+00:26:05,630 --> 00:26:06,669
+the pool's
+
+201
+00:26:06,750 --> 00:26:10,429
+hash rate, statistically you're going to win 50%
+
+202
+00:26:10,429 --> 00:26:13,630
+of the payout slots, which means you're gonna get 50%
+
+203
+00:26:13,630 --> 00:26:18,510
+of the Coinbase reward. So it still breaks down to a fair
+
+204
+00:26:18,945 --> 00:26:19,825
+distribution,
+
+205
+00:26:19,904 --> 00:26:21,825
+but we arrive at it mathematically
+
+206
+00:26:21,825 --> 00:26:28,385
+via a different route. There's probably a little bit more variance with this, because if you're putting in 50%,
+
+207
+00:26:28,385 --> 00:26:40,269
+sometimes you may get a little more than 50% of the slots, you get a little less. In my tests, it's pretty close. It's not exact, but on average, it is 50. You know, long term averages, it's statistically
+
+208
+00:26:40,669 --> 00:26:54,634
+fair. This is what allows different types of participants to use this protocol from a game theory perspective, and it still be useful. So a business can use this and expect that they're going to get rewarded what they
+
+209
+00:26:55,275 --> 00:26:58,235
+they put in according to know, there there's not a lot of variance.
+
+210
+00:26:58,669 --> 00:27:06,029
+It's fairly predictable. It's not as predictable as a traditional pool. There's gonna be some more fluctuations, but it's better than pure solo.
+
+211
+00:27:07,070 --> 00:27:09,309
+This also means that the lottery miners
+
+212
+00:27:09,390 --> 00:27:13,070
+Sorry. Let me finish real quick. Okay. Go ahead. You know, guys running bid axes,
+
+213
+00:27:13,735 --> 00:27:22,455
+when this thing gets going, if there's a decent amount of total hash rate, a bid access is gonna have a tiny tiny fraction of the total team's hash rate. They're rarely
+
+214
+00:27:22,695 --> 00:27:33,830
+rarely gonna make it onto the list at all until they get lucky. And then they're gonna get lucky and get one spot on the list. Some people might like that because they're mining with a Bidaxe getting 300x
+
+215
+00:27:33,830 --> 00:27:36,950
+better odds of a onethree hundredth
+
+216
+00:27:37,350 --> 00:27:49,384
+payout of a Block reward. For some people that they might like playing that type of lottery versus going for a full block. It's it's totally up to them. But both both types can can use this, and that's why
+
+217
+00:27:49,705 --> 00:28:06,789
+there are different UI views built in lottery mode, business mode. And then the nerd mode is where I dumped everything that I needed to track and debug and and make sure the system was working. Okay. Iko, you had a question. I cut you off. So how does Miner secure one of these slots? Is it like each client gets its own slot?
+
+218
+00:28:07,345 --> 00:28:28,570
+Because I'm I'm looking at it and I see, like, you know, there's multiple slots sharing the same address. So, like Yeah. Are those, like, three different clients that all have that address configured? Or Those are the same same client. So really good question. This is really important piece of it. How is in this totally trustless decentralized network, how do you trust? How do you how do you credit shares?
+
+219
+00:28:28,650 --> 00:28:34,490
+How do you know which miner these shares actually belong to? The protocol is is a totally unencrypted
+
+220
+00:28:34,570 --> 00:28:35,450
+HTTP
+
+221
+00:28:35,450 --> 00:28:36,970
+JSON message.
+
+222
+00:28:37,050 --> 00:28:43,955
+Like, anyone could intercept that and mess with it and then resubmit it. So how do we how do we make sure that this is secure
+
+223
+00:28:44,195 --> 00:28:50,675
+and that the right miners are getting credit for the the slots that they earn? Right? So when you the protocol
+
+224
+00:28:50,915 --> 00:29:00,740
+this is consensus layer type of stuff, put your consensus hat on. Clients take the they get the current winners list. They say, okay. These are the these are the addresses I need to include
+
+225
+00:29:01,540 --> 00:29:09,945
+in my template for this share to be considered valid by the rest of the network. And then they so they that's list is 299
+
+226
+00:29:10,185 --> 00:29:11,304
+slots long.
+
+227
+00:29:11,305 --> 00:29:13,785
+So if if it's 299
+
+228
+00:29:13,785 --> 00:29:15,385
+unique addresses,
+
+229
+00:29:15,705 --> 00:29:18,425
+then then it'll be a list of 299
+
+230
+00:29:18,425 --> 00:29:21,305
+different slots. If a big miner is taking 50%
+
+231
+00:29:21,450 --> 00:29:47,774
+of of the share, then each each each node can collapse that in order to not use up as much space in the block, the template that they're building. So they can just credit when they're building the actual template. They can total up the payout for that single address when they're constructing that Coinbase transaction. We can come back to that if you need to. That's kind of down in the weeds. So they take the list of two ninety nine potential payouts, they're like, I need to include these for my shares to be considered valid.
+
+232
+00:29:47,935 --> 00:29:51,295
+And then they insert in slot zero their own payout address
+
+233
+00:29:51,690 --> 00:29:55,609
+for for one share. That's how we cryptographically
+
+234
+00:29:55,610 --> 00:29:56,489
+ensure
+
+235
+00:29:56,570 --> 00:30:14,614
+that that share gets credited to the correct miner. Because they take that template, construct the Merkle tree, calculate the Merkle root, and then start hashing on that until they get a knots that is high enough to submit to the rest of the pool. Once that happens, they wrap this up into an HTTP JSON message
+
+236
+00:30:14,774 --> 00:30:30,370
+that we've designed. They share that with the rest of the network. When other nodes on the network receive that share, they check for basic rules of validity. They make sure it's it's a valid Bitcoin block. There's one exception I'll get to in minute that they don't check. They check that the 299
+
+237
+00:30:30,370 --> 00:30:42,104
+addresses that are included in that coin base are the correct ones, and they're being paid out correctly. And then they look at slot zero, and they look and see they read which address is in slot zero, and they credit
+
+238
+00:30:42,105 --> 00:30:59,330
+that share to that address that is in slot zero. And so if that share achieved a high enough difficulty to make it up onto the on deck list, then they insert that new spot on the on deck list credited to that address in slot 0 with that single slot payout
+
+239
+00:30:59,490 --> 00:31:13,205
+to it. This means that once you create a share, you've hashed it, you've put the work into it, and you share that with a trustless, unencrypted network, no one can mess with the share. Because if someone tries to change the coinbase on it, the nonce is invalid.
+
+240
+00:31:13,445 --> 00:31:21,019
+When other nodes check it, the difficulty will be super low. It won't be a high difficulty share and they'll throw it in the trash. So this is how nodes
+
+241
+00:31:22,460 --> 00:31:25,260
+make sure that their shares are credited properly.
+
+242
+00:31:25,500 --> 00:31:39,845
+Unknown: Does that make sense? Yeah, I think I've got it. So there, you're still using that proof of work mechanism where they have to prove that they've done the work. And if they get a high enough proof that puts them on the on deck list. And then so
+
+243
+00:31:40,645 --> 00:31:47,950
+just remind me real quick. What what's the difference between the on deck list and the the winners the winners list? Good. I
+
+244
+00:31:48,350 --> 00:31:49,709
+Unknown: called it winners because
+
+245
+00:31:49,870 --> 00:31:56,829
+whenever someone on the team finds a real block, those are the people that get paid out. They're the winners. So Got it. Okay. Their their
+
+246
+00:31:57,470 --> 00:32:01,709
+addresses have been locked into this this Coinbase template
+
+247
+00:32:01,789 --> 00:32:15,175
+that everyone on the pool needs to use to be able to participate in the network. The on deck list is the people who are vying get their addresses added to the next winners list. So miners take
+
+248
+00:32:15,335 --> 00:32:57,070
+the winners list, they make their templates, they work on them, they submit high difficulty shares to the rest of the network, trying to get their addresses added to the on deck list. Eventually, someone is going to get lucky enough that the share that they produce is actually a real Bitcoin block. It gets added to the chain. Because everyone's running their own node to be able to build their own templates, when they see a real Bitcoin block added to the chain tip that pays out the winners list, the round re resets. So when they see that, the their current view of the on deck list becomes the winners list. For the next round, the on deck list gets cleared, the round resets, and then everybody starts the competition again. And so that's how you're essentially decentralizing
+
+249
+00:32:57,070 --> 00:33:05,434
+Unknown: that Coinbase payout because that can come from any miner who's produced a template that's worked that that
+
+250
+00:33:05,595 --> 00:33:27,539
+meets a good enough difficulty to be on the on deck list. And then that is is it the like the best share from the on deck list gets trying to put this into my I I I can almost like, if I squint my eyes, I can I can almost wrap this all up in my head, but I'm not as smart as you guys? So it's it's like you've got the the on deck list is the highest difficulty
+
+251
+00:33:27,700 --> 00:33:45,419
+or, you know, that's been made so far. And if it reaches a sorry. So it's like the best difficulty from the on deck list gets used for the gets automatically moved up to the winners list. And then that's the template everybody uses to build on until they hit a difficulty
+
+252
+00:33:45,419 --> 00:33:54,700
+high enough for a valid block. Is that right? So it's like you've got kind of like this, I don't know, in my own words, a staging area where everyone's submitting these,
+
+253
+00:33:54,940 --> 00:33:57,100
+their best attempt. And it's
+
+254
+00:33:57,355 --> 00:34:01,354
+it's not a difficulty high enough to hit a block, but it's
+
+255
+00:34:01,434 --> 00:34:24,150
+it's good enough to go on the on deck list. It's everybody's best work that they've done so far. And then the best of those templates from the staging list get moved to the winners list. And each time like a new highest difficulty gets hit, that takes the spot of the winners list. And then they're using that template to construct their blocks in an attempt to hit the network difficulty.
+
+256
+00:34:24,710 --> 00:34:35,565
+Unknown: Is that where how am I doing? No, you're good. I think you're tracking. Feel free to ask any other questions you want if it would help clarify. Is this making sense to you, Tyler, as well? Yeah.
+
+257
+00:34:36,045 --> 00:34:42,300
+Unknown: Correct me if I'm wrong here. How I'm thinking about it is you have the staging area side. You are statistically
+
+258
+00:34:42,300 --> 00:34:53,420
+filtering for how what proportion people should be paid out by how high their difficulty is, not by the number of shares. Correct. And that results in higher variance but also
+
+259
+00:34:53,420 --> 00:34:55,335
+similar payouts proportionally,
+
+260
+00:34:55,335 --> 00:34:56,855
+Unknown: statistically. Statistically,
+
+261
+00:34:57,255 --> 00:34:58,695
+correctly fair
+
+262
+00:34:58,855 --> 00:35:00,135
+Unknown: Correctly fair. Yeah.
+
+263
+00:35:00,615 --> 00:35:01,975
+This is the massive
+
+264
+00:35:02,935 --> 00:35:03,735
+simplification
+
+265
+00:35:03,735 --> 00:35:11,130
+Unknown: you alluded to that doesn't require the share chain. Exactly. It does not require a share chain. And so latency
+
+266
+00:35:11,130 --> 00:35:19,690
+Unknown: is much less of a problem in this. No bigger of a problem than in Bitcoin. Okay. I might have to see it drawn out for me just how the staging and the winners
+
+267
+00:35:20,495 --> 00:35:27,615
+with some arrows and some boxes because I agree with I mean, I can't say it any better than Eco did, but I understand the
+
+268
+00:35:27,935 --> 00:35:29,855
+general strategy of what you're trying to do.
+
+269
+00:35:30,175 --> 00:35:32,495
+It makes sense to me, but please continue.
+
+270
+00:35:33,069 --> 00:35:35,230
+Unknown: That's okay. It's recursive.
+
+271
+00:35:35,230 --> 00:35:40,830
+And so sometimes recursion can throw people for a loop and it takes a little bit to wrap your head around. It
+
+272
+00:35:41,390 --> 00:36:14,440
+is simple. I think it's elegant, but it took me a couple years of working on this to figure out just thinking about it before I came up with something that I thought. Was actually gonna But simple, but still worked. Yeah, how did you have that eureka moment where you were like, Well, what if we just did it this way? I don't know if anyone can explain how eureka moments happen, but it was a year plus of thinking about the problem and then thinking about what if we try this, what if we try this. Okay. Realizing all that wouldn't work. I can't remember where I was, but I do remember the figuring out the slot zero aspect.
+
+273
+00:36:15,105 --> 00:36:19,985
+That was definitely a eureka moment for me realizing that, oh, I could I can cryptographically
+
+274
+00:36:19,985 --> 00:36:26,065
+secure these shares to a specific miner by having them include their own address in the payout.
+
+275
+00:36:26,385 --> 00:36:29,090
+And then I also, as a side benefit,
+
+276
+00:36:29,170 --> 00:36:39,010
+get some resistance to block withholding attacks out of that, which we'll talk about a little later if there's time. How many addresses can be paid out from grid pool? Up to
+
+277
+00:36:39,730 --> 00:36:42,690
+Unknown: 300 at a time. Two ninety nine and then the zero slot.
+
+278
+00:36:43,135 --> 00:36:43,935
+Unknown: Exactly.
+
+279
+00:36:44,175 --> 00:36:48,255
+And yeah, so up to 300 total, but one of those always
+
+280
+00:36:48,255 --> 00:37:11,690
+belongs to the block finder. Yeah, okay. This is very interesting. It's a weird concept. I think it works, but I'm one of the only people in the world that's been like thinking about how the system works for a long time. So so as I open it up and I it gets more eyes and more publicity. I'm a very adversarial thinker. I would love people to to tear the system apart and find the thing that I missed. Right? I would love no more than
+
+281
+00:37:12,185 --> 00:37:59,700
+Unknown: that. If someone was like, Hey, you didn't think about this, or I can break your system this way. I can cheat this way. That would be awesome. Please tell me. That was one thing I was going to ask, which is what would be Well, obviously that would be cool to get people way smarter than the three of us or that have different blind spots or identify different things than us to peek under the hood and take a look at it but also what would be helpful for your development? Is it more hash rate pointed? Is it running a grid node, right? A grid pool node? Do you want to speak a little bit to that? How people can actually start to not just poke around, but also try it out? Yeah. I would say very soon they can start running their own version. There's a there's a Docker Docker script created that that should make it easy to do as well. Point their datum node at it and and try it out. I had someone from
+
+282
+00:38:00,100 --> 00:38:27,430
+Unknown: open size Open Source Miners United Discord actually helped me out end of last year, pointed me a bit of hash rate and put in weird things that I didn't expect for his worker names and broke a whole bunch of stuff. And that was super helpful. Super helpful for me for working through a few bugs. Yeah. So it this thing is is a little bit hard to tell when it's done enough to launch. So, at this point, I think I'm probably pretty close, but I think I would like to do more testing on
+
+283
+00:38:27,750 --> 00:38:39,785
+Testnet four. I had just, just in the last couple weeks, I started spinning up a few of those Testnet four nodes to be able to try to get some real blocks on there. Right now, I've been I've been cycling the rounds artificially
+
+284
+00:38:39,785 --> 00:38:55,100
+because I don't have enough hash rate to get real blocks. And so but because the round cycling and all that math is an important part of the system and how it functions, I need to be able to see that working. I'm using just an artificial trigger to cycle new rounds on Mainnet.
+
+285
+00:38:55,260 --> 00:39:22,350
+But on Testnet, I'd like to use the real trigger on Testnet. So I think if people want to get involved, download the code, try running it, see see if if it's easy enough to to spin up your own version and get it connected. Tell me how it goes. Give me feedback. Listen to the podcast. Think about the system and how it functions and see if you can break it. That would be awesome. Yeah. I think I think some of those are the main ways. As we get closer to being ready ready to launch, it would be really, really helpful
+
+286
+00:39:22,590 --> 00:39:26,430
+if we had a few people who were committed to, like, running stable,
+
+287
+00:39:26,430 --> 00:39:31,150
+well connected nodes just to make sure that we can sort of get the network bootstrapped.
+
+288
+00:39:31,150 --> 00:39:34,875
+We have enough enough sort of stable seed nodes online
+
+289
+00:39:35,035 --> 00:39:40,715
+that that we know that we can sort of get the thing launched and rolling. I have a couple questions.
+
+290
+00:39:40,715 --> 00:39:47,035
+Unknown: One, to solve the block template construction problem is in its current architecture is Datum
+
+291
+00:39:47,810 --> 00:40:01,890
+the only method for doing that? Could Stratum V2 also be implemented where you could use either client side block template construction? Yeah, let's talk about client side. So Datum was the one I went for first
+
+292
+00:40:02,445 --> 00:40:05,085
+Unknown: Ocean has a lot of Datum hashrate.
+
+293
+00:40:05,085 --> 00:40:06,205
+That's why.
+
+294
+00:40:06,845 --> 00:40:09,165
+Second one I did was HydraPool. So
+
+295
+00:40:09,405 --> 00:40:10,845
+I forked HydraPool.
+
+296
+00:40:11,165 --> 00:40:15,245
+I had to fork P2Pool v2 as well in order to be able to do custom
+
+297
+00:40:15,570 --> 00:40:24,850
+payout to be able to control the customized payout list. But on my forked version of HydroPool, HydroPool can submit its own shares
+
+298
+00:40:24,850 --> 00:40:51,910
+to the GridPool network. So the ideal setup for that would be someone spins up a hydro pool node, they spin up their own grid pool node, their hydro pool node submits shares to their grid pool node, their grid pool node checks them and shares them with the rest of the network. And then their Gridpool node is also maintaining their own sovereign copies of the two lists that we talked about, and then feeding the Hydropool node that list data so that your Hydropool node knows how to construct
+
+299
+00:40:51,990 --> 00:40:53,750
+a correct Coinbase
+
+300
+00:40:53,750 --> 00:40:57,465
+payout. So this works in in my forked version of HydroPool.
+
+301
+00:40:57,545 --> 00:41:01,865
+I've been talking with Jungly. I put in a PR, and he's he's he's supportive
+
+302
+00:41:01,865 --> 00:41:03,625
+of it. He wants to
+
+303
+00:41:04,105 --> 00:41:28,305
+go a slightly different route just in the codebase in in terms of how he enables this going forward. So so the PR is is in, and he's working through that. But I I don't wanna step in his chili too much over sidetrack his other efforts and stuff. But hydro pool is is pretty trivial to make work. Because this protocol is so simple, like, it's just a couple of HTTP JSON messages, it's we could almost vibe code compatibility
+
+304
+00:41:28,305 --> 00:41:30,704
+to any other pool implementation.
+
+305
+00:41:31,184 --> 00:41:44,030
+I could see so on my list would be c c k pool, public pool, stratum v two would be those would be towards the top of my list. Atlas Pool is another forked version of CKPool. I even used a Bidaxe directly.
+
+306
+00:41:44,430 --> 00:42:04,205
+So this is an interesting side project. Again, VibeCoded in, I think, one shot. Codex made it so that my Bidax uses RPC commands to my Bitcoin node to construct a block template. It also used the HTTP JSON protocol to talk to my grid pool node to get the current payout list. It constructed its own
+
+307
+00:42:04,619 --> 00:42:08,700
+share, worked on it. Once it found the work, submitted that work
+
+308
+00:42:08,940 --> 00:42:14,940
+back to my Gridpool node, a 100% running on the BITX. So that was with no other
+
+309
+00:42:15,099 --> 00:42:21,595
+stratum layer involved at all. Because the protocol is so simple, you really could you could do anything with it.
+
+310
+00:42:21,914 --> 00:42:27,835
+It it'd be it's trivial to plug anything into the network. My next test was gonna be doing this with Magena,
+
+311
+00:42:27,835 --> 00:42:41,990
+which I would expect should be similarly trivial. Probably easier than the BidX. But if sorry. You Go ahead, Iko. If I understand, you had your Bidax acting as the grid pool client? So the Bidax was doing was doing
+
+312
+00:42:42,549 --> 00:43:23,355
+was acting as a datum client. Let me simplify it like that. Okay. So so it was talking to the Bitcoin node. It was constructing the template with all the correct Coinbase payout splits, and then when it got a good share, it was submitting that to my GridPool node. It was not acting as a complete GridPool node itself, so for that it would have to also be connecting to a lot of other GridPool nodes, so it's got a well connected view into the network, receiving shares that other nodes are sharing around the network. When someone says, hey, I got a new thing to add to the list. Each share has to be checked for for the validity rules and stuff. So the BidX is not doing that part of it. It but it was it was getting the Coinbase Coinbase
+
+313
+00:43:23,355 --> 00:43:31,115
+split from my grid pool node, building its own work, and then submitting shares back without a stratum layer involved at all. That's pretty good for a ESP
+
+314
+00:43:31,355 --> 00:43:32,235
+Unknown: 32.
+
+315
+00:43:32,235 --> 00:43:38,300
+Unknown: Yeah. Right? Which means literally anything can use this this pool. Yeah. Like, you've got the the
+
+316
+00:43:38,620 --> 00:43:39,900
+Unknown: Datum client
+
+317
+00:43:40,060 --> 00:43:40,860
+code
+
+318
+00:43:40,860 --> 00:43:42,940
+simplified enough there that
+
+319
+00:43:43,340 --> 00:44:17,700
+Unknown: that anything can run it. Yeah. I mean I mean, to to clarify, that's not using any Datum code at all. That was that's using the ESP minor code base. And then I just told Codex, hey, I want this thing to reach out with RPC commands and then build its Okay. Build build its own templates. So there's no stratum layer involved at all. It's going straight to the Bitcoin node and and then straight to the grid pool node for the for the pool split. Gotcha. Okay. Is the fair payouts with higher variance enough to convince larger miners to use this? Good question. Because everyone's got Fiat brain rot. So Yeah.
+
+320
+00:44:18,465 --> 00:44:32,305
+So my hope is there's no fees on this. 0% fees and you get lower variance for free. So game theory would say that it's in everyone's best interest to use this. That includes not just small miners,
+
+321
+00:44:32,305 --> 00:44:33,850
+that includes Mara,
+
+322
+00:44:33,930 --> 00:45:00,525
+that includes Ant Pool, that includes F2 Pool. It's in their best interest to participate in this coin based split. Now the real big pools are probably not gonna bother because they're big enough that variance is not an issue for them. I think for for your middle tier pools, I think this could be huge because now they can they can get over that hump of, like, the danger zone when pools die, you know, when you're not getting a block more than every week or so. Mhmm.
+
+323
+00:45:01,210 --> 00:45:27,185
+Unknown: And it's just at that point, the pool can't survive. But if they use this, they get a payout. Yeah. So good for the medium sized guys. I mean, what we've learned with the large mega miners, you mentioned some of the big guys that are using Foundry or whatever, it doesn't even matter what it costs. It's about compliance and SOC two and all this legal BS. Like that's the reason they pay to have the pool managed for them. Maybe there's no convincing to be done there. What about the smaller
+
+324
+00:45:27,345 --> 00:45:28,385
+guys though?
+
+325
+00:45:28,625 --> 00:45:33,800
+If I am understanding this correctly, if the grid is sufficiently large with enough participants
+
+326
+00:45:33,800 --> 00:45:35,560
+and only 300
+
+327
+00:45:35,560 --> 00:45:39,560
+slots in the payout, the small guys might still be SOL.
+
+328
+00:45:39,560 --> 00:45:43,480
+Unknown: Is that true? Not SOL. It's still better for the small guys
+
+329
+00:45:45,455 --> 00:45:53,295
+Unknown: Versus going a 100% solo. And is that because it's based on them getting a good difficulty, not necessarily
+
+330
+00:45:53,375 --> 00:46:00,255
+Unknown: how much hash rate they've got? They just need to get enough to get one share onto that payout list. And statistically,
+
+331
+00:46:00,960 --> 00:46:07,680
+if they have one three hundredth of the pool's hash rate, on average, they're gonna get one payout slot
+
+332
+00:46:07,680 --> 00:46:10,480
+per round rotation. So if
+
+333
+00:46:10,720 --> 00:46:13,119
+if the the total pool is small
+
+334
+00:46:13,055 --> 00:46:49,495
+it's getting one Let's say the total pool size is 300 P2H. So, a one P2H miner on average is gonna get one slot on that list every month. And on average, that team is gonna get one block a month. So, there's their they're gonna get one slot payout a month on average. Let's say the pool doubles in size. So now it's a 600 P2H pool, and they're getting a block every two weeks. But now it's twice as hard for that P2H miner to make it onto the list. He's still getting on average one payout slot every month. So once you get up above a certain threshold,
+
+335
+00:46:49,495 --> 00:47:02,660
+it's actually no it your payouts start to even out and you're still going to be getting on average paid the same. Does that help explain it? Yes, but if you're a small small miner say with 10 terahash,
+
+336
+00:47:02,660 --> 00:47:06,500
+Unknown: that's when you're still waiting quite a while. Yes. You're still waiting quite a while.
+
+337
+00:47:07,194 --> 00:47:08,955
+Unknown: You're waiting mathematically
+
+338
+00:47:09,115 --> 00:47:20,395
+300 times shorter than if you were pure solo. Gotcha. So, that's, you know, at a 10 terahash level, that's a 100% a personal choice. Do I want the jackpot?
+
+339
+00:47:21,360 --> 00:47:39,025
+Unknown: Right. Do I want a low chance of getting a jackpot or do I want a slightly larger but still low chance of getting a small payout? So there's a sweet spot. I mean, it's not enforced, but there is kind of like a sweet spot for depending on how large the pool is, how big your share should be to get your desired
+
+340
+00:47:39,025 --> 00:47:43,025
+Unknown: cadence of payouts, you know? Yeah. In the business view on
+
+341
+00:47:43,265 --> 00:47:44,305
+the pool page,
+
+342
+00:47:44,705 --> 00:47:47,985
+I tried to produce some of these metrics so that if someone was
+
+343
+00:47:48,450 --> 00:47:52,210
+wanting to predict what their payout cadence would be Mhmm.
+
+344
+00:47:53,330 --> 00:47:54,210
+Mathematically,
+
+345
+00:47:54,210 --> 00:48:03,250
+they could they could see this. And this is based on the the hash rate of the total pool versus their own hash rate versus the network hash rate, network difficulty.
+
+346
+00:48:03,605 --> 00:48:36,145
+Unknown: And using that and some math we can predict what someone's payout cadence is going to be. From your development of this project, do you think that if you have the 10 terahash space heater or whatever and you want your 500 stats per day, and you also want pool payouts to be a protocol, not a centralized entity. Is that where the share accounting and share chain has to exist? I'm just curious your commentary on that to solve that problem. That's a good question. So if so if you if you want 500
+
+347
+00:48:36,145 --> 00:48:36,785
+Unknown: a day,
+
+348
+00:48:37,185 --> 00:48:41,745
+you can't you can't do payouts direct from the Coinbase at all. Yeah. You just can't.
+
+349
+00:48:41,985 --> 00:48:45,825
+You and which means you have to do a solution that involves
+
+350
+00:48:46,200 --> 00:48:54,280
+lightning and I don't want to say a custodian because I think there's clever technical solutions. I know there's people working on this problem. Yeah.
+
+351
+00:48:54,760 --> 00:49:05,075
+I'm not smart enough to understand them. So if someone can figure that out, that's awesome. And I hope that that option exists for miners that would like that to exist.
+
+352
+00:49:05,475 --> 00:49:18,890
+Unknown: Yeah. Mean, that's my vision and dream is regardless of size of your mine or system, you plug it in and the network's a protocol, the nodes a protocol, and the mining and the payouts are also a protocol. There should be no centralized risk.
+
+353
+00:49:19,530 --> 00:49:40,075
+Yeah. We we figured out a way to plug computers in, connect them, they talk to each other, and they value each other's efforts, and they pay each other. Like, done. Right. Right. Yeah. Yeah. Now the 300 payout slots is that was a that was a design choice. I kinda guessed if if we include a lot more payout slots, then we could get finer grained payouts.
+
+354
+00:49:40,075 --> 00:49:42,795
+Unknown: You're not gonna get down to 500 stats. No, of course not.
+
+355
+00:49:44,380 --> 00:49:52,460
+But you could get a more fine grained split. What it ends up doing is you might fill up the entire block with Coinbase payouts
+
+356
+00:49:52,620 --> 00:49:58,700
+and not include very many transactions. Right? We're limited on block space. And if you go less than 300,
+
+357
+00:49:59,015 --> 00:50:01,175
+we could have done a 150.
+
+358
+00:50:01,175 --> 00:50:03,735
+Now you're getting more into lottery range.
+
+359
+00:50:03,895 --> 00:50:18,620
+It's it's harder to get one of those slots. The payout is bigger, but the variance increases. 300 seems like felt like a rough kind of middle ground. The other piece that played into it is that a lot of minor firmware is broken and cannot
+
+360
+00:50:18,700 --> 00:50:21,500
+handle Coinbase transactions that are too large.
+
+361
+00:50:23,435 --> 00:50:24,075
+The
+
+362
+00:50:24,395 --> 00:50:37,035
+the datum guys dealt with this a lot and if you dig into their code, they have some very complex code to figure out how to like fingerprint each miner and then give it the right block size. What that means is that certain mining machines
+
+363
+00:50:37,035 --> 00:50:38,555
+will not be able to contribute
+
+364
+00:50:39,020 --> 00:50:50,140
+or participate in grid pool. And that might be an open problem that might be bigger than I realize, depending on how much the network hash rate is able to handle a 300 slot Coinbase transaction.
+
+365
+00:50:50,140 --> 00:50:57,875
+Unknown: I don't know. I I say it's more incentive to get different kinds of firmware running on Antminers.
+
+366
+00:50:57,875 --> 00:50:58,835
+Mean, let's just reveal
+
+367
+00:51:00,035 --> 00:51:04,675
+the elephant in the room. It's Antminers that can't handle these large coin base. Exactly.
+
+368
+00:51:05,315 --> 00:51:11,680
+Unknown: Well, you actually have some experience with that. Agent P, why don't you I saw a cool forum topic from you on the February
+
+369
+00:51:11,680 --> 00:51:12,320
+forum
+
+370
+00:51:12,640 --> 00:51:16,960
+answering my question, which is, Hey, hey, Neanderthal here. How do I start
+
+371
+00:51:17,200 --> 00:51:21,520
+hacking away to try and get Mugena open source firmware onto
+
+372
+00:51:21,840 --> 00:51:22,960
+an Antminer?
+
+373
+00:51:23,200 --> 00:51:31,425
+And you posted some awesome tips. And before the call, before we started the pod, you said, you know, you learned a lot during that experience. So why don't you talk on that? Yeah.
+
+374
+00:51:31,985 --> 00:53:18,595
+Unknown: Let's say so let me first say all of my hacking, tinkering, coding is, like, in my spare time. I've got a lot of small kids and I don't have a lot of spare time. So the the time that I have to be able to the times I get to sit down at a computer and write code for two to three unbroken hours, like, I get maybe a handful of those a year. It's not much. So so vibe coding has changed my life because I can sit down at a Codex terminal and bang out a quick prompt for five minutes. And then I go and, you know, I change a diaper. I get dinner on the table. I'm tucking kids in bed. I'm like, you know, just doing family life or whatever. And then I come back and check on it. And half the time the thing is done, it's come up with a better solution that could have figured out on my own or I steer it differently or whatever. But it really has allowed me to to start contributing and producing things that I would never have had time to to do before. So I'm super bullish on open source for that reason. Like, the barrier to be able to contribute has now been lowered all the way down to the floor. Like, it cannot be any easier to start producing open source code. It truly is amazing. So as I was building GridPool, I I was starting to expand my testing, and I realized I needed three to four different nodes all set up and talking to each other and running the code so that I could start testing the actual network protocol. And it was getting a little bit much to manage, and I was using the AI agents a little bit for for some of the coding stuff, and I just wasn't able to get all these things talking to each other. And I just asked Codex at one point, can you just SSH into my laptop and fix this for me? Here's the IP address. And it was like, yeah, sure. Here's the key. Can you paste this into the config? Alright. So it helped me set up the SSH key. And now Codex SSHs into all of my nodes. When I need to change something, it handles all of the network configurations.
+
+375
+00:53:18,915 --> 00:53:41,010
+Before this, I wanted to swap a bunch of the nodes back over to main net just so I could kinda demo and get more of the hash rate back into main net. That was one prompt. I said, hey. Can you switch over the everything back over to net for me? Sure. I walked away. It was done when I came back. So the power of these things is is incredible. That's basically how I approach the s 19 XP thing. I have some XPs laying around, and I saw Scott's
+
+376
+00:53:41,010 --> 00:53:51,495
+post about hacking on the J Pro and all the stuff he was doing with that, and he was doing it most of it through vibe coding. I was like, well, let me me give it a shot. I've been wanting to try Mugena on the XP.
+
+377
+00:53:51,655 --> 00:53:52,535
+And rather
+
+378
+00:53:52,775 --> 00:54:29,740
+than waiting for someone else to build it, I was like, maybe see if Codex can do So so it was one prompt. For first, I downloaded the code base, you know, cloned the the repos on GitHub. I cloned the ESP minor repo and the Magena repo. I wish I'd also cloned Scott's branch. I didn't realize he had a separate actual separate branch. But so that those were available locally that the AI seem to do better if the code is just right there on the file system that it can read. And then in one prompt, I said, hey. Here's the ESP Miner code base, which does work on s 19 XP chips. So here's how to talk to the chips. Here's Mugena. Can you make Mugena talk to my s 19 XP?
+
+379
+00:54:29,900 --> 00:54:56,730
+And then here's a loader. Here's a Mugena loader that someone else used to to get it onto that onto that board. So in one prompt, I had it build the the code base for Mogina. And then once it was ready and I was sitting there monitoring the machine physically, I had a power meter on it just for safety. I didn't I didn't want it doing anything automatic on the on a running miner without me around. Then I told it to go. I said, okay. I'm watching. Go ahead and remote into the machine. Here's the IP address. It should be default username,
+
+380
+00:54:56,730 --> 00:55:01,130
+password. See if can get Magena running. And so it came up with its own testing plan.
+
+381
+00:55:01,930 --> 00:55:02,809
+First,
+
+382
+00:55:02,809 --> 00:55:29,440
+it remoted in and just verified that it could get UART connectivity and just did a scan of the chains and made sure it can it can read from all the chips. Once it was happy with that, then it it loaded Magena as well. This control board had LuxOS already running on it, that handled the secure boot piece. I think that's a more difficult challenge that I haven't looked into yet. So it shut down the LuxOS program that was running. And this is not SD cards swapping images.
+
+383
+00:55:29,520 --> 00:55:37,455
+It just hijacked it while it was running. Purely through the LAN. It SSH ed into the miner, shut down the LuxOS
+
+384
+00:55:37,615 --> 00:55:41,775
+program, booted up the Mugena program after it copied the It compiled
+
+385
+00:55:41,775 --> 00:55:45,935
+Mugena for that control board, copied it onto the control board,
+
+386
+00:55:46,730 --> 00:55:51,690
+started it up, sniffed all the traffic on the UART, watched the debug logs
+
+387
+00:55:51,690 --> 00:55:56,090
+as it was running to make sure that it was doing what was expected. Yeah.
+
+388
+00:55:57,770 --> 00:56:05,445
+In the first test, it realized that it was running, the chips were hashing, and returning super low difficulty shares.
+
+389
+00:56:05,445 --> 00:56:12,885
+All the shares were like zero or one difficulty. Nothing. So then it on its own realized that on the S19XP
+
+390
+00:56:12,885 --> 00:56:13,365
+chips,
+
+391
+00:56:13,750 --> 00:56:39,495
+the byte order of the nonce is reversed when it's communicating it back. So it just flipped that byte order around in Mugena, recompiled it, and reran it, and then that solved that issue. I didn't have to ask it to solve that issue. Like, did it. It figured that out on its own and then just recompiled this Magena, reloaded it, fired it back up again. After that, it was working. There was some weirdness with the PSU. It wasn't properly
+
+392
+00:56:39,495 --> 00:57:13,955
+Unknown: spinning up the PSU, so I did have to interact with it a little bit there to tell it what was going on when the hash board wouldn't turn on at first and it just forgot to signal to the PSU to turn on. But other than that, was it was working. It was like seventeen minutes to get Oh it my gosh. Running. So like This is amazing. Yeah. We gotta I I I wanna figure out how to do this if you don't have Secure Boot cracked already because that's kind of where we're at with all the What's Minor machines. Really? Just because there's not a lot of aftermarket firmware support for them. People haven't spent the time to crack Secure Boot. But Yeah. For all the machines that do have aftermarket firmwares,
+
+393
+00:57:14,270 --> 00:57:15,710
+brains or luxOS,
+
+394
+00:57:15,710 --> 00:57:18,110
+it sounds like this strategy is quick
+
+395
+00:57:18,270 --> 00:57:29,835
+Unknown: and completely unlocks the machine. It's unreal, isn't it, Iko? It's amazing hearing this. It's like life comes at you really fast because it just, it wasn't that long ago where your
+
+396
+00:57:29,835 --> 00:57:51,420
+firmware options for a miner were very limited. And it's just the threshold to be able to do what you want with your own hardware that you own. That threshold is continually getting pushed lower and lower. And it's, I love to see it. It's just, it's amazing. It's, I'm a very big proponent for it's your hardware, it should be your rules,
+
+397
+00:57:51,740 --> 00:57:53,180
+not the manufacturer's
+
+398
+00:57:53,180 --> 00:58:02,535
+rules and breaking that hardware free and using these AI tools to do it in like very short durations of time. It's just it's mind blowing and
+
+399
+00:58:02,775 --> 00:58:13,390
+Unknown: I think it's great. So excellent work. Yeah. I'm super bullish on open source for this reason. Like anyone can contribute now. If you can write a prompt, you can contribute.
+
+400
+00:58:13,549 --> 00:58:25,755
+And that means, like, there is no moat in software anymore or really firmware. Right? Like, there it's just gone. Once once a thing is open sourced, it's this is gonna get ported to every machine
+
+401
+00:58:25,994 --> 00:58:26,875
+instantly.
+
+402
+00:58:27,115 --> 00:58:45,550
+Unknown: Like, anyone that wants this to run on their bespoke machine, it's it's one prompt and, like, twenty minutes of watching the thing work, and then it's running. And even if you try to keep your special sauce via closed source software, reverse engineering these AI tools are getting so good at it. I saw this week that someone reverse engineered
+
+403
+00:58:45,630 --> 00:58:47,390
+the Google Fitbit software
+
+404
+00:58:47,390 --> 00:59:00,355
+so you don't need your subscription and your data is not going to Google and so now your little health wearable just reports your data locally, builds a dashboard on your laptop. Same goes for firmware on machines, on miners. It does seem like a silly
+
+405
+00:59:01,555 --> 00:59:02,835
+hill to die on, right?
+
+406
+00:59:03,875 --> 00:59:10,940
+Build your moat around whatever quality hardware or good customer support and services. Exactly. Not code.
+
+407
+00:59:11,100 --> 00:59:27,425
+Unknown: I do think it's gonna be a really interesting challenge going forward for maintainers of open source projects because because the barrier is so low. Now, literally anyone can submit a PR for something they want. Know Ryan's That may or may not be a good idea. It's Yeah. Ryan's
+
+408
+00:59:27,425 --> 00:59:34,865
+had some really good ideas on this front and I'm excited to see how those work. He's willing to try stuff as well. Well, highlights the importance
+
+409
+00:59:35,505 --> 00:59:45,130
+Unknown: of a maintainer as well. Because if everyone can vibe code whatever hack job solution to their unique specific problem, that doesn't necessarily mean it was architected
+
+410
+00:59:45,130 --> 00:59:48,490
+properly into the original code base for a merge
+
+411
+00:59:49,375 --> 01:00:00,335
+so that they can be distributed to everyone else. So, I do agree. Like, the maintainers of open source projects have a lot of lift in front of them. Yeah. He's had some good ideas too with using
+
+412
+01:00:00,735 --> 01:00:38,170
+Unknown: agents. Md files in the repo in order to if someone downloads the repo and starts hacking on it, the the context is there to guide those agents into producing better architectures that fit with the rest the goals of the rest of the project. Yeah. And I think you'll get much better contributions that way. So I'm excited to see where that goes too. Incredible. Well, anything else you wanted to hit on here? It's awesome to see the Vibe Coding open source firmware onto closed source miners. I encourage all of our listeners to go try that. I still need to try it myself. So thanks for replying some tips and tricks that are on the forum, as I said. And gridpool.net,
+
+413
+01:00:38,170 --> 01:00:49,305
+Unknown: amazing to see. Hopefully, can get some folks to spin up some gridpool nodes and contribute feedback to the code base and point some hash rate too to start testing this out. Yeah. Thank you. Thank you guys for your time and for
+
+414
+01:00:49,545 --> 01:00:50,665
+Unknown: bringing me down.
+
+415
+01:00:51,145 --> 01:01:02,800
+I'll keep you guys updated with where it goes and what we need next. I think that covered pretty much everything. Anything else for you, Ico? Well, just to bring it full circle, I think the more
+
+416
+01:01:03,120 --> 01:01:05,600
+Unknown: eyes and participants we have,
+
+417
+01:01:06,240 --> 01:01:10,880
+the resources we have, these open source resources and trying different things and
+
+418
+01:01:11,040 --> 01:01:17,005
+making new attempts, applying new ideas with the end goal in mind of helping decentralized
+
+419
+01:01:17,005 --> 01:01:19,245
+Bitcoin mining. That's
+
+420
+01:01:19,245 --> 01:01:26,285
+the ultimate goal and it is going to take a lot of different people trying a lot of different things, different payout methods, different accounting methods.
+
+421
+01:01:26,740 --> 01:01:31,300
+And I think what you've done here is amazing. I love that you're
+
+422
+01:01:31,460 --> 01:01:34,260
+keeping it in the open source ethos
+
+423
+01:01:34,260 --> 01:01:34,900
+and
+
+424
+01:01:35,540 --> 01:01:38,100
+I just encourage anyone who's curious
+
+425
+01:01:38,845 --> 01:01:41,245
+to just get started. It's never been easier
+
+426
+01:01:41,485 --> 01:01:43,405
+to get started with this stuff.
+
+427
+01:01:43,965 --> 01:01:44,685
+The
+
+428
+01:01:44,765 --> 01:01:54,530
+open source resources we have today are just, we've come light years in a very short duration of time as in regards to Bitcoin mining firmware
+
+429
+01:01:54,530 --> 01:01:57,970
+and pool software and what's capable.
+
+430
+01:01:58,690 --> 01:02:05,330
+I mean, it wasn't that long ago that it was next to impossible for a person like me who doesn't have any coding experience
+
+431
+01:02:05,330 --> 01:02:08,835
+to mine to my own node, Like in 2021,
+
+432
+01:02:08,835 --> 01:02:14,355
+2022, like that was next to impossible for a non developer to be able to do. Fast forward,
+
+433
+01:02:15,395 --> 01:02:17,395
+here we are four, three years later.
+
+434
+01:02:18,195 --> 01:02:26,740
+I mean, just look at what we're talking about. Like you have an AI agent in twenty minutes taking control of your miner and putting new firmware on it. And it's
+
+435
+01:02:26,740 --> 01:02:30,980
+just, it's incredible. I mean, the innovation that's happened is
+
+436
+01:02:31,140 --> 01:02:43,425
+Unknown: happening at a very rapid pace. So, so hop on board and give it a shot. I mean, it's, it's never been easier. That was a beautiful way to wrap up. And I thought of one last critical piece of grid pool that I wanted to say. I'm sorry. That
+
+437
+01:02:44,225 --> 01:03:02,160
+was like, that was a really good way to wrap up. I should have just ended it. Okay. Censorship resistance. When grid pool nodes take these shares and they pass them around the network, they only include the bare minimum to be able to verify that the thing is consensus valid with GridPool. We don't share the full set of transactions.
+
+438
+01:03:02,160 --> 01:03:13,755
+We're only sharing the Merkle leaf and the the minimum to be able to verify if they had the correct Coinbase payout. What this means is that no one can censor you on grid pool
+
+439
+01:03:13,995 --> 01:03:16,555
+for including the wrong transactions.
+
+440
+01:03:16,715 --> 01:03:20,760
+So the the pool is designed to be a 100 censorship
+
+441
+01:03:20,760 --> 01:03:23,560
+resistant sort of at the at the foundation level.
+
+442
+01:03:24,920 --> 01:03:29,560
+Unknown: Alright. That's awesome. Wanted to close on that. So No. And I'm glad you said that because it's
+
+443
+01:03:29,720 --> 01:03:47,965
+you know, that's one of the the primary concerns on a on a completely transparent ledger is that they can see what's in the mempool. Anyone can see what's in the mempool and they can they can tell you, you know, this is here's an arbitrary list of transactions that you're not allowed to include or addresses that you have to blacklist.
+
+444
+01:03:48,190 --> 01:03:50,270
+And if the miners
+
+445
+01:03:50,270 --> 01:03:50,990
+can't
+
+446
+01:03:51,070 --> 01:03:51,710
+see
+
+447
+01:03:51,950 --> 01:03:53,790
+what transactions are included,
+
+448
+01:03:53,870 --> 01:04:04,565
+Unknown: then that problem in theory goes away. Right? In theory. Yep. Alright. Thanks for letting me sneak in that final bit. We freeze. Tyler, you looked like you're gonna say something. Well, I think he is. You're back.
+
+449
+01:04:04,964 --> 01:04:10,885
+You froze for a minute. We didn't hear anything you said. I'm here. Thanks for letting me sneak in that final bit of
+
+450
+01:04:11,125 --> 01:04:31,680
+Unknown: knowledge. Most certainly we'll have to have you back on in the coming months to hear some progress updates as we get more people to take a peek at it and try it out. I'm really eager to follow along with the progress of this project. Thank you, guys. Definitely. Thank you. I'm going to wrap the show up there, so don't hang up, but we're going to end the recording now. Thanks guys. See you everyone. Thanks.
+

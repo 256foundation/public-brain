@@ -1,0 +1,2200 @@
+WEBVTT
+
+NOTE
+Transcription provided by Podhome.fm
+Created: 3/25/2026 8:42:54 PM
+Duration: 3114.24
+Channels: 1
+
+1
+00:00:00.000 --> 00:00:01.040
+<v Unknown> Think we're live.
+
+2
+00:00:01.439 --> 00:00:02.560
+<v Unknown> We're
+
+3
+00:00:02.560 --> 00:00:06.480
+up. We're live. Odd 2 56109
+
+4
+00:00:06.480 --> 00:00:15.679
+coming at you live. Thank you, Dee. Thanks, Dee. All right. Thanks. All right. So March 25, UTC seventeen hundred. We got Tyler and Iko
+
+5
+00:00:15.975 --> 00:00:19.655
+holding the fort down. Scott is MIA today.
+
+6
+00:00:19.975 --> 00:00:21.735
+Just kidding. He's not missing.
+
+7
+00:00:21.895 --> 00:00:28.615
+We know where he's at, but it's an undisclosed location. How's it going? It's going good. How are you doing? Well, doing well.
+
+8
+00:00:29.830 --> 00:00:31.590
+<v Unknown> Lots of hacking around, Don't building
+
+9
+00:00:32.550 --> 00:00:46.725
+<v Unknown> need heat anymore. It's getting warm out. It's a bummer. What are you guys doing with all the heat from your miners? Sweating. Yeah. Great. But we'll have to turn them off. I hear myself. Sorry, that's me just making sure the broadcast is working on Twitter. Yeah.
+
+10
+00:00:47.445 --> 00:00:54.885
+<v Unknown> Now we got this cool dashboard built right at the end of the heating season, which I'm a little bummed about for a customer, but it's measuring
+
+11
+00:00:55.390 --> 00:01:07.950
+how how much of his heat in his house is delivered by the miner versus the gas. And it it does all this cool reporting, like the temperature when the miner kicks in, the temperature when the gas has to come in to assist,
+
+12
+00:01:08.335 --> 00:01:10.175
+what percent of the heat delivered,
+
+13
+00:01:10.255 --> 00:01:12.895
+like BTUs are minor versus gas,
+
+14
+00:01:12.975 --> 00:01:15.055
+SATs. It's a bunch of cool stuff to
+
+15
+00:01:15.295 --> 00:01:23.890
+<v Unknown> build out charts and dashboards for. Are you doing that with Home Assistant or how are you are you managing all this? Yeah, Home Assistant and
+
+16
+00:01:24.050 --> 00:01:27.490
+<v Unknown> this really cool thermostat that Dylan and I found called a Venstar,
+
+17
+00:01:27.730 --> 00:01:29.970
+which one of the only thermostats
+
+18
+00:01:30.210 --> 00:02:04.975
+we found where you can just straight up turn off the smart cloud service. Okay. It's out of the box, like it's sovereign focused. Like you install it and it says, do you want to enable cloud control? No. Do you want to enable local API control? Yes. Awesome. And then you connect that to a home assistant and then it's all contained there, which is cool. It has everything from stage one being fired, stage two, what zones are open, your set points. It's got all these entities. It's really cool. Awesome. Yeah. Is it just me or do I hear us in the background? I hear us in the background too. Where is that coming from? Okay, I think I figured it out. We're good. I don't know. Maybe it was No. My Twitter page
+
+19
+00:02:05.854 --> 00:02:10.815
+<v Unknown> I got I figured it out. Sorry. That was just a little distracting. But back to setup.
+
+20
+00:02:11.295 --> 00:02:13.855
+<v Unknown> I'll see if I can pull it up without doxing
+
+21
+00:02:13.855 --> 00:02:19.720
+information. Okay. You're gonna do screen share? I can. It's a little overwhelming, but it's freaking cool.
+
+22
+00:02:20.360 --> 00:02:27.880
+I'll share. Let's see. Yeah. Can you see this? Yeah. This is so cool. This, the blue here
+
+23
+00:02:31.080 --> 00:02:32.120
+is
+
+24
+00:02:33.454 --> 00:02:36.655
+the hours per day that the miner is heating the house.
+
+25
+00:02:36.894 --> 00:02:38.255
+The yellow is
+
+26
+00:02:38.415 --> 00:02:52.090
+when the gas turns on, which is not, and that's great. And then you can see the SATs earning two. The total miner heat time, like thirty six hours and twelve minutes of miner heat, only ten minutes of gas. How far off we are from what he's asking his house to be,
+
+27
+00:02:52.970 --> 00:02:56.330
+outdoor temp when it last turned the miner on at sixty,
+
+28
+00:02:56.570 --> 00:02:58.570
+fifty four the previous night
+
+29
+00:02:59.610 --> 00:03:06.915
+and then with electric rates and the BTU sizing, that's where we can get into fun economic stuff. This is great. It's coming together well.
+
+30
+00:03:07.475 --> 00:03:08.435
+<v Unknown> You've
+
+31
+00:03:08.435 --> 00:03:08.755
+got
+
+32
+00:03:09.635 --> 00:03:33.745
+<v Unknown> Sorry, was that the dashboard for your customer, the guy you set this up for at his house, or was that for the space where you're at now? Yeah, so it's an Alpha customer, a good friend of ours, who has opted in to allow us to use some remote monitoring where we actually have a tunnel into his Home Assistant because Home Assistant is self hosted. It's local access only.
+
+33
+00:03:33.905 --> 00:04:04.365
+You can pay like easily in their application, like $6 a month, they'll expose it for you just with their hosting service, but we're just doing a tunnel directly. So it's just us and him that have access to it. Yeah. Yeah. And then is he keeping all the Sats? Is he doing this because he wants Sats or are you guys like taking some of the Sats? How do you make your money? Playing around with some things. I mean, I don't know if we have the full like hash rate split dialed in yet. So we have it split right now with a Datum gateway for 5% to Exergy,
+
+34
+00:04:05.005 --> 00:04:14.045
+95% to him. He bought the hardware upfront. I know some guys are doing some like, buddy, Softwarm in Idaho, we've mentioned this before. He does, like, $80.20
+
+35
+00:04:14.100 --> 00:04:29.855
+and flips it. So he'll front the hardware. He gets 80% of the sats until it's paid off, and then they get 80% Okay. Which is pretty cool. But that works in a small town where he's he's the installer, the salesman, and the the callback guy. You know? Right. Yeah. Yeah.
+
+36
+00:04:30.815 --> 00:04:40.414
+<v Unknown> Yeah, dude, small town business models are one thing and they're something completely different when you go to a more developed metropolitan
+
+37
+00:04:40.414 --> 00:04:41.135
+area.
+
+38
+00:04:41.455 --> 00:04:44.820
+Yeah. I've figured that out the hard way, but
+
+39
+00:04:45.220 --> 00:04:51.460
+<v Unknown> Yeah, part of me wants to set up shop in a small town in Wyoming or Idaho and just conquer it with I Bitcoin
+
+40
+00:04:52.180 --> 00:05:00.775
+<v Unknown> mean, this is kind of true in metropolis settings, but definitely in small towns, you find your niche and then
+
+41
+00:05:01.175 --> 00:05:09.655
+word gets around and word travels very fast in small towns. And suddenly you just become that guy that is good at that thing.
+
+42
+00:05:10.215 --> 00:05:13.000
+Maybe you're good at fixing
+
+43
+00:05:13.800 --> 00:05:15.240
+old cars,
+
+44
+00:05:15.400 --> 00:05:22.600
+and word gets around and everyone's like, Oh yeah, you've got a car that doesn't have OBD2 on board diagnostics,
+
+45
+00:05:22.600 --> 00:05:31.805
+bring it to this guy, he's good with that stuff. Word just gets around, and before you know it, you're able to sustain yourself and feed your family. But
+
+46
+00:05:32.285 --> 00:05:34.845
+you kind of cut and paste that into
+
+47
+00:05:35.405 --> 00:05:37.005
+a larger city.
+
+48
+00:05:37.165 --> 00:06:18.759
+<v Unknown> I don't know what it is, but it just, in my experience, it doesn't work. Your entire business model has to change as you move into a larger town. Yeah, it's been interesting to try and offer things like remote monitoring and still be navigating it too from the technical layer too, where it's like, well, we're trying to sell these things as you know, sovereign devices you can control your own at home, but then you also want to be able to peer into it or at least get pushed data when there's an issue so we can come and fix it. Just doing it right has been a learning experience all on its own too. So what miners does he have? Are you using any of this stuff from February yet? We should be. So he's got a What'sMiner m 64,
+
+49
+00:06:19.000 --> 00:06:20.840
+is the only single phase hydro.
+
+50
+00:06:21.265 --> 00:06:28.865
+And we talked about that last week with Scott where, you know, he's gonna wanna upgrade. He's already set up with the infrastructure for an m 74
+
+51
+00:06:28.865 --> 00:06:42.340
+and we ping Watts Miner and they're so elusive about Right. What it actually is. Yeah. And when I told them I wanna be able to control the wattage for heat output, they were like, it should be steady. You don't need to do that. And I'm like, okay. It's frustrating,
+
+52
+00:06:42.340 --> 00:06:45.380
+dude. Like But an eventual two five six
+
+53
+00:06:45.620 --> 00:06:46.420
+platform
+
+54
+00:06:46.660 --> 00:06:47.380
+built
+
+55
+00:06:47.620 --> 00:06:52.655
+from the ground up water cooled miner would would be perfect for that kind of application.
+
+56
+00:06:52.735 --> 00:06:56.735
+Right. It's something cool that's been verified for us. It's like,
+
+57
+00:06:57.135 --> 00:07:00.815
+people don't realize this. His natural gas furnace is, like, 50,000
+
+58
+00:07:01.055 --> 00:07:03.215
+no. 100,000 plus BTUs,
+
+59
+00:07:03.215 --> 00:07:22.915
+so it it's big. It's a big home. 3,000 plus square feet. The miner's only, like, 17,000 BTU, 5,000 watts. So it's, a tenth, maybe an eight this size. But from that thing I just showed you, it's delivered a 100% of his heat. Obviously, the blunt of the winter's over, but it's cool to see that one miner can heat a whole 3,000 square foot house. Right.
+
+60
+00:07:23.074 --> 00:07:24.035
+<v Unknown> And I guess
+
+61
+00:07:24.435 --> 00:07:31.955
+people just need to understand, and correct me if I'm wrong here, but the idea is that the furnace is so oversized
+
+62
+00:07:31.980 --> 00:07:35.020
+so that it can perform adequately
+
+63
+00:07:35.020 --> 00:07:38.220
+under the absolute worst conditions. Whereas
+
+64
+00:07:38.700 --> 00:07:39.580
+in
+
+65
+00:07:39.980 --> 00:07:46.585
+practice, you're only going to experience those absolute worst conditions a very small percentage of the time.
+
+66
+00:07:46.985 --> 00:07:47.545
+<v Unknown> Exactly. Therefore,
+
+67
+00:07:48.345 --> 00:07:52.585
+<v Unknown> the vast majority of the time, you've got this ridiculously outsized
+
+68
+00:07:52.745 --> 00:08:03.440
+heat source in your home, your furnace, and it's like, you're not using anywhere near its actual output capacity for the vast majority of its life cycle. Exactly
+
+69
+00:08:03.440 --> 00:08:08.800
+<v Unknown> right. And that's what's been probably one of the harder things to communicate in the heat pump ecosystem
+
+70
+00:08:08.800 --> 00:08:10.000
+with our community.
+
+71
+00:08:10.240 --> 00:08:12.800
+Because when you're talking to the HVAC and the plumbing industry,
+
+72
+00:08:13.474 --> 00:08:30.780
+you know, it's trivial to just put a bigger valve and burn more gas. Like it doesn't cost much more. The sheet metal box that makes up a furnace, right? If it's a 100,000 BTU or 200,000 BTU, it doesn't really matter. Right. When you want 5,000 watts of miners versus 10,000 watts of miners, it's a lot more expensive.
+
+73
+00:08:30.940 --> 00:08:33.420
+And so we're much more sensitive to
+
+74
+00:08:33.899 --> 00:08:50.404
+not over sizing it. Like an upfront capital expenses you mean? Exactly. Yeah. Yeah. And not just that, it's like if you over size it too, you don't wanna buy five miners that only run on that one cold day. Right. You'd rather have one miner and the gas helps out on that one cold day. Right.
+
+75
+00:08:51.470 --> 00:09:08.725
+And that's like a foreign concept in the heating industry to have these little buddy systems. Uncharted territory, man. Yeah. Yeah. It's been fun. That's how you know you're on the right track. I think so. I think so. We'll just have to see if we can get Colorado bought in because it's electric heat. Right? Right. Yeah.
+
+76
+00:09:11.285 --> 00:09:12.805
+Sorry. Go ahead.
+
+77
+00:09:13.285 --> 00:09:16.725
+<v Unknown> Isn't Colorado doing something like banning?
+
+78
+00:09:16.805 --> 00:09:20.740
+Is banning the right term? Banning natural gas heating
+
+79
+00:09:20.899 --> 00:09:28.020
+sources like natural gas furnaces in new construction? Denver County is. Denver County is. For new builds, yeah.
+
+80
+00:09:28.660 --> 00:09:54.200
+<v Unknown> Even to like, you know, for electric cooktops and everything like that, really leaning towards heat pumps. But then I remember Rob posting about this a couple months ago because I don't understand, you know, it's like the the utility in the state, they're pretty much one in the same. They pressured Xcel, which is our largest utility here in Colorado, Xcel Energy, to like wind down natural this is what I don't fully understand. Like, how can you convince a company that effectively has a monopoly
+
+81
+00:09:54.200 --> 00:09:57.080
+that already spent billions building the infrastructure,
+
+82
+00:09:57.160 --> 00:09:58.920
+the pipeline's already laid to say,
+
+83
+00:09:59.685 --> 00:10:04.405
+Yeah, you can't do that anymore. It's just preposterous to me. Or you can't use what's already there.
+
+84
+00:10:05.605 --> 00:10:06.165
+What
+
+85
+00:10:06.485 --> 00:10:12.325
+<v Unknown> does Denver want people to use for heating then if not natural gas? Heat pumps are
+
+86
+00:10:12.565 --> 00:10:15.500
+<v Unknown> electric? Either electric, but the electricity
+
+87
+00:10:15.500 --> 00:10:22.380
+drives a pump. That's why it's called a heat pump kind of. It's like an air conditioner that runs in reverse. It actually brings heat in from outside.
+
+88
+00:10:22.540 --> 00:10:34.125
+Even when it's cold out, there's like energy in the air. So they're really efficient. Like you spend one watt of electricity and you can get three watts of heat because you're not actually making the heat, you're moving it from outside. But
+
+89
+00:10:34.925 --> 00:10:50.529
+they're slaves to how much energy is in the air outside. Meaning if it's super cold, they often have these electric resistive backups in them. Yeah. And they're expensive because they're more complicated. They have refrigerants, they have pumps, it's a thermodynamic cycle. I thought the
+
+90
+00:10:50.610 --> 00:10:51.089
+<v Unknown> laws
+
+91
+00:10:51.490 --> 00:10:56.450
+Okay, we're getting out into the weeds here. Yeah, let's do it. I thought the laws of thermodynamics
+
+92
+00:10:56.375 --> 00:10:57.255
+dictated
+
+93
+00:10:57.334 --> 00:11:49.480
+<v Unknown> that the most efficient you could get is like one to one. Like how is it getting one watt in and putting three watts out? That just sounds like a perpetual motion machine. Yeah, it does. It's because you're not making the heat. So that is that law first law of thermodynamics can't create or destroy energy is true when you're converting things like you're converting a hydrocarbon fuel stored chemical energy into heat energy by combustion. That's what natural gas is or propane. A heat pump, you are just powering a pump that's moving a liquid, a refrigerant that goes through a compression and expansion cycle. And so it's actually like the boiling point and the like the the boiling point and the condensing point of that liquid is designed well where it can actually suck heat out of the air outside in this big condenser fan coil unit.
+
+94
+00:11:50.120 --> 00:11:53.959
+Then it comes inside the liquid and then it condenses
+
+95
+00:11:54.040 --> 00:12:00.045
+and it drops that heat. So it absorbs the energy and evaporates outside. It's like a gas, the refrigerant,
+
+96
+00:12:00.045 --> 00:12:14.490
+comes inside, condenses that energy, that heat is released into the home. And so you're not spending one watt to get three watts of heat. You're spending one watt to to move a pump around and it's pulling three watts of heat from outside in. Interesting. Yeah. Okay.
+
+97
+00:12:14.730 --> 00:12:17.770
+So I mean, it's very cool. It's an awesome breakthrough.
+
+98
+00:12:18.010 --> 00:12:19.370
+<v Unknown> So someone
+
+99
+00:12:19.530 --> 00:12:20.970
+in Denver
+
+100
+00:12:21.050 --> 00:12:22.970
+County
+
+101
+00:12:21.945 --> 00:12:22.985
+politics,
+
+102
+00:12:22.985 --> 00:12:24.505
+Denver County government
+
+103
+00:12:24.585 --> 00:12:34.265
+has a relative who owns a heat pump company. And they were like, Hey, it would really help line my pockets if you could make it a law
+
+104
+00:12:34.509 --> 00:12:38.990
+to ban our biggest competitor, which is natural gas furnaces.
+
+105
+00:12:38.990 --> 00:12:47.310
+<v Unknown> That way everyone in Denver County has to use my heat pump. It wouldn't surprise me. I mean, what kind of funny business is going on? Because these also have $10,000
+
+106
+00:12:47.310 --> 00:13:28.125
+plus tax credits for heat pumps. When you file your taxes, there's a question on there and it's like, did you get a heat pump installed this year? Just like electric cars. Know, it's one of those things where I don't think necessarily because they are more expensive as we just described, it's like a pretty complex system. It's the same with electric cars. The free market, I don't think would be deciding on heat pumps all the time. Dude, yeah, no way. Maybe your off grid solar guy with electricity and a pretty good climate for it would self select one because he wants free heat. I get a little worried about them because we said they don't work when it's really cold outside. So it doesn't really work well when there's not a lot of energy in the air. So it's cold or thin. Right? So high altitude. Yeah.
+
+107
+00:13:29.610 --> 00:13:32.010
+And and then I don't like the idea
+
+108
+00:13:32.410 --> 00:13:39.610
+of my house not being able to make heat. Because remember, we just talked about how they move heat. That's what heat pumps do. Right.
+
+109
+00:13:39.930 --> 00:13:43.610
+I I I would prefer from, like, a sovereign robust resiliency
+
+110
+00:13:43.610 --> 00:13:47.795
+perspective to also have a way to make it myself from
+
+111
+00:13:47.795 --> 00:13:48.595
+fuel,
+
+112
+00:13:49.154 --> 00:13:51.714
+be that wood or whatever. Well, it's absurd
+
+113
+00:13:51.714 --> 00:13:52.274
+<v Unknown> that
+
+114
+00:13:52.834 --> 00:13:57.555
+the government is stepping in to tell people how they can and can't heat their
+
+115
+00:13:57.714 --> 00:13:58.355
+own houses.
+
+116
+00:13:59.220 --> 00:13:59.779
+It's completely
+
+117
+00:14:00.420 --> 00:14:02.580
+<v Unknown> absurd. Yeah, the utilities are
+
+118
+00:14:03.620 --> 00:14:12.020
+totally captured and it's something that, you know, I don't think people will feel the pain until it doesn't work or yeah, you kind of just it's the boiling frog theory.
+
+119
+00:14:12.504 --> 00:14:13.384
+<v Unknown> Just
+
+120
+00:14:13.384 --> 00:14:14.985
+look at Germany, they
+
+121
+00:14:15.384 --> 00:14:16.024
+several
+
+122
+00:14:17.384 --> 00:14:24.024
+nuclear power plants and they just I think they've already shut down their last one or maybe they have like one left standing.
+
+123
+00:14:24.745 --> 00:14:38.089
+<v Unknown> Yep. And then the gas pipeline got exploded. Right. Yeah. Mean, and you meet folks up in the mountains. I love talking to these guys. There was a guy at the Heat Punk Summit named Mark who is We were just talking about small towns, small businesses
+
+124
+00:14:38.490 --> 00:15:00.200
+and being known as the guy. He's like the guy in Buena Vista that does wood fired boilers. Yeah. So not a wood stove in a cabin that you'd see, but it's an outdoor unit, sits outside the home. You put wood from your forest on your land, chop it up, throw it inside, makes hot water and it's just connected with a heat exchanger to your radiators,
+
+125
+00:15:00.200 --> 00:15:11.045
+your heated floor, whatever that might be running off of natural gas if you have the infrastructure. A lot of these folks up in the mountains are on propane. So, you know, what happens if the propane company doesn't have any propane?
+
+126
+00:15:11.365 --> 00:15:11.845
+<v Unknown> Right.
+
+127
+00:15:12.404 --> 00:15:17.045
+<v Unknown> Or when propane gets really expensive because fuel prices are going up, right? Right.
+
+128
+00:15:17.685 --> 00:15:20.165
+Whatever's going on in the world, geopolitics.
+
+129
+00:15:20.165 --> 00:15:27.590
+So like, this is cool because you just have this extra backup system where you go get some firewood, throw it inside a box outside,
+
+130
+00:15:27.830 --> 00:15:49.810
+and it supplements. It's it's funny. It's like the same type of buddy system I just described with Hashrate. That's what he thought was so interesting about the the Heatpunk Summit because we're effectively trying to do the same thing where you strap a little buddy system to your boiler, but it's the opposite end of the spectrum. Like, the wood fired ones are very primitive, and hash rate heating is the most technical Right. Complex version of that. Do you think the wood fired boiler
+
+131
+00:15:50.050 --> 00:16:02.035
+<v Unknown> is more efficient at heating a space than just like throwing the wood in a fireplace or a wood burning stove inside the space? Hydronic heating. Welcome to the pod heat two six today.
+
+132
+00:16:03.635 --> 00:16:08.355
+<v Unknown> Hydronic heating is more efficient, so heating when you have radiators or you have heated floors
+
+133
+00:16:08.915 --> 00:16:16.195
+because you're not heating a big volume of air that then seeps out through cracks and door crevices and around windowsills.
+
+134
+00:16:16.400 --> 00:16:21.440
+And so you have all this like thermal mass because you're heating a big heavy slab of material
+
+135
+00:16:22.160 --> 00:16:28.800
+and then you're not spending that energy to heat the air that leaks. You're like just heating the surfaces. And it's more akin to
+
+136
+00:16:29.165 --> 00:16:59.010
+like that heat bit canvas that was at the space that you saw at the Heat Punk Summit. It feels warm when you're next to it. You're not like warmed by the air. It's like sitting next to a warm window. And so it's more efficient in that sense because the house kind of just stays at this constant temp because the actual material of the house is hot, not the air in the house, if that makes sense. No, it makes sense. All right. Well, we should probably talk about some mining stuff. Yeah. What's been going on? I saw some messages you were chatting with our developers, our project engineers.
+
+137
+00:16:59.315 --> 00:17:12.035
+<v Unknown> It's probably good to walk through each of those. We've got, well, we're trying to do a couple of things. So one, we're trying to renew the grants for each project internally in the two fifty six Foundation. So
+
+138
+00:17:13.800 --> 00:17:20.680
+let me just back up one step. So every year we hold our fundraiser, the Telehash. We did that in January,
+
+139
+00:17:20.920 --> 00:17:24.200
+the day before NEMs at Bitcoin Park in Nashville.
+
+140
+00:17:24.280 --> 00:17:26.360
+We mined exactly zero blocks.
+
+141
+00:17:27.015 --> 00:17:29.255
+<v Unknown> Got some donations though. A couple of small Yeah,
+
+142
+00:17:29.735 --> 00:17:40.935
+<v Unknown> did get some donations. It wasn't for lack of effort. We had a lot of people pointing hash rate to us. So thank you everyone who supported us. But at the end of the day, we did not raise any Bitcoin for
+
+143
+00:17:41.809 --> 00:17:55.169
+the developers. So the last couple of months, we've been trying to think of ways that we can keep the developers moving forward using the resources we do still have. So I think we've finally settled on some
+
+144
+00:17:55.605 --> 00:17:57.045
+good compromises
+
+145
+00:17:57.045 --> 00:17:57.764
+where
+
+146
+00:17:58.005 --> 00:18:05.445
+the foundation is not going to be over promising and under delivering, which is my biggest concern. Anytime
+
+147
+00:18:05.445 --> 00:18:17.580
+we're making promises to our developers, just I want to make sure everybody's on the same page and knows what to expect. So I think we've figured out what that looks like for the near term future. That all being said, we've got some plans
+
+148
+00:18:21.035 --> 00:18:23.835
+get, sorry, I'm being distracted because my dog is barking.
+
+149
+00:18:23.995 --> 00:18:25.995
+I don't know if you can hear him in the background. So
+
+150
+00:18:27.275 --> 00:18:29.595
+we've got some plans for more
+
+151
+00:18:29.595 --> 00:18:30.475
+supporters
+
+152
+00:18:30.475 --> 00:18:39.070
+and we're in talks with some people. I don't want to name any names, but we might have a couple of big announcements coming up soon, which should be exciting for
+
+153
+00:18:39.549 --> 00:18:40.190
+the
+
+154
+00:18:40.590 --> 00:18:46.350
+open source Bitcoin mining movement in general, the two fifty six Foundation and our developers
+
+155
+00:18:46.350 --> 00:18:51.764
+in particular. So I am looking forward to that. More to come on that. But
+
+156
+00:18:52.005 --> 00:18:56.965
+in addition to that, we're circling back with our past supporters
+
+157
+00:18:57.045 --> 00:19:01.765
+and talking with them about continuing support in the 2026,
+
+158
+00:19:01.765 --> 00:19:03.445
+2027 cycle. So yeah,
+
+159
+00:19:04.270 --> 00:19:10.029
+we're trying to get the funding to keep the developers we have focused on what they're doing.
+
+160
+00:19:10.590 --> 00:19:12.350
+Our project funding,
+
+161
+00:19:12.590 --> 00:19:14.749
+the two fifty six Foundation hasn't
+
+162
+00:19:14.830 --> 00:19:17.362
+cut any checks since December
+
+163
+00:19:17.362 --> 00:19:18.615
+2025.
+
+164
+00:19:18.615 --> 00:19:22.775
+So even though it's been going on three full months now,
+
+165
+00:19:23.575 --> 00:19:24.375
+developers
+
+166
+00:19:24.935 --> 00:19:27.575
+have still been making contributions
+
+167
+00:19:27.575 --> 00:19:28.375
+and
+
+168
+00:19:29.255 --> 00:19:32.055
+pushing the projects forward, engaging with the community,
+
+169
+00:19:33.330 --> 00:19:34.529
+reviewing
+
+170
+00:19:34.690 --> 00:19:38.530
+pull requests and maintaining their projects. But as
+
+171
+00:19:38.530 --> 00:19:39.649
+can be expected,
+
+172
+00:19:39.809 --> 00:19:45.170
+can only last so long when people have bills to pay and families to take care of. So we just want to make sure
+
+173
+00:19:45.635 --> 00:19:50.595
+we can get the funding we need to keep them focused on these projects, because we really believe
+
+174
+00:19:50.995 --> 00:20:13.740
+that they're going to have big impacts on the space. So the hash boards, and so what are those four projects? They're the Ember one hash board, the LibreBoard control board, the Mugena firmware, and the Hydra Pool mining pool. So with Ember one this year, we want to see a version release that has the Intel BZM2
+
+175
+00:20:13.740 --> 00:20:35.780
+ASIC chips on it. So we want to get that design released. And just like the design that we have out in the open now, this one would also be an open source license. Anyone could grab that and start manufacturing it. Yeah, the BZM2 ASICs are not the latest and greatest. They're not the most efficient, but they are brand new and they wouldn't require any unsoldering
+
+176
+00:20:35.780 --> 00:20:46.765
+of old hardware in order to make these new designs. So that's good. And I really see this just as an incremental step on the path of eventually releasing
+
+177
+00:20:46.845 --> 00:20:47.804
+designs,
+
+178
+00:20:47.885 --> 00:20:50.045
+working with ASIC manufacturers
+
+179
+00:20:50.045 --> 00:20:52.205
+who are not antagonistic
+
+180
+00:20:52.205 --> 00:20:57.085
+to the consumer and are supportive of open source and providing
+
+181
+00:20:57.085 --> 00:20:58.045
+documentation
+
+182
+00:20:58.045 --> 00:21:04.089
+and helping those who want to create ASIC designs and release them open source. So
+
+183
+00:21:04.649 --> 00:21:13.769
+I do see that day coming soon. And I think when that happens, we're going to have open source Bitcoin mining hardware that can compete with the latest and greatest
+
+184
+00:21:14.010 --> 00:21:16.414
+closed source Bitcoin mining hardware,
+
+185
+00:21:17.215 --> 00:21:20.175
+both in terms of hash rate and efficiency.
+
+186
+00:21:20.175 --> 00:21:24.095
+So yeah, we definitely want to keep that going, but it's just one
+
+187
+00:21:24.095 --> 00:21:26.335
+step in a multi step plan.
+
+188
+00:21:26.990 --> 00:21:28.830
+And then there's LibreBoard.
+
+189
+00:21:28.830 --> 00:21:30.110
+So we
+
+190
+00:21:30.510 --> 00:21:36.669
+showcased the first version of LibreBoard during the Telehash in January.
+
+191
+00:21:36.670 --> 00:21:37.630
+And anyone
+
+192
+00:21:38.110 --> 00:21:44.965
+who was listening to the podcast around that time, we were working on it late into the night before the event.
+
+193
+00:21:45.125 --> 00:21:51.845
+But we finally did get it working, and we learned a couple of things about it and identified some issues that need to be corrected in the design.
+
+194
+00:21:52.085 --> 00:21:56.750
+So in the months ahead, we're going to be correcting those designs. We're already
+
+195
+00:21:56.990 --> 00:21:59.630
+on our second version, so we're going to have version three
+
+196
+00:21:59.870 --> 00:22:01.790
+out later this year. And then
+
+197
+00:22:02.430 --> 00:22:10.955
+people are going to be able to use that to connect to a number of Ember one hash boards. They're going to be able to connect to relays and switches
+
+198
+00:22:11.035 --> 00:22:12.315
+and sensors
+
+199
+00:22:12.555 --> 00:22:17.835
+to integrate their miners into other systems like home heating systems,
+
+200
+00:22:17.995 --> 00:22:23.980
+office heating systems, solar systems, not solar systems in the galaxy, but like solar panel systems.
+
+201
+00:22:24.059 --> 00:22:29.419
+Yeah, so we definitely want to keep that moving forward. We ran the whole telehash on HydroPool.
+
+202
+00:22:29.500 --> 00:22:33.605
+So we definitely want to keep that going. That's the
+
+203
+00:22:33.605 --> 00:22:35.205
+one click deployable
+
+204
+00:22:35.205 --> 00:22:46.850
+Bitcoin mining pool that anybody can spin up on either consumer grade hardware or you could host it on like an elaborate AWS system if you want. We want to do Ansible
+
+205
+00:22:46.850 --> 00:22:51.249
+packages so that it actually is just like a one click deploy on an It
+
+206
+00:22:51.970 --> 00:22:55.970
+has two payout methods in it. You can run solo mode,
+
+207
+00:22:56.210 --> 00:22:58.130
+or you could do PPLNS
+
+208
+00:22:58.375 --> 00:23:01.014
+where it pays out from the Coinbase reward.
+
+209
+00:23:01.575 --> 00:23:02.934
+And it's configurable.
+
+210
+00:23:02.934 --> 00:23:04.855
+We bring the configuration
+
+211
+00:23:04.855 --> 00:23:11.495
+options forward in a config file for the user. And so the way we set it up when we were doing the telehash was that
+
+212
+00:23:12.490 --> 00:23:20.650
+users would point their hash rate to our instance of HydroPool. But in the event of a block fine, it would pay out 100%
+
+213
+00:23:20.650 --> 00:23:22.970
+to the two fifty six Foundation.
+
+214
+00:23:23.210 --> 00:23:25.450
+That's the name of the game with our fundraiser.
+
+215
+00:23:25.610 --> 00:23:30.544
+But you can go to -.256f.org,
+
+216
+00:23:30.865 --> 00:23:34.384
+and you can see this dashboard that D plus plus contributed
+
+217
+00:23:34.465 --> 00:23:39.904
+to the two fifty six Foundation. And what's cool about that is she's
+
+218
+00:23:39.904 --> 00:23:42.210
+implemented some neat gamification
+
+219
+00:23:42.210 --> 00:23:47.490
+in there. We can see little badges show up for the top three difficulties,
+
+220
+00:23:47.650 --> 00:23:58.365
+whoever has submitted the highest share, whoever has the most hash rate gets ordered toward the top of the list. And you can also put your NPUB in there as your username.
+
+221
+00:23:59.325 --> 00:24:05.645
+And then you can append that with a worker name with dot worker name or whatever you want. And it pulls in your
+
+222
+00:24:06.060 --> 00:24:09.820
+profile picture and information about your Nostril profile.
+
+223
+00:24:09.980 --> 00:24:12.220
+You can even put in a website.
+
+224
+00:24:12.380 --> 00:24:15.980
+If you have a website you want to shill, you can put that in there by
+
+225
+00:24:16.540 --> 00:24:19.340
+using dashes instead of dots.
+
+226
+00:24:19.420 --> 00:24:19.500
+And
+
+227
+00:24:21.705 --> 00:24:22.985
+yeah, it's a
+
+228
+00:24:23.145 --> 00:24:27.384
+really great dashboard that makes it engaging and user friendly,
+
+229
+00:24:28.665 --> 00:24:30.024
+and it gamifies
+
+230
+00:24:30.025 --> 00:24:38.210
+a few different aspects of it. So yeah, we definitely want to keep HydroPool going. We want to do a plug in system. We want to see HydroPool
+
+231
+00:24:38.289 --> 00:24:39.970
+available on Start9
+
+232
+00:24:40.049 --> 00:24:46.529
+and Umbral. We want to see people trying out different payout methods, Lightning payouts, eCash
+
+233
+00:24:46.695 --> 00:24:50.054
+payouts. So we've got some big plans for Hydro Pool as well.
+
+234
+00:24:50.855 --> 00:24:57.094
+I'm not saying that we're going to do all that in the next three months or anything, but that's our long term vision.
+
+235
+00:24:57.414 --> 00:24:58.134
+And then
+
+236
+00:24:58.375 --> 00:24:59.335
+with Mugena,
+
+237
+00:24:59.580 --> 00:25:00.700
+our
+
+238
+00:25:00.860 --> 00:25:06.620
+long term outcomes for Mugena are that we would like to eventually see flagship
+
+239
+00:25:06.620 --> 00:25:07.899
+manufacturers
+
+240
+00:25:07.899 --> 00:25:15.635
+shipping their hardware with Mugena open source firmware, or like their fork of Mugena.
+
+241
+00:25:16.435 --> 00:25:28.480
+Know, like Mugena is like the mining firmware that we want to see that offers like great support out of the box that anyone can build on top of. So whether that's like
+
+242
+00:25:29.680 --> 00:25:37.040
+me trying to mine at home or like a large hardware manufacturer shipping products globally.
+
+243
+00:25:37.040 --> 00:25:38.159
+Think of it like
+
+244
+00:25:38.640 --> 00:25:52.215
+Linux has great support and it just works out of the box and people build all kinds of cool servers on top. So we're kind of thinking of Mugena in the same way where it just becomes like the de facto standard.
+
+245
+00:25:52.295 --> 00:26:08.589
+And since it's open source, you can take that and put your own special sauce on it and like sell that and build a business off of it however you want. I just had an interesting thought about that. So you're right in the data center style side of the aisle for computing,
+
+246
+00:26:08.750 --> 00:26:16.695
+<v Unknown> it's all Linux. That's the bread and butter. Right? You can buy a super expensive server, racks of them, and they'll run Linux,
+
+247
+00:26:16.695 --> 00:26:18.054
+like, think AWS.
+
+248
+00:26:18.055 --> 00:26:32.389
+Yeah. But in the consumer home computing space, that's where you have your closed source Windows and Mac OS. Bitcoin mining right now is the inverse of this. You have Basically. Yeah. The closed source,
+
+249
+00:26:32.630 --> 00:26:39.909
+yeah, firmwares at the industrial data center side of the aisle. Yeah. And it's the home miners that are demanding
+
+250
+00:26:40.245 --> 00:26:41.524
+the open source,
+
+251
+00:26:42.085 --> 00:26:47.044
+<v Unknown> which is so funny to think about. I didn't realize that until you said it, but yeah, it's
+
+252
+00:26:47.765 --> 00:26:49.205
+interesting to point that out.
+
+253
+00:26:50.885 --> 00:26:52.805
+We want to see that. I'd like to see,
+
+254
+00:26:53.530 --> 00:26:56.410
+you know, Bitmain has 80 to 90%
+
+255
+00:26:56.410 --> 00:27:05.530
+of the market share right now. I think Scott has a slide in one of the presentations that he gives that says, like, 99.9%
+
+256
+00:27:05.530 --> 00:27:10.054
+of all Bitcoin blocks have been mined with closed and proprietary
+
+257
+00:27:10.135 --> 00:27:11.655
+mining hardware.
+
+258
+00:27:11.655 --> 00:27:24.409
+But, you know, in the next five years, I want to see that flipped. Want to see like 80 to 90% of the hash rate running on open source Bitcoin mining, firmware and hardware solutions. And
+
+259
+00:27:25.850 --> 00:27:36.835
+given how quickly the lifecycle of this hardware turns over, I think it's possible, especially if we get Mugena to where it can be flashed onto existing
+
+260
+00:27:36.835 --> 00:27:40.674
+legacy hardware. We're already working on the S19,
+
+261
+00:27:40.674 --> 00:27:44.514
+being able to flash Regina directly onto an S19, like a stock
+
+262
+00:27:44.995 --> 00:27:46.034
+control board,
+
+263
+00:27:46.115 --> 00:27:47.154
+lock everything,
+
+264
+00:27:47.955 --> 00:27:48.835
+being able to
+
+265
+00:27:49.679 --> 00:27:52.399
+take control of it and run Magina on it.
+
+266
+00:27:53.120 --> 00:27:55.839
+So yeah, you know, imagine a scenario where
+
+267
+00:27:56.960 --> 00:27:58.080
+manufacturers
+
+268
+00:27:58.080 --> 00:27:59.519
+start turning to
+
+269
+00:28:00.240 --> 00:28:03.440
+Magina for their like go to
+
+270
+00:28:04.054 --> 00:28:05.335
+firmware solution.
+
+271
+00:28:05.415 --> 00:28:19.139
+And in addition to that, Mujina is there to, it's available to be flashed onto any legacy hardware, What's Miner, Antminer, Canon, you name it. I think we could get to that 80% of the hashtag
+
+272
+00:28:19.220 --> 00:28:29.700
+<v Unknown> mark in five years. Call me ambitious, but I think it's possible. I think so too. I think once the large manufacturers and the large mining operators realize the benefits, they'll all adopt it.
+
+273
+00:28:31.075 --> 00:28:33.395
+<v Unknown> How could you settle for anything less?
+
+274
+00:28:34.195 --> 00:28:37.635
+First and foremost, there's no dev fee. So granted,
+
+275
+00:28:37.955 --> 00:28:39.075
+stock firmwares
+
+276
+00:28:39.075 --> 00:28:42.675
+don't charge a dev fee, but you have zero insight,
+
+277
+00:28:43.090 --> 00:28:47.330
+zero control, you have to trust that they're not taking a debt fee.
+
+278
+00:28:47.650 --> 00:28:48.690
+<v Unknown> Yeah, we don't know.
+
+279
+00:28:49.090 --> 00:28:51.090
+<v Unknown> The aftermarket firmwares,
+
+280
+00:28:51.090 --> 00:28:54.610
+again, they're closed source, you get a little bit more flexibility,
+
+281
+00:28:55.090 --> 00:28:59.595
+but you don't really know how they're working under the hood. Is still trust involved.
+
+282
+00:28:59.835 --> 00:29:14.750
+And they're upfront about the dev fee that they're collecting. You're paying a dev fee for these added features that you're getting above and beyond the stock firmware. But then imagine a fully open source firmware that's completely configurable.
+
+283
+00:29:14.750 --> 00:29:17.309
+It works right out of the box if you want it to,
+
+284
+00:29:17.950 --> 00:29:30.725
+and it's fully extensible if you want to put your own special features into it, and you can see how it works and there's no dev fee. Why do you think the aftermarket jailbreak firmware manufacturers,
+
+285
+00:29:30.885 --> 00:29:32.565
+<v Unknown> there's a big list of them now,
+
+286
+00:29:33.365 --> 00:29:40.390
+none of them decided to open source their firmware just because they have the moat and they wanna keep that monetization?
+
+287
+00:29:40.390 --> 00:29:52.725
+<v Unknown> No. I think they all have their own reasons. I think some of them probably just haven't even thought about it. Some of them may not even understand what open source is and don't understand how a
+
+288
+00:29:53.845 --> 00:30:07.539
+viable business model can be built on top of open source. Some of them actually did try open source. Brains OS at one point was open source. And I think if I recall correctly, there was this sentiment from
+
+289
+00:30:07.700 --> 00:30:12.580
+Brains that people were taking from the project without contributing back.
+
+290
+00:30:13.620 --> 00:30:22.225
+Somehow that was putting them at a disadvantage or they just they didn't want to continue with that model and they ended up close sourcing their firmware.
+
+291
+00:30:22.225 --> 00:30:23.265
+I think they
+
+292
+00:30:24.065 --> 00:30:25.024
+might have
+
+293
+00:30:25.665 --> 00:30:33.759
+a version that's still open source, but I think the version that you pay for is closed source. I don't know. I can't remember.
+
+294
+00:30:34.400 --> 00:30:36.000
+My history with
+
+295
+00:30:36.400 --> 00:30:40.320
+slush pool and going to brains and
+
+296
+00:30:42.735 --> 00:30:52.575
+<v Unknown> and the things that have transpired over the last few years is getting foggy. I mean, it's certainly helpful. That's where being a nonprofit organization, which is mandated to not make profit,
+
+297
+00:30:52.815 --> 00:31:06.669
+come in and say, we don't have to worry about all these other challenges like appeasing shareholders or investors or whatever it may be to try and make money. Our sole focus is to open source the mining ecosystem. Right. Yep. So, I mean,
+
+298
+00:31:07.965 --> 00:31:12.684
+<v Unknown> I think the guys that are offering the aftermarket firmware solutions,
+
+299
+00:31:13.085 --> 00:31:17.085
+they've found an interesting niche in that they recognize
+
+300
+00:31:17.245 --> 00:31:20.044
+the limits of the manufacturer's
+
+301
+00:31:20.044 --> 00:31:20.525
+firmware.
+
+302
+00:31:21.010 --> 00:31:21.889
+And they
+
+303
+00:31:22.210 --> 00:31:26.769
+see that as a problem for the customers who want a little bit more flexibility.
+
+304
+00:31:26.770 --> 00:31:29.730
+So the ability, for example, to
+
+305
+00:31:30.210 --> 00:31:31.010
+overclock
+
+306
+00:31:31.010 --> 00:31:36.815
+or tune your miner. And so they offer a solution that does that. And
+
+307
+00:31:37.055 --> 00:31:43.375
+there's a non zero cost associated with all the development and marketing
+
+308
+00:31:43.375 --> 00:31:45.054
+and research that
+
+309
+00:31:45.135 --> 00:31:51.535
+goes into that. So that's what the dev fee is there to cover. So it totally makes sense. I get it, but
+
+310
+00:31:51.980 --> 00:31:53.820
+I think that
+
+311
+00:31:53.980 --> 00:32:00.059
+worked for a very short period of time. And I don't think it's going to work for very much longer, especially when
+
+312
+00:32:01.340 --> 00:32:01.980
+very
+
+313
+00:32:02.140 --> 00:32:03.179
+comprehensive,
+
+314
+00:32:03.420 --> 00:32:04.299
+competitive,
+
+315
+00:32:04.380 --> 00:32:05.419
+extensible,
+
+316
+00:32:05.500 --> 00:32:07.420
+easy to build on, easy to read,
+
+317
+00:32:08.035 --> 00:32:09.154
+and available
+
+318
+00:32:09.235 --> 00:32:10.035
+firmware
+
+319
+00:32:10.035 --> 00:32:11.554
+comes along that's
+
+320
+00:32:11.555 --> 00:32:14.835
+<v Unknown> open source. Yeah, mean, works until
+
+321
+00:32:15.235 --> 00:32:18.275
+the open free alternative is competitive
+
+322
+00:32:18.275 --> 00:32:19.235
+or
+
+323
+00:32:19.235 --> 00:32:19.955
+exists.
+
+324
+00:32:20.035 --> 00:32:31.220
+Yeah, and that doesn't exist yet in the Bitcoin mining status quo, but it does in broader computing. And so no business would go and try to like make a closed source alternative
+
+325
+00:32:31.380 --> 00:32:34.180
+for data center computing instead
+
+326
+00:32:34.180 --> 00:32:36.554
+of Linux right now. Right. Yeah.
+
+327
+00:32:36.794 --> 00:32:49.195
+<v Unknown> Yeah. Yeah. You're not gonna reinvent the wheel when there's like all these open source tools that are there and they work out of the box and you can that does the majority of the lift for you. And then you just gotta come in and put
+
+328
+00:32:49.790 --> 00:32:52.190
+your unique spin on it that
+
+329
+00:32:52.910 --> 00:32:53.950
+makes your
+
+330
+00:32:54.110 --> 00:32:55.549
+product attractive.
+
+331
+00:32:55.549 --> 00:33:15.780
+<v Unknown> Yeah, and I was chatting with my buddy about this the other day. I think we're going to see a lot of stuff shift towards open source because as we've mentioned before, like AI is making software effectively free. It can Mhmm. Do so much, build so much. And so there's been commentary that, like, the software as a service model, which is effectively what a dev fee is. Yeah.
+
+332
+00:33:16.100 --> 00:33:32.424
+Business model won't be around forever. I mean, I I think it can in the sense that I think software as a service switches to service as a service. SaaS is service as a service where it's like you have to the code is not the product. Like, I could go one shot it. Right? Maybe you have just better support,
+
+333
+00:33:32.665 --> 00:33:33.945
+you know? Like,
+
+334
+00:33:34.025 --> 00:33:57.290
+have some service I want. Right. It's it's not gonna be about the actual source code anymore, I think. On the on the hardware Libra and control board, so there's a some new revisions in work. Will those newest revisions, is that the plan for the ones that will eventually be built on pick and place machines and folks will be able to get them in their hands and start hacking around these next versions? Yeah, I mean
+
+335
+00:33:57.945 --> 00:34:10.825
+<v Unknown> the current versions are online now. Yeah, you could go make them. Yeah. I mean, even if you wanted to beat me to the punch, you could go on GitHub right now to github.com256foundation./
+
+336
+00:34:11.460 --> 00:34:16.740
+And you can go into the Ember one, I think it's Ember one-zero
+
+337
+00:34:17.460 --> 00:34:18.420
+pcb
+
+338
+00:34:18.580 --> 00:34:19.220
+repository.
+
+339
+00:34:19.700 --> 00:34:32.825
+You could go in there and you can go to the version six branch and you can download all the manufacturing files. And then you can order the PCBs based on that and get those delivered. You can export your bill of materials
+
+340
+00:34:32.905 --> 00:34:35.145
+and order all the components
+
+341
+00:34:35.224 --> 00:34:39.865
+from whatever supply house you want. And you can get to work and assemble
+
+342
+00:34:39.944 --> 00:34:40.744
+these hash boards.
+
+343
+00:34:41.460 --> 00:34:47.860
+You'd have to buy the ASIC chips too. So the Ember one double O uses the Bitmain thirteen
+
+344
+00:34:49.700 --> 00:34:56.355
+sixty two AC ASIC chip. Yeah, you could go get a bunch of those and
+
+345
+00:34:56.515 --> 00:34:58.675
+start assembling version six.
+
+346
+00:34:58.755 --> 00:34:59.875
+And then if
+
+347
+00:35:00.915 --> 00:35:08.950
+you were a very cool person, then you would give some feedback in the repo and let us know any bugs that you find so we can tweak the design.
+
+348
+00:35:09.750 --> 00:35:26.675
+But yeah, I mean, it's there. You could do the same thing with LibreBoard. We don't have version three released yet, but we're going to be working on that over the next few months. We should have that out in the next three months. So by this summer, there will be a version three available. Then same thing, it's there
+
+349
+00:35:27.155 --> 00:35:33.635
+<v Unknown> to go and take. Have you heard of any of the folks from the rest of the open source mining community, OSMU,
+
+350
+00:35:33.635 --> 00:35:43.530
+or other cool manufacturers out there that are selling bid axes or even manufacturing their own tinkering with these projects yet at a hardware level? Okay, so a couple things.
+
+351
+00:35:44.250 --> 00:35:44.970
+<v Unknown> One,
+
+352
+00:35:45.290 --> 00:35:53.085
+no, I haven't really heard. But two, I haven't really had my ear to the ground, so to speak. As soon as Discord so
+
+353
+00:35:54.605 --> 00:35:57.965
+gleefully jumped into the age verification thing,
+
+354
+00:36:00.045 --> 00:36:02.845
+deleted Discord from my desktop and my phone.
+
+355
+00:36:03.730 --> 00:36:05.410
+So I haven't been
+
+356
+00:36:05.650 --> 00:36:07.890
+on the OSMU Discord for,
+
+357
+00:36:08.530 --> 00:36:12.210
+I don't know, I'd say like a couple of months now. We'll have to ask Scott.
+
+358
+00:36:12.690 --> 00:36:20.785
+Yeah. So yeah, I just haven't really had my finger on the pulse there, so to speak. But I think the other thing is that the
+
+359
+00:36:21.105 --> 00:36:21.905
+guys that
+
+360
+00:36:22.385 --> 00:36:23.905
+have been manufacturing
+
+361
+00:36:23.905 --> 00:36:31.905
+bid axes and the distributors who have been selling bid axes, there's so much demand for bid axes that I think they haven't really
+
+362
+00:36:32.640 --> 00:36:35.920
+started trying out any of the other hardware,
+
+363
+00:36:35.920 --> 00:36:39.280
+like the stuff that we're working on with the two fifty six Foundation.
+
+364
+00:36:40.160 --> 00:36:44.480
+Think the demand is there, but someone's
+
+365
+00:36:43.359 --> 00:36:44.160
+take
+
+366
+00:36:44.480 --> 00:36:49.565
+got on that non zero cost of getting the pick and place machine,
+
+367
+00:36:49.805 --> 00:36:54.045
+putting in the time to learn how to use it, buying the PCBs,
+
+368
+00:36:54.045 --> 00:36:55.325
+buying the materials,
+
+369
+00:36:55.325 --> 00:36:57.325
+putting it all together, failing,
+
+370
+00:36:57.405 --> 00:37:05.770
+learning from your mistakes, reordering everything, doing it again, and then having a finished product that they can put in the hands of people who are
+
+371
+00:37:06.410 --> 00:37:07.210
+interested
+
+372
+00:37:07.210 --> 00:37:08.250
+in this
+
+373
+00:37:08.490 --> 00:37:10.010
+very novel
+
+374
+00:37:10.010 --> 00:37:11.050
+technology.
+
+375
+00:37:11.130 --> 00:37:12.410
+And then once that happens,
+
+376
+00:37:12.845 --> 00:37:20.285
+then you start getting some feedback about the project and you start getting some more interest in it. So that whole process of taking
+
+377
+00:37:20.525 --> 00:37:27.164
+on the risk and that non zero cost, that's a role that I've taken on with the pick and place machine that I have. And so
+
+378
+00:37:28.730 --> 00:37:31.450
+I'm gonna be doing the Ember one version six
+
+379
+00:37:31.609 --> 00:37:32.410
+shortly.
+
+380
+00:37:32.650 --> 00:37:40.329
+I've just got like a laundry list of things that I'm trying to get done before I have the mental bandwidth and time
+
+381
+00:37:41.065 --> 00:37:46.985
+<v Unknown> to focus on it. But that day is coming soon. And it's one of those things too where the BidX has become,
+
+382
+00:37:47.305 --> 00:37:48.745
+you know, this whole movement
+
+383
+00:37:50.025 --> 00:37:52.025
+of like a desktop toy
+
+384
+00:37:52.105 --> 00:37:54.265
+solo lottery ticket product.
+
+385
+00:37:54.425 --> 00:38:05.720
+Even though it, you know, the intention, obviously, from the beginning, it's a great learning tool. It's an open source Bitcoin miner. It's unique. It's got ESP 32 on it. It's got a Wi Fi. Whereas Ember one, LibreBoard,
+
+386
+00:38:05.720 --> 00:38:14.635
+I mean, you can you can obviously make a little desktop miner product from this, a little power, a 100 watts per hash board. But, you know, with a full fledged, full size form factor
+
+387
+00:38:14.795 --> 00:38:19.195
+control board, things like this, like, it it it is more of a reference design,
+
+388
+00:38:19.355 --> 00:38:27.450
+like a dev it's a development kit, really Right. For Bitcoin mining. So I'm curious to see if you some of these suppliers
+
+389
+00:38:27.450 --> 00:38:34.809
+and Bitcoin mining stores will will eventually have, you know, fun, cool products with a wide range of different numbers of Ember one hash boards
+
+390
+00:38:36.075 --> 00:38:40.955
+models and whatnot, different cases, different cooling methods. But I don't think they necessarily
+
+391
+00:38:41.195 --> 00:38:54.150
+see that yet, but you're right. It's also like you got to go spend the time and money to design that too. It's going to need a case. It's going to need cooling. It's going to need a whole list of stuff. I think the lowest hanging fruit is a simple design
+
+392
+00:38:54.310 --> 00:38:55.590
+<v Unknown> that a manufacturer
+
+393
+00:38:55.590 --> 00:38:56.790
+can copy
+
+394
+00:38:56.790 --> 00:38:59.510
+and put into their production flow
+
+395
+00:39:00.070 --> 00:39:02.790
+without having to really modify anything.
+
+396
+00:39:03.110 --> 00:39:13.905
+And the Bidax is a great candidate for that because of what you said, it doesn't have an external control board. The control board is the ESP32,
+
+397
+00:39:13.905 --> 00:39:16.145
+the hash board itself. Exactly.
+
+398
+00:39:16.305 --> 00:39:19.470
+Everything, it's a self contained unit. So that,
+
+399
+00:39:20.510 --> 00:39:24.750
+you can just grab those files, put it into your production flow.
+
+400
+00:39:25.150 --> 00:39:35.025
+You've got an open source free design going in, you've got your production flow in the middle, and then the output is this finished product that can be boxed up and
+
+401
+00:39:35.185 --> 00:39:48.620
+shipped. And then it's a complete finished product because the end user can receive that box, open it, plug it in, and start hashing right away. And so where we're at with the Ember one, it's like there's
+
+402
+00:39:48.620 --> 00:39:50.940
+multiple different components of it. So there's
+
+403
+00:39:51.420 --> 00:40:01.755
+the hash board itself, but you have to have a control board to talk to it. And then you have to have a way to cool it. So you need to either put a heat sink on it and
+
+404
+00:40:02.075 --> 00:40:07.035
+then put a fan on it, or you need to get a custom water block built like
+
+405
+00:40:07.675 --> 00:40:10.955
+Ryan did for the demonstration at the Telehash.
+
+406
+00:40:11.210 --> 00:40:13.769
+And then you need to get a little reservoir
+
+407
+00:40:13.769 --> 00:40:16.490
+and a pump and a little radiator.
+
+408
+00:40:16.490 --> 00:40:18.089
+So yeah, it's
+
+409
+00:40:18.089 --> 00:40:19.290
+just a lot more
+
+410
+00:40:19.609 --> 00:40:20.490
+involved.
+
+411
+00:40:21.609 --> 00:40:23.849
+I'd like to get it to the point where
+
+412
+00:40:25.335 --> 00:40:27.175
+and I've got plans to make
+
+413
+00:40:27.175 --> 00:40:29.415
+these three d printed enclosures
+
+414
+00:40:29.415 --> 00:40:31.415
+or maybe even metal
+
+415
+00:40:31.495 --> 00:40:32.855
+enclosures where
+
+416
+00:40:33.495 --> 00:40:42.500
+you can slot four hash boards in there and your control board. And it's got the fans, it's got the power supply, it's got the heat sinks,
+
+417
+00:40:43.060 --> 00:40:44.180
+it's got everything
+
+418
+00:40:44.260 --> 00:40:54.100
+packaged up. And then it's like a complete unit that can get sold as a product. So I've got plans to make that happen. The other thing that's working against us is that the
+
+419
+00:40:54.345 --> 00:40:56.585
+chips that are on it, like I mentioned,
+
+420
+00:40:57.305 --> 00:41:00.744
+BM1362
+
+421
+00:41:00.744 --> 00:41:01.705
+ACs,
+
+422
+00:41:02.585 --> 00:41:07.305
+they're not the greatest efficiency. They're like three or four generations behind
+
+423
+00:41:07.465 --> 00:41:15.710
+the cutting edge ASIC. The J Pro chips, right? Yeah. Yeah, they are the J Pro chips. Sorry, the S19 J Pro chips.
+
+424
+00:41:15.710 --> 00:41:16.270
+So
+
+425
+00:41:18.750 --> 00:41:21.390
+just, you know, so even if I created
+
+426
+00:41:21.390 --> 00:41:26.195
+this box that's got the chips in it, it's like, Okay, great. It can do
+
+427
+00:41:27.075 --> 00:41:28.435
+three, six.
+
+428
+00:41:28.914 --> 00:41:31.315
+Okay, so it can do 12 terahash,
+
+429
+00:41:31.315 --> 00:41:32.755
+but the efficiency
+
+430
+00:41:32.835 --> 00:41:34.994
+is the same as the S19J
+
+431
+00:41:34.994 --> 00:41:40.790
+Pro, so it's not that great of efficiency. It's just kind of It's not really a big deal.
+
+432
+00:41:43.510 --> 00:41:49.110
+<v Unknown> You think the Bidax buyers are looking for those kinds of stats? Well, they can get
+
+433
+00:41:49.430 --> 00:41:55.315
+<v Unknown> What does the Gamma turbo do? They can get a gamma turbo that can do what, like six terahash?
+
+434
+00:41:56.994 --> 00:41:57.795
+<v Unknown> Yeah, I've
+
+435
+00:41:58.115 --> 00:42:23.325
+got the BittX Touch on my desk, which is a GT. Yeah, so there you It's at 2 and a half terahash right now in low power mode. Yeah, so there you go. So say in normal power mode, maybe you're doing three or four terahash, but I'm at 20 joules per terahash right now, 19 with my bit axe on my desk. Yeah, see and I think the S19s are what, like thirty, thirty five joules per terahash? Yeah, 30 and So change,
+
+436
+00:42:23.725 --> 00:42:24.525
+<v Unknown> it's like necessary
+
+437
+00:42:27.885 --> 00:42:30.605
+to do this because the long term goal
+
+438
+00:42:31.245 --> 00:42:34.285
+is to have these bigger boards
+
+439
+00:42:34.740 --> 00:42:38.580
+with many more chips on them that can actually compete with
+
+440
+00:42:38.900 --> 00:42:39.620
+the
+
+441
+00:42:40.100 --> 00:42:45.140
+boards that Bitmain is creating. But you can't just go from
+
+442
+00:42:46.100 --> 00:42:58.705
+zero to competing with Bitmain. It's an incremental process, and every chip you add in the chain adds this complexity to the design that needs to be figured out. So it's just we
+
+443
+00:42:58.785 --> 00:42:59.985
+had the Bitaxe
+
+444
+00:42:59.985 --> 00:43:03.105
+that was a single chip design. That was the big unlock.
+
+445
+00:43:03.440 --> 00:43:05.120
+The next step was
+
+446
+00:43:05.120 --> 00:43:06.160
+stepping it up
+
+447
+00:43:06.800 --> 00:43:12.560
+10x in wattage consumption, so like a 100 watt board. And we've got 12
+
+448
+00:43:12.720 --> 00:43:21.895
+ASIC chips on it. And we're still trying to fine tune that and create it, but it's like the latest and greatest ASIC efficiency is kind of dwarfed
+
+449
+00:43:21.895 --> 00:43:26.695
+what we're still trying to do with this design. So when this comes out, it's
+
+450
+00:43:27.255 --> 00:43:29.734
+kind of like a flop from a
+
+451
+00:43:29.734 --> 00:43:32.695
+marketing perspective because the efficiency isn't quite there.
+
+452
+00:43:33.510 --> 00:43:38.710
+It's going to be more expensive because it's got all these extra components. It's just not that attractive
+
+453
+00:43:38.870 --> 00:43:40.070
+from a
+
+454
+00:43:40.150 --> 00:43:42.150
+general consumer market, right?
+
+455
+00:43:42.710 --> 00:43:43.750
+<v Unknown> I mean, the
+
+456
+00:43:44.150 --> 00:43:55.085
+larger desktop miners already exist too, like the NerdX Q plus plus. Right? You've got a sweet one of those. But when you mentioned marketing, like, the story we need to tell and really the purpose of this platform is
+
+457
+00:43:55.325 --> 00:44:04.250
+a reference design building block. You buy this not because you care about the power output or the heat output or the efficiency of the chips, but it's like,
+
+458
+00:44:04.970 --> 00:44:30.280
+sweet. Now I can start hacking on this and understand it better where if I want to triple the wattage or quadruple the size of the hash board or do 10 more hash boards, like what changes need to be made? How do I understand how to communicate with this thing? If I wanna support the next version of chips, there'll be a new version of Ember one that shows how to communicate with those chips. Right? That's the story we're telling. Right. Yeah. Yep. It's just an
+
+459
+00:44:30.599 --> 00:44:32.040
+<v Unknown> iterative process
+
+460
+00:44:32.040 --> 00:44:33.880
+that is going to take
+
+461
+00:44:34.840 --> 00:44:37.320
+a few generations before we get to where
+
+462
+00:44:37.560 --> 00:44:47.945
+<v Unknown> I think it can be. Yeah. Because when the BidX came out, it didn't matter what the efficiency was or the chip was because it was just the breakthrough was that it exists. Right. Yeah. Yep. Interesting.
+
+463
+00:44:48.105 --> 00:44:54.025
+Yeah. It's it's tough too. I mean, because the average person that owns a BidX, I think, doesn't even realize,
+
+464
+00:44:55.040 --> 00:45:03.920
+hey. This is a colossal step forward towards open source mining. It's not just like a lottery ticket on your desk. It's also marketing lingoed and productized,
+
+465
+00:45:04.000 --> 00:45:19.265
+which is great. It sells more units. It gets more solo miners out there. It decentralizes the network. We're trying to keep that momentum going Right. With hardware and software. Yeah. We'll get there. Totally. I'll buy them. Good. Yeah. You wanna look at -256f.org?
+
+466
+00:45:19.265 --> 00:45:25.660
+Yeah. Let's do it. Just a quick reminder, though. I I always forget. How many hash boards will LibreBoard support? Four. Four.
+
+467
+00:45:25.900 --> 00:45:27.580
+<v Unknown> Cool. Well, has four
+
+468
+00:45:29.980 --> 00:45:30.940
+USB
+
+469
+00:45:31.099 --> 00:45:49.605
+C ports on it. So I think you could plug in a USB hub to one of those expand that capacity. Yeah. But I think there's a limit and I'm not sure what that limit is. Schnitzel would know. Yeah. It's like a bandwidth limit? Think so. On two five six foundation hash dash, which is -.256f.org
+
+470
+00:45:49.605 --> 00:45:54.130
+<v Unknown> courtesy awesome dashboard built by Dee courtesy of her. We have 75
+
+471
+00:45:54.130 --> 00:45:55.090
+terahash.
+
+472
+00:45:55.090 --> 00:46:03.890
+Nice. Gosh, ain't it? 20 active users, 45 active workers. Shout out to Thack seven seven seven, longtime supporter. He's got, like, every bit axe on Earth.
+
+473
+00:46:04.130 --> 00:46:05.970
+13 terahash of bit axes.
+
+474
+00:46:06.785 --> 00:46:10.385
+It's awesome. Nerdaxe hydro. That's cool. Exergy's
+
+475
+00:46:10.385 --> 00:46:13.665
+got a couple systems online. Canadian hash and coin.
+
+476
+00:46:13.825 --> 00:46:14.785
+Chimney.
+
+477
+00:46:14.785 --> 00:46:16.865
+I wonder what that is. 11 terahash.
+
+478
+00:46:16.865 --> 00:46:20.510
+Scott nine thousand's got a couple bit axes. Hardestblocks.org,
+
+479
+00:46:20.510 --> 00:46:24.350
+link to his website. That's so cool. Zarka, Econo Alchemist,
+
+480
+00:46:24.350 --> 00:46:25.390
+Serving Bitcoin,
+
+481
+00:46:25.550 --> 00:46:26.670
+d plus plus,
+
+482
+00:46:26.830 --> 00:46:27.630
+Schnitzel,
+
+483
+00:46:27.710 --> 00:46:28.990
+Hashrate Heatpunks,
+
+484
+00:46:28.990 --> 00:46:29.950
+Satoki,
+
+485
+00:46:29.950 --> 00:46:30.910
+Montani,
+
+486
+00:46:30.910 --> 00:46:32.975
+iX Tech, Pisandy,
+
+487
+00:46:33.055 --> 00:46:34.655
+Backwater Mining Collective,
+
+488
+00:46:34.735 --> 00:46:37.215
+Western Mass Bitcoin Meetup, WoodMiner,
+
+489
+00:46:37.215 --> 00:46:45.570
+and two Anand Bitcoin addresses. Thank you so much for supporting Hashrate. Hugo, this hashtubs still has the highest difficulty, 103,000,000,000.
+
+490
+00:46:45.570 --> 00:46:50.610
+<v Unknown> I think I've seen this difficulty get reset a couple of times. I'm not sure when
+
+491
+00:46:50.930 --> 00:46:52.290
+like if there's a window
+
+492
+00:46:53.010 --> 00:47:05.255
+<v Unknown> and it only tracks two weeks worth of difficulties and then it resets or what? Or when we were just doing some maintenance on the server, I think. Was that it? Didn't HYDRA pool get moved from where it was hosted for the actual telehash
+
+493
+00:47:05.255 --> 00:47:07.655
+<v Unknown> once or twice? Yeah, but since then,
+
+494
+00:47:08.855 --> 00:47:10.535
+I was on the leaderboard
+
+495
+00:47:11.100 --> 00:47:13.420
+and I think I had like 30,000,000,000.
+
+496
+00:47:13.420 --> 00:47:14.780
+<v Unknown> Oh yeah, do remember that.
+
+497
+00:47:16.780 --> 00:47:23.580
+Collusion. Now I'm all the way down in seventh place like a loser. Yeah, what is the network difficulty right now? It's going down
+
+498
+00:47:24.485 --> 00:47:28.085
+133,000,000,000,968
+
+499
+00:47:28.085 --> 00:47:33.845
+to hash a second on the one week moving average. Hash price in the dumps. Home miners unfazed.
+
+500
+00:47:33.845 --> 00:47:37.890
+Yep. Yeah. This one year hash price chart is hilarious.
+
+501
+00:47:40.050 --> 00:47:42.610
+<v Unknown> A year ago, we were at down to the basement.
+
+502
+00:47:42.770 --> 00:47:46.050
+<v Unknown> Yeah. Yeah. A year ago today, we were at $50
+
+503
+00:47:46.050 --> 00:47:50.050
+per petahash, which is useless for home miners. So stats per terahash.
+
+504
+00:47:50.050 --> 00:47:56.535
+<v Unknown> We were at 5¢. Now we're at 3. Yeah, dude. It's wild. Hang in there guys. You'll be all right.
+
+505
+00:47:57.655 --> 00:47:58.375
+<v Unknown> Yeah.
+
+506
+00:47:59.335 --> 00:48:04.855
+You'll be good. If you're a pubco, I don't know, maybe you're playing around with AI. Yeah. If you're a pubco, just
+
+507
+00:48:05.470 --> 00:48:07.950
+<v Unknown> stop mining. Let us inherit the world
+
+508
+00:48:08.190 --> 00:48:13.870
+<v Unknown> and you just focus on AI stuff. Mhmm. You think if more pub codes switch to AI HPC,
+
+509
+00:48:14.110 --> 00:48:15.310
+the manufacturers,
+
+510
+00:48:15.310 --> 00:48:17.070
+the bitmains of the world,
+
+511
+00:48:17.310 --> 00:48:32.675
+will start to pay more attention to the requests of the smaller guys? No. I don't think they give a fuck. They'll just wait to see whatever's popular and do that? I don't know. I think they're just not even that. I think they're just gonna keep doing what they wanna do. You don't think Bitmain will ever come out with a home miner? No.
+
+512
+00:48:33.280 --> 00:48:39.200
+<v Unknown> Heard a Didn't they try that before? Yeah, heard a rumor that they were looking into
+
+513
+00:48:39.200 --> 00:48:40.320
+the feasibility
+
+514
+00:48:40.320 --> 00:48:50.015
+of producing a home miner, like targeting home miners with a product. I have no idea what that product was or any specs on it or if that's even true.
+
+515
+00:48:50.495 --> 00:48:51.935
+This is the February
+
+516
+00:48:51.935 --> 00:48:53.055
+rumor mill.
+
+517
+00:48:54.095 --> 00:49:01.055
+Love it. But yeah, I mean, leave it to a company like Bitmain to have the audacity and the tone deafness
+
+518
+00:49:01.055 --> 00:49:08.740
+to want to produce a product targeted at home miners and not take any input whatsoever from
+
+519
+00:49:09.380 --> 00:49:28.715
+<v Unknown> the home miners who are actually doing it day in, day out. Totally. I was just looking at Best Buy's website because I heard that Kanan was selling theirs there now. I mean, talk about distribution channels. That's awesome to see. Yeah. Well, we'll build it. They won't. Yeah. If you build it, they will come. That's right. Anything else you want to hit on this week? Something like that. We had a
+
+520
+00:49:28.795 --> 00:49:31.755
+<v Unknown> great time last week at the space.
+
+521
+00:49:31.915 --> 00:49:35.275
+Lauren Rodriguez was in town speaking on behalf
+
+522
+00:49:35.619 --> 00:49:37.060
+of her husband,
+
+523
+00:49:37.380 --> 00:49:39.380
+who was one
+
+524
+00:49:40.339 --> 00:49:44.740
+of the two lead developers for Samurai Wallet. So Kion Rodriguez
+
+525
+00:49:44.740 --> 00:49:45.380
+and
+
+526
+00:49:45.619 --> 00:49:52.204
+Bill Hill. If you're not familiar with the Samurai Wallet case, you should be. Go to billandkioni.org
+
+527
+00:49:52.204 --> 00:50:24.445
+to learn more. But it was great to see Lauren in person again. We had her make an appearance on Pod two fifty six. She recorded a podcast with Danny Knowles of what Bitcoin did. So, yeah, I hope the word keeps getting out there and that Samurai wallet gets the pardon that we've been fighting for and that they deserve. Other than that, I think that's all I had to say. Yeah. Was a great episode with Lauren last week and she re explained it on Dani, so maybe you caught that. Then there's a recording from the live stream of the event from last week as well on the Spaces Twitter.
+
+528
+00:50:25.165 --> 00:50:25.885
+<v Unknown> Yeah.
+
+529
+00:50:26.845 --> 00:50:28.125
+Other than that,
+
+530
+00:50:28.525 --> 00:50:32.020
+we're working on some updates to really try and bring the community together
+
+531
+00:50:33.140 --> 00:50:38.340
+now that we've got all these different projects in work and the Telegram group is growing, right, Eco? So
+
+532
+00:50:38.660 --> 00:50:41.060
+I finally got under the hood in the forum today.
+
+533
+00:50:41.475 --> 00:50:57.155
+I'm testing out a forum for the two five six foundation. So there might be some announcements there soon, but we'll see how we like it because as we've said before, we we really want to start to catalog and build a snowball effect where we're building on top of one another from GitHub PRs to
+
+534
+00:50:57.609 --> 00:51:03.290
+questions and frequently asked questions and answers and pointing to resources and references.
+
+535
+00:51:03.290 --> 00:51:08.810
+Just having a one stop shop I think will be very helpful. Yeah and having all of that stuff web searchable.
+
+536
+00:51:09.130 --> 00:51:09.770
+Yes.
+
+537
+00:51:11.369 --> 00:51:12.570
+Stay tuned for that
+
+538
+00:51:13.455 --> 00:51:17.055
+And then oh, I I I got an email this week that they
+
+539
+00:51:17.695 --> 00:51:19.375
+announced the schedule for
+
+540
+00:51:19.855 --> 00:51:27.135
+when the two five six Foundation team, the project developers will be talking in Las Vegas. So if you're going to Bitcoin Las Vegas
+
+541
+00:51:28.160 --> 00:51:29.440
+on Monday,
+
+542
+00:51:29.520 --> 00:51:30.320
+April
+
+543
+00:51:30.320 --> 00:51:31.120
+27
+
+544
+00:51:32.080 --> 00:51:32.800
+at
+
+545
+00:51:33.280 --> 00:51:34.800
+12:30PM
+
+546
+00:51:34.800 --> 00:51:39.840
+Pacific time, we are going to have a panel about open sourcing the Bitcoin mining ecosystem.
+
+547
+00:51:40.145 --> 00:51:53.425
+I'll moderate that, and we'll have Schnitzel, Ryan, and Scott on stage there. Awesome. Yeah. That'd be fun. Can't wait. Great. Well, let's call that a show for this week then. Alright. Until next week. Thank you, everyone. Adios,
+
+548
+00:51:53.425 --> 00:51:53.984
+<v Unknown> amigos.
+

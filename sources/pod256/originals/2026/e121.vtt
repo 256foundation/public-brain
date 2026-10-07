@@ -1,0 +1,2100 @@
+WEBVTT
+
+NOTE
+Transcription provided by Podhome.fm
+Created: 7/27/2026 10:38:12 PM
+Duration: 4921.260
+Channels: 1
+
+1
+00:00:00.000 --> 00:00:03.999
+<v Unknown> Welcome to pod two fifty six, number 121.
+
+2
+00:00:04.319 --> 00:00:14.744
+It's a good number. We made it, boys. It's July 27. How are y'all doing? Doing great. To be here. This is Brad. One twenty one. Let's go. We've got the one and only
+
+3
+00:00:14.905 --> 00:00:15.705
+Ryan
+
+4
+00:00:15.705 --> 00:00:16.744
+Mugena,
+
+5
+00:00:16.824 --> 00:00:18.025
+lead maintainer
+
+6
+00:00:18.025 --> 00:00:41.140
+on the show today. Welcome, sir. Yo. Yo. Yo. You've been a guest many times, but I think we just wanted to have you on the show to talk about some recent Mugena developments. I know you've been doing some cool things, and it's always good just to shoot the shit with an old friend and talk about mining in general. Sorry for missing last week. That was my fault. You guys can blame me, but we're back at it. And, yeah,
+
+7
+00:00:41.745 --> 00:00:43.664
+let's get this show off the ground. Ryan,
+
+8
+00:00:44.145 --> 00:01:02.559
+<v Unknown> thankfully, you came into the the last Mugena dev call, which we should talk about a little bit. Save Dylan and I from trying to lead it as two non devs. But there was a there was some cool discussions on there with Schnitzel, who was I think on the pod last time we were together, right, Ike? Talking about You guys did a great job. I read the transcript of that part of the call. Okay, good. Yeah.
+
+9
+00:01:03.280 --> 00:01:31.340
+I heard we had some lurkers on the call too, which was cool. Some supporters that are also non devs, just chiming in to listen how Mugena development and architecture is going in those dev calls. So Tangent, if you're interested in doing that, please join the next one, which is posted on our forum when that's happening. Ryan does a great job. Real quick, for any listeners that don't know, what is the Mugena Dev Call? When is it? Where can they go to learn more? Well, every two approximately every two weeks, we
+
+10
+00:01:31.660 --> 00:01:35.420
+<v Unknown> on Monday at do the math in my head. Seventeen hundred UTC.
+
+11
+00:01:35.420 --> 00:01:44.625
+We hold an open call where we post these on our two fifty six forum, which is forum.256foundation.org.
+
+12
+00:01:44.625 --> 00:01:45.985
+Is that right? Mhmm.
+
+13
+00:01:46.465 --> 00:01:50.945
+So they're posted there, and there's a link there to the call, and anyone's welcome to join. But
+
+14
+00:01:51.540 --> 00:01:57.060
+sort of the core Mugena developers, to the extent we have a core, shows up, and we
+
+15
+00:01:57.300 --> 00:02:04.420
+we try to just go over the news of the last two weeks loosely based off of our GitHub repository
+
+16
+00:02:04.420 --> 00:02:05.700
+activity discussions,
+
+17
+00:02:05.895 --> 00:02:39.245
+stuff we've talked about just to catch everybody up so that everyone stays up to speed on what people are working on, what the current questions are, take feedback from people who are using our stuff like schnitzel. So, yeah, they're they're fun. And then we and then we we record the audio of those and transcribe it and summarize it, and all that stuff gets posted back to GitHub. So you can even if you don't attend real time, you can still take a look at those transcripts and summaries and see what people were talking about. Should we take a step back even further real quick before we jump in and just briefly
+
+18
+00:02:39.405 --> 00:02:59.790
+<v Unknown> for listeners tell what Mugena is and why it's important? Or do you think we're spinning our wheels here? It never hurts. It yeah. It's true. We can refine the message here. Yeah. Elevator pitch. What what is Mugena? Why? Man, I was not prepared for joining. I should have. Mugena. No pressure. Is. We're we're we're You know this like the back your hand, Ryan. What are you talking about?
+
+19
+00:03:00.510 --> 00:03:05.375
+<v Unknown> Our our our subtitle is open source Bitcoin mining firmware
+
+20
+00:03:05.375 --> 00:03:06.175
+because
+
+21
+00:03:06.255 --> 00:03:07.375
+most firmware,
+
+22
+00:03:07.535 --> 00:03:42.614
+running on most machines that are securing the Bitcoin network is closed and proprietary firmware. Be that be that because it comes directly from the machine vendor or even popular third party firmwares people use to give them better features and some more control. Those are still closed source products. So as we try to do with everything here at the foundation, we believe these things should be open source and easy to audit, easy to modify, easy to tailor to different use cases. So Mugena is is one of the four pillar projects of the foundation, and its its its goal is to sort of be the universal
+
+23
+00:03:42.614 --> 00:03:44.210
+mining firmware.
+
+24
+00:03:44.210 --> 00:03:51.010
+It runs on Linux. So so maybe one maybe one of the more popular open source firmwares is the firmware on the Bitaxe,
+
+25
+00:03:51.090 --> 00:03:54.290
+which is ESP Miner. That runs on the microcontroller
+
+26
+00:03:54.290 --> 00:04:04.814
+on the Bitaxe. Mugena is a little different because Mugena is a Linux program. Actually, it runs on Mac and Windows also, but it's a it's, not meant to run on microcontrollers.
+
+27
+00:04:04.814 --> 00:04:16.890
+And it's meant OS. It needs an OS. It it needs an operating system. Yeah. It's a little higher level. And there really isn't an open source version of of that or hasn't been since, I don't know, the late, you know, maybe 2010,
+
+28
+00:04:16.970 --> 00:04:18.010
+2011,
+
+29
+00:04:18.010 --> 00:04:30.965
+kinda when CG miner had its had its run when people were doing CPU mining and maybe even early mining on s nines. Since then, we really haven't had an open source mining software in Bitcoin that saw a lot of wide use that I'm aware of.
+
+30
+00:04:31.764 --> 00:04:37.925
+<v Unknown> There was a We're trying to bring that back. There was a blip in there a couple years ago. For a brief time,
+
+31
+00:04:38.245 --> 00:04:42.570
+Brains was open source. I think they started the project as an open source project.
+
+32
+00:04:42.730 --> 00:05:02.354
+Mhmm. And then they they added Brains OS plus which was closed source and included auto tuning and some other features. And then I'm not sure how long the the open source version of Brains was out. Maybe a couple years? But then they they canceled that and just, you know, for the last maybe four years or so, we've had just
+
+33
+00:05:03.315 --> 00:05:06.675
+the open source brains project actually disappeared. They took it down
+
+34
+00:05:07.530 --> 00:05:38.690
+<v Unknown> and just the closed source brains one. So, yeah, I think for at least the last four years, we have not had an open source, you know, industrial mining firmware. And I guess that raises a good point. You know, open source can mean a lot of different things in different contexts. Maybe its most basic definition is the sources available, and you can read it and look at it. That certainly qualifies. But it's, we also feel like it's important in this second sense of open source is we're we're really trying to create an entire open source project. So we're not a company with a firmware
+
+35
+00:05:38.690 --> 00:05:44.845
+that we've open source for people could read it or even licensed it. But that kind of open source happens,
+
+36
+00:05:44.845 --> 00:05:59.060
+but you tend to get what we call over the wall code drops. So, you know, every six months, maybe that company would publish their current version, or most likely a lagging version of their source. And it's open, but it's not really a community developed
+
+37
+00:05:59.060 --> 00:06:22.215
+project that you could contribute to. That company's engineers work on it internally, but it's not necessarily a thing that everybody works on. It's it's like that company is showing you their source, and you can take it and use it. But Mugena is I lost you for a second. What's that? Did I freeze? Hopefully it's still recording on his end. Yeah. Yeah, he is frozen. That is a really important point, sort of this distinction between
+
+38
+00:06:22.455 --> 00:06:25.014
+<v Unknown> a project where the source is
+
+39
+00:06:25.380 --> 00:06:26.180
+published,
+
+40
+00:06:26.180 --> 00:06:29.860
+right? That's, that's good. We like that. But the distinction between a,
+
+41
+00:06:30.020 --> 00:06:58.120
+a community project, I don't know what the right word is for it there, but a project that is developed with input from the community and designed so that people can take it and add onto it and add support for it. You know, it's a lot different than what Ryan was saying. It's just it's thrown over the wall. You know, don't get me wrong. We'll we'll take thrown over the wall. That that's that's nice. But I think Magena really can be a game changer here because it is is really designed to be take community input as well as be extensible,
+
+42
+00:06:58.120 --> 00:07:05.000
+right? So it's like you can fork it and make your own version of it that does your own things. And we've actually seen people
+
+43
+00:07:05.080 --> 00:07:07.320
+doing that already with Magena.
+
+44
+00:07:08.040 --> 00:07:10.360
+<v Unknown> There's a potential for those
+
+45
+00:07:10.755 --> 00:07:13.075
+community developments to get
+
+46
+00:07:13.475 --> 00:07:17.875
+pulled back into mainline Mugena. Yeah. Absolutely. Absolutely.
+
+47
+00:07:18.835 --> 00:07:26.160
+<v Unknown> You know, we see this happen with Linux. Right? There's all the all the hardware makers, you know, have forked Linux and they add support
+
+48
+00:07:26.320 --> 00:07:27.920
+for their devices.
+
+49
+00:07:28.000 --> 00:07:35.760
+And, you know, if it sees success, then you see those, that support that they added get pulled back, either contributed or pulled back into
+
+50
+00:07:36.335 --> 00:07:40.335
+<v Unknown> a mainline Linux kernel. That- Yeah, because right now,
+
+51
+00:07:40.735 --> 00:07:44.415
+whether you're an aftermarket firmware provider or someone
+
+52
+00:07:44.415 --> 00:07:46.495
+vibe coding their own firmware, right?
+
+53
+00:07:46.975 --> 00:08:03.910
+Everyone's throwing something over the wall. And what it leads to is a lot of people having to redo the work that should already be a solved problem, right? The building blocks. And that's one of the main goals with a community project like Mugena is all those technical building blocks that may be the same or may be better if they architected
+
+54
+00:08:03.910 --> 00:08:37.785
+in a way that worked regardless of what you're trying to do. Why go rebuild all that? And you have something to go contribute back to. I literally view this in my head as almost like this big ball of gum and you keep putting another piece of gum on top of it, and it's growing instead of starting from scratch and going chewing a bunch more gum. Yeah. It is important too from a sustainability point of view, right? We've seen the previous firmware that was open source get taken down. I mean, some people still had copies of it, but it effectively cancels the project when the company that's thrown it over the wall decides, No, no, we're not doing this anymore. So the goal here would be that Mugena,
+
+55
+00:08:37.785 --> 00:08:51.010
+you know, can outlast us. The fact that there are so many different systems, applications of hash boards, industrial scale, home mining, heat reuse, etcetera, whatever you want to call it. To me, that shows the value
+
+56
+00:08:51.170 --> 00:09:07.615
+in the GPL license specifically. This was a topic that was brought up to me over the weekend. I saw online there was some pushback. Well, Bitcoin's MIT, right? The consensus protocol. And I was sitting with that over the weekend. It seems to make sense like, well, Bitcoin is MIT and it's consensus protocol because you literally have
+
+57
+00:09:07.855 --> 00:09:29.410
+to abide by those rules to be part of consensus. So there's not that pressure to change it. The incentive is to not change it, right? And to be very conservative. There's a whole process, the Bitcoin improvement proposal, the BIP system, right? Whereas with something like firmware where there's all these different types of machines, there's all these different applications, on grid, off grid, heating, etcetera, solar, that by definition,
+
+58
+00:09:29.490 --> 00:09:39.895
+there is not this incentive to have the same firmware over and over and over. There's incentive to change it to solve the specific problem you need. And that's where I view the importance of the GPL license to say,
+
+59
+00:09:40.135 --> 00:09:57.540
+we expect you're going to run into some unique problem with whatever you're trying to do with your mining system and how you wanna control it. And whatever you learn throughout that process, you have to contribute it back so that someone else doesn't have to go redo that. And that that dynamic doesn't seem to manifest in the consensus protocol with the nodes. Yeah. It is. It's sort of like
+
+60
+00:09:58.085 --> 00:10:01.765
+<v Unknown> the the original Bitcoin client, which was MIT licensed,
+
+61
+00:10:01.925 --> 00:10:09.445
+was was essentially the, like, specification doc for the protocol that, you know, someone could definitely make a node implementation
+
+62
+00:10:09.525 --> 00:10:32.775
+that is GPL licensed. Right? And especially if it's modular and something that someone would wanna take and add into different subsystems and and how their node works. But, yeah, I really think that the you know, what Satoshi started with the original sort of node implementation really was was like a specification doc for the protocol because the white paper didn't really include any of the, like, protocol any of the protocol, like, specification
+
+63
+00:10:32.775 --> 00:10:41.560
+on a on a lower level. Right? It's like very the white paper, very high level how it all works, but I think the the original node implementation,
+
+64
+00:10:41.560 --> 00:11:15.649
+<v Unknown> like, filled in all the gaps there. I I guess that makes sense to have that be MIT licensed. What was the conversation you were referring to, Tyler? Were people saying that the projects from the two fifty six Foundation should be MIT licensed if there are any sort of open source? Yeah. Yep. That was some of the replies I saw online. There was just some banter back and forth about, hey, whatever you're building, it's awesome what you're building. You should release the source. And I know that there's some folks who have put their time and effort towards what they're building and they're not convinced of that. And I think that in the long run they will be. But then that specific point was brought up where, well,
+
+65
+00:11:16.050 --> 00:11:43.950
+aren't the firmware projects or why aren't the projects you're building at two point five six MIT, why are they GPL? And me thinking about this as a non dev was, well, it's much more of a community project where things are changing and changing fast and everyone has a custom solution for what they're doing. I did a little research on this. It seems to me like the large companies that contribute to Linux, and Ryan could speak well to this, I'm sure, they contribute to it, the Googles, the Amazons, the Microsofts, because it's GPL. Whereas if it was MIT,
+
+66
+00:11:44.430 --> 00:12:05.115
+I'm curious, wouldn't the dynamic be, well, why would I contribute to this? Give away my changes. Someone else might just take that and then keep it to themselves, right? Whereas when you have this dynamic where everyone has to contribute to benefit the whole project as a whole, it helps convince them that it's worth focusing their time and attention to. It makes sense to me. What was their rationale
+
+67
+00:12:05.115 --> 00:12:18.290
+for the two fifty six foundation project should be MIT? Let me try and find it. It was it was as simple as, like, the nodes are MIT. So instead of copyleft and CERN OHL. So it was just more of, like, there
+
+68
+00:12:18.610 --> 00:12:26.375
+wasn't really any sort of well thought out argument there. It says Bitcoin is permissionless, viral copy left is not. And
+
+69
+00:12:26.855 --> 00:12:29.895
+I said, no closed firmware is permissionlessness,
+
+70
+00:12:29.895 --> 00:12:32.055
+not the license that prevents
+
+71
+00:12:32.135 --> 00:12:57.755
+re enclosure was how I responded there. Yeah, Ryan, I think you're back now. You had a little bit of a technical glitch there, but we were just talking about how to me, and I'm curious what you think, the GPL nature of Mugena seems to make more sense when you have all these different systems and all these different contributors solving individual problems for their specific hash board implementation design, whatever their mining system is on grid, off grid, large scale, small scale. Whereas MIT for the Bitcoin
+
+72
+00:12:57.755 --> 00:12:59.835
+consensus protocol specification,
+
+73
+00:12:59.835 --> 00:13:26.365
+a more conservative thing that is very slow moving and you can't change it if you want to be in consensus, right? There's that whole process there for BIPs. Whereas Magena is more of a fast moving project that has to work on a bunch of different systems and the GPL license seems like the right one for that. I don't know if you have any thoughts. Well, I mean, they're both first class legitimate open source licenses. Guess I would just say, you know, as you've probably covered, our goal is to build a community where everyone contributes
+
+74
+00:13:26.525 --> 00:13:29.165
+<v Unknown> benefits from everyone else's contributions,
+
+75
+00:13:29.245 --> 00:13:45.760
+and the whole thing sort of compounds. And copylefts fits with that. I suppose MIT also could, but I don't know. I guess I would just say the, you know, the Linux kernel, which we often make analogies to for this project. Linux kernel is GPL, and that certainly hasn't stifled its adoption,
+
+76
+00:13:45.760 --> 00:13:47.840
+success Right. Use by companies,
+
+77
+00:13:48.000 --> 00:13:57.855
+use in products, use use in embedded situations, data centers, servers, everything else. So I think we're in good company, at least. There's a you know, if it if it's MIT,
+
+78
+00:13:58.175 --> 00:14:19.715
+<v Unknown> right, someone can can fork it and close source it, essentially. Right? They only have to, like, mention that they used the software, not, like, provide the source. And so that that fork kinda it just, like, dies from a community perspective. Right? Someone can take it and just take it off in a closed source way. Now that code isn't available to developers, and it it kind of it dies for the community who's very interested in doing this.
+
+79
+00:14:21.155 --> 00:14:25.875
+And, you know, because we're we're sort of up against a very proprietary minded ecosystem.
+
+80
+00:14:25.875 --> 00:14:35.470
+Percent of the network is running mining. I think that we need we need something a little bit more a little bit stronger to sort of break out of that mold. Because I think if it were MIT,
+
+81
+00:14:35.709 --> 00:14:59.195
+<v Unknown> then the tendency would be for people to just take it and and work on closed source. Right. Because otherwise, you end up with a bunch more a a trillion different open source mining firmwares. Right? And and not a focused aligned community project where everyone can build on top of one another. Right? And it it it seems a little bit more disorganized. I mean, you you could end up with just more closed source mining firm. Yeah. Right.
+
+82
+00:14:59.990 --> 00:15:03.990
+<v Unknown> If you're MIT. You know, one of the more logical objections
+
+83
+00:15:04.069 --> 00:15:07.750
+that we've heard in the Linux space to copyleft
+
+84
+00:15:07.750 --> 00:15:12.709
+is peep companies are worried that, you know, that they will accidentally
+
+85
+00:15:13.029 --> 00:15:14.790
+or by virtue of what they wanna do,
+
+86
+00:15:15.485 --> 00:15:18.125
+infect their own proprietary software
+
+87
+00:15:18.125 --> 00:15:24.845
+with the GPL license because they're using Linux or because they're doing something very adjacent to the kernel. And so
+
+88
+00:15:25.005 --> 00:15:49.495
+I guess to that point, I would just say, you know, what what triggers the sharing of your code in GPL is that you have distributed that a binary or maybe a binary embedded in a device to someone else. That's when you have to share your code. So if I if I'm, like, special data center, Bitcoin mining, know, company, and I use Mugena in house, and we've come up with some fancy algorithms
+
+89
+00:15:49.495 --> 00:16:28.120
+to tune that only we know about and only we implement in Mugena, we're we're perfectly you're perfectly free in that case to make those modifications, keep those in house, and you don't have to release that software to the world. That's not what GPL says. What would trigger you to release source code is if you you built a miner, put the firmware on it, and then sold it to someone. The the idea of copyleft is that that you get you know, when you distribute something to someone else, they receive code code that they can inspect and modify and run. Like, they own it at that point. They own the device. They own the code on it. They get to see it. But until you trigger distribution
+
+90
+00:16:28.120 --> 00:16:28.920
+somehow,
+
+91
+00:16:28.920 --> 00:16:36.600
+you know, by by by giving binaries away or binaries embedded in devices, then you don't have to share you don't have to share your modifications.
+
+92
+00:16:36.600 --> 00:17:08.614
+So that that seems very fair. That seems very fair. Right? Like, if if you're you're just the idea of the license is to preserve the rights for the people downstream of you, preserve the same rights that you were granted when you took it. So if there's nobody downstream of you, you you don't have to give your code to them. But if you've got customers downstream of you, the idea of the license is to preserve their rights so they get the same rights that you got when you started with Mugena. I've heard that same argument. To remember how that distribution really gets triggered. Can you guys hear me? I I've heard that same argument from
+
+93
+00:17:09.174 --> 00:17:30.460
+<v Unknown> BlueMatt and Steve Lee from Spiral. They were not fans of GPL for the same reason you brought up, Brian, that they, from what I understood, they think it would kind of infect the other software projects of the company using it, and in turn discourage people from using the open source project, because they don't want to run the risk of
+
+94
+00:17:30.700 --> 00:17:34.140
+having to open source everything that they've got in their business.
+
+95
+00:17:34.300 --> 00:17:36.940
+So I think they turn to licenses like, is it Apache?
+
+96
+00:17:37.745 --> 00:17:40.545
+Because I know Brett Rowan used Apache for
+
+97
+00:17:40.545 --> 00:17:44.145
+ASIC RS, which we support and host on the
+
+98
+00:17:45.825 --> 00:17:54.470
+two fifty six GitHub's organization page, you know. And just to be clear, like the two fifty six Foundation is an advocate for open source,
+
+99
+00:17:54.789 --> 00:17:58.309
+period. That doesn't have to be GPL,
+
+100
+00:17:58.470 --> 00:18:09.315
+doesn't have to be MIT, it doesn't have to be the way we think open source should be done in order for the foundation to support it, like, you know, ASIC RS as an example. It's just GPL
+
+101
+00:18:09.315 --> 00:18:17.154
+was the license that we thought was best for our goals with Mugena. And, like, Hydropool, we thought AGPL
+
+102
+00:18:17.235 --> 00:18:23.020
+was best because people are using that to run servers. So you got that server component that comes in with AGPL.
+
+103
+00:18:23.020 --> 00:18:27.019
+<v Unknown> But I thought that one of the objections I heard was more directed
+
+104
+00:18:27.500 --> 00:18:32.940
+towards HydroPool and the use of the AGPL license. So the AGPL license,
+
+105
+00:18:33.020 --> 00:18:33.179
+like,
+
+106
+00:18:33.945 --> 00:18:49.570
+does require you to release your changes even if you're only running it on your own machines. And I think that they were worried about that, like, the the case where a company is going to spin up a pool, a mining pool, using HydroPool, and that it could potentially
+
+107
+00:18:49.570 --> 00:18:54.209
+infect some of their other operations, some stuff that they didn't want to to
+
+108
+00:18:54.529 --> 00:19:00.129
+<v Unknown> reveal. When it when it comes to infection, it's also and I'm not I'm not an open source lawyer.
+
+109
+00:19:00.370 --> 00:19:11.835
+But I guess I've just been around enough to hear, you know, a lot of these arguments, they don't they certainly predate us in the Bitcoin mining space. They've been around an open source for a long time. But also when it comes to infection, it's important to remember,
+
+110
+00:19:12.315 --> 00:19:18.789
+the license really only applies to your code and your new code if if you have made a derivative work,
+
+111
+00:19:18.950 --> 00:19:24.869
+at least in the case of GPL, let's say. So if you're right, if you have software sitting adjacent to Magina,
+
+112
+00:19:24.870 --> 00:19:41.725
+calling Magina's API, that's not a derivative work. That's not subject to our license. What is a derivative work is if you take the Mugena source code, modify it. That's a derivative work. So that's important to keep in mind. Like, if you are using our soft you know, Mugena, calling it our software. If you're using Mugena the way it was intended,
+
+113
+00:19:42.044 --> 00:19:43.804
+that doesn't infect anything in your company.
+
+114
+00:19:44.450 --> 00:19:49.809
+You're not that's not a derivative work. The the real idea is to protect modifications
+
+115
+00:19:49.810 --> 00:19:52.690
+to Mugena itself, not uses of it.
+
+116
+00:19:52.930 --> 00:19:59.490
+AGPL may be a little different because the idea there is to preserve rights for someone using a web service, like, over the network.
+
+117
+00:20:00.154 --> 00:20:06.714
+<v Unknown> Right, because they're not necessarily running the web server themselves. They're using that as a service.
+
+118
+00:20:07.434 --> 00:20:07.994
+<v Unknown> Yeah.
+
+119
+00:20:08.315 --> 00:20:20.740
+So that's why some of these different flavors have developed, you know, over open source might have been simpler in the beginning when it was just about software you take and run on your computer. And then sort of we entered the era of, you know, everything was networked.
+
+120
+00:20:20.900 --> 00:20:30.820
+And now, like, I just use my web browser to access a 100 things. Well, you know, so that's why there's a special licenses like the AGPL that mean even as a user of some web service,
+
+121
+00:20:31.265 --> 00:20:34.945
+I can still I still have some rights to the source code I'm running,
+
+122
+00:20:35.105 --> 00:20:37.105
+so to speak, on someone else's machine.
+
+123
+00:20:37.425 --> 00:20:47.830
+<v Unknown> So so that's a good point. Last last podcast, we had Schnitzel on talking about using Mugena through some of his work with the Riot RY3 team, RY3T
+
+124
+00:20:47.830 --> 00:20:55.670
+Riot team out of Switzerland, making a really cool home focused mining system that monetizes excess solar. And so it communicates
+
+125
+00:20:55.670 --> 00:21:08.754
+via the Mugena API to this Nova software, which then talks to the inverter system. And I think there's a cloud provider in Switzerland for how much excess generation, etcetera. That part that talks to Mugena via the API
+
+126
+00:21:08.835 --> 00:21:11.315
+and bridges it to the solar provider
+
+127
+00:21:11.395 --> 00:21:12.595
+for excess generation,
+
+128
+00:21:12.835 --> 00:21:29.360
+is adjacent to Mugena. And so that's up for them to decide if they wanna open source that special sauce for that product, for that system. They don't have to do any, they're immune in that sense. They don't have to give up what they built. They can make that decision themselves, but they are using an open source firmware to make that product, which is awesome. Yeah, it's not
+
+129
+00:21:30.375 --> 00:21:31.255
+<v Unknown> like Mugena
+
+130
+00:21:31.495 --> 00:21:39.495
+<v Unknown> them using Mugena forces them to open source Nova. Correct. Right. Yeah. They I mean, they need to be a little bit careful, but it's not too hard. Right? I mean, if they're selling boxes
+
+131
+00:21:39.815 --> 00:21:49.359
+that have both their proprietary software and Mugena in there, I do think there's some hygiene that you need to to make it available so that people can get access to
+
+132
+00:21:49.760 --> 00:21:59.760
+<v Unknown> the source code for the firmware they're running that is GPL licensed. Yes. Yes. Exactly. So if they sell one of these riot boxes, that counts as distributing Mugena,
+
+133
+00:21:59.760 --> 00:22:09.595
+and so they need to make it the source code also available. But only the source code to Mugena, not the source code to their entire system. There's a a really interesting case happening right now
+
+134
+00:22:10.075 --> 00:22:13.835
+<v Unknown> Oh, yeah. From the, the Software Freedom Conservancy.
+
+135
+00:22:14.330 --> 00:22:18.650
+This is actually really cool. So one of the problems people have had enforcing
+
+136
+00:22:18.650 --> 00:22:20.890
+copyleft licenses like the GPL
+
+137
+00:22:20.890 --> 00:22:23.370
+is that it uses the copyright mechanism,
+
+138
+00:22:23.370 --> 00:22:25.930
+which, you know, is for, like, protecting books,
+
+139
+00:22:26.375 --> 00:22:27.175
+essentially.
+
+140
+00:22:27.175 --> 00:22:30.295
+And but they're using that the copyright mechanism to
+
+141
+00:22:30.295 --> 00:22:33.175
+enforce open source for software.
+
+142
+00:22:33.335 --> 00:22:37.015
+And it gets really complicated, and it basically requires
+
+143
+00:22:37.255 --> 00:22:48.430
+the copyright holder to bring the enforcement action against violators. And with open source projects, who actually owns the copyright could be a lot of people. It could change hands,
+
+144
+00:22:48.670 --> 00:22:54.830
+and, you know, software's continually being updated, so then the copyright would continually need to be updated. And then also
+
+145
+00:22:54.990 --> 00:23:03.945
+in The US, the federal courts have jurisdiction over copyright issues. So this is not a like, if there if there were to be a lawsuit regarding copyright infringement,
+
+146
+00:23:03.945 --> 00:23:14.750
+copy left, it would need to come through the the federal courts because it's a copyright issue. So, anyways, it requires the original copyright holder to bring, you know, a federal lawsuit against the infringer,
+
+147
+00:23:14.750 --> 00:23:22.429
+and it's very time consuming and difficult and expensive to do. And so it hasn't happened very much. And as a result, I think there's a lot of of copyleft
+
+148
+00:23:22.429 --> 00:23:46.099
+license infringement that's happening because there isn't really even much benefit to the copyright holder to, like, go through with this expensive time consuming lawsuit because there may or may not be damages available. Like, it's just gonna cost you a lot of money, and it doesn't benefit the copyright holder really at all. So, anyways, this case from the Software Freedom Conservancy, they they started it five years ago, but they are suing
+
+149
+00:23:46.419 --> 00:23:53.875
+VIZIO. It's a US company who makes, like, TVs and monitors and stuff, and they make a smart TV that has Linux,
+
+150
+00:23:54.275 --> 00:23:56.115
+a number of GPL components
+
+151
+00:23:56.355 --> 00:24:12.749
+in the Linux stack compiled into the firmware for it. And so what Software Freedom Conservancy did is they're like, they're not the copyright holders for Linux, but they are suing anyways, and they're suing at the state level because it's a breach of contract. And their argument is that they're, you know, they're they're essentially users in this case
+
+152
+00:24:12.990 --> 00:24:22.110
+of the copyleft software, and their freedoms are the ones that have been violated. And so their argument is that they have it's a it's a contract law violation
+
+153
+00:24:22.395 --> 00:24:24.955
+that they have with the the manufacturer
+
+154
+00:24:24.955 --> 00:24:28.075
+of, these TVs who include the the software,
+
+155
+00:24:28.155 --> 00:24:30.955
+which I think is really neat. This was five years ago.
+
+156
+00:24:31.275 --> 00:24:53.945
+It's been working its way through the courts. Vizio said they Vizio brought it to the federal court and be like, no. No. No. This is a copyright issue. You know, it should be handled in the federal courts, not the, like, California state court where it's been filed. And the federal court was like, no. They bounced it. They bounced it back. Like, no. This is a state issue. So that was a huge win. And then, you know, they argued to dismiss it, that it's it's actually like a secret copyright case.
+
+157
+00:24:54.184 --> 00:25:11.330
+And the state court said, no. No. No. This is a contract law case, so it's ongoing. It's actually scheduled the finally to come to trial two weeks. So it'll be happening beginning of August, and I think this could set a huge precedent for how copy left freedoms are enforced.
+
+158
+00:25:11.730 --> 00:25:16.690
+Basically, giving the users the right to go after their freedoms being violated
+
+159
+00:25:16.965 --> 00:25:27.284
+<v Unknown> as opposed to just the copyright holder, like the original works author. So if I understand the that consortium is saying, we have been using VIZIO TVs,
+
+160
+00:25:27.684 --> 00:25:33.740
+<v Unknown> and we we can't you're not giving us the source code. Yeah. They they bought they went and bought one of the TVs,
+
+161
+00:25:33.820 --> 00:25:39.340
+and they wrote to, you know, to Vizio and was like, we'd like to have the source
+
+162
+00:25:39.580 --> 00:25:54.165
+for this firmware because we wanna make, you know, a privacy focused version of your firmware for these TVs. And Vizio said no. And, you know, their argument is that the the the firmware that is included on these TVs includes Linux and multiple copyleft
+
+163
+00:25:54.165 --> 00:25:58.965
+license software. And so they are entitled to the source and the ability to build
+
+164
+00:25:59.525 --> 00:26:18.115
+the firmware for the TVs from that source, which is is pretty neat. Yeah. I think Vizio fucked up here. Yeah. I mean, Vizio fucked up, but this happens a lot. Right? Like Yeah. I'm not a lawyer, but it it seems like Bitmain is doing the exact same thing. Yeah. Isn't it? Every miner on Earth? Every yeah. It's 99.999%
+
+165
+00:26:18.115 --> 00:26:25.795
+of the miners are doing this exact same thing. So, yeah, this is very exciting. I'm looking forward to seeing what's happening because it's it's it's basically,
+
+166
+00:26:25.795 --> 00:26:26.275
+like,
+
+167
+00:26:26.755 --> 00:26:27.555
+inapproachable
+
+168
+00:26:27.555 --> 00:26:43.520
+<v Unknown> for for everyone but the largest developers to actually enforce their open source license the way it currently stands now. And that's some of the that's one of the main arguments that I've heard for MIT, which is effectively anything outside of MIT. You're just at the whims of the legal state and governments
+
+169
+00:26:43.975 --> 00:27:03.750
+and violence basically to enforce the the other copyright laws and open source. Yeah. Yeah. Like you can't win just like Yeah, just can't win. Like that's the biggest argument for MIT is just like fuck the state. So I do hear where they're coming from with that. Because otherwise, you do get into all this legalese. Right? I mean, there is a essentially MIT licensed
+
+170
+00:27:03.750 --> 00:27:04.550
+<v Unknown> kernel.
+
+171
+00:27:04.550 --> 00:27:05.830
+Right? FreeBSD,
+
+172
+00:27:05.830 --> 00:27:08.550
+which I think Apple uses for OSX,
+
+173
+00:27:08.550 --> 00:27:13.004
+like, for Mac OS. Right? Is it's a separate project from Linux,
+
+174
+00:27:13.245 --> 00:27:18.364
+but it's a kernel, and it is it's licensed under the BSD license, but it
+
+175
+00:27:18.845 --> 00:27:21.245
+is, you know, similar to MIT.
+
+176
+00:27:21.245 --> 00:27:25.004
+<v Unknown> I'll I'll put on my Pollyanna hat for one second. Yeah. And,
+
+177
+00:27:25.245 --> 00:27:36.970
+know, say, look, as Bitcoiners, we hold ourselves to a higher standard. And, yes, we are trying to create a world where things are, you know, right and wrong sort of with
+
+178
+00:27:37.130 --> 00:28:25.740
+respect to nature and nature's laws and our individual interactions with each other. And then a system like like we've got where GPL is sometimes enforced by a court or whatever. We need the state and its violence. Like, keep keep in mind, this is first and foremost a contract between you and the and your user or you and the project that you're taking the source code from. You know, us making this license, making Magina GPL is first and foremost not an appeal to the US government. It's an appeal to all the all the users saying, hey. We made this thing, and we're offering it to you under these terms. This is our intent. This is sort of the the contract, the social contract. We're we're we're all working on this, and and we're willing to let you use it on these terms. Enforcement's like a secondary, obviously, an enforcement in different jurisdictions
+
+179
+00:28:25.740 --> 00:28:41.924
+by force and everything else. That's kind of that's sort of a separate downstream issue. I mean, first and foremost, like, yeah, we're we're we don't wanna live in a world where everything has to be enforced at the point of a gun, like and and that's not what this is. This is you know, we're we're we're putting this out there under these terms,
+
+180
+00:28:42.404 --> 00:28:47.924
+expecting people to respect those terms because they they respect us as individuals,
+
+181
+00:28:48.164 --> 00:29:08.294
+and they don't want their rights violated either. And that's how we treat each other in this world. So, I mean, I I know I know we live in the real world that's that's different. But let's keep in mind that contracts are first and foremost agreements between between parties without without the government involvement. The government's only there. That's that's who we bring in when there's a dispute. But that's not primary first
+
+182
+00:29:08.775 --> 00:29:14.615
+<v Unknown> thing. Yeah. And then what Scott's pointing out is that this it's highlighting that this contract, this social contract
+
+183
+00:29:14.775 --> 00:29:15.575
+binds
+
+184
+00:29:15.575 --> 00:29:27.860
+to the the buyer of the VIZIO TV, not just Vizio and the creator of that open source code that was used for creation of their firmware. Right? Yeah. I mean, when that's part of the reason we picked GPL.
+
+185
+00:29:27.860 --> 00:29:31.139
+<v Unknown> Right? It's because we want your downstream
+
+186
+00:29:31.220 --> 00:29:36.514
+consumer to have open source freedoms and rights with their software.
+
+187
+00:29:36.755 --> 00:30:11.605
+<v Unknown> So we're trying to protect that for them, you know, even if it passes through you, it's it's to protect the end user also. That's part of our that's part of our deal. Anyone who buys a Visio device should be able to do what they should be free to do what they want with that device. And if they wanna put a different firmware on that device so that the Vizio TV isn't constantly spying on the shows they watch, the duration they're watching, them, when they're watching them, where they're watching them, possibly even like using microphones in the TV to record what's happening in the room where the TV's sitting and cameras to record
+
+188
+00:30:12.485 --> 00:30:17.470
+what's going on in the room visually and sending that information to Visio's
+
+189
+00:30:17.470 --> 00:30:40.855
+private servers that they don't have access to. Like if people buy a hardware device, they have every right to modify that device however they want. Just like if I buy a car, I have a right to modify that car, even if it means putting different firmware on it. Like, that's my property. I own it. Why should the manufacturer be able to dictate how I can use that device? And Well, that that sounds like a a great idea
+
+190
+00:30:41.520 --> 00:30:44.640
+<v Unknown> and true and ought to be true, but especially
+
+191
+00:30:44.640 --> 00:30:51.679
+if because in this case, Visio did not write all that software themselves. Yeah. Right. Took open source software that already that
+
+192
+00:30:52.400 --> 00:30:56.160
+was already guaranteed to that end user that that it would be free.
+
+193
+00:30:56.975 --> 00:30:58.414
+And then they closed it up.
+
+194
+00:30:58.975 --> 00:31:39.000
+If, you know, I mean, if if Visio writes all their own software and wants to sell something to their users that spies on them, like, well, that's debatable then whether that end user, you know, what rights they have. But certainly, if Visio takes the Linux kernel, which was given to Vizio under the terms of it remaining free, then it has to remain free. And those the end users do have those freedoms, and Vizio is not allowed to take them away. Yeah. It was those open source projects that made it possible for Visio to quickly spin up the firmware needed to make that product and build an empire on it. And in doing so, they've just rug pooled all the end users that are that are enriching Visio. Yep. If they wanna make theirs
+
+195
+00:31:39.400 --> 00:32:11.620
+<v Unknown> they're like spyware data harvesting device and sell it, fine. Be my guest. But you probably shouldn't use, you know, software that's intended. Software written by someone else that's intended to provide rights to to users. Yes. And we're going through the same thing with cell phones. Like Yeah. Especially in the Android realm. You know, if I buy a phone, I should be able to flash Graphene OS or whatever firmware I want on it. It's my hardware. I should be able to do what I want with it. I shouldn't be restricted to these walled garden app stores where I can only put apps
+
+196
+00:32:13.125 --> 00:32:13.605
+manufacturer
+
+197
+00:32:14.005 --> 00:32:14.885
+blesses.
+
+198
+00:32:14.885 --> 00:32:21.044
+Know, it's my hardware. I gave you the money. You gave me the device. End of transaction, end of relationship.
+
+199
+00:32:21.285 --> 00:32:25.525
+I don't want the manufacturer dictating how I use that device in perpetuity.
+
+200
+00:32:25.525 --> 00:32:35.090
+<v Unknown> And same thing in the mining. Yeah. We I mean, it is very cool that we have, you know, in the like, let's say the TV wasn't using GPL software.
+
+201
+00:32:35.090 --> 00:32:40.770
+Right? And and it was it was totally clean, and it was this horrible spyware black box. It is really cool
+
+202
+00:32:41.145 --> 00:33:09.360
+that we have the freedom. Right? We're protected. We can we can make our own firmware. We we might have to, like, you know, jailbreak it to do this, but that we can do that. I think that's an important thing too. Right? Especially now that the ability to do that gets even easier with AI tools. So, you know, having the ability to reverse engineer, having the freedom to reverse engineer things and is is very important. Ryan, one of the things you mentioned earlier when you were explaining Mugena
+
+203
+00:33:09.465 --> 00:33:12.504
+<v Unknown> to any newcomers listening was about how it relies
+
+204
+00:33:12.745 --> 00:33:27.179
+on an underlying OS. So it's an application. It can run on Linux. It can run on macOS and on Windows. But in the last dev call, Schnitzel brought up a lot of interesting points and much of the conversation revolved around does the Mugena project have its own
+
+205
+00:33:27.500 --> 00:33:49.174
+distribution? Another word you mentioned, right? And help me understand this because it seems that Mugena is higher level than a kernel itself, but we have used that analogy before, the Linux kernel of Bitcoin mining. And for the listener, what is the difference, and and what do you think where are you sitting with that decision in mind right now? Well, I I try to be careful to always say the Linux kernel project
+
+206
+00:33:49.255 --> 00:33:50.855
+<v Unknown> of Bitcoin mining. Okay.
+
+207
+00:33:51.540 --> 00:33:59.380
+Just to make a subtle hint at distinctions like that. Yeah. Gosh. Where do I start? So I guess picture a Linux computer.
+
+208
+00:33:59.540 --> 00:34:01.780
+I mean, this applies to pretty much any computer,
+
+209
+00:34:01.860 --> 00:34:05.700
+but we'll stick with Linux. What what people call the operating system
+
+210
+00:34:05.975 --> 00:34:19.735
+is really a a kernel, which the kernel is just some low level software that that basically schedules and manages all the resources of that computer. So if you're running five different things, five different programs, a web browser,
+
+211
+00:34:20.360 --> 00:34:21.800
+email client,
+
+212
+00:34:21.800 --> 00:34:22.840
+an editor,
+
+213
+00:34:22.840 --> 00:34:24.760
+whatever. Those those things all
+
+214
+00:34:25.000 --> 00:34:35.880
+need memory. They all need time on the CPU. You know, they're individual programs. They're all sharing one piece of hardware. The kernel is sort of the heart of the system that that manages multitasking,
+
+215
+00:34:35.955 --> 00:34:39.155
+all all those things. But the and and sometimes people sort
+
+216
+00:34:39.395 --> 00:34:50.195
+of call the kernel the operating system, but the operating system is really something larger that includes the kernel. The and and these distinctions are sort of fuzzy. There there's not hard technical
+
+217
+00:34:50.275 --> 00:34:56.310
+terms. But operating system is really the kernel plus all of the sort of system y level software
+
+218
+00:34:56.310 --> 00:34:59.430
+that that gives you a basic running computer.
+
+219
+00:34:59.510 --> 00:35:16.635
+So sort of everything below, like, below special applications that you install and run. So because a kernel on its own really doesn't like, the kernel needs something to manage. And that something to manage usually starts out with a handful of system level applications, like like the thing that renders Windows to your screen.
+
+220
+00:35:17.330 --> 00:35:24.210
+And the program that draws your desktop and shows you icons that lets you launch other programs.
+
+221
+00:35:24.290 --> 00:35:40.245
+Like, those are all sort of system level components. And there's lots of components like that you that you don't even see. If you ever open up like Activity Manager on your Mac or whatever, you'll see there's a 100 things running that don't show up as windows on your screen. Know, some backup program, something that's indexing
+
+222
+00:35:40.245 --> 00:35:44.340
+all your files so that you can look at them with Spotlight,
+
+223
+00:35:44.500 --> 00:36:12.785
+your mail client, you know, some backup software, like there's tons of things running. And if you force quit one of them, you might get a blue screen. You might freeze your system. Right. Yeah. Right. Right. All of that stuff is what I would call the operating system. The operating system has a kernel. In fact, in the in the Linux world for a while, at least, people were always like, people would get upset because they call it Linux. Well, Linux is just a kernel. All the other open source projects that were sort of part of making a machine work were from the from
+
+224
+00:36:13.030 --> 00:36:19.270
+GNU, GNU, the GNU project, you know, had tens or hundreds of of programs.
+
+225
+00:36:19.350 --> 00:36:20.470
+What someone really,
+
+226
+00:36:20.870 --> 00:36:31.315
+when someone used a Linux computer, they were really using a Linux kernel with a bunch of GNU software on top of it. So people would people some people would make a real point of writing, like, Linux slash GNU.
+
+227
+00:36:31.315 --> 00:36:35.315
+Like, that's my operating system. Like, it's the combination of the two. So,
+
+228
+00:36:35.635 --> 00:36:50.290
+yeah, silly technical point. I'll I'll we'll probably go over most people's heads, but I'll always try and make, because an operating system is actually more than just a kernel. It's but but now you can see how because these lines are fuzzy, and there's lots of different programs at play, like, there's some you get options
+
+229
+00:36:50.450 --> 00:37:13.910
+as to what what you want in your operating system. So like, in the Linux space, again, people are probably familiar with there being different Linux distributions, like I run Ubuntu, or I run Debian, or I run Red Hat, or at my company, we run CentOS on our servers, or all those different things. So what those are, though, I would call those all different operating systems, all different operating system distributions.
+
+230
+00:37:13.910 --> 00:37:39.960
+They all run basically the same Linux kernel. They have some they have made different choices at that operating system layer of the the the basic programs they wanna mix in and how the system you know, how a base system is, like, configured and presents to the user and and all those things. So wrapping this all the way back around to Mugena then. So Mugena is not a kernel. It's really not even a system level program on a basic computer. It it's it's an definitely an application.
+
+231
+00:37:40.040 --> 00:38:00.595
+It does a specific thing, happens to interact with hardware and the network and everything else. But, you know, it it mines Bitcoin and has all those features. So but it needs a context to run-in. And so it needs to run on an operating system, and that operating system runs on top of a actual Linux kernel. And so that that's sort of Magina's position in the stack. It's sort of up near the top. So
+
+232
+00:38:01.480 --> 00:38:18.205
+I guess the question becomes, if you have a miner with a control board, that control board is basically a little little computer capable of running Linux operating systems. And we're we want to give you Mugena to run on that miner. Like, what do we give you? Do we just give you the little application program?
+
+233
+00:38:18.605 --> 00:38:25.405
+Because how do you put that on your miner? How do you run that? How do you interact with it? That's not they're really not designed.
+
+234
+00:38:25.645 --> 00:38:38.030
+You know, your your miner doesn't have a an HDMI port and a port for a keyboard where you can plug in and you get a desktop and you can add software. Right? That's not that's not how it works. Really, the most convenient packaging
+
+235
+00:38:38.030 --> 00:39:20.255
+of Mugena to put on a control board is to give you an entire operating system image. So that means we would we would bundle all the pieces that you need to put on top of the raw control board hardware in order to run a complete system that includes Mugena. So, you know, we started the Mugena project with the application piece, and you'll even know if you look at our GitHub repository, that's not called that's not just called Mugena. Like, that's called Mugena Miner d. It's the Mugena mining daemon because that is one little program. But when it comes to once we once we get a little more polished here, and we're working on this right now, the the real piece that I think users are gonna consume are are basically operating system distributions.
+
+236
+00:39:20.335 --> 00:39:25.960
+We'll call it, you know, delivered in the form of of an image, a single chunk, single binary piece
+
+237
+00:39:26.120 --> 00:39:43.825
+to install on a on a control board, because that's that's the that's the way to deliver it to embedded hardware. So we're gonna package up a Linux kernel, some operating system components of our choice, and Mugena minor d on the very top of it, and probably some other things alongside Mugena, like some kind of graphical interface.
+
+238
+00:39:43.825 --> 00:39:48.385
+And those will be images that will that will be the main way to consume Mugena.
+
+239
+00:39:48.465 --> 00:40:17.405
+Like, right now, you know, when Schnitzel talks about it, when I talk about it, when we when we talk about some of these early adopters and early use cases, like they're sort of handed there's Scott done with with s nineteens even, you know, as you can attest, like, that's a very manual, that's a very hands on a very technical effort to, like, I'm gonna install some type of operating system on a control board, and then I'm gonna hack my way into it. And I'm gonna add Mugena minor d on top. Like, that's not that doesn't scale. That's not the that's not sort of for the average technical ability.
+
+240
+00:40:17.950 --> 00:40:20.350
+That's just what we're doing at this stage in development.
+
+241
+00:40:20.510 --> 00:40:36.505
+<v Unknown> But we're really gearing up to to distribute official whole entire images that are designed to be installed on control boards. So that that helps me clarify my understanding of the Riot Nova system that we brought up earlier. Scott, you mentioned proper hygiene because if Mugena is really an application
+
+242
+00:40:36.585 --> 00:40:43.224
+running on a Linux kernel, an OS gets packaged as an image running on a control board, which is a microcontroller.
+
+243
+00:40:43.224 --> 00:41:15.670
+For that solar monetizing system, there's no need for an extra control board, one, which is one of the cool things. Right? You you get Linux on the minor control board itself. But then in that image for the Riot Nova, if this is the route they go, I'm not sure, the the management communicating between the Mugena API to the Solar API, that operating system is just another application running on that image. Do I have that correct? Yes. Okay. That's super helpful. It seems to me, and this is my ignorance, that everyone thinks a control board just does this one thing, but they are in a sense, they are general purpose computing hardware devices.
+
+244
+00:41:16.069 --> 00:41:27.635
+<v Unknown> And so you can do a lot more than just run the mining application. Yeah. Makes me think, well, it'd be cool for for home miners and people running smaller systems if if we did have like a management app that you could run on your desktop.
+
+245
+00:41:27.875 --> 00:41:36.355
+Right? That's just like, oh, yeah. This is how I wanna configure this minor. Like, set it up just like this. And it goes and, you know, installs the app that you want like Mugena
+
+246
+00:41:36.515 --> 00:41:59.985
+and, you know, maybe there's, like, an app store where it's just like, you can just, like, pick Yeah. This is this is what I wanna put, put it on there and like set up your own systems that way. Obviously, if you have a bunch of miners, that would be a pain in the ass and you definitely wanna have images that you could just like blast out to your whole fleet. But And that seems to be the topic of discussion per that dev call is when we package this OS, this image with the Mugena application,
+
+247
+00:42:00.145 --> 00:42:36.460
+<v Unknown> where do you draw the line of what we support, right? Because people are gonna end up making their own images, their distributions of what they want, I. E. The Riot product is an example of that. Yeah, not everything makes it back into mainline Mugena. Right. Because like now with AI, like anything's possible and it's at the fingertips of anyone who wants you know, try their hand at developing software even if they've never done it before. So we don't wanna just willy nilly have everything coming back into Mugena. So, yeah, I think, you know, and Ryan can speak to this more. We're gonna be pretty selective about what makes it back in. Yeah. So so we'll have official images
+
+248
+00:42:36.619 --> 00:42:47.900
+<v Unknown> that we'll distribute. We'll probably call it something like Mugena OS, and the images will target specific, you know, they will be compatible with a certain probably small range of hardware, you know, so we'll have several
+
+249
+00:42:48.705 --> 00:42:49.985
+targeting different hardware.
+
+250
+00:42:50.225 --> 00:43:46.295
+But I will say, like, that's sort of just we have to ship some kind of easy to use default. Right? Like, so we will. Just because we've bundled it and packaged it all up into easy some easy to consume pieces, one easy to consume piece, doesn't mean we aren't like, the project is still the output of the project still is all the little pieces too that Mhmm. That we happen to bundle up. But, know, if you're if you're someone like Riot or, know, if you're someone like Schnitzel, what you'd probably do you're not you're not necessarily gonna take our binary official image release and install it on your system and then add stuff to it. I mean, you will in a sense, but, you know, you will probably take the source for our operating system and make some modifications at that level so that you can build your own images that you can flash onto your own hardware. You know, there this is a big space. There's lots of moving pieces. There's lots of tools. But, you know, I I guess all that to say the the little Mugena minor d application is is always still going to be a component
+
+251
+00:43:46.375 --> 00:43:50.375
+that you could take on its own and put into a situation of your choosing.
+
+252
+00:43:50.615 --> 00:44:23.835
+Just because we, know, just because we're going to make images and ship them for certain hardware targets doesn't mean that's our only supported form of Mugena, let's say. Like, we are building all the components. We are supporting all the components, and we will ship easy to use images, and people can use what suits their their situation. How close are we to having a image that we can flash on, like, an s 19, for example? We're getting we're getting close. It's everything is always you know, no matter how long I do this stuff, constantly reminded how that last 20% takes 90% of the time.
+
+253
+00:44:24.715 --> 00:44:25.675
+I've,
+
+254
+00:44:26.130 --> 00:44:27.970
+you know, sort of withdrawn
+
+255
+00:44:27.970 --> 00:44:31.970
+from the talk well, I've tried to until you got me on this podcast.
+
+256
+00:44:32.289 --> 00:44:49.355
+We withdrawn from the talking about Mugena part of the calendar with some conferences and some stuff to a, okay. It's time to close ourselves in the basement and work hard on the next album so that we have something to to go out and talk about again. So that that's phase I'm in is trying to finish that off. I'm my goal is that,
+
+257
+00:44:49.915 --> 00:44:51.275
+by the end of August,
+
+258
+00:44:51.355 --> 00:44:53.195
+let's say, just to be realistic,
+
+259
+00:44:53.195 --> 00:45:07.430
+you know, before we get to our, event in September, I really wanna have, like, our first official image by then. That's sort of productized and and something we can confidently give to a wider a wider audience and say, hey, try this out. It's really cool.
+
+260
+00:45:07.750 --> 00:45:14.735
+Because we can say that now, and it is. But it you know, you have to have you have to have a certain time available and interest
+
+261
+00:45:14.735 --> 00:45:18.575
+and effort and, an ability to hack on it to to get it running.
+
+262
+00:45:18.895 --> 00:45:32.150
+But we're really trying to we're gonna lower that. That barrier is gonna be much lower once we have images and just say, here you go. Here's the whole package. Put it on your s 19. Maybe put it on some other machines and run it just like just like you would install any of the third party from
+
+263
+00:45:32.950 --> 00:45:38.950
+<v Unknown> software that people are already familiar with. They won't have to pay a dev fee. No dev fees. It is a lot easier to be
+
+264
+00:45:39.110 --> 00:45:47.805
+<v Unknown> like, alright. I want this s 19 j pro to mine Bitcoin and, like, make that work versus, like, making a real modular
+
+265
+00:45:47.805 --> 00:45:48.605
+project
+
+266
+00:45:48.605 --> 00:45:49.885
+like Magina
+
+267
+00:45:49.885 --> 00:46:00.260
+that is extensible and doesn't have, like, you know, spaghetti code all over the place that makes it impossible to support the s 19 k pro. So let's just Yeah. There there's
+
+268
+00:46:00.420 --> 00:46:16.515
+<v Unknown> fronts to this battle. Right? Like, just perfecting the driver for the hardware itself. There's features we've we've you know, generic features in Mugena that are still catching up. The installer parse part of it itself is a is a project. The operating system packaging is a project. Like,
+
+269
+00:46:16.994 --> 00:46:33.250
+<v Unknown> there's there's a lot of pieces in a system like this. So it's it's still coming together. Yeah. So does the OS and an image get its own repo and then you have to select a license for that just because Mugena, the application, is a piece inside of it? Yeah. All the p you know, it gets complicated.
+
+270
+00:46:33.329 --> 00:46:33.650
+<v Unknown> The the
+
+271
+00:46:34.695 --> 00:46:36.935
+so I've I've already reserved
+
+272
+00:46:36.935 --> 00:46:38.295
+a GitHub
+
+273
+00:46:38.295 --> 00:46:39.175
+organization
+
+274
+00:46:39.175 --> 00:46:41.335
+because you can't make subgroups.
+
+275
+00:46:41.335 --> 00:46:47.550
+Like, you can't have a two fifty six slash Mugena slash a bunch of different repos under that, unfortunately.
+
+276
+00:46:47.870 --> 00:46:50.910
+So I've sort of already reserved another organization
+
+277
+00:46:51.230 --> 00:47:20.430
+just for Mugena. But, yeah, there will probably be 10 different repositories under there that represent 10 different pieces or tools that go into our operating system images. And then, you know, everything, everything else that we use might get might, there might be lots of forks that live under there, like our fork of the Linux kernel for the hardware, you know, these operating systems I talked about earlier, that layer typically includes like maybe a 100 different open source programs like your shell that, you know, even bash. I mean, all
+
+278
+00:47:20.670 --> 00:47:31.390
+these things, you you typically end up with, like, a 100 different open source pieces when you create a whole operating system and image like this. Right. So, you know, anything we have maintained forks of, we'll
+
+279
+00:47:31.855 --> 00:47:44.575
+will sit, yeah, kind of alongside Mugena, the Mugena we know and love today. It's just just one of a 100 pieces that's gonna go into an image like this. This seems to highlight to me the value in not having to redo
+
+280
+00:47:44.710 --> 00:48:01.175
+<v Unknown> a lot of the core bare bones application part of the mining firmware, right? A lot of the aftermarket and some open source, some non open source firmwares we see people vibe coding, like everyone's taking advantage of right now, they are specific images, right, for certain systems,
+
+281
+00:48:02.215 --> 00:48:07.015
+be it XYZ little home desktop miner or some fork to add some feature
+
+282
+00:48:07.015 --> 00:48:26.090
+or touchscreen control, etcetera. Whereas I'm kind of understanding this as that's great, you didn't have to rebuild the mining application part, Right. And that's the value I see with this Mugena community project taking off. Right. There's going to be hundreds of different distributions and images for whatever you want to build. And the value add here is you don't have to go rebuild
+
+283
+00:48:26.090 --> 00:48:30.535
+the mining application and with proper maintenance and a community of core contributors
+
+284
+00:48:30.615 --> 00:48:49.910
+behind it, it will have all of the feature sets that the majority of the community wants. I mean, you have to have some niche applications, some niche new application where you might have to change some feature of Mugena itself, and then you can always PR that up upstream to the main branch and get that baked in. Yeah. Yeah. Yeah. I think that's right. A build system for x y z product, and
+
+285
+00:48:50.150 --> 00:49:04.175
+when it's building all those other components that go into it, one of them that they build and pull in is Mugena, right, and get the latest version. So I'm just trying to highlight that there is real value add for anyone tinkering from the home miners that want to do some crazy new thing all the way to
+
+286
+00:49:04.495 --> 00:49:06.175
+the manufacturers themselves
+
+287
+00:49:06.175 --> 00:49:20.040
+that plan to distribute hundreds, thousands of machines with the Mugena application being the underpinning underpinning of that mining application. Yeah. It's exciting. It's a lot of work. Yeah. Yeah. There's a lot to do. And Ryan, you had joined us on
+
+288
+00:49:20.280 --> 00:49:22.119
+<v Unknown> episode one eighteen
+
+289
+00:49:22.599 --> 00:49:40.120
+just a few episodes ago to talk about your trip to Nairobi. What's and I know I know you've got some updates about what's been going on over in Africa since then. Do you wanna talk about that? Sure. Briefly. So let's see. I gave two talks in Nairobi at Nifty's very fine Bitcoin plus plus event,
+
+290
+00:49:40.120 --> 00:49:49.480
+<v Unknown> open source edition. So, of course, the two fifty six foundation had to show up for that. I gave two talks. One was a sort of a general main stage talk about two fifty six foundation,
+
+291
+00:49:49.480 --> 00:49:54.755
+what are our pillar projects, what are why do we exist? And then I gave a mining workshop,
+
+292
+00:49:54.755 --> 00:49:55.955
+which was a longer,
+
+293
+00:49:56.515 --> 00:50:00.755
+you know, lecture and hands on labs about mining. The
+
+294
+00:50:00.915 --> 00:50:01.635
+video,
+
+295
+00:50:02.275 --> 00:50:07.340
+both of these were recorded. So the video from the hands on is out already.
+
+296
+00:50:07.420 --> 00:50:27.565
+I I posted that on Twitter. We can probably find a way to re retweet it again now. So the video's out for that. I've have a repo in GitHub and have published my slides and also published all the software we used in classroom to run the hands on. So I packaged up in a swarm of Docker containers,
+
+297
+00:50:27.565 --> 00:50:30.125
+all sorts of things, a Bitcoin node,
+
+298
+00:50:30.685 --> 00:50:34.605
+a customized version of hydro pool, a customized version of our dashboard,
+
+299
+00:50:35.170 --> 00:50:41.890
+a web server, some other stuff. You know, there's a lot of software in the classroom because we we mined to our own special network
+
+300
+00:50:42.050 --> 00:51:01.645
+that had, you know, fast adjusting difficulty and fractional difficulties so that we could CPU miners and so all sorts of things that we can demonstrate what happens on a real network. So I've also published all that software in a form that's hope hopefully easy to run. And I guess more than hopeful because I've gotten several great reach outs from people over the last week even,
+
+301
+00:51:02.210 --> 00:51:06.609
+where they so I I gave this, you know, talk in in Kenya,
+
+302
+00:51:06.609 --> 00:51:07.569
+and many
+
+303
+00:51:07.569 --> 00:51:07.970
+countries
+
+304
+00:51:08.369 --> 00:51:16.289
+on the African Continent sent teams to Kenya for this conference, and they were they're in the workshop. And so now I've seen or heard of,
+
+305
+00:51:16.944 --> 00:51:20.945
+I don't know, some at least three between three to five different cases
+
+306
+00:51:21.184 --> 00:51:34.350
+where someone has take someone was in in the workshop in Kenya and now has run that workshop with the software and the slides for themselves in their home country or in a different country at different events for their local bit devs,
+
+307
+00:51:34.510 --> 00:51:39.470
+or there have been some other conferences in Africa since then where they've run this workshop. And
+
+308
+00:51:40.109 --> 00:51:40.990
+just incredible
+
+309
+00:51:41.230 --> 00:51:46.830
+to see people spreading the word like that. So that makes me very happy. And I'm just super impressed
+
+310
+00:51:47.295 --> 00:51:58.655
+with all the all the people who were in the workshop and really understood the significance of what they were seeing and want to take that back and share it with other people. So that's exciting. If you follow me on Twitter, I try to retweet
+
+311
+00:51:58.895 --> 00:52:00.974
+that stuff when I when I learn about it.
+
+312
+00:52:02.340 --> 00:52:19.805
+<v Unknown> I love that you you went out there, you did one event, and then, like, all these branches are now, like, springing off of that. And they're they're continuing to do it too, and using the tools that you've put out there free to use to educate more people and make this more accessible.
+
+313
+00:52:20.205 --> 00:52:36.550
+<v Unknown> It's just it's great to see. I love that you went out there and did this and that they're taking it and running with it. Yeah. Well, I mean, hey, that's I was just out there representing us, know, this feels like why we're doing this. Right? Like Yeah. It's all of our pieces in that, like so so we
+
+314
+00:52:36.950 --> 00:52:51.685
+mined with Mugina on on laptops and CPUs, but we also had a bunch of Bidaxes in the room donated by Solo Satoshi. Shout out. Thanks again. Shout out. And so, like, this this this thing involved Bidax and Mugena and HydroPool.
+
+315
+00:52:51.685 --> 00:53:25.195
+Yeah. LibriBoard was on demo in the corner. So, yeah, this is this is one of the great benefits of all of our stuff being open source. Right? Like, not only can Riot use it to build products out of or heat punks can build whatever, but it if it's open, it's easy to do education with this. And it's it's easy for someone to take take the pieces and then do that for themselves and teach, you know, other people teach other people. Like, I just I just imagine if, like, I had had a bunch of s nineteens in the room or something to do a hands on. Like, what would how would that have worked? What would we have what would we have looked at for the software
+
+316
+00:53:25.450 --> 00:53:30.090
+or hardware? So, yeah, a nice byproduct success of the stuff we were doing
+
+317
+00:53:30.330 --> 00:53:31.690
+at February.
+
+318
+00:53:31.690 --> 00:53:39.645
+And, you know, I initially thought, oh, this is sort of adjacent to our mission. But but if our core mission is to dismantle the proprietary
+
+319
+00:53:39.645 --> 00:53:43.165
+mining era empire, well, obviously includes education.
+
+320
+00:53:43.485 --> 00:54:17.325
+<v Unknown> Not so we're here not just to build the tools, but to spread the word and show people how to use use the tools to show people what mining is all about. So yeah. We have to had some good success on that front lately. Make the tools and then show them what's possible with those tools. And then the whole idea is that people take that and run with it. So we're putting this stuff out there. Like, this guy, what what is it? I'm gonna butcher it, and I'm sorry. Karpuzz mining. Yeah. He just took Hydropool and packaged it up for Umbral. Mhmm. Which is which has been a long time goal. We've been talking about this forever.
+
+321
+00:54:17.805 --> 00:54:22.779
+Sorry. Not forever, but it's been the intention for a while with and
+
+322
+00:54:22.779 --> 00:54:44.415
+the work Jungly is doing to package it up for start nine and for Umbral. But Jungly is only one person. There's only so much time. There's only so much money. And we were very hopeful that someone would step up from the community and do exactly what CarPuzz Mining has done here. So like hats off to you for doing that. Shout out and thank you. And I hope somebody does it for Start9.
+
+323
+00:54:44.575 --> 00:54:46.175
+You know, there again,
+
+324
+00:54:46.494 --> 00:55:04.860
+now that just increases the footprint of accessibility and lowers the bar for other people to go and start trying this stuff. Totally. I'm I'm thrilled about it. I was very excited to see that this morning. Well, that's what we're trying to do here. Right? Like, I mean, we love working on this stuff, but we're also trying to sort of be the seed crystal for a whole
+
+325
+00:55:05.475 --> 00:55:23.290
+<v Unknown> ecosystem and movement. This stuff is meant to compound like this. We're just getting started, and we're you know, as more people show up and contribute pieces, then more people will show up and contribute pieces. And all of sudden, we'll have a lot of pieces. If if the proprietary mining empire is going to disappear, it needs to be replaced
+
+326
+00:55:23.290 --> 00:55:23.930
+<v Unknown> by
+
+327
+00:55:24.810 --> 00:55:34.810
+it's gonna take a lot of people to replace it and a a lot of contribution and a lot of new ideas. So, yeah, we need these tools. We need them built from the ground up, which is what we've been doing.
+
+328
+00:55:35.895 --> 00:55:48.775
+Accessible. We need people to understand them. So I don't think there's ever been a better time to jump in and start trying this stuff out, especially with, you know, the advent of AI. The world is your oyster people, so get building. Never been a better time.
+
+329
+00:55:49.700 --> 00:55:57.300
+<v Unknown> And, actually, I think, Ryan, we're gonna do the, your workshop in Nashville. Oh. Down? Yeah. Yeah. We should sell that. Right? Yes.
+
+330
+00:55:57.460 --> 00:55:59.860
+<v Unknown> Or advertise. Make make this first, known. August
+
+331
+00:56:00.660 --> 00:56:11.615
+<v Unknown> Nashville, Tennessee. Starts at 5PM. Be there. We're gonna join us. At Bitcoin Park for mining Monday. Nice. Yes. That reminds me. Scott, weren't you just out in DC for an
+
+332
+00:56:11.935 --> 00:56:19.789
+<v Unknown> event at PubKey? Yes. Yes. That's right. With agent p and schnitzel. Right? Yeah. Yeah. That's right. That was Friday,
+
+333
+00:56:19.789 --> 00:56:26.670
+not this last Friday, but the the week before. Our friends at local hosts sort of randomly decided to do an event at PubKey DC
+
+334
+00:56:26.750 --> 00:56:28.670
+with the theme of mining decentralization,
+
+335
+00:56:28.670 --> 00:56:32.875
+and they reached out to us. And they're like, if you guys wanna get involved,
+
+336
+00:56:33.035 --> 00:56:39.035
+and if you're in the in the neighborhood, like, you should. And so, yeah, Schnitzel and I rolled down there to represent 256.
+
+337
+00:56:39.035 --> 00:56:45.515
+I gave a presentation on the importance of open source in Bitcoin mining and sort of the perils of
+
+338
+00:56:45.890 --> 00:56:52.050
+proprietary mining and what two fifty six is working on in that front. Schnitzel gave a rad
+
+339
+00:56:52.370 --> 00:56:55.250
+talk on heat reuse in mining
+
+340
+00:56:55.410 --> 00:57:20.210
+and the projects that we're working on at two fifty six and what he's Riot is doing. He actually lugged his J Pro there. Oh, boy. And That was running Regina on it with his fork that can, like, ramp the power up and down. He had it, like, on the stage. Yeah. So this is crazy. So there's a there's a hack to the s 19 j pro power supply to make it work on a 110 volts. He he did that there. So he brought his, like, soldering iron
+
+341
+00:57:20.290 --> 00:57:22.130
+and cracked it in the power supply.
+
+342
+00:57:22.210 --> 00:57:47.160
+We were in this back room of this bar, like, soldering your fisters onto this high voltage power supply and trying it. And it's like the you know, it's an old building and the wiring was, I don't know, kinda Effie and, like, the lights are dimming and stuff, but it totally worked. Schnitzel's a badass. He totally got it working, had it running on the stage while he was talking about this stuff. He did a live demo of ramping the power up and down on Magina with the Riot interface. It was it was really cool. And then Justin
+
+343
+00:57:47.160 --> 00:58:00.895
+gave a talk on the fiber network for mining, which is it's been around for a while. It died off, but they're they're trying to bring it back and in a more decentralized way, which is really cool. So this will speed up block propagation,
+
+344
+00:58:00.895 --> 00:58:02.575
+new chain tip notifications
+
+345
+00:58:02.575 --> 00:58:11.190
+<v Unknown> through, like, basically network engineering. You know? Like It's it's like hole punching, right, where it's just like direct peer to peer block propagation?
+
+346
+00:58:11.190 --> 00:58:25.135
+<v Unknown> Yeah. Yeah. And it's being very, like, deliberate about who your node peers with and and what physical actual connection they have between each other. So they're getting into, like, backbone of the Internet. He brought up this map of, like, the Internet backbone
+
+347
+00:58:25.135 --> 00:58:33.615
+and, like, you know, continents that are actually connected with fiber cable and, like, talking about, like, peering with people that have really low latency connections
+
+348
+00:58:33.775 --> 00:58:45.420
+all around the world so you can speed up this block propagation around the world. It was really, really neat. And then there was another guy who I'm blanking on his name right now, but he gave a very technical talk that,
+
+349
+00:58:45.660 --> 00:58:48.300
+it was about, like, compact block relay
+
+350
+00:58:48.300 --> 00:58:48.540
+and
+
+351
+00:58:49.224 --> 00:58:53.545
+the idea of sort of transmitting less data to validate
+
+352
+00:58:53.545 --> 00:59:13.960
+blocks where you don't actually have the transactions in your mempool. There's a better name for that. Mhmm. But Interesting. Yeah. I mean, I guess this is an issue, right, Especially if you have miners that are, you know, creating their own block templates, the whole network might not necessarily have those transactions in their mempool. But when a new block comes in, they do need to validate it. So they need to get them. They need to get them fast, maybe over fiber and
+
+353
+00:59:14.305 --> 00:59:25.345
+and reconstructing that. So yeah, it was a really cool event. PUBKY DC is my first time there. It was awesome spot, man. It's a really cool place. Good food, good beer, good hanging out. It must've must've
+
+354
+00:59:25.345 --> 00:59:30.609
+<v Unknown> been convincing because I see some PUBKY bit axes on the hashtag. Oh yeah, think Schnitzel,
+
+355
+00:59:30.609 --> 00:59:49.215
+<v Unknown> he he is a badass. I think we we king of the hill though. There's, like, there's probably half a dozen bid axes running around the pub key, and I think Schnitzel took them all over for the events. So Didn't didn't he say he wrote an app that just runs in the background on his phone? So any WiFi network he connects to, it automatically
+
+356
+00:59:49.695 --> 00:59:51.295
+<v Unknown> scans for the Bitaxe,
+
+357
+00:59:51.375 --> 00:59:59.695
+automatically updates the the settings to mine where he wants it to mine and then reboots it. Yep. And that's what happens if you don't change your
+
+358
+01:00:00.420 --> 01:00:08.180
+<v Unknown> mining password, your firmware password? Well, Bitaxe doesn't have a password on the firmware. So if you're putting your Bitaxe on a public network, it can happen.
+
+359
+01:00:08.740 --> 01:00:11.940
+<v Unknown> Yeah. You can do that with the NerdQX.
+
+360
+01:00:11.940 --> 01:00:14.180
+You can put in
+
+361
+01:00:14.265 --> 01:00:18.505
+a one time password thing that you have to provide in order to save changes.
+
+362
+01:00:19.625 --> 01:00:20.425
+<v Unknown> I see.
+
+363
+01:00:20.825 --> 01:00:32.950
+<v Unknown> That makes it fun. KingOfTheHill for sure. Yeah. I mean, if you're running it at a bar, I guess the bar owner's paying for electricity. But, yeah, come down to my bar, buy a beer, take over my bid axe while you're here. It's it's
+
+364
+01:00:32.950 --> 01:01:01.150
+a cool it's a cool game to play. I know it's been a sport at Bitcoin Park is to like That's right. Over the the bid axes there. How was the turnout? How about how many people were there? Would you guess? I think there was probably about a dozen people in the audience. Awesome. Yeah. It was really cool. It was really cool that we got some some good questions. There was a couple sort of like lightning, you know, presentations about things that people are working on, like agent p and grid pool. Nice. Agent p came out, and we had lots of awesome conversations.
+
+365
+01:01:01.230 --> 01:01:09.869
+Shout out to local hosts for the open tab. And, yeah, it was really great. Oh, what's the guy's name who does he's doing the mill. I'm sorry, bro. I'm Wood miner?
+
+366
+01:01:10.425 --> 01:01:15.865
+What's that? Wood miner? No. No. It's another, like, big like, wood sawmill
+
+367
+01:01:15.865 --> 01:01:26.940
+Bitcoin miner. He made the, like, a bit axe in, the handle of, like, a real axe. Oh, no way. Oh, I did see that online. Yeah. He brought that there. Several people, like,
+
+368
+01:01:27.340 --> 01:01:33.740
+didn't realize it was a real axe at first, and it had it's like, you know, it's got a heavy, like, axe head on it. They're like, woah. And
+
+369
+01:01:34.300 --> 01:01:35.580
+it's it's sharp.
+
+370
+01:01:36.060 --> 01:01:46.885
+So so it can be a dangerous bit axe. But He was just walking around Downtown DC with an axe. An axe? Yeah. You know, like you do. Sick. Shane. Sorry. That Shane.
+
+371
+01:01:47.365 --> 01:01:59.230
+Yeah. Shane. Oh, yeah. Yeah. He's I know Shane. You know, in that part of the world, and he's been working on re revitalizing an old school sawmill, and he's interested in doing a bunch of heat reuse stuff. Wasn't the executives
+
+372
+01:01:59.790 --> 01:02:00.910
+<v Unknown> from American
+
+373
+01:02:01.070 --> 01:02:03.710
+Bitcoin or Donald Donald Trump?
+
+374
+01:02:03.870 --> 01:02:13.805
+<v Unknown> So yeah. That was the day prior. Right? That was the night before. I didn't realize that that was happening until too late, so I didn't go. But the night before at PubQDC was American
+
+375
+01:02:14.205 --> 01:02:25.490
+Bitcoin American Mining? American Bitcoin? American Bitcoin. American Bitcoin. Yeah. They had a a event there. We got some of the hats. They had some hats left over that say, it's not my first rodeo. So that was kinda cool.
+
+376
+01:02:26.369 --> 01:02:40.744
+<v Unknown> But it which is funny because it it actually is, like, their first endeavor into Bitcoin mining. Yeah. Is it? Isn't it? Yeah. It's it's their first rodeo. It's not really American Bitcoin mining. You know? Because they run the whole company on closed
+
+377
+01:02:41.065 --> 01:02:41.865
+Chinese
+
+378
+01:02:42.105 --> 01:02:54.460
+<v Unknown> machines and software. Like It's details. It's details. To to their credit, you know, we haven't fully finished the ideal replacement, the ideal self sovereign replacement for them. True. True. So soon We got some work to do. Soon indeed.
+
+379
+01:02:54.620 --> 01:03:11.545
+Do you know if there was anyone from the night prior that stayed for your event as well since they were back to back? Yes. There was. I talked to a couple people who were there at both. I assume they're just, you know Okay. Good. And we're we're down to check it out. I assume it was a bit of a different message between the mining decentralization
+
+380
+01:03:11.704 --> 01:03:15.065
+event and the large Pubco miner event.
+
+381
+01:03:15.704 --> 01:03:27.910
+<v Unknown> Man, talk about, like, two sides of the same coin. You're getting both extremes of the spectrum. So props to pub key for putting that together back to back. Well, speaking of American Bitcoin mining,
+
+382
+01:03:27.990 --> 01:03:40.045
+<v Unknown> I'm looking at the hash dash and there's a couple cool American Bitcoin miners under Scott nine thousand's name. What's going on there? Yeah. Oh, this is cool. So I got I got the, the Bidax Bonanza
+
+383
+01:03:40.205 --> 01:03:46.285
+<v Unknown> and the Bidax Proto are both mining, working on my desk here right next to me. They're not even that loud. So
+
+384
+01:03:48.205 --> 01:03:57.090
+first is the Bidax Bonanza. It uses the Intel chips. So American company making chips at TSMC like you should.
+
+385
+01:03:57.730 --> 01:04:00.530
+And, yeah, so that that we've had these chips for a while.
+
+386
+01:04:00.930 --> 01:04:07.810
+This this project's been a long time coming, but it is working. It is working both hardware and firmware. Huge shout out to Johnny nine. He
+
+387
+01:04:08.235 --> 01:04:12.315
+he's been working very hard and done an excellent job on integrating
+
+388
+01:04:12.315 --> 01:04:19.995
+support for the b z m two chips from Intel into ESP Miner. And I saw he did a PR on Magina or a component of Magina two.
+
+389
+01:04:20.570 --> 01:04:26.970
+So that's that's coming soon. To be honest, even even with a datasheet for these chips, they are really difficult.
+
+390
+01:04:27.210 --> 01:04:40.045
+They do not work the same way as Bitmain chips, which I have much more familiarity with. So, yeah, huge shout out to Johnny and I for getting that working. It's it's it's running like a tank on my desk right now. It's about one terahash, four chips, one terahash.
+
+391
+01:04:40.045 --> 01:04:44.605
+Wow. Should be able to get it up to 1.2 terahash. It's like 30 jewels per terahash.
+
+392
+01:04:45.099 --> 01:04:45.900
+So,
+
+393
+01:04:46.060 --> 01:04:54.060
+you know, they're older chips. This isn't gonna be like the, the hashing machine, but it is cool because they're, you know, they're US company based chips,
+
+394
+01:04:54.300 --> 01:04:55.580
+and they're not Bitmain,
+
+395
+01:04:55.900 --> 01:05:03.475
+and it's all open source. By the way, the the ESP minor changes that Johnny made as well as the schematics for the BidX Bonanza are
+
+396
+01:05:03.955 --> 01:05:06.835
+have been published for a long time. They're all up there,
+
+397
+01:05:07.315 --> 01:05:22.680
+so you can check that out. So that's BidX Bonanza. And then secondly, sitting next to it is the BidX Proto that uses the Proto ASICs from Block. That also has been a long time coming. So very excited that it is on my desk here. It's working. Should be about three terahash.
+
+398
+01:05:22.840 --> 01:05:25.640
+It's also four chips. It should be about three terahash.
+
+399
+01:05:25.640 --> 01:05:42.715
+It's coming in at, like, 15 joules per terahash, so quite a bit better. They're much newer chips. And, yeah, that's called the Bitaxe Proto. The firmware is in a branch on ESP Miner. The hardware, I haven't released yet, but that's gonna be coming very soon. But, yeah, I need to do one more rev of this board, fix up a couple issues,
+
+400
+01:05:42.795 --> 01:05:50.870
+but this thing is is happening. Bitaxe Proto. Pretty excited about that. Good American company making chips that's not Bitmain. At TSMC,
+
+401
+01:05:50.870 --> 01:05:57.510
+<v Unknown> like like, total champs. This is awesome, man. This has been a long time coming. It has been a time. Bitmain
+
+402
+01:05:57.510 --> 01:05:58.710
+chip Bitaxes.
+
+403
+01:05:59.065 --> 01:06:07.225
+Two. It's happening. Non bit main chip bit axis are Two. All of a sudden, two. What's the what's the story for, like, chip availability
+
+404
+01:06:07.225 --> 01:06:08.505
+and eventual
+
+405
+01:06:08.505 --> 01:06:09.865
+distribution of this
+
+406
+01:06:10.185 --> 01:06:14.505
+<v Unknown> these things, like, productization, console I'm still I'm still working with
+
+407
+01:06:14.990 --> 01:06:15.790
+Proto
+
+408
+01:06:15.869 --> 01:06:17.870
+on how people can get these chips.
+
+409
+01:06:18.030 --> 01:06:25.630
+You know, they don't wanna be selling them onesie, twosie to everyone who wants to build them. So the strategy here is going to be they'll sell in bulk to resellers,
+
+410
+01:06:25.630 --> 01:06:40.895
+distributors who wanna these. So, yeah, they will be available, you know, both in larger quantities to people who wanna manufacture these and in smaller, you know, cases where you wanna just manufacture your own. So that that is definitely part of the plan. Proto's on board for that. We're kinda ironing out the details there.
+
+411
+01:06:42.410 --> 01:07:04.555
+Awesome. But, you know, the getting these bitumen chips, well, while you can do it, it's it's really sucky. Yeah. All the time I have people that are like, hey. You know, like, I wanna build my own bit acts, like, and, like, they've figured out the key CAD and ordering PCBs and how to put all this stuff on there. But it's always like, alright, cool. Where do I get the chips? I'm like, I don't have a good answer for you. Like, AliExpress,
+
+412
+01:07:04.555 --> 01:07:10.050
+you can get them, but I don't know what you're gonna get. Like, there's so many different variations of all the Bitmain chips,
+
+413
+01:07:10.290 --> 01:07:19.330
+and they all it ordering them from some, like, fly by night sketchy seller out of China doesn't make things easier. So I really hope that with the Bitx Bonanza
+
+414
+01:07:19.569 --> 01:07:29.925
+and the Bitx Protos, we can just point you yeah. Here's where you get it. Like, just get the chip. You can get one. You can get five. You can get a reel. So that that's absolutely
+
+415
+01:07:29.925 --> 01:07:35.045
+<v Unknown> a core part of this road map. Yeah. And they don't have to be desoldered.
+
+416
+01:07:35.045 --> 01:07:39.200
+<v Unknown> Mhmm. They don't have to be desoldered. I mean, I talk with Bitax manufacturers
+
+417
+01:07:39.200 --> 01:07:39.920
+now,
+
+418
+01:07:40.079 --> 01:07:49.840
+and still, the most reliable way to get Bitmain chips is to unsolder them. Because at least you know if they came out of a miner that was working, like Right. That they work.
+
+419
+01:07:50.160 --> 01:07:58.615
+And, you know, what, like, bin they are. Because Bitmain makes a ton of different bins with really, really, like, divergent
+
+420
+01:07:58.695 --> 01:08:10.400
+performance metrics. For the same b m thirteen seventy, you can get, you know, this one chip over here that does almost two terahash and this one over here that does, like, half terahash. Still b m thirteen seventy.
+
+421
+01:08:10.559 --> 01:08:11.359
+Crazy.
+
+422
+01:08:11.359 --> 01:08:26.704
+It's really wild. So hoping that we can sort that out. You know, obviously, with both Intel chips and Bitmain chips, there'll be different bins, but we'll have a little bit of insight to that and a little bit of little bit more quality control. You know, I think the downside here is that Bitmain makes really, really good chips, and they
+
+423
+01:08:26.945 --> 01:08:30.784
+they're the best at making the chips right now. They have a they have a wide margin
+
+424
+01:08:31.425 --> 01:08:48.855
+as far as how hard you know, how far they are from their competitors. And so both the Bonanza and the the Proto, they they won't be as efficient, and they won't be as high a hash rate as the as the bit main ones. But, you know, we we've we've gotta rip this band aid off of dependency on one vendor. Right.
+
+425
+01:08:49.015 --> 01:08:59.175
+<v Unknown> It'll be a little bit painful at first, but I think that we will get there. Yeah, it's got to start somewhere and somehow, and that's where we're at. But the, you know, the long term vision,
+
+426
+01:08:59.415 --> 01:09:02.534
+we've got like a long term goal here that there's
+
+427
+01:09:02.535 --> 01:09:03.015
+multiple
+
+428
+01:09:03.360 --> 01:09:04.639
+ASIC suppliers
+
+429
+01:09:04.800 --> 01:09:12.800
+selling chips a la carte, and we've moved on from a complete dependency on one closed source Chinese manufacturer.
+
+430
+01:09:12.800 --> 01:09:21.315
+<v Unknown> And, you know, not that I really wanna move to a different closed source Chinese manufacturer, but there have been a bunch of progress on what's minor? Reverse engineering.
+
+431
+01:09:21.715 --> 01:09:27.395
+Yeah. I've been talking with Ryan and I. I've been talking with Kurt from gridless,
+
+432
+01:09:27.635 --> 01:09:34.429
+he made a bunch of progress on reverse engineering those chips. Got some fun toys from the exergy team to look into
+
+433
+01:09:34.670 --> 01:09:39.949
+getting access to their control boards so we can get Magina installed on there. Yeah. More options, more better.
+
+434
+01:09:40.269 --> 01:09:43.869
+<v Unknown> I think that's coming up. Got the he's the one building the BitShaka
+
+435
+01:09:43.869 --> 01:09:48.494
+with the what's minor chip? Right? Does it have a different name? Yes. Bit so
+
+436
+01:09:49.055 --> 01:09:50.895
+<v Unknown> alright. BitShaka is
+
+437
+01:09:51.055 --> 01:09:56.095
+a Bitaxe Gamma clone. Straight up. They just changed the name, which is totally awesome, by the way. BitShaka
+
+438
+01:09:56.095 --> 01:10:13.350
+Nini is the one he's working on that is a Bitaxe that uses the What's Minor chips. That's right. Nini. From the m 30, I believe. They have a lot of those. M 30 is a pretty ancient minor at this point. I think it's a little better than the j pro. But yeah. So anyways, he's he's targeting that one first. But,
+
+439
+01:10:14.445 --> 01:10:16.204
+you know, a lot of times, they don't change
+
+440
+01:10:16.925 --> 01:10:30.170
+a ton about how these chips work, so that that will be good sort of, you know, base case for how to interface with these chips and how to get them into other miners. Exciting. Yeah. It's super cool. There there's a big fat pipeline.
+
+441
+01:10:30.810 --> 01:10:35.449
+Yes. Yeah. Man, I already wanna do an Ember one with the, the proto chips.
+
+442
+01:10:35.690 --> 01:10:36.250
+Nice.
+
+443
+01:10:36.490 --> 01:10:46.264
+Yeah. Got my wheels turning. I was mentioning this before, but I totally wanna redesign the Ember one. Totally new form factor. It's gonna have to be the Ember two or something.
+
+444
+01:10:46.585 --> 01:10:54.840
+So I was okay. So Ryan made the the Sous V Bitcoin miner, and he did it in a a mini rack, which is just like Mhmm.
+
+445
+01:10:55.640 --> 01:11:02.360
+Think it was 10 inch. Gerling came up with it. It's like a smaller version of, like, a standard server rack, and it's it's a bit of a standard.
+
+446
+01:11:02.840 --> 01:11:04.760
+Yeah. 10 inch. 10 inches.
+
+447
+01:11:05.000 --> 01:11:11.885
+Yeah. And so it's like, you know, different height. And I was thinking, man, it would be rad if sort of our Ember one reference design was
+
+448
+01:11:12.284 --> 01:11:28.019
+compatible with the mini rack directly. Like, it's in a, like, a mini rack mount case. And I think we could do it in mini rack one u. So maybe it's the Ember one u. I don't know. Naming things is Oh, clever. Yeah. Oh, clever. Did you see Brains what is it? Brains Forge?
+
+449
+01:11:28.659 --> 01:11:33.219
+<v Unknown> Yes. Yeah. Mini rack specific miner? Yes. So the they
+
+450
+01:11:33.540 --> 01:11:40.065
+<v Unknown> they have The Forge app in the mini rack. What was it? I saw it in Prague. It's really cool. It's really, really cool. It is it's
+
+451
+01:11:40.385 --> 01:11:47.344
+it's less than 10 inches wide so they can put it on a shelf in a minirack, but I don't think it's minirack native. Okay. It's close.
+
+452
+01:11:47.824 --> 01:12:00.349
+<v Unknown> Yeah. It's close. And then they also have an axe, some axe thing. Yeah. That's didn't they just post that today? Yes. Brains Forge Axe. Yeah. Forge Axe. 12 volt power, four by BM thirteen seventy,
+
+453
+01:12:00.350 --> 01:12:03.550
+4.8 terahash, rack ready with ethernet, RP
+
+454
+01:12:04.085 --> 01:12:06.005
+two thousand three and fifty platform.
+
+455
+01:12:06.005 --> 01:12:09.364
+<v Unknown> I don't know what that is. That's a Mac Sperry That would the replacement
+
+456
+01:12:10.005 --> 01:12:11.605
+<v Unknown> for the ESP32.
+
+457
+01:12:11.605 --> 01:12:34.080
+I saw a prototype of that in Prague as well. It looks cool. It does look cool. It kinda looks like a Nerdax with a standard CPU cooler. Whatever it's got, it's very souped up cooling system. Yeah. Does it have LEDs? It's got LEDs. Of Of course it has LEDs. It's got all the LEDs. I not to try and one up them, but I don't know if you guys noticed the
+
+458
+01:12:34.324 --> 01:12:37.045
+Bidaxe Gamma Hex was released last week.
+
+459
+01:12:37.605 --> 01:12:38.324
+Yes.
+
+460
+01:12:38.965 --> 01:12:50.199
+That's six chips. Oh. It's got six. There's that whole, like, show about the what was it? The, like, Gillette razors, and they just, like, add more blades. Like, this thing's got six blades. And it's
+
+461
+01:12:50.440 --> 01:12:52.599
+<v Unknown> got a water block in AIO.
+
+462
+01:12:52.599 --> 01:13:11.405
+<v Unknown> Yeah. That's cool. So Ben from Public Pool was the champion behind this. It's really cool. So, it's got, you know, we we've had the Hex for a long time. We originally made the Bidax Hex design with some people from OSMU and included the chips that were used in the Bidax Ultra. And then some other another group to the Bidax Gamma Supra.
+
+463
+01:13:11.725 --> 01:13:13.405
+And so it it's been a while
+
+464
+01:13:13.805 --> 01:13:36.005
+taking to get the, VM 13 seventies in there, but Ben pulled it off. One of the things that gets really hard is as you get these bigger and bigger chips to take more power is is nailing the voltage regulator. Mhmm. I think Ben did a really good job. It's got a four phase TPS five four six voltage regulator in there, so it can deliver a ton of current. It's got them set up in two voltage domains of three chips,
+
+465
+01:13:36.245 --> 01:13:53.210
+and he's got that water block on there. And so it has a ton of headroom. Like, the voltage regulator is rock solid, so it has a ton of current headroom for powering the chips, and then it has a ton of thermal headroom with this big water block, which runs the chips like ice cold. Ben was telling me like,
+
+466
+01:13:53.610 --> 01:14:03.375
+you you you can't really like underclock it because it'll just be too cold from the water block. And I guess at Mining Disrupt last week, so I think it's nominally
+
+467
+01:14:03.375 --> 01:14:04.655
+eight terahash,
+
+468
+01:14:04.655 --> 01:14:07.295
+something like that, but they got it up over 13.
+
+469
+01:14:07.695 --> 01:14:08.494
+Damn.
+
+470
+01:14:08.655 --> 01:14:32.845
+Yeah. So it's a beast. It's a beast. And I know Ben has done a lot of research into the different bins of Bitmain chips. And so he's got the, like, top tier ones in there Wow. Which enables you to massively overclock them. But, yeah, Bit x, Gamma, Hex. Pretty dope. Very cool. Did any of you go to mining disrupt? Did not. Nope. No. I stayed heads down. Yeah. I've never been. Cool if
+
+471
+01:14:33.885 --> 01:14:41.725
+<v Unknown> it'd be cool if the ember one u was designed around some off the shelf cooling options. Yeah. Yeah. Okay. So,
+
+472
+01:14:42.045 --> 01:14:54.099
+<v Unknown> well, I don't know. Maybe you and I can jam on this, but I got some idea. Right? I mean so a 40 millimeter high fan will fit in on you. So we could have, like, maybe four of those fans
+
+473
+01:14:54.340 --> 01:15:09.364
+across it and a matching heat sink and maybe some fans in the back too if we're gonna get this, like and then we could just do a standard heat sink on top. But I think the real cool thing would be obviously the water block. Yeah. Right? And have get a water block made, you know, maybe two of them or something
+
+474
+01:15:10.480 --> 01:15:19.280
+that can fit on there and then have the water inlet outlet on the front of the rack. Yeah. And then just I wonder if there's anything off the shelf for water blocks that would be cheaper
+
+475
+01:15:19.760 --> 01:15:25.414
+<v Unknown> and easier to get a hold of than what we did for Ember one. You know, I'm I'm I'm That's a good idea. All
+
+476
+01:15:25.735 --> 01:15:50.110
+these all these all these, like, bit x hex or whatever. They seem to be using water blocks that come from they must come from the the world of CPU chips or something. Yeah. They do. Yeah. That is like commodity at this point. They're the cheapest. Like even if we had to, like, have a couple of those spread out across the board and the chips were just lined up to go underneath them, you know, the the chips were not completely in a grid. Maybe they were just grouped by
+
+477
+01:15:50.350 --> 01:16:02.485
+<v Unknown> a couple of cooling water blocks or something. I mean, whatever we had to do. I just I wonder how hard Yeah. That is an interesting idea. I mean, the those all in one coolers, they have the pump in the water block head. Mhmm.
+
+478
+01:16:02.885 --> 01:16:18.160
+Mhmm. And they also have Kinda big, doesn't it? They have a pretty small footprint because it's meant to, you know, sit on top of a CPU. Yeah. And then there's, one twenty mil, two forty, three sixty radiators that just connect to the AIF. Yeah. Wonder if we could, yeah, figure out how to mount the radiator
+
+479
+01:16:18.895 --> 01:16:44.780
+in back. Or I guess that could just be separate. Right? It's like if you have all the water going in and out, then you can have a you could put whatever radiator you need for the whole setup somewhere else. That's not an all in one setup at that point. But Yeah. If it's gonna be rack mount native, you know, you can put all your your auxiliary, like, water cooling stuff in that rack anyway. Mhmm. Mhmm. Yeah. And trending towards the components that already exist specifically for a like a dev kit platform effectively.
+
+480
+01:16:45.020 --> 01:16:48.925
+<v Unknown> I think that's a great idea. Yeah. When when we were in DC
+
+481
+01:16:49.085 --> 01:16:51.405
+<v Unknown> for the mining decentralization
+
+482
+01:16:51.405 --> 01:16:52.045
+event,
+
+483
+01:16:52.205 --> 01:17:06.389
+Essential is like, do you wanna go to Micro Center? There's one here. And I'm I've never been to Micro Center. Isn't it crazy? Like, being from the West Coast. And so we went down there, and there was, like, multiple aisles dedicated to just these CPU coolers.
+
+484
+01:17:06.550 --> 01:17:13.989
+<v Unknown> So it's a it's a wide world. That's that should be the goal. The dev kit should be if something broke, you can run to Micro Center. Yeah. For real. They had
+
+485
+01:17:14.805 --> 01:17:29.980
+<v Unknown> my mind was blown. So they have you know, they also have another couple aisles dedicated, like, PC cases. And a lot of the PC cases had the coolers inside them. And they have these coolers, like, I assume they're, like, all in one hydro coolers. That have, like, curved LCD displays
+
+486
+01:17:29.980 --> 01:17:33.500
+on the water block showing, like, some crazy anime or something.
+
+487
+01:17:34.060 --> 01:17:43.074
+And it's, like, this curved display that's going all around the water block. I was, like, wild. God. You kids are crazy. Can PC power supplies be used to drive?
+
+488
+01:17:44.355 --> 01:17:45.794
+PC power supplies.
+
+489
+01:17:46.195 --> 01:18:17.875
+So PC power supplies are really cheap. You can get like a 900 watt power supply that outputs 12 volts for like $50 at Micro Center. It's insane. And they're pretty small too. They're compact now. Yeah. Yeah. I was like like this kind of thing. I don't know. I guess there's probably a standard. I think that'd be cool to do. One of the problems is that you have to use those goofy Molex connectors. Yep. They're like big ass motherboard connector. So that's a little bit weird. But I think I think you can actually do better as far as like dollars per watt on your 12 volt power supply with the APW seven from the s nine.
+
+490
+01:18:18.355 --> 01:18:29.300
+Oh, interesting. Those are like 1,500 watts for like, you know, 20 or $30. Probably built not as well, but yeah. And two APW sevens will fit side by side in a 10 inch mini rack.
+
+491
+01:18:30.100 --> 01:18:33.460
+<v Unknown> Like you've done some homework. Lots of ideas flowing. Lots of ideas.
+
+492
+01:18:33.700 --> 01:18:38.935
+Well, should I read through some of our hashers? Yeah. Let's hear it. Yeah. Shout out to the nearly 90
+
+493
+01:18:38.935 --> 01:18:41.895
+per second online. We were at three forty
+
+494
+01:18:41.895 --> 01:18:47.175
+terahash earlier this morning. Dang. Wonder who that was. We got Zarka, Scott 9,000,
+
+495
+01:18:47.175 --> 01:18:53.900
+Bitcoin Parks bid axes that were conquered during the Texas energy and mining summit, tele hash number four.
+
+496
+01:18:54.620 --> 01:18:56.060
+Fax 777,
+
+497
+01:18:56.060 --> 01:19:06.394
+eco, Ryan, pub key, three bid access I see there. Shout out to pub key. They didn't even know there's the park. They don't even know. Shout out to pub key. D plus plus I've got a couple of rigs online.
+
+498
+01:19:06.554 --> 01:19:13.435
+Backwater Mining Collective, Exergy, Satoki, NORD, Agent P, Dillon, Nuclear, P Buttweiler,
+
+499
+01:19:13.435 --> 01:19:15.114
+Pizzandy, Johnny9,
+
+500
+01:19:15.114 --> 01:19:16.690
+shout out, and Schnitzel.
+
+501
+01:19:16.690 --> 01:19:19.409
+No changes in the difficulty leaderboard nor the
+
+502
+01:19:19.810 --> 01:19:22.369
+the loyalty leaderboard. 5,600,000,000,000
+
+503
+01:19:22.369 --> 01:19:39.844
+<v Unknown> is gonna be hard to top. Actually, there was a change in the loyalty leaderboard. Oh, have. We got a new a new fighter enters the ring or enters Oh, the Eco. Yeah. Look at that. Oh. Dang. I have arrived. Yeah. Saw Dylan was renting more hash rate like he was gonna catch up to Schnitzel.
+
+504
+01:19:40.005 --> 01:19:53.460
+<v Unknown> You gotta you gotta fight to be in that top three on that loyalty leaderboard. These guys have been contributing Hashrate for a long time. Love to see it. Yes. Thank you all. You can support by pointing some Hashrate at dash dot two five six f dot org.
+
+505
+01:19:54.740 --> 01:20:00.045
+<v Unknown> And sorry. I didn't mean to interrupt you. You're good. Ryan, what happened to mugena.org?
+
+506
+01:20:00.045 --> 01:20:07.565
+<v Unknown> I see something different. Yeah. Yeah. I forgot all about that. Last week, I think, or over the weekend, I updated mugena.org
+
+507
+01:20:07.565 --> 01:20:08.364
+with a
+
+508
+01:20:08.685 --> 01:20:11.520
+completely fresh coat of paint and copy.
+
+509
+01:20:11.520 --> 01:20:16.000
+It is now a sort of landing page and user documentation
+
+510
+01:20:16.000 --> 01:20:22.400
+site. You know, we were starting to get to the point where a lot of people were asking, how do I get started? What hardware is supported?
+
+511
+01:20:22.640 --> 01:20:38.350
+And rather than pointing to random places, it just felt like it was time because that was website stuff and stuff we didn't wanna, you know, commit in our source tree and read me. So now we have a official home. There's a obviously, that's open source also, mugena.org
+
+512
+01:20:38.350 --> 01:20:43.230
+website or something on in into under two fifty six foundation and GitHub. So
+
+513
+01:20:43.790 --> 01:20:45.230
+<v Unknown> every page. Yeah.
+
+514
+01:20:45.710 --> 01:21:04.695
+<v Unknown> So PRs are welcome. Every page on the website has a little edit me here link. So that is meant to be a community edited site. But Nice yeah, check it out. You did great. Yeah, you did a phenomenal job getting that updated. Thank you for doing that. And I love the attention to detail, like the little badger head favicon.
+
+515
+01:21:04.695 --> 01:21:06.695
+<v Unknown> So good job. I can
+
+516
+01:21:06.990 --> 01:21:10.429
+<v Unknown> yak shave with the best of them. It worked. Crrastinate.
+
+517
+01:21:10.510 --> 01:21:23.405
+Maybe it's the work. Yeah. Awesome. I like the the hardware compatibility matrix for Yeah. Seeing this get overwhelmingly large. Yeah. Yes. This is take a snapshot of this. We'll look back on this someday fondly.
+
+518
+01:21:23.405 --> 01:21:28.125
+Yeah, that's a that tells you what's officially supported in mainline Magina,
+
+519
+01:21:28.525 --> 01:21:33.965
+and then it kinda gives you a preview into what is still in a prototype stage and can be found.
+
+520
+01:21:34.610 --> 01:21:37.889
+For example, Shenzel has some stuff on one of his branches
+
+521
+01:21:38.369 --> 01:21:41.329
+in his fork of Mugena. So it points you there.
+
+522
+01:21:42.449 --> 01:21:57.534
+Hell, yeah. So a way for the community to kinda collect all the work in progress. Awesome. Good job. Like I say, PR's PR's welcome. PR's welcome. Well, I think that's a show, guys. Very good. Yeah. This was a good hang. Yeah. Great catching up, Ryan. Yeah. Good to see you guys. Let's do this again next week.
+
+523
+01:21:57.775 --> 01:22:01.295
+<v Unknown> Alright. Sounds good to me. Okay. See you, everybody. Bye bye. Bye.
+

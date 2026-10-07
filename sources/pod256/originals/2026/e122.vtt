@@ -1,0 +1,2268 @@
+WEBVTT
+
+NOTE
+Transcription provided by Podhome.fm
+Created: 8/3/2026 10:05:41 PM
+Duration: 3647.007
+Channels: 1
+
+1
+00:00:00.240 --> 00:00:05.120
+<v Unknown> Gentlemen, welcome to pod two fifty six, number 122,
+
+2
+00:00:05.520 --> 00:00:08.080
+08/03/2026.
+
+3
+00:00:08.080 --> 00:00:11.360
+Wow. What a boring week. God, what are we possibly
+
+4
+00:00:11.920 --> 00:00:13.200
+gonna spend our Yeah. Time talking
+
+5
+00:00:13.840 --> 00:00:15.280
+<v Unknown> Are you guys well rested? Not so much.
+
+6
+00:00:16.055 --> 00:00:29.335
+My my brain is definitely not well rested. It's been going going wild lately. This is crazy. I feel like everyone has an excuse to not have replied to their emails over the past five days. Dude, everything's just gridlocked.
+
+7
+00:00:29.630 --> 00:00:43.545
+<v Unknown> Yeah. It's it's been such a shit show. I've definitely stayed up late a few nights this week just like like, I'm good. I look. First and foremost, I feel really bad for anyone who is affected by the cold card
+
+8
+00:00:43.704 --> 00:00:52.184
+exploit. It's awful. You put your trust in cold card, they had one job and they let the entire industry down. You know, that being said,
+
+9
+00:00:52.504 --> 00:01:00.100
+I'm safe. Like I was unaffected by it. Luckily, saved by my autism and desire
+
+10
+00:01:00.100 --> 00:01:03.460
+to use very random dice rolls
+
+11
+00:01:03.540 --> 00:01:06.020
+and very high entropy passphrases.
+
+12
+00:01:06.500 --> 00:01:14.695
+And then I think also just a little bit of luck with my laziness because the one cold card that I use the most when I grabbed
+
+13
+00:01:15.015 --> 00:01:20.295
+it and fired it back up and looked at it, it actually had firmware version
+
+14
+00:01:20.454 --> 00:01:21.975
+3.1.9.
+
+15
+00:01:22.055 --> 00:01:25.414
+Nice. So I had never updated to version 4.0.
+
+16
+00:01:25.414 --> 00:01:28.260
+So that worked out in my favor. So yeah, I'm like
+
+17
+00:01:28.740 --> 00:01:37.860
+breathing a sigh of relief that for now I'm okay. I feel really bad for everyone who is affected, but still even like all that being said, like I still
+
+18
+00:01:38.500 --> 00:01:47.055
+have this doubt implanted in the back of my mind now that there could be other vulnerabilities in their software. Like it makes me question
+
+19
+00:01:47.215 --> 00:01:48.895
+everything about Coldcard
+
+20
+00:01:49.055 --> 00:02:05.490
+and not being a developer myself, it's not like I can just like pull up the code and review it and understand exactly what it's doing. So, you know, there's just this doubt that's been planted in the back of my mind now that even though I used the prior firmware version,
+
+21
+00:02:05.650 --> 00:02:07.570
+even though I rolled my own Entropy,
+
+22
+00:02:07.650 --> 00:02:09.570
+even though I used high Entropy
+
+23
+00:02:10.015 --> 00:02:10.894
+passphrase,
+
+24
+00:02:10.894 --> 00:02:21.135
+I've still got like an inkling of doubt and desire to move my coins out of that wallet and never use it again. Yeah. I mean, you need to second guess everything. Right? Yeah. Totally.
+
+25
+00:02:21.614 --> 00:02:23.535
+<v Unknown> Yeah. This massive
+
+26
+00:02:24.575 --> 00:02:27.069
+oversight can happen to Coldcard,
+
+27
+00:02:27.069 --> 00:02:29.790
+right, that was their one job was to do this,
+
+28
+00:02:30.030 --> 00:02:35.710
+you know, it could it could happen to any other mechanism as well for for generating,
+
+29
+00:02:35.870 --> 00:02:46.375
+<v Unknown> you know, seeds, for generating wallets. Definitely. Been thinking a lot about this lately. Well, I think you hit the nail on the head, Scott, with a tweet I saw from you this weekend, which relates
+
+30
+00:02:46.615 --> 00:02:52.055
+back to the whole debacle of Coldcard previously being open source and then changing their license.
+
+31
+00:02:52.135 --> 00:03:04.910
+You can speak to this more eloquently than I can, but my understanding is the license they switched to, it didn't really incentivize building on top of that project, which is how you get more people's eyes on it doing the don't trust verification
+
+32
+00:03:04.910 --> 00:03:08.750
+part and that driver wasn't there. Yeah, mean, it's
+
+33
+00:03:08.750 --> 00:03:13.315
+<v Unknown> not just that it wasn't incentivized to build on it, it was like expressly prohibited.
+
+34
+00:03:13.715 --> 00:03:14.355
+Yeah.
+
+35
+00:03:14.515 --> 00:03:17.875
+They they switched from GPL license
+
+36
+00:03:17.875 --> 00:03:23.955
+to MIT plus the commons clause, which apparently is just makes its source viewable.
+
+37
+00:03:23.955 --> 00:03:33.790
+Right? So you can look at the source, but you cannot use it for anything. And so we we've heard a lot, you know, the last couple days on Twitter about people being like, how did we not catch this for five years?
+
+38
+00:03:34.110 --> 00:03:44.555
+Right? This bug has been there for five years, and it it's it's sneaky, but it's not that sneaky. Right? Like, they were just they had a macro that basically disabled using the
+
+39
+00:03:44.715 --> 00:03:54.570
+secure entropy generation that they had available in the hardware. So it's not that sneaky. But, like, no one found this for five years. But I would I would argue that there was no one really incentivized
+
+40
+00:03:54.570 --> 00:04:00.330
+to do it. Right? Like, sure, there's there's people securing millions of dollars worth of Bitcoin with this, but,
+
+41
+00:04:01.290 --> 00:04:16.435
+you know, those might not have been the those I'm I'm sure weren't the people who are technical enough to think about, you know, looking into the implementation of how it's done. Whereas the people who who are capable of doing that or even have the motivation to, like, plug it into their AI,
+
+42
+00:04:16.595 --> 00:04:22.450
+I think are people who are designing their own wallets or are looking at generating entropy securely.
+
+43
+00:04:22.450 --> 00:04:34.125
+And if they were looking at Coldcard's code to do that in their own projects, they wouldn't wanna talk about it because it would be it would be illegal. It would be copyright infringement
+
+44
+00:04:34.125 --> 00:04:49.180
+to use it in their own code. So they wouldn't want to mention it. So yeah, I mean, the best reviewers of code are people who are looking, who are using the code to develop their own products. Which is a huge indication for the value of GPL
+
+45
+00:04:49.180 --> 00:04:49.900
+<v Unknown> over
+
+46
+00:04:49.980 --> 00:04:52.700
+these other source viewable or MIT
+
+47
+00:04:52.860 --> 00:04:53.740
+licenses.
+
+48
+00:04:53.900 --> 00:05:07.805
+Whereas GPL says, Hey, you can use it, but you also have to contribute your changes to the public sphere. Yeah, especially GPL motivates that the most. Yeah. You're absolutely right. I mean, helps, but with
+
+49
+00:05:07.885 --> 00:05:08.765
+<v Unknown> MIT
+
+50
+00:05:08.845 --> 00:05:10.365
+open source licenses,
+
+51
+00:05:11.160 --> 00:05:45.320
+it kinda like the open source can can end there. Right? So you can close source your derivatives, so you don't get those follow on effects. So you you now are in a position where you're the only one reviewing your code. You could fix the bug and then not tell anyone about it. Yeah. And you could also introduce new bugs that then no one else would be reviewing. So yeah, you But with GPL, you fix the bug and you have to tell everyone you fix the bug. And then if, you know, there are, in theory, if someone's gonna use your code, they are incentivized to look into it and then also release their changes, right? So you provide that reviewing to, you know, upstream
+
+52
+00:05:45.320 --> 00:06:07.325
+to where you got the code from, and then other people are incentivized to provide that reviewing to you and your changes. So you really get the max benefit out of it, I think, out of open source with in terms of having people review it with GPS. And from what I understand it, you know, I think them switching the license is definitely where they took a wrong turn. And it was a pretty dramatic
+
+53
+00:06:07.485 --> 00:06:09.085
+<v Unknown> affair back then
+
+54
+00:06:09.370 --> 00:06:15.210
+when that happened. I'm trying to remember exactly. I think it was like the first quarter of twenty twenty one.
+
+55
+00:06:15.530 --> 00:06:16.410
+Sounds right.
+
+56
+00:06:16.650 --> 00:06:18.250
+Foundation Devices
+
+57
+00:06:18.250 --> 00:06:23.930
+had forked cold card and was launching a new hardware wallet.
+
+58
+00:06:24.250 --> 00:06:29.085
+And, you know, they were, in my opinion, in their right to do so because
+
+59
+00:06:29.165 --> 00:06:31.245
+the code was GPL licensed.
+
+60
+00:06:31.325 --> 00:06:35.165
+And that's exactly the kind of thing GPL incentivizes.
+
+61
+00:06:35.245 --> 00:06:43.400
+And I thought it was a good thing, but Coldcard took issue with it, and or CoinKite took issue with it, the Coldcard project, NVK,
+
+62
+00:06:43.400 --> 00:06:47.800
+and they, you know, basically their reaction was to pivot
+
+63
+00:06:47.879 --> 00:06:50.600
+to the MIT Common Clause license.
+
+64
+00:06:50.759 --> 00:06:54.935
+But from what I understand, there were parts of their, of the original
+
+65
+00:06:55.095 --> 00:07:00.055
+Coldcard firmware code base that were made by somebody else.
+
+66
+00:07:00.295 --> 00:07:01.255
+I think it was
+
+67
+00:07:01.815 --> 00:07:08.330
+Trezor had some code in there that was GPL licensed, and so to go to MIT
+
+68
+00:07:08.410 --> 00:07:10.490
+Commons Clause, technically
+
+69
+00:07:11.050 --> 00:07:17.130
+CoinKite had to stop using the code that was in that base that was GPL licensed. And
+
+70
+00:07:17.210 --> 00:07:19.610
+part of that was the random number generator
+
+71
+00:07:19.805 --> 00:07:23.885
+part. And so they scrapped that, built a new code base
+
+72
+00:07:24.045 --> 00:07:26.445
+so that they could do it MITCC
+
+73
+00:07:26.445 --> 00:07:27.405
+licensed,
+
+74
+00:07:27.405 --> 00:07:31.805
+and in doing so, introduced this bug because they misimplemented
+
+75
+00:07:31.805 --> 00:07:41.780
+the random number generator part. And Scott, I mean, I think you can speak to this at a technical level better than I can, but like at a high level, from what I understand,
+
+76
+00:07:41.860 --> 00:07:48.165
+basically the way they wrote the firmware is that it told the device not to use the hardware
+
+77
+00:07:48.165 --> 00:07:52.405
+random number generator and to fall back to this Python library,
+
+78
+00:07:52.645 --> 00:08:06.810
+but then they had set the Python library to zero. And so the only thing that like was generating any entropy was this, what was it, the SMT 32 function? And so effectively, you got keys around 32 bits of entropy?
+
+79
+00:08:06.969 --> 00:08:07.770
+<v Unknown> Yes.
+
+80
+00:08:07.770 --> 00:08:17.295
+Yes. Pretty much. I think the way I understand it is they set a macro, like, basically just a flag in the code that threw,
+
+81
+00:08:17.775 --> 00:08:19.615
+like, a kind of a double negative
+
+82
+00:08:19.695 --> 00:08:30.900
+ended up not causing the code to use the STM 30 two's proven, you know, secure random number generator. So now that's bypassed, and then it the way that the the MicroPython
+
+83
+00:08:30.900 --> 00:08:31.540
+code
+
+84
+00:08:31.700 --> 00:08:36.580
+works is that it falls then back to its to its onboard
+
+85
+00:08:36.580 --> 00:08:47.115
+random number generator, which then I guess, yeah, was also disabled. And so then it just uses the STM 32 serial number. Serial number. That's what it was. Thank you. So then
+
+86
+00:08:48.075 --> 00:08:58.635
+then your the serial number on the device is is supposedly unique for every device, but it's not it's not randomly created. Right? It doesn't have
+
+87
+00:08:59.860 --> 00:09:10.100
+it doesn't really have entropy. It's just based on the manufacture like, when the device is manufactured, essentially. And a lot of them are probably sequential. Yes. A lot of them, I'm sure, were sequential.
+
+88
+00:09:10.420 --> 00:09:14.180
+And then it also, through some stroke of luck, takes into account
+
+89
+00:09:14.845 --> 00:09:18.845
+in generating it takes into account the system's
+
+90
+00:09:19.165 --> 00:09:19.805
+timer.
+
+91
+00:09:19.965 --> 00:09:26.045
+So there's this, like, free running timer going in the firmware on the system that counts, I think, milliseconds,
+
+92
+00:09:26.685 --> 00:09:33.260
+but it's not very big. So it overflows a lot. And I think that that timer gives 80,000
+
+93
+00:09:33.340 --> 00:09:39.420
+unique values out of it. And so basically, you're just relying on the, like, manufacturing
+
+94
+00:09:39.420 --> 00:09:43.420
+serial number and this counter that has 80,000 possible options.
+
+95
+00:09:44.004 --> 00:09:49.045
+Jeez. For your It's not entropy, right? For like your seed.
+
+96
+00:09:49.204 --> 00:09:51.685
+<v Unknown> Yeah, for what's supposed to be entropy.
+
+97
+00:09:51.925 --> 00:09:52.485
+<v Unknown> Yeah.
+
+98
+00:09:53.524 --> 00:10:04.759
+<v Unknown> And that just happened to work out to 32. It's less than 32 bits. It's it's slightly less. I've been trying to, like, poke up my AI and figure out exactly how many bits it is, but it's less than 32,
+
+99
+00:10:04.839 --> 00:10:10.839
+and then they take that and they SHA-two 56 hash it to get two fifty six bits
+
+100
+00:10:11.315 --> 00:10:19.875
+<v Unknown> out of it. So you can get your words. Right. So you can get your yeah. Right. So you can get your words essentially. And worth pointing out that entropy is factorial.
+
+101
+00:10:19.875 --> 00:10:24.915
+It is not linear. So 32 bits of entropy is substantially
+
+102
+00:10:24.995 --> 00:10:26.870
+less than 72,
+
+103
+00:10:26.870 --> 00:10:31.590
+one twenty eight, two fifty six. Yeah. 32 bits is 4,200,000,000
+
+104
+00:10:31.590 --> 00:10:39.190
+<v Unknown> is 4,200,000,000 options. So Mhmm. 4,200,000,000 numbers. Right? We have computers that run-in the billions
+
+105
+00:10:39.225 --> 00:10:45.305
+<v Unknown> of operations per second. Yeah, gigahertz, yeah. Yeah, that doesn't take long. Doesn't take long. Five or six seconds, yeah.
+
+106
+00:10:45.865 --> 00:10:48.904
+<v Unknown> And so, yeah, I mean, it's essentially just generating
+
+107
+00:10:49.545 --> 00:11:12.985
+seeds from a very small pool of numbers, and someone, you know, figured out recently that, like, we can essentially just try them all. Yeah. Convinced now that they have. I think every cold card m k three with this vulnerable firmware has been drained. By this point, I think you're right. Yeah. I had a cold card m k three with that vulnerable firmware that had some dust on it. And Saturday
+
+108
+00:11:12.985 --> 00:11:13.785
+afternoon,
+
+109
+00:11:13.785 --> 00:11:14.585
+it was wiped.
+
+110
+00:11:14.905 --> 00:11:16.745
+That's fucking crazy. It was
+
+111
+00:11:17.545 --> 00:11:22.745
+<v Unknown> like 800 SATs. So this is the part I don't fully understand. How are they tying
+
+112
+00:11:23.270 --> 00:11:24.230
+address
+
+113
+00:11:24.230 --> 00:11:24.790
+to
+
+114
+00:11:25.590 --> 00:11:28.470
+the seed? How do they know where the money's at? So
+
+115
+00:11:28.710 --> 00:11:29.910
+from the seed,
+
+116
+00:11:30.070 --> 00:11:38.165
+<v Unknown> you can derive the All the addresses come from the seed. Yeah, that's right. Derived from that. So, you know, let's just say you wanna try 4,200,000,000
+
+117
+00:11:38.165 --> 00:11:39.045
+combinations.
+
+118
+00:11:39.205 --> 00:12:11.595
+You have to you have to try each seed, right, each each of the 4,200,000,000 combinations, but then you have to generate all the addresses, all the derivation paths for all the addresses, and then check those. And so I think initially people thought like, Oh, they're only trying like the first 200 addresses or something, which probably contains the majority of the coins in this case. But it's just a matter of time before you keep trying more and more. There were reports I've seen online of people claiming this happened to them years ago. This is the craziest part. So I I got into this a little bit,
+
+119
+00:12:11.995 --> 00:12:22.680
+and alright. So if you let's just for the, you know, sake of relatively easy math, let's say there's 32 bits, 4,200,000,000 combinations. If the the the birthday paradox,
+
+120
+00:12:22.760 --> 00:12:37.235
+which says the chances of any two people generating the same seed, so not like you and me generating the same seed, just any two people across all the devices generating the same seed. If it gets to 77,000
+
+121
+00:12:37.315 --> 00:12:50.839
+<v Unknown> seeds generated, there's a 50% chance that two people will have generated the same one. Those are not good odds. Those are not good odds. Wouldn't they then see that perhaps their addresses already have funds in them? It depends on the derivation path? Exactly.
+
+122
+00:12:51.639 --> 00:12:59.800
+<v Unknown> You'd spin up a new wallet and open it and there'd be Bitcoin in there and you'd be like, Thank you. Happy birthday to me. Exactly. And so there
+
+123
+00:13:00.360 --> 00:13:02.760
+<v Unknown> are accounts of people saying that
+
+124
+00:13:02.975 --> 00:13:03.935
+their
+
+125
+00:13:04.175 --> 00:14:06.135
+cold card wallet just got drained. They got swept. So you think it was other Mark three spinning up, not some script from an attacker? I think it I mean, it's really hard to know, right? People could have made all sorts of other mistakes that would have caused their wallet to be drained, but it is overwhelmingly possible that someone you know, 50% odds is really good. Like, as miners, we we operate on way less than 50% odds. So, like But not for, like, money security. Not for 50%. Yeah. We're counting on, you know, less than 1% odds of selling a block, like, way less than 1%. So, yeah, anyways, it it seems very likely that someone could have generated a wallet, you know, imported the XPUB into their into, like, Spero, into their wallet software, and seen they had a balance. And they have the private keys for that, so they can just send it on, you know, which is is wild. I mean, maybe maybe that's what happened. Do you think just to touch back on the license thing quick before we wrap that up, do you think that this highlights the importance of GPL licensed
+
+126
+00:14:06.135 --> 00:14:39.045
+<v Unknown> software projects being community projects and not a company trying to claim it? That's what's so odd to me. It seems like if you chose GPL, you're saying, Hey, anyone can build on top of this. We don't have direct ownership. We support it and maintain it. It just doesn't make sense in my head. Yeah. I mean, I think a true community project is going to get the most benefits out of GPL licensed software. Are there other instances of GPL projects that people are trying to keep tight to the chest? Well, I mean That they would switch the license in. Yeah, it's not like you're keeping it tight to the chest because you've published it somewhere.
+
+127
+00:14:40.420 --> 00:14:41.300
+<v Unknown> Right. You
+
+128
+00:14:41.940 --> 00:14:51.060
+need to Like anyone who receives GPL software is obligated to get the source, whether that's a link to GitHub or a CD or whatever.
+
+129
+00:14:51.300 --> 00:15:27.655
+Like Vizideo TVs from last week. Exactly. Yeah. So yeah, I mean, it's tough if you're gonna like follow the GPL license and like keep it secret, but there are definitely plenty of companies that, you know, basically when they finish their software, they license a GPL and they publish it. Right? Without all the git history, you know, it's just like, alright, here you go. Like, here's the code, and they just like we were talking about, they just throw it over the wall. Here you go. Yeah. I would argue that's better than not doing it at all because maybe someone could take it and use it and review it and, you know, would have to publish their changes, etcetera. But
+
+130
+00:15:27.975 --> 00:15:51.925
+I do think that the community where you're you're developing it with the community in public so that whole Git history of everything that you've done is there. People can see how the project progressed. They can get involved at different points and and then, like, take more ownership of it. I think that's better. That's that's what we're trying to do with two fifty six projects. And I think that that getting the community involved so they have some ownership over
+
+131
+00:15:52.644 --> 00:15:54.085
+the main upstream
+
+132
+00:15:54.644 --> 00:15:55.445
+fork,
+
+133
+00:15:55.685 --> 00:16:03.050
+<v Unknown> then yeah, that's gonna help. And it seems like the ideal license for security critical projects,
+
+134
+00:16:03.209 --> 00:16:04.730
+low level hardware,
+
+135
+00:16:04.890 --> 00:16:12.570
+software, firmware, we call it, anything where you literally do not want this to happen. Like it's, you know, if I'm building a web app on my website,
+
+136
+00:16:12.810 --> 00:16:15.610
+whatever, MIT, you know? Yeah. I
+
+137
+00:16:16.105 --> 00:16:21.385
+<v Unknown> 100% think so. Like, you know, especially in Bitcoin where transparency is very important
+
+138
+00:16:21.785 --> 00:16:25.785
+and, you know, like, software like this, like miners
+
+139
+00:16:26.025 --> 00:16:29.145
+Mhmm. Cold storage stuff, you are
+
+140
+00:16:29.465 --> 00:16:31.305
+there there isn't, like, a web service
+
+141
+00:16:31.920 --> 00:16:41.360
+tied to it. Right? There isn't a a centralized host necessarily. Right. It's a protocol. It the yeah. It's a protocol. It's code that people run on their own hardware,
+
+142
+00:16:41.680 --> 00:16:51.355
+potentially even air gapped from the network, like And it's the monetary system, like And it's the monetary system. Exactly. And we need that security that comes from from decentralization,
+
+143
+00:16:51.355 --> 00:17:05.740
+that security of, you know, like actual network security, but then also that security of that there isn't, like, a single point of failure for it, like a company who's responsible for it who can just mess it up or be be compelled to change it. Mhmm.
+
+144
+00:17:07.100 --> 00:17:08.619
+So yeah. Yes.
+
+145
+00:17:08.940 --> 00:17:22.505
+<v Unknown> To answer your question, I think absolutely and especially in Bitcoin. Scott, are you willing to share how you had that cold card set up or, like, how you generated that seed where the dust got swiped? Yeah. I I just I basically
+
+146
+00:17:22.585 --> 00:17:32.940
+<v Unknown> did, the default route that was presenting. You know, I looked at this was many years ago. Looked at a tutorial online and was like, okay. Cool. Well, I got this cold card,
+
+147
+00:17:33.500 --> 00:17:41.114
+and I set it at the default way. So no dice rolls, no, password. Right? No twenty fifth or thirteenth word.
+
+148
+00:17:41.195 --> 00:17:44.874
+Mhmm. So just the completely basic way. And
+
+149
+00:17:45.195 --> 00:17:58.080
+I remember thinking about it at the time, the if you you know, if if the device is generating enough entropy, if it's doing its, like, 256 bits of entropy, you don't need to do dice rolls. You don't need to do a password. That actually adds risk
+
+150
+00:17:58.240 --> 00:18:33.610
+because that's just something else that you can mess up. Like I could forget the password. I could do the dice rolls wrong. So that my thinking at the time was like, that just adds additional risk. Like, I don't wanna I don't wanna do that. Yeah. And true random number generators are a solved thing on secure elements. So it's not like we need everyone to have done this. Yeah. I mean, the dice rolls is like, you don't trust the hardware that it's running on, which in retrospect would is a very good idea, but, you know, tedious. If you do trust the hardware, I think the true random number generator in these devices is better.
+
+151
+00:18:33.770 --> 00:18:48.885
+<v Unknown> It's better than dice rolls. For sure. That said though, it seems like the critical error was if there were two failure modes before it jumped down to using the serial number and the time series database
+
+152
+00:18:48.559 --> 00:18:54.480
+to generate the seed. The device should have just like thrown an error state and not let you proceed.
+
+153
+00:18:54.720 --> 00:18:55.519
+<v Unknown> Oh yeah.
+
+154
+00:18:55.760 --> 00:18:56.399
+<v Unknown> That's security,
+
+155
+00:18:56.960 --> 00:19:00.399
+that's software security engineering. Yeah. I saw something
+
+156
+00:19:00.720 --> 00:19:10.605
+<v Unknown> on, I can't remember the Twitter account that posted it, but I saw something on Twitter about the commits and they they put together what looked like a pretty good explanation
+
+157
+00:19:10.685 --> 00:19:28.149
+for exactly what you just pointed out, Tyler. Like it should have thrown an error and it sounds like it actually was throwing an error until they changed that value to zero for the for that Python piece, that line of code. Like, I think it was like line 75.
+
+158
+00:19:28.309 --> 00:19:44.045
+I've I've been seeing the screenshot a lot, but you see it and it's like calls that Python library and then in brackets, it's got the zero and it says something to the effect of like, you know, we have our own version of this or something. But in order to get to that point where they changed that to zero,
+
+159
+00:19:44.450 --> 00:19:58.544
+they couldn't get the software to compile. And so they were trying different things to see what would finally get the software to compile and after switching that to zero, then it finally compiled and stopped throwing the error. And actually the commit on GitHub,
+
+160
+00:19:58.545 --> 00:20:01.745
+the comment that went along with it was just runs.
+
+161
+00:20:01.905 --> 00:20:02.784
+So you get
+
+162
+00:20:03.985 --> 00:20:11.440
+this sense of the developer sitting there. And I'm not sure if it was Doctor. Hex or if it was NVK,
+
+163
+00:20:11.520 --> 00:20:23.040
+but it was somebody on the cold card team. And you can just, you really get this sense from reading this explanation this person put together that the developer was frustrated, kept running into this error, was trying different things,
+
+164
+00:20:23.684 --> 00:20:28.565
+changed that to zero, finally got it to compile, and was like, Okay, it runs. And
+
+165
+00:20:29.125 --> 00:20:39.940
+<v Unknown> it ended up getting pushed through to the end user. It's like that error was your fail safe, right? It's trying to tell you that this is not set up right. Yes, it was like the software's
+
+166
+00:20:39.940 --> 00:20:44.499
+<v Unknown> way of begging the developer, Please consider what you're about to do.
+
+167
+00:20:44.980 --> 00:20:53.975
+<v Unknown> This doesn't work. Yeah, and this was before agentic coding. So this was manually written code that I guess the AI tools missed.
+
+168
+00:20:54.135 --> 00:20:54.934
+I would
+
+169
+00:20:55.575 --> 00:21:05.289
+be surprised if after agentic coding came out, these tools weren't pointed at the repo. Yeah, I don't know. I mean, agentic tools have been around for
+
+170
+00:21:05.610 --> 00:21:10.090
+<v Unknown> a while now. I mean, just in the last eight months or so, I guess they've gotten capable
+
+171
+00:21:10.090 --> 00:21:38.390
+of one shotting it, but certainly it's been around for a while. My conspiracy theory is that someone was working on making their own hardware wallet with the or at least somewhat basing it on the cold card code. Otherwise, why would they think through all these things again? Yeah. Yeah. Right. Because if you're making your own wallet, you're obviously thinking very hard about doing this. And if you're referencing someone else's code, you'd be like, like, why is that error coming up? Like, maybe I look into this. Well, a special shout out to Rob Hamilton
+
+172
+00:21:38.550 --> 00:21:39.830
+<v Unknown> and Kali
+
+173
+00:21:39.910 --> 00:21:46.924
+and the BitKey team and the overwhelming support by everyone pointing AI tools at obviously
+
+174
+00:21:47.325 --> 00:21:53.404
+a whole bunch of other open source security projects, Bitcoin projects, and then doing write ups on what they found,
+
+175
+00:21:53.725 --> 00:21:56.125
+other teams sharing what they found for their projects.
+
+176
+00:21:56.980 --> 00:22:20.954
+It's good to see. Like I do believe that, know, agentic coding is going to make all these tools better. This is just a terrible, terrible situation that happened and it's the growing pains of transitioning from human written code to software written and audited code. Yeah. It was really cool how fast the community moved. Right? I mean, I feel like I started hearing about this. Shout out to Ryan who made it pretty clear. I think it was Thursday
+
+177
+00:22:21.274 --> 00:22:32.340
+<v Unknown> Yeah. Like midday that this was a thing. And then, you know, right around that time, I think CoinKite issued this very softly worded warning that, like, maybe there's a problem. So
+
+178
+00:22:33.140 --> 00:22:35.780
+we went from Thursday midday to
+
+179
+00:22:36.260 --> 00:22:37.380
+Saturday afternoon,
+
+180
+00:22:37.975 --> 00:22:47.334
+<v Unknown> and basically all the wallets were drained. All the affected wallets were drained. What was crazy is that Galaxy Research has been producing pretty good data analyses
+
+181
+00:22:47.495 --> 00:23:14.364
+of what's been going on. And one of the things that jumped out at me in the first wave of attacks was that it only took like forty one minutes for the attacker to accumulate like a thousand Bitcoin. Like the first thousand Bitcoin that got swiped, that was all done in forty one minutes. I wonder how long they've been crunching on it to get those those addresses. I don't know. Dude, because like once the news broke, dude, it took me like several hours to get access
+
+182
+00:23:14.365 --> 00:23:18.445
+to my wallets because of like all the my
+
+183
+00:23:18.445 --> 00:23:41.115
+setup is like intentionally difficult to unlock those wallets. Like that's the point of a good self custody setup is that it's physically difficult to get in there and open up those wallets. And dude, it took me several times more minutes to get access to my wallets than the entire attack took. Yeah. Yeah, I had some friends breaking into houses this weekend.
+
+184
+00:23:42.554 --> 00:23:51.515
+<v Unknown> You go get to their wallets? People that were out of town to help them out, yeah. I got a text this morning that some dude left his wife and kids on vacation and flew back. Holy shit.
+
+185
+00:23:52.990 --> 00:24:11.604
+And then shout out to my good friend Wyatt here who is an RIA and offers a custody solution with 20 plus clients and luckily it wasn't a huge risk you know where only one of the keys in these multi sig setups was a cold card, but you still want to handle that when people are asking questions, freaking out. And so he pulled an all nighter. Mean, stressful
+
+186
+00:24:12.485 --> 00:24:28.169
+<v Unknown> past seventy two hours for everybody. Yeah. I mean, and shout out to the community for jumping on this and making it clear that like, no, no, no, you need to fly back or get someone to break into your house because this is happening. Go now. Do not wait. Yeah.
+
+187
+00:24:28.250 --> 00:24:29.849
+I've actually got a family
+
+188
+00:24:30.490 --> 00:24:38.524
+<v Unknown> coming over this afternoon so I can help them migrate off of the cold card that I suggested they set up a few years ago. They're okay,
+
+189
+00:24:38.605 --> 00:24:43.565
+but still out of an abundance of caution because that, you know, the trust has been broken.
+
+190
+00:24:44.044 --> 00:24:50.765
+I'm gonna help them move. But I, you know, I've now that we've seen, like I think there's been four major waves of
+
+191
+00:24:51.220 --> 00:24:58.899
+wallets getting swept and we're starting to hear reports, at least I've seen a couple reports of seeds that were generated
+
+192
+00:24:58.980 --> 00:25:03.700
+with the affected firmware that had low entropy passphrases
+
+193
+00:25:04.135 --> 00:25:12.054
+and those wallets are starting to get swiped. And so you can imagine, like if the number space is only, you know, somewhat 4,200,000,000
+
+194
+00:25:12.054 --> 00:25:16.374
+private keys, then it's only a number of time, you know, becomes very
+
+195
+00:25:16.934 --> 00:25:20.090
+feasible for an attacker to try
+
+196
+00:25:20.570 --> 00:25:38.274
+all the derivation paths of each of those keys to like an order of hundreds or thousands if they want. And then even try like different word combinations because it's very common practice for people to just grab a few words from the known BIP 39 list and use that as a passphrase.
+
+197
+00:25:38.274 --> 00:25:42.195
+So, you know, it becomes very feasible for an attacker to just very
+
+198
+00:25:42.755 --> 00:25:43.715
+systematically
+
+199
+00:25:43.875 --> 00:25:49.409
+process all this and keep trying until they find more fun. So I think for people that,
+
+200
+00:25:49.650 --> 00:26:09.864
+like if you generated a seed on a cold card, period, even if it wasn't the affected firmware, even if you did dice rolls, even if you have a passphrase, I think out of an abundance of caution, would be wise to move your funds, make a completely new wallet, not with a cold card, and move your coins while you can. Yeah, if you have a
+
+201
+00:26:10.424 --> 00:26:12.424
+<v Unknown> cold card MK4,
+
+202
+00:26:12.424 --> 00:26:13.945
+five, or Q,
+
+203
+00:26:14.025 --> 00:26:15.864
+<v Unknown> right? Should we make a collage?
+
+204
+00:26:16.105 --> 00:26:22.770
+<v Unknown> For the listeners, I'm holding up a handful of cold cards. Right. If you have one of those other devices too, right, they do
+
+205
+00:26:23.330 --> 00:26:26.290
+have weak entropy as well, and
+
+206
+00:26:26.850 --> 00:26:39.645
+I don't know, it was like 70 bits or something like that, but it's just a matter of time, right? And we know that these people now have created systems that can churn through a lot of seeds relatively fast. Right? So
+
+207
+00:26:40.445 --> 00:26:52.110
+<v Unknown> And you can you can still generate a seed on a different device and then import it to a cold card if you like that UX. I would point back to Eco's comment of the commit history is not very polished.
+
+208
+00:26:52.190 --> 00:26:58.350
+And so I would probably just say use another device, but Definitely use another device. They also released a new firmware.
+
+209
+00:26:58.590 --> 00:27:03.070
+Which might be breaking some devices, I've seen. It is breaking some I've seen that too. Yeah.
+
+210
+00:27:03.445 --> 00:27:19.649
+<v Unknown> That's just What a shit show. They introduced another like critical vulnerability that breaks the device in their hotfix trying to patch this random number generator issue. It's just like, and the fucking devices are still for sale on Coldcard's website.
+
+211
+00:27:19.730 --> 00:27:31.489
+I mean, I don't have it pulled up right now. Maybe I should pull it up. But I saw some screenshots floating around on social media that you can still buy the devices, which is fucking crazy, dude. Like That is crazy.
+
+212
+00:27:31.570 --> 00:27:37.205
+I I've, you know, Yeah, they're still for sale. Yeah, so I'm looking at coldcard.com
+
+213
+00:27:37.205 --> 00:27:39.525
+right now, and yeah, you can still buy
+
+214
+00:27:39.925 --> 00:27:42.405
+the Coldcard Q, the Coldcard
+
+215
+00:27:42.405 --> 00:27:43.684
+MK5,
+
+216
+00:27:43.845 --> 00:27:45.765
+and it just it has a security
+
+217
+00:27:46.405 --> 00:27:52.940
+advisory banner at the top of the website that says seeds generated on firmware 4.0.1,
+
+218
+00:27:53.020 --> 00:27:53.900
+2021
+
+219
+00:27:53.900 --> 00:27:55.740
+and later of MK2,
+
+220
+00:27:55.740 --> 00:28:09.144
+three, four, five, and Q are at risk. Be sure to update your firmware before using it to generate a master seed. So like they're not It's even so irresponsible. Oh my god. Dude, yeah, I know. That's what I'm saying. It's so fucked up.
+
+221
+00:28:09.465 --> 00:28:30.940
+<v Unknown> I feel like cold hard is doing ignore banners. You ignore firmware updates. Like Yeah. Firmware updates are a pain in the ass. Like, people aren't gonna do that. People don't know what firmware is. Yeah. People don't know what firmware is. That is exactly right. And it's like, there's all sorts of banners and stupid stuff on websites all the time. Like, that is not adequate. They should, like, absolutely stop all of it. Basically,
+
+222
+00:28:30.940 --> 00:28:37.575
+entire website should be changed to, like, We'll be back. It's not just We'll be back. At Yeah. Like you need to do this immediately.
+
+223
+00:28:37.575 --> 00:28:39.335
+They like emailed everyone.
+
+224
+00:28:39.735 --> 00:28:41.174
+<v Unknown> They But apparently
+
+225
+00:28:41.175 --> 00:28:44.455
+they get rid of your email after ninety days or so. Yeah.
+
+226
+00:28:45.300 --> 00:28:59.300
+<v Unknown> So I saw some clarification where apparently they'll get rid of your like Your address. But they'll keep your email. Oh, okay. So they have emailed everyone. I feel like the email was not as strongly worded as it should be
+
+227
+00:29:01.235 --> 00:29:04.675
+it's because only a matter of time before the the later devices are gonna be
+
+228
+00:29:05.075 --> 00:29:19.270
+drained as well. Like, you Yeah. Like, you know, it should be like, if you have a m k three, you need to move two days ago, and if you have the rest of these, you should, you know, was it carefully, but directly move towards the exit.
+
+229
+00:29:20.310 --> 00:29:26.230
+<v Unknown> There's Promise exit the platform. Dude, they're I just it seems to me like they're handling
+
+230
+00:29:26.470 --> 00:29:29.910
+like they've done everything wrong handling this situation.
+
+231
+00:29:30.230 --> 00:29:32.070
+Like
+
+232
+00:29:31.585 --> 00:29:43.345
+Block did a very technical deep dive into what the problem was. Amazing job. Galaxy Research did a great job gathering on chain data and showing funds moving
+
+233
+00:29:43.710 --> 00:29:46.509
+and charting it all out. Like that
+
+234
+00:29:46.510 --> 00:29:48.030
+should have been CoinKite
+
+235
+00:29:48.030 --> 00:29:50.110
+doing those things. And CoinKite's
+
+236
+00:29:50.110 --> 00:29:54.909
+response has just been this like pretty watered down blog post.
+
+237
+00:29:55.070 --> 00:30:01.945
+They still have the devices for sale on their website, but they put up they instead of taking them down, they just put up a fucking banner
+
+238
+00:30:02.025 --> 00:30:03.945
+and they're still selling the devices.
+
+239
+00:30:04.105 --> 00:30:12.505
+And their hotfix to the firmware ended up introducing another vulnerability that ends up breaking the device. It's just like one bad
+
+240
+00:30:12.880 --> 00:30:28.364
+<v Unknown> move after another. Like they just need to fucking stop. Yeah. You shouldn't proceed with the solution being I'm going to update my firmware and generate a new seed. That is a hot fix. Like they obviously pushed that update out under duress basically.
+
+241
+00:30:28.524 --> 00:30:30.125
+So it shouldn't be trusted.
+
+242
+00:30:30.125 --> 00:30:30.684
+<v Unknown> Yeah,
+
+243
+00:30:31.245 --> 00:30:45.900
+Right. It's like there's this bug in there, but like, did they introduce any others? Like I'm sure lots of people are looking at the source of this new firmware now, but like. Yeah. Of the things that has been sticking out to me and I don't know anyone at the CoinKite or Coldcard team directly,
+
+244
+00:30:46.060 --> 00:30:54.540
+<v Unknown> so without too many personal attacks, my observation from an outsider is like they're also the most pompous in the game for years. Dogging on other platforms,
+
+245
+00:30:54.934 --> 00:30:56.134
+GPL bad,
+
+246
+00:30:56.455 --> 00:31:15.659
+<v Unknown> Seed Signer bad. Yeah, the ship flinging that they've done against A lot of ship flinging. Seed Signer and Foundation. And Foundation devices, dude, it's been bad and uncomfortable to watch for a long time. It's even been uncomfortable before this was introduced. It's like, dude, come on. Yeah. And now it's just like, I hate to say it, but it's like,
+
+247
+00:31:17.020 --> 00:31:19.259
+that's exactly the kind of behavior.
+
+248
+00:31:19.580 --> 00:31:29.065
+Let me just put it this way. Like they made their own bed and now they can sleep in it. Yeah. One of the cool things that I thought was interesting during this was Unchained's
+
+249
+00:31:29.065 --> 00:31:29.784
+<v Unknown> rapid
+
+250
+00:31:29.865 --> 00:31:32.024
+feature integration with Slipstream
+
+251
+00:31:32.105 --> 00:31:39.009
+from Mera. And that relates to the miners listening to Pod two fifty six here, but private mempools to avoid
+
+252
+00:31:39.010 --> 00:31:41.409
+RBF replaced by Phe snipes.
+
+253
+00:31:41.570 --> 00:31:42.849
+Did
+
+254
+00:31:42.850 --> 00:31:44.929
+you guys think that was interesting? It also
+
+255
+00:31:46.049 --> 00:31:51.970
+<v Unknown> if you use a private mempool, you don't necessarily have to expose the contents of your script to
+
+256
+00:31:52.555 --> 00:31:54.235
+the public mempool.
+
+257
+00:31:54.395 --> 00:32:00.075
+What does the script contain? I don't know. What does the script contain, Iko? Well, that's a good question. Think
+
+258
+00:32:00.315 --> 00:32:01.034
+<v Unknown> without
+
+259
+00:32:01.355 --> 00:32:02.715
+knowing exactly
+
+260
+00:32:02.795 --> 00:32:05.275
+what the risk is, at a high level,
+
+261
+00:32:06.320 --> 00:32:09.519
+from what I understand, there's a possibility
+
+262
+00:32:09.679 --> 00:32:12.159
+that once you broadcast the transaction,
+
+263
+00:32:12.240 --> 00:32:14.559
+it can give an attacker clues
+
+264
+00:32:14.559 --> 00:32:15.279
+needed
+
+265
+00:32:15.440 --> 00:32:17.759
+to target that transaction,
+
+266
+00:32:18.000 --> 00:32:20.480
+quickly crack the pad or the
+
+267
+00:32:21.325 --> 00:32:24.205
+private key and create a new transaction,
+
+268
+00:32:24.205 --> 00:32:27.325
+spending those coins to a different address.
+
+269
+00:32:27.485 --> 00:32:33.805
+And then they can broadcast that transaction out with a higher fee so that miners pick it up before
+
+270
+00:32:33.805 --> 00:32:42.599
+<v Unknown> the transaction you were trying to originally send out. Yeah. The attackers work is just less if they already see the transaction waiting in the mempool.
+
+271
+00:32:42.679 --> 00:32:45.879
+They just have to then guess the private seed, right? I suppose.
+
+272
+00:32:46.534 --> 00:32:48.214
+<v Unknown> I don't know exactly what
+
+273
+00:32:49.335 --> 00:33:05.359
+they can find in the Bitcoin transaction that makes it less work for them, but there's something there. Otherwise, this service wouldn't have been spun up. There is some risk there. I don't know how to explain exactly what it is at a technical level. Well, those listening slipstream, if you're unfamiliar, it's,
+
+274
+00:33:05.759 --> 00:33:11.119
+<v Unknown> Merah has so much hash rate and they solo mine with their own pool, which is only Merah machines,
+
+275
+00:33:11.200 --> 00:33:22.645
+40x a hash or so. They offer this slipstream service where they have their private mempool and effectively out of band you can get transactions in their mempool and then they're not seen until they're already mined.
+
+276
+00:33:22.805 --> 00:33:26.245
+You can't see publicly what they have waiting in queue,
+
+277
+00:33:26.885 --> 00:33:30.885
+which is a very interesting service for an attack like this. Yeah, I think,
+
+278
+00:33:31.900 --> 00:33:33.580
+<v Unknown> I think it's
+
+279
+00:33:33.740 --> 00:33:40.620
+not a bad idea to do that if you have a concern about exposing some sensitive information.
+
+280
+00:33:42.140 --> 00:33:48.184
+<v Unknown> But that's only something that large pools can offer. Right. Yeah. And it looks like there's a legal
+
+281
+00:33:48.424 --> 00:33:49.225
+<v Unknown> action
+
+282
+00:33:49.225 --> 00:33:49.945
+on the
+
+283
+00:33:50.505 --> 00:33:55.705
+horizon for CoinKite too. This tweet comes from an account called BK
+
+284
+00:33:55.705 --> 00:33:56.505
+Claims.
+
+285
+00:33:56.505 --> 00:33:58.260
+And if I can just read,
+
+286
+00:33:58.740 --> 00:34:05.220
+there's a number of paragraphs here, but let me just read the first couple sentences. We had a productive strategy call today with Canadian counsel
+
+287
+00:34:05.220 --> 00:34:07.860
+and wanted to share where things currently stand.
+
+288
+00:34:08.340 --> 00:34:13.715
+At this point, we're leaning away from a traditional class action and toward a private Canadian
+
+289
+00:34:13.715 --> 00:34:23.635
+lawsuit brought by a group of larger claimants. The thinking is that assembling approximately 10 to 30 claimants representing a significant portion of those losses
+
+290
+00:34:24.020 --> 00:34:28.580
+may provide a more focused and efficient path than pursuing class certification.
+
+291
+00:34:29.140 --> 00:34:35.460
+And it goes on with some more details, but I think there's definitely gonna be some lawsuits coming down the pike. Yeah,
+
+292
+00:34:35.619 --> 00:34:44.385
+<v Unknown> on multiple levels. How do the attackers spend this Bitcoin from these seven addresses where they've been compiling it? Well, and to Scott's point, if it was somebody
+
+293
+00:34:44.385 --> 00:34:49.905
+<v Unknown> who was trying to spin up another hardware wallet project and they stumbled across this bug,
+
+294
+00:34:50.065 --> 00:34:59.400
+my comment was then now, at least now they're well funded to get their project off the ground. So Yeah. I mean, those those addresses are gonna be very closely watched.
+
+295
+00:34:59.720 --> 00:35:07.640
+<v Unknown> Yeah. You know? You're you're, like, essentially a big time felon with these very hot coins, so you gotta be very careful. What was that that, like,
+
+296
+00:35:08.265 --> 00:35:15.224
+funny rapper girl and her friend that, like, came into billions of dollars worth of Bitcoin and Yeah. Weren't was that the the
+
+297
+00:35:15.944 --> 00:35:16.744
+Yeah. Bifenex
+
+298
+00:35:17.464 --> 00:35:21.880
+coins. Yeah. Right? They, like, just basically failed laundering
+
+299
+00:35:21.880 --> 00:35:29.720
+<v Unknown> the Bitcoin. Does Lightning help submarine swaps? So I think Lightning offers what I call privacy by obscurity,
+
+300
+00:35:29.720 --> 00:35:31.880
+and I just don't think that's reliable.
+
+301
+00:35:32.040 --> 00:35:33.640
+And also, we're talking about
+
+302
+00:35:34.245 --> 00:35:36.725
+a total of like $90,000,000
+
+303
+00:35:36.725 --> 00:35:38.405
+at this point. I mean, any
+
+304
+00:35:39.045 --> 00:35:40.485
+sort of like large
+
+305
+00:35:40.485 --> 00:35:41.685
+transaction,
+
+306
+00:35:42.005 --> 00:35:46.005
+you know, out of these addresses that are now known and watched by everybody,
+
+307
+00:35:46.580 --> 00:35:51.060
+it's gonna be very difficult. You know, if they do very small transactions
+
+308
+00:35:51.060 --> 00:35:54.100
+and, you know, use a coin join feature,
+
+309
+00:35:54.500 --> 00:36:12.744
+there's a chance that they can cover their trails pretty well. But I think what happens to a lot of these attackers is they come into these large sums of money and then all of a sudden they have to like try and cover their tracks and they try to do so by breaking the Bitcoin up into these really large chunks
+
+310
+00:36:13.385 --> 00:36:15.464
+that are just really difficult to
+
+311
+00:36:15.704 --> 00:36:16.744
+obscure on chain.
+
+312
+00:36:17.280 --> 00:36:19.760
+It's really difficult to obscure those movements.
+
+313
+00:36:20.240 --> 00:36:21.840
+And with like Rosalcon,
+
+314
+00:36:21.840 --> 00:36:34.895
+if I recall correctly, I think what had finally led the FBI to them was that they like used the Bitcoin to buy something from an online merchant and they had the product shipped right to where they were living.
+
+315
+00:36:35.215 --> 00:36:36.015
+<v Unknown> Idiot.
+
+316
+00:36:36.415 --> 00:36:38.575
+<v Unknown> And yeah, so it was like,
+
+317
+00:36:39.455 --> 00:36:41.535
+quote unquote tainted coins
+
+318
+00:36:41.535 --> 00:36:46.975
+spent with the merchant. They saw that on chain and then it was just a matter of asking the merchant, Hey,
+
+319
+00:36:47.619 --> 00:36:49.540
+can we talk to you about this transaction?
+
+320
+00:36:49.780 --> 00:37:00.099
+Where was that product sent to? And, you know, the merchant complies with law enforcement and that address is revealed and then they have a physical place to go searching for their suspects.
+
+321
+00:37:00.444 --> 00:37:18.790
+<v Unknown> It's not that difficult to I heard an interesting, like, basically theoretical conversation, but, like, let's say that the person is caught and red handed. Like, they've got all the Bitcoin, and they're compelled to, like, give it you know, forfeit it all to the to the government. Right? And so now it's like, how do you prove who the original owners were
+
+322
+00:37:20.470 --> 00:37:27.190
+of those coins? It gets very difficult because it's not like they can sign a transaction from the original
+
+323
+00:37:27.350 --> 00:37:28.150
+wallet. Right.
+
+324
+00:37:28.875 --> 00:37:52.340
+Because anybody could. Because anybody could. Or, you know, lots of people potentially could. Yeah. So it gets really difficult to figure out if, like, who is a legitimate claimant and who the original owner was. Like, if they if they bought the Bitcoin through a KYC service, maybe it could be sort of traced back to that original purchase, you know, that would be and then the exchange would have their KYC information,
+
+325
+00:37:52.579 --> 00:37:57.619
+so you could link it that way. If they didn't do that, which probably a lot of self custody enthusiasts
+
+326
+00:37:57.619 --> 00:38:01.195
+would have done. Right? They got no KYC coins.
+
+327
+00:38:01.275 --> 00:38:03.515
+Then it gets to be really hard. Now you can
+
+328
+00:38:03.835 --> 00:38:07.275
+I mean, if you still have your cold card, perhaps you can prove
+
+329
+00:38:07.835 --> 00:38:16.130
+that that seed was generated on there, on that cold card, and that you were the original owner of it? I don't know. Because it's deterministic.
+
+330
+00:38:16.130 --> 00:38:23.250
+<v Unknown> Like, I guess maybe because the if you I guess maybe because of the serial number since that's what was used for the Entropy.
+
+331
+00:38:23.330 --> 00:38:29.835
+So if you can show the device with the serial number. Yeah. Yeah. Right. That serial number is is embedded in
+
+332
+00:38:30.395 --> 00:38:34.635
+<v Unknown> your your private keys, essentially. Right. And since it's deterministic,
+
+333
+00:38:34.635 --> 00:38:36.395
+<v Unknown> like, you could possibly
+
+334
+00:38:36.395 --> 00:38:46.300
+prove it by just saying, look, use this serial number as an input. I guess you don't know what the millisecond counter was, but I don't know, maybe that's a starting point where they could deterministically
+
+335
+00:38:46.300 --> 00:38:50.540
+demonstrate like, look, if you use this serial number and every possible
+
+336
+00:38:50.940 --> 00:39:06.165
+eighty six thousand seconds or whatever it is, one of those will wind up being a key that derives the address that these funds were swiped from. I don't know, dude. Yeah, that's pretty hand wavy, right? That's going to involve you with this physical hardware, like with someone
+
+337
+00:39:06.485 --> 00:39:33.135
+<v Unknown> trying to determine this. You know what's ironic? What would potentially point to you being the originator of that seed is if you had a metadata timestamped photo of the seed. Metadata timestamp photo of the seed that you had like Which no one has. The blockchain? Yeah. Like a photo on your phone of the seed that the date. Everyone's discouraged of taking pictures of theirs. Yeah, I know. Yeah. Well, I mean, I think you could back that out, right? If you're one of these people that had like have
+
+338
+00:39:33.214 --> 00:39:35.934
+<v Unknown> brute forced one of these seeds, then
+
+339
+00:39:36.849 --> 00:39:44.850
+<v Unknown> you could generate the seed words and have a picture of it. Yeah, I guess. An old photo though. Who had the first photo? No one's got photos, unfortunately. Fortunately.
+
+340
+00:39:45.250 --> 00:39:55.595
+<v Unknown> Timestamping photos, I think Econ knows how this works, but that can be faked. Oh, it can? Yeah, Yeah. Dude, I don't know. I was thinking, like, if it's a state actor like North Korea and
+
+341
+00:39:56.795 --> 00:39:57.515
+they
+
+342
+00:39:57.595 --> 00:40:07.950
+want to do some transaction with, like, another government that doesn't give a shit what US law says, like, say, Russia, for example, Like perhaps North Korea could spend
+
+343
+00:40:08.110 --> 00:40:11.790
+the Bitcoin with Russia on goods or services
+
+344
+00:40:11.790 --> 00:40:13.310
+or trade. And
+
+345
+00:40:13.550 --> 00:40:17.805
+those coins eventually wind up in some like Russian exchange.
+
+346
+00:40:17.964 --> 00:40:19.005
+And essentially,
+
+347
+00:40:19.165 --> 00:40:42.960
+nobody external of that exchange is gonna know which coins are which when they come out of there. So I don't know. Depending on who the attacker is and what their relationships are around the world, they really may not need to do much of anything to spend those coins. I guess it just comes down to whether the receiving party gives a shit about US law. Can spend it to get your oil out of the Strait Of Hormuz? Exactly.
+
+348
+00:40:43.040 --> 00:40:44.480
+<v Unknown> Yeah. Yeah. I
+
+349
+00:40:44.720 --> 00:40:52.815
+wonder if there's state actors involved in this. Like, I I haven't really wrapped my head around, like, how much compute is really necessary
+
+350
+00:40:52.975 --> 00:41:11.410
+to to brute force these keys, these low entropy seeds. Someone was trying to estimate that based on the speed at which the wallets were drained, but I don't know how you'd rough that out. Yeah, because you don't know like how much went into it ahead of time, like how long they were crunching on this to get their list of targets.
+
+351
+00:41:11.410 --> 00:41:13.395
+<v Unknown> Yeah, and it could have been paralyzed.
+
+352
+00:41:13.475 --> 00:41:16.275
+<v Unknown> Ahead of time. Right? You have a copy of the blockchain.
+
+353
+00:41:16.435 --> 00:41:32.150
+You have your GPUs or whatever crunching on this and testing it out to see which which private keys, you know, which derivation paths have a balance. And so you could you could easily have, like, a big database or list of all the targets and then it's just a matter of creating those transactions.
+
+354
+00:41:32.310 --> 00:41:39.750
+<v Unknown> Well, the threat is ongoing. That's been the other wild thing is it's happening in slow motion. You know, it's not like a singular exchange
+
+355
+00:41:39.750 --> 00:41:52.135
+<v Unknown> one time FF. Right. Yeah. Because you can't go back. Right? Like, that's, like, a big thing is they released a new firmware for the cold cards, but that doesn't that doesn't fix the problem. Right? You still have to, like, generate a new wallet and, like, transfer
+
+356
+00:41:52.295 --> 00:42:07.970
+all the Bitcoin to it. Crazy. Yeah. I mean, it's going really fast. It's going really, really fast. I was looking at the the transaction that had my dust in it, and there was there was, like, 600 there were 600 transactions in it or 600 UTXOs
+
+357
+00:42:07.970 --> 00:42:11.955
+inputs on it, and they were all very small amounts.
+
+358
+00:42:12.115 --> 00:42:18.035
+They were all very small amounts. I think in total, it ended up being like 2 Bitcoin. Just in dust? Yeah. Wow. Some
+
+359
+00:42:18.434 --> 00:42:20.835
+of were larger than others, but some of them were less
+
+360
+00:42:20.835 --> 00:42:22.835
+than mine, which was
+
+361
+00:42:23.130 --> 00:42:26.970
+<v Unknown> less than a thousand SATs. So they should do some consolidation.
+
+362
+00:42:26.970 --> 00:42:31.530
+<v Unknown> Well, think they're all being consolidated in just a handful of addresses, right? Yeah.
+
+363
+00:42:31.930 --> 00:42:48.415
+<v Unknown> Is anyone keeping track of these addresses? I think Galaxy is. Okay. Okay, I wonder if I should figure out how to send them this, right? Because I don't know. I mean, are they I think originally they were Galaxy was tracking these based on the fee rate that they were using. Which is finger in the wind kind of, because people are rushed. Well,
+
+364
+00:42:49.130 --> 00:42:52.570
+<v Unknown> if I recall, that was like one behavioral
+
+365
+00:42:52.650 --> 00:42:53.530
+metric
+
+366
+00:42:53.610 --> 00:43:00.570
+that they used. What they were trying to do was figure out how many attackers there were and they were identifying
+
+367
+00:43:00.970 --> 00:43:03.530
+variables that could be an indicator of
+
+368
+00:43:04.224 --> 00:43:05.345
+behavior.
+
+369
+00:43:05.425 --> 00:43:08.065
+So like if you see like the same behavioral
+
+370
+00:43:08.224 --> 00:43:11.505
+variables across a number of transactions, it becomes
+
+371
+00:43:11.905 --> 00:43:17.825
+feasible to come up with like a likelihood of like, okay, all these transactions were from the same actor versus
+
+372
+00:43:18.010 --> 00:43:19.770
+these other transactions
+
+373
+00:43:19.770 --> 00:43:21.610
+that are also
+
+374
+00:43:21.690 --> 00:43:23.930
+sweeps, also part of an attack,
+
+375
+00:43:24.170 --> 00:43:26.090
+but displaying different behavioral
+
+376
+00:43:26.330 --> 00:43:27.050
+variables.
+
+377
+00:43:27.130 --> 00:43:32.890
+And so I think in doing that, they were able to pretty accurately identify
+
+378
+00:43:32.970 --> 00:43:37.965
+like there was one attacker, the initial attacker got like a thousand Bitcoin,
+
+379
+00:43:38.205 --> 00:43:39.325
+and then there was like,
+
+380
+00:43:39.885 --> 00:43:48.765
+maybe it was like 600 Bitcoin, and then there was like a second attacker who got like 400 Bitcoin. And like just in like that first day, was like a thousand Bitcoin
+
+381
+00:43:48.560 --> 00:43:49.360
+swept.
+
+382
+00:43:49.520 --> 00:44:01.040
+And then there was, like, a third wave and a fourth wave, which may or may not have been the same attackers. I assume as time goes on, just more and more copycats are getting in on this. Yeah. I found that post
+
+383
+00:44:01.135 --> 00:44:05.775
+about the dev's behavior when switching that variable to zero
+
+384
+00:44:05.775 --> 00:44:11.615
+in the code. Can I just repeat can I just read this paragraph to you guys? Because it's I just find it so fascinating.
+
+385
+00:44:12.175 --> 00:44:12.735
+Yeah.
+
+386
+00:44:12.975 --> 00:44:19.430
+Okay. So go so this post, this was originally posted by where I found it was from Hodelknot.
+
+387
+00:44:19.510 --> 00:44:20.950
+And then the
+
+388
+00:44:21.350 --> 00:44:26.550
+link seems to be insider.btcpp.dev.
+
+389
+00:44:26.885 --> 00:44:34.485
+Not really sure what that website is. But anyways, it goes on to read, the compiler error was begging the programmer to reconsider his logic.
+
+390
+00:44:34.645 --> 00:44:38.325
+Instead of that happening, the compiler error was just silenced.
+
+391
+00:44:38.484 --> 00:44:41.925
+The compiler was giving the developer one last chance to reconsider
+
+392
+00:44:42.260 --> 00:44:50.980
+what he was about to do, but the alarm was ignored and silenced. Now everything is lining up. It looks like the developer tried to override the variable,
+
+393
+00:44:51.140 --> 00:44:53.300
+but ran into conflicting definitions.
+
+394
+00:44:53.460 --> 00:45:01.205
+When confronted with a duplicate symbol error, tried changing random things to get the code to run. He discovered that changing
+
+395
+00:45:01.285 --> 00:45:02.645
+micropy
+
+396
+00:45:02.645 --> 00:45:03.765
+for Python,
+
+397
+00:45:03.925 --> 00:45:09.925
+that line that says micropyhwenablerng,
+
+398
+00:45:10.340 --> 00:45:13.220
+So changing that variable to zero
+
+399
+00:45:13.220 --> 00:45:14.420
+made it compile.
+
+400
+00:45:14.500 --> 00:45:24.585
+He probably had no idea why but came up with a theory. We don't need that anymore because we have our own version of the code. His definition of the Python
+
+401
+00:45:24.585 --> 00:45:26.665
+b r n g get
+
+402
+00:45:26.665 --> 00:45:30.825
+variable were in place and the code he was intending
+
+403
+00:45:30.825 --> 00:45:34.665
+not to run had been turned off. So it's
+
+404
+00:45:34.665 --> 00:45:37.465
+bad, dude. It's just really bad. That is,
+
+405
+00:45:38.120 --> 00:45:43.960
+<v Unknown> you know, in retrospect, definitely not the behavior you want of the developer of the
+
+406
+00:45:44.200 --> 00:45:46.520
+software that is securing your
+
+407
+00:45:47.240 --> 00:45:49.560
+generational wealth. Right. Apparently,
+
+408
+00:45:49.560 --> 00:45:52.905
+<v Unknown> this came from Twitter account dustydamon,
+
+409
+00:45:52.905 --> 00:45:54.345
+dustydamon
+
+410
+00:45:54.345 --> 00:45:58.665
+or daemon. I don't know how you guys say that. Yeah. And did you see all the
+
+411
+00:45:59.465 --> 00:46:01.225
+<v Unknown> git commit comments
+
+412
+00:46:01.225 --> 00:46:05.065
+are all like they're all like very short or like a single letter.
+
+413
+00:46:05.305 --> 00:46:05.545
+<v Unknown> Yeah.
+
+414
+00:46:06.440 --> 00:46:21.400
+<v Unknown> Which I meant to ask you guys about that because I'm not a dev. Scott, you are. What is proper Git hygiene? What are you supposed to do? You'd wanna put something descriptive in there because the whole point of putting stuff into version control software like Git is that you can
+
+415
+00:46:21.865 --> 00:46:38.470
+<v Unknown> see the changes that you made at any given time. And so there's various tools like GitHub and and other software that can they can show you the actual changes in the code, but it makes your life a lot easier if these Git commits, which are just like should be summaries of what happened, like, has
+
+416
+00:46:38.869 --> 00:46:44.869
+some useful summary. Right? Because if you're going and looking back through a list of hundreds of changes to try and find
+
+417
+00:46:45.109 --> 00:46:57.895
+something to see when a regression when a when a bug was introduced or to, like, try and fix some problem, you got a lot to go through. You wanna have good changes. And, you know, if you're working with a a team of developers,
+
+418
+00:46:58.055 --> 00:46:59.575
+like, you absolutely
+
+419
+00:46:59.654 --> 00:47:10.760
+must have good commit messages because it's not just you. And so they won't have that context that you had when you made the commit. So, you know, it's
+
+420
+00:47:11.079 --> 00:47:25.515
+essential. I mean, you could get, like, fired or, you know, reprimanded if you're in a company, and you're just not communicating with your colleagues- because it makes it harder for everyone else. You're doing. Yeah. It makes it very hard to know what you're doing. This was a small project,
+
+421
+00:47:25.755 --> 00:47:28.475
+so there was very few developers
+
+422
+00:47:28.555 --> 00:47:32.155
+working on it. So maybe that isn't as technically necessary,
+
+423
+00:47:32.155 --> 00:47:45.650
+but I mean, lots of developers who are just working on a project by themselves will still put descriptive Git commits for their future self to make things easier. Like, I definitely do that because it's very easy to forget what you were thinking
+
+424
+00:47:46.365 --> 00:47:52.205
+<v Unknown> a week ago. The AI tools seem to know it too. They seem to write good commit messages.
+
+425
+00:47:52.205 --> 00:47:54.205
+<v Unknown> Yeah. Mean, even GitHub now will
+
+426
+00:47:54.445 --> 00:48:01.565
+use some AI to like suggest a good git commit message, right? So maybe that's enforcing bad behavior. But yeah,
+
+427
+00:48:02.220 --> 00:48:09.340
+it's not really good. I mean, it really speaks to they definitely had no interest in conveying to the community what they were doing.
+
+428
+00:48:09.660 --> 00:48:10.860
+<v Unknown> Yeah. Mhmm.
+
+429
+00:48:11.340 --> 00:48:13.580
+<v Unknown> And just concerned about themselves.
+
+430
+00:48:14.155 --> 00:48:20.155
+And I guess, you know, it's not an open source project, so they don't care about the rest of the community, but
+
+431
+00:48:20.635 --> 00:48:25.355
+<v Unknown> it's definitely poor form. Well, least we got BIP 110 to look forward to in five days. Everybody
+
+432
+00:48:26.155 --> 00:48:26.955
+forgot about it.
+
+433
+00:48:27.869 --> 00:48:32.430
+<v Unknown> I'm thankful my timeline has been cleansed of the BIP 110 nonsense.
+
+434
+00:48:32.509 --> 00:48:32.910
+And
+
+435
+00:48:33.390 --> 00:48:35.869
+it's sad that it took a $90,000,000
+
+436
+00:48:35.869 --> 00:48:41.950
+cold card exploit to do that. But it's very funny to me reading the comments to my
+
+437
+00:48:42.725 --> 00:48:53.845
+Twitter post saying just that from the BIP one hundred ten camp. Basically their argument is like, if you're not running BIP 110, you're retarded. And it's just, it's so hilarious to me because
+
+438
+00:48:54.405 --> 00:48:58.490
+like BIP one ten is not technically sound. It doesn't even stop spam.
+
+439
+00:48:58.650 --> 00:49:00.650
+The quote unquote spam
+
+440
+00:49:00.650 --> 00:49:01.610
+protocols
+
+441
+00:49:01.610 --> 00:49:03.370
+that they're referring to,
+
+442
+00:49:03.770 --> 00:49:15.535
+these, like, shit coining projects or whatever you want however you wanna phrase it, runes or whatever the fuck, They're all prepared to start launching their projects on a BIP one ten compliant chain.
+
+443
+00:49:15.695 --> 00:49:16.255
+It's
+
+444
+00:49:16.735 --> 00:49:28.270
+funny to call someone retarded for not running something that doesn't do what it purports to do. So some of Bitcoin's best out there. Well, question. Even if it does filter,
+
+445
+00:49:28.350 --> 00:49:30.910
+<v Unknown> if it did what it is reportedly supposed to do,
+
+446
+00:49:31.550 --> 00:49:58.540
+<v Unknown> doesn't that conflict with what we just saw with, like, a private mempool like Maris Slipstream? They can just mine whatever they want? Yeah. Right? Well, I mean, if if in the extremely unlikely situation that BIP one ten activates and succeeds and that becomes the the new chain, then Chain split. Yeah. That would yeah. They have to follow the new rules. So you I couldn't you couldn't do it because those blocks would be rejected. But it's it's also not gonna activate or it's
+
+447
+00:49:58.780 --> 00:50:08.060
+<v Unknown> not the chain is not gonna succeed. So There there will be a chain split, but BIP one ten chain will split itself into irrelevancy.
+
+448
+00:50:08.060 --> 00:50:14.835
+<v Unknown> Yeah. I mean, they have what, like, two percent best case of people signaling for it, and there's no risk right now to signal.
+
+449
+00:50:14.915 --> 00:50:19.635
+But next week, there's the mandatory activation, so if you're signaling, you actually have to
+
+450
+00:50:20.275 --> 00:50:21.075
+follow
+
+451
+00:50:21.155 --> 00:50:24.194
+the BIP 100 chain, and so there will be actual risk.
+
+452
+00:50:25.780 --> 00:50:28.580
+<v Unknown> Orange Surf has a really good simulator
+
+453
+00:50:29.220 --> 00:50:32.420
+at bip110.orange.surf
+
+454
+00:50:32.420 --> 00:50:48.515
+<v Unknown> where you can simulate different hash rate signals. Yeah. That's really neat. We think about it, like, now, let's say you're hardcore into BIP one ten. So you're renting a ton of hash rate and you're signaling in those blocks for BIP one ten. That's expensive. It's very expensive to rent
+
+455
+00:50:48.755 --> 00:50:52.195
+a ton of hash rate. But right now, you will recover
+
+456
+00:50:52.970 --> 00:50:56.250
+that in mining rewards. Mhmm. But after
+
+457
+00:50:56.410 --> 00:50:58.170
+but, you know, next
+
+458
+00:50:58.410 --> 00:51:01.290
+week, if you're still if you're
+
+459
+00:51:01.369 --> 00:51:02.090
+signaling
+
+460
+00:51:02.569 --> 00:51:04.890
+and mining to the Bitcoin 10 chain,
+
+461
+00:51:05.049 --> 00:51:23.265
+then you your rewards will be in Bitcoin 10 coins on that fork, and it's very unlikely that those will have any value. Right. So now there's a real financial risk towards your virtue signaling for BIP one ten. Yeah. So I I I suspect that that that percentage of miners signaling
+
+462
+00:51:23.265 --> 00:51:26.150
+will will just drop off dramatically.
+
+463
+00:51:26.150 --> 00:51:33.190
+<v Unknown> Yeah. I think so too. Well, it'll be a fun pod next week. And didn't Ocean do something like they made their default stratum
+
+464
+00:51:33.190 --> 00:51:41.295
+<v Unknown> endpoint point to a bip one ten node? Yeah. They're running two pools now. Yeah. They did. So their their default, like, non Datum
+
+465
+00:51:41.295 --> 00:51:53.455
+stratum endpoint is BIP 110. They did launch a non BIP 110 stratum endpoint, but But you have to manually change, yeah. You have to manually change to that. And then of course That's fucked up.
+
+466
+00:51:54.470 --> 00:52:11.855
+<v Unknown> So anyone who to you. So anyone who has, like, had all their miners configured to point and run at Ocean at that endpoint are suddenly mining to a BIP one ten or will be mining to a BIP one ten chain in the event that there's a split, unless they go in and change their miners manually.
+
+467
+00:52:12.015 --> 00:52:15.935
+Like the default should have been like what the user set it as originally.
+
+468
+00:52:16.735 --> 00:52:19.695
+What they signed up for? Yeah, it's such a scammy
+
+469
+00:52:20.109 --> 00:52:26.510
+<v Unknown> scumbag move to do it that way. Yeah. It is pretty pretty bad. What was the guy's name who works there?
+
+470
+00:52:26.990 --> 00:52:28.670
+He was very against this.
+
+471
+00:52:28.990 --> 00:52:38.085
+Jason? Jason. Jason Hughes. Yeah. Yeah. He came out not in favor of this. Sounds like there's been some internal drama there because I think he's the lead engineer
+
+472
+00:52:38.245 --> 00:52:39.205
+working on this.
+
+473
+00:52:39.525 --> 00:52:43.125
+<v Unknown> So when I look at the ocean.xyz
+
+474
+00:52:43.125 --> 00:52:43.925
+dashboard
+
+475
+00:52:44.005 --> 00:52:48.405
+and I see that they're, you know, hovering somewhere between thirty and forty x a hash,
+
+476
+00:52:49.000 --> 00:52:51.800
+That's like both a BIP one ten
+
+477
+00:52:51.960 --> 00:52:52.920
+compliant
+
+478
+00:52:52.920 --> 00:53:07.375
+<v Unknown> minor and not BIP one ten minuteor all combined together. Right? Yeah. I think that's just their total hash rate. These guys are sketchy, dude. It probably doesn't it's probably not in their best interest to split those two numbers out based on Yeah. Which
+
+479
+00:53:07.535 --> 00:53:17.070
+<v Unknown> chain they're gonna be on even though they are running effectively two separate pools. And this still pisses me off. They say they have this metric on here that they found 12,935
+
+480
+00:53:17.070 --> 00:53:26.990
+blocks because they count all of Allegis Pool's blocks. Yeah. Yeah. And how many Allegis blocks were there? It was like over 10,000, right? Yeah, dude. It was like some 11,000
+
+481
+00:53:27.230 --> 00:53:28.109
+blocks or more.
+
+482
+00:53:28.885 --> 00:53:41.845
+I don't even know if Oceans found a thousand blocks. Yeah. Well, starting a pool is hard. That's for sure. Should we shout out our hashers? Yeah. I'm gonna have to jump off here in about thirteen minutes. Let's do it. I gotta some
+
+483
+00:53:42.165 --> 00:53:45.700
+people move their coins away from this cold card exploit.
+
+484
+00:53:45.700 --> 00:53:49.540
+<v Unknown> Yeah, that's important. Well on dash.256f.org,
+
+485
+00:53:49.620 --> 00:53:54.580
+the hash dash from our hosted hydro pool instance that supports the foundation
+
+486
+00:53:54.660 --> 00:54:04.295
+in a solo mining mode. Whereas when a block is found that goes to the two fifty six Foundation in its entirety to help fund open source mining projects. We have 139
+
+487
+00:54:04.295 --> 00:54:18.010
+terahash online. All right. In first place, Tesserae with an active 60 terahash per second. Thank you. Architecture firm trying to integrate hash rate heating into some builds. Really cool guys. Attendees of the Heatpunk Summit.
+
+488
+00:54:18.170 --> 00:54:19.370
+Followed by Zarka,
+
+489
+00:54:19.370 --> 00:54:23.050
+Thack seven seven seven, Bitcoin Park, PubKey,
+
+490
+00:54:23.050 --> 00:54:26.330
+Scott nine thousand, agent p with its gridpool.net
+
+491
+00:54:26.330 --> 00:54:28.615
+project, hardestblocks.org,
+
+492
+00:54:28.615 --> 00:54:29.974
+another awesome website,
+
+493
+00:54:30.135 --> 00:54:32.615
+myself, d, Econo Alchemist,
+
+494
+00:54:32.615 --> 00:54:34.214
+Backwater Mining Collective,
+
+495
+00:54:34.295 --> 00:54:35.734
+Exergy, Dylan,
+
+496
+00:54:35.815 --> 00:54:36.695
+Satochi,
+
+497
+00:54:36.775 --> 00:54:37.894
+p Buttweiler,
+
+498
+00:54:37.894 --> 00:54:39.575
+Nord, Pizandy,
+
+499
+00:54:39.654 --> 00:54:40.454
+Nuclear,
+
+500
+00:54:40.454 --> 00:54:41.335
+Schnitzel,
+
+501
+00:54:41.335 --> 00:54:46.790
+and Johnny nine. Thank you guys. Doesn't look like we've seen any changes in the difficulty leaderboard.
+
+502
+00:54:47.029 --> 00:54:50.869
+<v Unknown> I'm still on there, number 10. The Loyalty leaderboard you are.
+
+503
+00:54:51.269 --> 00:54:56.150
+Yeah, oh, sorry, sorry. Yeah. I was jumping ahead, I got too excited. You did, you did.
+
+504
+00:54:57.275 --> 00:54:58.075
+<v Unknown> Loyalty
+
+505
+00:54:58.075 --> 00:55:01.355
+is led by Schnitzel with 3,000
+
+506
+00:55:01.515 --> 00:55:02.875
+ExaHashes
+
+507
+00:55:02.875 --> 00:55:05.835
+and Dylan with 1,100 ExaHashes
+
+508
+00:55:05.835 --> 00:55:08.795
+and Tesserae by five twenty ExaHashes.
+
+509
+00:55:08.795 --> 00:55:09.995
+Top 10 total
+
+510
+00:55:10.075 --> 00:55:11.755
+count of hashes contributed.
+
+511
+00:55:12.020 --> 00:55:13.700
+But if you take your
+
+512
+00:55:13.940 --> 00:55:19.620
+if you don't support the pool for a week, you time out and it gets reset. So keep that in mind. Ride or Yeah.
+
+513
+00:55:20.260 --> 00:55:21.540
+<v Unknown> It'd be interesting to see
+
+514
+00:55:21.940 --> 00:55:26.420
+sort of like what our best, like recent difficulty is. That'd be cool to add
+
+515
+00:55:26.904 --> 00:55:32.984
+some time filters. Yeah. Maybe even just like the difficulty leaderboard, we could have a timestamp next to it.
+
+516
+00:55:33.464 --> 00:55:40.905
+<v Unknown> Yeah. Know these electron ones are back from telehash number four at the Texas Energy Mining Summit. I think that was in April. Yeah.
+
+517
+00:55:41.464 --> 00:55:55.510
+<v Unknown> Think all of them, right? We And Megawatt and Wrigley, yeah. Maybe we keep the top three as like a high watermark and then like fourth through tenth place is like updated on a weekly basis or something. That could be cool. 5,640,000,000,000
+
+518
+00:55:55.589 --> 00:56:02.425
+<v Unknown> highest difficulty. That's good. That's good. Very cool. Yeah and we had a good Mugena developer call this morning.
+
+519
+00:56:02.985 --> 00:56:03.945
+Definitely
+
+520
+00:56:03.945 --> 00:56:09.065
+check those out. Stay updated on forum.256foundation.org
+
+521
+00:56:09.065 --> 00:56:11.790
+where Ryan schedules the biweekly
+
+522
+00:56:11.790 --> 00:56:15.790
+Mugena developer calls, are an awesome opportunity to review PRs,
+
+523
+00:56:15.790 --> 00:56:16.430
+issues,
+
+524
+00:56:16.590 --> 00:56:17.870
+talk about architecture,
+
+525
+00:56:18.270 --> 00:56:28.455
+and just get updates from the contributors that are building on top of Mugena, building Mugena itself, putting Mugena on new systems. It's really exciting. I really like how Ryan
+
+526
+00:56:28.615 --> 00:56:33.735
+<v Unknown> started that call with reflecting on what's happened with Coldcard and
+
+527
+00:56:33.815 --> 00:56:48.280
+kind of the fallout that has taken place because of bad developer decisions. And then taking that and reflecting on like, what sort of potential impact do bad developer decisions have for the Mugena project?
+
+528
+00:56:48.360 --> 00:56:53.455
+And although Mugena is not like, you know, seed critical,
+
+529
+00:56:53.695 --> 00:56:58.895
+like you're not going to lose your Bitcoin because of a developer mistake in Mugena,
+
+530
+00:56:58.895 --> 00:57:02.335
+he did point out things like we want to ensure that
+
+531
+00:57:02.655 --> 00:57:11.290
+something isn't overlooked in Mugena that winds up like making a miner catch on fire and burning someone's house down, for example.
+
+532
+00:57:11.450 --> 00:57:29.345
+So I just, I thought that was really mature and like forward looking of Ryan to be thinking about it that way. But yeah, it was, that was the first dev call that I've been on. I will be joining those every other Monday now because I've gotten my schedule all figured out. I'm adulting, as they say.
+
+533
+00:57:29.985 --> 00:57:30.225
+So
+
+534
+00:57:32.480 --> 00:57:45.520
+Careful. Yeah, but yeah, it was a great call and I look forward to doing those more often and I hope that just keeps growing and we get more people in there. It's a great point, Iko, like with agentic coding tools and building off of the OSMU
+
+535
+00:57:45.520 --> 00:57:45.920
+<v Unknown> community,
+
+536
+00:57:46.425 --> 00:57:49.785
+A lot of folks are starting to make their own custom firmwares,
+
+537
+00:57:49.785 --> 00:57:51.465
+custom UIs,
+
+538
+00:57:51.465 --> 00:58:11.260
+custom features for whatever they're hacking on, which is awesome. And what the Mugena dev calls allow you to do is it's a much slower process, but really try to architect this a proper way such that we have a community project that can be applied to hundreds of mining systems and last in perpetuity as we build on top of it. And there's
+
+539
+00:58:11.260 --> 00:58:11.820
+<v Unknown> kind of
+
+540
+00:58:12.575 --> 00:58:15.615
+a part of the Dev Call, which is really neat too,
+
+541
+00:58:15.934 --> 00:58:18.974
+which is just like show and tell. Like people, what
+
+542
+00:58:19.375 --> 00:58:35.970
+are you even hacking on? What are you stoked on? And that's really neat too. I think that's inspiring for everyone involved, you know, whether it gets immediately merged or not. It's just cool to hear what people are doing and building on. Shouldn't there be 9,000 OSMU guys on this call? We should probably hype this more on OSMU.
+
+543
+00:58:36.130 --> 00:58:43.935
+<v Unknown> Yeah. Do you guys wanna share what Adi shared in the dev call today? What he did with Mugena? Yeah. Yeah. So
+
+544
+00:58:44.255 --> 00:58:45.935
+<v Unknown> Adi is a badass,
+
+545
+00:58:46.015 --> 00:58:48.415
+first of all, but he has
+
+546
+00:58:48.575 --> 00:58:56.790
+well, he he shared two things. One is he did some work into the brains mini miner and got some information, some technical information from the manufacturer to
+
+547
+00:58:56.790 --> 00:58:58.390
+start getting Mugena
+
+548
+00:58:58.630 --> 00:59:07.190
+built and running on that. But then the second update was that he got Mugena running on the Kanan Nano three s
+
+549
+00:59:07.430 --> 00:59:18.795
+Mhmm. Which is really cool. It's a closed source miner. It's not really documented at all, so there's a big reverse engineering lift to get that working. And it sounds like he's got it working
+
+550
+00:59:19.035 --> 00:59:25.755
+sort of a proof of concept way, but he has Mugena loaded on the device and is mining to the Canon a six in there,
+
+551
+00:59:26.410 --> 00:59:28.250
+which is really cool to see.
+
+552
+00:59:29.370 --> 00:59:37.770
+This is what we want lots of people to be doing is unlocking new machines and to get open source firmware up and running on there and contribute all that knowledge back to
+
+553
+00:59:38.345 --> 00:59:48.424
+the project and the general minor development community. So yeah, shout out to Adi. That's really neat. Yeah. And that's exactly the kind of behavior and development GPL
+
+554
+00:59:48.424 --> 00:59:49.305
+<v Unknown> encourages
+
+555
+00:59:49.305 --> 00:59:51.625
+unlike MIT
+
+556
+00:59:50.960 --> 00:59:55.599
+<v Unknown> Commons Clause, so Yeah, and like a real community project, right, that
+
+557
+00:59:56.480 --> 01:00:02.480
+strives to not just throw the code over the wall when it's done, but like Yes. Get the community involved
+
+558
+01:00:02.480 --> 01:00:04.160
+in it, and like, you
+
+559
+01:00:04.480 --> 01:00:10.125
+can take this, you can get help, you can, you know. Yeah, want to make that clear. Mugena,
+
+560
+01:00:10.125 --> 01:00:12.045
+<v Unknown> number one, LibreBoard, Hydropool,
+
+561
+01:00:12.045 --> 01:00:27.550
+we don't own those projects. Those are open source community projects. We can't stop anyone. We want to encourage everyone to contribute, poke around, help maintain and push those forward. We deem them as critically important projects that we fund maintainers to develop and build on,
+
+562
+01:00:27.869 --> 01:00:33.665
+but that's not to stop anyone else from joining the fun. Exactly. Well said. And it's definitely fun.
+
+563
+01:00:34.145 --> 01:00:35.105
+<v Unknown> It is cool.
+
+564
+01:00:35.345 --> 01:00:41.025
+Well, that's wrap there for this week you guys, and we'll come back next week for episode 123.
+
+565
+01:00:41.025 --> 01:00:46.225
+All right. All right, awesome guys. Thanks all. Stay safe. Get your coins off of the cold cards people. Now.
+

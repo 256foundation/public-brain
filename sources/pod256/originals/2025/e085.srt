@@ -1,0 +1,1444 @@
+1
+00:00:03,840 --> 00:00:04,340
+Unknown: Okay.
+
+2
+00:00:04,720 --> 00:00:05,620
+Going live,
+
+3
+00:00:05,920 --> 00:00:07,520
+pod 256
+
+4
+00:00:07,520 --> 00:00:09,139
+from Dalton, Georgia.
+
+5
+00:00:10,320 --> 00:00:14,179
+We've got Rod confirming that everything sounds good.
+
+6
+00:00:14,555 --> 00:00:18,895
+Yo. What up, Rod? Can you hear us? Can you hear us, Rod? How do we sound?
+
+7
+00:00:19,355 --> 00:00:20,575
+Is this thing on?
+
+8
+00:00:23,755 --> 00:00:25,215
+How was your day, Scott?
+
+9
+00:00:26,154 --> 00:00:30,335
+Unknown: Pretty good. Pretty good. As far as days go, this one is, is right up there.
+
+10
+00:00:31,010 --> 00:00:35,750
+Turns out, this is a cool spot. Some cool folks. Some cool technology.
+
+11
+00:00:37,090 --> 00:00:37,830
+Unknown: We're good?
+
+12
+00:00:38,210 --> 00:00:39,670
+Alright. Yeah. We're good.
+
+13
+00:00:49,195 --> 00:00:49,855
+Unknown: -Let's go.
+
+14
+00:00:50,955 --> 00:00:53,135
+Tyler, come here. Sit down. -Tyler.
+
+15
+00:00:53,755 --> 00:00:55,135
+-Let me grab somebody.
+
+16
+00:00:58,809 --> 00:01:00,109
+I'll grab them in a second.
+
+17
+00:01:00,730 --> 00:01:02,109
+First, you wanna come here?
+
+18
+00:01:03,449 --> 00:01:04,990
+Okay. Good. He's coming.
+
+19
+00:01:06,649 --> 00:01:07,149
+Guys.
+
+20
+00:01:07,689 --> 00:01:08,189
+Dudes.
+
+21
+00:01:08,649 --> 00:01:11,710
+Dudes. Dudes. We're back. We are back.
+
+22
+00:01:12,250 --> 00:01:13,995
+Do you have fun today, Scott?
+
+23
+00:01:15,095 --> 00:01:15,595
+Unknown: Yes.
+
+24
+00:01:16,055 --> 00:01:18,715
+Officially. Officially. This is a pretty fantastic
+
+25
+00:01:19,015 --> 00:01:19,515
+spot.
+
+26
+00:01:19,815 --> 00:01:21,354
+Yeah. It's pretty nice.
+
+27
+00:01:21,735 --> 00:01:23,994
+Some pretty fantastic people. Yeah.
+
+28
+00:01:24,695 --> 00:01:29,270
+And some cool stuff being talked about. You know, Bitcoin. I don't know if you heard of it. It's pretty cool.
+
+29
+00:01:29,570 --> 00:01:30,470
+Bitcoin mining
+
+30
+00:01:31,250 --> 00:01:31,750
+likes
+
+31
+00:01:32,770 --> 00:01:33,829
+three gate tastes.
+
+32
+00:01:34,369 --> 00:01:34,869
+So,
+
+33
+00:01:36,770 --> 00:01:38,789
+Unknown: we're gonna jump right into all of this.
+
+34
+00:01:39,170 --> 00:01:46,055
+I wanna talk about your excitement levels. I wanna talk about also what it to come. Like, what may be missed as well,
+
+35
+00:01:46,515 --> 00:01:58,930
+or what are the opportunities ahead. But I just wanna say, Proto, thank you guys for having us. This has just been freaking phenomenal. Iko, how you feeling? I feel great. I think these guys knocked it out of the park.
+
+36
+00:01:59,409 --> 00:02:00,150
+Unknown: They got
+
+37
+00:02:00,689 --> 00:02:01,670
+the right place.
+
+38
+00:02:02,049 --> 00:02:03,670
+They got the right partners.
+
+39
+00:02:04,369 --> 00:02:08,150
+They curated an amazing guest list. There's a lot of familiar
+
+40
+00:02:08,805 --> 00:02:11,545
+faces here, a lot of friends I haven't seen in a while.
+
+41
+00:02:13,685 --> 00:02:18,425
+They just knocked it out of the park. It just, like, everything around the announcement itself.
+
+42
+00:02:18,725 --> 00:02:24,800
+And then you get to, like, what was actually announced in the hardware Yeah. Yeah. That they presented today. And it was just
+
+43
+00:02:26,000 --> 00:02:29,540
+for for me, it was really validating to see them incorporating
+
+44
+00:02:29,840 --> 00:02:33,459
+things that we've been trying to do with the two fifty six foundation
+
+45
+00:02:33,920 --> 00:02:35,220
+in our design process.
+
+46
+00:02:35,695 --> 00:02:37,875
+So for example, like the hot swappable
+
+47
+00:02:38,255 --> 00:02:39,315
+Yep. Hash boards,
+
+48
+00:02:40,415 --> 00:02:41,715
+using standardized
+
+49
+00:02:42,255 --> 00:02:46,835
+systems so that everything's easier to maintain, to minimize downtime. It's just
+
+50
+00:02:47,135 --> 00:02:56,700
+it's great to see that we're not the only ones who recognize that these are real issues for people using this stuff day in, day out. And it's,
+
+51
+00:02:58,300 --> 00:03:15,545
+it's amazing to see, like, what a really well funded company with the resources can do With focus. Yeah. With focus and, like, with their design teams and what they can come up with. And, like, comparing that to, like, what we're doing with the two fifty six foundation and, like, a team of four developers,
+
+52
+00:03:16,165 --> 00:03:20,170
+like, just, you know, trying to piece meal this stuff together. And it's,
+
+53
+00:03:20,870 --> 00:03:27,530
+Unknown: I just love it. It's just such a great Yeah. I'm gonna come back to that thread because I think the team is really important.
+
+54
+00:03:27,910 --> 00:03:32,090
+Unknown: What about you, Tyler? How did you think? I agree. I mean, it was epic to see
+
+55
+00:03:32,864 --> 00:03:34,965
+focus on not necessarily
+
+56
+00:03:35,345 --> 00:03:41,605
+the spec sheet and the bean counters, but the real life Bitcoin mining operators. Like, they waited to hear all those guys' problems
+
+57
+00:03:41,905 --> 00:03:49,939
+and came out swinging with the hardware to address a lot of it and really shake up the game. It was just cool. And then the event and experience has been flawless. We've been taking notes.
+
+58
+00:03:50,239 --> 00:04:09,495
+Unknown: Dude, because, like, the thing with, like, like, Bitmain's amp miners, for example, like Yeah. They just design it however they want, and then they drop it on the market, and they're like, here you go. We got 90% of the market share. So if you don't like it, go screw yourself. There's nothing you can do about it. And you and there's, like, all these stupid problems. Like, the PSU
+
+59
+00:04:09,795 --> 00:04:13,575
+isn't even with the chassis and the minor, so it leaves all these air gaps.
+
+60
+00:04:13,970 --> 00:04:15,270
+And it's like this,
+
+61
+00:04:16,210 --> 00:04:18,390
+the rig is like a square profile,
+
+62
+00:04:18,930 --> 00:04:22,390
+so there's like no stupid gaps. Everything is, like, easily
+
+63
+00:04:22,770 --> 00:04:27,345
+unclipped. You don't need any tools to do any maintenance on it. I feel like
+
+64
+00:04:27,825 --> 00:04:41,285
+Unknown: they're they're addressing some of the really important things in mining, which is all the rest of the stuff besides the ASIC. Right? The the chip itself, you know, Fitment is quite good at that, but there's more to mining than that. Right? Like, with just the chip, with just the highest efficiency, highest
+
+65
+00:04:41,919 --> 00:04:44,900
+efficiency, highest hash rate chip, you still don't have
+
+66
+00:04:45,360 --> 00:04:49,940
+a good way to mine Bitcoin. And I think that that's really cool to see people addressing,
+
+67
+00:04:50,319 --> 00:04:58,605
+like, the whole rest of the stack here in mining and and making it it workable and actually addressing some of the issues that people are seeing with that.
+
+68
+00:04:59,305 --> 00:05:08,125
+Unknown: This this is a very exciting trend in my opinion. You see, that was the thing. When Thomas got up there and was, like, we went around for, like, almost a year plus
+
+69
+00:05:08,505 --> 00:05:09,565
+talking with miners,
+
+70
+00:05:10,300 --> 00:05:11,520
+like watching them,
+
+71
+00:05:11,820 --> 00:05:13,759
+like experiencing the pain
+
+72
+00:05:14,220 --> 00:05:15,360
+points and then solving
+
+73
+00:05:15,660 --> 00:05:26,785
+for that and making it better. I mean, you've been talking with them for a good bit too, you know, across the board. Like, they're hearing from the entire community, not just the enterprise,
+
+74
+00:05:27,645 --> 00:05:41,150
+you know, big scale miners. They're hearing from the Wilson mining folks out in, you know, Bumble, wherever, Iowa, to the heat punks down in, you know, Denver to the BitX guys to everybody. It's just been so phenomenal.
+
+75
+00:05:41,930 --> 00:05:43,949
+Unknown: It really has. It really has. I mean,
+
+76
+00:05:44,409 --> 00:05:46,750
+to their, like, massive credit, I mean,
+
+77
+00:05:47,289 --> 00:05:48,349
+they called me.
+
+78
+00:05:48,995 --> 00:06:13,599
+Like, who am I? They were They were like, hello? Hold on a second. Yeah. Really good. Like, did you get the wrong number? But, no. Huge shout out to to Perry. Yeah. Like, just, like, really they're they're into this. They're really into this. And, to to get a chance to talk with these guys about how this stuff works and, like, you know, how we see it moving forward in a in a decentralized way that can benefit Bitcoin, can,
+
+79
+00:06:13,979 --> 00:06:21,025
+you know, benefit these other use cases for Bitcoin mining. Just to even have that, like, attention at all is is,
+
+80
+00:06:21,805 --> 00:06:23,985
+it brings a tear to my eye. It's actually fantastic.
+
+81
+00:06:25,005 --> 00:06:32,385
+Unknown: Because we're not getting that from anyone else. I know. Well, when you were at the Bitmain launch events from, you know, 2010 till, or no. I'm just joking.
+
+82
+00:06:34,730 --> 00:06:38,030
+Unknown: So, okay. It means it it goes at all the bit man events. Right?
+
+83
+00:06:38,410 --> 00:06:41,230
+Unknown: I I love them. Yeah. Yeah. So good. So good.
+
+84
+00:06:41,850 --> 00:06:43,550
+So They got really good sushi.
+
+85
+00:06:44,090 --> 00:06:45,070
+Unknown: You so what?
+
+86
+00:06:46,090 --> 00:06:46,910
+So what?
+
+87
+00:06:47,770 --> 00:06:48,795
+Unknown: I got sushi at those?
+
+88
+00:07:03,020 --> 00:07:12,240
+Unknown: And see some of the pics, see some of the videos from today. And maybe explain a little bit more about the industrial design and as well as Tyler and Eco just jump in. And why
+
+89
+00:07:13,340 --> 00:07:16,560
+the uniqueness of the way they're thinking about this or, like, replaceable
+
+90
+00:07:16,860 --> 00:07:17,360
+dashboards
+
+91
+00:07:17,685 --> 00:07:18,905
+makes a ton of sense.
+
+92
+00:07:19,605 --> 00:07:26,985
+Unknown: Yeah. Absolutely. I mean, what we what we have with, some of the existing miners is it it really just seems like a haphazard
+
+93
+00:07:27,365 --> 00:07:30,025
+wrapper around the ASICs. Like, they made some good ASICs,
+
+94
+00:07:31,310 --> 00:07:48,035
+the chips themselves. And the rest is just like a an afterthought, like a wrapper around it. And that's that's really not what I'm seeing here. It's like, there's a lot of thought put into the rest of the thing. Everything from, you know, the enclosure, the fans, the the firmware. Oh, my gosh. The firmware. Like,
+
+95
+00:07:48,815 --> 00:07:50,195
+Bitmain's firmware sucks.
+
+96
+00:07:50,575 --> 00:07:52,915
+It's terrible. Like, it's totally an afterthought.
+
+97
+00:07:53,455 --> 00:07:56,115
+And to see thinking about the the holistic
+
+98
+00:07:56,729 --> 00:08:00,830
+approach to it and, the people are gonna have to use this. And, I mean,
+
+99
+00:08:01,289 --> 00:08:09,825
+actually, you know, going after the, efficiency gains there. Right? Because, you know, there's the there's the sort of, like, nameplate efficiency on the ASICs.
+
+100
+00:08:10,785 --> 00:08:13,445
+But, like I said, that's not all there is to it. There's
+
+101
+00:08:13,985 --> 00:08:15,925
+how long it takes you to replace things,
+
+102
+00:08:16,705 --> 00:08:28,210
+you know, how much it costs for the infrastructure, how much it costs for the racks to put these up there. Like, you know, how long it takes for the guys on the lift up at the top of this giant rack to swap things out. I I've talked with lots of,
+
+103
+00:08:29,170 --> 00:08:33,270
+you know, minor repairmen who travel the world fixing these things. And,
+
+104
+00:08:34,610 --> 00:08:40,464
+they're they're suffering under the current regime. These guys going out there, they they're like a roving band
+
+105
+00:08:40,845 --> 00:08:42,464
+of dudes who have, like,
+
+106
+00:08:42,845 --> 00:08:44,305
+essentially reverse engineered
+
+107
+00:08:44,685 --> 00:08:45,745
+how these things work
+
+108
+00:08:46,125 --> 00:08:54,020
+to go be of service to these minds that are, you know, billion dollar investments in these machines. And so, to see someone who's like, okay, you know, we can make this better.
+
+109
+00:08:54,960 --> 00:09:07,145
+We can we can attack some of these things is fantastic. So, you know, like you're saying, they have Just just to have, like, a a square enclosure, you know, because it's meant to be stacked up on these racks. Just to have a square enclosure,
+
+110
+00:09:07,845 --> 00:09:15,625
+it's really kinda neat because the, all of the components, the the fans clip off, the hash boards are removable, the power supplies swap out,
+
+111
+00:09:16,404 --> 00:09:17,730
+all from the cold side.
+
+112
+00:09:18,930 --> 00:09:27,589
+That Oh, that's a really good point. I even totally forgot about it. We were on the cold aisle. We were on the cold aisle, which is a dramatically better place to be Yes. Than on the hot side.
+
+113
+00:09:28,050 --> 00:09:30,550
+The hot side, it turns out, is very hot.
+
+114
+00:09:31,035 --> 00:09:41,774
+And so to be able to do all of that from some sort of the the, the more pleasant end where you have all your network connections, where you have your power connections to be able to get at those fans, swap these things out, which apparently,
+
+115
+00:09:42,075 --> 00:09:49,290
+I'm told you can do while it's still plugged in and running Yeah. By the way. Fantastic. They even have it. It's really cool. They've got a, a little,
+
+116
+00:09:50,010 --> 00:10:23,550
+seven segment, like, LED display on there Right. That shows you an error code. We were standing in the facility. I was looking up and, like, oh, man. That one's got an error. Right? So it's like, you come into this spot and you're like, our our diagnostic tools are telling you, you know, a machine Yeah. 52 b's got an error. Right? But you're like, oh, shit. Which one is that? But this is like, oh, no. You can see it. It's up there. It's got error three. Like, here we go. Let's fix it. Well, I was just gonna say, so a 100% on that front. It was awesome to see them in the wild too. You say you see these product announcements, like, oh, just don't plug that in right now.
+
+117
+00:10:24,009 --> 00:10:41,565
+Unknown: Two more weeks and it'll be working just fine. Just dream, guys. Dream. But it was really fun to see them, like, the whole thing working. And then I I I we'll get to the software side. But you wanna add anything else? Well, I mean, just let's just walk through what's possible now in an example because we brought up the Wilson Mining guys. So for hosting,
+
+118
+00:10:42,060 --> 00:10:44,160
+Unknown: if if the whole container, the the
+
+119
+00:10:44,780 --> 00:10:46,160
+rig is part of the infrastructure,
+
+120
+00:10:46,780 --> 00:10:57,965
+when you're selling a miner to a client that wants to mine but can't do it at home with a hosted miner, I'm not paying to to rent or host the aluminum shell. Pardon. I want the ASIC chip.
+
+121
+00:10:58,345 --> 00:11:01,405
+And so, the hosting companies are hosting hash boards now.
+
+122
+00:11:02,105 --> 00:11:10,765
+Unknown: That's that's a fantastic development too. Because that, you know, that's what counts as far as hash rate. That's also what breaks. So, you know, you can you can focus on,
+
+123
+00:11:11,279 --> 00:11:13,459
+on what was important, I guess.
+
+124
+00:11:14,000 --> 00:11:22,019
+Unknown: Yeah. I I really like this idea having the chassis stay. And they mentioned during the product announcement that the chassis is powder coated
+
+125
+00:11:22,560 --> 00:11:31,365
+because they wanted it to be as resistant to corrosion as possible because the intent is to keep that as long as possible and not be replacing the chassis
+
+126
+00:11:31,745 --> 00:11:40,005
+and just replacing those those dashboards, those power supply units as they go down. So I just thought there's a lot of, like, forethought into that
+
+127
+00:11:40,400 --> 00:11:43,060
+into actually using it and how these things are
+
+128
+00:11:43,760 --> 00:11:47,780
+are really what what these things are really up against out in the field.
+
+129
+00:11:49,120 --> 00:11:52,500
+Unknown: Yeah. So we Scott alluded to the current infrastructure,
+
+130
+00:11:53,455 --> 00:11:59,235
+swapping those out and being better. Now, what I'm I was also thinking about, like, what about net new infrastructure?
+
+131
+00:11:59,935 --> 00:12:00,835
+People designing,
+
+132
+00:12:01,295 --> 00:12:01,795
+getting
+
+133
+00:12:02,255 --> 00:12:11,779
+thinking about this, like, the way that a proto rig has been designed, they can rethink their CapEx on infrastructure development as well. So that could be really interesting.
+
+134
+00:12:12,399 --> 00:12:14,180
+They also did software too.
+
+135
+00:12:14,560 --> 00:12:15,459
+Proto fleet.
+
+136
+00:12:16,320 --> 00:12:23,335
+Unknown: I'm actually most excited about that. Why are you so most excited about that? Well, I'm wearing a heat pump t shirt. But Well, what's heat pump? So
+
+137
+00:12:23,795 --> 00:12:26,135
+the proto fleet fleet management software,
+
+138
+00:12:27,555 --> 00:12:33,095
+something that you can manage all your rigs online. You can see hash rate. You can get diagnostics. That's been around. It's been done before.
+
+139
+00:12:33,779 --> 00:12:35,959
+But because of this full stack,
+
+140
+00:12:36,420 --> 00:12:40,120
+they have the ability and the open access and the APIs and the documentation
+
+141
+00:12:41,220 --> 00:12:42,040
+to include
+
+142
+00:12:42,420 --> 00:12:46,279
+very unique notifications that didn't exist when you're working with a partner,
+
+143
+00:12:46,595 --> 00:13:01,015
+not even a partner, the bit mains of the world, that aren't willing to work with you. Yeah. And so it really highlighted what's possible when you have a company committed to helping the end user. And then as it's related to my heat pump shirt, I just started getting crazy ideas like
+
+144
+00:13:01,420 --> 00:13:04,480
+notifications to text to go service water heaters,
+
+145
+00:13:05,180 --> 00:13:17,265
+when they sent hash rates down. I mean, I saw it right there. I had the vision in my eyes. So fleet is very cool. They've open sourced it. I'm excited to take a look. Is it is it open source right now or is it still in closed beta?
+
+146
+00:13:17,725 --> 00:13:30,945
+Unknown: It's closed beta right now. Correct. But they've committed open source. Okay. Got it. And just to let's touch on that to distinguish between fleet and the firmware that's running on the miner. Yeah. Oh, you didn't wanna talk about open source and those principles and discuss
+
+147
+00:13:31,440 --> 00:13:34,100
+Unknown: open source and what the difference is? No.
+
+148
+00:13:35,360 --> 00:13:38,580
+Unknown: I think I think there's enough of that going on on Twitter.
+
+149
+00:13:40,000 --> 00:13:49,855
+But no, I just wanted to clarify, you know, the the firmware that's running on the miner is a little bit different than the fleet management software that was presented
+
+150
+00:13:50,395 --> 00:13:51,855
+at the announcement.
+
+151
+00:13:52,555 --> 00:13:59,295
+And the intention is that all of that is gonna get open source, but it's in staggered stages. So,
+
+152
+00:14:00,155 --> 00:14:01,535
+we will see the fleet
+
+153
+00:14:02,000 --> 00:14:09,060
+open sources going it's in closed beta right now. That will be open source soon, and then the firmware will be in close to follow. Marty.
+
+154
+00:14:10,320 --> 00:14:12,980
+Unknown: I'm trying to get Marty up here. Hey, Marty. Marty.
+
+155
+00:14:13,360 --> 00:14:15,860
+Marty, Ben. Come here. You're coming. Come here.
+
+156
+00:14:16,935 --> 00:14:18,634
+Brad, come here. Sit down.
+
+157
+00:14:19,175 --> 00:14:24,235
+Come on. Both of you guys. Alright. We're calling up Marty Ben and No. Brad Cuddy.
+
+158
+00:14:24,694 --> 00:14:28,634
+The professional Welcome. And the mister the most Riz in Bitcoin,
+
+159
+00:14:29,030 --> 00:14:30,490
+Brad Cutting. The most
+
+160
+00:14:31,030 --> 00:14:49,635
+The most no. That's good. You wouldn't even need it. I am but That's more about. Professional. He knows how to actually speak into the mic. Anybody getting trying to get raised up here? Dude, he goes I can we're gonna go on a complete tangent right now. Tangent. He's got his Did you see that on, Jack posted a tweet with his perfectly timed, his,
+
+161
+00:14:50,055 --> 00:14:55,235
+name tag in the tweet with his hand on his wrist or, his hip
+
+162
+00:14:55,615 --> 00:14:57,475
+with his awesome shirt.
+
+163
+00:14:58,760 --> 00:15:01,580
+Unknown: The most recent bitcoin. Vintage find, you know, for sure.
+
+164
+00:15:02,120 --> 00:15:04,700
+Unknown: Good to see you guys. It's good to see you guys. Dude,
+
+165
+00:15:05,480 --> 00:15:07,660
+scale one to 10. How excited are you from today's,
+
+166
+00:15:08,520 --> 00:15:10,380
+Unknown: announcement? 256.
+
+167
+00:15:10,535 --> 00:15:11,415
+Unknown: 256.
+
+168
+00:15:11,415 --> 00:15:18,635
+Yeah. Winner winner chicken dinner. He is higher. So so out of all the announcements today, like maybe like what's one or two highlights, Marty?
+
+169
+00:15:20,535 --> 00:15:25,915
+Unknown: I'd be I'd be more interested to get your guys thoughts on this. But I think the hash boards being able to take them out.
+
+170
+00:15:26,620 --> 00:15:32,879
+Modularity, everybody's been asking for that. But Fleet too. Like, I think Fleet, like, just being able
+
+171
+00:15:33,339 --> 00:15:38,720
+to set up a software and actually know what your miners are doing, know exactly what's wrong with them.
+
+172
+00:15:39,339 --> 00:15:41,439
+Like, if you're particularly, like,
+
+173
+00:15:42,125 --> 00:15:42,945
+the mine
+
+174
+00:15:43,325 --> 00:15:45,185
+my personal miners are off grid,
+
+175
+00:15:45,645 --> 00:15:46,145
+distributed,
+
+176
+00:15:46,925 --> 00:15:52,945
+and we run What's Miners, and What's Miners, I love them. Tanks, beautiful.
+
+177
+00:15:53,645 --> 00:15:56,865
+But interacting with their software is miserable. And
+
+178
+00:15:57,339 --> 00:16:05,600
+if you just like being able to have a phone app where it's like, alright, I know exactly what's wrong, I know what's happening with each miner, it's like Totally. Particularly for all their distribution.
+
+179
+00:16:06,140 --> 00:16:06,640
+Unknown: Yeah.
+
+180
+00:16:07,020 --> 00:16:08,640
+That's actually a really good point.
+
+181
+00:16:09,020 --> 00:16:25,285
+So competition is such a beautiful thing. So, like, if you're a micro b t or you're even bit main, you're like, oh, shit. We actually now need to step our game up because there is now is another entrant. Well, that was the crazy thing too. Like, the software actually helps micro b t and and minor customers. It's like,
+
+182
+00:16:26,050 --> 00:16:32,069
+Unknown: you you can actually, like, you can download the software manager, What's Miners or amp minor.
+
+183
+00:16:33,009 --> 00:16:39,269
+Unknown: They should be thankful to a certain extent. Yeah. What do you what do you guys you're welcome, guys. What do you anticipate? Do you think the other
+
+184
+00:16:39,695 --> 00:16:42,435
+Unknown: manufacturers are gonna try and follow suit here or?
+
+185
+00:16:43,695 --> 00:16:55,630
+Unknown: Okay. Hot take, yes. I do think they will. I think actually, microBT and Bitmain will follow suit. But can they compete with the design prowess of a company like Block? Like What will be interesting is if
+
+186
+00:16:56,330 --> 00:17:03,150
+Unknown: you want all of the features of Fleet, MicroBT or Bitmain have to release more documentation and APIs and
+
+187
+00:17:03,529 --> 00:17:05,630
+actually commit to playing ball.
+
+188
+00:17:06,125 --> 00:17:09,505
+Unknown: Well, it's crazy. People Miner has been asking them, like, let us get the firmware,
+
+189
+00:17:09,805 --> 00:17:14,145
+update your your, like, software to make this easier. For literally, it
+
+190
+00:17:14,685 --> 00:17:19,290
+it baffles me that, like, you would not wanna make your clients happy that are spending
+
+191
+00:17:19,670 --> 00:17:26,650
+Unknown: millions, in many cases, tens, hundreds of millions of dollars. Buy this and buy our next fleet. That'll come out in two years. That, like, well, that's
+
+192
+00:17:27,110 --> 00:17:32,890
+Unknown: that is, like, it will be interesting to see how form factor if they feel pressure to compete with the chassis, like,
+
+193
+00:17:33,195 --> 00:17:35,294
+removable hash board model because that
+
+194
+00:17:35,595 --> 00:17:39,215
+may be the sneaky biggest threat to them is like, I just buy this chassis.
+
+195
+00:17:39,515 --> 00:17:41,054
+I replace the hash boards
+
+196
+00:17:41,914 --> 00:17:46,809
+and the fans, the PSUs every once in a while. But it's like plug like, it's like,
+
+197
+00:17:47,610 --> 00:17:50,110
+humans, you know. Our blood cells regenerate.
+
+198
+00:17:50,809 --> 00:17:56,270
+We don't we don't have this we don't have the same blood in us as we did when we were first born. Like, you can see these ring machines,
+
+199
+00:17:56,650 --> 00:17:57,870
+like, first you replace
+
+200
+00:17:58,385 --> 00:17:59,125
+the PSU.
+
+201
+00:17:59,425 --> 00:18:06,405
+Yeah. You still have the original fan and the chassis. Then you've replaced the hash boards and, like, it's sort of like a regenerating
+
+202
+00:18:06,945 --> 00:18:07,445
+machine.
+
+203
+00:18:08,145 --> 00:18:14,190
+In ten years, no parts will be the same. But over the course of it, you'll have bits and pieces of the original.
+
+204
+00:18:15,610 --> 00:18:18,190
+Unknown: So someone who racks and stacks for a living,
+
+205
+00:18:19,130 --> 00:18:25,550
+what are your thoughts from today's announcement? And what are, like, some of the big takeaways for you personally for Choya potentially implementing?
+
+206
+00:18:26,355 --> 00:18:30,535
+Unknown: Yeah. I mean, if I never give another cent to Bitmain, I will be a very happy man.
+
+207
+00:18:31,475 --> 00:18:33,495
+What I'd like that is that they
+
+208
+00:18:34,035 --> 00:18:42,500
+bought outside the box, but still within the confines of what 80% of the market is. S nineteen's are ubiquitous, s 20 one's are ubiquitous,
+
+209
+00:18:42,960 --> 00:18:43,860
+how can they
+
+210
+00:18:44,240 --> 00:18:47,700
+reinvent, reimagine what an a six server is gonna be
+
+211
+00:18:48,080 --> 00:18:50,419
+without, like, without making retrofits
+
+212
+00:18:51,200 --> 00:18:52,419
+Unknown: have to be, like,
+
+213
+00:18:53,135 --> 00:18:58,675
+Unknown: without have a major retrofits for the entire facility, like, that's a that's a big hurdle, that's a lot of friction,
+
+214
+00:18:58,975 --> 00:19:05,875
+that's a big thing to, you know, get across to your operations team, admit that, like, what they did was
+
+215
+00:19:06,580 --> 00:19:18,280
+really smart in making it completely swappable like two s nineteen's or two s 20 one's is the same form factor as one of the, proto rigs. So I just think really smart design decisions that
+
+216
+00:19:18,660 --> 00:19:20,265
+makes it easy, like,
+
+217
+00:19:20,745 --> 00:19:23,405
+the hurdle rate is really low to to get across.
+
+218
+00:19:24,505 --> 00:19:25,725
+Yeah. Hash rate density.
+
+219
+00:19:26,025 --> 00:19:27,965
+Unknown: Right. In the in the form factor.
+
+220
+00:19:28,265 --> 00:19:29,785
+Unknown: Yeah. I think it was something like,
+
+221
+00:19:31,065 --> 00:19:34,525
+the the rig takes up the space of two ant miners,
+
+222
+00:19:35,000 --> 00:19:37,180
+but produces the hash rate of
+
+223
+00:19:37,560 --> 00:19:38,700
+three ant liners.
+
+224
+00:19:39,480 --> 00:19:42,140
+So it's like more hash rate per square foot.
+
+225
+00:19:43,320 --> 00:20:05,130
+Unknown: Which could be a good thing or a bad thing based off your airflow design in your facility. If you're putting out more watts, like, we we can talk to the thermal engineer here. If you're if you're not designed for it, it it could introduce issues, but you just pull a board out, you put it in another chassis, and then you can have the the same wattage and the same density, if you want. Depends on what your your design is, but
+
+226
+00:20:05,430 --> 00:20:07,610
+it has the optionality and the functionality
+
+227
+00:20:08,230 --> 00:20:09,770
+to be what you need it to be.
+
+228
+00:20:11,430 --> 00:20:17,610
+Unknown: I also think it's cool, like, I wasn't sure we've heard commitment about chips from Proto, and supporting other projects,
+
+229
+00:20:18,365 --> 00:20:29,345
+but they had to come out with the full stack to have something to work. Right? And so part of me for a little bit was like, is this just their miner that they're releasing so that the chips can come out and be here?
+
+230
+00:20:29,725 --> 00:20:39,720
+But the whole stack up and what we've seen today from the presentation, I mean, they're here for the long game, it sounds. There's gonna be multi generations of hash boards that slot into this thing, and they're not going anywhere, which is cool.
+
+231
+00:20:40,260 --> 00:20:44,440
+Unknown: Well, I was gonna Matt and I were just talking about a rabbit hole recap. It's really interesting if you compare
+
+232
+00:20:45,220 --> 00:20:46,680
+this launch and this,
+
+233
+00:20:47,065 --> 00:20:56,205
+like, is probably the third or fourth time, like, somebody's really trying to compete with Bitmain specifically and now Bitmain and MicroBT. But I I was thinking back to the Dragonmint
+
+234
+00:20:56,665 --> 00:20:59,325
+in what was that? 2016, 2017.
+
+235
+00:21:00,259 --> 00:21:03,080
+And the efficiency gains from a jewels for Terahash
+
+236
+00:21:03,539 --> 00:21:07,480
+during that period were so big that by the time Dragonmint got to market,
+
+237
+00:21:07,940 --> 00:21:09,639
+it was already unprofitable.
+
+238
+00:21:10,100 --> 00:21:15,715
+And now, like, we're brushing up against the physical limits of jewels for Terahash. And even
+
+239
+00:21:16,095 --> 00:21:17,215
+though at 14.1,
+
+240
+00:21:17,215 --> 00:21:18,835
+Jules for Terahash is not
+
+241
+00:21:19,215 --> 00:21:23,235
+what Bitmain's has with our top of the line, 12 and a half or maybe even lower,
+
+242
+00:21:23,535 --> 00:21:26,755
+Jules for Terahash. It's still good enough to begin to compete.
+
+243
+00:21:28,039 --> 00:21:28,700
+Unknown: Yeah. I mean,
+
+244
+00:21:29,000 --> 00:21:34,539
+Bitmain is claiming for the s 23, which they're gonna release at the beginning of the year to be at, like, nine and a half.
+
+245
+00:21:34,840 --> 00:21:39,659
+So it's it's definitely a, it's definitely quite a bit less than that. But,
+
+246
+00:21:39,960 --> 00:21:43,659
+you know, I I was saying before you got here is that Bitmain makes really good chips,
+
+247
+00:21:44,014 --> 00:22:28,285
+and the rest of the machine is just garbage, like, especially the firmware. And so it's gonna be I think it's gonna be really exciting to see people who who've been in this business, who are doing this, and dealing with all the other shit that comes along with it to actually, like, start to value the efficiency gains that come from, like, you know, being able to swap this stuff out, having the reliability, having the control over it, you know, via the software that they need, and, like, the value that gets that gets assigned on that. I mean, it might not be sort of immediately obvious what that value is because it's, you know, it's not as easy to put in your spreadsheet, but, like, it's gonna be there. Yeah. Well, you don't know until you know. So we won't know until, like, five years from now or something like that. But, like, there's people who are are are suffering. There's minors who are suffering because of that, you know, the current situation.
+
+248
+00:22:28,810 --> 00:22:32,590
+So they're gonna they're gonna know that there's room for improvement there. I mean, I don't wanna
+
+249
+00:22:33,690 --> 00:22:39,310
+Unknown: denigrate the competitors. I know we're at a proto event, but I think it's all well known. Like, some we get a batch
+
+250
+00:22:39,770 --> 00:22:45,174
+of amp miner sometimes, like, 10 to 20% of them just, like, won't work or they'll burn out early.
+
+251
+00:22:45,554 --> 00:22:49,174
+Like, a lot of people today in the commentary of the release have been focused on the
+
+252
+00:22:49,475 --> 00:22:50,355
+14.1
+
+253
+00:22:50,355 --> 00:22:59,510
+jewels for terra ash. Like, it's not top of the line. It's like, there's a trade off. Like, yes, you can get eight and a half, 12 and a half jewels for Terrace and Bitmain. But what percentage of
+
+254
+00:22:59,890 --> 00:23:02,070
+the miners that you buy from them in a particular
+
+255
+00:23:02,450 --> 00:23:05,030
+purchase are actually gonna be bunk or have to be returned
+
+256
+00:23:05,410 --> 00:23:07,110
+in six months, nine months?
+
+257
+00:23:07,675 --> 00:23:17,775
+Unknown: But not not every miner is only solely focused on jewels for Tera Hash. Like, us at Cholla, we're like an a sick retirement home. We'll take your cheap dollar per Tera Hash machines
+
+258
+00:23:18,075 --> 00:23:21,100
+because we have cheap power and we can run them economically
+
+259
+00:23:21,640 --> 00:23:26,060
+into the ground whereas, like, if you're on a fixed power price at 6 or 7¢
+
+260
+00:23:26,120 --> 00:23:33,544
+maybe here anywhere else in The US, it doesn't work. So, like, what I'm really looking forward to is getting some proto rigs and then just opportunistically
+
+261
+00:23:34,164 --> 00:23:42,424
+picking up hash boards that are getting decommissioned, like, maybe put like, pre habbing when everyone's, like, okay, these aren't gonna work here anymore on my fixed price,
+
+262
+00:23:43,125 --> 00:23:52,540
+Unknown: send them to West Texas, we'll run them all day. This is what many people don't understand that are commenting on this right now. There is that market that you're describing is so underappreciated.
+
+263
+00:23:53,000 --> 00:23:53,500
+Like,
+
+264
+00:23:53,800 --> 00:23:55,980
+there are many different minor archetypes
+
+265
+00:23:56,280 --> 00:24:14,135
+Unknown: that will take a less efficient machine than a very low cost power, and there is like a massive part of the market that needs something like this. Yeah. Up uptime doesn't matter. Like, I I don't want 80 or I don't want a 100% uptime. I don't want 90%. If I have 80% uptime at $20 a megawatt hour,
+
+266
+00:24:14,450 --> 00:24:17,510
+the effective rate on that is still sub 3¢.
+
+267
+00:24:17,970 --> 00:24:25,990
+Unknown: Like, I'll take that all day. And then when Choi is done with them, the heat reuse market will take them, and it's a sunk cost, and they don't care.
+
+268
+00:24:26,895 --> 00:24:46,760
+Unknown: Seriously, like, Thomas, Max, Jennia deserve a round of applause. Look look what we just did. Like, we we have got some of the largest miners in the world in this room and this room is fucking packed right now. We connected all the dots. What's that? We connected all the dots. We connected all the dots. Thanks for fucking stealing my thunder again, Tyler. I bring you on the pod. I'm like, you know, trying to fucking do it all.
+
+269
+00:24:47,380 --> 00:25:07,429
+No, but no. All jokes aside, we're connecting all the dots all the way down to the p punks. You know, we got the West Texas Miners that are like, hey, we're your retirement home. We'll take it all the way here and all the way to heat reuse. It's really cool to see. They did you could easily focus on the big guys. They could take it out to golf and I mean, this is freaking phenomenal.
+
+270
+00:25:08,130 --> 00:25:09,830
+And they took us out here.
+
+271
+00:25:11,090 --> 00:25:17,590
+I'll speak for myself, nobody, and so on. And they opened it up to all of us. So I kudos to them for that.
+
+272
+00:25:20,595 --> 00:25:23,255
+And also us open source miners and BitX,
+
+273
+00:25:23,635 --> 00:25:26,135
+Unknown: folks as well. Yeah. I still can't believe we're here.
+
+274
+00:25:26,595 --> 00:25:43,300
+Unknown: I know. So, okay. Let's I do wanna touch on one thing which is the Mom, why why wouldn't you be here? No, no. Meaning like it's, we've been talking about this on pod two v six for a long time. Like, proto like, the the block coming in to save the day. Not in it shouldn't be like a save the day. We just need more competition
+
+275
+00:25:43,760 --> 00:25:57,525
+Unknown: in this market. It's crazy. It's like, oh my god. There's a third competitor in the market. It was so giddy right on a third competitor. I can't wait for the four, five, six, seven, eight, and then all of it. Like, I I mean, Ardoin's out there. There's other like, Gannon,
+
+276
+00:25:57,825 --> 00:25:58,325
+Avalon.
+
+277
+00:25:58,865 --> 00:26:00,805
+Unknown: But we need more. More MOAR,
+
+278
+00:26:01,345 --> 00:26:02,600
+more. And it's
+
+279
+00:26:03,059 --> 00:26:08,200
+it's fun to see someone like Jack and Thomas and Block with the resources that they have.
+
+280
+00:26:08,660 --> 00:26:15,700
+And we've gotten to know all of them really well and it's been awesome. The fact that they're this is actually one thing that Jack said to me when when he,
+
+281
+00:26:16,405 --> 00:26:17,385
+he's like, you know,
+
+282
+00:26:17,765 --> 00:26:23,465
+one of the things that Thomas mentioned on his keynote was like, oh, and you know, this guy, he's been here sixteen years.
+
+283
+00:26:24,165 --> 00:26:32,180
+This person's been here eleven years. He started at, Cash App. He started at Square. Now he's at Proto. Now he's at Bitkey. And I'm like, damn.
+
+284
+00:26:32,800 --> 00:26:37,860
+Like how like that's awesome, Jack, that you've kept all these guys to work on all these projects. He's like, you know, Rod,
+
+285
+00:26:38,480 --> 00:26:40,100
+obviously they weren't Bitcoiners,
+
+286
+00:26:40,480 --> 00:26:41,860
+but now they are Bitcoiners.
+
+287
+00:26:42,320 --> 00:26:44,740
+Now working on a mission, which is,
+
+288
+00:26:45,235 --> 00:26:51,414
+you know, with the proto and Bitkey and Cash App, which is really cool. And so there's got to be something said about the culture
+
+289
+00:26:51,875 --> 00:26:59,575
+out of an organization like this to give Thomas, Max, Jenny and all them the air coverage to be like, you know what? This is a big bet.
+
+290
+00:27:00,049 --> 00:27:11,270
+This is a multi year bet. I mean, Perry called you, I don't think a year, year and a half ago just to talk through an idea, which was like sketched out on a napkin, just to get your thoughts on it. And to say, you know what? We're gonna commit the resources.
+
+291
+00:27:11,809 --> 00:27:14,309
+I don't even know how much money goes into,
+
+292
+00:27:14,929 --> 00:27:17,725
+the the what do you call it? The printing of those,
+
+293
+00:27:18,125 --> 00:27:18,625
+ASICs.
+
+294
+00:27:18,925 --> 00:27:20,225
+Unknown: The, Just
+
+295
+00:27:20,685 --> 00:27:21,345
+an unfathomable
+
+296
+00:27:21,645 --> 00:27:29,990
+amount of money. It it is like, it takes a ridiculous amount of time and a ridiculous amount of money just to get started. Yeah. And there's no guarantee that it's even gonna
+
+297
+00:27:30,290 --> 00:27:33,430
+Unknown: work. Even gonna work. And the fact that they're like, hey, you got
+
+298
+00:27:33,970 --> 00:27:34,630
+the runway.
+
+299
+00:27:35,010 --> 00:27:41,750
+We believe in this team. Go and make it happen. And today is like, once it's not the milestone, it's a milestone.
+
+300
+00:27:42,210 --> 00:27:50,745
+Unknown: And I'm just excited to see, like, what comes what comes next. But look at the reaction. I mean, Marty, you tweeted today. This is where the signal is. Everyone on Twitter is
+
+301
+00:27:51,125 --> 00:27:56,205
+Unknown: obsessed with this launch. Secretary Basent said, that we only got 125,000,000.
+
+302
+00:27:56,205 --> 00:28:05,380
+Unknown: It's like, no. I mean, this week alone, in Riga, the Baltic County Badger Conference, you had, like, Arc behind the scenes, Mainnet live. People are spending lightning
+
+303
+00:28:05,920 --> 00:28:10,420
+thinking they were spending lightning, but it was being settled over the Arc network. You had eCash, Arc transactions.
+
+304
+00:28:10,960 --> 00:28:12,100
+You have this, like,
+
+305
+00:28:13,025 --> 00:28:35,179
+Unknown: the mainstream coverage. Even like within Bitcoin circle, everybody's horny about these treasury companies. It's like, come on. It really is interesting. Let's go on an amazing tangent right now. There's like two Bitcoin worlds right now. There's like the bitcoin builders that are building some of the coolest stuff. You nailed it with arc. Nailing like right here what we're building with all these people. Then there's like just these other conversations that are happening
+
+306
+00:28:35,640 --> 00:28:36,460
+around like
+
+307
+00:28:36,919 --> 00:28:54,475
+Unknown: It's just like treasury companies and like, you know, x y z. It's just like Have you guys looked at the we're in right now. Like, do you think Block cares about the M Nav? The premium to their M Nav? No. Like like, it's like, oh, we're out here building. But I don't wanna like there's a bunch of people at the treasury companies doing cool things.
+
+308
+00:28:54,890 --> 00:28:57,070
+Some of them, but others like,
+
+309
+00:28:58,490 --> 00:29:07,230
+Unknown: it's like, what are what are we here for? What are Yeah. This is the fun stuff. I I tweeted out the parable of the, Mexican fisherman, which I highly recommend.
+
+310
+00:29:08,045 --> 00:29:38,325
+Is this in the bible? It's not in the bible. Maybe it is. I don't know. But basically, the fisherman of TLDR is, there's beauty in enough, and go find your signal, go find your tribe, and find what you find enjoyment in life. And honestly, being around you guys, getting energized by what you guys could be potentially doing out in West Texas, what you could be doing with heat reuse, what you're building in a two fifty six foundation, what you're I mean, you're a publicly traded board member of a large publicly traded mining company by the way. Yeah. Amongst a million hats you're wearing.
+
+311
+00:29:39,345 --> 00:29:43,684
+It's just so fun. It's so so cool right now what we're doing. It was a fun day.
+
+312
+00:29:43,985 --> 00:29:46,245
+Unknown: Glad to be here with you gentlemen. Yeah. Yeah.
+
+313
+00:29:46,705 --> 00:29:47,525
+Unknown: Heck yeah.
+
+314
+00:29:48,705 --> 00:29:52,325
+Any closing thoughts before we let you guys go and mingle with other people?
+
+315
+00:29:53,320 --> 00:30:02,139
+Unknown: You know, I just think it's really inspiring seeing a lot of talented, sharp people working towards the future that they wanna see in the world. Right? Like, we're we're all here because
+
+316
+00:30:02,519 --> 00:30:06,154
+some way or another, we're we're involved with Bitcoin. We have a passion in it.
+
+317
+00:30:06,615 --> 00:30:15,755
+We've taken our individual skills and put our time and energy towards the change we wanna see. So, like, BTC being the change, like, I think it's so powerful.
+
+318
+00:30:16,294 --> 00:30:16,695
+And,
+
+319
+00:30:17,095 --> 00:30:23,750
+you know, I love the people that it's brought into my life. I love the opportunity support it. And, like, I, you know, I wouldn't imagine I'd been here
+
+320
+00:30:24,050 --> 00:30:27,030
+three years ago when I was working offshore in the Gulf Of Mexico,
+
+321
+00:30:27,410 --> 00:30:30,070
+shooting perforating guns, in deep water.
+
+322
+00:30:31,170 --> 00:30:32,870
+Unknown: I love it. Marty, how about you?
+
+323
+00:30:33,650 --> 00:30:39,495
+Unknown: It's a great day for Bitcoin. And I think, again, like we were just saying, this is where the signal's at.
+
+324
+00:30:39,955 --> 00:30:44,054
+And we should be very grateful. With that being said, the fight's not over. There's,
+
+325
+00:30:44,995 --> 00:30:54,940
+a lot of people are excited right now. Not only because what was announced today, but it it seems like the government may be pro Bitcoin, but in a certain way. Like, we need the freedom tech.
+
+326
+00:30:55,320 --> 00:30:57,420
+We need Bitcoin to be sufficiently distributed.
+
+327
+00:30:57,800 --> 00:31:05,774
+Today was a big step in the right direction for the mining layer, but there's still a lot of work to be done at the software layer, at the self sovereign custody layer.
+
+328
+00:31:06,154 --> 00:31:06,654
+And
+
+329
+00:31:08,154 --> 00:31:09,054
+take this win,
+
+330
+00:31:09,434 --> 00:31:11,774
+enjoy it, and then get back to work tomorrow.
+
+331
+00:31:12,394 --> 00:31:17,054
+Unknown: Let's go. Alright. Gentlemen, thank you so much for joining us. You guys are the best.
+
+332
+00:31:18,950 --> 00:31:22,730
+Dude, Marty Bent and Brad Cuddy, like the best. I know. Legends.
+
+333
+00:31:23,429 --> 00:31:28,149
+Do you think you guys still work for real too much? I'm gonna I'm gonna do my best. They're like
+
+334
+00:31:31,645 --> 00:31:36,385
+We got about ten more minutes though, and then then we can come back on one more time as well,
+
+335
+00:31:36,765 --> 00:31:37,985
+potentially as a nightcap
+
+336
+00:31:38,365 --> 00:31:39,424
+afterwards too.
+
+337
+00:31:40,605 --> 00:31:43,665
+We may. We may. Yeah. Keep the party going.
+
+338
+00:31:45,870 --> 00:31:50,050
+Go ahead, Tyler. It's getting rowdy in here. It's getting rowdy in here because there's a lot of people
+
+339
+00:31:50,510 --> 00:31:53,810
+and a lot of really good people. A lot of excitement. So so
+
+340
+00:31:54,350 --> 00:32:02,615
+that's another thing. Like, you honestly, I go think about it from a business side of view, point of view. You You know, you think you would just invite, like, your customers.
+
+341
+00:32:03,154 --> 00:32:07,174
+Although, they didn't even put, like, a price point, by the way, on this thing. Right?
+
+342
+00:32:09,075 --> 00:32:12,274
+No. So there there are pricing. $3.99.
+
+343
+00:32:12,274 --> 00:32:13,475
+Unknown: $3.99.
+
+344
+00:32:13,475 --> 00:32:14,490
+$9.09. $9.09.
+
+345
+00:32:14,890 --> 00:32:23,230
+Unknown: It's interesting. There are a few things that were missing from the announcement. What was missing from your point? So I didn't hear really any talk about the ASIC chip itself
+
+346
+00:32:24,250 --> 00:32:25,309
+and the price
+
+347
+00:32:25,770 --> 00:32:27,710
+of the unit. Or the firmware.
+
+348
+00:32:28,890 --> 00:32:33,525
+And then what else was the other one? Firmware. Oh, and then and then firmware wasn't mentioned,
+
+349
+00:32:34,225 --> 00:32:34,725
+but,
+
+350
+00:32:35,585 --> 00:32:38,005
+you know, the fleet management software was.
+
+351
+00:32:38,465 --> 00:32:39,284
+And the explanation,
+
+352
+00:32:41,505 --> 00:32:43,950
+I got a little lost, but it sounded like,
+
+353
+00:32:44,510 --> 00:32:53,090
+you know, because I asked if there if the if the firmware was separate from the fleet management software, and the answer was kind of like, well, it is technically, but it's like
+
+354
+00:32:53,950 --> 00:32:57,309
+they're related somehow. I I forget exactly how he phrased it, but
+
+355
+00:32:58,054 --> 00:33:01,895
+Unknown: yeah, we're we're lucky enough to have some side conversations about this. But,
+
+356
+00:33:02,855 --> 00:33:09,755
+you know, it it has a traditional firmware, and you can, like, type in the miner's IP address into your browser, and it it pulls up a dashboard.
+
+357
+00:33:10,135 --> 00:33:13,674
+But, I guess they actually even debated putting that even in there because
+
+358
+00:33:14,040 --> 00:33:15,100
+the fleet software
+
+359
+00:33:15,640 --> 00:33:18,140
+is so comprehensive and gives you sort of,
+
+360
+00:33:18,600 --> 00:33:26,540
+extra information, apparently, and, of course, can manage a whole fleet. So I think the the focus is really on that. And I think that makes sense. I mean,
+
+361
+00:33:26,840 --> 00:33:28,685
+we're not exactly running any mining
+

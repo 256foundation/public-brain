@@ -1,0 +1,2080 @@
+1
+00:00:00,000 --> 00:00:00,880
+Unknown: Welcome,
+
+2
+00:00:00,880 --> 00:00:02,240
+pod 256,
+
+3
+00:00:02,240 --> 00:00:03,520
+number 124,
+
+4
+00:00:03,520 --> 00:00:07,600
+August 17. Time stamp it. What's up dudes? Yowie.
+
+5
+00:00:08,480 --> 00:00:10,559
+It's pronounced balake,
+
+6
+00:00:10,559 --> 00:00:21,565
+not Blake. Lake, two b. We're gonna have to rename our foundation. Have you seen the Key and Peele video that I'm referencing? A ron? Yeah. A a ron. D nice. Raise
+
+7
+00:00:21,565 --> 00:00:22,845
+your hand, d nice.
+
+8
+00:00:24,605 --> 00:00:33,560
+Don't make me break my foot off in your ass. So coin join Chris put a video together with AI where he it superimposes
+
+9
+00:00:33,800 --> 00:00:43,080
+Luke Dash junior in the place of the substitute teacher in that skit. And, like, it looks exactly like that's how like, it was filmed with Luke Dash junior there.
+
+10
+00:00:44,175 --> 00:00:49,535
+And Oh my gosh. And he he gets to the part about Blake, and he's like, Balake?
+
+11
+00:00:49,535 --> 00:01:00,999
+And, like, no one's raising their hands. And then he's like, Balake? And then this kid, like, hesitantly raises his hand. He's like, sir, my my name's Blake. And he's like, Blake, you wanna go to war? Like,
+
+12
+00:01:01,160 --> 00:01:01,800
+he's just like
+
+13
+00:01:02,920 --> 00:01:05,640
+That's so good. Dude, it was hilarious.
+
+14
+00:01:05,640 --> 00:01:16,415
+I need to see this. Wow. You're into if you're into Key and Peele, you would really appreciate the work he did there on that one. I'm gonna find the link so you guys can enjoy this too. That is genius.
+
+15
+00:01:16,575 --> 00:01:22,575
+But, yeah, big news in the mining realm. Luke Dash junior stepped down as CTO
+
+16
+00:01:22,815 --> 00:01:24,415
+of Ocean Mining,
+
+17
+00:01:24,735 --> 00:01:28,575
+shortly followed by Mechanic stepping down apparently
+
+18
+00:01:28,575 --> 00:01:32,150
+as whatever he was there. Sabbatical. Sabbatical.
+
+19
+00:01:32,150 --> 00:01:34,870
+Unknown: Yeah. It wasn't a permanent announcement.
+
+20
+00:01:34,870 --> 00:01:35,670
+Unknown: Yeah.
+
+21
+00:01:36,550 --> 00:01:37,910
+Unknown: I don't know, guys.
+
+22
+00:01:38,550 --> 00:01:42,630
+It's like I don't know how you come back from that one. That
+
+23
+00:01:43,695 --> 00:01:45,695
+Unknown: seems like it was a good move by Ocean.
+
+24
+00:01:46,335 --> 00:01:47,055
+Yeah.
+
+25
+00:01:49,134 --> 00:01:51,775
+They still do have their failed
+
+26
+00:01:51,854 --> 00:01:55,695
+BIP one ten fork endpoint up. Someone was to be so
+
+27
+00:01:57,270 --> 00:02:07,270
+delusional as to mine towards it. Really? Oh, they did last time I looked. How much hash rate are they getting there? No. Let's check. Well, that's where the messaging is confusing because some Ocean
+
+28
+00:02:07,270 --> 00:02:08,150
+Unknown: employees
+
+29
+00:02:08,150 --> 00:02:09,830
+are speaking as though
+
+30
+00:02:10,070 --> 00:02:12,545
+BIP one ten is Bitcoin,
+
+31
+00:02:12,625 --> 00:02:14,705
+and nine the other 99%
+
+32
+00:02:14,705 --> 00:02:16,865
+of the network is attacking it. Yeah.
+
+33
+00:02:17,265 --> 00:02:19,105
+Unknown: They love to do that. 1.5
+
+34
+00:02:19,345 --> 00:02:20,145
+1.15
+
+35
+00:02:20,145 --> 00:02:21,025
+exahash
+
+36
+00:02:21,025 --> 00:02:24,145
+last block five days ago. Wow. Interesting.
+
+37
+00:02:24,950 --> 00:02:34,550
+Yeah. Yeah. This whole thing about calling it Bitcoin is really unfortunate, but I guess we shouldn't be surprised. Right? Well, he also he also calls the schism he's in Catholicism.
+
+38
+00:02:34,550 --> 00:02:37,270
+Unknown: So That's how that's how these scammers
+
+39
+00:02:37,555 --> 00:02:40,115
+do things. So they they redefine
+
+40
+00:02:40,115 --> 00:02:40,835
+terms
+
+41
+00:02:41,235 --> 00:02:54,890
+and then use those terms under their new definition despite the rest of the world still using the original definition. That's exactly the tactic Luke used when it came to spam, when he started talking about inscriptions
+
+42
+00:02:54,890 --> 00:03:10,185
+and ordinals and all that stuff and the op return data being spam. That's he he's done that several times in the past, and he's continuing to do it. And it's sad because of his, you know, reputation and time in the space. I think a lot of people
+
+43
+00:03:10,584 --> 00:03:19,370
+who are just starting to learn or form their own opinions or haven't developed the critical thinking skills in the space that should be required,
+
+44
+00:03:19,690 --> 00:03:29,130
+they look to people like Luke and learn from them and take what they're saying at face value and just wind up getting confused or
+
+45
+00:03:29,210 --> 00:03:30,490
+potentially wrecked.
+
+46
+00:03:31,115 --> 00:03:43,995
+I just And I think it's a really shitty tactic. And I think once you see it, you can't unsee it. And that's what he's doing right here. He's just he's talking about his fork as if as though it is Bitcoin itself, and it's not. Like, that's
+
+47
+00:03:44,550 --> 00:03:52,310
+Unknown: that's really bad for SEO or anyone trying to find any information on it because it doesn't have a name. Right? You're like, I wanna find the
+
+48
+00:03:52,630 --> 00:03:55,030
+the Bitcoin white paper. I don't think his,
+
+49
+00:03:55,990 --> 00:03:59,030
+anything he publishes is gonna ever kinda come up,
+
+50
+00:03:59,270 --> 00:04:01,435
+you know, in any search under that name.
+
+51
+00:04:01,834 --> 00:04:07,194
+Yeah. Guess there's that. It'll just kinda fizzle out in obscurity. Hopefully. I dropped that link to that
+
+52
+00:04:07,435 --> 00:04:08,475
+Unknown: Yeah. Video
+
+53
+00:04:08,555 --> 00:04:11,515
+in the chat if you guys wanna see it. I was
+
+54
+00:04:13,240 --> 00:04:16,920
+Unknown: well, I was had this sort of slight interest in
+
+55
+00:04:17,160 --> 00:04:21,480
+what they were doing with as far as changing proof of work goes for Lootcoin.
+
+56
+00:04:21,480 --> 00:04:25,240
+And it's an interesting thought experiment. Like, I certainly don't want to,
+
+57
+00:04:26,360 --> 00:04:35,245
+you know, fork off of Bitcoin or change a proof of work algorithm for for real Bitcoin. But it is an interesting thought. Like, what would you do if you wanted to change the proof of work algorithm?
+
+58
+00:04:35,405 --> 00:04:51,060
+Because it is as we we noticed, you know, Bitcoin mining is is fairly centralized. There's a lot of big players with a large, overwhelmingly large share of the network. So what would you do? And I was initially interested in what they were doing because I thought that they were going to change
+
+59
+00:04:51,060 --> 00:04:54,580
+the hash algorithm or the hash, construction
+
+60
+00:04:54,740 --> 00:05:03,085
+to make it so that you couldn't use ASICs to mine it, which would be really easy to do. You could stick with SHA two fifty six and just change the hash construction,
+
+61
+00:05:03,165 --> 00:05:28,044
+and none of the existing Bitcoin miners would work, which would be very interesting. It'd be kind of like going back to the genesis of Bitcoin, right, when there just was no one had developed any ASICs and seeing, you know, how that goes. But, unfortunately, they didn't do that. They just picked the lock a two b and the exact same hash construction that SiaCoin uses. So there are existing ASICs available that will you could plug and play and mine LukeCoin,
+
+62
+00:05:28,044 --> 00:05:40,720
+Unknown: including ASICs from Bitmain. Yeah. That seems to be an interesting decision. I saw some decision matrix table that Luke was posting because you'd think if you want to avoid a first mover advantage
+
+63
+00:05:40,880 --> 00:05:55,025
+Unknown: with an ASIC chip, you would pick a hashing algorithm that starts with CPU mining. Right? Yeah. And that's that's really easy to do. It wouldn't be hard. You could stick with SHA two fifty six. You just change sort of the way the block header is arranged,
+
+64
+00:05:55,025 --> 00:06:03,745
+and then you could be certain that no existing mining ASIC supported it and could mine to it. And then you would you would force the whole fork,
+
+65
+00:06:03,905 --> 00:06:08,220
+the whole coin to go through that discovery process of, like,
+
+66
+00:06:08,700 --> 00:06:18,620
+maturing and getting to the point in which someone would be willing to drop millions of dollars to build an ASIC to mine it. They decide I guess they decided they didn't wanna do that. So so now
+
+67
+00:06:18,925 --> 00:06:37,400
+Bitmain is just gonna have the largest market share for these ASIC miners as well? I mean, I don't know who actually has these chips. Clearly, Bitmain has the mass set and could make these chips. I think I saw that it was on, like, 28 nanometers Yeah. The last one that they made. So now the chips out there aren't efficient by Bitcoin mining standards.
+
+68
+00:06:37,800 --> 00:06:46,360
+But, yeah, Bitcoin, if they wanted to, has a clear advantage here. In fact, that's what they did to SiaCoin. I was reading a little bit about this. Apparently,
+
+69
+00:06:47,015 --> 00:06:49,575
+there was a couple companies making Siacoin
+
+70
+00:06:49,575 --> 00:07:05,639
+ASICs and and machines to mine it, and then Bitmain came in and just they just dominated like they do. And I think they actually forked Siacoin to to sort of to rug Bitmain and change the mining algorithm. I think Epic was involved in that and potentially
+
+71
+00:07:05,639 --> 00:07:11,160
+some of the people that later went on to form Foundation Devices with the Passport Wallet. It's,
+
+72
+00:07:11,880 --> 00:07:19,115
+yeah. It's very interesting. But basically, of the gate, someone's got the chips and the miners that can just plug and play on this. They will see What
+
+73
+00:07:20,795 --> 00:07:22,795
+Unknown: was that? Sorry. They will see
+
+74
+00:07:23,115 --> 00:07:25,995
+I didn't mean to interrupt you. When when Lootcoin
+
+75
+00:07:25,995 --> 00:07:35,460
+Unknown: actually launches, they will see, like, much higher hash rate numbers, which is maybe that's what they wanted, but I don't think it means any sort of decentralization
+
+76
+00:07:35,460 --> 00:07:38,660
+or any sort of resistance towards centralizing
+
+77
+00:07:38,660 --> 00:07:44,259
+Unknown: again. Who what was the link between the Foundation Devices team and and
+
+78
+00:07:44,595 --> 00:07:46,035
+is it SiaCoin?
+
+79
+00:07:46,035 --> 00:07:47,315
+Unknown: Yeah. SiaCoin.
+
+80
+00:07:47,315 --> 00:07:57,555
+I believe some of the people that started Foundation Devices previously worked on SiaCoin miners. I see. Okay. Yeah. Yeah. And there there was a bunch of drama there about this, like, hard fork to essentially
+
+81
+00:07:58,920 --> 00:08:11,560
+rug Bitmain. They, like, changed the algorithm somehow. I don't know I don't know how. You know, Bitmain was was dominating the network, and they're like, we don't like this, so we're just gonna change the algorithm. And I believe, from what I read, I believe that
+
+82
+00:08:11,805 --> 00:08:14,285
+Luke Koin is using the
+
+83
+00:08:15,085 --> 00:08:17,805
+sort of original Sia coin mining
+
+84
+00:08:17,965 --> 00:08:18,925
+strategy.
+
+85
+00:08:18,925 --> 00:08:35,630
+Unknown: The Bitmain dominated one. The Bitmain dominated one. I believe so. How strategic do you think that move was on Luke's part? Like, do do you think he wanted to pick a mining algorithm that had abundant available hardware and that that was a motivating factor? Or
+
+86
+00:08:36,029 --> 00:08:47,845
+Unknown: Yeah. Because he That matrix that Tyler was mentioning, I looked at that, you know, he had there's, I don't know, 20 plus options in there that they were looking at, and they were sort of rating them on, you know, how many ASICs were available.
+
+87
+00:08:48,245 --> 00:08:51,045
+So, yeah, they they were. They were definitely looking at that.
+
+88
+00:08:52,889 --> 00:08:57,769
+It's just, like, Bitcoin didn't have this problem. Well, it's funny in that matrix.
+
+89
+00:08:57,850 --> 00:09:06,170
+Unknown: Just important comment. Under the stock SHA two fifty six d hash, it's rated poor for mature ASIC competition
+
+90
+00:09:06,335 --> 00:09:11,055
+because it says exclude from the algorithm lottery ASIC boost history,
+
+91
+00:09:11,135 --> 00:09:15,055
+accumulated physical design expertise, and closed firmware advantages.
+
+92
+00:09:15,135 --> 00:09:16,495
+Supply chain enrichment
+
+93
+00:09:16,495 --> 00:09:42,435
+remain. It's like, yep. That is true. They're like, they have the closed source firmware advantages as like a a pro of of that of using that algorithm? So this is the description current judgment of SHA two fifty six d hash mature ASIC competition is poor from a fresh competitive market perspective. Okay. Okay. Okay. I mean, couldn't pick SHA two fifty six d for a lot of reasons,
+
+94
+00:09:42,515 --> 00:09:53,410
+Unknown: but I would say it probably has the best competitive landscape. Right? There's lots of there's lots of well, not lots, but there's several manufacturers of SHA-two 56 d hashing
+
+95
+00:09:54,130 --> 00:09:59,890
+Unknown: ASICs. Yeah. I just find it interesting that they flag in their notes that ASIC boost
+
+96
+00:09:59,890 --> 00:10:01,810
+and supply chain enrichment,
+
+97
+00:10:01,810 --> 00:10:02,850
+firmware advantages,
+
+98
+00:10:03,215 --> 00:10:05,695
+accumulated physical design expertise,
+
+99
+00:10:06,335 --> 00:10:10,575
+these are all flagged as reasons why they rated it as poor.
+
+100
+00:10:11,215 --> 00:10:14,815
+Unknown: But none of those are solved with their choice either? Well, they're also just like
+
+101
+00:10:15,310 --> 00:10:20,270
+Unknown: that doesn't have to be the end state of the ASIC mining maturity
+
+102
+00:10:20,430 --> 00:10:22,670
+world for SHA2560
+
+103
+00:10:22,670 --> 00:10:28,110
+hash. That's the whole point of what we work on. True. Yeah. I mean, they couldn't use SHA2560
+
+104
+00:10:28,110 --> 00:10:46,490
+Unknown: because there's a ton of miners out there, and they would they would get 51% attacked, like, immediately. That it makes me wonder, like, why do you think we're not seeing an attack on Luke coin right now? Because it seems like if anyone wanted to make his little project come to a screeching halt, this would be the opportune
+
+105
+00:10:46,490 --> 00:10:49,930
+Unknown: time to do it. I don't think it's live yet. What's
+
+106
+00:10:49,930 --> 00:10:57,290
+Unknown: the isn't the, like what is it? Five blocks now? Isn't that their their blockchain? No. They're targeting, I think, a September
+
+107
+00:10:57,375 --> 00:11:08,495
+proof of work change. So what's going on with those with that, like, fork in the meantime? Like, why are people still mining to it then? I don't know. I don't Why would you mind to that? That doesn't make any sense. I
+
+108
+00:11:09,055 --> 00:11:14,940
+Unknown: I guess when they do do the proof of work change, they'll probably go from that chain tip. So maybe
+
+109
+00:11:15,100 --> 00:11:33,995
+that's when you could get paid out if you're mining to that. That must be it because they're also well, Luke is claiming that Bitcoin is being attacked and is still at whatever that block height is, three three two or three three three. Right. Okay. So you're right, Iko. I guess you could attack it now. Right? And you could with two exahashes,
+
+110
+00:11:33,995 --> 00:11:34,795
+you could
+
+111
+00:11:35,115 --> 00:11:37,995
+you could 51% attack it or less than two exahashes.
+
+112
+00:11:38,630 --> 00:11:56,274
+Unknown: Yeah. With like half an exahash, you could Right? Because it has like one exahash right now. Yeah. With one telehash? I'm kidding. Yeah. Yeah. You could 51% attack it. That would be pretty funny. I mean, yeah, there's a pretty big cost to doing that, but And like, don't they have to get through all 2,016
+
+113
+00:11:56,274 --> 00:11:59,394
+blocks? Like they still have like 2,011
+
+114
+00:11:59,394 --> 00:12:15,649
+Unknown: blocks to go before they see a downward difficulty adjustment, if I'm not mistaken. Yeah. Right. That's never gonna happen. They're definitely not gonna see a difficulty adjustment at this rate. And now that they've selected this hashing algorithm, Scott, there was also some fun banter over the weekend
+
+115
+00:12:16,050 --> 00:12:24,964
+Unknown: about Bidax support that you chimed in on. What's going on there? Yeah. Luke was tagged me in a post that was like, when Bidax? And Marshall
+
+116
+00:12:24,964 --> 00:12:26,325
+made a PR
+
+117
+00:12:26,404 --> 00:12:31,765
+to the ESP Miner repository with some, like, vibe coded nonsense
+
+118
+00:12:31,765 --> 00:12:35,180
+about supporting the Bitmain ASIC in ESP Miner.
+
+119
+00:12:35,420 --> 00:12:36,060
+The
+
+120
+00:12:37,020 --> 00:12:39,260
+the Block A two b ASIC.
+
+121
+00:12:39,340 --> 00:12:41,420
+And that
+
+122
+00:12:41,580 --> 00:12:51,865
+was that was immediately closed and flagged as spam because that is nonsense. We are not doing that. Open source project, you can fork and do whatever you want,
+
+123
+00:12:52,265 --> 00:12:54,904
+but that is certainly not getting,
+
+124
+00:12:56,505 --> 00:13:24,515
+Unknown: mainland in the ESP project ESP Miner project. So That's an important distinction. I saw some people saying, you know, you can claim open source, but whoever controls the repo controls the project. And it's like, well, really, you can fork it. And if the community follows you, then then that's the answer there. It's not all the power is who's the maintainer of the GitHub organization. Yeah. Yeah. I Exactly. You can just do what you want. And that that is the power of open source is that they can
+
+125
+00:13:25,235 --> 00:13:28,595
+Unknown: they can take this and fork it and support whatever stupid
+
+126
+00:13:28,595 --> 00:13:30,995
+fork they wanna go knock yourself out.
+
+127
+00:13:31,740 --> 00:13:35,020
+Unknown: There seems to be no shortage of misunderstanding
+
+128
+00:13:35,020 --> 00:13:44,300
+about how open source works. It's just like every day I see some new comment and I'm just like, god, people just don't get it. Yes. Very much misunderstood.
+
+129
+00:13:44,300 --> 00:13:46,825
+Unknown: That is right. That is that it's
+
+130
+00:13:47,305 --> 00:13:54,745
+I don't know. I don't really follow it but yeah, there's a lot of it out there. It's like, it's some sort of like money making
+
+131
+00:13:54,825 --> 00:13:55,785
+scheme or
+
+132
+00:13:56,105 --> 00:14:01,065
+something like that. I just I don't get it. I don't know. I'm also not getting the money so Right.
+
+133
+00:14:01,629 --> 00:14:28,495
+It's a pretty bad scam if it is one. Yeah. Yeah. It's funny. Yeah. Well, it is funny. But it was it was it is fun to think about how you would how you would change proof of work if you're trying to make a new coin. There there's a pretty awesome quote from Bob Burnett that's like, Bitcoin is a once in, like, three thousand year opportunity that that can't be repeated. And I think that's exactly right. You you can't just, like, recreate the Beatles. Right? Because the Beatles already did it. The the set of circumstances that led to that are not reproducible.
+
+134
+00:14:28,495 --> 00:14:30,735
+Unknown: Yeah. Yeah. I think there's something to be said for that.
+
+135
+00:14:31,529 --> 00:14:34,330
+This Block A hashing algorithm,
+
+136
+00:14:34,570 --> 00:14:43,850
+can can people use CPU to mine to it or it it requires a ASIC chip? No. You can definitely do it with a CPU, GPU, FPGA,
+
+137
+00:14:43,850 --> 00:14:46,655
+for sure. And, like, and do it competitively?
+
+138
+00:14:46,735 --> 00:14:59,455
+Unknown: Well, not against even a 28 nanometer ASIC. No. Okay. Yeah. Definitely not. Even a so a 28 nanometer ASIC is orders of magnitude more efficient than a four nanometer CPU? Yes.
+
+139
+00:15:01,620 --> 00:15:02,820
+Unknown: Gotcha. Absolutely.
+
+140
+00:15:03,140 --> 00:15:06,020
+Yeah. I guess ASICs are really good jobs.
+
+141
+00:15:06,180 --> 00:15:08,740
+Unknown: Going with this is if, like, if there is
+
+142
+00:15:09,060 --> 00:15:16,155
+a possibility to just use CPUs, like like, you see this in Monero. Like, they went with an ASIC resistant
+
+143
+00:15:16,155 --> 00:15:25,595
+proof of work algorithm. And I think one of the inherent risks in doing that is you can potentially just spin up a bunch of CPUs
+
+144
+00:15:25,995 --> 00:15:29,515
+in the cloud to attack the chain or possibly GPUs.
+
+145
+00:15:29,490 --> 00:15:40,610
+So So I don't know. That was just one thing I was thinking. But if if there's a I guess if there's enough hash rate out there, honest hash rate on Luke's fork, then doesn't really matter. You know, you have to pay to spin up GPUs.
+
+146
+00:15:41,010 --> 00:15:45,875
+Unknown: Mhmm. So it's not without risk. Just like, you know, it costs money to
+
+147
+00:15:46,915 --> 00:15:48,915
+to plug in a bunch of ASICs.
+
+148
+00:15:49,555 --> 00:15:57,475
+I don't I don't know. I mean, I don't know if that really holds up. Yeah. How does the ASIC resistance argument work? Well, ASIC resistance argument from from Monero
+
+149
+00:15:57,899 --> 00:16:01,019
+is that they wanted to be more democratized.
+
+150
+00:16:01,019 --> 00:16:05,899
+Right? That that more people can get more people can be competitive miners because
+
+151
+00:16:06,139 --> 00:16:15,155
+Mhmm. There isn't these expensive ASICs. Yeah. What they do is kinda interesting. It's like they they can change the the hashing algorithm.
+
+152
+00:16:15,235 --> 00:16:17,635
+It's like baked into the protocols.
+
+153
+00:16:17,635 --> 00:16:21,715
+Unknown: They they it just changes. So you need a general purpose processing platform?
+
+154
+00:16:21,875 --> 00:16:41,010
+Unknown: Yeah. Exactly. And it it it's it's like architected in a way that doesn't really give GPUs an advantage. So, really, you wanna be doing it with a CPU such that it has the flexibility to change the hashing algorithm. But to Eco's point, a state actor could just spin up a big VPS. Right. Or they could give a big miner a call and say,
+
+155
+00:16:41,535 --> 00:16:51,375
+Unknown: do this with your a six. Mhmm. Yeah. That's why I I was curious because it doesn't seem like a like it actually fixes the underlying attack on either algorithm.
+
+156
+00:16:51,375 --> 00:16:55,770
+Unknown: Yeah. No. I don't I don't I wasn't saying I think it's a good strategy.
+
+157
+00:16:55,930 --> 00:16:59,850
+I was just pointing out that it was it was it was that they
+
+158
+00:17:00,250 --> 00:17:06,570
+they wanted to move away from ASICs for one reason, but it it just does at the end of the day, it doesn't really solve the problem.
+
+159
+00:17:06,810 --> 00:17:08,890
+Unknown: Yeah. They're just switching to different ASICs.
+
+160
+00:17:08,890 --> 00:17:13,624
+It's just Right. Temporarily delaying the problem. But you know what? The the
+
+161
+00:17:14,745 --> 00:17:16,505
+best foolproof
+
+162
+00:17:16,505 --> 00:17:19,224
+will not ever be broken ASIC resistance
+
+163
+00:17:19,225 --> 00:17:33,929
+is to have your coin be worthless. No one will mine it. Yeah. No one will build ASICs, and there will never be any ASICs for it because it's just It's not worth the r and d. It's not worth the r and d. So it's solved right there. I I still think that people could make ASICs
+
+164
+00:17:34,010 --> 00:17:35,529
+to mine Monero,
+
+165
+00:17:35,690 --> 00:17:36,970
+but it's just like,
+
+166
+00:17:38,535 --> 00:17:43,175
+Unknown: it's not worth it. Yeah. Has that played out with other proof of work shitcoins
+
+167
+00:17:43,175 --> 00:17:53,975
+where someone does spend the r and d to make a miner and then another generation doesn't come out because the coin didn't survive long enough to justify it? Kind of with, what was that one? They used
+
+168
+00:17:54,590 --> 00:18:02,430
+Unknown: SHA three. I'm blanking on the name. There was there was a shitcoin that came out, and it was really interesting strategy because the the ASIC manufacturers
+
+169
+00:18:02,430 --> 00:18:04,429
+basically created the cryptocurrency.
+
+170
+00:18:04,590 --> 00:18:06,510
+So it's like, they're like, we're gonna make this chip,
+
+171
+00:18:07,095 --> 00:18:09,015
+and then we're gonna create the cryptocurrency
+
+172
+00:18:09,015 --> 00:18:14,855
+to go along with it to sell our chips. Right? It's really like fucked up incentives.
+
+173
+00:18:15,015 --> 00:18:37,235
+What was that one called? I can't keep track of all these things, but Sounds just like fiat. Yeah. I mean, I think it's basically fizzled. They had a like, instead of a blockchain, they had a DAG and they had SHA three, which is supposed to be way better. And they had, like, you know, block times in the seconds and, you know, it's all hyped up, but it was really just kind of dogfooding this this ASIC manufacturer.
+
+174
+00:18:37,235 --> 00:18:53,900
+Unknown: What if you required every miner to have a full non pruned node? You add a big storage requirement to it. It's interesting. Like every mining device had to be paired with a node? I I mean, that would just be so much redundant overhead unnecessarily.
+
+175
+00:18:53,980 --> 00:18:58,060
+Like, imagine you had a whole warehouse of miners. Well, I think it would disincentivize
+
+176
+00:18:58,060 --> 00:19:05,180
+Unknown: warehouses of miners. Back in the, like, altcoin craze, there was, like, miners, you know, shitcoins that required,
+
+177
+00:19:05,135 --> 00:19:06,414
+like, proof of,
+
+178
+00:19:07,294 --> 00:19:09,455
+like, hard drive and all that.
+
+179
+00:19:11,135 --> 00:19:19,855
+You know, it was they're they were trying to, like, somehow tied in that you had, like, disk space available, and that was your proof of work. So it could be something like that, I guess.
+
+180
+00:19:20,730 --> 00:19:21,530
+Unknown: Filecoin.
+
+181
+00:19:21,530 --> 00:19:27,929
+Unknown: Yeah. That's right. Maybe it was Filecoin. And there was that other one, Helium, that was, like, proof of, like, RF coverage.
+
+182
+00:19:28,090 --> 00:19:30,090
+Like, it was this wireless network
+
+183
+00:19:30,250 --> 00:20:17,905
+and you had like, you got paid by, like, how many other nodes were, like, in RF range of you. It's like an interesting idea, but easily gameable. Yeah. Well, it's certainly interesting to watch this play out because we don't get opportunities in Bitcoin all the time to see these attempts. So thought experiments are for sure worth worth watching. Yeah. It's a it's a fun thought experiment. I think I've probably dedicated enough of my brain space to this and Here you go. I'm done with those thought experiments on on Lootcoin. Yeah. I'm just waiting for the day that they, like, just disappear from the, like, social layer of Bitcoin, Twitter. Like, if they're forking off, like, just fork off and stop talking about Bitcoin already. Yeah. I I'm looking forward to that too. I think it's rapidly approaching. I think as the, you know, the influencers
+
+184
+00:20:17,905 --> 00:20:27,200
+Unknown: stop talking about it and move on to the next big thing, it's probably done. Well, and certainly, Ocean can't support both these endpoints forever. They're gonna have to make a decision.
+
+185
+00:20:27,519 --> 00:20:30,080
+They certainly can't call both of them Bitcoin,
+
+186
+00:20:30,080 --> 00:20:33,695
+Unknown: which they're currently doing. I don't know. That's why we also claim
+
+187
+00:20:33,855 --> 00:20:36,575
+Unknown: Ocean's a little better about it, right? I won't say their organization,
+
+188
+00:20:37,215 --> 00:20:38,494
+Unknown: but it's
+
+189
+00:20:38,495 --> 00:20:45,534
+Unknown: definitely still misleading and confusing when you go to their website. It'll be interesting to see what Ocean does now with Luke on sabbatical.
+
+190
+00:20:45,890 --> 00:20:58,850
+I don't think he's coming back. In my personal opinion, we're gonna That's usually how sabbaticals go. Yeah. He's Luke's not coming back to Ocean. Mechanic's not coming back to Ocean. Luke coin is just gonna be this, like, persistent
+
+191
+00:20:59,065 --> 00:21:08,825
+failing project in the background, like b cash and b s v have been, where you just get these trolls that just are obsessed with Bitcoin and can't leave it alone,
+
+192
+00:21:09,065 --> 00:21:20,520
+but, like, just have this failing project that nobody wants to hear hear about or cares about. I don't know. I don't know where I don't know what what mechanic's fate is. I could see him being like a news correspondent
+
+193
+00:21:20,520 --> 00:21:37,805
+Unknown: for the for one of these crypto magazines. I don't know. Yeah. I don't know. I don't know. It's really wild. It's fun to think about. But I yeah. I they they they have forked off and are rapidly finding out. It is interesting to me that Mechanic got fired from Start Nine,
+
+194
+00:21:38,230 --> 00:21:41,429
+Unknown: and then Start Nine was a pretty vocal
+
+195
+00:21:41,590 --> 00:21:43,909
+supporter of BIP one ten.
+
+196
+00:21:46,230 --> 00:21:50,309
+Say it least. I found that interesting. Yeah. That was interesting. I think they supported optionality.
+
+197
+00:21:51,115 --> 00:22:03,914
+I I mean, the tweets I read from their account were very, very confident about BIP one ten and it and its success. That was interesting what we were talking about the other day is that Datum technically supports
+
+198
+00:22:03,995 --> 00:22:11,590
+Unknown: both Bitcoin Core and Knots. But the way it's configured on Start nine, it only supports Notts. Yeah. What did Dylan say to
+
+199
+00:22:12,070 --> 00:22:15,990
+Unknown: to do the signaling? It's only possible through the Notts implementation?
+
+200
+00:22:15,990 --> 00:22:23,994
+Unknown: You wanna signal? Like, can you can I just, like, can I just use Datum and Core and just mine to the normal, like, ocean
+
+201
+00:22:24,075 --> 00:22:25,674
+main chain endpoint?
+
+202
+00:22:25,835 --> 00:22:29,994
+Unknown: Does that work? I don't think so, but I won't confirm.
+
+203
+00:22:30,395 --> 00:22:40,369
+Unknown: I'm looking at Domus Master. I remember asking Mechanic about this, like in person when I saw him once and he was like, oh, yeah. Yeah. You totally can. But I could see why they'd be incentivized to not make it easy to
+
+204
+00:22:41,570 --> 00:22:51,955
+Unknown: to use Datum with Bitcoin Core. Yeah. Dylan said you need to be able to configure block notify to specifically notify the Datum service, and you can't do that with Core on StartOS,
+
+205
+00:22:52,115 --> 00:22:55,955
+but Not allows you to. That was at least on o.3.five.
+
+206
+00:22:55,955 --> 00:23:00,835
+They just did a p overhaul, so it might be possible now. Yeah. That seems like a weird technicality that,
+
+207
+00:23:02,170 --> 00:23:06,490
+Unknown: block notify doesn't work. It's like every pool needs block notify. That's pretty important. So
+
+208
+00:23:07,130 --> 00:23:20,375
+Unknown: should be able to get it to work with Datum, especially since the Datum client is open source. Right. Well Tell tell me about two fifty six Red Team. Yeah. Schnitzel had another banger of a tweet today. I saw him put out. It was a cool photo of
+
+209
+00:23:21,815 --> 00:23:25,095
+his, like, test bench setup, his poor wife's garage.
+
+210
+00:23:25,975 --> 00:23:29,735
+This is it looks like APW three power supply,
+
+211
+00:23:29,815 --> 00:23:47,945
+some switches, and then there's six control boards on this wooden plank. And it highlights so if for anyone that missed some updates from Schnitzel on behalf of the two five six Foundation talking about the red teaming efforts, which Scott will explain much better than I can when I'm done ranting here. On closed source firmwares,
+
+212
+00:23:47,945 --> 00:23:51,304
+be it from the ASIC manufacturers, the OEMs themselves,
+
+213
+00:23:51,305 --> 00:24:08,340
+or these aftermarket firmware providers, the jailbreak solutions like FinishBrains and LuxOS, these are closed source alternatives, but with open source decompiling tools like Gidra and really powerful open weight models that don't say no to you when you ask them to do things, you can
+
+214
+00:24:08,659 --> 00:24:17,565
+reverse engineer a lot of how this firmware works. And so that's what Schnitzel's been doing as part of our two five six foundation red team efforts. And I just wanna highlight that firmware
+
+215
+00:24:17,565 --> 00:24:18,445
+assessment
+
+216
+00:24:18,445 --> 00:24:21,164
+inherently requires testing on hardware.
+
+217
+00:24:21,325 --> 00:24:42,210
+And so this is a bit more complicated of a setup than say just pointing an AI tool at an open source repo for a software project. And so but it's been really fun to watch. I think you've been more in the trenches with him, Scott. Why don't you tell us what's going on? That that is a really interesting point. Right? You think about someone who's red teaming just general purpose open source Bitcoin software.
+
+218
+00:24:42,664 --> 00:24:51,144
+Unknown: They can just run it on their computers. And you can attack all the exposed endpoints and things like that and and do kind of like a a black box
+
+219
+00:24:51,544 --> 00:24:57,225
+attack on it, where you're not even looking at the source. You're just, like, hitting all the the different endpoints and throwing invalid,
+
+220
+00:24:57,600 --> 00:24:59,200
+oversize, undersize,
+
+221
+00:24:59,520 --> 00:25:02,639
+you know, inputs at it and seeing how it does. You
+
+222
+00:25:02,880 --> 00:25:03,679
+could,
+
+223
+00:25:04,080 --> 00:25:06,879
+in theory, do that with mining firmware,
+
+224
+00:25:07,039 --> 00:25:13,695
+except for this firmware is super sneaky, especially the stock mining firmware is super sneaky. It's all encrypted.
+
+225
+00:25:13,934 --> 00:25:36,330
+They have secrets on the hardware and baked into the firmware so that it won't run anywhere else. And it won't run unless it can contact their fee server in the in the third party firmware case. So you really do need to run it on the control board hardware that it's intended to, which is just a Linux computer, but it's got those, like, special bits in there that lets it run. So that that makes thread teaming and doing security analysis
+
+226
+00:25:36,330 --> 00:25:42,415
+on this stuff even harder. It's hard because the source isn't available, but it's even harder because it's so locked down. That's
+
+227
+00:25:42,655 --> 00:25:46,495
+I'm I'm thinking why Schnitzel has such a rad setup.
+
+228
+00:25:46,735 --> 00:25:50,255
+Shout out to his wife for putting up with these amazing experiments.
+
+229
+00:25:50,495 --> 00:25:59,960
+But, it's gotta be done. Right? There's lots of lots of cool findings that I've heard that Schnitzel's come out with on this stuff. You know, a lot of it is is exposing just,
+
+230
+00:26:00,440 --> 00:26:01,880
+like, intended behavior,
+
+231
+00:26:02,200 --> 00:26:04,120
+like contacting fee servers,
+
+232
+00:26:04,280 --> 00:26:27,070
+license servers, and things like that in the third party firmware case. And so I think some of those disclosures will be, like, ignored because they know it's doing that, but maybe not everyone else knows that it's doing that. And in the fee server case, it's really interesting because it's like, okay. So if this miner won't operate if it can't contact its you know, if it can't phone home to its fee server, then, yeah, you have the risk that the firmware provider
+
+233
+00:26:27,070 --> 00:26:38,750
+will shut you down. But why would they do that? Right? Because they don't wanna wanna kneecap their own revenue stream. So there's that, like, game theory that goes along with that, like, shut off their customers because then they wouldn't get the money. But why they do that? But
+
+234
+00:26:38,855 --> 00:26:48,375
+what if it's not them who shuts it down? What if they're compelled to by whatever random government, you know, they're under the jurisdiction of who's like, no. No. No. You need to shut off Eco
+
+235
+00:26:48,535 --> 00:27:00,300
+Unknown: because we don't like him or whatever. Right? Like, that's how these these things get. Or or just like, you know, you the miner needs to pay that it doesn't need even need to be a fee based
+
+236
+00:27:00,540 --> 00:27:04,700
+server. Like, it could just be like, well, it needs to ping age verification
+
+237
+00:27:04,700 --> 00:27:06,860
+server or this KYC database
+
+238
+00:27:06,860 --> 00:27:11,955
+or, you know, if the hardware doesn't make contact with whatever arbitrary
+
+239
+00:27:11,955 --> 00:27:37,115
+barrier we wanna put in place, then the machine's not gonna function at all. And it's really easy for them to do and and take those freedoms away from people, which is fucked up. Really easy to do. Right? They they probably got a 100 number they could call and just be like, you gotta do this right now. Otherwise, you're going to jail. The incentive argument doesn't make sense to me either. Like, oh, we would never shut off the dev server because then we don't get our cut. You think Coldcard was incentivized
+
+240
+00:27:37,115 --> 00:27:41,195
+Unknown: for this firmware debacle to happen? Like, I don't think that company is
+
+241
+00:27:41,515 --> 00:27:43,274
+viewed well anymore publicly.
+
+242
+00:27:43,275 --> 00:27:53,739
+Unknown: So I I don't believe that incentive argument. Like, that stuff can happen. There's also I mean, there's also error case. Right? We this has happened. Venish's license server went down maybe a year ago.
+
+243
+00:27:54,220 --> 00:27:54,859
+Mhmm.
+
+244
+00:27:55,740 --> 00:28:01,419
+When when you're running Venish firmware and it can contact its license server, it throttles down like
+
+245
+00:28:01,500 --> 00:28:02,779
+ten, twenty percent.
+
+246
+00:28:03,340 --> 00:28:07,085
+So they their server just went down due to some networking problem.
+
+247
+00:28:07,405 --> 00:28:11,965
+Unknown: If we can't get our 2% cut, then you can't have 10% of your hash rate. Yeah.
+
+248
+00:28:12,445 --> 00:28:26,970
+Unknown: Yeah. Exactly. It's still like It's not even a wash. Two to two. What the heck? And then, I mean, the third, the big, another big one is the third one is just like, it could get man in the middle. Right? It could get attacked by an adversary. And we've we've you know, this this has happened in lots of other industries
+
+249
+00:28:27,050 --> 00:28:30,490
+where someone gets in between, you know, the mining farm
+
+250
+00:28:30,730 --> 00:28:36,315
+and the the fee server. Right? And can spoof it or can inject packets,
+
+251
+00:28:36,315 --> 00:28:39,914
+can can man in the middle attack it and then Change your passwords, lock you out.
+
+252
+00:28:40,635 --> 00:28:49,435
+Exactly. Right? They can make life very difficult for you, which is definitely something that competitors or hackers or whoever might be incentivized
+
+253
+00:28:48,990 --> 00:28:57,629
+Unknown: to do? Well, good news here is that through this effort that Schnitzel is leading, it has brought some attention to this work
+
+254
+00:28:57,870 --> 00:29:21,929
+so much so that developers from these firmware manufacturers, OEMs are in contact with him and that's good to see. You know, it's this balance about proper disclosure practices, which we do wanna follow, but also there have been folks tooting the horn for a while saying, hey, you know, does the firmware do this? Can you prove it? And and it just gets ignored. And so that's kind of why I think we went through with this announcement,
+
+255
+00:29:22,010 --> 00:29:33,445
+not listing our full findings quite yet. So we have that, I think Shinsel said, a thirty day window where we're reaching out, communicating with these teams, helping resolve some of these issues that were found or have explanations.
+
+256
+00:29:33,845 --> 00:30:03,145
+Then at that thirty day mark, we're going to release our full findings. But I was very excited to hear that folks are reaching out to him so much so that even some of the public miners, the large miners that maybe have their own firmware images, I'll save the names for now, those teams have network engineers that have kind of been wondering about this and maybe got shot down or just didn't have the time or the funding to pay attention to it, and now they are paying attention. And so working with them, it's exciting to see. Yeah. I mean, you think these machines if you're a Bitcoin miner, these machines are responsible for all of your revenue.
+
+257
+00:30:03,545 --> 00:30:14,080
+Unknown: That's that's your business. Right? Maybe you got you're doing some AI or whatever, but, you know, your your Bitcoin mining unit, this is where all of your revenue comes from. It is very important that,
+
+258
+00:30:14,400 --> 00:30:23,360
+these machines keep running for a lot of reasons. And to have closed source firmware that hasn't had a lot of eyes on it, that hasn't been properly audited,
+
+259
+00:30:24,085 --> 00:30:34,965
+that's that's a risk. That is definitely a risk. And, you know, these things change over time. So, you know, we're doing this security audit now, but who is this gonna continue in perpetuity?
+
+260
+00:30:34,965 --> 00:30:46,220
+I I don't think so. Right? It's like you you still have this problem of there's just a lack of of eyes on it and a lack of transparency about what's going on. So this is obviously a plug for Mugena,
+
+261
+00:30:46,300 --> 00:30:50,700
+which is open source and by that very nature is
+
+262
+00:30:50,860 --> 00:30:56,985
+Unknown: much better audited by many more people. I think it it's on the consumers of the hardware,
+
+263
+00:30:56,985 --> 00:31:12,710
+the people that are running the miners to demand open source. Mhmm. You know, I mean, there's millions, tens of millions, maybe probably hundreds of millions of dollars. I don't know. Billions of dollars in mining hardware operating the Bitcoin network right now and, like, 9099%
+
+264
+00:31:12,710 --> 00:31:13,909
+of that's closed.
+
+265
+00:31:14,070 --> 00:31:36,690
+Unknown: Iron's like a $10,000,000,000 company. Right? This is not this is not little, pocket change they're playing around with here. Well, what we've heard too is the network security engineers at these companies, they're not jumps. They know what they're doing. I bet they've they've been pulling their hair out for years saying, like, hey. We should probably investigate this. And now Probably. The red team effort, it's finally getting the attention it deserves. And to your point, Scott, it's like with an open source firmware,
+
+266
+00:31:36,930 --> 00:31:41,010
+you do all this inspection before you get a billion dollars in machines deployed.
+
+267
+00:31:41,410 --> 00:31:42,930
+Unknown: Right. Not after the
+
+268
+00:31:44,210 --> 00:31:47,755
+Unknown: So crazy, dude. Man. Could you imagine
+
+269
+00:31:47,915 --> 00:31:49,275
+Unknown: alright. If you have
+
+270
+00:31:50,475 --> 00:31:51,434
+gigawatts,
+
+271
+00:31:51,435 --> 00:32:05,490
+right, connected to these miners and someone finds an exploit that can just turn them all off in an instant. Right? That has like massive power grid implications. Like, is not joke. Issues for sure. For sure. They are Internet connected
+
+272
+00:32:05,490 --> 00:32:18,565
+Unknown: dampers to the electrical grid, and they're controlled by closed source firmware. It's insane from China. Insane. What is going on here? Why are we why are they doing this? It's so ridiculous.
+
+273
+00:32:18,645 --> 00:32:20,005
+Unknown: It's just gonna get like
+
+274
+00:32:20,325 --> 00:32:32,110
+Unknown: stocks netted. Yeah. Exactly. But reception has been good. It's been exciting to see. It is exciting. I mean, I think it these kinds of risks that we're talking about, I think shed some light on I I think well, it helps
+
+275
+00:32:32,670 --> 00:32:36,910
+I'd like to think it helps explain why the US government was
+
+276
+00:32:37,310 --> 00:32:44,510
+they had that, like, security advisory out a few months ago about Bitmain hardware, and they they were, like, seizing
+
+277
+00:32:45,145 --> 00:32:54,664
+Bitmain hardware under the guise of national security concerns. Right? Do you recall this happening? Yeah. That's right. That's right. They were definitely preventing the import of the At customs.
+
+278
+00:32:54,985 --> 00:33:20,895
+Mhmm. Yeah. And it's like if if they under if they if they're looking at the risks the way that we're looking at them, then I think it makes a lot of sense. But I mean, who knows what really prompted them to do that? It could have just been economic reasons or anything any other number of reasons. But I mean, I I do think the risks that we're shining light on here are valid and real. And if they're not addressed, will be exploited at some point to do
+
+279
+00:33:21,215 --> 00:33:24,575
+a a massive amount of damage, not just to
+
+280
+00:33:25,130 --> 00:33:31,450
+the Bitcoin mining network, but the downstream or upstream power infrastructure that it's connected to. Yes.
+
+281
+00:33:31,690 --> 00:33:36,090
+Unknown: For sure. For sure. I think the Bitmain incident was one of their subsidiaries,
+
+282
+00:33:36,090 --> 00:33:36,970
+SoftCo,
+
+283
+00:33:37,130 --> 00:33:39,370
+was doing some work with Huawei,
+
+284
+00:33:39,895 --> 00:33:45,494
+which is, like, embargoed in The US. And I think they fell afoul of that,
+
+285
+00:33:45,735 --> 00:33:47,095
+if I remember correctly.
+
+286
+00:33:47,174 --> 00:34:32,510
+But, yeah, I mean, that's that's also a counterparty risk when dealing with these overseas companies that can just make a decision like that. And I know that there was there was large miners that had their deliveries of ant miners held up because of that. And you don't want your deliveries of ant miners held up. Right? Yeah. Got like a thirty month life cycle? That yeah. Yeah. That's the whole name of the game. Like, you you can't just pay for these things and then not plug them in. There's lots of problems with that. Yeah. In other news though, there was a really nice write up we released this morning on the first product being developed on Magena and the power of open source firmware. Yeah. The first commercial product. That was exciting to to get out and really piece together the narrative, I think, for other people to to understand
+
+287
+00:34:32,670 --> 00:35:30,545
+Unknown: really just what we're showcasing here, what what Riot has developed, Riot, in Switzerland. That's r y three t. We've talked about this a little bit before on the show and Schnitzel came on to talk about it because he had extensive Twitter threads on on this. But it's really awesome to summarize just the the feature ads too. So there's all the risks talking points that we just went through with closed source firmware and how open source negates that. But also with open source firmware, you can make it do what you want. And this is finally an opportunity where we can see, like, it's put well in the article here. You know, it's like mining now can enter where situations where it can follow available energy. This is a solar monetizing miner and not demand a fixed load. And that just opens up the floodgates for places you can put Bitcoin miners. So this this system from Riot monetizes excess solar. It responds to the solar flux within seconds. So if a cloud comes in, it can ramp from 3,000 watts to two thousands in a couple couple of milliseconds. It supports hash board mixing, so you can just upgrade one hash board at a
+
+288
+00:35:30,625 --> 00:35:55,160
+time, have an s 21 board, an s 19 k, an s 19 j pro. And all of this is running actually on the stock control board. The the app the Magina application, the firmware application, but then also the the layer on top of that that actually connects the system to talk to your solar inverter. And it's just amazing to see development. That that's the Nova system. Right? The Nova. Right? Nova system. Yeah. Yeah. So there's a cool write up now on 256foundation.org.
+
+289
+00:35:55,475 --> 00:36:17,940
+Unknown: Go to our newsroom page and you'll see it there. This is really cool. Right? This is like you said, we're hyping lots of doom and gloom here about the security aspects. But then the flip side, which is definitely more exciting, is like, look at what you can now do. Like, you can make these miners do what you want. And it's it's not even that hard. It's just this unlock that lets you move forward with with real companies, with real products.
+
+290
+00:36:18,260 --> 00:36:34,035
+Tyler, you have a pretty good point about, you know, if you wanna make a product with a Bitcoin miner, you can't just, like, slap an Antminer in a box. Right? There's a lot more to it than that, right? As far as permitting and making sure the authorities will allow this device to be used in that way, right? Yeah,
+
+291
+00:36:34,515 --> 00:36:42,059
+Unknown: yeah. I mean, I know it's definitely, there's additional hoops you have to go through if you're putting miners in different products, systems, applications.
+
+292
+00:36:42,059 --> 00:36:56,555
+I know the Heapit team, for example, like, had to go through extensive tip over testing. You know, what happens if your kid knocks this thing over? Is it gonna light your house on fire? I can assure you they're not doing tip over protection. There's not a gyro sensor inside of an s 21. Yeah. There definitely is not. Yeah.
+
+293
+00:36:56,795 --> 00:36:58,954
+Unknown: But Well, this is this has been a
+
+294
+00:36:59,434 --> 00:37:03,275
+couple years in the making. You know, one of the things we've been suggesting
+
+295
+00:37:03,275 --> 00:37:06,875
+since the beginning of the two fifty six foundation is that we
+
+296
+00:37:07,275 --> 00:37:11,690
+think there's real opportunities out there to build real commercial
+
+297
+00:37:11,930 --> 00:37:13,450
+products and businesses
+
+298
+00:37:13,450 --> 00:37:17,450
+on top of a foundation of open source solutions.
+
+299
+00:37:17,530 --> 00:37:18,570
+And that
+
+300
+00:37:18,570 --> 00:37:33,625
+guided the four projects that we set out to initiate. And it's great to see that vision finally taking form in the real world and I hope it continues and accelerates from this point forward. Yeah, and we've heard from the Riot team,
+
+301
+00:37:33,945 --> 00:37:46,470
+Unknown: no effort of our own, this is the power of open source. They took the code, they implemented it. They added their layer on top. We didn't fund it. We didn't have any any effort in it. They they just can do it because it's an open source project
+
+302
+00:37:46,470 --> 00:38:45,950
+that's out there. But, you know, it's just amazing to see that this is what's possible when you don't have all these barriers. I know that the Riot team before and this is something that I've had to do with exergy and just what I've learned from the Heapunk Summit is like to your point Scott, you could do this with retrofitting miners but you have all these layers on top. You got a little Raspberry Pi to serve as your control layer because you can't get into control board of the miner. You're running Home Assistant to connect things wirelessly like when Y, you know, your solar inverter has an API, the miner has an API. Just put software that connects the two. Why have all these additional parts? And the Riot team has told us like, this eliminates the bill of materials. It makes the products cheaper. It makes the system cheaper. You don't need all these extra parts. Actually, it's less stuff to go wrong, less things to fail. So this is to your point, Nico. Like, this is how you get actual mature, well designed products to emerge when you have the proper tools available to you and it's not a MacGyver jerry rigged patch job. And so did Riot help me understand like because I know a lot of people think that if it's GPL
+
+303
+00:38:46,030 --> 00:38:48,185
+Unknown: v three licensed, companies
+
+304
+00:38:48,185 --> 00:38:49,625
+are disincentivized
+
+305
+00:38:49,625 --> 00:38:50,905
+to use it because
+
+306
+00:38:51,145 --> 00:39:04,360
+it's gonna require the company, and and this is the misguided understanding they have about GPL v three, but they think that it's critics of this license think that it's gonna require the company to open source their entire product and
+
+307
+00:39:05,240 --> 00:39:06,200
+no rational
+
+308
+00:39:07,480 --> 00:39:11,800
+company would make that decision, right? So they are gonna avoid GPLv3
+
+309
+00:39:11,800 --> 00:39:12,600
+licensed
+
+310
+00:39:12,600 --> 00:39:14,755
+open source projects. However,
+
+311
+00:39:14,915 --> 00:39:22,195
+Unknown: why is why is that not a concern for Riot? It's a good question. So if they took Mugena as is and implemented
+
+312
+00:39:22,195 --> 00:39:34,960
+no changes to the Mugena mining application, what we call the Linux kernel project of of Bitcoin mining firmware, then there's nothing for them to release because they didn't change it. It's already released. If they did change, implemented a new feature,
+
+313
+00:39:35,200 --> 00:39:40,720
+something like that to the Mugena application itself, and then they start selling this product, I e distribution,
+
+314
+00:39:41,165 --> 00:39:45,325
+they'd be required to open source those changes for the Mugena application.
+
+315
+00:39:45,484 --> 00:40:12,095
+Notice how I said the Mugena application, that's because the Linux control board, which is the stock Amlogic Bitmain control board, it can also run this Riot application on top of it. And that they don't have that's their software. They can choose to open or close source that, the part that connects Mugena running on the same control board to the solar inverter. And that's their input power demand. Right? And so that's up to them if they want to release the source for that project, that that application.
+
+316
+00:40:12,095 --> 00:40:15,535
+But you can see that these two things together, the Riot application
+
+317
+00:40:15,535 --> 00:40:21,775
+and the Mugena application in one image, that that effectively becomes their distribution.
+
+318
+00:40:21,775 --> 00:40:27,290
+Right? And Scott, chime in here. Am I wrong? Like, if you add things on top of the Mugena application
+
+319
+00:40:27,450 --> 00:40:29,770
+and they have an image for the Riot product,
+
+320
+00:40:29,930 --> 00:40:39,145
+do they have to release the whole source if Mugena is an underlying piece of that image? No. No. Not necessarily. I mean, there's there's some pretty, like, specific criteria,
+
+321
+00:40:39,145 --> 00:40:43,464
+Unknown: and this comes from the Linux world. But, yeah, like, if you install Ubuntu
+
+322
+00:40:43,705 --> 00:40:49,385
+if you've noticed when you install Ubuntu, there's a checkbox for install, like, closed source proprietary
+
+323
+00:40:49,385 --> 00:40:56,110
+drivers, like for NVIDIA stuff, for example. A lot of graphics drivers are still proprietary. Right? So that software
+
+324
+00:40:56,110 --> 00:41:09,265
+that you can plug into a Linux system, and it doesn't just because it's running because the software is running on a Linux system doesn't mean it has to be released open source. Obviously, I think you should, but that that is up to them. It's so it'd be the same way with
+
+325
+00:41:10,385 --> 00:41:18,945
+with a Mugena system, which in a lot of cases is going to be running on Linux, and Mugena is this application that does the mining. And so if you change that,
+
+326
+00:41:19,620 --> 00:41:35,505
+then you have to release those changes. But you can you can run whatever other apps you want on that system. Right? You could you could preload it with Microsoft Word if you wanted to, and it doesn't, like, require you to release the source of Microsoft Word. There's some definitely some things around images,
+
+327
+00:41:35,585 --> 00:41:44,545
+like if you're providing complete images for the whole board that you need to that that contain open source GPL software in it, that you need to like the
+
+328
+00:41:45,670 --> 00:42:03,945
+Unknown: image. Like, you need to make that whole thing available, but it can definitely contain binary blobs for proprietary stuff. Gotcha. And one other note is that if you were to modify Mugena for your custom mega mining farm operation and not distribute it and keep it internal, then you don't have to release those changes. Yeah. That's right. I mean, the the the
+
+329
+00:42:04,425 --> 00:42:09,145
+Unknown: rules of the of the GPL only come into effect when you are distributing
+
+330
+00:42:09,145 --> 00:42:40,464
+them for the regular GPL v three. So when you're selling them or otherwise distributing them. But if you're just running it yourself, you can do whatever you want. Right? Like, I could take Linux installation that I have on my desktop and, like, add all kinds of stuff, and I'm under no obligation to, like, release the source of that. Same way a big mining firm that has has come up with some algorithm that is their secret sauce, they could just modify Mugena directly, implement that algorithm, and they're under no obligation to share it. So to your point, Iko, this does not disincentivize
+
+331
+00:42:40,464 --> 00:42:54,020
+Unknown: making money or building products. In fact, I'd argue the latter. You know, Riot got to start from this launching pad of the work that's already been done on Mugena and not have to design it and architect it all from scratch. Right.
+
+332
+00:42:55,475 --> 00:43:17,359
+Unknown: It's so cool because your agents know about it. Right? It's open source. You can just point them with the repo and you'd be like, here's the repo. I need to add x y z. And it's just like, you can bang it out because it has all that context about how the whole underlying system works. Yep. I think the critics are gonna be standing by shocked and odd at these companies that are springing up on a foundation of GPL
+
+333
+00:43:17,359 --> 00:43:20,720
+Unknown: v three or CopyLeft licensed
+
+334
+00:43:20,175 --> 00:43:27,295
+Unknown: open source solutions. Man, I wish I had Rod's 100% button right now. That is I I saw he used it on his tangents show.
+
+335
+00:43:28,095 --> 00:43:38,800
+Unknown: Yes. It's back. Yeah. Shout out to Rod. He's got his all tangents all the time show. I believe it's weekly. It's pretty cool. He had me on to the first one to do his community noted segment.
+
+336
+00:43:38,800 --> 00:43:43,200
+It was a lot of fun. So you should check that out if you're not already. He's got the soundboard.
+
+337
+00:43:43,360 --> 00:43:47,600
+He's got the soundboard. And it was, like, just the the layers of tangents
+
+338
+00:43:48,015 --> 00:43:57,935
+Unknown: were all the way down. Wait. Isn't that a 100% recording? Isn't that Eko saying that? I think so. Yeah. It definitely sounds like Eko. I think it's my voice that's been modified.
+
+339
+00:43:58,255 --> 00:44:08,630
+Unknown: Bruce said. Our old producer Tom made that, if I recall correctly. Alright. We need a we need a button that where you just say that, Iko. But I think you're right, Scott. I just wanna emphasize that. You know,
+
+340
+00:44:09,110 --> 00:44:14,070
+Unknown: with agentic tools, we've seen a lot of people are starting their own little firmware projects
+
+341
+00:44:14,070 --> 00:44:24,095
+to solve their immediate problems. And for anyone listening why it might seem like they see 10 different vibe coded firmware hacks for different systems that people have in their garages.
+
+342
+00:44:24,174 --> 00:44:37,190
+Meanwhile, Mugena might seem to be moving at a slower pace. You see tweets about developer calls and forum links. It takes a lot of effort and time with experts that have twenty years experience doing this to properly architect
+
+343
+00:44:37,190 --> 00:44:46,069
+a firmware project like this. But once you get the momentum, this flywheel effect starts to come out, and then an open source thoroughly documented
+
+344
+00:44:44,955 --> 00:44:46,475
+copy left license
+
+345
+00:44:46,555 --> 00:45:03,080
+firmware project exists that these agentic tools can reference for context and then they don't have to think hard about how it works, that's where you get this snowball effect of more products coming out. I think we're going to continue to see this happen at a faster and faster cadence over time. Yes. I think so too.
+
+346
+00:45:03,400 --> 00:45:10,280
+Clearly. We've been in the nurture phase for a long time because we want to get it right and make sure it's secure and it works well and
+
+347
+00:45:10,520 --> 00:45:20,974
+bring the community in and get their inputs. Then the ball's gonna start rolling. Speaking of community inputs, tell me about this Buzz server. Yeah. Schnitzel has helped us out spin up a bunch of server infrastructure.
+
+348
+00:45:21,134 --> 00:45:54,550
+It's funny. You know, I thought Dylan and I were pretty good at this stuff because we've had to figure it out because I don't wanna pay for SaaS services. And then you meet a guy like Schnitzel who literally started a company doing it, and he spins up a better server solution than you could ever dream of in a weekend. So it is his job. He's very good at it. That kid's got talent. That's for sure. But we are playing around with the Buzz Relay server that we are hosting for the two five six Foundation. We've got some internal channels there, which just helps with our comms, but we are gonna test out with some public channels as well, perhaps a a solution to Telegram,
+
+349
+00:45:54,550 --> 00:45:55,430
+but we'll see.
+
+350
+00:45:55,910 --> 00:45:59,990
+Telegram has had some bots lately. Thanks for the save there, eco. I was getting spammed.
+
+351
+00:46:00,950 --> 00:46:06,710
+Oh, that's ruthless. But the cool thing about Buzz is that agents are treated as, what a schnitzel say, first class citizens.
+
+352
+00:46:07,075 --> 00:46:11,235
+So they they do get proper context, and then all messages are recorded
+
+353
+00:46:11,235 --> 00:46:30,850
+via Nostra as logged events. And that's where I think it could be a really cool tool with an agent in there that's just kinda listening into the chats or channels about various topics to kinda just build this ever growing ball of gum of knowledge from everyone. Right? This has kinda been the dream, Scott, with OSMU as well. And then you can just ask an agent, hey.
+
+354
+00:46:31,250 --> 00:46:33,010
+How do we do this? And it will know,
+
+355
+00:46:33,665 --> 00:46:40,785
+Unknown: oh, someone already tried this eighteen months ago, blah blah blah. Yeah. It's it does seem like it has a ton of potential for development
+
+356
+00:46:40,785 --> 00:46:48,464
+and community building and, like, onboarding new folks. Right? Like, this is what's been it's impossible with Discord
+
+357
+00:46:48,540 --> 00:46:49,260
+and,
+
+358
+00:46:49,660 --> 00:46:53,340
+Telegram. It's like you just show up, you have 450
+
+359
+00:46:53,340 --> 00:46:54,140
+messages,
+
+360
+00:46:54,540 --> 00:46:55,580
+and you're like,
+
+361
+00:46:56,540 --> 00:47:28,599
+WTF, what's going on? Now you can you can have your agent just privately if you want, like summarize and, like, extract the information that you're interested in. You can also have your agent sort of publicly ask questions or talk about what you're doing, reference your Git repos. Yeah. It it does seem like it has a lot of potential. So I think I think this is a good direction to go for us because we have so many projects all with their own ecosystems at this point. Lots of events and exciting things going on. I'm looking forward to it. The the Buzz Buzz client is a little rough around the edges.
+
+362
+00:47:29,195 --> 00:47:33,915
+Yeah. Certainly a beta. Yeah. It leaves a bit to be desired. I mean, I think they got the
+
+363
+00:47:35,195 --> 00:47:38,155
+the Slack clone down pretty well,
+
+364
+00:47:38,395 --> 00:47:49,740
+but then there's still a little bit difficult to get yourself added to the server and figure out how to hook it up with your agents and just kinda get the, the vibe. But, I mean, basically,
+
+365
+00:47:49,980 --> 00:47:57,980
+every other day there's a new update for the Buzz client. So it's under active developments and, it'll get there for sure. I think in no time it'll easily surpass
+
+366
+00:47:58,275 --> 00:48:02,195
+Discord and Slack in in functionality and UX.
+
+367
+00:48:02,434 --> 00:48:21,920
+Unknown: Well, of the coolest things about it too is the the ability to connect persistent server side agents. Say if we were to have a two five six foundation bot that is just reading context and it knows everything about open source mining, knows where repos are, knows where forum topics are. And then when you come in, you can actually connect your agents from your local computer. That could be
+
+368
+00:48:22,320 --> 00:48:45,500
+a self hosted model, but it can still get a seat. It gets a Nostri private key, so it gets a persona. And then you can just have a group chat in the two fifty six Foundation Buzz Relay where you say, hey, at my agent, ask the foundation's knowledge agent where I can find this stuff. I wanna start working on a blank revision to Bidax, and it will pass off the context and your your machine will just start hacking locally,
+
+369
+00:48:45,660 --> 00:48:57,495
+Unknown: which is really cool. It is really cool. Yeah. If you're just like, oh, I've heard about this two fifty six thing. I wanna, like, you know, install Mugena. You could imagine instead of, you know, pestering someone directly
+
+370
+00:48:57,495 --> 00:49:14,110
+and getting a, you know, a hurried answer or whatever, like, you can you can solve a lot of your own problems this way when the whole chat context is available and get, like, sort of the latest updates and issues and all that stuff. I like it. It's been cool. What else is going on, guys? I've been working on a, an interesting idea.
+
+371
+00:49:14,190 --> 00:49:22,724
+I think we need to have to have nodes. More miners need to mine to their own nodes. Did I talk about this last week? Yeah. I talked about this on a podcast the other day with Solusitoshi.
+
+372
+00:49:22,724 --> 00:49:29,605
+But I think we touched on it last week. Okay. So, yeah, I've been working on that. I think it's a lot of digging into Floresta.
+
+373
+00:49:29,605 --> 00:49:30,165
+I think,
+
+374
+00:49:30,885 --> 00:49:40,840
+one of the one of the reasons why I think node adoption amongst miners is low is that it's fairly expensive to set up a full archival node due to the storage requirements,
+
+375
+00:49:41,240 --> 00:49:51,505
+and it doesn't really get you anything in your mining adventure. I mean, gets you self sovereignty, which is awesome, but it doesn't get you any more like lottery tickets or anything like that. So I think a lot of people are like, oh, $600.
+
+376
+00:49:51,505 --> 00:49:58,465
+I'm I'm I'm gonna pass. And I don't think it needs to be that way. I think mining to a prune node works perfectly well, and
+
+377
+00:49:58,865 --> 00:50:01,585
+prune nodes have significantly lower hardware requirements.
+
+378
+00:50:02,160 --> 00:50:10,800
+Why not come up with an easy like Raspberry Pi image or some other low cost single board computer that people can set up in mind too? So they're
+
+379
+00:50:11,280 --> 00:50:12,720
+Like your LibreBoard.
+
+380
+00:50:13,599 --> 00:50:24,215
+Right? Like the LibreBoard? Yes, exactly. Like the LibreBoard. So this would be perfect. So you could have a mining node on your LibreBoard. You wouldn't need to put in like a two terabyte SSD.
+
+381
+00:50:24,215 --> 00:50:28,695
+Right? It could use the compute modules baked in eMMC storage.
+
+382
+00:50:28,695 --> 00:50:41,390
+And so, yeah, this would be a perfect way to deploy a a node on your miner that's running with a Libre board. Exactly. I like it. What do you what do you does it look like this is gonna be feasible? It does. It does.
+
+383
+00:50:42,589 --> 00:50:44,670
+Utree XO has been around for a long time,
+
+384
+00:50:45,795 --> 00:50:47,075
+and it
+
+385
+00:50:47,075 --> 00:50:54,755
+kinda supports this, but it's it's actually not real well optimized for budget hardware. So I've been I've been running into some issues there.
+
+386
+00:50:55,795 --> 00:50:56,994
+UtriXO
+
+387
+00:50:56,994 --> 00:51:00,329
+and Floresta also require these proof servers.
+
+388
+00:51:00,410 --> 00:51:22,525
+And right now, there's not very many of these proof servers out there. There's actually seems to be only two, and they are in Korea, and they're 200 blocks behind the chain tip. So, you know, there's gonna be some some bootstrapping of this. Like, we need to have these proof servers set up. Setting those up is actually pretty complicated. It takes a long time to sync those, like, more than a normal Bitcoin Core IBD.
+
+389
+00:51:22,685 --> 00:51:36,810
+So, yeah, there there needs to be some work done there. I think getting some some fresh eyes on it with a with a mining focus in mind, I think will help. But yeah, the potential is there. I mean, I I synced a fluorescent node
+
+390
+00:51:37,049 --> 00:51:38,329
+on a,
+
+391
+00:51:38,569 --> 00:51:41,529
+like, a low end Raspberry Pi in,
+
+392
+00:51:41,769 --> 00:51:47,035
+twenty hours. So that's pretty good. I mean, it's normally like a month plus. Dude,
+
+393
+00:51:48,075 --> 00:51:48,955
+fluorescent You
+
+394
+00:51:49,275 --> 00:51:56,619
+can't actually mine to fluorescent. You can mine to Yutri XO. So, yeah, there's there's a little bit of work that needs to be done. What is Florestra?
+
+395
+00:51:56,619 --> 00:52:02,300
+I haven't heard of that one before. Florestra is it's kind of like a rewrite of U3XO.
+
+396
+00:52:02,300 --> 00:52:08,460
+So it's the same concept where it uses this essentially like big Merkle tree to keep track of all the UTXOs.
+
+397
+00:52:08,460 --> 00:52:11,695
+So it's the functionality is the same as UTXO,
+
+398
+00:52:11,695 --> 00:52:33,330
+but it's a rewrite. Floresta is a rewrite in Rust. It's more modern. It's under active development. Actually, UTXO is also under active development. Yeah. And and you the the Floresta projects, have talked with a couple of guys working on that, and they say that they do wanna add support for mining. It can be added. It's on their road map. So it certainly is capable of doing that with some changes. I'd like to see those come sooner rather than later. But But it requires
+
+399
+00:52:33,569 --> 00:52:40,290
+what what do you call that server that there's only two of? It's like a u three x o archival node, but it basically has calculated
+
+400
+00:52:40,545 --> 00:52:46,625
+all these proofs for Proof server. Okay. Yeah. Proof server, and it has done it from the Genesis.
+
+401
+00:52:46,785 --> 00:52:56,305
+So it's like it's additional computation per block on top of what Bitcoin Core does. So that's why it takes longer. I see. So once you spin up your Floresta
+
+402
+00:52:56,530 --> 00:52:57,330
+Unknown: node,
+
+403
+00:52:57,330 --> 00:52:58,370
+it periodically
+
+404
+00:52:58,370 --> 00:53:01,170
+needs to connect to one of these proof servers just to
+
+405
+00:53:01,490 --> 00:53:05,730
+make sure everything's legit or what? Yeah. Yeah. Basically.
+
+406
+00:53:06,210 --> 00:53:06,930
+Unknown: Okay.
+
+407
+00:53:08,210 --> 00:53:12,555
+You know, and and then, yeah, because it's this it's this, like, cascading
+
+408
+00:53:12,555 --> 00:53:14,155
+of of proofs
+
+409
+00:53:14,235 --> 00:53:17,035
+to to keep track of all the UTXOs.
+
+410
+00:53:17,035 --> 00:53:32,320
+And so that's computationally intensive, and you can rely on, like, a peer to peer network of those to get yourself synced. There's I mean, it has. So Bitcoin has those snapshots. Remember, Rico? We were Yeah. Doing those before. UTXO has that too. It's called assume UTXO.
+
+411
+00:53:32,320 --> 00:53:48,945
+And so there are those, and that helps you get much further forward faster. Right? So you just have the snapshot, and it's like, alright. It's this, like, hash, and it just allows you to start from a more recent block height. Those need to get updated. They're, like, a couple 100,000 blocks behind right now.
+
+412
+00:53:49,505 --> 00:53:59,660
+Wow. Those need to get updated into the into the but, yeah, you do need you do need these proof servers. And we're you know, if this is gonna work for lots of miners to just buy a cheap, you know, ideally $100
+
+413
+00:54:00,060 --> 00:54:05,340
+computer and plug it in and start mining to it, we're gonna need a lot more of these proof servers. Right. Interesting.
+
+414
+00:54:05,340 --> 00:54:14,665
+But we can do that. There's there's all kinds of interested miners out there that would do it. Yeah. I'm I'm definitely into this idea of, like, like, low cost hardware.
+
+415
+00:54:14,665 --> 00:54:17,865
+Unknown: One of the motivating factors behind HydraPool
+
+416
+00:54:17,865 --> 00:54:21,785
+was that I tried spinning up public pool on a Raspberry Pi.
+
+417
+00:54:23,420 --> 00:54:32,859
+And, you know, part of the deal was that I had to have a Bitcoin node on the Raspberry Pi as well. And that was just very painful to spin up on that hardware.
+
+418
+00:54:32,940 --> 00:54:41,875
+So I really liked the idea of being able to get involved with mining and having your own node without a hurdle of expensive hardware.
+
+419
+00:54:41,955 --> 00:54:44,035
+Because I've got a bunch of old Raspberry
+
+420
+00:54:44,035 --> 00:54:46,275
+Pi fours laying around,
+
+421
+00:54:46,915 --> 00:54:57,050
+you know, it's it's just nice to be able to, like, if I wanna try something out, to be able to grab one of those and then just like try it out without having to go out and buy another computer
+
+422
+00:54:57,450 --> 00:55:10,975
+and like spin up, you know, like you said, $600 worth of hardware to spin up a node. Sometimes you just wanna try things and you just wanna like use what you have laying around to see if the concept is even like worth pursuing and
+
+423
+00:55:11,295 --> 00:55:38,625
+Unknown: it would just be nice if there are a solution that would be conducive to that. I think it is. I think it can work. I mean, I originally I think, David a guy named Davidson, he's the, one of the lead devs on Floresta. I met him, like, almost two years ago, and he showed me that he had this this embedded Linux system. It was the size of, like, a pack of gum. And he was like, we're gonna run a mining node on this. And I was like, this is amazing. Awesome. Totally do this. So, you know, it's on their sites,
+
+424
+00:55:39,025 --> 00:55:47,210
+and it it would be a game changer. I mean, the more home miners, solo miners that are mining to their unknown, the better. Right? If we can just make it easier
+
+425
+00:55:47,450 --> 00:55:49,930
+and cheaper for them to do while still retaining
+
+426
+00:55:50,010 --> 00:55:53,130
+that same, you know, decentralization
+
+427
+00:55:53,609 --> 00:56:03,805
+that, you know, validating that they are, like, on the chain. It's not susceptible to, you know, someone rugging them. We don't wanna have anyone mining invalid blocks.
+
+428
+00:56:04,125 --> 00:56:14,285
+Like, that stuff all needs to stay. But I think I think this is the route to do that. So that's been fun to poke at. My AI is pretty good at coming up with ideas. Shall look at the Hashdash? Yeah. 78
+
+429
+00:56:14,420 --> 00:56:15,300
+Unknown: Terahash.
+
+430
+00:56:15,300 --> 00:56:18,740
+In first place, we got Zarka, longtime supporter supporter.
+
+431
+00:56:18,740 --> 00:56:19,380
+Thank you.
+
+432
+00:56:19,780 --> 00:56:20,980
+777,
+
+433
+00:56:21,060 --> 00:56:25,060
+the Bitcoin Park miners that we conquered with Schnitzel script.
+
+434
+00:56:25,380 --> 00:56:32,405
+PubKey. Also conquered by Schnitzel script. Yeah. Watch out, Megaminers. You don't wanna get conquered by Schnitzel script. Tyler,
+
+435
+00:56:32,484 --> 00:56:33,765
+hardestblocks.org,
+
+436
+00:56:33,765 --> 00:56:35,685
+D plus plus, Dylan,
+
+437
+00:56:35,765 --> 00:56:36,484
+Eko,
+
+438
+00:56:36,565 --> 00:56:38,885
+Backwater Mining Collective, Exergy,
+
+439
+00:56:38,885 --> 00:56:40,484
+Nord, Satoki,
+
+440
+00:56:40,565 --> 00:56:44,040
+Scott, Clear, agent p, p Buttweiler,
+
+441
+00:56:44,119 --> 00:56:54,440
+Nuclear, Pizzandy, and Schnitzel. Thank you for continuous support. No changes to the difficulty leaderboard since Telehash four, and Eco has been booted from the loyalty leaderboard.
+
+442
+00:56:54,935 --> 00:56:56,375
+Unknown: Come on. How?
+
+443
+00:56:57,015 --> 00:56:59,495
+Unknown: By Scott. Scott's in tenth. Damn, Scott.
+
+444
+00:56:59,895 --> 00:57:00,695
+Unknown: You're doing too Yeah. Much
+
+445
+00:57:01,895 --> 00:57:07,335
+I had to it it just got too hot. My, like, AC was running a 100% duty cycle,
+
+446
+00:57:07,335 --> 00:57:27,595
+Unknown: and I had to unplug everything yesterday. I was like, it's so That's funny. Not your chance, eco. Yeah. Where let me check. Are all three of my miners still online? Let's see. Oh, no. One of my miners shut off. Hopefully, didn't get it back on. Yeah. I gotta it's at a it's at a a different geographic location,
+
+447
+00:57:27,755 --> 00:57:29,595
+so this might take me some time.
+
+448
+00:57:30,315 --> 00:57:33,994
+That's funny. Yeah. Okay. Good to be Geographically
+
+449
+00:57:33,994 --> 00:57:34,875
+Unknown: decentralized.
+
+450
+00:57:34,955 --> 00:57:35,355
+Unknown: Yes, Scott.
+
+451
+00:57:36,339 --> 00:57:38,820
+Unknown: Go ahead, Ike. No. I I'm
+
+452
+00:57:39,140 --> 00:57:57,405
+Unknown: I'm I'm retarded and autistic so I have things all over the place. Well, Scott's been having more hash rate because I keep sending him minors to poke at. We didn't talk about that. You took a look at the m 64. That's quite interesting. It is. Yeah. This is my first deep dive into what's minors.
+
+453
+00:57:58,525 --> 00:58:00,525
+Unknown: But you said him an m 64?
+
+454
+00:58:00,525 --> 00:58:07,650
+Unknown: Yeah. Which is like Nice. The heatpunk holy grail. That's what a miner that all the heatpunks like because it's the only single phase power,
+
+455
+00:58:07,810 --> 00:58:26,945
+Unknown: small form factor, silent water cooled miner. But it has crappy Watts miner firmware on it. And I think Scott tore it apart, and it's pretty interesting machine. It is a very interesting machine. Tore it apart. I tore it open. It's it's very well built inside. I mean, this this is significantly better build quality than I've seen on the,
+
+456
+00:58:27,425 --> 00:58:34,570
+Antminer hydro units. It's super heavy. It has very weird proprietary connectors for power and water.
+
+457
+00:58:34,809 --> 00:58:35,770
+So that's interesting.
+
+458
+00:58:36,089 --> 00:58:41,930
+Yeah. Mostly what I was getting at was the firmware. The one of the discoveries that shocked me the most was
+
+459
+00:58:42,225 --> 00:58:55,905
+that and this this is still preliminary, so I don't know if it's entirely true yet. But it seems like the work that is sent from the firmware to the chips, like the the jobs to mine, it seems like they're cryptographically signed,
+
+460
+00:58:56,065 --> 00:59:01,510
+which is insane to me. So there's like a essentially a secure element on the CPU on the control board.
+
+461
+00:59:01,750 --> 00:59:03,190
+And presumably,
+
+462
+00:59:03,190 --> 00:59:06,390
+there is a portion on the ASIC itself
+
+463
+00:59:06,470 --> 00:59:10,710
+that will verify that the work that they got is signed by MicroBT's
+
+464
+00:59:10,710 --> 00:59:12,310
+keys on the control board.
+
+465
+00:59:12,995 --> 00:59:28,275
+Come on. Right? This is crazy. Why would they do this? All the mining data is still sent in the clear. Right? Like, you can still see how it's writing all the registers and everything. So there's no secrets they're hiding. They're just preventing or trying to prevent third party firmware.
+
+466
+00:59:28,780 --> 00:59:30,380
+Yeah. From operating.
+
+467
+00:59:30,540 --> 00:59:46,075
+This is That's the only reason that's the only reason you would do something like that. Again, I'm not a 100% on this yet, but there is we have identified, me and my agent have identified that there is a I think it was like 20 bit essentially checksum
+
+468
+00:59:46,075 --> 00:59:55,435
+at the end of the job packet, which is is common. We always see checksums on there, but it it does look like it contains a signature from
+
+469
+00:59:55,915 --> 00:59:56,235
+the
+
+470
+00:59:56,780 --> 00:59:57,660
+CPU's
+
+471
+00:59:57,660 --> 01:00:16,515
+secure element, which is we don't know yet if it rejects packets that aren't signed, rejects jobs that aren't signed. We don't know that yet. That could be the case, but why would they even bother if they weren't using it? I don't know. Is this an indication on perhaps why aftermarket firmwares have not really focused on What'sMiner support? Perhaps.
+
+472
+01:00:16,595 --> 01:00:17,155
+Yes.
+
+473
+01:00:17,714 --> 01:00:19,555
+Unknown: And what would it mean for Mugena?
+
+474
+01:00:19,635 --> 01:00:24,115
+What would what would Mugena need to institute so that it could support What'sMiner's?
+
+475
+01:00:24,240 --> 01:00:26,240
+You'd have to know this signature.
+
+476
+01:00:26,240 --> 01:00:29,200
+Unknown: Yeah. Okay. You'd have to know the signature. You'd have to know the,
+
+477
+01:00:30,320 --> 01:00:35,920
+Unknown: yeah, the the key that they're signing these jobs with. Well, hopefully, it wasn't created with a lot of entropy.
+
+478
+01:00:39,694 --> 01:00:41,535
+Unknown: That's awesome. Yeah.
+
+479
+01:00:41,694 --> 01:00:44,095
+Turns out that's hard to do. Yeah.
+
+480
+01:00:44,654 --> 01:00:52,630
+Yeah. I I haven't plugged this thing in yet, but now I I almost have all the little bits that I need to plug this thing in yet in, and see
+
+481
+01:00:53,270 --> 01:00:53,910
+what
+
+482
+01:00:54,870 --> 01:01:01,030
+what it what the serial data communication with the ASICs actually looks like in practice. Because right now, I've just been
+
+483
+01:01:01,430 --> 01:01:08,944
+poking at the binaries. So we should be able to see what it's actually looking like, and we should be able to try modifying it, and see if,
+
+484
+01:01:09,585 --> 01:01:15,025
+we get a rejection if that key isn't there. So that'll give us a definitive answer on this.
+
+485
+01:01:15,585 --> 01:01:17,425
+And then, yeah, if it is requiring
+
+486
+01:01:17,870 --> 01:01:39,595
+those jobs to be signed, then there's some more work to be done. It's a pretty pretty tight setup. You know, they really don't want you doing other things with these machines. Yeah. Yeah. They really don't. They have the root file system is encrypted on there. There's no SSH is turned off by default. It's it's really locked down. That that is on par with what I've seen from the latest Ant miners.
+
+487
+01:01:40,234 --> 01:02:16,730
+S 23 does that as well. So this is kind of that song and dance where someone figures out a way to get aftermarket firmware on a miner, and then Bitmain will go change something. Yeah. Yeah. It has been that, like, that way for a couple years is they've they've really tried to lock down what you can load on there. It gets exploited, and it's this, like, cat and mouse game where, you know, it gets exploited, now brain's vanished. LuxOS can load on there, and then the next version, Bitmain patches it. Well, in Vegas, they announced, like together Luxor and LuxOS and MicroBT announced support for their fleet. So I wonder what's going on there.
+
+488
+01:02:17,369 --> 01:02:19,130
+Really? I didn't hear that.
+
+489
+01:02:20,490 --> 01:02:20,970
+Firmware?
+
+490
+01:02:21,695 --> 01:02:23,615
+Luxos firmware on MicroBT?
+
+491
+01:02:24,575 --> 01:02:28,495
+Unknown: Interesting. Very interesting. I don't know. Must have just gave them the signature.
+
+492
+01:02:30,575 --> 01:02:31,455
+Unknown: Man.
+
+493
+01:02:31,695 --> 01:02:43,380
+Although I wonder I wonder how much info they actually get. I've heard from some friends that are repair techs at mining companies. In this case, mining companies owned by the manufacturer,
+
+494
+01:02:43,540 --> 01:02:45,860
+and they don't get repair documents.
+
+495
+01:02:45,940 --> 01:03:01,915
+Like, these are the people that the manufacturer is paying to fix their fleet, and they still don't have access to scan patents and things like that. It's just It doesn't make that sense. Insane. Yeah. Or even the if you ordered a 100,000 Watts miners, say you're Riot Riot in Texas,
+
+496
+01:03:01,995 --> 01:03:11,960
+Unknown: and you say to them, hey. I'm planning to put LuxOS on these. Why why would the manufacturer not just help you do that? Seems like they should. Yeah. They could be like,
+
+497
+01:03:12,359 --> 01:03:28,954
+Unknown: alright. Well, we're not gonna support you. Your warranty we're not gonna gonna cover, like, failures if you put LuxOS on there. But, like, once that's out of the way, what do they care? Yeah. Right. Very hesitant or resistant to change. It is interesting. I think it's fair to say they're not the best at making firmware. They're not.
+
+498
+01:03:28,954 --> 01:03:31,035
+Unknown: They're just not. I mean They don't have to be.
+
+499
+01:03:32,730 --> 01:03:39,370
+Unknown: They've got a captive audience, I guess. People who have gotta have that warranty support, although I've heard it's kinda garbage. But,
+
+500
+01:03:40,330 --> 01:03:43,290
+yeah. I mean, everyone knows that Bitmain's firmware sucks.
+
+501
+01:03:43,290 --> 01:03:47,045
+Like, it doesn't do any tuning. It doesn't have any overclocking,
+
+502
+01:03:47,045 --> 01:03:48,085
+underclocking.
+
+503
+01:03:48,645 --> 01:03:58,325
+Unknown: It's like the API's garbage. Well, the only thing they had from from the initial findings in Schnitzel's thread on the red team effort was it is the most, like, clean and trustworthy
+
+504
+01:03:58,325 --> 01:03:59,924
+in terms of avenues
+
+505
+01:03:59,924 --> 01:04:05,380
+to exploit compared to these aftermarket ones that sell you on features, which was interesting. Like,
+
+506
+01:04:05,940 --> 01:04:08,260
+Unknown: complete lack of features minimizes
+
+507
+01:04:08,260 --> 01:04:12,579
+Unknown: the attack surface. Yeah. Pretty much. Of course, there's no reason it has to be that way. Securing
+
+508
+01:04:13,185 --> 01:04:18,465
+securing Linux computers on the network is, I wouldn't say solved, but it's pretty well understood.
+
+509
+01:04:18,545 --> 01:04:46,415
+Like, third party firmware could give the owner the option to install a SSH key on there and lock it down. But one of the one of the, like, mantras of hardware reverse engineering or reverse engineering, I guess, in general, is that physical access means all bets, all security bets are off. And that is very true. Yeah. If you have the hardware on your desk, it gets very, very difficult, and especially now with AI, basically impossible to lock someone else out.
+
+510
+01:04:46,494 --> 01:04:58,690
+So the name of the game is just securing your device on the network and then putting, like, you know, padlocks on your building so no one can get in and get physical access. Exciting. Send send miners to Scott. He can't help himself. He's gonna hack them. Same with Schnitzel.
+
+511
+01:04:59,970 --> 01:05:05,090
+Yeah. We got a good team. Fun stuff. Really fun stuff. Yeah. When when are we gonna be able to point everyone to the
+
+512
+01:05:05,650 --> 01:05:08,210
+to the Buzz server so we can just really get the party started?
+
+513
+01:05:08,904 --> 01:05:14,665
+Unknown: That's a good question. We're still scoping out kind of the the server side of resources we need and
+
+514
+01:05:15,065 --> 01:05:29,350
+probably come up with a token budget too before people start spamming questions to bots. Right now, I think I'm charging Schnitzel's credit card when I ask questions. Gotta fix that. Yeah. Turn off the self hosted AI for a little bit. Yeah. Yeah. But things are moving along. Upgrading
+
+515
+01:05:30,070 --> 01:05:31,670
+our infrastructure and
+
+516
+01:05:31,910 --> 01:05:39,475
+tools. This is cool. Yeah. Alright. Should we wrap? Yeah. I think that's a wrap you guys. Amazing. Thanks for tuning in. Good show. Y'all
+
+517
+01:05:39,795 --> 01:05:40,355
+Unknown: stay
+
+518
+01:05:41,155 --> 01:05:41,955
+sovereign,
+
+519
+01:05:42,275 --> 01:05:43,715
+and we'll see you
+
+520
+01:05:43,955 --> 01:05:47,555
+next week for pod two fifty six number one twenty five.
+

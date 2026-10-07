@@ -1,0 +1,4308 @@
+1
+00:00:02,240 --> 00:00:03,060
+Unknown: What's up?
+
+2
+00:00:03,439 --> 00:00:04,740
+Unknown: What's up, everyone?
+
+3
+00:00:05,440 --> 00:00:06,420
+We are here.
+
+4
+00:00:06,879 --> 00:00:07,379
+Unknown: Yeah.
+
+5
+00:00:07,680 --> 00:00:08,500
+That's right.
+
+6
+00:00:08,880 --> 00:00:11,219
+We just keep dropping like flies, Scott?
+
+7
+00:00:12,080 --> 00:00:14,605
+Unknown: Well, not us. But, our
+
+8
+00:00:15,385 --> 00:00:15,705
+our,
+
+9
+00:00:17,065 --> 00:00:17,725
+our fearless
+
+10
+00:00:18,345 --> 00:00:19,485
+podcast founders
+
+11
+00:00:19,945 --> 00:00:22,285
+are out this week, but I think they have legit excuses.
+
+12
+00:00:23,545 --> 00:00:25,564
+Unknown: Babies and kids and summits.
+
+13
+00:00:27,150 --> 00:00:29,310
+Unknown: I don't know. I feel like if Rod,
+
+14
+00:00:30,669 --> 00:00:38,769
+if Rod skipped out on this podcast every time he's getting ready to hold an epic summit, then he just wouldn't ever be here. There's too many epic summits.
+
+15
+00:00:39,425 --> 00:00:42,965
+Dude is an epic summit. That's right. That is right.
+
+16
+00:00:43,745 --> 00:00:45,364
+Unknown: What's been going on with you this week?
+
+17
+00:00:46,065 --> 00:00:46,885
+Unknown: Oh, man.
+
+18
+00:00:49,025 --> 00:00:50,405
+I've been working on some,
+
+19
+00:00:50,864 --> 00:00:52,965
+furiously working on some PCB designs.
+
+20
+00:00:55,440 --> 00:01:00,980
+Wrapped up the v five of Ember one. Yeah. That's right. That was that was late last week.
+
+21
+00:01:01,440 --> 00:01:02,180
+Got those
+
+22
+00:01:03,280 --> 00:01:04,659
+designs out to eco.
+
+23
+00:01:05,040 --> 00:01:09,395
+Unknown: What were the final decisions on v five? I know that last week, we were talking about,
+
+24
+00:01:10,015 --> 00:01:13,155
+you know, fan controller. Do we do stuff? Do we do this? Do we do that?
+
+25
+00:01:16,495 --> 00:01:16,995
+Unknown: Well,
+
+26
+00:01:18,335 --> 00:01:22,560
+I guess we have this problem that the the Ember one, it doesn't have,
+
+27
+00:01:22,939 --> 00:01:23,920
+like, a target
+
+28
+00:01:24,380 --> 00:01:30,460
+system in mind. Like, it it's it's just a hash board. It it's like a reference design development board,
+
+29
+00:01:30,939 --> 00:01:40,015
+type of thing. So we don't have, like, a a full system in mind. Right. So it's sort of delegating some of these things like who runs the fans and stuff
+
+30
+00:01:40,555 --> 00:01:42,575
+is not entirely clear.
+
+31
+00:01:43,275 --> 00:01:44,815
+Ryan who's working on Regina,
+
+32
+00:01:45,675 --> 00:01:47,355
+shout out to Ryan. He's,
+
+33
+00:01:47,915 --> 00:01:50,430
+feverishly working on everything, actually.
+
+34
+00:01:51,930 --> 00:01:52,330
+He,
+
+35
+00:01:53,450 --> 00:01:54,110
+he was
+
+36
+00:01:54,570 --> 00:02:00,430
+yeah. I I sent him a v four, and he's got it on his desk. And he's just running it connected via USB to his computer.
+
+37
+00:02:00,810 --> 00:02:06,405
+And so the fan situation is a little weird because you gotta have a fan, but he doesn't have a control board yet.
+
+38
+00:02:07,505 --> 00:02:09,925
+We're still working on on lever board
+
+39
+00:02:10,225 --> 00:02:23,430
+for that. But yeah. So it was like, you know, he was like, I need to run a fan. And, I just have it hardwired into the 12 volts input so it's running at full speed all the time. Maybe a little bit annoying. That's okay. It's it's like the industrial miners.
+
+40
+00:02:23,810 --> 00:02:29,190
+Yeah. There you go. Except for it's on your desk Yeah. Next to your computer where you're sitting slaving
+
+41
+00:02:29,715 --> 00:02:31,095
+and, you know,
+
+42
+00:02:32,275 --> 00:02:39,255
+working on the the firmware trying to concentrate on code. Anyways, Ryan was like, man, it'd be great if we had a fan controller on number one.
+
+43
+00:02:39,635 --> 00:02:43,495
+I was like, I don't wanna build in a fan controller for this because we don't know
+
+44
+00:02:43,950 --> 00:02:46,370
+if, you know, everyone is gonna be,
+
+45
+00:02:46,830 --> 00:03:00,924
+you know, running it stand alone like you are. Some people might run an immersion. Some people might make rad water blocks and put it in a water heater or something like that. Some people might run it in a system, in which case they'll have multiple ember ones,
+
+46
+00:03:01,545 --> 00:03:02,045
+and
+
+47
+00:03:02,905 --> 00:03:05,245
+then they would need a separate fan controller. So
+
+48
+00:03:05,625 --> 00:03:06,265
+the the,
+
+49
+00:03:07,224 --> 00:03:07,724
+the
+
+50
+00:03:08,025 --> 00:03:10,525
+what we agreed on was to
+
+51
+00:03:11,270 --> 00:03:14,090
+break out some of the extra pins from the controller
+
+52
+00:03:15,190 --> 00:03:19,450
+to a to a header on the on the Embraer one. I have some free space
+
+53
+00:03:20,070 --> 00:03:22,730
+after switching to the new, voltage regulator.
+
+54
+00:03:23,750 --> 00:03:28,205
+And so I put a handful of pins on there, including power, ground.
+
+55
+00:03:28,825 --> 00:03:29,644
+And so
+
+56
+00:03:29,944 --> 00:03:34,205
+if someone wants to make kind of a little daughter board to stick on there to do
+
+57
+00:03:34,665 --> 00:03:35,965
+fan control onboard,
+
+58
+00:03:36,504 --> 00:03:38,525
+this would be perfect for that.
+
+59
+00:03:38,825 --> 00:03:39,325
+Unknown: Nice.
+
+60
+00:03:40,240 --> 00:03:40,980
+Unknown: I also
+
+61
+00:03:42,240 --> 00:03:43,460
+kinda made that daughterboard,
+
+62
+00:03:44,400 --> 00:03:45,780
+in a huge,
+
+63
+00:03:47,200 --> 00:03:49,140
+tangent of PCB design.
+
+64
+00:03:49,600 --> 00:03:51,920
+So that's I post that up on my GitHub. But,
+
+65
+00:03:54,815 --> 00:03:57,395
+yeah. So that that was one of the one of the,
+
+66
+00:03:58,015 --> 00:04:02,115
+I guess, design issues that we went back and forth on there. Didn't end up being a big change.
+
+67
+00:04:02,895 --> 00:04:07,795
+The the big the big, big change on v five is that new voltage regulator.
+
+68
+00:04:08,095 --> 00:04:08,995
+Smaller inductors,
+
+69
+00:04:10,170 --> 00:04:11,550
+should be much more performant.
+
+70
+00:04:12,490 --> 00:04:17,470
+It's it's like a more modern voltage regulator. And so it has cool things like
+
+71
+00:04:18,250 --> 00:04:19,310
+you can monitor
+
+72
+00:04:19,770 --> 00:04:22,270
+the voltage regulator temperature digitally.
+
+73
+00:04:23,050 --> 00:04:26,815
+And those get hot? Yes. They do get hot, especially when you're,
+
+74
+00:04:27,675 --> 00:04:28,895
+you know, regulating,
+
+75
+00:04:30,075 --> 00:04:30,735
+high current,
+
+76
+00:04:31,755 --> 00:04:35,935
+Unknown: power supply. And this is actually a unique challenge I learned from from
+
+77
+00:04:36,440 --> 00:04:50,985
+experiencing and spending time with you and Ryan and Schnitzel is, like, these have to live very close to the ASIC chips themselves. They do. And they get really hot. And so that creates a problem in terms of your cooling solution. Your heat sinks, they're not always at the same, like, planar height. Right?
+
+78
+00:04:51,525 --> 00:04:52,505
+Things like that.
+
+79
+00:04:52,885 --> 00:04:56,425
+What's it like? What does it look like? This new design, how does that impact everything else?
+
+80
+00:04:57,445 --> 00:04:58,485
+Unknown: Well, I'll say that,
+
+81
+00:04:59,205 --> 00:05:02,889
+the big miners, the amp miners, they don't have voltage regulators. Oh.
+
+82
+00:05:03,530 --> 00:05:05,550
+They control the output voltage
+
+83
+00:05:05,930 --> 00:05:07,710
+of the power supply directly.
+
+84
+00:05:08,330 --> 00:05:11,550
+So the the voltage that they pass into the hash boards
+
+85
+00:05:12,009 --> 00:05:13,870
+is what the chips use directly.
+
+86
+00:05:14,810 --> 00:05:20,965
+They also have, like, a 100 chips, and they can put a bunch of them in series to get that voltage up to like
+
+87
+00:05:21,505 --> 00:05:22,005
+twelve,
+
+88
+00:05:22,385 --> 00:05:28,725
+eighteen volts, something like that. Yeah. We don't have that many chips. We have 12 volt or 12 chips.
+
+89
+00:05:29,770 --> 00:05:36,189
+But even with them all in series, we're only up to 3.6 volts. So we have to step that input voltage down.
+
+90
+00:05:36,650 --> 00:05:39,870
+And that's, you know, you need and it's it's high current,
+
+91
+00:05:41,129 --> 00:05:44,669
+so you need a beefy voltage regulator. And, yeah, they do get hot.
+
+92
+00:05:46,305 --> 00:05:47,044
+The good
+
+93
+00:05:47,425 --> 00:05:50,245
+news is that these voltage regulators are rated up to, like,
+
+94
+00:05:50,785 --> 00:06:00,164
+well over a 100 degrees Celsius. Like, I think the max is, like, one ten, one twenty, something like that. So they can deal with quite a bit higher temperatures than the ASICs themselves.
+
+95
+00:06:01,280 --> 00:06:04,260
+Unknown: That's cool. Are these the same things that are on
+
+96
+00:06:04,720 --> 00:06:05,220
+standard,
+
+97
+00:06:05,520 --> 00:06:09,940
+like your typical gaming graphics card? I remember there was some VRAM that would get really hot
+
+98
+00:06:10,240 --> 00:06:10,740
+or
+
+99
+00:06:11,440 --> 00:06:16,420
+something was way hotter than the actual graphics compute chips. And that was my bottleneck.
+
+100
+00:06:17,235 --> 00:06:21,735
+Unknown: Yeah. You're exactly right. They do this on GPUs all the time. They'll have,
+
+101
+00:06:23,635 --> 00:06:28,935
+eight or more phases. So, like, basically eight different voltage regulators.
+
+102
+00:06:30,275 --> 00:06:42,030
+Because they, again, are dealing with high power and they need to step, you know, relatively high 12 volts, whatever, down to, like, in the neighborhood of, like, one volt for the GPU itself. Wow.
+
+103
+00:06:42,330 --> 00:06:45,470
+So they do that. I've spent a lot of time looking at
+
+104
+00:06:46,155 --> 00:06:49,935
+pictures of those circuit boards and seeing how they do it.
+
+105
+00:06:50,395 --> 00:06:52,815
+One of the things that they have that we don't
+
+106
+00:06:53,275 --> 00:06:53,775
+is
+
+107
+00:06:54,474 --> 00:07:06,900
+they do massive volume, and they're a company like Nvidia. And so they call up a company that makes voltage regulators and they say, here's what we need. And they're like, yes, yes, sir. What can we do for you just
+
+108
+00:07:07,280 --> 00:07:11,220
+to spec our part in your design? It's fully integrated, yeah. Yeah, like
+
+109
+00:07:11,755 --> 00:07:18,975
+a voltage regulator company like MPS or TI or something like that's a big account for them. So they'll do whatever you want.
+
+110
+00:07:19,515 --> 00:07:22,255
+And so as a result, when I'm looking at these
+
+111
+00:07:22,635 --> 00:07:23,135
+these,
+
+112
+00:07:24,500 --> 00:07:25,960
+you know, graphics motherboard,
+
+113
+00:07:26,420 --> 00:07:31,320
+circuit boards and looking at the parts that are on there, I can see the part number of the voltage regulator.
+
+114
+00:07:31,620 --> 00:07:34,520
+I Google it and it's like nothing. Can't go. Manufacturer,
+
+115
+00:07:35,140 --> 00:07:37,960
+Unknown: not available. So they'll only make it for that system.
+
+116
+00:07:38,515 --> 00:07:40,055
+Unknown: Yeah. They're not generally available
+
+117
+00:07:40,435 --> 00:07:43,495
+Yeah. For us, which bummer. But
+
+118
+00:07:44,515 --> 00:07:47,895
+I think we're gonna do pretty well with this new voltage regulator. I think,
+
+119
+00:07:48,435 --> 00:07:54,330
+it should work pretty well. It's modern. It's got these monitoring features. It has cool things like
+
+120
+00:07:54,810 --> 00:07:57,150
+you can program, like, a over temperature
+
+121
+00:07:57,610 --> 00:08:03,550
+shutdown into the voltage regulator. So it'll just automatically shut down and turn off the output if it's,
+
+122
+00:08:04,409 --> 00:08:05,870
+temperature gets too high.
+
+123
+00:08:06,250 --> 00:08:19,125
+Input voltage, output voltage, output current, those kind of things. It's it's programmable to be very smart about that. And that's cool. Yeah. That's gotta be helpful for, like, overclocking and underclocking too because it's just more data. It's more
+
+124
+00:08:19,585 --> 00:08:29,580
+tuning parameters to optimize it. Yeah. Yeah. Yeah. Exactly. And it it kind of I mean, this is what we do on the BitX too. It it's like a fail safe. Right? If you're, like,
+
+125
+00:08:30,120 --> 00:08:40,764
+going for broke and just overclock to the max, you know, your your the temperature of your ASICs, but then also the voltage regulator will just start to rise. And if it gets, if it, you know,
+
+126
+00:08:41,545 --> 00:08:42,685
+really quickly spikes,
+
+127
+00:08:43,225 --> 00:08:48,444
+the voltage regulator will act immediately and turn off the output, and so it'll start to cool down.
+
+128
+00:08:48,904 --> 00:08:58,870
+Unknown: Is this related at all to the horror stories I've heard from the industrial ASICs where it's the power supplies that kill machines, really. The hash boards are more robust and resilient.
+
+129
+00:09:00,850 --> 00:09:07,189
+Unknown: I I've I've heard that too. I I've seen pictures of these hash boards where, like, the whole corner is just like charcoal.
+
+130
+00:09:09,105 --> 00:09:09,845
+I think
+
+131
+00:09:10,705 --> 00:09:13,365
+that's that's exactly what is going on there.
+
+132
+00:09:14,225 --> 00:09:15,365
+Those hash boards
+
+133
+00:09:15,905 --> 00:09:17,045
+will not have,
+
+134
+00:09:18,865 --> 00:09:21,445
+any sort of current, like, overcurrent,
+
+135
+00:09:22,890 --> 00:09:24,730
+protection, like a fuse or,
+
+136
+00:09:25,450 --> 00:09:29,310
+any kind of shutdown on it. So the power supply is like,
+
+137
+00:09:30,089 --> 00:09:34,510
+okay, great, everything's going great. I'm supplying tons of current. Meanwhile, the hash board's on fire.
+
+138
+00:09:37,045 --> 00:09:39,705
+Hopefully, because we have it more integrated,
+
+139
+00:09:40,885 --> 00:09:42,665
+that kind of thing will be reduced
+
+140
+00:09:43,925 --> 00:09:44,905
+dramatically reduced.
+
+141
+00:09:45,605 --> 00:09:48,090
+Unknown: That's sweet. So now that v five is
+
+142
+00:09:48,570 --> 00:09:53,630
+done, that's what's going to get made out of Bitcoin Park on those pick and place machines?
+
+143
+00:09:54,090 --> 00:10:00,110
+Unknown: Yeah. Yeah. Yeah. And I I should I should mention that, like, this design v five, while it's not
+
+144
+00:10:00,595 --> 00:10:04,455
+validated yet, has been posted on the two fifty six foundation
+
+145
+00:10:04,995 --> 00:10:06,295
+GitHub. So,
+
+146
+00:10:06,915 --> 00:10:08,615
+you know, anyone can make it.
+
+147
+00:10:09,875 --> 00:10:10,375
+Iko
+
+148
+00:10:10,755 --> 00:10:23,870
+at, you know, with his setup is going to make them so that I can so that we all can validate the design and then eventually, you know, say, like, okay. This is cool and release it. But I just wanna make it clear that this is an open source design, like,
+
+149
+00:10:24,250 --> 00:10:25,149
+others are
+
+150
+00:10:25,610 --> 00:10:30,714
+welcome to to play along. You know, if you build this right now, you might also
+
+151
+00:10:31,175 --> 00:10:32,154
+run into bugs,
+
+152
+00:10:33,335 --> 00:10:37,355
+which we hope to eliminate in the future. But, yeah, it's all out there.
+
+153
+00:10:38,775 --> 00:10:41,709
+Sweet. Yeah. Yeah. It's gonna be real cool.
+
+154
+00:10:42,910 --> 00:10:44,769
+I've mentioned this before that the downside
+
+155
+00:10:45,149 --> 00:10:50,370
+to the changes that went into v five are now we don't accept 24 volts input anymore.
+
+156
+00:10:50,750 --> 00:10:54,130
+We we it's down to, 17 is the max.
+
+157
+00:10:55,905 --> 00:10:59,445
+That's sort of a concession for these new, more modern voltage regulators.
+
+158
+00:11:00,705 --> 00:11:04,485
+Unknown: This is not a constraint for the power supply selection.
+
+159
+00:11:05,985 --> 00:11:09,925
+Right? Is it it's just constrained further down the line?
+
+160
+00:11:10,390 --> 00:11:16,410
+Unknown: It is a constraint for the power supply. Oh, it is? Okay. Yeah. Because before, if you were like, I'm gonna use a 24 volt power supply,
+
+161
+00:11:17,830 --> 00:11:19,610
+that will not work anymore.
+
+162
+00:11:20,230 --> 00:11:21,450
+Unknown: Gotcha. Gotcha.
+
+163
+00:11:22,709 --> 00:11:23,770
+Okay. Interesting.
+
+164
+00:11:24,149 --> 00:11:25,815
+Unknown: Yeah. Yeah. It should be,
+
+165
+00:11:27,415 --> 00:11:33,195
+it should be pretty cool. I think it's, you know, I guess it's gonna suck for someone who wants to do 24 volts, but
+
+166
+00:11:33,574 --> 00:11:35,675
+the thought there was that,
+
+167
+00:11:36,055 --> 00:11:38,190
+you know, if you wanna use 24 volts,
+
+168
+00:11:38,910 --> 00:11:39,410
+you
+
+169
+00:11:40,110 --> 00:11:40,670
+can have,
+
+170
+00:11:41,870 --> 00:11:44,130
+some sort of external voltage regulator.
+
+171
+00:11:44,590 --> 00:11:50,850
+Unknown: Yeah. Is that a big problem when it comes to system building? I mean, are there a plethora of power supply options to choose from?
+
+172
+00:11:51,715 --> 00:11:55,635
+Unknown: There are. There definitely are. 12 volts is very common. Yeah.
+
+173
+00:11:56,115 --> 00:11:57,735
+You know, in in all
+
+174
+00:11:58,195 --> 00:11:59,095
+these industries
+
+175
+00:11:59,715 --> 00:12:04,615
+that might wanna use hash hash boards, right, like hash rate heating and things like that.
+
+176
+00:12:06,670 --> 00:12:07,490
+One of
+
+177
+00:12:08,030 --> 00:12:09,170
+the sort of initial
+
+178
+00:12:09,790 --> 00:12:10,930
+design thoughts
+
+179
+00:12:11,470 --> 00:12:15,310
+that that led us to support 24 volts was that,
+
+180
+00:12:17,310 --> 00:12:18,370
+the higher the voltage,
+
+181
+00:12:18,990 --> 00:12:21,725
+the lower the current. Yep. With the same amount of power.
+
+182
+00:12:22,185 --> 00:12:22,685
+So
+
+183
+00:12:23,145 --> 00:12:31,965
+the thought was that, yeah, if you can go 24 volts, then you're gonna have less current through the wires that go from the power supply and the connectors and things that connect to the hash board.
+
+184
+00:12:32,279 --> 00:12:33,259
+So that could be,
+
+185
+00:12:34,440 --> 00:12:37,820
+make it so you can use thinner wires. Yeah. The connector,
+
+186
+00:12:38,519 --> 00:12:41,180
+can be smaller if it's dealing with less current.
+
+187
+00:12:41,800 --> 00:12:44,060
+Unknown: There's actually some some really cool
+
+188
+00:12:44,905 --> 00:12:50,685
+developments with products going that direction in terms of architecture, like the 800 volt electric cars and
+
+189
+00:12:51,145 --> 00:12:51,705
+even the,
+
+190
+00:12:52,505 --> 00:13:02,100
+the Cybertruck. Like, almost all cars are are 12 volt for their auxiliary power systems, like your big giant 200 pound battery or whatever. Oh, they're they're 12 volts?
+
+191
+00:13:02,560 --> 00:13:11,060
+Some of them are, but the new system is 48 in the Cybertruck. So they saved x amount of dollars just because they could go thinner thinner wires, less copper.
+
+192
+00:13:11,760 --> 00:13:15,485
+Unknown: It does make a lot of sense. Right? Dealing with thinner wires is,
+
+193
+00:13:16,045 --> 00:13:20,625
+is better all around. Right? They're more flexible. They're cheaper, easier to route, things like that.
+
+194
+00:13:21,085 --> 00:13:24,385
+So if you wanted to do that with with this system,
+
+195
+00:13:26,330 --> 00:13:28,910
+you know, you could have you could imagine having
+
+196
+00:13:30,330 --> 00:13:33,230
+a a voltage regulator, an external voltage regulator rated
+
+197
+00:13:33,690 --> 00:13:41,470
+for whatever power that you intend to use that steps, you know, your 48 volts or your 90 volts, whatever you can come up with, down
+
+198
+00:13:42,005 --> 00:13:44,825
+to something like 12 and do that for,
+
+199
+00:13:45,765 --> 00:13:46,904
+all the hash boards.
+
+200
+00:13:47,925 --> 00:13:54,345
+Unknown: So these reference boards are coming out. What do people need to start hashing with them? They're going to be able to use a
+
+201
+00:13:54,699 --> 00:14:02,959
+bare bones version of Magina eventually. They're going to be able to drive it from their laptop and ultimately a a Libri board. Right?
+
+202
+00:14:04,300 --> 00:14:07,600
+They're going to be able to play around with different cooling configurations,
+
+203
+00:14:08,785 --> 00:14:16,005
+stuff them in some s nine chassis. Right? I mean, let's get people excited. What is this gonna look like when they're out there? We're pumped to see what everyone does.
+
+204
+00:14:17,665 --> 00:14:20,325
+Unknown: So this was kind of a coincidence, but
+
+205
+00:14:20,800 --> 00:14:26,820
+the ember one is the exact same height as an s nine hash board. So it will slide into an s nine chassis.
+
+206
+00:14:27,200 --> 00:14:28,100
+I think that,
+
+207
+00:14:29,120 --> 00:14:30,820
+maybe gives some people some ideas.
+
+208
+00:14:31,440 --> 00:14:33,805
+It will fit. You will be able to fit,
+
+209
+00:14:34,285 --> 00:14:34,785
+six,
+
+210
+00:14:35,565 --> 00:14:38,145
+these ember ones into an s nine enclosure.
+
+211
+00:14:38,525 --> 00:14:45,425
+And you could put the fans on either end. You could strap your Libra board to the top, run the power and everything through it. No more e waste.
+
+212
+00:14:45,980 --> 00:14:53,120
+Yeah. Well Saving Gotta throw everything inside. Aluminum cases. Yeah. Yeah. You gotta throw everything inside. But, you know, you could use the s nine power supply also.
+
+213
+00:14:53,500 --> 00:14:55,819
+That's a big, like, 1,600
+
+214
+00:14:55,819 --> 00:14:57,600
+watts 12 volt power supply.
+
+215
+00:14:58,379 --> 00:14:59,920
+So you could definitely use that.
+
+216
+00:15:02,375 --> 00:15:07,835
+Unknown: Yeah. Driving six of them, no problem, off of one control board. No problem. One control board.
+
+217
+00:15:09,575 --> 00:15:12,315
+Unknown: One Libra board will get you
+
+218
+00:15:13,095 --> 00:15:14,235
+four hash boards.
+
+219
+00:15:15,930 --> 00:15:19,070
+But the cool thing is that they are USB.
+
+220
+00:15:19,610 --> 00:15:20,670
+So you could
+
+221
+00:15:21,130 --> 00:15:22,590
+put any kind of USB
+
+222
+00:15:22,970 --> 00:15:23,950
+hub in there
+
+223
+00:15:24,330 --> 00:15:28,990
+to connect up as many hash boards as you want. What's the upper limit? Is it a USB
+
+224
+00:15:29,545 --> 00:15:36,685
+limit? It is a USB limit. Yeah. Well, I mean, it's a USB limit and then a bandwidth limit. You know, you have to have
+
+225
+00:15:37,225 --> 00:15:39,965
+you have to be able to support the data bandwidth,
+
+226
+00:15:40,825 --> 00:15:42,125
+coming out of your host.
+
+227
+00:15:42,470 --> 00:15:42,970
+Unknown: Right.
+
+228
+00:15:43,750 --> 00:15:46,170
+Unknown: You know, even if you have hubs. So
+
+229
+00:15:47,030 --> 00:15:49,530
+you could imagine doing, like, a a badass
+
+230
+00:15:50,070 --> 00:16:00,584
+USB three hub. I don't think that the Libre board will support that. That. But if you had a beefier control board system, you do badass USB three hub and then do, I don't know, a lot
+
+231
+00:16:01,204 --> 00:16:01,605
+of,
+
+232
+00:16:02,404 --> 00:16:06,165
+these Ember one hash boards, which are USB two. There's these,
+
+233
+00:16:07,210 --> 00:16:22,895
+Unknown: like, radiant heaters they have in Europe that are wall mounted, and they just have the hot pipes. Right? And you'd and they're kinda pretty and jazzed up, and they they paint them to, like, fit in with the background of your your environment, or there's nice copper ones. And I'm just envisioning, like, a wall mount
+
+234
+00:16:23,675 --> 00:16:24,175
+ember
+
+235
+00:16:24,635 --> 00:16:30,575
+one stack up with some big ass heat sinks that's just convecting warm air into your room. Oh, man.
+
+236
+00:16:31,435 --> 00:16:38,790
+It's gotta be done. A passive there's some cool Twitter account I follow that's, like, passive cooling tech or something, and it's it's like these
+
+237
+00:16:39,170 --> 00:16:39,670
+desktop
+
+238
+00:16:40,130 --> 00:16:51,615
+cases for computers that are made out of one giant piece of built aluminum or copper, and so there's no fans. I love that Twitter account, like fanless Fanless tech. Fanless tech. Yeah. It's
+
+239
+00:16:52,395 --> 00:16:56,495
+Unknown: It's so cool. These heat sinks are just out of this world. Yeah. Like,
+
+240
+00:16:56,875 --> 00:17:02,735
+really really cool stuff. I I would love to see Vapor chambers and all that fun stuff. Like you could
+
+241
+00:17:03,129 --> 00:17:04,110
+you could do
+
+242
+00:17:04,490 --> 00:17:04,990
+a
+
+243
+00:17:05,530 --> 00:17:15,950
+a fanless design. Like, it could work if you set up the the convection just right. I mean, if we're talking about a couple 100 watts, that's gotta be what these fanless tech PCs are running anyways.
+
+244
+00:17:16,255 --> 00:17:22,115
+Unknown: Totally. And if the system protects itself, right, as the temperature changes in the room, it will dial itself back.
+
+245
+00:17:23,375 --> 00:17:28,595
+You got one. A fanless space heater. That'd be super cool. That would be super cool.
+
+246
+00:17:29,215 --> 00:17:31,440
+Unknown: Yeah. That's right. So you could imagine
+
+247
+00:17:31,820 --> 00:17:32,960
+adjusting the firmware
+
+248
+00:17:33,500 --> 00:17:34,880
+to not only protect,
+
+249
+00:17:35,980 --> 00:17:37,040
+the over temperature
+
+250
+00:17:37,660 --> 00:17:41,440
+of the ASICs, but then also to control for the temperature you want in your room,
+
+251
+00:17:42,380 --> 00:17:43,520
+which is pretty cool.
+
+252
+00:17:43,900 --> 00:17:46,000
+Unknown: Pretty cool. Think that works with
+
+253
+00:17:47,075 --> 00:17:50,775
+pairing to an external temperature sensor? It's just an input to
+
+254
+00:17:52,195 --> 00:17:56,855
+the miner API so it knows what to target around, or do you need a separate
+
+255
+00:17:57,795 --> 00:18:02,490
+brain, so to speak? Like, this is what I've been tinkering with with Home Assistant. The miner doesn't know the room temperature.
+
+256
+00:18:02,970 --> 00:18:06,670
+The thermostat does. We use a tool like Home Assistant to link the two together.
+
+257
+00:18:07,370 --> 00:18:08,030
+But theoretically,
+
+258
+00:18:08,970 --> 00:18:14,750
+you should be able to get the miner to respond to some other gadget. Right? Absolutely.
+
+259
+00:18:15,290 --> 00:18:18,975
+Unknown: Yes. Yeah. So you could definitely do what you're doing, right, which is using an API
+
+260
+00:18:19,515 --> 00:18:20,895
+and controlling the miner,
+
+261
+00:18:22,235 --> 00:18:23,775
+you know, via home assistant
+
+262
+00:18:24,235 --> 00:18:27,215
+from the thermostat. You could definitely do that.
+
+263
+00:18:27,595 --> 00:18:28,815
+You could also imagine,
+
+264
+00:18:29,130 --> 00:18:32,670
+if you wanted to do this, connecting like a standard dry contact,
+
+265
+00:18:33,930 --> 00:18:34,430
+thermostat
+
+266
+00:18:35,610 --> 00:18:38,830
+that's, you know, already wired in your wall of your house
+
+267
+00:18:39,210 --> 00:18:40,350
+directly to this.
+
+268
+00:18:40,970 --> 00:18:44,235
+And the software on the control board, on the Lieber board,
+
+269
+00:18:45,595 --> 00:18:46,415
+could monitor
+
+270
+00:18:47,115 --> 00:18:53,215
+those, like, dry contacts switching from your whatever thermostat you have and and just turn
+
+271
+00:18:53,515 --> 00:18:55,615
+on and off based on that.
+
+272
+00:18:57,115 --> 00:19:06,060
+Unknown: That's an awesome fail safe if the, network is a concern too. Right? Because you can also configure these things to just hash on dummy blocks.
+
+273
+00:19:06,680 --> 00:19:10,140
+Unknown: Yes. Yeah. We were talking about that. That is a really interesting
+
+274
+00:19:10,680 --> 00:19:11,180
+idea.
+
+275
+00:19:12,440 --> 00:19:17,455
+Like, most miners, if the network goes down, they're like, okay, cool, we stop hashing.
+
+276
+00:19:19,115 --> 00:19:27,870
+But in the hash rate heating thing, you're like, no, no, no, I want the heat. Like, keep hashing. Exactly. So, you know, with that analog thermostat
+
+277
+00:19:28,170 --> 00:19:32,670
+Unknown: wired in and a dummy pool, you know, getting the right parameter set up on the device,
+
+278
+00:19:33,290 --> 00:19:34,190
+that's an experiment
+
+279
+00:19:34,890 --> 00:19:37,150
+of we just made a dumb resistive
+
+280
+00:19:37,770 --> 00:19:38,270
+heater
+
+281
+00:19:39,005 --> 00:19:49,745
+that can also happen to connect to the Bitcoin network, but it works just fine as a dumb resistive heater. Yeah. Yeah. You could just hash dummy work. You're not gonna get any rewards, obviously, from the Bitcoin network
+
+282
+00:19:50,045 --> 00:19:54,545
+Unknown: or any money, but, you could certainly generate some heat. Yeah. Definitely.
+
+283
+00:19:55,210 --> 00:20:02,250
+Unknown: You said you had some other fun, I was taking a look at your Twitter in preparation for the pod, some other fun retweets this week. What is this,
+
+284
+00:20:03,050 --> 00:20:05,870
+I p v six stratum and and local address,
+
+285
+00:20:06,890 --> 00:20:07,390
+repo?
+
+286
+00:20:08,125 --> 00:20:10,605
+Unknown: So the I I retweeted that because it's dope.
+
+287
+00:20:11,005 --> 00:20:16,304
+You know, there's a lot of people in OSMU who are working on the BitX and the BitX firmware.
+
+288
+00:20:17,804 --> 00:20:18,205
+And,
+
+289
+00:20:18,684 --> 00:20:26,430
+I believe it was, Want Clue who was like Yeah. We should support I p IPV six natively on the BitX. And so he started working on it.
+
+290
+00:20:26,730 --> 00:20:27,050
+And,
+
+291
+00:20:27,690 --> 00:20:30,750
+Unknown: For for us, dummies like me, what is IPV six?
+
+292
+00:20:32,090 --> 00:20:36,075
+Unknown: Well, IPV four is what currently runs the
+
+293
+00:20:36,534 --> 00:20:38,715
+Internet, and it has since the beginning.
+
+294
+00:20:39,575 --> 00:20:48,554
+So when you when you hear about an IP address, you know, like one nine two one six eight dot one dot ten or whatever, that's an I p v four address. Gotcha.
+
+295
+00:20:49,220 --> 00:20:50,120
+I'm sure the
+
+296
+00:20:50,820 --> 00:20:57,720
+early founders of the Internet were like, that's plenty of addresses. I forget how many it is, but, you know, they probably thought like,
+
+297
+00:20:58,020 --> 00:21:06,245
+this is fine. Well, it turns out in the modern day, we're actually running out of IP addresses. Every device connects. Yeah. Yeah. So even with,
+
+298
+00:21:08,865 --> 00:21:13,685
+like, one nine two one six eight and ten, those are reserved for local use.
+
+299
+00:21:14,145 --> 00:21:20,005
+But if you look at the IP address that your router gets from your ISP, that will be a global IP IP address.
+
+300
+00:21:20,810 --> 00:21:23,870
+And so that's that address is unique globally.
+
+301
+00:21:24,330 --> 00:21:31,150
+If someone else had the same address, there would be problems routing Internet traffic. That's how they track you. That is how they track you. Yes. Of course.
+
+302
+00:21:33,345 --> 00:21:36,885
+But those global IP addresses are running out.
+
+303
+00:21:37,265 --> 00:21:38,885
+It's not necessarily because
+
+304
+00:21:39,985 --> 00:21:43,205
+everyone has one. It's more an allocation problem.
+
+305
+00:21:44,705 --> 00:21:46,245
+The, you know, the early Internet
+
+306
+00:21:47,509 --> 00:21:52,649
+companies and groups just reserved huge blocks of IP addresses for themselves.
+
+307
+00:21:53,110 --> 00:21:58,649
+You can go and look on on Wikipedia as to, like, who owns all these different blocks. Yeah. How are they distributed and allocated?
+
+308
+00:21:59,029 --> 00:21:59,850
+Not evenly.
+
+309
+00:22:00,285 --> 00:22:00,785
+Unknown: Okay.
+
+310
+00:22:01,565 --> 00:22:07,745
+Unknown: You know, The US has the lion's share of them and most all of them say, like, I think US Department of Defense.
+
+311
+00:22:08,445 --> 00:22:11,105
+Huge blocks. Huge huge huge blocks.
+
+312
+00:22:11,645 --> 00:22:12,785
+But companies like
+
+313
+00:22:13,350 --> 00:22:16,570
+Apple, I think they own all the addresses that start with 17.
+
+314
+00:22:17,910 --> 00:22:20,809
+Unknown: You know, Microsoft, who do you go to buy them from?
+
+315
+00:22:21,429 --> 00:22:23,130
+Unknown: I believe it's I can.
+
+316
+00:22:24,470 --> 00:22:25,125
+It's like
+
+317
+00:22:25,525 --> 00:22:26,345
+this mysterious
+
+318
+00:22:26,725 --> 00:22:29,945
+centralized entity that just controls who gets what on the internet.
+
+319
+00:22:31,205 --> 00:23:10,265
+Holy smokes. Yeah. It stands for something something names and numbers. It's crazy to think about how fragile society is when you start getting to these kind of conversations. Right? Like, who No one thinks about this. Security over there. And there's all kinds of problems with that and the, there's this other protocol called like the border. I don't actually know what I'm talking about. But there's some other protocol by which all the sort of ISPs synchronize their stuff. And there's been multiple hacks that have resulted in, like, large chunks of the Internet going down, things like that. Fun stuff. What about when this is annoying when you're playing with IoT devices, like your IP address will just randomly change.
+
+320
+00:23:10,840 --> 00:23:17,659
+Unknown: Mhmm. Mhmm. You don't have a static IP or it's for the average person, you know, it's a little bit more complicated to go and do that.
+
+321
+00:23:18,919 --> 00:23:21,100
+Unknown: Yeah. So, you know, if you're an ISP,
+
+322
+00:23:21,559 --> 00:23:22,575
+like a small one,
+
+323
+00:23:23,135 --> 00:23:24,674
+you you have a block of
+
+324
+00:23:25,054 --> 00:23:27,794
+IP addresses that you've, I assume, bought.
+
+325
+00:23:29,615 --> 00:23:30,115
+But
+
+326
+00:23:30,735 --> 00:23:35,760
+you don't say, like, alright. This IP is for Tyler's house,
+
+327
+00:23:36,640 --> 00:23:38,100
+and he and only him.
+
+328
+00:23:38,720 --> 00:23:39,220
+So
+
+329
+00:23:39,520 --> 00:23:42,820
+you kinda like the way DHCP works, they'll they'll sort of
+
+330
+00:23:43,200 --> 00:23:48,420
+mix and match those IP addresses around like you get Sure. The full for a while and then someone else gets that one.
+
+331
+00:23:48,880 --> 00:24:04,635
+That's a dynamic IP address from your ISP and most ISPs do that now. If you pay your ISP a little bit more money per month, they some of them will give you a static IP where they're like, this is your IP, you know, as long as you keep paying us, it's always for you.
+
+332
+00:24:04,960 --> 00:24:07,380
+Unknown: And so for smart smart systems,
+
+333
+00:24:07,920 --> 00:24:10,820
+we're talking about miners in the home as a smart gadget.
+
+334
+00:24:11,600 --> 00:24:14,260
+Anything that talks back to, like, a Google or
+
+335
+00:24:14,560 --> 00:24:17,175
+an AWS, like, those IPs that
+
+336
+00:24:17,575 --> 00:24:34,930
+you don't have to switch or worry about dynamic IPs on your Nest thermostat. But if you're self hosting, you do. How do we solve for that going forward? If we get people running miners in their house at scale and nodes, and they want all this stuff to connect and not break when someone shuffles IP addresses, what's the solution?
+
+337
+00:24:36,110 --> 00:24:38,850
+Unknown: I mean, the way a lot of IoT stuff works, unfortunately,
+
+338
+00:24:39,310 --> 00:24:40,530
+is, you know,
+
+339
+00:24:40,830 --> 00:24:42,530
+like your your Nest thermostat
+
+340
+00:24:43,150 --> 00:24:43,650
+or,
+
+341
+00:24:44,085 --> 00:24:46,664
+you know, your stupid, like, IoT light bulb,
+
+342
+00:24:47,125 --> 00:24:56,505
+it it calls out. Yeah. And it's gonna be have, like, a hard coded address like Google Not ideal though. Whatever that it calls out to. And so you can't reach
+
+343
+00:24:57,019 --> 00:24:59,760
+your light bulb from outside your house.
+
+344
+00:25:00,380 --> 00:25:00,880
+Only
+
+345
+00:25:01,659 --> 00:25:06,480
+if if you wanna, like, if you're out on the road and you wanna open up your Nest app
+
+346
+00:25:06,860 --> 00:25:08,399
+and you wanna change something,
+
+347
+00:25:09,179 --> 00:25:11,600
+you know, change the temperature in your house while you're out,
+
+348
+00:25:12,495 --> 00:25:17,475
+What that app is doing is it's going to Google's servers, which are hardcoded in there, and it's saying
+
+349
+00:25:17,775 --> 00:25:19,715
+what you know, tell,
+
+350
+00:25:20,495 --> 00:25:20,995
+or
+
+351
+00:25:21,375 --> 00:25:25,555
+next time Tyler's Nest thermostat calls in, tell it to do this.
+
+352
+00:25:25,890 --> 00:25:27,430
+So it's this kind of like
+
+353
+00:25:28,210 --> 00:25:34,870
+these they're both both sides. The app and the thermostat are doing these connections to Google, and they're sort of, like, keeping track of things.
+
+354
+00:25:35,570 --> 00:25:36,870
+The problem is when,
+
+355
+00:25:37,250 --> 00:25:40,790
+yeah, you're you're, you know, self hosting all your own services,
+
+356
+00:25:41,535 --> 00:25:42,915
+and so you wanna
+
+357
+00:25:43,215 --> 00:25:45,475
+make your network reachable from the outside.
+
+358
+00:25:46,255 --> 00:25:46,755
+You
+
+359
+00:25:47,695 --> 00:25:50,515
+the best thing to do is have a static IP address.
+
+360
+00:25:51,135 --> 00:25:54,275
+But there's some other tricks you can do like dynamic DNS
+
+361
+00:25:54,575 --> 00:25:56,100
+where your router will
+
+362
+00:25:56,419 --> 00:25:57,559
+constantly tell
+
+363
+00:25:57,860 --> 00:26:05,160
+Yep. Again, some centralized service, like, hey. This is my IP. Okay. Now this is my IP. Now this is my IP. And so they'll be able to link up.
+
+364
+00:26:06,179 --> 00:26:13,145
+Unknown: I think I do that for our website too. Some of the the DNS service providers too, like Namecheap and whatnot, you can set them up to
+
+365
+00:26:13,445 --> 00:26:15,785
+automatically update when your IP address changes.
+
+366
+00:26:16,565 --> 00:26:17,065
+Unknown: Yeah.
+
+367
+00:26:17,445 --> 00:26:23,205
+Yeah. Exactly. And that's just a service that's because when you wanna reach your network, you know, maybe you go to,
+
+368
+00:26:24,340 --> 00:26:24,840
+like,
+
+369
+00:26:25,379 --> 00:26:26,120
+the spaces,
+
+370
+00:26:27,700 --> 00:26:28,200
+URL.
+
+371
+00:26:29,299 --> 00:26:31,960
+And so then DNS is gonna be the thing that says,
+
+372
+00:26:32,500 --> 00:26:41,505
+okay. That URL maps to this or that domain name rather maps to this IP address. So then you have a service where when your IP address changes, it changes what,
+
+373
+00:26:43,165 --> 00:26:47,185
+Unknown: what the domain name points to. Man, there's a lot of work to be done to
+
+374
+00:26:47,565 --> 00:27:01,270
+get more sovereignty in the home with all these IoT devices then. If people have little home brains, right, start nines kinda leading the charge there, Umbrel as well. If you keep adding more, there's no reason you shouldn't be able to connect your idiot light bulbs to those things. Right?
+
+375
+00:27:02,610 --> 00:27:03,190
+And avoid
+
+376
+00:27:03,730 --> 00:27:04,710
+Google, but
+
+377
+00:27:05,245 --> 00:27:07,265
+these are things that have to be solved for.
+
+378
+00:27:07,804 --> 00:27:08,544
+So it's reliable.
+
+379
+00:27:08,845 --> 00:27:11,025
+Unknown: Enter I p v six. Okay.
+
+380
+00:27:11,804 --> 00:27:13,025
+Bringing it all back.
+
+381
+00:27:14,125 --> 00:27:20,304
+I p v six has been around for a long time, but it was kind of this idea to address the scarcity of
+
+382
+00:27:21,970 --> 00:27:25,190
+global, you know, public IP addresses in v four.
+
+383
+00:27:25,650 --> 00:27:26,790
+IPv six
+
+384
+00:27:27,809 --> 00:27:29,990
+essentially just adds a ton more numbers,
+
+385
+00:27:30,690 --> 00:27:31,750
+like, a ton.
+
+386
+00:27:32,530 --> 00:27:33,030
+And
+
+387
+00:27:33,730 --> 00:27:36,375
+so many that you could, like, individually
+
+388
+00:27:36,915 --> 00:27:41,015
+address all the, like, atoms in the universe or something. It's just one of these absurdly large numbers.
+
+389
+00:27:41,795 --> 00:27:42,295
+And,
+
+390
+00:27:44,435 --> 00:27:48,295
+it hasn't seen much adoption. It's kinda confusing. It's not like
+
+391
+00:27:49,100 --> 00:27:50,560
+a number you can even remember.
+
+392
+00:27:51,180 --> 00:27:58,560
+Right? Like, one nine two one six eight dot one dot ten. Right? It's like, no. No. It's way bigger. It's super complicated. And it hasn't seen
+
+393
+00:27:59,580 --> 00:28:01,100
+really big adoption. Just
+
+394
+00:28:01,580 --> 00:28:03,520
+I don't know why. Just more complicated.
+
+395
+00:28:04,144 --> 00:28:11,284
+So you kinda need your, you know, your ISP needs to support it, your router needs to support it, and all the networking gear in your house,
+
+396
+00:28:12,945 --> 00:28:14,804
+needs to also. And BitX.
+
+397
+00:28:15,184 --> 00:28:15,924
+And BitX.
+
+398
+00:28:16,640 --> 00:28:17,539
+It's coming.
+
+399
+00:28:19,039 --> 00:28:24,740
+You you may already you know, all your gear may already support IPv six. It kinda depends.
+
+400
+00:28:25,519 --> 00:28:26,019
+But,
+
+401
+00:28:28,159 --> 00:28:31,725
+yeah. We're there was a an OSMU member who,
+
+402
+00:28:32,284 --> 00:28:41,585
+or a yeah. An OSMU member who was like, we should support it. Let's go. And a lot of the software tooling out there to support it exists. And so
+
+403
+00:28:42,125 --> 00:28:42,625
+it's,
+
+404
+00:28:43,760 --> 00:28:49,460
+and from what I gather, again, I didn't do this, but watching the development there, I think adding support
+
+405
+00:28:50,080 --> 00:28:52,500
+is easy or is easier.
+
+406
+00:28:52,960 --> 00:29:01,645
+The tough part is actually testing it. Like, does this work over the IPV sticks network? That seemed to be where they were kinda getting hung up because you you kinda
+
+407
+00:29:02,345 --> 00:29:08,045
+you can test it locally, but to test it from the outside world, you you sort of need the whole chain to support IPv6.
+
+408
+00:29:09,625 --> 00:29:10,765
+Unknown: Is it open source?
+
+409
+00:29:11,510 --> 00:29:12,010
+Unknown: Yeah.
+
+410
+00:29:12,389 --> 00:29:15,769
+Nice. Yes. Definitely. It's, you know, one of these
+
+411
+00:29:16,710 --> 00:29:26,665
+mysterious global standards bodies has kinda said this is how Yeah. Yeah. These giant goliaths Yes. That tell us how it is. Yes. And so then it's just up to all the equipment
+
+412
+00:29:27,365 --> 00:29:31,945
+manufacturers and firmware designers and stuff for all the hardware and, software
+
+413
+00:29:32,405 --> 00:29:35,865
+in that in that whole path to also support it.
+
+414
+00:29:36,420 --> 00:29:42,360
+Unknown: Well, hey. Maybe there'll be some entity that says this is how you do an open source Bitcoin miner. How about it?
+
+415
+00:29:43,060 --> 00:29:53,774
+That's a great idea. Yeah. That's a great idea. We should totally do that. We should totally do that. What about this this other thing that stuck out to me was, this bit for mempool validation relay policy.
+
+416
+00:29:54,154 --> 00:29:55,855
+Do you wanna talk on that a little bit?
+
+417
+00:29:57,355 --> 00:29:57,855
+Unknown: Yeah.
+
+418
+00:29:58,554 --> 00:29:59,455
+This is, like,
+
+419
+00:29:59,914 --> 00:30:09,370
+so outside my core skill set, but We're gonna butcher it, but let's go. Let's just go. We'll we'll just we'll just speculate, and then it'll go on the permanent record as fact.
+
+420
+00:30:11,030 --> 00:30:12,650
+There's been a little drama lately
+
+421
+00:30:13,110 --> 00:30:13,850
+in the
+
+422
+00:30:14,390 --> 00:30:14,890
+Bitcoin,
+
+423
+00:30:16,309 --> 00:30:17,929
+core, Bitcoin code,
+
+424
+00:30:18,725 --> 00:30:19,225
+implementation
+
+425
+00:30:19,685 --> 00:30:23,465
+world. Mhmm. Our listeners may or may not have heard of this.
+
+426
+00:30:24,005 --> 00:30:28,265
+Unknown: Some nots. Might have an opinion or two. Bitcoin core. Yes. Like,
+
+427
+00:30:29,365 --> 00:30:30,825
+Unknown: you cannot post anything
+
+428
+00:30:31,380 --> 00:30:34,360
+on the Internet about this and not get like 1,000,
+
+429
+00:30:35,220 --> 00:30:36,680
+like, super passionate
+
+430
+00:30:37,300 --> 00:30:39,960
+replies, shit posts, hate, etcetera,
+
+431
+00:30:41,380 --> 00:30:43,720
+which I definitely did on this post. But,
+
+432
+00:30:45,060 --> 00:30:45,620
+you know, the
+
+433
+00:30:46,365 --> 00:30:51,505
+I guess the overall concept is that Bitcoin Core, which is the most popular Bitcoin node implementation,
+
+434
+00:30:53,485 --> 00:31:00,590
+they proposed making some changes to how relay policy on nodes works, to how mempool policy on nodes works,
+
+435
+00:31:02,090 --> 00:31:03,470
+both like the defaults
+
+436
+00:31:04,010 --> 00:31:07,870
+that ship with a node and actually the functionality of how it works.
+
+437
+00:31:11,690 --> 00:31:14,830
+And that's what's caused caused all the drama. And so
+
+438
+00:31:15,165 --> 00:31:23,505
+Bitcoin knots, which has been around for a long time, has sort of gotten significantly more prominent because they are a fork of Bitcoin core, but have decided to,
+
+439
+00:31:25,005 --> 00:31:25,665
+not only
+
+440
+00:31:26,045 --> 00:31:30,225
+revert the changes that Bitcoin core is proposing, but make them
+
+441
+00:31:31,220 --> 00:31:32,740
+make make them more,
+
+442
+00:31:33,140 --> 00:31:35,080
+make these parameters more configurable.
+
+443
+00:31:36,340 --> 00:31:37,240
+So you can
+
+444
+00:31:38,100 --> 00:31:41,780
+you can actually make your your relay policy and your mempool policy,
+
+445
+00:31:42,180 --> 00:31:43,080
+more permissive
+
+446
+00:31:44,020 --> 00:31:44,760
+with knots.
+
+447
+00:31:45,395 --> 00:31:46,534
+But the default
+
+448
+00:31:46,914 --> 00:31:47,414
+is
+
+449
+00:31:47,715 --> 00:31:48,215
+significantly
+
+450
+00:31:48,914 --> 00:31:49,815
+more restricted.
+
+451
+00:31:50,195 --> 00:31:52,455
+So, you know, they're saying, like,
+
+452
+00:31:53,395 --> 00:31:54,215
+this will
+
+453
+00:31:54,595 --> 00:32:00,810
+discourage people from spamming spam, you know, including extra data in their transactions with with the default knots,
+
+454
+00:32:02,250 --> 00:32:02,750
+setup.
+
+455
+00:32:04,090 --> 00:32:10,990
+And that that's by changing the the relay policy being as which transactions do you send to other nodes for their mempool and
+
+456
+00:32:11,450 --> 00:32:14,190
+which transactions do you allow into your own mempool.
+
+457
+00:32:15,575 --> 00:32:22,395
+There's all kinds of thoughts around and around about, you know, will this have any effect? Like, are you you know, if you filter transactions
+
+458
+00:32:23,175 --> 00:32:32,250
+from your own node, does that even matter at all if someone else is doing it? And there's a lot of just kind of network theory and drama and ship hosting surrounding that.
+
+459
+00:32:33,110 --> 00:32:33,850
+But this,
+
+460
+00:32:34,630 --> 00:32:35,850
+BIP proposal,
+
+461
+00:32:36,230 --> 00:32:36,730
+so
+
+462
+00:32:37,110 --> 00:32:38,570
+Bitcoin improvement proposal
+
+463
+00:32:38,950 --> 00:32:39,450
+proposal,
+
+464
+00:32:41,750 --> 00:32:45,695
+was I thought it was kinda cool. And what they're saying is that
+
+465
+00:32:47,115 --> 00:32:49,055
+there should be a scripting language.
+
+466
+00:32:49,995 --> 00:32:56,895
+They picked JavaScript, but and that made a lot of people just dismiss this immediately because they don't like JavaScript. But imagine
+
+467
+00:32:58,020 --> 00:32:58,520
+if
+
+468
+00:33:00,020 --> 00:33:01,000
+your mempool,
+
+469
+00:33:02,180 --> 00:33:02,680
+was
+
+470
+00:33:03,220 --> 00:33:04,440
+defined by
+
+471
+00:33:04,820 --> 00:33:07,400
+a script, like a small script that you could
+
+472
+00:33:07,780 --> 00:33:12,665
+that you could install that you could have on your node, and you could say, like, this is what I want to,
+
+473
+00:33:13,865 --> 00:33:15,325
+this is how I wanna process
+
+474
+00:33:15,785 --> 00:33:17,885
+incoming transactions for my own pool.
+
+475
+00:33:18,345 --> 00:33:20,685
+Unknown: Yeah. Your default. Just having this
+
+476
+00:33:21,065 --> 00:33:28,590
+Unknown: hard coded list of parameters that you can change, this would actually be give you more control over it because you could you could write a script to do it.
+
+477
+00:33:29,450 --> 00:33:33,070
+Most people probably don't wanna write these scripts, so I can imagine there being
+
+478
+00:33:33,530 --> 00:33:35,150
+kind of, you know, some,
+
+479
+00:33:38,170 --> 00:33:39,470
+some, you know,
+
+480
+00:33:40,015 --> 00:33:44,835
+source for for different scripts. Like, if you're like, no. I don't want any any spam, you know,
+
+481
+00:33:45,775 --> 00:33:51,715
+screw all that. There would be a script that you could get that would do that, and then maybe you could tweak that.
+
+482
+00:33:52,015 --> 00:34:02,679
+Or if you're like, yeah. I want it to be wide open and I'll accept anything, then you could do that. I mean, you still need to, like, validate these transactions because you don't wanna have invalid transactions in your mempool.
+
+483
+00:34:03,540 --> 00:34:04,600
+Unknown: That's where I
+
+484
+00:34:04,900 --> 00:34:12,765
+and I don't I'm not trying to make enemies. I haven't done a deep dive on all this to have a a well formulated opinion, but the power seems to
+
+485
+00:34:13,305 --> 00:34:14,285
+reside with
+
+486
+00:34:14,985 --> 00:34:16,605
+who's configuring the defaults.
+
+487
+00:34:17,385 --> 00:34:18,205
+Like, it doesn't
+
+488
+00:34:18,680 --> 00:34:26,060
+my perception is it doesn't actually matter if you have core versus nots. How many people go and change defaults? Where are you buying your node?
+
+489
+00:34:26,520 --> 00:34:28,460
+If our vision is to put all these
+
+490
+00:34:28,840 --> 00:34:29,340
+into
+
+491
+00:34:29,720 --> 00:34:34,595
+millions of homes or on number one platform miners where it comes with it fully stacked.
+
+492
+00:34:35,135 --> 00:34:40,435
+Like, who cares what the software says? If there's infinite knobs to turn, who's setting the knobs?
+
+493
+00:34:41,375 --> 00:34:50,980
+Unknown: Yeah. Well, the good thing that come out of this whole drama is that I think more people are setting those knobs now. Like Yeah. Before it was just kind of a nonissue and you just accepted whatever the defaults were.
+
+494
+00:34:52,400 --> 00:34:53,460
+Now people are
+
+495
+00:34:53,760 --> 00:34:54,260
+really
+
+496
+00:34:55,040 --> 00:34:56,900
+starting to think about these knobs.
+
+497
+00:34:58,480 --> 00:35:02,825
+Shout out to, Michael Tidwell, the TabConf organizer. He he forked
+
+498
+00:35:03,285 --> 00:35:05,785
+Bitcoin knots to make Bitcoin knobs,
+
+499
+00:35:06,405 --> 00:35:10,025
+which I thought was funny. But apparently, they added even more knobs.
+
+500
+00:35:10,885 --> 00:35:12,185
+Any more parameters,
+
+501
+00:35:12,805 --> 00:35:13,785
+that you could tweak.
+
+502
+00:35:15,540 --> 00:35:20,440
+Unknown: I think Which is not inherently a bad thing, like No. I don't think it's a bad thing. Yeah. Who doesn't want optionality?
+
+503
+00:35:20,820 --> 00:35:21,400
+Unknown: I think
+
+504
+00:35:22,020 --> 00:35:23,080
+my main,
+
+505
+00:35:24,980 --> 00:35:29,160
+point of contention with what Bitcoin Core is doing is that they're actually
+
+506
+00:35:29,860 --> 00:35:30,920
+removing knobs.
+
+507
+00:35:32,765 --> 00:35:39,505
+Not just setting the not just changing the defaults, but, like, removing knobs or kinda changing the functionality of some of the knobs.
+
+508
+00:35:41,164 --> 00:35:43,740
+That that seems like a a backwards move to me.
+
+509
+00:35:44,780 --> 00:35:47,440
+You know, if if this is an open network
+
+510
+00:35:47,820 --> 00:35:54,400
+and people can do whatever they want, then some people will be doing whatever they want. So if we're removing these knobs, then we're just
+
+511
+00:35:55,340 --> 00:35:56,800
+removing the the potential,
+
+512
+00:35:58,615 --> 00:36:02,715
+you know, population of node runners that that could have some control over this.
+
+513
+00:36:03,495 --> 00:36:05,115
+Jimmy Song had a really interesting
+
+514
+00:36:05,655 --> 00:36:07,115
+point about how
+
+515
+00:36:08,615 --> 00:36:09,435
+things change.
+
+516
+00:36:10,619 --> 00:36:12,960
+You know, there may be in the future
+
+517
+00:36:13,420 --> 00:36:16,000
+some case in which we're like, oh, yes. The Bitcoin network
+
+518
+00:36:16,539 --> 00:36:20,799
+definitely, you know, to overcome some, like, censorship or some,
+
+519
+00:36:21,579 --> 00:36:23,759
+you know, state attack or whatever.
+
+520
+00:36:24,059 --> 00:36:28,475
+Like, we definitely need people to to be changing these these knobs on their mempool.
+
+521
+00:36:29,015 --> 00:36:29,915
+So you can imagine
+
+522
+00:36:30,455 --> 00:36:35,755
+that if we've removed those knobs, that's gonna be more complicated than if we at least have them there,
+
+523
+00:36:36,135 --> 00:36:38,875
+so that they can Could be a slippery slope. Yeah. Yeah.
+
+524
+00:36:40,720 --> 00:36:44,259
+So I I I think that's the way it goes. Is how will the knobs there,
+
+525
+00:36:45,759 --> 00:36:53,475
+set the defaults to whatever you think whatever core thinks is best for the network in general.
+
+526
+00:36:54,335 --> 00:36:58,675
+But have them out there and and people, you know, node runners can learn.
+
+527
+00:36:59,455 --> 00:37:00,195
+Node runners,
+
+528
+00:37:00,495 --> 00:37:01,155
+you know,
+
+529
+00:37:01,775 --> 00:37:03,180
+do care. I think that
+
+530
+00:37:04,059 --> 00:37:04,880
+that if you
+
+531
+00:37:05,660 --> 00:37:15,839
+if you keep them there, there will be a small there will be a subset of people who who will play with them, especially if we're if there's more outreach about the importance of different settings and things. And
+
+532
+00:37:16,780 --> 00:37:18,000
+we want to have
+
+533
+00:37:19,445 --> 00:37:21,545
+more peep more node runners understand
+
+534
+00:37:21,925 --> 00:37:24,665
+what's going on here and making their own decisions
+
+535
+00:37:25,045 --> 00:37:30,025
+for how they work. Because, you know, they're all different people. They'll make different decisions. And
+
+536
+00:37:30,965 --> 00:37:31,465
+the
+
+537
+00:37:32,120 --> 00:37:34,140
+the mempool will sort of,
+
+538
+00:37:35,560 --> 00:37:36,540
+settle on
+
+539
+00:37:37,320 --> 00:37:42,780
+the the aggregate decisions there. Get, you know, maybe the lowest common denominator of decisions from node runners.
+
+540
+00:37:43,560 --> 00:37:46,380
+Unknown: Yeah. And I think it's a close minded view to say, well,
+
+541
+00:37:47,255 --> 00:37:47,755
+your
+
+542
+00:37:48,375 --> 00:37:48,875
+configuration
+
+543
+00:37:49,255 --> 00:37:50,555
+doesn't matter because
+
+544
+00:37:52,695 --> 00:37:56,555
+the blocks will get through somewhere else anyways. Mhmm. But people are
+
+545
+00:37:58,775 --> 00:37:59,675
+not assuming
+
+546
+00:38:00,840 --> 00:38:01,340
+that
+
+547
+00:38:01,800 --> 00:38:06,460
+a large amount of node running and hash rate can come back to individuals,
+
+548
+00:38:07,320 --> 00:38:11,420
+not these entities that run 10,000 machines as one mining operation.
+
+549
+00:38:12,360 --> 00:38:15,740
+You and I can have our own mining operation carries just as much weight.
+
+550
+00:38:16,265 --> 00:38:23,405
+Unknown: That's right. That's right. That that is a really good point too. Right? It's just because mining is is centralized right now and just a few,
+
+551
+00:38:23,705 --> 00:38:25,405
+you know, entities are making
+
+552
+00:38:25,705 --> 00:38:26,205
+blocks,
+
+553
+00:38:27,225 --> 00:38:30,240
+doesn't mean it's always gonna be that way. And in fact,
+
+554
+00:38:30,800 --> 00:38:33,619
+we're pretty focused on changing that. So,
+
+555
+00:38:34,080 --> 00:38:37,140
+you know, if we're doing this right, there's going to be a lot more,
+
+556
+00:38:37,520 --> 00:38:40,740
+what they're called economic nodes out there, like nodes that are,
+
+557
+00:38:41,280 --> 00:38:42,420
+connected to miners,
+
+558
+00:38:42,800 --> 00:38:45,220
+nodes that are, connected to wallets.
+
+559
+00:38:46,674 --> 00:38:50,535
+Those the those economic nodes are the ones that really do make a difference,
+
+560
+00:38:51,555 --> 00:38:52,055
+and
+
+561
+00:38:52,515 --> 00:38:56,295
+Unknown: we need to decentralize those. So what's a non economic node?
+
+562
+00:38:57,075 --> 00:39:00,559
+Unknown: So if you just, you know, get a start nine box and
+
+563
+00:39:00,940 --> 00:39:01,839
+plug it in,
+
+564
+00:39:02,700 --> 00:39:03,019
+that's
+
+565
+00:39:03,500 --> 00:39:16,835
+it's not an economic node. No one is mining to it. No one's broadcasting new blocks from it. Right. No one's broadcasting transactions from it. It's just got a copy of the ledger. It's just got a copy of the ledger, which is useful. Right? The more copies of the ledger,
+
+566
+00:39:17,135 --> 00:39:18,275
+the the better. But
+
+567
+00:39:18,575 --> 00:39:19,395
+you are not
+
+568
+00:39:21,775 --> 00:39:23,555
+you're not contributing to the network.
+
+569
+00:39:24,630 --> 00:39:25,130
+Your,
+
+570
+00:39:25,750 --> 00:39:26,329
+you know,
+
+571
+00:39:26,790 --> 00:39:29,770
+your mempool policy doesn't really matter.
+
+572
+00:39:31,670 --> 00:39:32,569
+I I guess,
+
+573
+00:39:32,869 --> 00:39:34,490
+you know, you are still relaying
+
+574
+00:39:34,950 --> 00:39:35,450
+transactions,
+
+575
+00:39:35,750 --> 00:39:40,645
+so you could if enough people did that, they could potentially slow down block propagation.
+
+576
+00:39:41,585 --> 00:39:42,085
+But,
+
+577
+00:39:43,745 --> 00:39:50,805
+yeah, it's clearly, the most impact on the network is from these economic nodes. Yeah. And I think a lot of people think that
+
+578
+00:39:52,070 --> 00:40:00,730
+Unknown: you would just go get a node and not get a miner, but I I actually believe it's the opposite way around. You're gonna get a miner in your house because it's useful in some way,
+
+579
+00:40:01,590 --> 00:40:02,490
+I think heating.
+
+580
+00:40:03,125 --> 00:40:08,825
+And then you might as well get a node to go with it. And then it, by default, is an economic node. Yep.
+
+581
+00:40:09,605 --> 00:40:15,704
+Unknown: There we go. Case closed. Right. It's not a it's not like a big economic node Yeah. But it is one. And,
+
+582
+00:40:16,080 --> 00:40:19,140
+you know, the whole thing's gonna be better if there's more of those,
+
+583
+00:40:19,680 --> 00:40:21,940
+in more different people's hands.
+
+584
+00:40:23,760 --> 00:40:29,220
+I also you know, there were some I think some really bad takes, like, we don't need more node runners.
+
+585
+00:40:29,565 --> 00:40:32,704
+Like, we don't need more non economic nodes. Like, screw that.
+
+586
+00:40:35,724 --> 00:40:38,305
+And I I I think that's wrong. I think people should
+
+587
+00:40:38,845 --> 00:40:44,065
+run nodes even if they don't intend on mining or using it to broadcast transactions with their wallet
+
+588
+00:40:44,685 --> 00:40:45,185
+because
+
+589
+00:40:46,100 --> 00:40:57,560
+that just lowers the barrier. The more people that have nodes, that lowers the barrier for those people to becoming an epic economic node. Big time. Right? If you have a node, it's already set up and working there, and you're solo mining with your bid ax,
+
+590
+00:40:57,945 --> 00:41:08,665
+well, now it's trivial to just point your bid ax at your node and be an economic node or to, you know, point your your Sparrow wallet at your node and use that to,
+
+591
+00:41:09,385 --> 00:41:10,525
+broadcast your transactions.
+
+592
+00:41:11,145 --> 00:41:18,500
+Unknown: Yeah. Like, for example, in our community here, we've got, like, 80 or so folks in Colorado. We set up the space node, our Lightning node,
+
+593
+00:41:18,960 --> 00:41:27,780
+our datum. So we have our block templates, and then a good 40 or 50 people connected to it. And then bam. They have huge resources at their disclosure.
+
+594
+00:41:28,235 --> 00:41:33,135
+There you go. Yeah. Our Lightning Network is our our Lightning node specifically is massive.
+
+595
+00:41:33,595 --> 00:41:36,175
+Really? Oh, yeah. Massive. And then our our
+
+596
+00:41:36,475 --> 00:41:39,195
+our our datum has, like, a 120
+
+597
+00:41:39,195 --> 00:41:39,695
+workers.
+
+598
+00:41:40,650 --> 00:41:41,710
+Unknown: This is the way.
+
+599
+00:41:42,569 --> 00:41:46,109
+This this is the way. It's like, if you build it, they will come,
+
+600
+00:41:47,849 --> 00:41:50,430
+kind of mentality. So I fully support
+
+601
+00:41:51,290 --> 00:41:54,430
+people setting up nodes. Just fuck around and find out.
+
+602
+00:41:55,005 --> 00:41:59,424
+Unknown: You mentioned TabConf. I think the two five six guys are going, yourself included. Right?
+
+603
+00:42:00,285 --> 00:42:04,464
+Unknown: Yes. Yeah. Yeah. Yeah. It's coming up, in, like, two weeks in Atlanta.
+
+604
+00:42:04,924 --> 00:42:06,464
+It's a developer conference
+
+605
+00:42:07,005 --> 00:42:14,690
+run by, Michael Tidwell. It's been the last I've been the last two years, but it's been going on for a long time. And is mining ever a
+
+606
+00:42:15,550 --> 00:42:17,230
+Unknown: a focus piece of that? Right?
+
+607
+00:42:17,550 --> 00:42:22,290
+Because I think what you guys are working on with two five six foundation, it's it's really important to share with that crowd.
+
+608
+00:42:23,355 --> 00:42:28,175
+Unknown: Yeah. Yeah. I think Ryan and I are going to do a talk on what two fifty six is working on.
+
+609
+00:42:30,395 --> 00:42:32,415
+You know, I've only been the last two years,
+
+610
+00:42:33,115 --> 00:42:35,695
+but there is not a huge mining focus.
+
+611
+00:42:37,515 --> 00:42:39,050
+But it is growing.
+
+612
+00:42:39,590 --> 00:42:41,130
+Last year, actually, Tidwell,
+
+613
+00:42:42,070 --> 00:42:43,050
+set up a whole
+
+614
+00:42:43,990 --> 00:42:49,050
+bid ax thing. You know, we had a table. He got a bunch of bid axes. A bunch of people came by. We talked about them,
+
+615
+00:42:49,990 --> 00:42:51,050
+and sold them.
+
+616
+00:42:51,590 --> 00:42:53,610
+It was it was really cool. So we're gonna
+
+617
+00:42:54,225 --> 00:42:55,445
+step that up this year
+
+618
+00:42:55,985 --> 00:42:57,765
+and then hopefully do some talks.
+
+619
+00:42:59,505 --> 00:43:00,405
+You know, there's
+
+620
+00:43:01,105 --> 00:43:02,005
+there's definitely
+
+621
+00:43:02,945 --> 00:43:03,685
+sort of,
+
+622
+00:43:05,505 --> 00:43:06,725
+mining adjacent
+
+623
+00:43:07,040 --> 00:43:09,780
+kind of stuff going on. I mean, it's all part of the same ecosystem,
+
+624
+00:43:10,080 --> 00:43:10,580
+but
+
+625
+00:43:11,200 --> 00:43:16,099
+not a ton of mining focused things. I it is it's so interesting going to
+
+626
+00:43:17,280 --> 00:43:23,635
+a conference like Mining Disrupt, which is obviously all about mining. And then But there's no Bitcoiners? But there's no Bitcoiners.
+
+627
+00:43:24,895 --> 00:43:28,035
+There's just like no it's just like booth after booth of like
+
+628
+00:43:29,695 --> 00:43:31,954
+miner salespeople who just
+
+629
+00:43:32,974 --> 00:43:35,490
+they're not even all Bitcoin focused, but they,
+
+630
+00:43:37,230 --> 00:43:39,570
+you you say open source and they're like,
+
+631
+00:43:42,990 --> 00:43:44,930
+Yeah. It's a it's a big difference, but
+
+632
+00:43:45,630 --> 00:43:49,250
+it is it is trending, I think, in the right direction. I think there's there's more
+
+633
+00:43:49,630 --> 00:43:56,325
+open source, more sort of Bitcoin centric stuff going on at the mining conferences, and more mining stuff going on at the,
+
+634
+00:43:57,444 --> 00:43:58,345
+Bitcoin centric
+
+635
+00:43:58,885 --> 00:43:59,385
+conferences.
+
+636
+00:44:00,005 --> 00:44:02,825
+Unknown: Can you think of a large Goliath company
+
+637
+00:44:03,309 --> 00:44:04,609
+that made a lot of money
+
+638
+00:44:04,910 --> 00:44:07,410
+because they adopted and supported
+
+639
+00:44:08,029 --> 00:44:12,210
+and championed open source from the get go, or are all the Goliath companies,
+
+640
+00:44:12,670 --> 00:44:14,690
+they just bend the knee when they determine
+
+641
+00:44:14,990 --> 00:44:17,490
+it's in their economic best interest to do it?
+
+642
+00:44:17,925 --> 00:44:19,865
+Because it seems to me like open source
+
+643
+00:44:20,725 --> 00:44:24,345
+is a matter of where the community is. It's not just saying
+
+644
+00:44:24,645 --> 00:44:27,465
+this thing is open source. It's like, where is all the development
+
+645
+00:44:27,925 --> 00:44:28,745
+and support
+
+646
+00:44:29,045 --> 00:44:32,825
+and building happening? And that's where the money will follow.
+
+647
+00:44:35,110 --> 00:44:35,610
+Unknown: Well,
+
+648
+00:44:36,150 --> 00:44:38,090
+there's not a lot of good examples in hardware.
+
+649
+00:44:38,550 --> 00:44:40,330
+Sure. Software, I mean,
+
+650
+00:44:41,430 --> 00:44:43,130
+AWS is a big one.
+
+651
+00:44:43,830 --> 00:44:45,610
+Unknown: Okay. Yeah. Actually, Microsoft,
+
+652
+00:44:46,150 --> 00:44:47,690
+Unknown: after after years of
+
+653
+00:44:48,174 --> 00:44:49,395
+Unknown: They bent the knee, though.
+
+654
+00:44:50,015 --> 00:44:56,755
+Unknown: Well, the I mean, after years of hating on it and and actively attacking sort of open source and Linux, you know, they have
+
+655
+00:44:57,055 --> 00:44:59,135
+embraced it. I mean, they they basically got,
+
+656
+00:45:00,270 --> 00:45:01,730
+their proprietary solutions
+
+657
+00:45:02,270 --> 00:45:02,770
+just
+
+658
+00:45:04,030 --> 00:45:05,730
+kinda got just died,
+
+659
+00:45:06,590 --> 00:45:08,370
+as the Internet went to,
+
+660
+00:45:09,230 --> 00:45:15,410
+Linux based stuff. Yeah. And then all that sort of tooling that goes around with it, which is just by default open source. So
+
+661
+00:45:16,475 --> 00:45:17,195
+all the major
+
+662
+00:45:17,755 --> 00:45:18,895
+you know, like Facebook
+
+663
+00:45:19,595 --> 00:45:22,335
+has released tons of open source stuff.
+
+664
+00:45:23,435 --> 00:45:24,655
+You know, all these, like,
+
+665
+00:45:25,435 --> 00:45:28,700
+hot web companies like Airbnb, right, has a huge development
+
+666
+00:45:29,320 --> 00:45:32,460
+group that makes open source software and releases it.
+
+667
+00:45:33,640 --> 00:45:38,060
+Yeah. A lot and a lot of them do too. So they clearly see the benefit
+
+668
+00:45:38,440 --> 00:45:38,940
+of,
+
+669
+00:45:40,119 --> 00:45:46,954
+you know, stuff that they've built, but releasing it for free and open source to get more adoption, more developers,
+
+670
+00:45:48,875 --> 00:45:49,355
+and,
+
+671
+00:45:50,155 --> 00:45:50,974
+just generally
+
+672
+00:45:51,835 --> 00:45:52,655
+make it better.
+
+673
+00:45:53,355 --> 00:45:55,775
+Unknown: A mining example that comes to mind, and
+
+674
+00:45:56,109 --> 00:45:58,530
+we can't say for certain how it will play out, but
+
+675
+00:45:58,990 --> 00:45:59,490
+proto
+
+676
+00:46:00,030 --> 00:46:01,250
+fleet fleet being open source
+
+677
+00:46:01,950 --> 00:46:03,010
+makes me wonder,
+
+678
+00:46:04,430 --> 00:46:12,085
+did a company like Foreman miss the opportunity to open source it and already have the community, right, and the people willing to stick with that
+
+679
+00:46:12,385 --> 00:46:14,724
+versus now they have to convince people to
+
+680
+00:46:15,425 --> 00:46:23,765
+stay with them if there's a free and open source alternative. It's an interesting dynamic at play that we're gonna get to see watch watch it play out.
+
+681
+00:46:24,260 --> 00:46:26,839
+Unknown: I think so. I I mean, I think they they missed
+
+682
+00:46:27,380 --> 00:46:28,440
+a big opportunity
+
+683
+00:46:29,460 --> 00:46:30,200
+to be,
+
+684
+00:46:31,300 --> 00:46:32,599
+like, a major player
+
+685
+00:46:32,900 --> 00:46:33,400
+in,
+
+686
+00:46:34,180 --> 00:46:35,559
+you know, minor management
+
+687
+00:46:36,020 --> 00:46:36,520
+software.
+
+688
+00:46:38,915 --> 00:46:42,455
+It's kind of this, like, high time preference thing to go with a
+
+689
+00:46:43,234 --> 00:46:43,734
+proprietary
+
+690
+00:46:44,435 --> 00:46:46,295
+SaaS model thing. Right?
+
+691
+00:46:46,595 --> 00:46:48,695
+It it I'm sure it satisfies your investors
+
+692
+00:46:49,315 --> 00:46:50,695
+Big time. More immediately.
+
+693
+00:46:52,130 --> 00:46:55,030
+But we have lots of examples of profitable companies
+
+694
+00:46:55,330 --> 00:46:58,230
+utilizing open source and contributing to open source.
+
+695
+00:46:59,570 --> 00:47:00,630
+And I think that
+
+696
+00:47:02,610 --> 00:47:07,805
+it just, like, establishes that user base, establishes that developer base, and and stuff
+
+697
+00:47:09,065 --> 00:47:09,565
+improvements
+
+698
+00:47:10,425 --> 00:47:12,845
+just come at such a rapid clip that
+
+699
+00:47:13,225 --> 00:47:14,365
+it's going to be
+
+700
+00:47:14,985 --> 00:47:16,525
+it's gotta be very difficult
+
+701
+00:47:16,825 --> 00:47:18,365
+for a proprietary,
+
+702
+00:47:19,770 --> 00:47:24,270
+Unknown: product to compete. When you think about it Yeah. Because you have to convince people to not go to the free option.
+
+703
+00:47:24,570 --> 00:47:30,270
+You have to convince people to not go to the free option. If it was already free, they'd be like, what's not worth the effort to go to another free option?
+
+704
+00:47:30,730 --> 00:47:33,125
+Unknown: Yeah. That right. That that's the that's the customers.
+
+705
+00:47:33,505 --> 00:47:36,085
+But the the developers too, right? If you're like
+
+706
+00:47:37,745 --> 00:47:38,725
+if you're like,
+
+707
+00:47:39,105 --> 00:47:39,765
+I wanna,
+
+708
+00:47:40,465 --> 00:47:44,325
+you know, I'm in my garage. I've got this new startup idea. I'm working on something.
+
+709
+00:47:45,830 --> 00:47:53,690
+You're not gonna like get a job at Microsoft to figure out how to use that proprietary software and get it built into that. Mhmm. You're gonna grab,
+
+710
+00:47:54,710 --> 00:48:00,330
+you know, engine x and start building on that or Apache KeyCAD. Or whatever. KeyCAD, exactly. Great idea.
+
+711
+00:48:03,285 --> 00:48:03,785
+It
+
+712
+00:48:04,245 --> 00:48:05,625
+it it really, like
+
+713
+00:48:06,485 --> 00:48:09,225
+I mean, I've seen this in the BitX for sure. Like,
+
+714
+00:48:09,845 --> 00:48:10,665
+it really,
+
+715
+00:48:10,965 --> 00:48:11,945
+really accelerates,
+
+716
+00:48:12,725 --> 00:48:13,385
+the development
+
+717
+00:48:14,565 --> 00:48:18,480
+Unknown: to have more eyes on it, to to allow Dude, when did the when did the bid x drop?
+
+718
+00:48:20,460 --> 00:48:23,920
+Unknown: I I was actually just looking at this the other day.
+
+719
+00:48:25,260 --> 00:48:25,920
+It was
+
+720
+00:48:27,020 --> 00:48:27,520
+May.
+
+721
+00:48:29,244 --> 00:48:34,305
+The first push to GitHub of the BitX with the BitX name was was May 2022.
+
+722
+00:48:35,325 --> 00:48:40,945
+And now there's tens of thousands of them. Yeah. Yeah. It's come it's come a long way,
+
+723
+00:48:41,565 --> 00:48:43,665
+in a relatively short amount of time.
+
+724
+00:48:44,079 --> 00:48:46,819
+Unknown: And you didn't have to set up a manufacturing plan or a distribution
+
+725
+00:48:47,119 --> 00:48:47,619
+shipping
+
+726
+00:48:47,920 --> 00:48:48,420
+company.
+
+727
+00:48:49,200 --> 00:48:50,819
+Unknown: Right. I mean, I didn't have to
+
+728
+00:48:51,920 --> 00:48:55,460
+I didn't have to write all the firmware. Right? I didn't have to make the UI.
+
+729
+00:48:56,079 --> 00:49:00,075
+There's just lots of people who are interested in this and showed up and contributed.
+
+730
+00:49:01,575 --> 00:49:02,455
+And it's created
+
+731
+00:49:05,175 --> 00:49:08,635
+it's created it's it's satisfied a a big market.
+
+732
+00:49:09,655 --> 00:49:11,195
+Unknown: Does open source hardware
+
+733
+00:49:13,349 --> 00:49:15,849
+obviously make sense for reference designs,
+
+734
+00:49:16,470 --> 00:49:18,089
+but less so in
+
+735
+00:49:19,349 --> 00:49:21,050
+products for sale and systems?
+
+736
+00:49:22,309 --> 00:49:25,530
+Because that's it seems like the harder question to square
+
+737
+00:49:27,305 --> 00:49:31,644
+and where a lot of the contention lives. Yes. That's for sure. Oh my gosh.
+
+738
+00:49:33,704 --> 00:49:35,404
+Unknown: I would say for reference designs,
+
+739
+00:49:35,865 --> 00:49:38,520
+it it makes perfect sense. A 100%.
+
+740
+00:49:38,680 --> 00:49:43,980
+I mean, the point Has to. The point of a reference design is you're trying to show someone how to use your products. Yeah.
+
+741
+00:49:44,360 --> 00:49:46,300
+So if you're trying to sell
+
+742
+00:49:46,600 --> 00:49:47,100
+chips,
+
+743
+00:49:48,760 --> 00:49:51,340
+like, you only stand to gain from more people
+
+744
+00:49:51,880 --> 00:49:55,875
+Unknown: understanding it. Like everything on Digi Key has a reference design. Everything.
+
+745
+00:49:56,255 --> 00:49:59,795
+Unknown: Everything. All the big semiconductor manufacturers outside of Bitcoin
+
+746
+00:50:00,175 --> 00:50:02,194
+have realized this. Like you can go to,
+
+747
+00:50:02,575 --> 00:50:03,954
+you know, anyone from
+
+748
+00:50:04,575 --> 00:50:06,960
+like Maxim TI, like all these big chip
+
+749
+00:50:07,359 --> 00:50:07,859
+manufacturers
+
+750
+00:50:08,560 --> 00:50:13,300
+to the smallest little ones, they all make reference designs. And to the to the
+
+751
+00:50:13,920 --> 00:50:17,940
+the greater the extent that they can document it and provide support and help to it,
+
+752
+00:50:18,240 --> 00:50:19,700
+the better for them.
+
+753
+00:50:20,640 --> 00:50:22,180
+You know, I'd love to see
+
+754
+00:50:22,965 --> 00:50:24,185
+Bitcoin ASIC
+
+755
+00:50:24,485 --> 00:50:27,385
+manufacturers take that route, and I I think they will.
+
+756
+00:50:29,525 --> 00:50:30,025
+Unknown: Yeah.
+
+757
+00:50:30,725 --> 00:50:35,305
+Just gets my head spinning because it's like, what is the value add in open sourcing
+
+758
+00:50:36,085 --> 00:50:37,225
+a water heater?
+
+759
+00:50:37,845 --> 00:50:38,345
+Right?
+
+760
+00:50:39,060 --> 00:50:46,120
+The pump is just some spec. You can go buy a pump. The heat exchanger is just some spec. You can buy a heat exchanger. The dimensions of
+
+761
+00:50:47,140 --> 00:50:49,080
+the steel cylinder, I mean,
+
+762
+00:50:49,780 --> 00:50:50,920
+I don't know. It's
+
+763
+00:50:51,460 --> 00:50:54,200
+I see the value in the software and the reference
+
+764
+00:50:54,684 --> 00:51:00,865
+complex hardware, like the circuit boards, right, that you build on top of. Mhmm. But the whole hardware product,
+
+765
+00:51:01,964 --> 00:51:05,825
+it's not clear to me on what value open sourcing that whole thing brings.
+
+766
+00:51:07,404 --> 00:51:09,424
+Unknown: Yeah. I think it's it's a little bit
+
+767
+00:51:10,365 --> 00:51:15,530
+it's a little bit less clear sort of where the benefits come from. I mean, especially if it's a system
+
+768
+00:51:16,630 --> 00:51:17,369
+based on
+
+769
+00:51:17,750 --> 00:51:18,890
+off the shelf components.
+
+770
+00:51:19,430 --> 00:51:19,930
+Yeah.
+
+771
+00:51:20,230 --> 00:51:21,770
+Unknown: You know? Just get a bill of materials.
+
+772
+00:51:22,070 --> 00:51:22,485
+Unknown: Yeah.
+
+773
+00:51:23,685 --> 00:51:29,625
+You know, if there's if there's a component that you you sell in there that's a part of these systems,
+
+774
+00:51:31,765 --> 00:51:33,145
+you know, you you can
+
+775
+00:51:33,685 --> 00:51:40,700
+increase the number of people who are working on it and developing on it by going open source. I think I think that's the main benefit there is,
+
+776
+00:51:42,360 --> 00:51:43,900
+getting that sort of additional
+
+777
+00:51:44,440 --> 00:51:44,940
+development
+
+778
+00:51:46,520 --> 00:51:47,420
+help, and,
+
+779
+00:51:47,800 --> 00:51:50,140
+you know, spurring spurring a whole industry
+
+780
+00:51:51,000 --> 00:51:51,500
+too.
+
+781
+00:51:51,960 --> 00:51:54,395
+Unknown: Yeah. Right? Like Or it makes me think of, like,
+
+782
+00:51:55,015 --> 00:52:00,075
+this was brought up at Thames and it clicked for me there. It's like, which which parts of the system are already a commodity?
+
+783
+00:52:00,775 --> 00:52:03,595
+Like steel is Mhmm. And putting it in a cylinder
+
+784
+00:52:03,895 --> 00:52:04,635
+is nontrivial
+
+785
+00:52:05,120 --> 00:52:07,300
+or it's trivial. Right? But
+
+786
+00:52:07,600 --> 00:52:11,540
+the complex circuitry and the software that controls this
+
+787
+00:52:12,240 --> 00:52:15,060
+might take forever to someone for someone to go and
+
+788
+00:52:15,600 --> 00:52:16,100
+reengineer
+
+789
+00:52:16,400 --> 00:52:24,015
+and develop on and improve. And so that's where open source I see huge value in. It's like, is it already something trivial to make? Is it a commodity
+
+790
+00:52:24,474 --> 00:52:25,694
+versus is it something
+
+791
+00:52:26,395 --> 00:52:30,255
+that took a huge amount of effort to get to that starting point?
+
+792
+00:52:31,530 --> 00:52:34,990
+Unknown: I mean, the other thing that I I think too is that if it's a good idea,
+
+793
+00:52:35,530 --> 00:52:40,270
+someone else can do it too. Right? Yeah. Especially if you've already made it. Right? It's
+
+794
+00:52:41,370 --> 00:52:52,995
+Unknown: it's just not that hard to take something apart, figure out how it works. No. I know. That's why I laugh at all the open source designs for all the three d printed plastics. I'm like, this is not a rocket engine, guys. It's Yes.
+
+795
+00:52:53,695 --> 00:52:56,035
+I got a micrometer and a ruler.
+
+796
+00:52:56,859 --> 00:52:57,599
+Unknown: Right? Like,
+
+797
+00:52:58,780 --> 00:53:00,960
+the best defense for someone to reverse
+
+798
+00:53:01,500 --> 00:53:03,440
+you know, the best defense to someone
+
+799
+00:53:04,220 --> 00:53:07,520
+ripping off your open source hardware designs is just
+
+800
+00:53:07,820 --> 00:53:16,745
+it's it's crap and no one wants it. Then no one will rip it off. If it's a good idea, they'll do it. It doesn't matter if it's open source or not. Right. Yeah. Right? Like,
+
+801
+00:53:17,285 --> 00:53:18,105
+we've seen,
+
+802
+00:53:18,485 --> 00:53:19,865
+you know, basically Apple
+
+803
+00:53:20,245 --> 00:53:24,585
+came up with the iPhone idea more or less. Right? Mhmm. And then Samsung
+
+804
+00:53:25,470 --> 00:53:28,609
+famously did exactly the same thing. They've been embroiled in lawsuits
+
+805
+00:53:29,550 --> 00:53:34,450
+forever and not been able to figure it out. Meanwhile, like, a zillion people make essentially
+
+806
+00:53:34,990 --> 00:53:49,965
+iPhones. Oh, it's worse than Samsung, like, Xiaomi and some of these other companies. Like, it's just feature for feature. I'm gonna copy that. I'm gonna copy that. Yeah. So if it's if it's a good idea, it'll get copied. So now you're like, okay. There's copies out there, but I haven't benefit I haven't benefited from
+
+807
+00:53:50,345 --> 00:53:50,845
+the
+
+808
+00:53:51,225 --> 00:53:55,565
+increased development power of the community because it's open source. So,
+
+809
+00:53:57,300 --> 00:54:01,400
+obviously, there's different things. Some things are gonna be incredibly complex to manufacture,
+
+810
+00:54:02,260 --> 00:54:02,760
+and,
+
+811
+00:54:03,300 --> 00:54:04,600
+you know, you might have
+
+812
+00:54:05,620 --> 00:54:09,960
+some time in which it could be proprietary and no one will be able to figure out how to copy you.
+
+813
+00:54:11,025 --> 00:54:13,684
+But, yeah, like I said, if it's a good idea, if it's profitable,
+
+814
+00:54:14,385 --> 00:54:19,845
+people will copy it. There are moats that will eventually be crossed. Yeah. Yeah. Yeah. Like,
+
+815
+00:54:20,865 --> 00:54:21,365
+I
+
+816
+00:54:22,145 --> 00:54:24,005
+I've seen some some crazy
+
+817
+00:54:26,460 --> 00:54:31,280
+things people have done to try and reverse engineer circuits or chips, things like that.
+
+818
+00:54:31,740 --> 00:54:32,240
+So
+
+819
+00:54:32,700 --> 00:54:34,640
+Unknown: You've lived and breathed it yourself.
+
+820
+00:54:35,180 --> 00:54:38,320
+Unknown: Yes. I have. I mean, the BitX is not that complicated.
+
+821
+00:54:38,865 --> 00:54:39,605
+Right? Like,
+
+822
+00:54:41,185 --> 00:54:42,305
+it it's just not.
+
+823
+00:54:42,865 --> 00:54:53,845
+Unknown: I So what are all the open source pieces of the the BIDX? It's the firmware, the actual PCB design. Right? So is this like a is it a standard file format? Is that what gets it considered open source
+
+824
+00:54:54,160 --> 00:54:54,660
+for
+
+825
+00:54:55,760 --> 00:55:02,100
+or is it just drawings, right, like, literally image files, or is it a KiCad file? I'm ignorant on all this. Like, what
+
+826
+00:55:02,560 --> 00:55:04,820
+what makes it all open source, each piece?
+
+827
+00:55:05,200 --> 00:55:11,855
+There's been some drama on Twitter regarding exactly that. Yeah. Sorry. I happened to read that this morning, so that probably prompted my question.
+
+828
+00:55:13,835 --> 00:55:14,335
+Unknown: Well,
+
+829
+00:55:15,115 --> 00:55:24,140
+you know, open source is a blanket term. There's lots of different specific meanings. And you can set the parameters kind of. Yeah. And that that's what comes in the open source license.
+
+830
+00:55:24,520 --> 00:55:26,200
+Right? The open source license says,
+
+831
+00:55:28,520 --> 00:55:29,500
+you know, what
+
+832
+00:55:30,360 --> 00:55:31,420
+you need to do
+
+833
+00:55:31,914 --> 00:55:34,575
+to fork this. And there's lots of different ones. MIT
+
+834
+00:55:34,875 --> 00:55:39,454
+famously is like, you know, you can make a closed source version of an MIT
+
+835
+00:55:39,755 --> 00:55:45,210
+open source license thing and distribute it. That's fine. I think their only requirement is you give credit somewhere.
+
+836
+00:55:46,390 --> 00:55:49,530
+Bitcoin itself is MIT licensed. So
+
+837
+00:55:50,390 --> 00:55:53,930
+Unknown: that's one strategy that So all the shit coins have to give credit to Bitcoin?
+
+838
+00:55:55,110 --> 00:56:08,345
+Yeah. All the, all the forks of Bitcoin, do they have to give credit to Bitcoin? MIT license? That's a good point, Does Dogecoin have to give credit to Bitcoin? Maybe somewhere, you know, deep in some source file or something. Mhmm. But, yeah, I guess if they use,
+
+839
+00:56:08,965 --> 00:56:10,825
+Unknown: you know, what is now Bitcoin Core,
+
+840
+00:56:11,480 --> 00:56:13,980
+code directly, then yeah, I think they do need the credit.
+
+841
+00:56:14,520 --> 00:56:15,339
+Unknown: That's fine.
+
+842
+00:56:15,640 --> 00:56:17,740
+Unknown: But it's also the Bitcoin is an open network.
+
+843
+00:56:18,040 --> 00:56:21,099
+Yeah. I don't know if there's there's not really a license for that.
+
+844
+00:56:23,160 --> 00:56:32,845
+Okay. So that's that's the very permissive side of open source. Then there's the copyleft strategy. That's what the bid ax and all the associated components are under. Copyleft
+
+845
+00:56:33,625 --> 00:56:34,125
+is
+
+846
+00:56:35,225 --> 00:56:36,045
+it's a
+
+847
+00:56:36,905 --> 00:56:38,765
+restrictive isn't the right word, but
+
+848
+00:56:40,070 --> 00:56:43,210
+it is designed well, basically what it says is that if you
+
+849
+00:56:43,590 --> 00:56:46,330
+use that source in any way,
+
+850
+00:56:46,950 --> 00:56:52,650
+to make your own thing, then whatever you make also needs to be open source under the same
+
+851
+00:56:53,030 --> 00:56:54,010
+the same license.
+
+852
+00:56:55,205 --> 00:56:56,345
+So that says that,
+
+853
+00:56:56,885 --> 00:56:57,545
+you know,
+
+854
+00:56:58,165 --> 00:56:58,825
+you take
+
+855
+00:56:59,685 --> 00:57:01,305
+this Copyleft license
+
+856
+00:57:01,605 --> 00:57:04,105
+code design, whatever, you make your own thing,
+
+857
+00:57:05,045 --> 00:57:05,545
+then
+
+858
+00:57:05,925 --> 00:57:07,865
+that also needs to be Copyleft,
+
+859
+00:57:08,165 --> 00:57:11,090
+meaning that you publish the source with your changes
+
+860
+00:57:11,790 --> 00:57:12,930
+under the same license.
+
+861
+00:57:13,670 --> 00:57:14,170
+And
+
+862
+00:57:15,150 --> 00:57:16,130
+Unknown: It's like a chain.
+
+863
+00:57:16,590 --> 00:57:20,530
+Unknown: What's that? It's like a chain. It is. It's like a chain. And,
+
+864
+00:57:20,910 --> 00:57:23,090
+you know, Ganu, Richard Stallman
+
+865
+00:57:23,575 --> 00:57:24,715
+started this idea
+
+866
+00:57:25,415 --> 00:57:26,395
+decades ago.
+
+867
+00:57:27,895 --> 00:57:30,075
+Linux famously adopted it.
+
+868
+00:57:30,535 --> 00:57:31,035
+But
+
+869
+00:57:31,735 --> 00:57:32,215
+it's,
+
+870
+00:57:33,255 --> 00:57:34,715
+it's set up to establish,
+
+871
+00:57:35,495 --> 00:57:35,940
+like,
+
+872
+00:57:36,420 --> 00:57:36,920
+freedoms.
+
+873
+00:57:37,300 --> 00:57:37,800
+So
+
+874
+00:57:38,900 --> 00:57:40,520
+that users of the software
+
+875
+00:57:41,300 --> 00:57:42,099
+have the same
+
+876
+00:57:42,819 --> 00:57:49,160
+have, you know, the this license has established that the users have these freedoms, the freedoms to
+
+877
+00:57:49,545 --> 00:57:50,045
+inspect,
+
+878
+00:57:50,345 --> 00:57:50,845
+understand,
+
+879
+00:57:51,145 --> 00:57:53,085
+modify, distribute the software.
+
+880
+00:57:53,545 --> 00:57:54,684
+Right? So you can't
+
+881
+00:57:55,545 --> 00:57:56,365
+take something,
+
+882
+00:57:56,825 --> 00:58:09,550
+change it, close source it, and then give it to someone because now that person that you sold it to or or got it, they don't have the freedom to look at the source anymore because you haven't given it to them.
+
+883
+00:58:10,170 --> 00:58:10,670
+So,
+
+884
+00:58:12,250 --> 00:58:19,825
+yeah. Copyleft is meant to sort of convey those freedoms to all the users and the users users right all the way down this this chain, which
+
+885
+00:58:20,204 --> 00:58:22,065
+I think I think is really cool.
+
+886
+00:58:22,605 --> 00:58:23,585
+I think that
+
+887
+00:58:24,525 --> 00:58:30,224
+especially in the Bitcoin world, right, that that is what we need is these these freedoms. Right? And they need to be
+
+888
+00:58:30,845 --> 00:58:31,345
+protected,
+
+889
+00:58:32,285 --> 00:58:33,904
+such that all the the users
+
+890
+00:58:34,359 --> 00:58:34,859
+will
+
+891
+00:58:35,800 --> 00:58:37,260
+will have that same freedom.
+
+892
+00:58:37,720 --> 00:58:41,420
+Unknown: Yeah. You you're free to build off the chain, but you can't stop it. Right.
+
+893
+00:58:41,720 --> 00:58:42,220
+Unknown: Yes.
+
+894
+00:58:42,520 --> 00:58:44,940
+Yes. Exactly. That's a good way to put it.
+
+895
+00:58:45,960 --> 00:58:48,140
+And I think that that that's important to keep
+
+896
+00:58:49,205 --> 00:58:50,745
+to keep it decentralized.
+
+897
+00:58:51,685 --> 00:58:54,345
+Right? Because once you have someone that kind of stops,
+
+898
+00:58:56,405 --> 00:58:56,985
+you know,
+
+899
+00:58:57,365 --> 00:58:58,905
+that that doesn't release their source,
+
+900
+00:58:59,205 --> 00:58:59,705
+then
+
+901
+00:59:00,325 --> 00:59:01,225
+now it becomes
+
+902
+00:59:01,525 --> 00:59:02,025
+centralized
+
+903
+00:59:02,405 --> 00:59:03,065
+on them.
+
+904
+00:59:04,390 --> 00:59:06,170
+Unknown: Right. Especially if they were to
+
+905
+00:59:07,430 --> 00:59:14,090
+add all these features that bring a lot of the community over to that Mhmm. And then they don't release the source.
+
+906
+00:59:14,470 --> 00:59:14,970
+It
+
+907
+00:59:15,270 --> 00:59:16,730
+I could see that as a problem.
+
+908
+00:59:17,994 --> 00:59:24,895
+Unknown: Right. Because now they they've got all these users. People love the feature that they made or it was a great price or or whatever.
+
+909
+00:59:25,275 --> 00:59:26,815
+Right. And then they can say,
+
+910
+00:59:27,275 --> 00:59:27,775
+oh,
+
+911
+00:59:28,795 --> 00:59:35,799
+just kidding. We're changing this or we're canceling it or we got thrown in jail and now no one can use the software. That that kind of thing.
+
+912
+00:59:36,180 --> 00:59:38,520
+So being open source establishes
+
+913
+00:59:39,540 --> 00:59:40,040
+this,
+
+914
+00:59:41,460 --> 00:59:42,200
+it's decentralized.
+
+915
+00:59:42,660 --> 00:59:44,745
+Right? The code is out there. Right? Even if
+
+916
+00:59:45,305 --> 00:59:50,605
+someone disappears or whatever, like, the code is still out there. It can be taken on by someone else.
+
+917
+00:59:51,305 --> 00:59:52,525
+It it stops
+
+918
+00:59:52,985 --> 00:59:56,525
+someone from making or a group from making these unilateral decisions,
+
+919
+00:59:57,785 --> 01:00:01,700
+because it you know, they they could with their software. Right? I could say,
+
+920
+01:00:02,320 --> 01:00:05,060
+just kidding. The bid acts only mines to my address now.
+
+921
+01:00:06,320 --> 01:00:12,099
+But the source is out there. So you could take it and fork it and Right. Say, no. I ended that stupid change,
+
+922
+01:00:12,400 --> 01:00:15,700
+and no one would use my stupid version anymore.
+
+923
+01:00:17,184 --> 01:00:19,045
+So that's what Copyleft tries to enforce.
+
+924
+01:00:20,785 --> 01:00:21,285
+Bittax,
+
+925
+01:00:21,665 --> 01:00:24,005
+all the stuff coming out of the two fifty six Foundation,
+
+926
+01:00:24,464 --> 01:00:28,065
+on the hardware side, uses a Copyleft license. It's called,
+
+927
+01:00:28,545 --> 01:00:29,925
+the open hardware license.
+
+928
+01:00:30,545 --> 01:00:31,365
+And it
+
+929
+01:00:32,529 --> 01:00:34,950
+tries to establish that same thing
+
+930
+01:00:36,049 --> 01:00:37,750
+that GPL does for software,
+
+931
+01:00:39,170 --> 01:00:39,910
+for hardware.
+
+932
+01:00:40,609 --> 01:00:41,910
+It's a little bit more
+
+933
+01:00:42,210 --> 01:00:48,069
+it's a little more complicated with hardware because there isn't just like a a source file and you compile it. There's these design
+
+934
+01:00:48,585 --> 01:00:49,565
+Unknown: files. Yep.
+
+935
+01:00:50,025 --> 01:00:53,484
+Unknown: And one of the things the open hardware license says is that
+
+936
+01:00:55,705 --> 01:00:57,965
+it's trying to prevent people from saying, like,
+
+937
+01:00:58,744 --> 01:01:03,405
+oh, yeah. I'm I'm releasing the source, but it's actually just like a PDF of the schematic.
+
+938
+01:01:04,800 --> 01:01:08,500
+Right? Because now it would be difficult for someone to modify that.
+
+939
+01:01:09,040 --> 01:01:11,380
+Unknown: You have to go rebuild some blocks in that chain.
+
+940
+01:01:11,680 --> 01:01:16,660
+Unknown: Yes. You you would have to do there would be some overhead required to
+
+941
+01:01:17,214 --> 01:01:17,714
+actually
+
+942
+01:01:18,335 --> 01:01:19,234
+modify it.
+
+943
+01:01:19,535 --> 01:01:22,115
+Yep. It's kinda like kind of like
+
+944
+01:01:22,494 --> 01:01:33,080
+compiled software, like a binary. Right? Like, you can reverse engineer a binary and go back to the source. It is definitely possible. But that'd be a cop out saying it's open source. Yeah. Yeah. Yeah. Exactly. So
+
+945
+01:01:33,540 --> 01:01:37,800
+that there's this clause in the open hardware license that says you need to provide
+
+946
+01:01:38,420 --> 01:01:39,880
+the hardware source files
+
+947
+01:01:40,180 --> 01:01:40,680
+in,
+
+948
+01:01:42,260 --> 01:01:43,960
+what is it? Like an acceptable
+
+949
+01:01:45,675 --> 01:01:50,095
+way for modifications to be made. The preferred that's what it says. The preferred format
+
+950
+01:01:50,475 --> 01:01:52,255
+for modifications to be made.
+
+951
+01:01:52,555 --> 01:01:53,055
+And,
+
+952
+01:01:54,235 --> 01:01:59,295
+I mean, that's what it says. That's all it says. So there's a little bit of interpretation here as to what is the preferred format.
+
+953
+01:02:01,150 --> 01:02:04,610
+But I'm here to tell you that the preferred format is not
+
+954
+01:02:04,990 --> 01:02:05,490
+a,
+
+955
+01:02:06,270 --> 01:02:08,290
+PDF of a hand drawn schematic.
+
+956
+01:02:08,670 --> 01:02:09,570
+It is not,
+
+957
+01:02:11,150 --> 01:02:15,250
+a it's not the Gerbers. Gerbers are the files you send to the manufacturer to make the PCB.
+
+958
+01:02:15,865 --> 01:02:17,645
+Okay. It's it's the actual,
+
+959
+01:02:19,785 --> 01:02:33,339
+CAD file package that makes up the PCB layout and the schematic. That is Is that in, like, STL format, or is it it's different. There's a bunch of different CAD programs. Right? There's you know, KiCad is one, but there's there's several others. But they
+
+960
+01:02:34,200 --> 01:02:35,500
+KiCad uses, like,
+
+961
+01:02:36,839 --> 01:02:40,859
+I don't know. They're they're they're text documents, but it's it's a Gotcha.
+
+962
+01:02:41,400 --> 01:02:46,295
+It's like, the difference between a bitmap and a vector file. Right? It's Yeah. Yeah. Yeah. It's editable.
+
+963
+01:02:47,395 --> 01:02:48,855
+The schematic and the,
+
+964
+01:02:49,875 --> 01:02:51,095
+excuse me, the schematic
+
+965
+01:02:51,555 --> 01:02:55,575
+and the PCB file are linked so that, you know, if you change
+
+966
+01:02:56,675 --> 01:02:57,895
+something about the schematic,
+
+967
+01:02:58,830 --> 01:03:01,010
+then that's referenced in the board layout,
+
+968
+01:03:01,470 --> 01:03:09,650
+and, you can actually go either way back and forth and kind of sync them and and see how that links up. That's how all modern PCBs are made,
+
+969
+01:03:10,030 --> 01:03:11,890
+and that is the preferred.
+
+970
+01:03:12,485 --> 01:03:18,825
+Unknown: And it seems important that the software that reads these file formats is also open source then.
+
+971
+01:03:19,365 --> 01:03:21,145
+Unknown: Yes. I would I would say,
+
+972
+01:03:22,325 --> 01:03:22,825
+absolutely.
+
+973
+01:03:24,500 --> 01:03:26,359
+KiCad is a fantastic,
+
+974
+01:03:27,220 --> 01:03:29,559
+PCB CAD program that's open source.
+
+975
+01:03:30,339 --> 01:03:31,160
+It's free,
+
+976
+01:03:31,460 --> 01:03:33,480
+so it really lowers the barrier.
+
+977
+01:03:33,940 --> 01:03:37,400
+It is preferable in that regard because it's it's free.
+
+978
+01:03:38,020 --> 01:03:39,960
+There are other open source
+
+979
+01:03:40,404 --> 01:03:42,105
+PCB CAD software programs,
+
+980
+01:03:43,444 --> 01:03:46,505
+but there's a lot of proprietary ones that are very expensive.
+
+981
+01:03:48,404 --> 01:03:53,224
+I would say that that's not preferred to use one of those. Right? It's like if you have to pay $10,000
+
+982
+01:03:53,444 --> 01:03:55,704
+to get the software package to modify it,
+
+983
+01:03:57,070 --> 01:03:59,890
+okay, yeah, the source is open, but that
+
+984
+01:04:00,270 --> 01:04:01,250
+is not preferred.
+
+985
+01:04:02,830 --> 01:04:03,330
+Unknown: Right.
+
+986
+01:04:04,190 --> 01:04:09,330
+Unknown: I would I would suggest that if you actually care about open source, you should use a open source CAD
+
+987
+01:04:09,825 --> 01:04:11,925
+package because there are great ones available.
+
+988
+01:04:12,545 --> 01:04:16,724
+Unknown: Is where people some people fail to understand or get upset
+
+989
+01:04:19,025 --> 01:04:20,325
+in the fact that
+
+990
+01:04:21,265 --> 01:04:22,244
+is it the originator
+
+991
+01:04:22,545 --> 01:04:23,365
+of the project
+
+992
+01:04:23,770 --> 01:04:27,870
+is the arbiter of what meets the requirements of the license. Right?
+
+993
+01:04:29,130 --> 01:04:32,670
+Unknown: Yeah. That that's something I'm kind of wrestling with is, like,
+
+994
+01:04:32,970 --> 01:04:34,270
+you know, we we've adopted
+
+995
+01:04:34,570 --> 01:04:39,325
+this OHL license. Right? I didn't write it. It's written by lawyers, I assume.
+
+996
+01:04:40,185 --> 01:04:40,685
+So
+
+997
+01:04:41,385 --> 01:04:43,325
+who who is the arbiter of
+
+998
+01:04:43,865 --> 01:04:44,365
+what
+
+999
+01:04:44,665 --> 01:04:45,725
+violates the license
+
+1000
+01:04:46,105 --> 01:04:47,325
+and what what doesn't?
+
+1001
+01:04:48,825 --> 01:04:49,725
+It's not me,
+
+1002
+01:04:50,750 --> 01:04:53,010
+You know? But it is it is the community.
+
+1003
+01:04:54,030 --> 01:04:56,049
+There there's kind of this concept of
+
+1004
+01:04:56,990 --> 01:04:57,809
+so copyleft
+
+1005
+01:04:58,190 --> 01:04:59,250
+uses copyright
+
+1006
+01:04:59,869 --> 01:05:00,369
+to
+
+1007
+01:05:00,670 --> 01:05:01,809
+protect your freedoms.
+
+1008
+01:05:02,109 --> 01:05:04,690
+And so there are copyright holders of
+
+1009
+01:05:05,984 --> 01:05:06,964
+of any project.
+
+1010
+01:05:08,704 --> 01:05:16,805
+In the in the case of the bid acts, that's anyone who made the contributions. Right? Me, but all the other people who have submitted PRs and have submitted,
+
+1011
+01:05:17,585 --> 01:05:20,565
+changes. Right? They are the copyright holders on that. So
+
+1012
+01:05:21,080 --> 01:05:24,460
+they are the owners of that, and they, you know, are the ones who,
+
+1013
+01:05:24,760 --> 01:05:26,300
+I guess, when it comes down to it,
+
+1014
+01:05:26,680 --> 01:05:28,300
+are the ones who get to say
+
+1015
+01:05:29,560 --> 01:05:31,580
+what is a violation and what isn't.
+
+1016
+01:05:32,120 --> 01:05:32,620
+Now,
+
+1017
+01:05:34,404 --> 01:05:36,184
+I mean, anyone can say whatever they want.
+
+1018
+01:05:36,484 --> 01:05:37,305
+Right? But
+
+1019
+01:05:39,045 --> 01:05:45,065
+what what actually matters? Unfortunately, I think it's lawyers. Right? It's like there's a famous case where,
+
+1020
+01:05:46,484 --> 01:05:47,385
+the free software
+
+1021
+01:05:47,924 --> 01:05:48,505
+the Electronic
+
+1022
+01:05:48,960 --> 01:05:50,500
+Frontier Foundation sued,
+
+1023
+01:05:52,720 --> 01:05:53,520
+I think it was,
+
+1024
+01:05:53,920 --> 01:05:54,420
+Cisco
+
+1025
+01:05:55,599 --> 01:05:57,060
+because Cisco had included,
+
+1026
+01:05:58,080 --> 01:05:59,940
+Linux in one of their router
+
+1027
+01:06:01,164 --> 01:06:02,224
+firmware binaries
+
+1028
+01:06:03,325 --> 01:06:08,545
+and did not release you know, they had changed it so that it could work on their router product, and they had released this.
+
+1029
+01:06:09,244 --> 01:06:09,984
+And so
+
+1030
+01:06:10,285 --> 01:06:12,305
+I believe it was the EFF sued Cisco
+
+1031
+01:06:12,845 --> 01:06:14,224
+on behalf of
+
+1032
+01:06:15,320 --> 01:06:15,820
+Linux,
+
+1033
+01:06:16,280 --> 01:06:20,060
+the Linux Foundation who owns the copyright to Linux and all the contributors.
+
+1034
+01:06:21,080 --> 01:06:21,580
+And,
+
+1035
+01:06:25,320 --> 01:06:26,940
+basically, they they won.
+
+1036
+01:06:27,480 --> 01:06:29,455
+The the the EFF won
+
+1037
+01:06:29,995 --> 01:06:31,855
+and were and compelled
+
+1038
+01:06:32,235 --> 01:06:34,095
+Cisco to release the firmware.
+
+1039
+01:06:34,475 --> 01:06:38,175
+And that actually started a whole industry. It's kinda crazy. You've heard of OpenWRT?
+
+1040
+01:06:38,955 --> 01:06:39,455
+Mhmm.
+
+1041
+01:06:40,075 --> 01:06:41,400
+That all came out of this.
+
+1042
+01:06:42,359 --> 01:06:43,660
+So now there's this whole
+
+1043
+01:06:44,200 --> 01:06:44,700
+Homebrew
+
+1044
+01:06:45,160 --> 01:06:46,140
+router firmware.
+
+1045
+01:06:46,680 --> 01:06:50,619
+Unknown: There's other companies that use it. Is that when my Wi Fi says DDWRT?
+
+1046
+01:06:51,160 --> 01:06:53,819
+Unknown: Yep. Yep. That's another project that came out of it.
+
+1047
+01:06:54,575 --> 01:06:57,555
+And I I gotta believe that some of the cooler stuff like,
+
+1048
+01:07:00,015 --> 01:07:03,474
+what's that, MicroTik? The they have, like, a whole
+
+1049
+01:07:04,894 --> 01:07:05,394
+platform
+
+1050
+01:07:05,775 --> 01:07:13,490
+for for network gear and stuff. Like, I I gotta believe a lot of that is influenced by what came out of this decision. So that that was really cool to see.
+
+1051
+01:07:13,870 --> 01:07:16,530
+EFF is a is a huge, like, industry group,
+
+1052
+01:07:17,150 --> 01:07:17,810
+of lawyers
+
+1053
+01:07:18,910 --> 01:07:20,850
+that protect open source stuff.
+
+1054
+01:07:21,630 --> 01:07:22,530
+Unknown: I get why
+
+1055
+01:07:22,835 --> 01:07:27,575
+there's the MIT side of the argument then too. If if it all just goes back to lawyers, then it's like,
+
+1056
+01:07:28,595 --> 01:07:37,040
+well, the state has to enforce this with guns, so I might as well just make it MIT. So I I hear both sides in that sense. Yeah. Yeah. I can see that too. It's right. It's like,
+
+1057
+01:07:38,060 --> 01:07:38,720
+Unknown: you know,
+
+1058
+01:07:39,820 --> 01:07:42,160
+what what good is the law that's not enforced?
+
+1059
+01:07:42,540 --> 01:07:43,040
+Unknown: Yeah.
+
+1060
+01:07:45,660 --> 01:07:48,320
+I gotta run here, Scott. I have an appointment
+
+1061
+01:07:48,744 --> 01:07:49,645
+for a haircut.
+
+1062
+01:07:50,505 --> 01:07:51,005
+Nice.
+
+1063
+01:07:51,545 --> 01:07:55,244
+Hopefully, I come back looking schnassy. Gonna get some engagement photos this weekend.
+
+1064
+01:07:56,025 --> 01:08:01,790
+Congratulations, man. This is exciting. It is. I'll see if the mustache can stay. So, you know,
+
+1065
+01:08:02,730 --> 01:08:04,590
+Unknown: just get a, like, mohawk probably?
+
+1066
+01:08:05,050 --> 01:08:15,885
+Unknown: Yeah. Probably mullet, actually. Oh, yes. There you go. Yeah. You only get to take these photos once, so you better look awesome. She's a little worried because I do I do try to switch it up and make crazy decisions with my hair now
+
+1067
+01:08:18,605 --> 01:08:29,985
+now and then. I always threaten buzzing it off, but this was a good episode, though, for our 3,000,000 followers to, really dive deep into open source and the ins and outs of this and core versus nots, dude. I think we hit it gracefully.
+
+1068
+01:08:30,580 --> 01:08:31,080
+Unknown: Boom.
+
+1069
+01:08:31,780 --> 01:08:37,640
+It's all about the user freedoms. Let's go. Clearly made no enemies throughout the process. Yeah. We're gonna get so much
+
+1070
+01:08:38,020 --> 01:08:39,080
+hate mail now.
+
+1071
+01:08:40,260 --> 01:08:42,600
+Some passionate people out there on these things.
+
+1072
+01:08:43,380 --> 01:08:44,280
+Unknown: Sweet. Well,
+
+1073
+01:08:44,615 --> 01:08:49,575
+another good rip. Hopefully, all the guys are back next week or actually, we're traveling next week,
+
+1074
+01:08:50,615 --> 01:08:53,595
+and then you're going to TAB Conference. So we'll see when we're back.
+
+1075
+01:08:54,047 --> 01:08:56,707
+Unknown: Until next time. Yes. Awesome.
+
+1076
+01:08:57,407 --> 01:08:58,467
+Unknown: Bye bye. Thanks, everyone.
+
+1077
+01:08:59,007 --> 01:08:59,507
+Later.
+

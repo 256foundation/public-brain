@@ -1,0 +1,3420 @@
+1
+00:00:03,760 --> 00:00:05,359
+Unknown: Pod 256
+
+2
+00:00:05,359 --> 00:00:06,880
+number 105.
+
+3
+00:00:07,359 --> 00:00:08,559
+105.
+
+4
+00:00:10,080 --> 00:00:11,440
+Yo. This is crazy.
+
+5
+00:00:12,255 --> 00:00:14,655
+What's going on? I think it's live. Is it live?
+
+6
+00:00:16,095 --> 00:00:18,415
+Unknown: Let's all stare at our screens really closely.
+
+7
+00:00:18,655 --> 00:00:25,460
+Unknown: Are we live? It's live. It's live. We're doing it live. Finally. Circle. Yeah. This is amazing.
+
+8
+00:00:25,700 --> 00:00:26,100
+Good
+
+9
+00:00:27,140 --> 00:00:30,740
+job, everybody. Good job, Steve. Mission accomplished.
+
+10
+00:00:30,900 --> 00:00:34,739
+Unknown: Now we have professional producer now, d plus plus.
+
+11
+00:00:35,220 --> 00:00:37,140
+Unknown: Shout out to d plus plus for making this happen.
+
+12
+00:00:40,525 --> 00:00:42,605
+Wouldn't have been able to do it without her.
+
+13
+00:00:43,085 --> 00:00:47,085
+Unknown: Okay. Scott has to retell his story about what he's doing right now.
+
+14
+00:00:47,725 --> 00:00:49,565
+Unknown: Okay. Yeah. So
+
+15
+00:00:50,205 --> 00:00:54,364
+previously when we went live, I was talking about how I was plugging in my Ember one.
+
+16
+00:00:56,399 --> 00:00:58,640
+And then Tyler asked,
+
+17
+00:00:59,120 --> 00:01:03,680
+is this the Ember one from the Telehash event in Nashville? And I said,
+
+18
+00:01:04,080 --> 00:01:05,680
+yes. It's the same board,
+
+19
+00:01:06,240 --> 00:01:08,960
+but, Ryan, the Mugena lead developer,
+
+20
+00:01:09,505 --> 00:01:19,265
+when he was building the firmware or or working on the firmware, he discovered an error. There's a bug. There's a bug in the hardware design, that I definitely failed to notice until now.
+
+21
+00:01:19,745 --> 00:01:20,065
+And,
+
+22
+00:01:21,680 --> 00:01:22,880
+basically, the
+
+23
+00:01:23,440 --> 00:01:29,200
+IO voltages that sort of control the how the data flows between the chips on the board was wrong.
+
+24
+00:01:29,360 --> 00:01:30,000
+And,
+
+25
+00:01:31,120 --> 00:01:35,600
+that was causing it to basically freak out when we tried to increase the hash rate.
+
+26
+00:01:36,305 --> 00:01:41,665
+So at the telehash, we were only able to we were able to run it, but only sort of in a underclocked mode.
+
+27
+00:01:41,745 --> 00:01:43,025
+Because when we ramped
+
+28
+00:01:43,425 --> 00:01:47,185
+it up to its sort of default frequency, it was it was freaking out.
+
+29
+00:01:48,619 --> 00:01:54,540
+This appears to be the the cause of that problem, and I've jerry rigged a fix together on my desk here,
+
+30
+00:01:54,860 --> 00:01:56,540
+and it appears to be working.
+
+31
+00:01:58,460 --> 00:02:03,020
+Unknown: Nice. Let's see if it's still working. Yeah. Because what's the hash rate supposed to be nominally on that board?
+
+32
+00:02:03,845 --> 00:02:05,685
+Unknown: Let's see. It should be,
+
+33
+00:02:06,165 --> 00:02:06,965
+about
+
+34
+00:02:07,125 --> 00:02:08,085
+300
+
+35
+00:02:09,045 --> 00:02:13,605
+Gigahash per chip times 12 chips. So it should be 3.6 terahash.
+
+36
+00:02:13,605 --> 00:02:14,885
+Nice. I
+
+37
+00:02:16,085 --> 00:02:23,020
+am not running it all out right now because my cooling solution is less than ideal on my desk, but it
+
+38
+00:02:23,260 --> 00:02:24,060
+appears
+
+39
+00:02:24,700 --> 00:02:27,340
+to be running at about two terahash.
+
+40
+00:02:28,380 --> 00:02:29,660
+Unknown: What were we at?
+
+41
+00:02:29,900 --> 00:02:30,860
+Telehash three?
+
+42
+00:02:32,185 --> 00:02:34,825
+Unknown: I think we were kind of in the one.
+
+43
+00:02:35,145 --> 00:02:38,105
+Okay. The one terahash rate. This is progress.
+
+44
+00:02:38,185 --> 00:02:40,265
+Yes. Yes. This is progress.
+
+45
+00:02:41,145 --> 00:02:48,980
+It's pretty neat. It's pretty neat. This this design has a bunch of these voltage domains, so, like, all the chips are stacked together in series, which is actually just
+
+46
+00:02:50,580 --> 00:02:54,020
+it's like a mind fuck. Thinking about how it works just
+
+47
+00:02:54,260 --> 00:02:55,220
+is crazy.
+
+48
+00:02:56,020 --> 00:03:04,395
+Unknown: Dylan and I were mind blown. This past weekend, Jose Rios stopped by and was Oh, nice. Just telling us so much lore about
+
+49
+00:03:04,555 --> 00:03:08,795
+the technical side of chip development and his experience at Intel.
+
+50
+00:03:09,035 --> 00:03:10,875
+Man, that guy's a wealth of knowledge.
+
+51
+00:03:11,195 --> 00:03:13,515
+Unknown: Not even technical, just political
+
+52
+00:03:13,515 --> 00:03:14,715
+side. In that.
+
+53
+00:03:15,660 --> 00:03:22,300
+Unknown: Yes. Right. He's been in it. Yeah. He's been in it. That's cool. The political side of chip manufacturing?
+
+54
+00:03:22,459 --> 00:03:24,300
+Unknown: Yeah. With Intel and
+
+55
+00:03:24,780 --> 00:03:26,300
+what was he saying? They
+
+56
+00:03:27,580 --> 00:03:31,555
+were working on the chip. He would have you know, intermittent meetings with the CEO,
+
+57
+00:03:32,675 --> 00:03:42,675
+trying to talk about Bitcoin mining, fighting that battle of, like, peep these customers are gonna lose their money. He didn't want people, like, protesting outside the Intel office. Just all of the the corpo
+
+58
+00:03:43,120 --> 00:03:53,520
+BS that these companies are concerned about when they invest in projects. It's interesting because Intel, you know, they have a million different projects going on at once, a company that large. So it was really fascinating.
+
+59
+00:03:54,480 --> 00:03:55,600
+Unknown: Wow. That's wild.
+
+60
+00:03:57,295 --> 00:03:59,855
+I'm surprised that they'd be there at Right?
+
+61
+00:04:01,295 --> 00:04:04,335
+Unknown: Yeah. He can't be at the summit, unfortunately. He was here for
+
+62
+00:04:05,055 --> 00:04:11,295
+some stuff during East Denver, which is happening now. You wouldn't even notice because it's pretty quiet in town, but
+
+63
+00:04:12,460 --> 00:04:15,980
+Unknown: that's a The meth heads are all meth down. Yeah.
+
+64
+00:04:18,140 --> 00:04:20,380
+Unknown: Good thing Rob's not here to make fun of me.
+
+65
+00:04:21,340 --> 00:04:22,700
+Unknown: I'm sure he is anyways.
+
+66
+00:04:24,004 --> 00:04:28,645
+Unknown: Did you know all that context, Scott? Dylan and I, our minds were blown about
+
+67
+00:04:29,044 --> 00:04:30,165
+the intel,
+
+68
+00:04:30,485 --> 00:04:34,805
+the political side of things, the what was he talking about, Dylan? Just
+
+69
+00:04:35,284 --> 00:04:37,604
+the lack of maturity in the customer base.
+
+70
+00:04:38,085 --> 00:04:38,884
+He was saying,
+
+71
+00:04:40,300 --> 00:04:46,220
+it was weird to even have deposits from these companies, these publicly traded miners. They
+
+72
+00:04:47,020 --> 00:04:51,740
+were looking into how this market works and they were like, Wait a second. All these companies are just
+
+73
+00:04:52,105 --> 00:05:10,850
+Unknown: sending fat stacks of cash or Bitcoin to these Chinese companies and then they wait nine months and pray these shoe boxes show up. Like it was just funny for Intel. Which he's like, Intel doesn't work that way. Yeah. So the all the higher ups are freaking out. Like, that's not how you run a business. Well, that's how the mob does it. I mean, the Chinese manufacturers do it. Yeah.
+
+74
+00:05:11,970 --> 00:05:16,850
+Unknown: Yeah. It's almost like they needed someone to be that's like an intermediary there. It's so insane.
+
+75
+00:05:19,490 --> 00:05:25,495
+Jose is awesome. It's crazy that Bitcoin mining has survived or, like, even gotten to this point given how
+
+76
+00:05:26,535 --> 00:05:29,495
+how it operates so differently than
+
+77
+00:05:30,055 --> 00:05:31,495
+the rest of the world
+
+78
+00:05:31,975 --> 00:05:32,695
+in
+
+79
+00:05:32,854 --> 00:05:33,655
+electronics.
+
+80
+00:05:35,230 --> 00:05:35,870
+Unknown: Yeah.
+
+81
+00:05:36,270 --> 00:05:36,990
+Yeah.
+
+82
+00:05:37,710 --> 00:05:39,710
+It is. We're so early.
+
+83
+00:05:41,230 --> 00:05:42,510
+Unknown: I mean, is,
+
+84
+00:05:42,910 --> 00:05:49,070
+you know, the we're thinking about what Intel sort of normally operates in. Right? They're
+
+85
+00:05:49,305 --> 00:05:52,345
+they're selling chips to systems builders
+
+86
+00:05:52,425 --> 00:05:55,625
+who are then making the systems and selling them to the customers.
+
+87
+00:05:55,705 --> 00:05:58,905
+Right? And so there there may very well be that situation,
+
+88
+00:05:58,905 --> 00:06:01,544
+but Intel isn't selling to the end users in that case.
+
+89
+00:06:03,610 --> 00:06:07,770
+Unknown: Yeah. And I was even surprised to learn. I mean, I'm ignorant on a lot of this stuff that
+
+90
+00:06:08,170 --> 00:06:12,730
+sometimes the hash boards aren't even oh, we lost Iko for a second.
+
+91
+00:06:13,210 --> 00:06:19,530
+Maybe he's coming back. But the hash boards aren't even designed by the system builders sometimes. Like, they were talking about these
+
+92
+00:06:19,985 --> 00:06:23,505
+epic blockchain technologies. Is that it? They can, like, be
+
+93
+00:06:24,305 --> 00:06:29,824
+hired to do that part that ends up going in the shoebox. Do you know more about this, Scott?
+
+94
+00:06:30,384 --> 00:06:38,700
+Unknown: I've talked with the the guys at epic a bunch before. Yeah. It seems like they have done a number of different minor designs, kind of like contract
+
+95
+00:06:38,940 --> 00:06:39,420
+Yeah.
+
+96
+00:06:39,900 --> 00:06:41,260
+Hash board designers.
+
+97
+00:06:41,580 --> 00:06:44,940
+Unknown: I think that makes It lot of seems to make sense the more you think about it. Like
+
+98
+00:06:45,820 --> 00:06:47,420
+every gadget in Gizmo
+
+99
+00:06:47,755 --> 00:06:58,155
+typically relies on some supply chain where someone has a specialty in some specific part of that system that ends up getting built. I guess being vertically integrated is a pretty rare trait.
+
+100
+00:06:59,275 --> 00:07:00,155
+Unknown: Yeah.
+
+101
+00:07:00,235 --> 00:07:01,275
+I think so.
+
+102
+00:07:01,515 --> 00:07:12,130
+That's I why Intel was, you know, having those those problems that you mentioned dealing with the minor end customers. Right? Is that they just don't normally do that. Right? They're gonna
+
+103
+00:07:12,610 --> 00:07:20,445
+they're gonna sell or they're gonna work with a customer, sell them a bunch of chips, work with them getting their design ready, but then that customer
+
+104
+00:07:20,845 --> 00:07:23,805
+is gonna, you know, sell them to the end users.
+
+105
+00:07:24,285 --> 00:07:24,925
+Unknown: Yeah.
+
+106
+00:07:26,525 --> 00:07:29,725
+So do you think, an epic blockchain technologies
+
+107
+00:07:29,725 --> 00:07:39,830
+or competitors or companies like that that specialize in hash boards, You know, when the when the chip availability becomes open, maybe they've had access to them before in large order quantities. But
+
+108
+00:07:40,389 --> 00:07:43,590
+to me, one of the things that I've been told is like,
+
+109
+00:07:43,830 --> 00:07:44,389
+well,
+
+110
+00:07:45,030 --> 00:08:16,940
+we don't wanna just sell chips because, like, if we're just gonna put them in bid access, you sold a 100,000 bid access, that's only a 100,000 chips. That's 300 industrial miners. Right? And then and then the the pushback would be, well, I might not buy them all, but maybe Epic Blockchain Technologies or a contractor like that would order a million or a couple million, and then we can work with them as system builders with these idea products in mind. I don't know. Just like the order of operations, it seems like a I I guess I understand the hesitation, but also I'm like, what the fuck? Just let me do it.
+
+111
+00:08:18,354 --> 00:08:18,995
+Unknown: Yeah.
+
+112
+00:08:19,474 --> 00:08:37,810
+Yeah. I mean, I think it would be useful for these companies to sell chips to systems builders. Right? It just eliminates a lot of their hassle. And then there's always this game of like, well, how big of a customer are you? And that kinda dictates your pricing and sorta how much bandwidth you get from the the chipmaker.
+
+113
+00:08:37,810 --> 00:08:39,170
+That makes total sense.
+
+114
+00:08:39,570 --> 00:08:40,450
+But, like,
+
+115
+00:08:41,010 --> 00:08:41,410
+you know,
+
+116
+00:08:42,305 --> 00:08:48,625
+like on the bid act side, we're pretty scrappy. We can we can make do with a lot of things. And then, you know, imagine a
+
+117
+00:08:49,345 --> 00:08:58,065
+hot water heater manufacturer comes along. Right? And they're like, okay. You know, we have some funding to do this. We can buy a bunch of chips up front. We can sort of commit to whatever schedules
+
+118
+00:08:59,100 --> 00:09:00,860
+the the chipmaker has,
+
+119
+00:09:01,420 --> 00:09:03,900
+and it can kind of absorb a lot of that
+
+120
+00:09:05,260 --> 00:09:09,820
+initial flail that comes with customers who are like, I don't know if we wanna buy this. Like, does it work?
+
+121
+00:09:12,215 --> 00:09:19,175
+Unknown: We heard from I was chatting with Canon a little bit about this too. It's interesting to learn, like because I was asking them, you know, when chips
+
+122
+00:09:20,455 --> 00:09:25,895
+they said because they're a public company what are they on? Nasdaq or one of them. One of them.
+
+123
+00:09:27,310 --> 00:09:34,830
+Like, you have to convince the investors, which is the public. And when you say, well, we want to build products like water heaters, but there's no companies that have,
+
+124
+00:09:35,470 --> 00:09:46,925
+you know, outlined that yet, saying we're going rely on this chip, then it's not a convincing sell. And it seems to be the case that you like a company like shout out to Proto seems to have committed to it and Oradine
+
+125
+00:09:47,005 --> 00:09:49,165
+seems to move in that direction as well. It's like,
+
+126
+00:09:49,565 --> 00:10:01,020
+you just got to take the leap of faith and and say, you know, this is gonna be good in the long run. There might be some limbo period we've talked about before, but I thought it was an interesting answer. It's like a you know, I get it from their, like,
+
+127
+00:10:02,380 --> 00:10:04,380
+c suite team, but also it's like, come on.
+
+128
+00:10:05,415 --> 00:10:06,935
+Unknown: It was also interesting
+
+129
+00:10:07,815 --> 00:10:17,735
+because we talked about how Bitcoin miners are the buyers of last resort for energy and such. It's the same principle on the chip manufacturing itself where,
+
+130
+00:10:19,040 --> 00:10:22,959
+well, you keep using Intel as an example. If they're producing ASICs for
+
+131
+00:10:23,279 --> 00:10:28,880
+your washing machine or for your dashboard in your car or whatever, but they don't take up the whole reel,
+
+132
+00:10:29,600 --> 00:10:30,720
+you can just throw
+
+133
+00:10:30,985 --> 00:10:41,145
+mining chips on the backside of that to complete the whole order and keep your spot in line and just, like, have you fill in the gaps if you don't have a large enough order for whatever kind of ASIC you're ordering.
+
+134
+00:10:41,865 --> 00:10:44,185
+And that was kind of insightful to me. Like, just
+
+135
+00:10:44,880 --> 00:10:52,480
+I don't care if that's the most efficient chip. We're helping you fill your order so you can stay in line at TSMC or Samsung or whatever,
+
+136
+00:10:52,880 --> 00:10:55,600
+just give us those chips as they come off the line. Know?
+
+137
+00:10:55,920 --> 00:10:58,320
+It's fascinating. Yeah. Does it work like that? I
+
+138
+00:10:59,040 --> 00:11:04,755
+Unknown: mean, that's what we were told. Yeah. Wonder, like, you know, these chip manufacturers, right? Obviously, there's a huge,
+
+139
+00:11:06,035 --> 00:11:07,315
+like, NRE
+
+140
+00:11:07,475 --> 00:11:18,019
+and sort of capital cost to, like, get any chips at all. And then each order, you know, TSMC won't let you just order, like, a 100 of them. Right? You gotta order them by the, like, thousands.
+
+141
+00:11:19,940 --> 00:11:21,540
+So, yeah, they they kinda
+
+142
+00:11:22,980 --> 00:11:27,620
+I mean, what they really wanna get is a big fat order that's just gonna finance that whole
+
+143
+00:11:27,675 --> 00:11:31,275
+that whole run so that they can just have guaranteed profits.
+
+144
+00:11:31,275 --> 00:11:35,355
+It's like, well, cool. We'd all love to have guaranteed profits, but if we're going make this thing work,
+
+145
+00:11:39,720 --> 00:11:45,000
+we need to be able to batch orders or something like that. Right? Like they need, maybe they need to hold some stock.
+
+146
+00:11:46,120 --> 00:11:53,335
+And it kinda takes a bigger company to be able to, to be able to foot that initial order. Are Bitmain and MicroBT public?
+
+147
+00:11:53,815 --> 00:11:54,695
+Unknown: I forget.
+
+148
+00:11:56,535 --> 00:11:57,895
+Unknown: That's a good question.
+
+149
+00:11:58,774 --> 00:12:07,334
+Unknown: Maybe in China or Singapore or something. Right, right. Yeah, because Canin's moved to Singapore. Yeah, because when they say like in Auradon as well, some of them say,
+
+150
+00:12:08,020 --> 00:12:11,620
+you know, it's it's it's difficult to convince the shareholders,
+
+151
+00:12:11,620 --> 00:12:17,060
+publicly traded company. We're a big, you know, Goliath shipping container. We have to turn slow. Can't move fast.
+
+152
+00:12:17,779 --> 00:12:18,500
+It's like, okay.
+
+153
+00:12:20,155 --> 00:12:23,755
+Proto's also public and they just like said they were gonna do it though. So
+
+154
+00:12:24,555 --> 00:12:36,490
+what does that mean? Does it mean like you just have to be strong willed enough and convince the investors or you know what I mean? Like, it's interesting to hear that as an excuse, but then also there are public companies that have said they're gonna do it. So I found that fascinating.
+
+155
+00:12:37,530 --> 00:12:45,370
+Unknown: Yeah. Proto's pretty rad like that. I mean, they're they're a big company and they have lots of other businesses too that True. True. That probably helps. Right on.
+
+156
+00:12:45,610 --> 00:12:46,650
+And they also have
+
+157
+00:12:47,050 --> 00:12:47,690
+a
+
+158
+00:12:48,010 --> 00:12:53,665
+a boss who's very into Bitcoin, which I think That helps. Yeah. That helps. And we want to see this happen.
+
+159
+00:12:54,704 --> 00:13:03,265
+Unknown: Back to the Ember ones quick that you're working on, are those coming with you to the Heatpunk Summit or has Ryan still got the sous vide? What's the status there?
+
+160
+00:13:04,865 --> 00:13:08,180
+Unknown: Don't know yet. That's the goal. We'd love to bring them.
+
+161
+00:13:09,060 --> 00:13:11,780
+We'll see how it goes. It's kind of
+
+162
+00:13:12,500 --> 00:13:15,220
+still under active job. We'll definitely bring some
+
+163
+00:13:17,700 --> 00:13:26,075
+Unknown: sort of form of it, whether it's working or not, is TBD at this point. Oh, that's okay. I I think if we plugged in all the miners here, then we would burn down the building.
+
+164
+00:13:28,875 --> 00:13:34,155
+Unknown: Yeah. Yeah. Maybe it'd be good as like a show and tell thing. A show and tell for sure. May hopefully, we can cook another steak.
+
+165
+00:13:35,360 --> 00:13:39,839
+Unknown: Yeah, we're getting ready for that. The hot tub is coming tomorrow. It's in Denver. It's at a shipping yard.
+
+166
+00:13:40,480 --> 00:13:41,600
+It's going be epic.
+
+167
+00:13:42,079 --> 00:13:44,079
+Unknown: How do you get that
+
+168
+00:13:44,480 --> 00:13:45,279
+into
+
+169
+00:13:45,839 --> 00:13:47,519
+your yard? Flatbeds
+
+170
+00:13:47,519 --> 00:13:53,435
+Unknown: and then it's three feet tall, three and a half. Correct. So we should be able to roll it through the gate.
+
+171
+00:13:53,915 --> 00:13:55,515
+Unknown: Really just roll it? Yeah.
+
+172
+00:13:56,315 --> 00:14:04,260
+Unknown: That's what the manufacturer said. We're like, Okay, dude. Dude, you're good. It's huge. It's seven foot diameter. You can fit like eight people in there. Wow.
+
+173
+00:14:04,740 --> 00:14:08,420
+That's so cool. Hopefully, we can conjure up pod
+
+174
+00:14:08,660 --> 00:14:12,740
+two fifty six from tub two fifty six. That would be amazing. Next week. Yeah.
+
+175
+00:14:14,180 --> 00:14:15,220
+Unknown: Let's do it.
+
+176
+00:14:16,715 --> 00:14:18,875
+Unknown: We Yeah. It's it's interesting.
+
+177
+00:14:19,355 --> 00:14:28,875
+The design. So, shout out to Dane from Hashrate House. He made a small single minor immersion tank that fits inside their pump housing for the hot tub with the the pump controls.
+
+178
+00:14:29,280 --> 00:14:34,240
+And it does have a cheap little resistive heater and his control is
+
+179
+00:14:35,280 --> 00:14:38,160
+like under 90 degree Fahrenheit water.
+
+180
+00:14:38,400 --> 00:14:43,520
+Use the resistive heater just to heat it up quick so you're not waiting forever when there's 7,000 pounds of water.
+
+181
+00:14:44,995 --> 00:15:02,440
+And then anything above 90, it will just bang bang on off an s 21 or whatever you put in that immersion tank to to maintain the temp, which is, you know, as we've discussed many times, not the the most polished way to control that stack, but it works and it should be reliable. And I do like, I think, that sense, like, these physical
+
+182
+00:15:02,759 --> 00:15:07,160
+contactors to cut off the power just from a safety perspective and things like that. But certainly
+
+183
+00:15:07,800 --> 00:15:14,855
+some tuning, some ramping, some Mugena firmware. I mean, it's gonna be a test bed for sure after the conference.
+
+184
+00:15:16,055 --> 00:15:16,615
+Unknown: Yeah.
+
+185
+00:15:17,015 --> 00:15:20,214
+Yeah. I'm pretty excited to see where this can go. Right? It's like,
+
+186
+00:15:20,615 --> 00:15:21,255
+you know,
+
+187
+00:15:21,654 --> 00:15:27,310
+obviously, it works. Right? We've seen the hashtag before. It it's a fantastic thing, but, the
+
+188
+00:15:27,310 --> 00:15:31,550
+sort of hacks necessary to get it to work doesn't make it a very scalable
+
+189
+00:15:32,430 --> 00:15:34,030
+kind of thing. Obviously,
+
+190
+00:15:34,350 --> 00:15:39,470
+we're down to hack on it and do whatever it takes, but I think we'll get to the point in which it
+
+191
+00:15:40,350 --> 00:15:41,310
+is a scalable thing.
+
+192
+00:15:42,315 --> 00:16:02,780
+Unknown: Speaking of feature sets, you just made me think of that Luxor firmware update from the other week that they were posting about with some cool features that are super helpful to home miners, like still hash if the internet cuts out or slow fan on boot. I saw a tweet from you though, Scott, about something in their terms that was quite interesting. What was that?
+
+193
+00:16:03,340 --> 00:16:13,345
+Unknown: Oh, yeah. I I've been harping on this for a while now, but both Brains and Luxor, and probably Vanish too, I haven't looked, but they have these just, like,
+
+194
+00:16:13,824 --> 00:16:15,265
+super lawyer y,
+
+195
+00:16:16,625 --> 00:16:19,425
+end user license agreements for their firmware.
+
+196
+00:16:19,824 --> 00:16:21,264
+And it basically says that,
+
+197
+00:16:23,010 --> 00:16:24,610
+you know, they can
+
+198
+00:16:25,730 --> 00:16:29,890
+the the license that that grants you access to use the firmware,
+
+199
+00:16:30,130 --> 00:16:33,970
+can be revoked at any time for any reason at all or no reason.
+
+200
+00:16:34,930 --> 00:16:36,770
+And it says that they can change
+
+201
+00:16:37,385 --> 00:16:39,065
+what's in that license,
+
+202
+00:16:39,705 --> 00:16:44,745
+with only three days notice, and your continued usage of the product means you agree to it.
+
+203
+00:16:45,625 --> 00:16:49,145
+Unknown: That's just like cover your ass legal slop that they have to put?
+
+204
+00:16:50,220 --> 00:16:54,380
+Unknown: Yeah. I mean, it really seems like cover your ass legal slop, but, you know,
+
+205
+00:16:55,420 --> 00:16:57,180
+I don't know. I just
+
+206
+00:16:58,220 --> 00:17:00,540
+it's just sketchy. Right? It's like I
+
+207
+00:17:00,940 --> 00:17:03,740
+would hope that someone could kinda stand up to the lawyers and be like,
+
+208
+00:17:05,025 --> 00:17:06,225
+No, fuck that.
+
+209
+00:17:07,105 --> 00:17:12,225
+If it were open source, it would just be like, Nope, here's the open source license. It is not guaranteed for any purpose,
+
+210
+00:17:12,465 --> 00:17:15,105
+but you have the freedom to use it
+
+211
+00:17:15,745 --> 00:17:16,544
+forever.
+
+212
+00:17:16,865 --> 00:17:18,625
+Unknown: Is this related to
+
+213
+00:17:19,390 --> 00:17:21,389
+I'm not too keen on this. Like, the
+
+214
+00:17:21,790 --> 00:17:25,389
+the pools going through that process to become SOC two compliant.
+
+215
+00:17:26,030 --> 00:17:36,775
+Unknown: Does that have anything to with that? Like, you have to check these boxes? I don't I don't actually know what SOC two compliance requires. Does it require the ability for them to just rug you at a moment? I don't know.
+
+216
+00:17:38,615 --> 00:17:43,415
+Unknown: No. It can't be related because Ocean is SOC two now and they don't have minor firmware.
+
+217
+00:17:44,630 --> 00:17:54,229
+Unknown: True. Ocean also has bullshit terms of service. If you Oh, own for a at their license, they also have that same thing where it's like, you know, they can revoke your
+
+218
+00:17:54,549 --> 00:17:55,429
+license
+
+219
+00:17:55,509 --> 00:17:57,350
+to use Ocean servers,
+
+220
+00:17:57,755 --> 00:18:00,475
+you know, for any any reason whatsoever.
+
+221
+00:18:00,555 --> 00:18:01,115
+Right?
+
+222
+00:18:01,915 --> 00:18:04,395
+Unknown: Can't you just pick a different Bitcoin address and
+
+223
+00:18:04,555 --> 00:18:07,115
+make it I mean, that's there is no accounts.
+
+224
+00:18:07,915 --> 00:18:11,755
+Unknown: Oh, yeah. Totally. It seems like it'd be easy enough to get around, but then it's like,
+
+225
+00:18:12,670 --> 00:18:14,030
+why is it in there?
+
+226
+00:18:14,910 --> 00:18:18,750
+Unknown: Yeah, it's probably some regulatory thing that I'm too stupid to understand, but Now it's
+
+227
+00:18:19,470 --> 00:18:22,350
+Unknown: I have to check the HydroPool and Mugena terms of service.
+
+228
+00:18:22,990 --> 00:18:24,190
+Are you guys going to fuck me on that?
+
+229
+00:18:25,115 --> 00:18:28,955
+Unknown: Well, we have a an open source license, GPL
+
+230
+00:18:28,955 --> 00:18:33,515
+v three. You should definitely read through that if you haven't. It's it's actually not that bad.
+
+231
+00:18:35,275 --> 00:18:35,915
+But,
+
+232
+00:18:36,315 --> 00:18:37,035
+you know,
+
+233
+00:18:37,515 --> 00:18:39,355
+these things state that
+
+234
+00:18:39,960 --> 00:18:41,960
+no one is guaranteeing any
+
+235
+00:18:42,360 --> 00:18:44,039
+functionality whatsoever.
+
+236
+00:18:44,120 --> 00:18:44,840
+You
+
+237
+00:18:46,200 --> 00:18:55,695
+know, that's that's the cover your ass thing right there. It's like, you know, we're not promising anything, but here it is. You can use it. And then, of course, it also guarantees the freedom that
+
+238
+00:18:56,014 --> 00:18:56,734
+you
+
+239
+00:18:57,615 --> 00:19:01,214
+can you can actually use it. Like, you can use, understand,
+
+240
+00:19:01,375 --> 00:19:01,774
+and,
+
+241
+00:19:02,255 --> 00:19:09,590
+distribute it. And then, of course, the GPL, the copy left part of it, says that if you distribute it with changes, need to make available
+
+242
+00:19:09,990 --> 00:19:13,110
+the source of those changes under the same license.
+
+243
+00:19:14,310 --> 00:19:18,150
+Unknown: So thinking to Linux as an analogy here, that's open source.
+
+244
+00:19:19,110 --> 00:19:24,150
+All of the Internet infrastructure that's built upon it in these Goliath, now trillion dollar companies
+
+245
+00:19:25,685 --> 00:19:35,125
+Is what is the, like, what is the Linux license? It's open source. Right? And so my point being The Linux license is also GPL. It's the same one. Yeah. So my point being is they don't have these CYA things.
+
+246
+00:19:35,285 --> 00:19:37,044
+This weird legal
+
+247
+00:19:37,045 --> 00:19:39,044
+talk. Right? And there, it's interesting.
+
+248
+00:19:39,365 --> 00:19:39,685
+Unknown: Yeah.
+
+249
+00:19:40,370 --> 00:19:41,809
+Yeah. It is. I mean,
+
+250
+00:19:43,090 --> 00:19:44,929
+lawyers, they can't help themselves.
+
+251
+00:19:45,890 --> 00:19:47,890
+You know, I'm sure that if you buy,
+
+252
+00:19:48,850 --> 00:19:50,690
+like, a Dell server,
+
+253
+00:19:50,690 --> 00:19:55,474
+right, that that runs Linux, like, there's gonna be some insane license
+
+254
+00:19:55,554 --> 00:19:57,394
+from Dell for that It
+
+255
+00:19:57,875 --> 00:20:00,034
+kinda gets different when money is changing hands.
+
+256
+00:20:00,835 --> 00:20:02,114
+Unknown: It's fascinating.
+
+257
+00:20:02,835 --> 00:20:03,955
+Unknown: I
+
+258
+00:20:03,955 --> 00:20:06,995
+just wanna do cool Bitcoin shit with my friends. Like, all sucks.
+
+259
+00:20:08,470 --> 00:20:11,030
+Unknown: Yeah, it's so fiat. It's just like
+
+260
+00:20:12,710 --> 00:20:15,350
+Unknown: I thought the lawyers were all AI agents now.
+
+261
+00:20:15,750 --> 00:20:17,190
+Unknown: Oh man, I can't wait.
+
+262
+00:20:19,750 --> 00:20:22,710
+Unknown: I'm Have you like been fine with any of that stuff? Building any bots?
+
+263
+00:20:24,255 --> 00:20:30,495
+Unknown: No, I haven't built any bots. I've just done AI coding stuff, which is fantastic.
+
+264
+00:20:30,495 --> 00:20:32,495
+It is fantastic. Everyone knows that now.
+
+265
+00:20:34,175 --> 00:20:40,250
+But it sounds like you've screwing over some of the bots, right? Dylan really has been playing with the bots. We have a I have a CFO agent.
+
+266
+00:20:40,730 --> 00:20:45,049
+Unknown: It's stupid right now, but it's going to be great. And it's just gonna like
+
+267
+00:20:45,450 --> 00:20:58,165
+pull in all of our various accounts for extra G and log all of our lightning routing shit and all of our payouts on lightning. Oh, it's huge for lightning notes. Yeah. Because those are a pain to manage. All those all those one set transactions,
+
+268
+00:20:58,165 --> 00:21:00,405
+you know, pain in the ass in the ledger.
+
+269
+00:21:00,885 --> 00:21:04,645
+But I'm excited to not have to deal with that once that's built. And, know, just
+
+270
+00:21:05,000 --> 00:21:09,080
+I mean, I'm all about automating whatever whatever you can. If I can have an agent just go
+
+271
+00:21:09,400 --> 00:21:11,080
+add numbers up for me,
+
+272
+00:21:11,560 --> 00:21:17,640
+Unknown: that's a dream. I like it for the because this is something that I've wanted to build for a while is like
+
+273
+00:21:18,145 --> 00:21:23,264
+some kind of remote monitoring for people's miners when they're at the house, you know, because it's not a mining operation.
+
+274
+00:21:23,425 --> 00:21:27,904
+Like Scott, we were talking earlier to Alex from Heatbit and Frank Corba about that.
+
+275
+00:21:28,545 --> 00:21:39,019
+If you got home miners, you you don't have someone hired to just check on it. You check on it. Right? But if it's, you know, your water heater or your space heater, whatever, it'd be nice to get a little notification like,
+
+276
+00:21:39,260 --> 00:21:46,744
+hey, this chip temp's really high and there's no hash rate. You should probably clear the dust on this thing or something like that. And it's cool that the
+
+277
+00:21:47,065 --> 00:21:48,264
+the agent,
+
+278
+00:21:48,265 --> 00:21:48,825
+you know,
+
+279
+00:21:49,385 --> 00:21:57,945
+playing around with that I've done, it's like it has this heartbeat system, the claw bots, where every 30 minutes, it will periodically do whatever tasks you put in its heartbeat heartbeat file.
+
+280
+00:21:58,490 --> 00:22:18,665
+And so that can just be going and checking, you know, API calls to your miner and looking out for trends or specific things. And then, oh, I see something. I should probably let them know. Let me send a telegram message. It it worked flawlessly. It was so cool. I mean, the agents are sweet, but they're really just, like, super polished cron jobs right now. Yeah. That's all they're Yeah. That's what I was thinking. Like, this is just
+
+281
+00:22:19,225 --> 00:22:21,225
+Unknown: sort of a schedule to run your agents.
+
+282
+00:22:21,385 --> 00:22:28,840
+Unknown: Yeah. And you can talk to it with natural human language. Like, I wanna do this and they'll go build the cron job and it's alive twenty four seven. So pretty cool.
+
+283
+00:22:29,799 --> 00:22:31,399
+Unknown: Have you looked at any of those
+
+284
+00:22:33,000 --> 00:22:33,880
+OpenClaw
+
+285
+00:22:33,880 --> 00:22:34,919
+hosting
+
+286
+00:22:34,919 --> 00:22:35,719
+services?
+
+287
+00:22:35,720 --> 00:22:37,960
+I saw Cali has been hyping one called
+
+288
+00:22:38,120 --> 00:22:39,399
+clawe.ai.
+
+289
+00:22:39,399 --> 00:22:45,825
+Unknown: Yeah. I haven't tested it, but I've seen he's been posting about it just so you don't have to do the hardware. It's in a VPS.
+
+290
+00:22:45,985 --> 00:22:53,825
+Unknown: Yeah. But I finally have a use case for the various Raspberry Pi scattered around my house. That's true. Just put another agent on there. Yeah.
+
+291
+00:22:54,625 --> 00:23:00,679
+And does Raspberry Pi seem like it's fine? Oh, totally. Because they're not it's sending it all back to
+
+292
+00:23:00,920 --> 00:23:09,240
+the LLM servers. For for the compute? For the compute. But like all the cron jobs and such are done on the Pi itself. It's pretty lightweight on the Pi.
+
+293
+00:23:10,360 --> 00:23:15,424
+Unknown: So you don't need to go like wrestle other people to buy a dozen Mac minis?
+
+294
+00:23:15,905 --> 00:23:18,144
+Unknown: No. But I'm this close
+
+295
+00:23:18,545 --> 00:23:24,545
+Unknown: to just going to get one. I'm trying to get Dylan off the What does that do for you? We were talking about this last time, but we didn't get to a conclusion.
+
+296
+00:23:25,180 --> 00:23:28,380
+Alright. So you got these Raspberry Pis running all your agents.
+
+297
+00:23:29,580 --> 00:23:32,779
+You get a raz you get a Mac mini. What what gets better?
+
+298
+00:23:34,060 --> 00:23:35,820
+Unknown: Cooling is better because
+
+299
+00:23:36,300 --> 00:23:41,464
+I mean, Pis, you can do custom cooling solutions. Cooling is better by default on the Mac minis.
+
+300
+00:23:42,585 --> 00:23:44,344
+It's just a more polished solution.
+
+301
+00:23:44,585 --> 00:23:51,544
+So like for me, it's not a huge step improvement for the average. Normally, it's pretty good. Well, and if you give it system access to the OS,
+
+302
+00:23:52,024 --> 00:23:52,345
+Unknown: you know,
+
+303
+00:23:53,040 --> 00:23:56,559
+if you're in the Apple Walled Gardens, what I said last week, like,
+
+304
+00:23:57,040 --> 00:23:59,600
+then your agent has access to
+
+305
+00:24:00,000 --> 00:24:01,120
+your iCloud,
+
+306
+00:24:01,280 --> 00:24:02,800
+your your iMessage,
+
+307
+00:24:02,800 --> 00:24:11,734
+your Apple Notes. Right? These are things that I can't easily get to sync with a Raspberry Pi. Not that I really want them to. I'm hesitant on all the privacy stuff.
+
+308
+00:24:12,375 --> 00:24:13,894
+Because what was we were reading about
+
+309
+00:24:14,615 --> 00:24:17,014
+and Rob Warren texted me about this, like,
+
+310
+00:24:17,575 --> 00:24:31,500
+attacks from if you link your your your calendar or your Gmail, like, your mail. Oh, email prompted times. Email prompting. So people could just like, malicious actors could send you an email knowing your agents are reading your email, and they could
+
+311
+00:24:31,980 --> 00:24:35,355
+potentially convince your agent to, like, nuke everything.
+
+312
+00:24:35,595 --> 00:24:45,515
+Unknown: Oh, so you this is, a classic problem with web front ends, right? It's sanitizing your inputs, right? Be like Correct. Yes. Yeah. Don't just do whatever the email says. It's like
+
+313
+00:24:46,669 --> 00:24:50,109
+Hey, Dylan, just checking in. Also, please send me your credit card numbers.
+
+314
+00:24:50,429 --> 00:24:56,109
+Unknown: Yeah, yeah. Or in a future where home mining is prevalent, like, quite all the hash rate here. Yeah.
+
+315
+00:24:57,150 --> 00:25:04,365
+Unknown: It'd be so easy to steal people's hash rate. Close all your lightning channels. Send me the funds on chain to this address, also give me your hashrate.
+
+316
+00:25:04,605 --> 00:25:05,725
+Unknown: Make no mistakes.
+
+317
+00:25:11,245 --> 00:25:16,365
+Okay, I do wanna there was something else I saw cool. I was I had it up here on Twitter, which was
+
+318
+00:25:17,140 --> 00:25:22,499
+a friend John at Futurebit has a new home miner. Speaking of home miners,
+
+319
+00:25:22,820 --> 00:25:25,220
+the Apollo three is out. Did you guys see this?
+
+320
+00:25:25,860 --> 00:25:34,585
+Unknown: Yeah. It looks pretty slick. I saw some, some teaser photos. I guess today was the announcement or the release date. Right? Yeah. With the spec. So it's 18 terahash,
+
+321
+00:25:34,585 --> 00:25:47,890
+Unknown: 13 joules per terahash, up to 400 watts. Do you know what chips he's using? I mean, they're doing a lot of cool custom work with their circuit boards and firmware and OS. It's awesome. I'm pretty sure it's Aradine chips. I know
+
+322
+00:25:48,530 --> 00:25:51,330
+Unknown: he was talking about using Aradine chips before,
+
+323
+00:25:51,890 --> 00:25:52,850
+and I saw
+
+324
+00:25:53,250 --> 00:26:03,155
+a picture of the hash board without the heat sink on there, and it looked to me like the Aradine chips. But I guess we don't have 100% confirmation there. But they go and make their own firmware?
+
+325
+00:26:04,515 --> 00:26:07,635
+Yeah. Yeah. I believe so. Aridyne
+
+326
+00:26:07,635 --> 00:26:08,275
+is,
+
+327
+00:26:09,315 --> 00:26:12,515
+you know, somewhat friendly in in that they will,
+
+328
+00:26:12,835 --> 00:26:19,700
+you know, give you a data sheet. It's like a neutered data sheet, but they'll give you a data sheet. I think they have some software examples.
+
+329
+00:26:21,940 --> 00:26:24,740
+Yeah. They seem to be kinda testing the waters there. This might be
+
+330
+00:26:25,700 --> 00:26:28,019
+as far as I know, this is probably the first,
+
+331
+00:26:28,340 --> 00:26:45,010
+Unknown: like, you know, third party integration of the Ardent chips outside of their machines. Yeah. I was gonna say it has to be. And it looks pretty beefy if you just wanna wanna run a Linux box on top of it. Can you do that? Well, why would you need everything else? Like, why you don't need eight gigabytes of RAM for a miner.
+
+332
+00:26:45,570 --> 00:26:52,690
+Unknown: Yeah. I haven't I haven't played with their actual OS because it's like a node and one too, but can you just run like a desktop OS on it as well?
+
+333
+00:26:53,490 --> 00:27:00,884
+Unknown: I believe that well, the the the Apollo two ran like a a Raspberry Pi clone called the Orange Pi.
+
+334
+00:27:01,045 --> 00:27:03,684
+So it's it's a Linux system, but it's not
+
+335
+00:27:05,845 --> 00:27:11,950
+it's not gonna be ideal as, like, a desktop system. Gotcha. I don't know what's in the Apollo three, I haven't seen.
+
+336
+00:27:12,670 --> 00:27:13,790
+Unknown: Why why,
+
+337
+00:27:14,030 --> 00:27:16,909
+neutered spec sheets? This seems to be the norm. Well,
+
+338
+00:27:17,310 --> 00:27:20,269
+there is no norm really, but the norm is not getting anything.
+
+339
+00:27:21,790 --> 00:27:25,525
+Let's game through that. Why would they not just give the full spec sheet?
+
+340
+00:27:26,485 --> 00:27:27,685
+Unknown: From
+
+341
+00:27:27,685 --> 00:27:28,325
+what I
+
+342
+00:27:28,965 --> 00:27:32,325
+understood, it seemed like they're trying to reserve some special features for themselves.
+
+343
+00:27:32,885 --> 00:27:36,005
+It's
+
+344
+00:27:37,270 --> 00:27:37,990
+unfortunate.
+
+345
+00:27:38,070 --> 00:27:42,390
+Unknown: It's not enough of a moat to make your own chips, but also keep your own special features.
+
+346
+00:27:43,670 --> 00:27:44,789
+Unknown: Yeah, right?
+
+347
+00:27:46,150 --> 00:27:47,670
+Unknown: I don't know. They already get them first.
+
+348
+00:27:49,005 --> 00:27:50,924
+Unknown: I don't know. It's so weird.
+
+349
+00:27:51,405 --> 00:27:54,924
+We were talking about this before. Was like, did you guys want to sell some chips or no?
+
+350
+00:27:57,325 --> 00:27:58,205
+Unknown: Yeah.
+
+351
+00:27:59,245 --> 00:28:03,085
+Unknown: I just rewatched our NIMS panel this morning, Scott.
+
+352
+00:28:03,750 --> 00:28:09,110
+Psycho. I'm glad I said at least three times in there, sell your fucking chips.
+
+353
+00:28:09,270 --> 00:28:16,389
+Unknown: Yeah. You know? Let's fucking go. This is what they need to do. They need to sell the chips. They need to, you know like,
+
+354
+00:28:17,190 --> 00:28:18,070
+legit builders
+
+355
+00:28:19,285 --> 00:28:25,525
+need to be first class citizens. Right? Because the the more so that they are, the more chips they will buy.
+
+356
+00:28:26,245 --> 00:28:32,485
+The better miners that they can make with these chips, just the better the product will be and the more chips that will they will buy.
+
+357
+00:28:32,805 --> 00:28:38,929
+Maybe, you know, hopefully, the the Apollo three will be a huge success, and Aradine will be like,
+
+358
+00:28:39,330 --> 00:28:48,684
+cool. We did a good thing here. And maybe someone else other chipmakers will also realize, like, hey. Wait. Aradine's selling more chips now. Like, do we wanna do this? So,
+
+359
+00:28:49,325 --> 00:28:52,284
+you know, all in all, I think it's a a bullish thing.
+
+360
+00:28:52,605 --> 00:28:55,244
+Unknown: So snap of the fingers chips are available.
+
+361
+00:28:55,885 --> 00:29:01,325
+Let's walk through the steps for our 10,000,000 listeners that might go end up building amazing products or companies.
+
+362
+00:29:03,240 --> 00:29:04,840
+What do you need? You need
+
+363
+00:29:05,240 --> 00:29:10,440
+you need the the four pillars of the two five six foundation. Right? And you need
+
+364
+00:29:10,920 --> 00:29:19,934
+an ASIC chip with a thorough spec sheet. And then, you know, what are all the guys doing in OSMU that perhaps you wouldn't have to do if we had that
+
+365
+00:29:20,975 --> 00:29:25,294
+that awesome, you know, potential future where chips are available and they're and they're well documented?
+
+366
+00:29:25,375 --> 00:29:38,040
+What do you not have to do anymore? And, like, what's the starting point when a newcomer comes into OSMU chat and says, I know literally nothing about this. I'm a total novice, but I'm here to play ball and I wanna I wanna learn it all. Like, how does that work?
+
+367
+00:29:39,320 --> 00:29:54,754
+Unknown: Well, far as the the people on OSMU working on this, what we've done so far is a lot of reverse engineering, is Yeah. Is really difficult and time consuming, and it still doesn't provide you with a complete picture of how these work. So when bugs come up, you know,
+
+368
+00:29:55,394 --> 00:29:56,355
+it's not
+
+369
+00:29:56,990 --> 00:30:03,710
+it's not as clear what the fix might be because we don't have a complete understanding of how to interface with the Bitmain chips.
+
+370
+00:30:04,110 --> 00:30:04,830
+So,
+
+371
+00:30:06,430 --> 00:30:10,565
+you know, not even having to do all that, which is a massive,
+
+372
+00:30:11,605 --> 00:30:18,245
+a massive project to reverse engineer it and be able to just start from zero as opposed to, like, negative 1,000.
+
+373
+00:30:18,805 --> 00:30:19,445
+Yeah.
+
+374
+00:30:20,005 --> 00:30:26,700
+You know, start from zero is like, alright. You know, you can get these chips and you can build things. I think one of the things
+
+375
+00:30:27,260 --> 00:30:28,539
+that would get built
+
+376
+00:30:28,860 --> 00:30:33,740
+really quickly by the community is essentially development boards. Like, think of, you know,
+
+377
+00:30:34,460 --> 00:30:35,100
+a
+
+378
+00:30:35,500 --> 00:30:37,580
+board that you could plug into an Arduino.
+
+379
+00:30:38,335 --> 00:30:39,294
+Arduino,
+
+380
+00:30:39,294 --> 00:31:03,549
+like, really changed the embedded systems development scene because it was just something you could get and, like, they make an IDE and there's lots of examples and you can buy books on, like, how to program it and how to use it. Right? So now imagine you take that and you can, connect this this development board, like a reference design to it, and you can make your own firmware. You can bang on it. You can get to, like, that hello world of Bitcoin mining
+
+381
+00:31:03,710 --> 00:31:04,669
+very quickly.
+
+382
+00:31:05,789 --> 00:31:10,404
+And alright. So maybe some people never make it past that, but some people will.
+
+383
+00:31:10,565 --> 00:31:13,604
+Like, this is this is how products are are born.
+
+384
+00:31:14,804 --> 00:31:17,844
+You know, we've heard we hear all the time about,
+
+385
+00:31:19,445 --> 00:31:21,524
+people who want to solve some,
+
+386
+00:31:21,980 --> 00:31:25,659
+you know, problem and start tinkering in their garage.
+
+387
+00:31:26,220 --> 00:31:32,860
+And then next thing you know, it's, you know, a real industry. Right? That's that's how like personal computing started.
+
+388
+00:31:33,660 --> 00:31:34,700
+Unknown: It's
+
+389
+00:31:34,700 --> 00:31:35,820
+also interesting that,
+
+390
+00:31:37,025 --> 00:31:41,504
+I can't think of another analogy in a different hardware product where,
+
+391
+00:31:41,825 --> 00:31:45,104
+you know, like a general purpose computer, you get a CPU,
+
+392
+00:31:45,105 --> 00:31:46,864
+if you need some, you know,
+
+393
+00:31:48,225 --> 00:31:51,825
+GPU, you get a GPU, like there's these standard pieces of the puzzle.
+
+394
+00:31:52,510 --> 00:31:53,470
+But with
+
+395
+00:31:53,950 --> 00:31:56,109
+a product revolving around a hash board,
+
+396
+00:31:56,510 --> 00:31:57,149
+there's
+
+397
+00:31:57,789 --> 00:32:02,830
+there's so much optionality in the sense that you don't need one ASIC, you need a specific amount for whatever you're trying to do.
+
+398
+00:32:03,309 --> 00:32:06,750
+And that becomes an interesting challenge, right? Where
+
+399
+00:32:07,225 --> 00:32:16,344
+you have this new variable for designing your hash board, you know, thinking out to a computer or something else where it's like, okay, you know, I know the footprint of this laptop is
+
+400
+00:32:16,585 --> 00:32:37,715
+16 by nine or whatever and I'm gonna make a motherboard that fits inside there. This is like, well, I'm targeting this wattage or I want it to be able to monetize this much solar or I have this this kind of thermals to deal with and each chip is x I'm targeting this hash rate. Each chip is only y hash rate like it. There's a lot of things to keep in mind when designing a hash board, I would expect.
+
+401
+00:32:38,595 --> 00:32:45,715
+Unknown: Definitely. Definitely. But having having spec sheets for the chips helps a lot in planning that. With with the Bidax,
+
+402
+00:32:46,035 --> 00:32:47,155
+you know, as I was
+
+403
+00:32:47,680 --> 00:32:58,240
+well, me and the crew from OSMU were sort of reverse engineering each new version of the chip that Bitmain released. Right? We just we don't know really how it's gonna work. We can kinda take
+
+404
+00:32:58,720 --> 00:33:09,605
+how the the big ant miners work and divide by the number of chips in there and get an idea, but it you know, you don't really know until you get it working. And there was actually a bunch of surprises when the,
+
+405
+00:33:10,165 --> 00:33:12,244
+Bitaxe Gamma came out
+
+406
+00:33:14,085 --> 00:33:17,509
+because it it's it well, it used more power,
+
+407
+00:33:18,710 --> 00:33:26,470
+more efficient, so higher hash rate for that power. But it used more power, but then there was also, you know, lots of things with how the temperature sensor worked
+
+408
+00:33:26,710 --> 00:33:33,005
+and, just discoveries that were made that kinda only happens once you get a system built.
+
+409
+00:33:33,565 --> 00:33:41,325
+Then that's that's the sort of reverse engineering paradigm there. So if you can know about these things going into it, it saves a ton of time.
+
+410
+00:33:41,725 --> 00:33:53,460
+Unknown: When you does it scale, like, modularly in the sense that once you figure out what one chip needs, it is okay. If I do five chips, then I need five of these or I multiply this by five, or is it
+
+411
+00:33:53,700 --> 00:33:54,660
+a new
+
+412
+00:33:55,380 --> 00:33:57,860
+problem to solve depending on your configuration?
+
+413
+00:34:00,684 --> 00:34:06,764
+Unknown: Yes. At, like, sort of the base, it does sort of scale linearly with the number of chips. But
+
+414
+00:34:08,445 --> 00:34:12,460
+these chips are designed to be to have a bunch of them connected together,
+
+415
+00:34:12,779 --> 00:34:25,980
+but it like I was talking about before with the stacked voltage domains, there's all sorts of headaches that come when you have these long series connected chains of chips, like how to deal with data and reliability of sending the data, through those long chains.
+
+416
+00:34:27,505 --> 00:34:28,065
+And,
+
+417
+00:34:29,025 --> 00:34:31,905
+you know, I I have been lucky enough to see a couple,
+
+418
+00:34:32,705 --> 00:34:44,750
+chip data sheets, not Bitmain, but other chip data sheets, and, like, it almost it, like, brought tears to my eyes to see it spelled out how to do this because I was like, oh my gosh, you're kidding me. That's what you're supposed to do. Like,
+
+419
+00:34:45,390 --> 00:34:46,030
+it
+
+420
+00:34:46,589 --> 00:34:52,510
+was really fantastic to see, but it was just like I spent so long just kind of banging on it trying to like
+
+421
+00:34:52,905 --> 00:34:55,865
+like into it how it works. Sure.
+
+422
+00:34:56,345 --> 00:35:01,065
+Unknown: Yeah. This started as a joke in my head, I actually think it has legs like help
+
+423
+00:35:01,145 --> 00:35:03,145
+a newbie get started. It's like
+
+424
+00:35:03,465 --> 00:35:04,585
+train an agent,
+
+425
+00:35:05,145 --> 00:35:05,625
+download
+
+426
+00:35:06,105 --> 00:35:10,120
+all of the like, conversations from the OSMU
+
+427
+00:35:10,280 --> 00:35:11,640
+Yeah. Discord,
+
+428
+00:35:11,880 --> 00:35:17,320
+throw in the data sheets in there. It's like, throw in the Ember one reference design. So like,
+
+429
+00:35:17,560 --> 00:35:19,640
+I want to build x,
+
+430
+00:35:20,120 --> 00:35:22,840
+start off this base, you know? And like,
+
+431
+00:35:23,785 --> 00:35:33,385
+it sounds silly, but I do think that's the future. We should probably do the same for heatpunk stuff and like, what solution is best for me? We need a KeyCAD integration. Right. There you go.
+
+432
+00:35:33,945 --> 00:35:38,345
+Unknown: Yeah. Yeah. I mean, for for architecting the system, I think it could do that now.
+
+433
+00:35:38,825 --> 00:35:46,750
+Yeah. You know, it's really good at that sort of figuring out, you know, how many chips, what the heat's gonna be, sort of how they're interconnected,
+
+434
+00:35:47,390 --> 00:35:53,549
+you know, whether you want, like, higher voltage or higher current, that kind of thing. I think it would be really good at doing that
+
+435
+00:35:54,025 --> 00:35:54,745
+with
+
+436
+00:35:54,825 --> 00:35:58,425
+the training data that we have now out there.
+
+437
+00:35:59,625 --> 00:36:02,345
+I have not seen a KiCad
+
+438
+00:36:02,345 --> 00:36:05,305
+integration yet, which is kind of blowing my mind.
+
+439
+00:36:06,585 --> 00:36:10,340
+Unknown: That's got to be coming someday. We were joking about this yesterday.
+
+440
+00:36:10,420 --> 00:36:16,820
+Our building owner has a VR headset and he can like just talk to his agent and he'll talk back. We're like,
+
+441
+00:36:17,620 --> 00:36:24,145
+eventually you can just like say pull a key cad and you're visualizing it, like Iron Man style. Move this here. Move this here. Yeah. That's
+
+442
+00:36:27,025 --> 00:36:28,225
+Unknown: exciting. Yeah.
+
+443
+00:36:29,185 --> 00:36:30,225
+Unknown: Mean, we've had,
+
+444
+00:36:30,705 --> 00:36:31,585
+like, a long time,
+
+445
+00:36:32,910 --> 00:36:37,710
+they're called ECAD, like electronic computer aided design software like ECAD is.
+
+446
+00:36:38,829 --> 00:36:46,190
+You know, they've had auto routers to try and, like, be like you know, it knows what things need to get connected. That's part of designing it.
+
+447
+00:36:46,589 --> 00:36:49,775
+But then, you know, you can try and route
+
+448
+00:36:50,095 --> 00:37:01,775
+all the traces on the circuit board to connect everything up, and then you gotta provide special rules like, oh, this is a higher current trace. It needs to be fatter. This is a high frequency trace. It needs to be routed away from, you know, other things.
+
+449
+00:37:03,770 --> 00:37:07,050
+The CAD software has all those rules
+
+450
+00:37:07,130 --> 00:37:07,850
+set up.
+
+451
+00:37:08,170 --> 00:37:09,290
+Auto routers,
+
+452
+00:37:10,250 --> 00:37:13,130
+which have existed, have been expensive and crappy.
+
+453
+00:37:13,290 --> 00:37:14,010
+This
+
+454
+00:37:14,090 --> 00:37:27,444
+Unknown: seems like something that that AI could do a much better job of. For sure. I gotta believe it's coming. It makes me think of like, does it have an optimization function? It makes me think of, like, topology optimization where you say, here's a chunk of aluminum.
+
+455
+00:37:28,190 --> 00:37:32,350
+There's x force from this direction, y force from this direction,
+
+456
+00:37:33,230 --> 00:37:36,270
+minimize mass, right? And don't go out of this footprint.
+
+457
+00:37:36,590 --> 00:37:42,910
+You end up with something that looks like a natural bone structure almost and it ends up removing. Yeah, it removes material,
+
+458
+00:37:43,070 --> 00:37:43,870
+it tests
+
+459
+00:37:44,075 --> 00:37:50,715
+is going to survive the forces? If not, add some back here, delete some here. And you get some crazy geometries that
+
+460
+00:37:50,955 --> 00:37:53,355
+really were useless until three d printers
+
+461
+00:37:53,515 --> 00:37:55,195
+came out with additive manufacturing,
+
+462
+00:37:55,195 --> 00:37:56,395
+right? Specifically
+
+463
+00:37:56,475 --> 00:38:03,660
+with metals too. Like, there's new cars that are having, you know, wishbone geometries for their suspension that literally look like bones.
+
+464
+00:38:03,740 --> 00:38:16,805
+And I wonder if that can apply to all these input parameters and constraints for circuit board design as you described and you can kind of optimize it. I don't know how that would work either for optimize for form factor or for,
+
+465
+00:38:17,125 --> 00:38:18,565
+you know, heat dissipation
+
+466
+00:38:18,565 --> 00:38:25,125
+or just minimizing copper consumption like for cost. Right? It's it's You could absolutely do that. I mean, it's
+
+467
+00:38:25,539 --> 00:38:27,460
+Unknown: it's a very simulatable,
+
+468
+00:38:27,940 --> 00:38:29,780
+system. Right? Both the, like,
+
+469
+00:38:30,420 --> 00:38:32,180
+the sort of electromagnetic
+
+470
+00:38:32,180 --> 00:38:36,820
+properties of it, the thermal properties of it, mechanical properties of it. Like, that's
+
+471
+00:38:36,900 --> 00:38:47,745
+not even rocket science. There are there do exist simulators for all those things now. So you could say, like, you know, here's the form factor it needs to fit in. Like, here's these signals that I care about minimizing,
+
+472
+00:38:47,745 --> 00:38:53,320
+you know, this parameter on, and then these ones are power traces, so they need to be fat. And,
+
+473
+00:38:54,040 --> 00:38:54,760
+you know, I
+
+474
+00:38:56,200 --> 00:39:03,640
+it it could absolutely happen. And there are tools now that you can buy. They're very expensive to do that. It's essentially like what is it? That
+
+475
+00:39:04,119 --> 00:39:12,995
+finite analysis what you do for mechanical stuff? Yep. It's very similar to that for analyzing PCBs to see how they'll hold up in, like, RF environments.
+
+476
+00:39:14,755 --> 00:39:18,115
+So you could do that. Those things are just, like, crazy expensive,
+
+477
+00:39:18,115 --> 00:39:18,675
+but, like,
+
+478
+00:39:19,940 --> 00:39:32,099
+Unknown: you know, we could we could like democratize that and Yeah. Because I mean, that that also exists for structural engineering. Like, let's go a much larger scale. And like what Tyler was saying with different forces, it'll give you
+
+479
+00:39:32,694 --> 00:39:39,494
+a stable structure. But also, I feel like it still needs a human hand because Yeah. We do everything perpendicular in structural.
+
+480
+00:39:39,655 --> 00:40:00,580
+Unknown: And it's like comes up with these weird rounded shapes that you can't actually machine and that's not a real number. Can There's some finesse involved for sure. I mean, is crazy to think about too with robotics because eventually, I mean, I think we'll get to the point where you'll be able to come up with a new hash board miner design over a weekend and then, you know, ship off the specs to PCB way.
+
+481
+00:40:01,655 --> 00:40:13,015
+Unknown: Five coded hash boards. Have it in have it in eight days. Yeah. I mean, these PCB companies and the the people that sell the parts, right, they should be very excited for this because it's just gonna sell more.
+
+482
+00:40:13,335 --> 00:40:23,630
+Right? Imagine you make your your parts catalog available. You have all your parts, like, models set up exactly so that all the parameters are known. Like, that goes into this,
+
+483
+00:40:24,109 --> 00:40:26,430
+this whole system that's gonna design it. Like,
+
+484
+00:40:27,755 --> 00:40:34,875
+it's actually pretty well constrained except for mining ASICs, but it's pretty well constrained at the end of the day. So it seems like a perfect setup.
+
+485
+00:40:35,755 --> 00:40:37,675
+Unknown: It is. That's sweet.
+
+486
+00:40:37,995 --> 00:40:44,380
+What are the guys in OSMU hacking on right now? Is there any new new cool stuff being worked on or that you've seen?
+
+487
+00:40:45,980 --> 00:40:47,740
+Unknown: Well, yeah. Mean, we got
+
+488
+00:40:48,060 --> 00:40:50,620
+there's like 13,000 people in there. There's a I've lot of
+
+489
+00:40:51,980 --> 00:41:06,155
+seen a lot of minor management software, different programs that people have come up Seems like everyone has one. You know, Vibe coding came out. Everyone's like, I'm gonna build a management software. Yeah. You could just, one shot. You're like, minor management software now. So a bunch of those are coming up.
+
+490
+00:41:07,435 --> 00:41:09,195
+We saw some auto tuning,
+
+491
+00:41:09,435 --> 00:41:13,820
+software because you can just you can auto tune your BidX over the API.
+
+492
+00:41:13,980 --> 00:41:17,980
+Yeah. So we saw some software come out for that. That's been pretty neat.
+
+493
+00:41:20,460 --> 00:41:30,815
+We were we talked about this a little bit last week, but, you know, we're just kinda screwing around with the idea of, like, an FPGA miner to sort of get people in the mindset of designing ASICs themselves.
+
+494
+00:41:32,255 --> 00:41:39,134
+Actually a that's a very long project, but it would be cool to get people thinking that way in sort of integrated circuit design.
+
+495
+00:41:40,200 --> 00:41:43,960
+Unknown: What kind of chips goes on in FPGA? Understand they're kind of like
+
+496
+00:41:44,440 --> 00:41:45,800
+reprogrammable
+
+497
+00:41:46,520 --> 00:41:58,835
+ASICs in the sense that you program it to do this one operation and that operation only, but you can reconfigure it. Yeah. So it's it's not so much intended to be a product, but more so as a development platform.
+
+498
+00:41:59,555 --> 00:42:02,115
+Unknown: Yeah. Yeah. They do find their way into products
+
+499
+00:42:02,195 --> 00:42:04,195
+every now and then. Okay.
+
+500
+00:42:04,675 --> 00:42:07,875
+I had a professor who was telling me he bought a
+
+501
+00:42:08,340 --> 00:42:10,900
+a t this is a long time ago. He bought a TiVo
+
+502
+00:42:11,300 --> 00:42:11,860
+and
+
+503
+00:42:12,660 --> 00:42:18,660
+cracked it open and was, like, really excited to find it had, like, some, like, $300 FPGA
+
+504
+00:42:18,660 --> 00:42:19,460
+in it.
+
+505
+00:42:19,940 --> 00:42:31,125
+Unknown: Which he could reuse for something else? Yeah. Oh, okay. So they're pretty they're pretty generic purpose. I didn't I didn't know if there was like a you have to have an FPGA just for Bitcoin mining versus others.
+
+506
+00:42:31,685 --> 00:42:40,360
+Unknown: No. No. They're they're very generic. They come in different sizes though, which kind of it's you could think of it as like RAM. Like Gotcha. You know, you if if you have a very simple,
+
+507
+00:42:41,160 --> 00:42:47,640
+design, you don't need much RAM. If you have a very complicated one, you get more RAM. It's not called RAM on FPGAs. It's called,
+
+508
+00:42:48,440 --> 00:42:49,640
+lookup tables.
+
+509
+00:42:49,960 --> 00:42:53,960
+But Mhmm. You know, so you can get different sizes, and they do they do get really expensive.
+
+510
+00:42:55,235 --> 00:42:56,115
+FPGAs
+
+511
+00:42:56,115 --> 00:43:01,315
+live really fast. Ones with tons of space, like they call it FPGA fabric,
+
+512
+00:43:02,515 --> 00:43:06,035
+can get very expensive, like thousands of dollars for a chip.
+
+513
+00:43:07,200 --> 00:43:13,520
+I always thought that'd be a good way to, like, smuggle value. You know, you just, like, got this reel of chips that's, like, a million bucks. But
+
+514
+00:43:15,200 --> 00:43:15,600
+they
+
+515
+00:43:16,880 --> 00:43:18,800
+yeah. They're they're very reconfigurable.
+
+516
+00:43:18,800 --> 00:43:28,665
+It's it's usually used for prototyping, but I think every now and then it finds its way into, like, early products where they haven't had a chance to, like, make an ASIC yet, so they can just put that in there.
+
+517
+00:43:29,224 --> 00:43:30,585
+It's really good for
+
+518
+00:43:31,224 --> 00:43:32,665
+things like DSP
+
+519
+00:43:32,984 --> 00:43:34,025
+and video
+
+520
+00:43:35,530 --> 00:43:46,730
+type stuff. Right? Like, you you need to have a a circuit that takes in an audio stream and provides some sort of transform on it, like, in real time and then outputs it. It's used a lot for that. It's used a lot for
+
+521
+00:43:47,770 --> 00:43:48,890
+software defined radio,
+
+522
+00:43:49,685 --> 00:43:50,805
+which is like,
+
+523
+00:43:52,725 --> 00:43:53,525
+essentially,
+
+524
+00:43:53,765 --> 00:43:55,285
+like, RF,
+
+525
+00:43:55,685 --> 00:43:57,605
+receivers and transmitters
+
+526
+00:43:57,605 --> 00:43:58,085
+that,
+
+527
+00:43:58,805 --> 00:44:08,160
+can do crazy modulation schemes and things like that. So, yeah, there's a lot of uses for it. They're really neat. They get insanely complicated fast. Oh, know
+
+528
+00:44:08,559 --> 00:44:11,680
+Unknown: a little bit. My college roommate had one that he built for
+
+529
+00:44:12,319 --> 00:44:13,920
+bearingless motor control
+
+530
+00:44:14,160 --> 00:44:20,185
+with voltage and current, and I didn't even know what an FPGA was at the time, but he had it on his desk and it looked insane.
+
+531
+00:44:20,905 --> 00:44:26,665
+Unknown: They're cool though. Yeah. They're really cool. Like, I've seen, you know, FPGAs and you can pipe, like, HDMI
+
+532
+00:44:26,665 --> 00:44:30,825
+in on one side, right, and, like, do, like, video transforms,
+
+533
+00:44:30,825 --> 00:44:31,865
+like, real time
+
+534
+00:44:32,240 --> 00:44:35,840
+and come out on the other side. So pretty pretty neat stuff.
+
+535
+00:44:36,240 --> 00:44:44,800
+Unknown: The thought there though with the OSMU and the ASIC development is this is a great way to document and teach people how to design and optimize
+
+536
+00:44:45,119 --> 00:44:46,559
+new ASIC designs.
+
+537
+00:44:47,705 --> 00:45:00,505
+Unknown: Yeah. Get people think because, you know, it's FPGAs are not like CPUs. Right? You you program them with code, but it's a different kind of code, and it it's for sequential logic. Like, you need to be thinking in sort of a different mindset.
+
+538
+00:45:00,665 --> 00:45:01,385
+And it's
+
+539
+00:45:02,010 --> 00:45:06,250
+not exactly the same, but it's similar to how an ASIC would be laid out.
+
+540
+00:45:06,570 --> 00:45:10,090
+It's it's just like a different way of thinking about it, in
+
+541
+00:45:10,410 --> 00:45:11,130
+in,
+
+542
+00:45:12,250 --> 00:45:16,330
+sequential logic as opposed to, like, executing CPU instructions.
+
+543
+00:45:17,735 --> 00:45:28,855
+That's so bad. And and the cool thing is that there are like, it's already been done. Right? FPGAs were popular in Bitcoin mining before ASICs came out. Right. And so there's some open source projects,
+
+544
+00:45:29,415 --> 00:45:32,695
+to run an f a Bitcoin miner on an FPGA.
+
+545
+00:45:32,695 --> 00:45:41,370
+Unknown: That's that's the first miner I ever made was one of those. Well, very briefly, they were the most efficient option, right, before the ASICs came to the scene. Yeah.
+
+546
+00:45:41,690 --> 00:45:43,930
+Unknown: Yeah. It was, like, kind of right
+
+547
+00:45:44,250 --> 00:45:47,849
+you know, the GPUs and then, like, FPGAs
+
+548
+00:45:48,025 --> 00:45:48,345
+came
+
+549
+00:45:48,825 --> 00:45:51,945
+FPGA Bitcoin miners sort of came out,
+
+550
+00:45:52,425 --> 00:45:54,985
+and we're I think we're an improvement on GPUs
+
+551
+00:45:54,985 --> 00:45:56,425
+and then ASICs
+
+552
+00:45:56,505 --> 00:45:59,545
+right after that. But ASICs are significantly
+
+553
+00:45:59,785 --> 00:46:00,745
+more efficient.
+
+554
+00:46:01,545 --> 00:46:08,120
+Unknown: What's the word on, some of the other two fifty six projects? Have you heard how Ryan and Schnitzel and
+
+555
+00:46:08,760 --> 00:46:09,960
+Zhongli are doing?
+
+556
+00:46:10,760 --> 00:46:11,640
+Unknown: Well,
+
+557
+00:46:11,640 --> 00:46:12,520
+I've been working
+
+558
+00:46:13,080 --> 00:46:15,480
+a lot with Ryan lately. Shout
+
+559
+00:46:15,480 --> 00:46:16,840
+out to Ryan. He's a badass.
+
+560
+00:46:18,015 --> 00:46:19,615
+You know, we are
+
+561
+00:46:20,734 --> 00:46:23,535
+well, I I think Regina has just insane
+
+562
+00:46:23,535 --> 00:46:28,015
+potential. Like, this is going to be a game changer in this industry. No doubt about it.
+
+563
+00:46:28,974 --> 00:46:32,175
+And so we've been working a lot on that to get it working with
+
+564
+00:46:33,430 --> 00:46:35,590
+to get it working better with the
+
+565
+00:46:35,910 --> 00:46:36,790
+Ember one,
+
+566
+00:46:37,110 --> 00:46:38,550
+double o hash boards.
+
+567
+00:46:39,110 --> 00:46:45,350
+And then hot on the heels of that is the Ember one zero one hash board, which features the Intel chips.
+
+568
+00:46:45,590 --> 00:46:48,310
+And so the Intel chips
+
+569
+00:46:48,575 --> 00:46:49,535
+interface
+
+570
+00:46:49,855 --> 00:46:51,535
+the the the
+
+571
+00:46:51,695 --> 00:46:52,415
+firmware
+
+572
+00:46:52,575 --> 00:46:56,495
+the the control board interfaces with the chips different than,
+
+573
+00:46:57,455 --> 00:47:06,380
+Bitmain. And so it is kinda neat to think about, alright. Cool. We we need we essentially need a new ASIC driver in Mugena. It's, like, thinking how that's gonna be architected.
+
+574
+00:47:06,859 --> 00:47:09,100
+Johnny nine's been helping out with that too.
+
+575
+00:47:09,740 --> 00:47:10,380
+He,
+
+576
+00:47:11,020 --> 00:47:16,619
+has been involved in the BidX project for a long time and done a lot of good work there, and so it's very exciting to see him
+
+577
+00:47:17,205 --> 00:47:19,685
+working on this with Mugena.
+
+578
+00:47:20,085 --> 00:47:20,965
+I
+
+579
+00:47:21,365 --> 00:47:25,765
+think Mugena has so much potential. It's really, really exciting.
+
+580
+00:47:25,765 --> 00:47:41,470
+The things that we're gonna you know, that everyone's gonna be able to do with this are already blowing my mind. Well, we already have our shortlist of which industrial miners we want to map it to first. I'm I'm mad. I'm not mad. I'm excited for the heat pump summit. But Ryan just pushed,
+
+581
+00:47:43,310 --> 00:47:50,345
+Unknown: all his API endpoints from Regina up to GitHub. Okay. And our buddy Jeff has been working on them this morning.
+
+582
+00:47:50,825 --> 00:47:57,145
+But I'm like, I have no time. All I want to do is go play around with that stuff. But like, I have to wait until after he punk. And so like,
+
+583
+00:47:57,545 --> 00:48:09,320
+I know that there's this cool thing over here, like I want to work on, but I can't until we have some time after heat punk. So I'm I'm excited to see what he's pushed and Yeah. What we can develop on top of that.
+
+584
+00:48:09,880 --> 00:48:16,440
+Unknown: Yeah. It's gonna be so cool. It's gonna be so cool. Super excited to get it working with the Intel chips
+
+585
+00:48:16,734 --> 00:48:17,295
+Mhmm.
+
+586
+00:48:17,775 --> 00:48:20,575
+With the new Ember one board with that. And then,
+
+587
+00:48:20,895 --> 00:48:21,615
+I mean,
+
+588
+00:48:22,335 --> 00:48:27,775
+it's it's not a stretch to, you know, port this to support existing AMP miners.
+
+589
+00:48:27,935 --> 00:48:29,455
+Mhmm. Maybe
+
+590
+00:48:29,855 --> 00:48:31,214
+Canin miners. I mean,
+
+591
+00:48:32,540 --> 00:48:34,780
+the the sky is really the limit because, like,
+
+592
+00:48:35,180 --> 00:48:36,860
+you know, unlike the Bitaxe,
+
+593
+00:48:37,020 --> 00:48:42,940
+nearly every other miner runs Linux, and so it's a shoe in for Magina support.
+
+594
+00:48:43,580 --> 00:48:44,700
+Unknown: And Magina
+
+595
+00:48:44,700 --> 00:48:45,820
+should just
+
+596
+00:48:45,980 --> 00:48:47,020
+auto detect
+
+597
+00:48:47,205 --> 00:48:51,845
+whichever hash board is plugged into the control board. Right? Or do you get to specify
+
+598
+00:48:52,165 --> 00:49:00,325
+Unknown: this version of this version? We've been talking about that a lot. I know Ryan has this vision of like, it will auto detect. That kinda starts to be a slippery slope when
+
+599
+00:49:00,880 --> 00:49:05,200
+you have when you're trying to support hardware that you don't control like the Antminers
+
+600
+00:49:05,359 --> 00:49:05,840
+Mhmm.
+
+601
+00:49:06,480 --> 00:49:11,280
+Because there isn't, like, a unified way to detect what hash port you have attached to it.
+
+602
+00:49:12,640 --> 00:49:25,115
+BIMIN is is pretty sneaky like that, and I don't think any of the other, you know, MicroBT, What's Miners, or Kanon boards. There's just there is no way to say, like, what are you? What features do you support? Okay. Cool. Tell me.
+
+603
+00:49:26,340 --> 00:49:42,985
+I think at the end of the day, that'll probably end up being a configuration file that you have to set up like, okay. No. This is an s 19 j pro hash board. I have three of them. I'm using this power supply, that kind of thing. Hey. But if that's all you have to do, well, that's a pretty low lift. Yeah. Yeah. Yeah. Yeah. Especially for your your,
+
+604
+00:49:43,305 --> 00:49:48,905
+Cloudbot, like, can just hang out at no time. That's right. That's right. So it it's not,
+
+605
+00:49:49,385 --> 00:49:56,630
+Unknown: a different we've talked about this before, but I wanna reiterate for the audience. It's not a different image where you go and you download OSX or, you know, Windows
+
+606
+00:49:58,070 --> 00:50:01,510
+32 or 64, whatever it is. I don't know Windows.
+
+607
+00:50:02,070 --> 00:50:10,150
+We need It's Mugena. It's an application that runs on various hardware platforms. You just have to specify in the config what it's talking to.
+
+608
+00:50:11,225 --> 00:50:12,185
+Unknown: Yes.
+
+609
+00:50:12,265 --> 00:50:13,225
+It is that,
+
+610
+00:50:13,465 --> 00:50:15,785
+but I think it also
+
+611
+00:50:15,865 --> 00:50:18,025
+could be like an image.
+
+612
+00:50:18,905 --> 00:50:31,000
+Oh, okay. So when you when people talk about, like, loading Luxe OS or brains onto their miner, you know, you need an image that is built to support that control board, the processor that it's running on.
+
+613
+00:50:31,400 --> 00:50:31,960
+Mhmm.
+
+614
+00:50:32,440 --> 00:50:41,185
+Separate thing. Okay. Because these aren't like they're not like desktop computers. Right? It's not like you just, like, attach your keyboard and mouse to it or even SSH into it and just be like, you know, install this.
+
+615
+00:50:42,305 --> 00:50:45,425
+They are because they're like embedded Linux,
+
+616
+00:50:45,585 --> 00:50:54,270
+it it does tend to be an image type thing where it's like, alright. You flash this image on there and that image is already preconfigured to work with this system.
+
+617
+00:50:54,830 --> 00:50:57,790
+Unknown: But the hash board is almost like telling it about its peripherals.
+
+618
+00:50:58,830 --> 00:51:03,470
+Like what it's got attached to it. Yeah. Yeah. Yeah. Exactly. Exactly. And then,
+
+619
+00:51:04,270 --> 00:51:04,670
+Unknown: you know,
+
+620
+00:51:05,435 --> 00:51:08,795
+I I can imagine there'd be a lot of flexibility too with
+
+621
+00:51:10,075 --> 00:51:20,955
+you know, it's like, alright, you flash this new image on your control board. Right? It gets the network set up, and now you have an API exposed, and now you can go in there and you can be like, alright, this is what's connected to it. This is what
+
+622
+00:51:21,570 --> 00:51:29,490
+ASIC drivers I need. This is what fans I have or don't have, that kind of thing. This is where it becomes apparent to me where
+
+623
+00:51:29,810 --> 00:51:30,370
+Unknown: the
+
+624
+00:51:30,770 --> 00:51:38,025
+board manufacturers or the chip manufacturers can do their due diligence and make it easier for us to marry together.
+
+625
+00:51:38,665 --> 00:51:40,425
+Unknown: Yes. Can you imagine?
+
+626
+00:51:40,665 --> 00:51:43,465
+Think we'll get there. I think we'll get there where it's just like,
+
+627
+00:51:44,185 --> 00:51:45,145
+we will see
+
+628
+00:51:45,945 --> 00:51:48,185
+you know, mark my words. We will see
+
+629
+00:51:48,600 --> 00:51:50,440
+a industrial
+
+630
+00:51:50,440 --> 00:51:51,320
+miner
+
+631
+00:51:51,480 --> 00:51:52,600
+that advertises
+
+632
+00:51:52,600 --> 00:51:53,800
+Mugena Ready.
+
+633
+00:51:54,600 --> 00:51:57,800
+Unknown: I wonder how efficient it would be to
+
+634
+00:51:58,040 --> 00:51:59,800
+give Mugena
+
+635
+00:52:00,360 --> 00:52:02,040
+MCP capabilities
+
+636
+00:52:02,200 --> 00:52:03,400
+instead of API
+
+637
+00:52:03,865 --> 00:52:12,265
+so that your agent you get a tuning agent. It's like, tried this profile doesn't work. Tried this profile doesn't work. I don't know enough about MCP model context protocol.
+
+638
+00:52:12,265 --> 00:52:17,545
+Like, is what is it? It's just a more efficient way for your agent to talk to
+
+639
+00:52:17,785 --> 00:52:18,505
+your service
+
+640
+00:52:19,170 --> 00:52:20,770
+instead of API calls.
+
+641
+00:52:21,010 --> 00:52:25,250
+Unknown: Okay. So that's how, like, when they when I saw, you know,
+
+642
+00:52:26,050 --> 00:52:28,210
+Figma or whatever
+
+643
+00:52:28,690 --> 00:52:39,325
+Unknown: integrate directly into the cloud browser. That's MCP. Mhmm. Okay. Yeah. Interesting. That is interesting. That'd be really cool to screw it. Right? This is like, APIs use,
+
+644
+00:52:39,885 --> 00:52:45,645
+letters and stuff for humans. Right? This is like the robot language that is, like, way more efficient.
+
+645
+00:52:46,280 --> 00:52:53,080
+Unknown: Yeah. It's not gonna be JSON objects passed back and forth. It's gonna different payloads. It'll be some other way more efficient thing.
+
+646
+00:52:53,800 --> 00:52:57,400
+Unknown: Right. Because that's interesting. When I ask my agent to do something right now,
+
+647
+00:52:57,800 --> 00:53:07,765
+it like almost always just makes a Python script to go do it or ends up calling an API. And so perhaps it's more efficient with an MCP integration for it to just talk to it directly. Don't know.
+
+648
+00:53:08,885 --> 00:53:12,085
+Unknown: Schnitzel would know. That's a that's a post heat pump thing I work on. Yeah.
+
+649
+00:53:13,285 --> 00:53:14,165
+Unknown: Let's do it.
+
+650
+00:53:14,805 --> 00:53:20,090
+Unknown: Yep. That's a pretty exciting possibility. You could have whatever this MCP
+
+651
+00:53:20,570 --> 00:53:22,010
+client interface is
+
+652
+00:53:22,250 --> 00:53:24,890
+also running on your control board. These are
+
+653
+00:53:25,530 --> 00:53:34,355
+Raspberry Pi class computers on these control boards, so they can do these things. Yeah. Instead of exposing API endpoints, you expose MCP endpoints
+
+654
+00:53:34,595 --> 00:53:44,560
+Unknown: and it'll figure it out. Oh my gosh, there's so much to keep on top of. It's all moving so fast, the AI stuff. I feel like, Go mine a block, make no mistakes.
+
+655
+00:53:45,200 --> 00:53:46,480
+Yeah, mine block.
+
+656
+00:53:47,600 --> 00:53:59,695
+We talked about that this morning, but there was another solo block mine. Was it solo block or just mine from us? Yeah, it was. Yeah, it was a SoloBlock. It appears to be someone who is running a public pool on their own Umbral.
+
+657
+00:53:59,855 --> 00:54:00,655
+Unknown: Damn.
+
+658
+00:54:01,295 --> 00:54:02,494
+It hit this morning.
+
+659
+00:54:02,895 --> 00:54:09,170
+Umbral was obviously very excited and tweeting about it. They said it's the fourth such case in less than a year.
+
+660
+00:54:10,770 --> 00:54:12,450
+So, yeah, people are doing this.
+
+661
+00:54:12,770 --> 00:54:15,970
+People are really doing this. We don't know what miner they were using
+
+662
+00:54:16,930 --> 00:54:18,450
+Right. Or what hash rate they had.
+
+663
+00:54:19,329 --> 00:54:21,569
+I would love to know, but it also
+
+664
+00:54:22,055 --> 00:54:30,615
+is cool that that's up to them to reveal if they want to. Right? We can't get any more insight than that. And in in fact, even knowing that it was
+
+665
+00:54:31,255 --> 00:54:38,620
+on a self hosted Umbral is just totally up to them to expose. Mhmm. Right? This could've just shown up as an unknown block
+
+666
+00:54:38,860 --> 00:54:41,980
+on mempool dot space with no information about it at all,
+
+667
+00:54:42,380 --> 00:54:42,860
+which,
+
+668
+00:54:43,420 --> 00:54:56,845
+you know, drives me crazy because I would love to know so that we can hype this cool stuff more, but, you know, it it should be up to the miners to how much they wanna reveal. So those six solo blocks that you you mentioned in your talk in at Plan B in El Salvador
+
+669
+00:54:57,325 --> 00:55:01,645
+Unknown: being bid access, they self revealed that they were bid access. Is that the case?
+
+670
+00:55:02,205 --> 00:55:04,365
+Unknown: Yeah. They did. They did. So
+
+671
+00:55:04,765 --> 00:55:05,485
+those blocks,
+
+672
+00:55:07,020 --> 00:55:09,580
+we can tell if they're using,
+
+673
+00:55:11,420 --> 00:55:15,340
+like, the hosted versions of public pool or in this case, CK pool.
+
+674
+00:55:16,060 --> 00:55:17,740
+We get some insight.
+
+675
+00:55:17,980 --> 00:55:20,300
+Right? Like, if their worker name is Bitaxe,
+
+676
+00:55:20,435 --> 00:55:27,475
+and if you CK Pool will show you what the hash rate is. Public Pool will too. The hosted versions, right, like at ckpool.com
+
+677
+00:55:27,475 --> 00:55:28,515
+or whatever it is.
+
+678
+00:55:29,635 --> 00:55:31,235
+They'll show you the hash rate,
+
+679
+00:55:31,795 --> 00:55:41,930
+and they'll show you the worker name. And so if the worker name is Bidax and the hash rate matches up with a Bidax, alright, that's good enough for me. It's a Bidax. You could fake that, yes, but
+
+680
+00:55:43,770 --> 00:55:51,815
+we're going with it. So that's that's kinda why we or why I am pretty confident that those six blocks is where bid access or nerd queue access.
+
+681
+00:55:52,295 --> 00:55:55,015
+Unknown: I want to say that if I found a block,
+
+682
+00:55:55,575 --> 00:55:57,255
+I would shut the fuck up about it,
+
+683
+00:55:57,655 --> 00:56:06,910
+but there's no chance. I would just be running around. It's like, I did it. I found a block and tell everybody. And then I would get, you know, kidnapped and Yes. Killed. But
+
+684
+00:56:08,270 --> 00:56:11,790
+Unknown: Yeah. Especially if go to France. Oh, man. That situation is bad.
+
+685
+00:56:11,870 --> 00:56:20,665
+He was talking about that the other week. It's crazy. Man, really bad. But yeah, I know what you mean, right? It's like I spend all day every day thinking
+
+686
+00:56:20,665 --> 00:56:33,520
+about open source mining and the BidX and two fifty six Foundation and stuff. I feel like if I were lucky enough to solve a block, it would be very difficult not to tell people because this is like my jam. Who could that be? I don't know who found that block.
+
+687
+00:56:34,160 --> 00:56:36,480
+Well, speaking of I want solve a
+
+688
+00:56:37,040 --> 00:56:38,160
+but there will be signs.
+
+689
+00:56:38,560 --> 00:56:40,160
+Unknown: Speaking of sovereignty,
+
+690
+00:56:40,560 --> 00:56:47,315
+because Iko is having internet issues, I want to make sure to shout this out for him and all of us. Change.org/billandchione,
+
+691
+00:56:47,315 --> 00:56:48,915
+we hit the 15,000
+
+692
+00:56:49,155 --> 00:56:50,595
+signature milestone.
+
+693
+00:56:50,755 --> 00:56:53,795
+Encourage everyone to go check that out. That's great news.
+
+694
+00:56:53,955 --> 00:56:57,155
+This is the most important and impactful way to show support
+
+695
+00:56:57,730 --> 00:57:00,050
+to prevent software developers
+
+696
+00:57:00,130 --> 00:57:05,090
+freedom of speech from being imprisoned for writing code. Definitely go check that out.
+
+697
+00:57:05,650 --> 00:57:08,450
+I think he did a talk about it in Nashville the other week as well.
+
+698
+00:57:09,984 --> 00:57:10,625
+Yeah.
+
+699
+00:57:10,865 --> 00:57:19,505
+Unknown: Very cool. Yeah. Those the Samurai Wallet devs are still sitting in jail for writing open source code. Right? This Insanity. You know, they
+
+700
+00:57:20,465 --> 00:57:21,025
+they
+
+701
+00:57:22,160 --> 00:57:26,480
+the the government just basically decided they wanna make an example of these guys,
+
+702
+00:57:26,800 --> 00:57:30,240
+and it didn't matter that they hadn't done anything illegal,
+
+703
+00:57:30,640 --> 00:57:33,680
+which is really scary and really unfortunate,
+
+704
+00:57:33,680 --> 00:57:35,040
+and this can't stand.
+
+705
+00:57:36,825 --> 00:57:39,145
+Unknown: What else is going on, Scott?
+
+706
+00:57:40,585 --> 00:57:42,265
+Unknown: What else is going on?
+
+707
+00:57:44,265 --> 00:57:46,505
+Well, getting pretty fired up to go to Heat Punk Summit.
+
+708
+00:57:47,464 --> 00:57:50,825
+As are we. I am feverishly working on Ember one,
+
+709
+00:57:52,080 --> 00:57:57,440
+this fix for this this hardware issue that I had on the on the Ember one double o v five.
+
+710
+00:57:58,880 --> 00:58:02,880
+Started the layout for the Ember one zero one with the Intel chips.
+
+711
+00:58:03,360 --> 00:58:04,800
+Amazing. I also
+
+712
+00:58:05,165 --> 00:58:10,045
+so China like, we get all these PCBs made in China at JLCPCB.
+
+713
+00:58:10,045 --> 00:58:16,045
+And China, like, the entire country is closed for Chinese New Year. So all that stuff has stopped. So I'm kinda waiting
+
+714
+00:58:16,445 --> 00:58:20,845
+for them to open back up to order these PCBs. But I have finished the design for the Bidax Bonanza.
+
+715
+00:58:22,900 --> 00:58:34,500
+That'll have it's it's like a gonna be like a nominally 1.2 terahash Bitaxe design with four Intel chips on there. I'm I'm really fired up about this design. I think it's gonna be really neat. It's kinda got a new form factor,
+
+716
+00:58:34,740 --> 00:58:36,740
+new heat sink, look different
+
+717
+00:58:37,635 --> 00:58:38,435
+from
+
+718
+00:58:38,675 --> 00:58:41,795
+the previous bid axes. It'll have a sweet new display.
+
+719
+00:58:44,435 --> 00:58:46,435
+Unknown: The Intel stuff is awesome because,
+
+720
+00:58:46,675 --> 00:58:49,155
+you know, it it is really the sweet spot for
+
+721
+00:58:50,040 --> 00:59:02,120
+home mining. It's efficient enough. It's not like it's five year old chip technology that's basically e waste. I mean, things are effectively free. There's a lot of them out there. The two fifty six Foundation gave out 256,000
+
+722
+00:59:02,120 --> 00:59:02,760
+of them.
+
+723
+00:59:04,045 --> 00:59:09,405
+Know, And getting the development underway for the FedEx Bonanza and Ember one zero one,
+
+724
+00:59:10,365 --> 00:59:16,845
+I hope we see so many things built off off of those chips. It's gonna be awesome. I hope so too. I hope so too. Free chips,
+
+725
+00:59:17,165 --> 00:59:18,365
+Unknown: you know, is
+
+726
+00:59:19,390 --> 00:59:20,270
+free chips,
+
+727
+00:59:20,910 --> 00:59:24,110
+you know, and they're available too. Right?
+
+728
+00:59:24,350 --> 00:59:34,830
+There we've been talking with Block who seems to have a large cache of these chips about getting some more for the two fifty six Foundation with the idea of distributing those to anyone who wants to build with them for free.
+
+729
+00:59:36,805 --> 00:59:38,005
+So that, you know,
+
+730
+00:59:38,485 --> 00:59:40,325
+these these Bitmain chips
+
+731
+00:59:40,565 --> 00:59:43,045
+are hard to get, and they're also expensive.
+
+732
+00:59:43,045 --> 00:59:46,965
+Right? You you could pay $30.40 dollars for one,
+
+733
+00:59:47,685 --> 00:59:50,690
+of the chips in the Bitaxe
+
+734
+00:59:50,770 --> 00:59:56,050
+so that, you know, if you can even get it and if you don't get scammed in the process of getting it.
+
+735
+00:59:57,730 --> 01:00:03,010
+Bitmain's kinda sneaky. They actually released a new version of the VM thirteen seventy, which is the chip
+
+736
+01:00:03,595 --> 01:00:06,075
+that we've been using in the Bitaxe Gamma.
+
+737
+01:00:06,475 --> 01:00:13,435
+They released a new version. It looks exactly the same as the others. No distinctive marking, but it has significantly lower hash rate,
+
+738
+01:00:13,995 --> 01:00:15,435
+which is really frustrating.
+
+739
+01:00:15,435 --> 01:00:17,675
+There there doesn't seem to be any way to tell
+
+740
+01:00:18,020 --> 01:00:23,220
+just from looking at the chip whether it's these higher hash rate or lower hash rate ones. You even have a different model number?
+
+741
+01:00:23,780 --> 01:00:25,620
+It's b m thirteen seventy.
+
+742
+01:00:26,020 --> 01:00:33,300
+All these chips have a two letter suffix at the end like a a a b b c that kind of thing but Is that the binning?
+
+743
+01:00:33,995 --> 01:00:42,235
+No. That's that's not the binning. There's a there's another number on there, a long string of random string of letters and numbers that appears to be related to the bin.
+
+744
+01:00:42,555 --> 01:00:43,115
+The
+
+745
+01:00:44,795 --> 01:00:49,240
+you know, binning is very common in all, like, chips, like Bitcoin or not. But
+
+746
+01:00:49,799 --> 01:01:14,265
+normally, when you order them, the manufacturer would tell you, you know, like, oh, it's, you know, this you're getting this variant with these features, this bidding, etcetera. Right? But that's not how it works with Bitmain chips. So it's careful to people out there that are buying these. It's it's kind of a crapshoot. I feel like the less reputable sellers will be like, oh, yeah. Here's your BM 13 seventies, and you'll fire them up and be like, wait. This hash rate is really disappointing.
+
+747
+01:01:15,305 --> 01:01:16,184
+Unknown: Yeah. No good.
+
+748
+01:01:17,760 --> 01:01:23,680
+Unknown: Know, still looking into it, it's kinda like trial and error to figure it out, like, how to tell by looking at the chip,
+
+749
+01:01:24,320 --> 01:01:33,055
+if it's one of these. Right now, the only way that I know of from talking to people to tell the difference between them is, like, what miner did it come out of.
+
+750
+01:01:33,775 --> 01:01:35,775
+But if you're lucky enough to get new chips,
+
+751
+01:01:36,655 --> 01:01:38,895
+you're not gonna know what miner it came out of.
+
+752
+01:01:39,214 --> 01:01:40,734
+Unknown: Yeah. That's true.
+
+753
+01:01:42,895 --> 01:01:44,655
+Should I shout out some Hashers? Yeah.
+
+754
+01:01:45,840 --> 01:01:57,040
+Let me make sure my If you're tuning in live, you see our beautiful dashboard on the livestream built by d plus plus but you can also go to directly to -.256f.org
+
+755
+01:01:57,040 --> 01:02:03,765
+to see the hash dash that was used in tele hash number three back at the National Energy and Mining Summit last month.
+
+756
+01:02:04,885 --> 01:02:10,005
+The hash rate people are catching on. They spike the hash rate while we're live, which I think is funny.
+
+757
+01:02:12,085 --> 01:02:15,850
+Unknown: That's the nineties The exogene first place? Yeah. Coincidence.
+
+758
+01:02:16,170 --> 01:02:18,650
+Unknown: What a coincidence. Who could have done that?
+
+759
+01:02:19,130 --> 01:02:23,530
+Average hash rate of 85 terahash per second, 17 users, 34 workers.
+
+760
+01:02:25,290 --> 01:02:26,890
+Let's see. Let's rank top
+
+761
+01:02:29,915 --> 01:02:30,715
+workers.
+
+762
+01:02:31,195 --> 01:02:32,715
+Upstairs conference room.
+
+763
+01:02:32,955 --> 01:02:35,515
+That's right there. Working hard. It is working hard.
+
+764
+01:02:36,474 --> 01:02:40,635
+Radon mitigation miners, that Mike's? It's Mike's S9. Mike's S9.
+
+765
+01:02:40,955 --> 01:02:42,234
+Mitigating that radon
+
+766
+01:02:42,530 --> 01:02:44,690
+we have here in the Rocky Mountains.
+
+767
+01:02:45,490 --> 01:02:48,770
+I heart pod two fifty six from Canadian Hash and Coin.
+
+768
+01:02:49,250 --> 01:02:50,930
+The Block Hitter from Scott.
+
+769
+01:02:51,730 --> 01:02:52,770
+It's a good name.
+
+770
+01:02:53,250 --> 01:02:55,890
+A handful from fax 777
+
+771
+01:02:55,890 --> 01:03:04,305
+with his Noster profile connected. A cool feature of this dashboard from D plus plus You're
+
+772
+01:03:04,305 --> 01:03:08,385
+skip that one? Ember one V five, I see that on there. 2.8 terahash.
+
+773
+01:03:09,505 --> 01:03:10,865
+Unknown: Yeah. Let's go.
+
+774
+01:03:11,265 --> 01:03:17,100
+I think we still have this problem where the hash rate numbers are a little higher than they should be. Yeah,
+
+775
+01:03:17,100 --> 01:03:19,340
+Unknown: our conference room shouldn't have 67.
+
+776
+01:03:19,340 --> 01:03:23,660
+Unknown: It's a 40 terahash minor. I think they're accurate on the other dashboard.
+
+777
+01:03:25,500 --> 01:03:26,620
+Unknown: We'll have to ping jungly.
+
+778
+01:03:26,985 --> 01:03:28,585
+Hardestblocks.org,
+
+779
+01:03:28,985 --> 01:03:30,265
+D plus plus
+
+780
+01:03:30,745 --> 01:03:31,625
+Ryan,
+
+781
+01:03:31,945 --> 01:03:32,985
+Schnitzel,
+
+782
+01:03:33,625 --> 01:03:34,665
+Sotoki,
+
+783
+01:03:35,145 --> 01:03:36,105
+Redacted,
+
+784
+01:03:38,185 --> 01:03:38,585
+Anand,
+
+785
+01:03:39,110 --> 01:03:39,990
+Pizandy,
+
+786
+01:03:39,990 --> 01:03:40,950
+Montani,
+
+787
+01:03:40,950 --> 01:03:43,430
+Backwater Mining Collective, Woodminer,
+
+788
+01:03:43,430 --> 01:03:49,670
+and Western Mass Bitcoin Meetup. Thank you for donating Hashrate to the two five six Foundation. We get hit a block any day, guys.
+
+789
+01:03:50,630 --> 01:03:54,310
+Unknown: Shout out to Satoki. I feel bad because I didn't realize during the telehash
+
+790
+01:03:54,545 --> 01:03:56,785
+who Satoki is, but that's
+
+791
+01:03:57,425 --> 01:04:01,585
+Boots and big supporter of the show and the two fifty six Foundation.
+
+792
+01:04:01,745 --> 01:04:08,849
+I got to meet him and now he's an awesome guy. Yeah. Yeah. Thanks for thanks for your support. Thanks for your support to everyone. It's pretty cool. Also,
+
+793
+01:04:09,650 --> 01:04:20,530
+Unknown: shout out Woodminer. He's sending us some stuff for next week and I can't wait to see it. Oh, yeah? Yeah. Some plaques, some awards maybe to hand out that were laser
+
+794
+01:04:21,569 --> 01:04:23,170
+Unknown: engraved into wood and
+
+795
+01:04:23,595 --> 01:04:26,235
+wood that was dried with hash rate heat.
+
+796
+01:04:26,555 --> 01:04:41,890
+Unknown: It's very fitting. Such a creative dude. Like, I love it. He's like, yeah, I cut down the trees and milled this lumber and then milled it and lasered it into this cool thing. Oh, and the film dried it with with the Bitcoin miner. That's right. I think it still is Apollo two. Yeah. And and,
+
+797
+01:04:42,050 --> 01:04:46,850
+Unknown: like, it was his idea. He's like, would you guys want this? Hell, yeah, dude. You do awesome work. Yeah. He does.
+
+798
+01:04:49,665 --> 01:04:55,825
+Unknown: Iko is in first place on our difficulty leaderboard, another cool feature of the the hash dash dashboard,
+
+799
+01:04:56,145 --> 01:04:58,545
+followed by fax 777
+
+800
+01:04:58,545 --> 01:05:03,425
+in second and Scott in third. Highest difficulty 28.4
+
+801
+01:05:03,690 --> 01:05:05,210
+g Gillion,
+
+802
+01:05:06,010 --> 01:05:06,810
+giga,
+
+803
+01:05:07,369 --> 01:05:08,090
+billion.
+
+804
+01:05:09,369 --> 01:05:10,410
+Unknown: That's
+
+805
+01:05:10,410 --> 01:05:13,610
+Eco's Apollo. That's gotta be the Apollo
+
+806
+01:05:13,770 --> 01:05:15,210
+two at the park there.
+
+807
+01:05:15,450 --> 01:05:15,770
+Unknown: Yeah.
+
+808
+01:05:17,235 --> 01:05:28,115
+A reminder though, if you are tuning in live and you want to participate in the live chat, I know that you can do it on x and also on Riverside directly, but we're using this new this
+
+809
+01:05:28,115 --> 01:05:31,955
+new URL -.256f.org/monitor.
+
+810
+01:05:32,660 --> 01:05:33,460
+We
+
+811
+01:05:34,100 --> 01:05:38,180
+are calling it what the hash dash monitoring dashboard with it a
+
+812
+01:05:38,740 --> 01:05:43,620
+hash dash monitor hash board pocket dash D has a couple of names, whatever sticks.
+
+813
+01:05:43,700 --> 01:05:44,740
+But you can
+
+814
+01:05:45,325 --> 01:05:46,925
+can send us Zaps,
+
+815
+01:05:47,245 --> 01:05:55,565
+GIFs work, images work, messages, and we'll see them there along with the top miners and the top workers and some QRs to support the foundation,
+
+816
+01:05:55,645 --> 01:05:57,245
+as well as instructions to
+
+817
+01:05:57,485 --> 01:05:59,965
+point your Hashrate to our HydroPool instance
+
+818
+01:06:00,300 --> 01:06:01,660
+and get on the leaderboard.
+
+819
+01:06:02,140 --> 01:06:05,500
+Unknown: Yeah. I don't I don't know if we officially announced this before, but we're using
+
+820
+01:06:06,620 --> 01:06:08,140
+the two fifty six Foundation's
+
+821
+01:06:08,140 --> 01:06:12,620
+HydroPool instance as the official way to donate Hashrate to the show now. That's right.
+
+822
+01:06:13,585 --> 01:06:14,465
+Go to
+
+823
+01:06:15,025 --> 01:06:17,425
+-.256f.org
+
+824
+01:06:17,425 --> 01:06:18,785
+to play along.
+
+825
+01:06:19,585 --> 01:06:23,985
+Unknown: And I'd be remiss if I didn't tell all the heat punks to do the following as well because,
+
+826
+01:06:24,385 --> 01:06:42,775
+you know, the heat Hashrate heatpunk community is now under the parent org of the two five six foundation. So when we mine the next 10 blocks, we'll have some money to fund some crazy HashRay heating projects as well. So contribute your HashRay. Point your point your space heaters and boilers and pool heaters to the hashtag dashboard.
+
+827
+01:06:44,375 --> 01:06:46,295
+Unknown: And put something really cool in your
+
+828
+01:06:46,615 --> 01:06:47,495
+worker name
+
+829
+01:06:47,735 --> 01:06:55,015
+Unknown: and Tyler will read it for Bailey. It'd be cool if we could I guess the users are teams, but it'd be cool if people could
+
+830
+01:06:55,790 --> 01:07:10,455
+team up too. Like, I would love to know which of these people are are heat pumps, like heating setups, which are, you know, little desktop miners. I wonder if there's a way to do that with, a hashtag or something. I'm sure Dee supports emojis or something in the worker names. We just like add flames. Yeah.
+
+831
+01:07:10,855 --> 01:07:16,375
+Unknown: That'd be cool. Oh, yeah. Oh my gosh. Dee, this is a great idea. We need to form like teams.
+
+832
+01:07:16,454 --> 01:07:17,255
+Unknown: Factions.
+
+833
+01:07:19,654 --> 01:07:22,454
+Unknown: I like that. I like that. Yeah. Factions. We can like,
+
+834
+01:07:23,450 --> 01:07:26,490
+you know, rope more people into donating Hashrate by, you
+
+835
+01:07:27,369 --> 01:07:28,330
+know, we gotta
+
+836
+01:07:28,730 --> 01:07:39,375
+Unknown: Igor's like, I don't wanna be a pool operator, but we're gonna get this sucker to have a lot of Hashrates. I mean, Dee loves gamifying this. So if we can add teams, it's just another layer of the game. That's true.
+
+837
+01:07:40,495 --> 01:07:43,775
+Unknown: Oh, that's a great idea. I think that'd be really neat.
+
+838
+01:07:45,055 --> 01:07:46,815
+Unknown: Well, sweet. I mean, I
+
+839
+01:07:47,615 --> 01:07:59,360
+think that's you got anything else you want to dive into today, Scott? No, I think that's it. It's been a rad chat with you guys. Thanks for joining us, Dylan. Of course. Thanks for having me. This is great. Yeah. Well, we
+
+840
+01:07:59,760 --> 01:08:06,160
+knew Iko was going to have technical difficulties, so I looped in Dylan just in case. Yeah, his dial up connection didn't really
+
+841
+01:08:07,505 --> 01:08:15,665
+work, surprisingly. Yeah, that's right. I'm looking forward to seeing everyone next week here in Colorado for the Heat Punk Summit. It's going be an awesome time.
+
+842
+01:08:16,225 --> 01:08:18,865
+It's one of those events where everyone here is
+
+843
+01:08:19,440 --> 01:08:21,360
+in the weeds on Bitcoin mining,
+
+844
+01:08:21,680 --> 01:08:22,960
+or they're just some
+
+845
+01:08:23,520 --> 01:08:28,960
+wrench turner that thinks this is crazy cool and learning from a novice level. So it's gonna be a really fun collaboration.
+
+846
+01:08:29,360 --> 01:08:30,560
+Unknown: I'm so excited.
+
+847
+01:08:30,960 --> 01:08:31,760
+I I mean,
+
+848
+01:08:32,415 --> 01:08:36,094
+it's all people that want to build stuff too, which is pretty fantastic.
+
+849
+01:08:36,175 --> 01:08:40,094
+Unknown: They either literally build homes or they build Bitcoin miners. It's a good group.
+
+850
+01:08:41,534 --> 01:08:43,695
+Unknown: Together at last. Yes.
+
+851
+01:08:44,014 --> 01:08:48,430
+Unknown: Awesome. Well, that's a wrap for pod two fifty six episode 105.
+
+852
+01:08:48,430 --> 01:08:51,150
+Think you guys said. Yeah. Yeah. Crazy.
+
+853
+01:08:51,150 --> 01:08:56,785
+And, we'll catch you guys next week. Maybe we'll be able to do something here from Denver in the hot tub. We'll see.
+
+854
+01:08:57,825 --> 01:08:58,626
+Otherwise
+
+855
+01:08:58,786 --> 01:09:01,506
+take care and we'll see you next time. Later everyone.
+

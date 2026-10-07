@@ -1,0 +1,2340 @@
+1
+00:00:00,000 --> 00:00:05,680
+Unknown: Pod two fifty six, number 1 zero six coming at you live March 4,
+
+2
+00:00:07,200 --> 00:00:08,160
+from
+
+3
+00:00:08,559 --> 00:00:09,999
+the hashtub.
+
+4
+00:00:10,240 --> 00:00:11,519
+Unknown: The hashtub.
+
+5
+00:00:12,000 --> 00:00:13,084
+Unknown: Hell, yeah.
+
+6
+00:00:13,405 --> 00:00:14,684
+From the Hashtub,
+
+7
+00:00:14,764 --> 00:00:17,724
+following a Tyler. Very successful Heatpunk Summit.
+
+8
+00:00:19,085 --> 00:00:19,965
+Yeah.
+
+9
+00:00:20,365 --> 00:00:22,605
+Unknown: You wanna tell us about the Heatpunk Summit?
+
+10
+00:00:24,204 --> 00:00:27,005
+Sure. So I had a great time. Week.
+
+11
+00:00:28,060 --> 00:00:28,860
+Unknown: Good.
+
+12
+00:00:29,260 --> 00:00:33,180
+Yeah. Dylan and I hosted the the heat pump summit here with our friend Cody.
+
+13
+00:00:33,340 --> 00:00:41,664
+Second second annual summit here at the space in Denver, Colorado. This this Bitcoin heated hot tub that we're in right now was one of the highlights, but,
+
+14
+00:00:42,144 --> 00:00:44,785
+to recap, the summit was focused on all things
+
+15
+00:00:45,105 --> 00:00:56,379
+bringing Bitcoin miners back to homes and businesses in a useful way, using that that heat that they make. So we had folks from the heating industry that knew nothing about Bitcoin all the way to
+
+16
+00:00:56,699 --> 00:01:03,659
+really wicked smart people like yourselves hacking together over two days with hardware demos, two five six foundation demos,
+
+17
+00:01:04,220 --> 00:01:08,780
+workshops, talks. It was really quite something. I think we managed to orange peel
+
+18
+00:01:09,425 --> 00:01:19,345
+Unknown: all the HVAC and plumbers that were here. Hell, yeah. They asked the most insightful questions, I think. They were really just blown away about the possibilities of Hashrate Heating. Yeah.
+
+19
+00:01:21,905 --> 00:01:24,790
+Unknown: It was cool meeting, like, actual electricians
+
+20
+00:01:24,790 --> 00:01:25,510
+and,
+
+21
+00:01:26,630 --> 00:01:29,750
+plumbers and, you know, just general tradesmen
+
+22
+00:01:30,070 --> 00:01:32,230
+at a Bitcoin conference.
+
+23
+00:01:34,150 --> 00:01:36,470
+That just kinda put a unique angle on everything.
+
+24
+00:01:38,185 --> 00:01:39,785
+Unknown: It's so cool because we're all like
+
+25
+00:01:40,345 --> 00:01:43,865
+everyone there was builders. It was so neat just being with builders
+
+26
+00:01:44,025 --> 00:01:46,425
+and obviously focused on Bitcoin mining,
+
+27
+00:01:47,305 --> 00:01:50,905
+and how to how to, like, scale up this
+
+28
+00:01:51,290 --> 00:01:52,810
+this industry that
+
+29
+00:01:52,970 --> 00:01:56,490
+seems obvious and just, you know, frankly needs to happen.
+
+30
+00:01:56,810 --> 00:01:57,530
+Unknown: Right.
+
+31
+00:01:59,050 --> 00:02:00,410
+Unknown: I really appreciated
+
+32
+00:02:00,410 --> 00:02:01,450
+the
+
+33
+00:02:02,090 --> 00:02:06,875
+hydronics engineer just absolutely eviscerating our boiler setup in the basement. That was
+
+34
+00:02:07,275 --> 00:02:08,715
+insightful, helpful,
+
+35
+00:02:08,955 --> 00:02:10,155
+but further
+
+36
+00:02:10,155 --> 00:02:12,395
+testament that we are not hydronics engineers.
+
+37
+00:02:13,355 --> 00:02:14,075
+Unknown: Yep.
+
+38
+00:02:14,395 --> 00:02:17,675
+He followed up too. He sent us a nice schematic of what it should look like.
+
+39
+00:02:21,910 --> 00:02:32,310
+Unknown: What did you guys get wrong? Because it I mean, it it looks really clean when you look at it. I'm not sure, like, the order of all the components and all that and the sizing, but I think that's the blunt of it is.
+
+40
+00:02:33,265 --> 00:02:43,505
+Unknown: Yeah, where the expansion tank is in the in the series, like, as you're following the hot water out of the Bitcoin mining system. That's the boiler. The pump is in the wrong spot.
+
+41
+00:02:44,545 --> 00:02:45,905
+Unknown: Our mixing valve is stupid.
+
+42
+00:02:47,150 --> 00:02:48,430
+Small stuff like that.
+
+43
+00:02:48,910 --> 00:02:50,510
+Unknown: But we got it all recorded.
+
+44
+00:02:50,590 --> 00:02:55,630
+I'm working on getting those on, the YouTube channel. So that'll be cool to have a
+
+45
+00:02:56,590 --> 00:03:05,625
+plumbing workshop with a a professional hydronics engineer walking through how to integrate a Bitcoin miner into your heated floors and hot water systems, which will be sweet.
+
+46
+00:03:10,665 --> 00:03:14,710
+Unknown: Yeah. I mean, having that sort of critique on something you built,
+
+47
+00:03:15,510 --> 00:03:18,070
+because I think so many home miners are just
+
+48
+00:03:18,310 --> 00:03:20,070
+they encounter issues,
+
+49
+00:03:20,630 --> 00:03:23,670
+and then they just kinda use whatever they have available.
+
+50
+00:03:23,750 --> 00:03:29,565
+You know, they're very resourceful, so they'll just use whatever they can get their hands on to try and solve problems
+
+51
+00:03:29,805 --> 00:03:31,565
+any way that works. Yeah. You
+
+52
+00:03:32,204 --> 00:03:33,644
+know, they're not necessarily,
+
+53
+00:03:33,644 --> 00:03:35,885
+like, professional electricians,
+
+54
+00:03:35,885 --> 00:03:36,685
+and therefore,
+
+55
+00:03:36,845 --> 00:03:46,950
+they wind up doing something like catching the power lines above their house on fire like I did or, like, blowing up a transformer in their neighborhood like many others have.
+
+56
+00:03:48,150 --> 00:03:48,790
+And,
+
+57
+00:03:49,670 --> 00:03:56,595
+you know, the same applies when it comes to, like, the you know, anything that's, like, moving fluid around or heating water. Like,
+
+58
+00:03:57,155 --> 00:03:57,795
+the
+
+59
+00:03:58,275 --> 00:04:04,115
+HVAC and hydronics industries have been very well established for a very long time, and
+
+60
+00:04:04,515 --> 00:04:08,355
+they have certain components Yeah. Even the simple stuff. Of doing things that
+
+61
+00:04:09,090 --> 00:04:09,970
+make sense.
+
+62
+00:04:10,210 --> 00:04:10,770
+Exactly.
+
+63
+00:04:13,730 --> 00:04:23,250
+Unknown: Like Go ahead. One of the big things was Bitcoin miners have the water cooled Bitcoin miners have aluminum water blocks, and most plumbing is brass or copper.
+
+64
+00:04:24,115 --> 00:04:40,220
+So that results in galvanic corrosion. You need, like, corrosion inhibitors. So, I mean, it's just really interesting to hear that outline from a guy from the heating industry to say, hey, if you were ever gonna make a Bitcoin miner that's a heating system for homes, you probably don't want aluminum water blocks on top of the chips.
+
+65
+00:04:41,260 --> 00:04:47,500
+All sorts of problems you run into when you're taking these things meant for data centers and trying to put them into unique applications.
+
+66
+00:04:52,474 --> 00:04:53,195
+Unknown: Right.
+
+67
+00:04:53,435 --> 00:04:54,634
+Unknown: Is this solution,
+
+68
+00:04:55,354 --> 00:04:58,074
+copper water blocks, or is there a different metal?
+
+69
+00:04:59,435 --> 00:05:01,754
+Unknown: Well, what are the what are the chips
+
+70
+00:05:01,835 --> 00:05:08,950
+the top of the chips made out of? I mean, I know there's a thermal paste layer in between, but I'm just thinking about all the metal on metal contact.
+
+71
+00:05:09,510 --> 00:05:13,750
+Brass or copper. Titanium is a pretty neutral metal, but it's really expensive.
+
+72
+00:05:21,005 --> 00:05:23,805
+Unknown: Yeah. Yeah. I mean, the tops of the chips are
+
+73
+00:05:24,445 --> 00:05:27,165
+are, made out of plastic
+
+74
+00:05:27,725 --> 00:05:29,245
+and silicon.
+
+75
+00:05:30,285 --> 00:05:30,925
+Okay.
+
+76
+00:05:31,565 --> 00:05:36,520
+But I guess there, you know, there's some solder in there. Hopefully, not touching that. That's,
+
+77
+00:05:37,560 --> 00:05:39,240
+tin Right. And,
+
+78
+00:05:43,160 --> 00:05:43,560
+silver.
+
+79
+00:05:47,314 --> 00:05:55,155
+But yeah, you're not really touching that. Hopefully, it's not getting wet too. That would be you would have big problems if it was getting wet. That would be a big problem. That would be a big problem.
+
+80
+00:05:55,474 --> 00:05:57,155
+Unknown: I mean, overall, that's the beauty of this
+
+81
+00:05:58,435 --> 00:05:59,474
+Unknown: yeah. Go ahead, Ico.
+
+82
+00:06:03,410 --> 00:06:10,930
+Unknown: I I was just gonna say I just you know, I I really think the the heatbunk summit is where the signal is because that's where the builders are.
+
+83
+00:06:13,155 --> 00:06:20,515
+You know, it's sometimes it can be interesting, like, hearing about what, like, larger companies are doing, and
+
+84
+00:06:20,995 --> 00:06:23,315
+it just seems like a lot of that just
+
+85
+00:06:23,555 --> 00:06:28,730
+leans toward, like, treasury management strategies and, like, these, like, financial,
+
+86
+00:06:30,010 --> 00:06:36,090
+for lack of better term, tricks that they're doing to, like, you know, if they're publicly traded, increase their stock price.
+
+87
+00:06:36,810 --> 00:06:41,850
+I I just so much of the, like, corporate content I hear is just not
+
+88
+00:06:42,585 --> 00:06:43,865
+tangible for
+
+89
+00:06:44,185 --> 00:06:45,705
+the basic builder.
+
+90
+00:06:45,865 --> 00:06:49,385
+Whereas when you go to the Heatpunk Summit, it's like everything
+
+91
+00:06:50,185 --> 00:06:52,025
+being talked about there is
+
+92
+00:06:52,585 --> 00:06:56,104
+information you can take and start doing something with immediately.
+
+93
+00:06:56,759 --> 00:06:59,160
+And for me, that's high signal,
+
+94
+00:06:59,879 --> 00:07:03,080
+and, you know, why I enjoyed the conference so much.
+
+95
+00:07:04,759 --> 00:07:08,599
+Unknown: Well, thank you. Never noticed so far. Do it too. It's it's infectious.
+
+96
+00:07:09,915 --> 00:07:11,195
+Unknown: Yeah. I mean, Scott,
+
+97
+00:07:11,514 --> 00:07:22,395
+I was pretty blown away at the conversation you and Tyler had with Kanan. They seemed pretty willing and open to step up to the plate and to play ball. Yeah. Let's talk about that. What'd you what's your what's your digest on that, Scott?
+
+98
+00:07:26,040 --> 00:07:30,680
+Unknown: I I mean, I was actually blown away too. I you know, I've been talking with,
+
+99
+00:07:31,160 --> 00:07:37,800
+with Leo, who I was on we were on stage with. I've been talking to him for almost a year now, and,
+
+100
+00:07:38,280 --> 00:07:39,720
+you know, it was always kind of like,
+
+101
+00:07:40,685 --> 00:07:42,445
+okay. Yeah. Like,
+
+102
+00:07:42,845 --> 00:07:53,165
+we'll look into it or whatever. But, I think just, you know, the excitement of this event and all the people that are there who are wanting to do this so bad and and hearing from other panelists
+
+103
+00:07:53,700 --> 00:07:57,700
+on stage at the event being like, we want to build these machines.
+
+104
+00:07:58,420 --> 00:07:59,780
+I was
+
+105
+00:08:00,020 --> 00:08:03,940
+I was really excited when, you know, they basically said on stage, like,
+
+106
+00:08:04,500 --> 00:08:05,380
+we wanna do this,
+
+107
+00:08:05,965 --> 00:08:08,685
+When when Kanan said, we wanna do this. And,
+
+108
+00:08:09,005 --> 00:08:13,645
+you know, it it very much was like, yeah, let's go. Let's get this done.
+
+109
+00:08:14,605 --> 00:08:17,005
+So that that was a a huge development.
+
+110
+00:08:17,085 --> 00:08:18,205
+Looking forward to,
+
+111
+00:08:19,600 --> 00:08:38,795
+you know, making it happen. I mean, I think, you know, both the the Hashrate heating market and just home mining in general is kind of suffering under the the current status quo, which is that no ASIC manufacturers sell chips to anyone besides themselves. Right? And they only build the kind of machines that
+
+112
+00:08:39,355 --> 00:08:42,235
+their current large customers want, which is just
+
+113
+00:08:42,634 --> 00:08:43,514
+on grid,
+
+114
+00:08:43,834 --> 00:08:46,235
+mining. So,
+
+115
+00:08:46,394 --> 00:08:59,720
+you know, what I was what I was saying to Leo on stage was we we we need someone to just kinda take this opportunity to and and break us out of this, like, chicken and the egg problem that we have currently, which is, like,
+
+116
+00:09:00,600 --> 00:09:03,320
+you know, the home mining, hash rate heating market is really small,
+
+117
+00:09:04,635 --> 00:09:13,995
+but it's really small because no one will make hardware for it. And so we need someone to to break us out of that vicious cycle and get it going. And it was very exciting to see them
+
+118
+00:09:14,955 --> 00:09:20,060
+start to to realize that and and be interested in in being the the change there.
+
+119
+00:09:21,420 --> 00:09:25,180
+Unknown: What would I unfortunately scenario look like with a
+
+120
+00:09:25,820 --> 00:09:30,380
+with a player like Kanan coming onto the scene and contributing to open source?
+
+121
+00:09:32,595 --> 00:09:36,834
+Unknown: You know, the the ideal scenario, I think, is someone who who is
+
+122
+00:09:36,995 --> 00:09:42,035
+willing to do this. Right? All the all the bid access and and actually all the
+
+123
+00:09:42,435 --> 00:09:43,074
+sort of,
+
+124
+00:09:43,714 --> 00:09:47,394
+heat reuse stuff, right, is is currently building with,
+
+125
+00:09:48,435 --> 00:09:50,250
+you know, essentially unauthorized
+
+126
+00:09:50,410 --> 00:09:51,210
+parts.
+
+127
+00:09:51,290 --> 00:09:52,730
+Right? There's there's no,
+
+128
+00:09:53,370 --> 00:09:57,610
+support or willingness to do this from the ASIC manufacturers.
+
+129
+00:09:58,010 --> 00:09:58,570
+So,
+
+130
+00:09:59,450 --> 00:10:09,505
+you know, we need a willing partner. There there's a lots of different ways that they could be willing partners, but just that, like, interest in in, like, doing this and being a part of it is
+
+131
+00:10:09,825 --> 00:10:11,105
+it's huge for,
+
+132
+00:10:12,385 --> 00:10:13,985
+you know, what we're all working on.
+
+133
+00:10:14,870 --> 00:10:22,709
+But I hope that they realize it can be huge for them too. Right? You know, the end result here is an ASIC manufacturer
+
+134
+00:10:22,949 --> 00:10:23,750
+selling
+
+135
+00:10:23,750 --> 00:10:24,470
+more.
+
+136
+00:10:25,589 --> 00:10:28,870
+I think I think that's really important too. And I think that they're,
+
+137
+00:10:29,745 --> 00:10:39,905
+you know, they're starting to realize that. I think as as a lot of the larger miners are pivoting to AI and potentially buying less of these industrial mining machines,
+
+138
+00:10:40,145 --> 00:10:46,120
+and they're starting to realize that if they wanna stay in this game, they need to be selling more chips. And I I think we can provide,
+
+139
+00:10:47,000 --> 00:10:49,160
+a lot of new customers for them.
+
+140
+00:10:49,960 --> 00:10:50,600
+So,
+
+141
+00:10:51,160 --> 00:10:53,080
+you know, being willing But, hire and then
+
+142
+00:10:55,080 --> 00:11:00,644
+Unknown: the Kanan workshop where people the actual builders got to bring their ideas and complaints and
+
+143
+00:11:01,285 --> 00:11:09,845
+recommendations and suggestions of how they can improve and actually meet the Hashrate heaters in the middle, I I heard that was fantastic. I'm I'm hopeful that Kanan will actually
+
+144
+00:11:10,649 --> 00:11:11,769
+take that advice.
+
+145
+00:11:12,089 --> 00:11:15,290
+Unknown: Yeah. Shnitzel and I were in there. I was kinda leading it.
+
+146
+00:11:15,690 --> 00:11:21,690
+It ranged everything from, you know, you got some quote, unquote open source repos on your GitHub
+
+147
+00:11:21,850 --> 00:11:29,495
+that aren't fully open source, and they were receptive, and they were like, oh, I mean, thanks for the feedback. We don't even really know what that means.
+
+148
+00:11:30,535 --> 00:11:35,655
+Down to, can you integrate this feature into your app to, can you make this hardware change? And even,
+
+149
+00:11:36,340 --> 00:12:29,615
+hey, can we can we set these things up without your app? We told them about Home Assistant and all the smart IoT things that people are interested in. They they just I found out from this week that they're starting to sell online in Best Buy soon, hopefully, in Best Buy retail locations. And, like, things that come to mind are your little Google Nest integration or Home Assistant logo on the box at Best Buy that tells a customer when they're buying a little smart heater, like, oh, sweet. I can control this with the rest of my smart home. And that that really opened their eyes. They were like, wait. We we definitely want those logos on the box at Best Buy. And so I I think this is all moving in the right direction. Got an audio recording of that that we'll we'll release as well. But overall, like, where can you get that kind of content? Where can you get an intimate setting with 15 people in a conference room chatting with an executive from Canaan and a lot of their marketing and sales team and a bunch of heat punks and home miners and builders
+
+150
+00:12:30,240 --> 00:12:35,840
+just giving candid, thoughtful, sometimes good, sometimes negative advice and feedback. It was awesome.
+
+151
+00:12:41,120 --> 00:12:48,214
+Unknown: I think to your point, Scott, like, what's what's really interesting about this situation with like onboarding
+
+152
+00:12:48,454 --> 00:12:56,774
+ASIC manufacturers is they they really there's there's really not a whole lot they need to do to make a major impact
+
+153
+00:12:57,280 --> 00:12:58,640
+in this industry.
+
+154
+00:12:59,200 --> 00:12:59,600
+Like,
+
+155
+00:13:00,480 --> 00:13:04,640
+it's just just a little bit of documentation,
+
+156
+00:13:04,720 --> 00:13:08,160
+a little bit of support, just not being antagonistic
+
+157
+00:13:08,160 --> 00:13:11,405
+toward the end consumer goes a really long way.
+
+158
+00:13:12,285 --> 00:13:26,150
+Unknown: And it's just it's just kinda funny that that's where the industry's at right now. It's like we wanna buy your stuff, and we wanna create more customers for you. Right? More products. We wanna enable more companies to spin up, you know, using your components.
+
+159
+00:13:27,750 --> 00:13:28,470
+I I just
+
+160
+00:13:29,510 --> 00:13:33,110
+I don't see any downside to them, really.
+
+161
+00:13:33,430 --> 00:13:40,395
+Yeah. Like, a little bit of effort on their part with basically no downside. I mean, we're we're not even asking for much here.
+
+162
+00:13:41,595 --> 00:13:51,275
+Unknown: And this is effort that the two five six foundation is able and willing to help out with. I think, you know, one of the most interesting things Leo said on stage during your talk, Scott, was
+
+163
+00:13:52,260 --> 00:13:54,420
+language barrier, cultural differences.
+
+164
+00:13:54,500 --> 00:14:07,965
+I don't think it is necessary malicious. I mean, it was awesome to hear Leo walk through the history of Canon, the power they felt when they created the first ASIC chip, not selling them all to Bitmain. I mean, they've had these internal battles because they believe in decentralization
+
+165
+00:14:08,045 --> 00:14:16,285
+and open source and home mining, apparently, their founder NG, which is really cool to hear. And so I think a lot of it is attributed to just, like, they need a little helping hand.
+
+166
+00:14:17,725 --> 00:14:18,845
+So I hope we can do that.
+
+167
+00:14:20,870 --> 00:14:22,550
+Unknown: Yeah. Here in the background
+
+168
+00:14:22,790 --> 00:14:26,709
+that he gave on on Canon and, like, the history of the company,
+
+169
+00:14:27,110 --> 00:14:30,470
+it really sounded like their intentions were in the right place.
+
+170
+00:14:31,110 --> 00:14:34,725
+And they just need a little bit of help and guidance in
+
+171
+00:14:34,965 --> 00:14:37,205
+terms of, like, understanding
+
+172
+00:14:37,445 --> 00:14:40,805
+what we're actually saying or, like, the definition
+
+173
+00:14:40,805 --> 00:14:44,405
+when we use the words open source and what that actually means
+
+174
+00:14:44,725 --> 00:14:48,325
+and, like, the practical implications of it and and how to do that.
+
+175
+00:14:50,529 --> 00:14:56,529
+Unknown: Yeah. I mean, I appreciate them not setting up an exclusive deal with Bitmain early on.
+
+176
+00:14:56,930 --> 00:15:04,050
+But Yeah. You know, I think what Bitcoin mining needs is basically no exclusive deals. And why why limit yourself, really?
+
+177
+00:15:05,655 --> 00:15:06,375
+You know, we we
+
+178
+00:15:07,255 --> 00:15:12,295
+they wanna sell a bunch of chips and and really, you know, become a a leader there,
+
+179
+00:15:12,855 --> 00:15:14,295
+like Bitmain is now,
+
+180
+00:15:16,215 --> 00:15:17,255
+sell chips to everyone.
+
+181
+00:15:18,640 --> 00:15:19,360
+Right.
+
+182
+00:15:19,680 --> 00:15:21,200
+So you know? Like,
+
+183
+00:15:21,760 --> 00:15:22,560
+the that
+
+184
+00:15:23,040 --> 00:15:29,040
+is that is decentralization when there isn't sort of one entity at the center of it controlling who
+
+185
+00:15:29,280 --> 00:15:30,800
+can and can't use,
+
+186
+00:15:31,680 --> 00:15:32,480
+mining chips.
+
+187
+00:15:33,404 --> 00:15:35,644
+Unknown: Right. And it's like the
+
+188
+00:15:36,445 --> 00:15:45,485
+the, like, business model for selling chips is proven. I mean, just look at, like like, Texas Instruments or any of these other companies that just met
+
+189
+00:15:45,565 --> 00:15:47,485
+manufacture and sell chips.
+
+190
+00:15:48,365 --> 00:15:49,820
+Right? Yeah.
+
+191
+00:15:49,980 --> 00:15:51,420
+Unknown: Yeah. Exactly.
+
+192
+00:15:51,500 --> 00:15:53,820
+Exactly. And I think that,
+
+193
+00:15:54,620 --> 00:15:57,900
+you know, we we talked a little bit about this on stage. You know, they were
+
+194
+00:15:58,620 --> 00:16:06,985
+worried about, you know, how much support they have to give the industry and, you know, the the sort of overhead on their side of creating,
+
+195
+00:16:07,545 --> 00:16:09,225
+technical documentation
+
+196
+00:16:09,545 --> 00:16:11,065
+and support,
+
+197
+00:16:11,785 --> 00:16:27,899
+videos and things like that. And my message was like, look, you don't even have to do that. We're already doing that for for Bitmain stuff, essentially. Like, this is a whole this is a whole summit centered around making it easier for people to use this stuff.
+
+198
+00:16:28,620 --> 00:16:42,605
+So, like, don't worry. Don't worry, Kanan. Like, we will definitely do that. What we just need is access to to get the chips so that we can get this whole community rolling and get them fired up. I mean, you know,
+
+199
+00:16:43,245 --> 00:16:45,005
+once this once this gets going,
+
+200
+00:16:46,530 --> 00:16:48,210
+there'll be no shortage
+
+201
+00:16:48,370 --> 00:16:48,930
+of,
+
+202
+00:16:49,890 --> 00:16:54,770
+you know, educational stuff, videos, podcasts, people talking about it. Right? Well,
+
+203
+00:16:55,250 --> 00:16:56,850
+the the marketing's handled.
+
+204
+00:16:57,330 --> 00:16:59,045
+Unknown: Yeah. Yeah. I agree.
+
+205
+00:17:00,885 --> 00:17:05,205
+Yeah. That whole talk, just I had mean, I guess maybe I'm a little biased.
+
+206
+00:17:05,685 --> 00:17:06,404
+Sorry.
+
+207
+00:17:07,525 --> 00:17:10,645
+Unknown: Go ahead. Whole talk, just had the the Thanos
+
+208
+00:17:10,270 --> 00:17:19,629
+meme at the end of the first Avengers movie, like, him putting the glove on. I'll do it myself. I'm like, we'll just do it. Like, just give us what we need, and we'll take care of it for you.
+
+209
+00:17:21,630 --> 00:17:23,950
+Unknown: Yeah. Yeah. And and,
+
+210
+00:17:24,590 --> 00:17:25,309
+you know, this,
+
+211
+00:17:26,325 --> 00:17:32,004
+like, the the heatpunk summit was was sold out. Right? I don't think there's any shortage of people who want to do this.
+
+212
+00:17:32,804 --> 00:17:35,604
+Yeah. It it'll just grow like wildfire.
+
+213
+00:17:36,965 --> 00:17:37,364
+Unknown: Yeah.
+
+214
+00:17:38,005 --> 00:17:41,284
+Unknown: And Are you guys already planning heatpunk summit number three?
+
+215
+00:17:43,050 --> 00:17:43,769
+Unknown: No.
+
+216
+00:17:44,330 --> 00:17:45,049
+No.
+
+217
+00:17:46,730 --> 00:17:52,650
+We'll start, but, Dylan and I are gonna take a much needed vacation. Yeah. We need at least a week. Yeah.
+
+218
+00:17:54,905 --> 00:17:59,465
+But I have ideas. I have notes. Really thought the workshops were a highlight for me.
+
+219
+00:18:00,105 --> 00:18:07,385
+We didn't do workshops last year, and so the workshops were a huge highlight for me. To recap, we got we had a workshop with Kanan on the home miners.
+
+220
+00:18:07,870 --> 00:18:28,044
+We had a workshop with Joe from Tether who walked through mining OS, their new open source mining operating system or management system for for machines and hardware that you have in a mining site ranging from scale. We had a workshop with architecture firm that, you know, really revolved around the check boxes and on the regulatory and insurance
+
+221
+00:18:28,845 --> 00:18:35,005
+side of things for what they would need for these miners to even be allowed on engineering drawings for new buildings as heating systems.
+
+222
+00:18:35,770 --> 00:18:46,490
+And then we had Dylan walk through Home Assistant, how to control these Bitcoin miners as smart home heaters. And then we had the Hydronics one with Josh in the basement. So that that was a highlight for me. I wanna do more workshops.
+
+223
+00:18:46,650 --> 00:18:47,690
+Talks were also great.
+
+224
+00:18:48,445 --> 00:18:49,485
+Food was great.
+
+225
+00:18:50,125 --> 00:18:51,325
+Huge success.
+
+226
+00:18:53,805 --> 00:18:58,765
+Unknown: I was Can we It was tough because all the workshops were at the same time. I wanted to be at all of them.
+
+227
+00:18:59,085 --> 00:19:02,765
+Unknown: Yeah. That's good feedback that I've been hearing from others insurance one.
+
+228
+00:19:04,550 --> 00:19:08,950
+Unknown: Can can we back up and Yeah. The architecture one was and what's required? Insurance.
+
+229
+00:19:09,750 --> 00:19:14,390
+Unknown: Oh, the insurance panel too. Yeah. There was a regular we literally called the panel regulatory BS.
+
+230
+00:19:14,950 --> 00:19:22,315
+There was a a former president from the New York City ASHRAE chapter, which is cool. The American Society of Heating refrigerants
+
+231
+00:19:22,315 --> 00:19:28,794
+air conditioning engineers. They're the ones that set all the standards for those yellow stickers and that are on the side of your water heaters and everything.
+
+232
+00:19:29,355 --> 00:19:30,554
+So that was cool insight.
+
+233
+00:19:31,620 --> 00:19:34,980
+An insurance broker that's looking at emerging markets,
+
+234
+00:19:35,060 --> 00:19:36,820
+basically, the learning there was
+
+235
+00:19:37,460 --> 00:19:48,065
+this is Wild West putting Bitcoin miners in homes and homeowners insurance because he what did he say? He was like, right now, you have a data center with AI computers and then you have a data center with Bitcoin miners, same infrastructure.
+
+236
+00:19:48,304 --> 00:19:53,264
+You know, it's silicon, it's printed circuit boards, it's cooling fans, it's pumps,
+
+237
+00:19:53,665 --> 00:20:06,230
+it's, transformers, all all the electrical switch gear, ethernet. It's all the same shit. And he said that the premiums are, like, eight times higher on the Bitcoin miners. Yeah. You just throw that b word on there. They just hate the word Bitcoin. So that was interesting to hear.
+
+238
+00:20:07,990 --> 00:20:09,590
+Unknown: Dude, that's insane. What gives?
+
+239
+00:20:11,605 --> 00:20:29,840
+Unknown: It's just a naughty word right now. The like, literally, the answer what he kept saying was we gotta educate them that it's not different. I mean, he said one of the questions they often get asked is, well, if my mind burns down, where where does the Bitcoin go? So that's the level of education they're at. Yeah. The main takeaway I got from the summit was education education. Yeah.
+
+240
+00:20:33,680 --> 00:20:34,480
+Unknown: Yeah.
+
+241
+00:20:35,680 --> 00:20:38,880
+And think about this, like, let's you know, you're
+
+242
+00:20:39,505 --> 00:20:40,785
+a minor manufacturer
+
+243
+00:20:40,785 --> 00:20:50,785
+and you wanna sell into more of these industries like this. Like, are you gonna tackle every regulatory body in every country of the world to try and figure out the specifics to open up those markets?
+
+244
+00:20:51,440 --> 00:21:02,480
+Or just, you know, let the the peep the people, the companies in those markets do that because they wanna sell products into it and, you know, sell chips to them all. Yeah.
+
+245
+00:21:02,800 --> 00:21:03,440
+Unknown: Exactly.
+
+246
+00:21:05,655 --> 00:21:06,855
+Unknown: Speaking about that,
+
+247
+00:21:07,575 --> 00:21:10,535
+mention of AI and Bitcoin mining and data centers,
+
+248
+00:21:11,015 --> 00:21:17,975
+I just sent you guys a tweet right before we hopped in the tub. Dylan sent it to me. Looks like Auradine has rebranded to Ventura.
+
+249
+00:21:18,760 --> 00:21:23,799
+Valora. Valora as an AI company. I mean, the website's updated. The Twitter account's updated.
+
+250
+00:21:24,280 --> 00:21:28,600
+Yeah. There's there's no mention of Bitcoin on their Twitter account, on their website.
+
+251
+00:21:28,840 --> 00:21:29,720
+I
+
+252
+00:21:30,040 --> 00:21:35,395
+don't even know if I mean, they make chips. Right, Scott? Like, there's gotta be at least some in existence.
+
+253
+00:21:35,875 --> 00:21:37,155
+Unknown: Very interesting. They have
+
+254
+00:21:38,195 --> 00:21:42,434
+made chips. Are they still making chips? I don't know. It doesn't seem like it's a focus anymore.
+
+255
+00:21:42,995 --> 00:21:45,235
+Unknown: Crazy. Not. Another one bites the dust.
+
+256
+00:21:47,510 --> 00:21:49,669
+Unknown: Who else is pivoting out of Bitcoin?
+
+257
+00:21:50,789 --> 00:21:52,629
+There I heard someone else was.
+
+258
+00:21:52,950 --> 00:21:55,190
+Unknown: I can't remember. Well, Marathon.
+
+259
+00:21:55,190 --> 00:21:59,510
+Mara is. Yeah. Marathon is. Right? Yeah. BitDeer already has
+
+260
+00:22:00,315 --> 00:22:02,715
+or has announced their intention to.
+
+261
+00:22:05,355 --> 00:22:07,114
+Core Scientific has.
+
+262
+00:22:08,315 --> 00:22:09,034
+Unknown: Yeah.
+
+263
+00:22:11,434 --> 00:22:17,450
+Unknown: I You know, I I assume they they all have they're all trying to to raise money and attract investors,
+
+264
+00:22:17,770 --> 00:22:18,249
+and
+
+265
+00:22:18,650 --> 00:22:23,129
+AI is the new hotness. So I gotta believe this is a You wanna say hi? We're on a podcast.
+
+266
+00:22:23,610 --> 00:22:30,335
+A ploy to or a ploy a strategy to get more investment. What's this for? You know, whether that means they're stopping
+
+267
+00:22:31,135 --> 00:22:32,575
+their Bitcoin initiatives.
+
+268
+00:22:32,735 --> 00:22:35,615
+Unknown: What up, dudes? What up, two fifty six Foundation?
+
+269
+00:22:36,415 --> 00:22:44,019
+Sorry. That's Eric Yakes jumping in for a shout out. Get him on camera. I'm stopping by the tub. I'm thinking about all this open source mining firmware.
+
+270
+00:22:44,419 --> 00:22:48,499
+Yeah. Come in the shop. Oh, let me come in over here. He's he's working it out. Yeah.
+
+271
+00:22:48,740 --> 00:22:52,660
+Nice shirt. Yeah. We got the Yeah. I'm a heat punk. I got a heat punk shirt. From nowhere.
+
+272
+00:22:53,905 --> 00:22:54,784
+Unknown: There we go.
+
+273
+00:22:55,425 --> 00:22:57,264
+What up, dude? Yo.
+
+274
+00:22:57,825 --> 00:22:58,945
+Unknown: What up, boys?
+
+275
+00:22:59,665 --> 00:23:03,105
+Unknown: There's a bit of a delay right now. What'd you think of the summit?
+
+276
+00:23:04,785 --> 00:23:05,985
+Unknown: The summit was
+
+277
+00:23:08,200 --> 00:23:10,919
+the summit was sweet. I think that
+
+278
+00:23:12,520 --> 00:23:14,600
+Bitcoin conferences that get
+
+279
+00:23:15,080 --> 00:23:23,355
+people from a variety of different groups together is exactly what the industry needs. We don't need just a bunch of Bitcoiners. We need HVAC dudes
+
+280
+00:23:23,515 --> 00:23:27,755
+that are gonna be teaching us. Here's what customers want for these applications.
+
+281
+00:23:27,915 --> 00:23:30,875
+Like, that's exactly the right kind of thinking that we need in the industry.
+
+282
+00:23:31,435 --> 00:23:36,900
+And and it was at the space. So that was cool as hell. The space is pretty badass.
+
+283
+00:23:37,380 --> 00:23:38,100
+Unknown: Nice.
+
+284
+00:23:39,300 --> 00:23:40,260
+Awesome.
+
+285
+00:23:40,500 --> 00:23:41,140
+Yeah.
+
+286
+00:23:42,580 --> 00:23:44,340
+Unknown: Hell yeah, boys. Badass.
+
+287
+00:23:45,300 --> 00:23:50,635
+Unknown: What wait. What before you go, what's your background? Are you, like, a tradesman, or are you a minor, or both? Or
+
+288
+00:23:51,755 --> 00:23:57,114
+Unknown: I I I would love to be a tradesman. That that sounds awesome. No. I'm a I'm a finance bro,
+
+289
+00:23:57,355 --> 00:23:57,834
+and
+
+290
+00:23:58,315 --> 00:24:01,114
+and I'm thinking about how to finance some of these
+
+291
+00:24:01,595 --> 00:24:02,394
+heat companies.
+
+292
+00:24:03,490 --> 00:24:05,249
+Unknown: There we go. Oh, hell yeah.
+
+293
+00:24:06,450 --> 00:24:08,289
+Unknown: Like exergy? You think that
+
+294
+00:24:09,010 --> 00:24:15,090
+you think that open source chips and firmware and all this stuff and being able to buy components from
+
+295
+00:24:16,174 --> 00:24:21,054
+the source and not having to hack and reverse engineer these Chinese shoe boxes is,
+
+296
+00:24:21,294 --> 00:24:24,495
+like, a necessary step for a VC
+
+297
+00:24:24,495 --> 00:24:26,894
+to say, hey. You went and solved this problem.
+
+298
+00:24:27,375 --> 00:24:29,455
+Unknown: I don't know. I feel it's like
+
+299
+00:24:30,860 --> 00:24:34,139
+it's kind of a double edged sword. Right? I think from, like,
+
+300
+00:24:34,460 --> 00:24:36,219
+a VC's perspective,
+
+301
+00:24:36,779 --> 00:24:37,419
+having
+
+302
+00:24:37,659 --> 00:24:38,460
+the
+
+303
+00:24:38,779 --> 00:24:43,019
+closed source aspects, not as they currently exist in the industry today, but in general.
+
+304
+00:24:44,255 --> 00:24:46,815
+Closed source things are more investable,
+
+305
+00:24:46,815 --> 00:24:52,655
+right, because there's barriers up against them and, you know, VCs like that. On the other side,
+
+306
+00:24:52,975 --> 00:24:55,775
+it's like, okay. Well, we have this kind of monopoly
+
+307
+00:24:55,935 --> 00:24:57,055
+or oligopoly
+
+308
+00:24:57,055 --> 00:24:58,495
+on distribution of hardware.
+
+309
+00:24:59,309 --> 00:25:07,309
+And we have an industry that needs to change that, but it doesn't have enough market power to, like, influence that current base of hardware distribution.
+
+310
+00:25:07,309 --> 00:25:11,469
+So how do we get that? And then it's like, okay. Well, this might unlock
+
+311
+00:25:11,470 --> 00:25:15,835
+new avenues for purpose built hardware that enables this industry
+
+312
+00:25:16,235 --> 00:25:34,990
+by lowering the cost of, you know, participation in it by everybody getting on the same standard. So, like, that's that's cool and that's a big deal. But I think, you know, formerly things that might have been investable opportunities within it now aren't. It's good for the industry, may not always be good for the VCs. The question is what would be good for the VCs?
+
+313
+00:25:36,030 --> 00:25:37,390
+That's another question.
+
+314
+00:25:40,430 --> 00:25:42,830
+Unknown: Let's see what the guys say. What do you think, Scott?
+
+315
+00:25:45,545 --> 00:25:50,265
+Unknown: Yeah. I I mean, I think that we have seen lots of markets that have been
+
+316
+00:25:50,825 --> 00:25:51,785
+revolutionized
+
+317
+00:25:51,785 --> 00:25:52,905
+and increased
+
+318
+00:25:52,905 --> 00:25:54,905
+just exponentially
+
+319
+00:25:54,905 --> 00:25:57,289
+on top of open source.
+
+320
+00:25:57,610 --> 00:25:58,010
+And,
+
+321
+00:25:58,970 --> 00:26:00,650
+you know, I I would say,
+
+322
+00:26:01,130 --> 00:26:03,450
+to the VC, if if you wanna make
+
+323
+00:26:04,090 --> 00:26:06,570
+a lot of money for a long time,
+
+324
+00:26:06,970 --> 00:26:11,850
+embracing open source is absolutely the way to go. It's it's not a
+
+325
+00:26:12,905 --> 00:26:15,304
+it's not a strategy where you
+
+326
+00:26:15,545 --> 00:26:16,265
+lose money.
+
+327
+00:26:17,304 --> 00:26:26,745
+I think that's that's a common misconception that, like, oh, we're we're just gonna give away everything that we have. No. You're gonna like, you are going to attract
+
+328
+00:26:27,100 --> 00:26:28,059
+significant
+
+329
+00:26:28,059 --> 00:26:28,379
+more
+
+330
+00:26:29,580 --> 00:26:31,259
+significantly more interest
+
+331
+00:26:31,580 --> 00:26:32,859
+in your product
+
+332
+00:26:33,179 --> 00:26:35,579
+from being open source. I think it's
+
+333
+00:26:36,139 --> 00:26:37,179
+it's a
+
+334
+00:26:37,580 --> 00:26:40,379
+it's a growth opportunity
+
+335
+00:26:40,815 --> 00:26:42,254
+and and to
+
+336
+00:26:42,335 --> 00:26:43,294
+to actually
+
+337
+00:26:43,534 --> 00:26:44,894
+increase your profits.
+
+338
+00:26:45,774 --> 00:26:46,894
+You know, hardware,
+
+339
+00:26:47,294 --> 00:26:53,695
+especially, because hardware always has a cost. Right? It's not like software where people can just copy paste, and now they've, like, cloned your product.
+
+340
+00:26:54,270 --> 00:26:55,070
+Hardware
+
+341
+00:26:55,070 --> 00:27:00,510
+always has a cost. It takes money to build it, and it will always be sold. So if you wanna really,
+
+342
+00:27:00,510 --> 00:27:02,270
+really ramp up your
+
+343
+00:27:03,390 --> 00:27:09,070
+your development capability and reach and scope of your product, like go open source.
+
+344
+00:27:10,485 --> 00:27:11,205
+Yeah.
+
+345
+00:27:11,925 --> 00:27:14,804
+Unknown: I I think that's a point. Do VCs
+
+346
+00:27:15,365 --> 00:27:16,085
+Unknown: sorry.
+
+347
+00:27:17,605 --> 00:27:24,325
+Do these have VCs typically been known to, like, invest directly in open source projects, or is it more like
+
+348
+00:27:24,870 --> 00:27:26,470
+private companies that they're
+
+349
+00:27:26,630 --> 00:27:28,309
+trying to invest in first?
+
+350
+00:27:29,350 --> 00:27:32,950
+Unknown: Yeah. This is a this is a good topic. In, like, the Linux Foundation.
+
+351
+00:27:34,390 --> 00:27:37,669
+Yeah. I think that this topic is something
+
+352
+00:27:38,630 --> 00:27:40,150
+Bitcoiners should be talking more about.
+
+353
+00:27:41,025 --> 00:27:47,345
+I I agree with the points. There there's value in open source systems. There's value in
+
+354
+00:27:47,665 --> 00:27:55,825
+the marketing that you get, the exposure that you get, the cost of development, the feedback from the community. Like, there's value in all of that
+
+355
+00:27:56,090 --> 00:27:57,289
+for a software.
+
+356
+00:27:59,130 --> 00:28:01,690
+The problem with I I I don't know if you guys have
+
+357
+00:28:02,010 --> 00:28:04,330
+read the book, like, working in public,
+
+358
+00:28:04,970 --> 00:28:08,410
+but I think it's a pretty good representation of where
+
+359
+00:28:08,410 --> 00:28:14,384
+things can go wrong within open source, and it typically boils down to there's a tragedy of the commons that'll happen within projects.
+
+360
+00:28:14,784 --> 00:28:15,344
+And
+
+361
+00:28:15,664 --> 00:28:19,504
+and now that's not necessarily something that makes things uninvestable.
+
+362
+00:28:19,664 --> 00:28:20,544
+Probably
+
+363
+00:28:20,865 --> 00:28:26,590
+the best example we have of, like, an open source type company was Red Hat,
+
+364
+00:28:27,070 --> 00:28:28,509
+in terms of profitability.
+
+365
+00:28:28,670 --> 00:28:35,070
+And and there's, like, a few different models that it works off of, and it's a lot of it kinda boils down to if you wanna earn profits
+
+366
+00:28:35,150 --> 00:28:37,390
+and they're kinda based off an open source technology,
+
+367
+00:28:37,915 --> 00:28:42,075
+there's there's, like, different business models that are based around, like, OpenCore
+
+368
+00:28:42,075 --> 00:28:45,274
+is one example where, like, the core of the software is open,
+
+369
+00:28:45,515 --> 00:28:47,434
+but then either there's custom built
+
+370
+00:28:47,595 --> 00:29:01,809
+or there are other features or there's incremental things that you are adding to it for a specific person or type. And, like, Red Hat had a lot of those things happening as well as, like, managed services where you say, okay. The software is open source,
+
+371
+00:29:02,290 --> 00:29:07,970
+but, you know, managing it, implementing it, all these other things is another question. We're charging for managed services around that.
+
+372
+00:29:09,705 --> 00:29:16,984
+So, like, there's there's a bunch of different models that you can work to generate profits from, you know, the basis of an open source software.
+
+373
+00:29:17,465 --> 00:29:18,024
+And
+
+374
+00:29:18,424 --> 00:29:20,504
+I think what's really interesting
+
+375
+00:29:20,664 --> 00:29:23,705
+right now as it relates to this kind of problem
+
+376
+00:29:25,260 --> 00:29:40,380
+is that I think a lot of the problems with open source might be getting solved with agents pretty soon here. Like, the marginal cost of development of software is something that's, like, just dropping off a cliff. And that tragedy of the commons that happens within open source for, like, review of code, maintaining code, etcetera,
+
+377
+00:29:41,135 --> 00:29:47,695
+that cost is dropping off a cliff. So it's gonna start to make a lot more sense for people to work in public more on some of these projects.
+
+378
+00:29:48,735 --> 00:29:57,950
+So that's super cool. I think it's like a founder thinking about these things. Look look into open source software software business models and think about what would be compelling for you around those.
+
+379
+00:30:01,950 --> 00:30:04,110
+Unknown: Yeah. Red Hat is definitely an interesting,
+
+380
+00:30:05,630 --> 00:30:14,654
+use case of open source. Right? They were selling or they are selling, you know, services on top of open source. Like, basically, I want to start a company
+
+381
+00:30:14,895 --> 00:30:15,774
+based,
+
+382
+00:30:16,015 --> 00:30:18,575
+you know, utilizing open source tools.
+
+383
+00:30:18,975 --> 00:30:32,809
+Like, I want someone to set it up and maintain it for me. Right? I want I need to get a, essentially, a Linux distribution installed that for my infrastructure that I know is always going to is going to work. Right? And that's where Red Hat comes in. But,
+
+384
+00:30:33,450 --> 00:30:34,090
+you know,
+
+385
+00:30:34,650 --> 00:30:35,290
+essentially,
+
+386
+00:30:36,525 --> 00:30:37,325
+Facebook,
+
+387
+00:30:37,565 --> 00:30:38,445
+Airbnb,
+
+388
+00:30:38,685 --> 00:30:51,940
+AWS, right, those are built on open source tools. Right? These Mhmm. Are ideas that people had that they can just scale up incredibly fast on top of open source tools. And they contribute back to it, like, after they've grown, thanks to their,
+
+389
+00:30:52,500 --> 00:30:53,780
+to their success.
+
+390
+00:30:54,580 --> 00:30:55,380
+But like,
+
+391
+00:30:55,700 --> 00:30:56,340
+you know,
+
+392
+00:30:56,740 --> 00:31:00,500
+why why didn't Facebook build on top of Microsoft's,
+
+393
+00:31:00,820 --> 00:31:07,934
+web stack? Right? Why why did they choose the open source LAMP stack to build it all? Well, I I think it's pretty clear because
+
+394
+00:31:08,255 --> 00:31:11,374
+they didn't have to ask for permission. They didn't have to buy anything.
+
+395
+00:31:11,615 --> 00:31:19,775
+They didn't have to, like, seek out how to use these products. Right? With the open source LAMP stack, they can just grab it and go. Right? You can make it in a dorm room.
+
+396
+00:31:20,909 --> 00:31:28,589
+Unknown: Yeah. They had an idea, and there those tools were there within their reach, and they could just grab them and start trying to actually
+
+397
+00:31:28,909 --> 00:31:32,109
+put the pieces together to make their idea a functional
+
+398
+00:31:32,429 --> 00:31:33,950
+product that people could consume.
+
+399
+00:31:34,395 --> 00:31:41,115
+Unknown: Right? Yeah. Yeah. Exactly. Right? And Red Hat could come in where it's like if they have some of their infrastructure that they,
+
+400
+00:31:42,475 --> 00:31:57,460
+want to, you know, make sure they get all the security updates without having to have those things internally, like Red Hat's something that they can utilize to do that if they want. It's sort of like outsourcing that job of of maintaining and updating your Linux system.
+
+401
+00:31:58,820 --> 00:31:59,140
+But,
+
+402
+00:31:59,955 --> 00:32:05,315
+yeah, I think that's also a very important thing too. It's like a lot of these tools that we're talking about, like, even being
+
+403
+00:32:05,554 --> 00:32:12,434
+GPL, copy left licenses on them, you can still take them and you can still run them at your company and you don't have to expose
+
+404
+00:32:12,515 --> 00:32:13,634
+your secrets.
+
+405
+00:32:13,794 --> 00:32:14,674
+Unknown: Right? Right.
+
+406
+00:32:14,995 --> 00:32:23,039
+Unknown: You can you can run Mugena You your can use Mugena to increase your profitability of your farm. And you don't have to tell anyone,
+
+407
+00:32:23,600 --> 00:32:24,320
+you know,
+
+408
+00:32:24,640 --> 00:32:30,399
+what that is. Like how you make money, what your secret sauce is. Right? Can use it as a,
+
+409
+00:32:31,200 --> 00:32:34,294
+as a huge force multiplier for your operation.
+
+410
+00:32:35,414 --> 00:32:41,014
+Whether you hire outside contractors like the Red Hat of Mining, if there was such a thing to maintain it,
+
+411
+00:32:41,335 --> 00:32:41,894
+but
+
+412
+00:32:42,294 --> 00:32:48,869
+you can just add on to it and you can go and you don't have to give away your secret sauce that makes you so attractive to investors,
+
+413
+00:32:49,350 --> 00:32:51,029
+which I think is pretty powerful.
+
+414
+00:32:51,909 --> 00:33:00,195
+And then, you know, what we hope with the $2.56 foundation is that when you do see those amazing successes, you contribute back to the foundation.
+
+415
+00:33:00,835 --> 00:33:03,395
+Right. I mean, we've already the the BidX,
+
+416
+00:33:04,275 --> 00:33:12,675
+seller market is, you know, by comparison, very, very small. But we've already seen many sellers that wanna contribute back to the project because
+
+417
+00:33:13,080 --> 00:33:14,919
+they have seen the success,
+
+418
+00:33:15,320 --> 00:33:16,519
+from doing this.
+
+419
+00:33:16,760 --> 00:33:17,480
+Yeah.
+
+420
+00:33:19,240 --> 00:33:22,279
+Unknown: I talked to people helps bolster their own business.
+
+421
+00:33:23,480 --> 00:33:30,034
+Unknown: Yeah. I talked to people who wanna contribute either percentage of sales from selling bid access back to two fifty six or
+
+422
+00:33:30,274 --> 00:33:37,154
+default contribute hash rate. Like, we it's so simple to do. Like, it's so it's a low lift to provide
+
+423
+00:33:37,394 --> 00:33:38,434
+any amount of support.
+
+424
+00:33:39,250 --> 00:33:41,889
+Unknown: Yeah. And just on the the investable
+
+425
+00:33:42,370 --> 00:33:53,169
+nature of open source quick, I mean, you can have your special sauce on the software too that you didn't have to go spend time rebuilding yourself. You can contribute back. You can become a maintainer. But then also, like,
+
+426
+00:33:53,895 --> 00:33:55,335
+we're not saying every
+
+427
+00:33:55,575 --> 00:33:58,215
+water heater on earth needs to have open source hardware.
+
+428
+00:33:58,535 --> 00:34:07,095
+I think we've made the argument clear that the open source building blocks for Bitcoin mining is is a unique thing. Like like, we have the the Linux kernel.
+
+429
+00:34:08,400 --> 00:34:14,160
+And and you can go build software and hardware atop it, and and that doesn't exist in the current mining landscape. So
+
+430
+00:34:14,480 --> 00:34:15,599
+just one note on that.
+
+431
+00:34:20,465 --> 00:34:29,425
+Unknown: Yeah. I think that's right. I think that's right. I mean, we've seen early successes from companies like Heatbit, right, that have utilized
+
+432
+00:34:29,745 --> 00:34:42,630
+learnings from open source hardware. Right? If you build new hardware on top of it, you're obligated to release that, but it's just one component in the system. Obviously, I'd love to see everything open source, but they don't have to release the details of the rest of their system.
+
+433
+00:34:43,350 --> 00:34:44,790
+Unknown: Yeah. Exactly.
+
+434
+00:34:47,030 --> 00:34:50,645
+And it's it's only when, like, you're starting to distribute
+
+435
+00:34:50,645 --> 00:34:51,285
+the
+
+436
+00:34:51,845 --> 00:34:55,605
+the code or the hardware that you need to like show what
+
+437
+00:34:56,805 --> 00:35:04,085
+Unknown: what you changed in it. Right? Yeah. Mhmm. Right. Like if you're, you know, if you make a a new hash board based on the number one,
+
+438
+00:35:05,579 --> 00:35:08,460
+you do need to release the source code of that hardware.
+
+439
+00:35:09,019 --> 00:35:13,020
+But Right. That doesn't apply to the system that it goes into.
+
+440
+00:35:13,500 --> 00:35:14,859
+Unknown: Yeah. Exactly.
+
+441
+00:35:16,619 --> 00:35:18,059
+Unknown: And just real quick tangent.
+
+442
+00:35:18,474 --> 00:35:22,715
+Speaking of heat, you know Were you gonna say something? Canvas we got here Here we go. Is awesome.
+
+443
+00:35:23,755 --> 00:35:24,235
+Oh,
+
+444
+00:35:25,355 --> 00:35:30,155
+Unknown: yeah. That heat bit canvas is really cool. Yeah. Yeah. That's what need. It's like standing in the sun.
+
+445
+00:35:31,435 --> 00:35:32,075
+Unknown: Yeah.
+
+446
+00:35:32,474 --> 00:35:34,270
+It's only like 230
+
+447
+00:35:34,270 --> 00:35:35,070
+watts,
+
+448
+00:35:35,150 --> 00:35:37,950
+but it feels pretty toasty. And 10 terahash.
+
+449
+00:35:42,990 --> 00:35:53,055
+Unknown: That's a really cool product. It's really genius. Like, I love seeing people who come up with these new ways to do it. Right? We don't have to just have, like, fans or immersion or stuff like this whole
+
+450
+00:35:53,695 --> 00:36:00,490
+not new idea, but new idea in Bitcoin mining of, like, yeah, radiant heat. Like, Right. We can just do these things now.
+
+451
+00:36:02,329 --> 00:36:03,290
+Unknown: Exactly.
+
+452
+00:36:04,490 --> 00:36:08,170
+Yeah. Exciting times with all the mega miners shifting away.
+
+453
+00:36:11,005 --> 00:36:16,125
+Unknown: I mean Yeah. Bitcoin prices down. Smaller miners are gonna be inheriting the network.
+
+454
+00:36:17,005 --> 00:36:19,005
+Unknown: It does. It does feel that way.
+
+455
+00:36:19,565 --> 00:36:20,285
+Unknown: I can't wait.
+
+456
+00:36:27,859 --> 00:36:29,380
+Unknown: Do you guys have other
+
+457
+00:36:30,580 --> 00:36:32,020
+news topics, or
+
+458
+00:36:32,660 --> 00:36:35,859
+can I jump into the -.256f?
+
+459
+00:36:37,495 --> 00:36:41,735
+Unknown: Oh, yeah. Jump into the dash. We we can't see it on our end. We're we're
+
+460
+00:36:41,735 --> 00:36:45,095
+Unknown: boiling out here, though. That's Yes. Also, the hashtube is off right now.
+
+461
+00:36:47,655 --> 00:36:52,080
+Unknown: Yeah. I was gonna say you guys don't have the laptop in front of you, so I can
+
+462
+00:36:52,720 --> 00:36:54,080
+can give the shout outs.
+
+463
+00:36:54,800 --> 00:36:56,080
+If you're
+
+464
+00:36:56,480 --> 00:36:57,040
+and
+
+465
+00:36:58,000 --> 00:37:05,595
+you want to support the show with your hash rate, you can navigate to -.256f.org.
+
+466
+00:37:06,155 --> 00:37:08,635
+And there you will find instructions
+
+467
+00:37:08,795 --> 00:37:12,635
+on this wonderful dashboard that d plus plus built,
+
+468
+00:37:13,435 --> 00:37:15,515
+it runs on top of HydroPool.
+
+469
+00:37:16,430 --> 00:37:18,830
+And this is how you can
+
+470
+00:37:20,030 --> 00:37:23,150
+display all the metrics and keep an eye on things
+
+471
+00:37:23,390 --> 00:37:24,110
+for
+
+472
+00:37:24,350 --> 00:37:25,070
+your
+
+473
+00:37:25,550 --> 00:37:26,910
+HYDRA pool instance.
+
+474
+00:37:26,910 --> 00:37:29,070
+Again, the two fifty six Foundation
+
+475
+00:37:29,735 --> 00:37:34,055
+does not want to be in the business of being a pool operator,
+
+476
+00:37:34,375 --> 00:37:34,855
+but
+
+477
+00:37:35,335 --> 00:37:38,135
+we do wanna maintain an instance of HydroPool
+
+478
+00:37:38,135 --> 00:37:41,335
+so that people can do things like support the show
+
+479
+00:37:41,495 --> 00:37:43,820
+with their hash rate And also
+
+480
+00:37:44,380 --> 00:37:49,260
+when we do bigger events a couple times a year, like our fundraiser,
+
+481
+00:37:49,660 --> 00:37:53,900
+people can also use this to point hash rate to us in the hopes that we mine a block.
+
+482
+00:37:55,555 --> 00:37:57,795
+So right now, the highest
+
+483
+00:37:58,115 --> 00:37:59,315
+hashrate
+
+484
+00:37:59,555 --> 00:38:01,715
+miners we have are actually
+
+485
+00:38:01,955 --> 00:38:02,755
+Ryan,
+
+486
+00:38:02,755 --> 00:38:03,395
+the
+
+487
+00:38:04,115 --> 00:38:08,275
+developer from Mugena coming in at a 119.5
+
+488
+00:38:08,275 --> 00:38:09,075
+terahash
+
+489
+00:38:09,560 --> 00:38:16,280
+with his miner Skunk Works Oh. Which I believe is running Magena. That is. I don't know. He Yeah.
+
+490
+00:38:16,840 --> 00:38:18,200
+Unknown: Skunk Works. I like it.
+
+491
+00:38:18,520 --> 00:38:20,200
+Unknown: He might have to correct me there.
+
+492
+00:38:21,000 --> 00:38:25,865
+And then the next highest hash rate miner is coming in at 11.8
+
+493
+00:38:25,865 --> 00:38:29,865
+terahash per second, and that's Thack seven seven seven,
+
+494
+00:38:31,145 --> 00:38:34,345
+who's got a range of workers under their name.
+
+495
+00:38:35,065 --> 00:38:36,665
+And then we've got Pizzandy
+
+496
+00:38:36,665 --> 00:38:39,705
+coming in third place with 11.1
+
+497
+00:38:39,705 --> 00:38:40,425
+terahash.
+
+498
+00:38:41,510 --> 00:38:46,070
+Extra g coming in fourth place with 10.5.
+
+499
+00:38:46,710 --> 00:38:52,950
+And let's see. How many how many play well, should I do the top 10? We got Scott nine thousand,
+
+500
+00:38:53,590 --> 00:38:55,270
+Canadian hash and coin,
+
+501
+00:38:56,335 --> 00:38:57,455
+Zarka,
+
+502
+00:38:59,055 --> 00:39:00,975
+hardestblocks.org,
+
+503
+00:39:01,775 --> 00:39:02,735
+CSH
+
+504
+00:39:02,735 --> 00:39:03,695
+2,000,
+
+505
+00:39:04,655 --> 00:39:05,855
+serving Bitcoin.
+
+506
+00:39:07,055 --> 00:39:09,935
+We got d plus plus coming in at 1.7
+
+507
+00:39:09,935 --> 00:39:10,655
+terahash,
+
+508
+00:39:11,710 --> 00:39:12,830
+Satoki,
+
+509
+00:39:12,990 --> 00:39:13,950
+Schnitzel,
+
+510
+00:39:13,950 --> 00:39:15,470
+average Bitcoiner,
+
+511
+00:39:18,030 --> 00:39:18,910
+Montana
+
+512
+00:39:18,910 --> 00:39:19,550
+one.
+
+513
+00:39:20,270 --> 00:39:22,670
+We got a Bitcoin address,
+
+514
+00:39:22,750 --> 00:39:24,270
+Wood Miner, Western
+
+515
+00:39:24,750 --> 00:39:26,110
+Mass Bitcoin meetup,
+
+516
+00:39:26,765 --> 00:39:28,685
+and another Bitcoin address.
+
+517
+00:39:29,885 --> 00:39:33,325
+And then let me just give the top three difficulties
+
+518
+00:39:33,325 --> 00:39:35,565
+for the the top three best shares.
+
+519
+00:39:36,525 --> 00:39:40,365
+Hash rate heat punks, you're in first place. The Hashtubs in first place at
+
+520
+00:39:40,830 --> 00:39:44,030
+a 103,440,000,000.00.
+
+521
+00:39:45,310 --> 00:39:47,310
+Then we've got hardestblocks.org
+
+522
+00:39:47,310 --> 00:39:50,270
+coming in at 22,290,000,000.00,
+
+523
+00:39:50,910 --> 00:39:54,910
+and Xergy coming in third place at 3,960,000,000.00.
+
+524
+00:39:55,875 --> 00:39:57,315
+So congratulations,
+
+525
+00:39:57,395 --> 00:40:00,995
+Unknown: everybody. Let's go. One of these days, it's gonna hit.
+
+526
+00:40:03,795 --> 00:40:04,435
+Unknown: Yeah.
+
+527
+00:40:04,755 --> 00:40:06,675
+You mean hit a block? Yeah.
+
+528
+00:40:06,835 --> 00:40:07,475
+Soon.
+
+529
+00:40:07,875 --> 00:40:08,835
+I can feel it.
+
+530
+00:40:10,420 --> 00:40:10,900
+Unknown: You
+
+531
+00:40:11,940 --> 00:40:12,580
+bet.
+
+532
+00:40:12,740 --> 00:40:13,140
+I
+
+533
+00:40:13,700 --> 00:40:16,500
+Unknown: love to see at one point during heatpunk conference
+
+534
+00:40:16,500 --> 00:40:18,180
+that all
+
+535
+00:40:18,180 --> 00:40:21,300
+of the top difficulty blocks were all heatpunks.
+
+536
+00:40:21,380 --> 00:40:25,475
+In one one shape or form. Not all were on the input, they were all heat punks.
+
+537
+00:40:27,155 --> 00:40:36,435
+Unknown: Yeah. We got that Hashrate heatpunk nostrad account now, so you could go and use that as a username to kind of join these teams. I think we were talking about last pod or the one before that,
+
+538
+00:40:37,869 --> 00:40:40,990
+Planting your flag on, you know, maybe what your miner's up to.
+
+539
+00:40:42,670 --> 00:40:45,070
+That'd be fun. We'll get more hash rate online.
+
+540
+00:40:47,710 --> 00:40:48,510
+Unknown: Yeah.
+
+541
+00:40:49,150 --> 00:40:51,150
+It's just a new way to gamify things.
+
+542
+00:40:53,865 --> 00:41:02,745
+Unknown: I love having the the Noster profiles and websites and stuff encoded in the worker name and having the pool dashboard parse that. It's such a good idea.
+
+543
+00:41:03,065 --> 00:41:04,505
+Unknown: Right. Yeah. It is.
+
+544
+00:41:04,825 --> 00:41:08,505
+Unknown: Yeah. Dee, I would love a cheat sheet of what what all can be resolved
+
+545
+00:41:09,080 --> 00:41:12,040
+for the dashboard. Nostr, Twitter,
+
+546
+00:41:12,200 --> 00:41:13,560
+web page, etcetera.
+
+547
+00:41:13,880 --> 00:41:18,440
+Unknown: We should work on some documentation to teach people stuff. Just put a button on there.
+
+548
+00:41:22,840 --> 00:41:24,280
+Unknown: Oh, like a docs button?
+
+549
+00:41:25,625 --> 00:41:26,825
+Unknown: Yeah. Yeah.
+
+550
+00:41:27,385 --> 00:41:32,345
+What what works, what field entries might not work, examples of how you do each kind of thing.
+
+551
+00:41:35,785 --> 00:41:44,130
+Unknown: Uh-oh. Docs like in documents, not like disclose your personal information docs. No. No. No. Not docs people. Upload your KYC documents.
+
+552
+00:41:46,050 --> 00:41:46,930
+Unknown: Not that.
+
+553
+00:41:47,970 --> 00:41:49,410
+Unknown: We don't wanna do that.
+
+554
+00:41:51,650 --> 00:41:54,655
+Unknown: See, we have Woodminer in tenth place. Let's go.
+
+555
+00:41:55,135 --> 00:41:59,615
+Unknown: Woodminer with the beautiful heat punk logo under the hood of our hot tub. Yeah.
+
+556
+00:42:04,494 --> 00:42:12,710
+Unknown: Yeah. He really did do a good job on that. It's a little pixelated in the camera shot, but in person, it looks perfect. And you did some
+
+557
+00:42:12,950 --> 00:42:15,270
+close-up pictures on Twitter too.
+
+558
+00:42:15,750 --> 00:42:16,710
+Unknown: Yeah. Yeah.
+
+559
+00:42:17,829 --> 00:42:19,349
+Well, yeah, I think
+
+560
+00:42:19,395 --> 00:42:25,715
+Dylan and I's brain are getting toasted in here, so we might not have any more topic ideas. Yeah. I'm pretty al dente right now. A little al dente.
+
+561
+00:42:29,235 --> 00:42:32,915
+Unknown: Yeah. Should we should we wrap the show there? Scott, did you have anything?
+
+562
+00:42:35,100 --> 00:42:37,020
+Unknown: Man, I'm just, like,
+
+563
+00:42:37,580 --> 00:42:38,140
+just
+
+564
+00:42:38,380 --> 00:42:47,660
+so fired up after the heatpunk summit to work. I came back and, like, wrote myself a, like, two page long to do list of things to do. It's there's so much cool stuff going on.
+
+565
+00:42:48,855 --> 00:42:49,815
+Unknown: It's awesome.
+
+566
+00:42:49,975 --> 00:42:50,775
+Unknown: Epic.
+
+567
+00:42:52,535 --> 00:42:54,375
+Well, let's keep building. Yeah.
+
+568
+00:42:55,015 --> 00:42:58,695
+Unknown: Yeah. Keep your foot on the gas. Let's go. Can't stop. Won't stop.
+
+569
+00:42:59,735 --> 00:43:08,070
+Alright. Cool. Well, I'm gonna end the show there. So thanks, everybody, and tune in next week. If you wanna learn more about the two fifty six Foundation,
+
+570
+00:43:08,390 --> 00:43:11,190
+go to 256foundation.org.
+
+571
+00:43:12,070 --> 00:43:12,790
+Also,
+
+572
+00:43:13,510 --> 00:43:16,390
+go to change.org/bill
+
+573
+00:43:16,390 --> 00:43:21,005
+and keone and sign the petition petition to pardon the Samurai wallet developers
+
+574
+00:43:21,325 --> 00:43:22,125
+because
+
+575
+00:43:22,684 --> 00:43:34,650
+Unknown: software developers should not be going to prison for what end users decide to do with the code. Seriously, if you haven't signed that petition, go now and sign it. It's not that hard, and it's super impactful and important
+
+576
+00:43:34,810 --> 00:43:36,570
+for everything we're trying to do here.
+
+577
+00:43:37,770 --> 00:43:40,250
+Unknown: Yeah. There's really no downside to signing,
+
+578
+00:43:40,410 --> 00:43:42,810
+and it's a very straightforward concept.
+
+579
+00:43:42,810 --> 00:43:43,370
+So
+
+580
+00:43:44,085 --> 00:43:49,525
+show them support. Let's get those guys out of prison. And, otherwise, we will see you guys
+
+581
+00:43:49,845 --> 00:43:51,045
+next Wednesday
+
+582
+00:43:51,045 --> 00:43:52,645
+at 8PM
+
+583
+00:43:52,645 --> 00:43:53,765
+UTC.
+
+584
+00:43:55,365 --> 00:43:57,205
+Peace out. Later.
+
+585
+00:43:57,205 --> 00:43:58,085
+Unknown: Later. See you.
+

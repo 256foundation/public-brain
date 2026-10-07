@@ -1,0 +1,1284 @@
+1
+00:00:00,000 --> 00:00:01,040
+Unknown: Good day,
+
+2
+00:00:01,920 --> 00:00:05,680
+Welcome to pod two fifty six number one one nine.
+
+3
+00:00:05,920 --> 00:00:24,465
+Unknown: Howdy. Howdy. July 8. How was everybody's Independence Day? Fantastic. It was fantastic. Yeah. It's so hot here. It felt like summer for real. Our state's on fire and they told us not to launch any fireworks, but people were like, state's already on fire, so we'll do it anyways. Yeah. What's the worst that can happen? Yeah, exactly. You already have the fire break. It's fine. Yep.
+
+4
+00:00:24,945 --> 00:00:27,904
+Unknown: Happened There's already smoke in the air. What happened to fighting fire with fire?
+
+5
+00:00:29,160 --> 00:00:37,640
+Freedom. So hot topic that's been on everybody's minds lately. BIP one ten. What is it? How does it work? What's happening?
+
+6
+00:00:38,520 --> 00:00:52,305
+A I've been brushing it off because I think it's bullshit. I do not support bip one ten. I think Luke Dash junior is a bad actor. I think mechanic is even worse. If I'm just being brutally honest here, I don't think that's a secret to anybody.
+
+7
+00:00:52,545 --> 00:00:59,910
+And I think it's a complete waste of time. But a lot of people seem to be wasting their time on it, especially on social So
+
+8
+00:01:01,910 --> 00:01:02,710
+I don't know.
+
+9
+00:01:03,270 --> 00:01:18,525
+Thing that came up recently was this BIP 110 fork simulator by Orange Surf. So I at least wanted to talk about this and just see where the conversation goes. And I don't know. What what is BIP one ten? What do you guys think of it? I am literally the the madman
+
+10
+00:01:18,525 --> 00:01:21,805
+Unknown: meme from the elevator where he's like, I don't think about you at all. Good.
+
+11
+00:01:22,400 --> 00:01:27,520
+And I'm not saying that that's right. Maybe I should be thinking about it, I guess, through ignorance
+
+12
+00:01:27,520 --> 00:01:44,575
+and lack of technical ability. I I just haven't deep dived into it, so it's been hard for me to follow. I I'd love an explainer. Yeah. And I'll just add that Iko's opinions are Iko's opinions and maybe not exactly reflective of the two five six Foundation as an organization. And that's okay. I have
+
+13
+00:01:44,975 --> 00:02:08,945
+Unknown: BIP one ten with and without the dash on my Twitter muted words. But some a lot of stuff still does get through, including this simulator that Orange Surf made that I believe simulates how a BIV one hundred ten minuteor activated soft fork could work. Let's see. Should we pull it up? I can pull it up and run the simulator. So just as at like a high level, if I understand correctly,
+
+14
+00:02:09,025 --> 00:02:12,305
+Unknown: there's what has been labeled as spam
+
+15
+00:02:12,465 --> 00:02:13,905
+on the Bitcoin network.
+
+16
+00:02:13,985 --> 00:02:20,470
+And I think this is probably the root of where I start to diverge from Luke. Because for years,
+
+17
+00:02:20,470 --> 00:02:25,430
+I've been engaged with Luke in arguments about what he defines as spam.
+
+18
+00:02:25,510 --> 00:02:29,350
+And, you know, going so far back as BIP 47
+
+19
+00:02:29,350 --> 00:02:39,775
+payment codes and an op return, you know, little encrypted blob that they would include in those transactions. Luke was calling those spams and, you know, trying
+
+20
+00:02:40,095 --> 00:02:43,295
+to dissuade people from using BIP 47
+
+21
+00:02:43,295 --> 00:02:53,260
+payment codes, which has a privacy benefit, simply because he didn't like that there was an op return. And he said that that was spam and it was spamming the network. And so that's
+
+22
+00:02:53,660 --> 00:02:57,900
+really where I started understanding how Luke views spam.
+
+23
+00:02:58,415 --> 00:03:04,895
+And we even had him as a guest on Pod two fifty six. And him and I had a good conversation,
+
+24
+00:03:04,895 --> 00:03:06,255
+a civil conversation
+
+25
+00:03:06,655 --> 00:03:09,695
+about ordinals and censorship
+
+26
+00:03:09,855 --> 00:03:11,135
+and spam.
+
+27
+00:03:11,775 --> 00:03:17,330
+Dig back and find that Pod two fifty six episode to listen to that. But basically, Luke, when
+
+28
+00:03:17,569 --> 00:03:18,450
+Casey
+
+29
+00:03:18,530 --> 00:03:21,810
+started coming out with these ordinals and inscriptions
+
+30
+00:03:21,810 --> 00:03:26,530
+and people figured out that they could include images on the Bitcoin blockchain,
+
+31
+00:03:26,530 --> 00:03:29,865
+Luke started saying that that was spam and that he didn't want
+
+32
+00:03:30,265 --> 00:03:32,425
+that extra data saved on his node.
+
+33
+00:03:32,585 --> 00:03:38,905
+I think one argument is that one man's spam is another man's valid transaction,
+
+34
+00:03:38,905 --> 00:03:44,025
+and it complies with the consensus rules, which is what everybody agrees to when they voluntarily
+
+35
+00:03:44,500 --> 00:03:47,140
+run a Bitcoin node. So if it fits
+
+36
+00:03:47,459 --> 00:03:48,820
+the consensus rules,
+
+37
+00:03:48,980 --> 00:03:52,100
+and they're paying the transaction fees, then you can
+
+38
+00:03:52,980 --> 00:04:07,165
+call it spam, but you're wrong, because the spam filter is the fact that people have to pay a transaction fee to get their transaction included in the Bitcoin blockchain, in my opinion. And so I think that's really where I started diverging with
+
+39
+00:04:08,045 --> 00:04:08,925
+Luke's
+
+40
+00:04:08,925 --> 00:04:12,685
+camp on this issue. And fast forward to today,
+
+41
+00:04:13,290 --> 00:04:14,810
+it's been a couple of years,
+
+42
+00:04:15,210 --> 00:04:18,010
+and now we've got this BIP 110
+
+43
+00:04:18,090 --> 00:04:19,450
+activation on
+
+44
+00:04:19,450 --> 00:04:41,760
+the horizon. And really, it's an effort to combat what's being called spam. Now, I don't necessarily agree that the Bitcoin blockchain should be used to store arbitrary data and images. I think that's a stupid use case for what the Bitcoin blockchain is capable of. However, I think they're doing it in a way that meets the consensus rules,
+
+45
+00:04:41,760 --> 00:04:45,520
+and that's how Bitcoin works, and they're paying for it. So it's
+
+46
+00:04:45,520 --> 00:04:52,320
+for them to decide, the people who are doing it, since they're paying for it. I'm not really worried about nodes becoming overburdened,
+
+47
+00:04:52,765 --> 00:04:55,805
+and the costs of hardware skyrocketing
+
+48
+00:04:55,805 --> 00:05:01,405
+and the barrier to entry to run a node becoming problematic. I think those claims are overblown.
+
+49
+00:05:01,645 --> 00:05:18,160
+So yeah, I mean, are just some of my initial thoughts and understanding about what it is. But, you know, from what I've gathered, the BIP 110 proposal on a technical level doesn't do what it purports in combating spam because you're still able to put images on the blockchain that are compliant
+
+50
+00:05:18,475 --> 00:05:41,650
+Unknown: with the BIP one ten software. Yeah. I think in order to keep we need to rely on, like, sort of the open market to keep stuff that doesn't make sense off the blockchain. Right? Because as we've seen, this attempt to block spam doesn't block spam. It can still get on there. But what is a much more potent way to to reduce sort of spam or or just, you know, unsolicited
+
+51
+00:05:41,650 --> 00:05:43,650
+transactions and things like that is
+
+52
+00:05:43,810 --> 00:05:44,450
+that
+
+53
+00:05:44,770 --> 00:06:12,960
+it costs money, and you have to pay for it. And I think we've seen that happen. Right? The the amount of spam, for lack of a better word, that makes it onto the blockchain now is greatly reduced from where it was. Blocks are aren't even remotely full these days. So that that sort of open market effect does seem to be working at reducing, you know, arbitrary data that doesn't have any financial value on the chain. People are less willing to pay for it. Yeah. And and to that point, you know, if the block space were
+
+54
+00:06:14,115 --> 00:06:17,635
+Unknown: were really being filled up by people using
+
+55
+00:06:17,635 --> 00:06:29,479
+Bitcoin for transacting peer to peer electronic cash, it would be more difficult and more costly for people to put images and arbitrary data on chain the way that they have And
+
+56
+00:06:30,039 --> 00:06:37,879
+so I think, you know, one of the bigger underlying problems is that, you know, Bitcoin as money just has, you know, realistically,
+
+57
+00:06:37,879 --> 00:06:42,595
+just hasn't reached the levels of adoption people thought that it would. Yet.
+
+58
+00:06:43,315 --> 00:06:49,315
+Yet. You know, hopefully it does. I, you know, I I love Bitcoin. I think it's it's a great transactional
+
+59
+00:06:49,395 --> 00:06:53,555
+tool for people to transact peer to peer without a third party. That's the whole premise.
+
+60
+00:06:54,010 --> 00:07:00,650
+And I think once you once people do that, especially people who have had issues with third parties
+
+61
+00:07:00,890 --> 00:07:21,264
+seizing their funds or shutting down their bank accounts or blocking them from basic financial services, once you find the power of, like running your own node and having your own wallet and just transacting directly without a third party, it's it's a huge unlock and a light bulb moment. And I I think it's it's one very great tool
+
+62
+00:07:21,630 --> 00:07:27,630
+in the toolbox for for protecting an individual's freedom. So I wish more people would use it that way.
+
+63
+00:07:28,110 --> 00:07:40,245
+Unknown: 100%. I think that this, you know, soft fork proposal mechanism that we have in Bitcoin is very important. Right? People can compo can propose changes, and if it sees, you know, approval by
+
+64
+00:07:40,405 --> 00:08:20,520
+an overwhelming majority of the network, then it gets activated. Right? I mean, this is exactly how a permissionless peer to peer network has to work. There's no central party saying what how it works. So that, know, going through these exercises are very valuable. We need to be able to do this, and that's without taking any sides on this particular issue. It is so it is interesting to see it go down. The the miners have to signal for it or the the nodes? I thought the nodes were the ones that choose what protocol changes they enforce. Right? Could you guys explain that dynamic to me? As far as I understand, it can go both ways. There's the miner activated soft fork and a user activated soft fork. Okay. User activated soft fork is is nodes. So miners can signal for
+
+65
+00:08:20,840 --> 00:08:40,075
+a a soft fork by changing a bit in their version, like a flag saying, yeah, we're gonna support it. That for this particular soft fork proposal, BIP one ten, it is failing miserably. They're nowhere near the threshold that they need. And that's what Orange Surf's simulator is is for. Right. The length of the blockchain. Yeah. Yeah. Right. The the longest
+
+66
+00:08:40,315 --> 00:08:47,260
+build on top of the the chain that has the most work behind it and sort of you can in the simulator, you can pick. He has, you know, like,
+
+67
+00:08:47,660 --> 00:09:24,910
+buttons for all the largest mining pools that you can pick and be like, well, what would happen if they signaled for it? What would happen if, you know, these two signaled for it? And you can you can turn them all on and see, you know, using simulated data about who's winning blocks based on their percentage of the network hash rate, like how that would play out and how the forks would happen, the the chain splits would happen, and then like which one would win. And it's it's really clear, like the more miners that are signaling, the more chance that the the soft fork has of winning. I mean, it basically simulates that out. The reason the miners, I guess, have a a miner activated
+
+68
+00:09:24,755 --> 00:09:46,440
+Unknown: soft fork works is they have their part of the protocol, which is what goes in the block templates. Right? Or the pools have that. It's the pool's nodes that are doing that. Yeah. It's the pool's nodes that are doing that. Exactly. Either way, like a miner activated soft fork or a user activated soft fork, it's still coming from the node. I guess I'm just trying to understand where, yeah, where the the sig the the flag changes are happening. Right? Yeah.
+
+69
+00:09:46,600 --> 00:09:51,240
+Unknown: Yeah. That's right. I guess it's just the difference between nodes that are are broadcasting transactions
+
+70
+00:09:51,834 --> 00:10:08,640
+versus the nodes that are adding blocks to the chain. This highlights how different, like, game theory network effects might play out when we have pools as a protocol, not as institutional entities. Yeah. The risk of being wrong, I think it's it always comes down to the nodes. But as far as signaling
+
+71
+00:10:08,720 --> 00:10:35,440
+for what you're what you're you're gonna have your node do, it's like which group of node runners is signaling. And the miners obviously get to choose which pool they join. So yeah. Yeah. Yeah. And the pools are the ones that decide whether they're going to be signaling. Whoever creates the block templates in this case are the the ones who choose how they're signaling. I mean, obviously, you could signal you could just put that bit that flag in your version bits that says you're gonna do it and then not do it. That could totally happen.
+
+72
+00:10:35,760 --> 00:10:50,905
+Unknown: Mean, looking at the simulator here for the the large centralized mining pools, though, it just highlights that, like, for all the smaller home miners, it doesn't really matter what you think. Like, we have such a tiny percentage of the network cache. Right? That's right. For now. For now. For now.
+
+73
+00:10:51,545 --> 00:11:07,899
+Unknown: Yeah. For now. And I think that's what Orange is trying to point out. Yeah. Yeah. And, actually, I don't know if you guys saw the news. SBI crypto shut down their their mining pool. They had 2% of the network cash rate. Yeah. They were a pretty big one, I think. Wilson Mining was a proxy for them and probably a few others.
+
+74
+00:11:08,620 --> 00:11:28,525
+I think Lincoin too. Right? Was Lincoin? Yeah. I thought they were. Yeah. Maybe so. I don't I don't really remember. There was there was a few of them. Did they say why they shut down? Are they, like, switching to AI compute or what? They didn't say why they're shutting down. They're shutting down very soon. I was gonna pull up that post and see when Bear market things.
+
+75
+00:11:29,610 --> 00:11:31,770
+I see where it was very soon.
+
+76
+00:11:32,330 --> 00:11:36,410
+They will shut down at the end of this month, July 31,
+
+77
+00:11:36,650 --> 00:11:38,330
+and they recommend
+
+78
+00:11:38,650 --> 00:11:42,090
+to their their, you know, their miners, their customers to
+
+79
+00:11:42,835 --> 00:12:02,630
+try pointing to Luxor, Brains, and Neopool as alternatives. That's interesting. Brains are both, AMP pool proxies, so that's an unfortunate recommendation on their part. But, hey, they can do whatever they want. Was so SBI was not an AMP pool proxy themselves? No. I don't think so. See, this is where Boris' stratum.org
+
+80
+00:12:02,630 --> 00:12:07,590
+site comes in handy. Yeah. Let's pull that up. So nameplate SBI crypto had 2.2%
+
+81
+00:12:07,590 --> 00:12:13,805
+of the network hash rate with 20 exahash. They did not disclose a reason for the shutdown or
+
+82
+00:12:14,125 --> 00:12:20,845
+blah blah blah. It's run by a parent company called SPI Holdings. That's like a Japanese crypto exchange
+
+83
+00:12:20,925 --> 00:12:37,540
+and, like, digital asset business. That's interesting. But as far as I know, were, you know, traditional FPPS, and maybe in this current ecosystem, that's being that's a hard business to run. Yeah. Yep. But back to BIP one ten for a second here. I so it's also a temporary
+
+84
+00:12:37,935 --> 00:12:54,180
+Unknown: filtering. And and so if we go back to the discussion about how the in the long term, the market should do the filtering, right, just because block space is limited and transaction fees can go up. So my understanding is this correct is that BIP one ten is like a temporary
+
+85
+00:12:54,420 --> 00:12:55,220
+user
+
+86
+00:12:55,540 --> 00:12:56,340
+definition
+
+87
+00:12:56,340 --> 00:13:07,965
+of what should be filtered in before the market decides to end up filtering this for us and that the fight is over how they've defined what's spam and what's not. I don't I don't buy the temporary thing.
+
+88
+00:13:08,925 --> 00:13:10,045
+Okay.
+
+89
+00:13:10,205 --> 00:13:12,524
+Unknown: I mean, I think that's how it's it's
+
+90
+00:13:12,765 --> 00:13:17,005
+I don't doubt that it's being portrayed that way. Yeah. I think that's how it's proposed.
+
+91
+00:13:17,565 --> 00:13:43,425
+Unknown: Yeah. But I don't believe that that's true. Partly because I'm very skeptical of Luke and Mechanic and the people behind BIP. This is how, like, Congress actually, like, passes a lot of bills is they all have expiration dates. And so I think it's just to kind of soften the blow, be like, Oh, hey, let's just try this out. Don't worry It's about only temporary. The federal income tax. It's just temporary to get through World War I.
+
+92
+00:13:43,824 --> 00:13:44,865
+Unknown: Don't worry, guys.
+
+93
+00:13:45,824 --> 00:13:46,065
+Unknown: Well,
+
+94
+00:13:47,680 --> 00:13:56,000
+Unknown: the gold standard too. Yeah. Yeah. So yeah, I think it probably is aligned like that. But it's just I've
+
+95
+00:13:56,000 --> 00:14:01,725
+been saying this since day one, I think it's censoring when you arbitrarily
+
+96
+00:14:01,725 --> 00:14:05,405
+enforce your own set of criteria
+
+97
+00:14:05,485 --> 00:14:22,200
+on someone else's transaction above and beyond the consensus rules. And you make a determination if that is valid to you as an individual or not. And I think that's what's happening in Luke's case is that, you know, going as far back as Satoshi's dice, he argued
+
+98
+00:14:22,200 --> 00:14:27,560
+in our podcast that the Satoshi dice transactions were not valid transaction
+
+99
+00:14:27,845 --> 00:14:29,125
+valid monetary,
+
+100
+00:14:29,125 --> 00:14:32,725
+quote unquote, transactions, peer to peer electronic cash transactions.
+
+101
+00:14:33,045 --> 00:14:48,730
+They were quote unquote spam. And I I just think that whole argument is bullshit because they meet the consensus rules, which is what everyone agreed to, not the consensus rules plus this arbitrary set of criteria that an individual is setting.
+
+102
+00:14:49,850 --> 00:15:13,380
+It doesn't matter what the reasoning is behind it. And I think that's where Luke starts overreaching is that, you know, in in the Satoshi Dice case, it it was like the reason for the transactions he didn't agree with. And so therefore, they were considered spam in his opinion, and therefore, they shouldn't be allowed. And I just I totally disagree with that framing. And I think the same thing's happening here. Yeah. We have to be very careful with the term spam.
+
+103
+00:15:13,700 --> 00:15:22,785
+Unknown: I mean, the term spam means something you don't want. So, you know, that's a little bit ambiguous as to what it can mean, but we have to be careful with censoring transactions.
+
+104
+00:15:22,945 --> 00:15:26,225
+Right? That's what Bitcoin is designed to avoid.
+
+105
+00:15:26,785 --> 00:15:40,830
+Yeah. Because where it gets a lot of its value is because it, you know, cannot be censored. So we have that's like a very slippery slope as to like, alright. Well, we're gonna censor these ones, but not these ones. And Exactly. And if you'll recall when Ocean first launched,
+
+106
+00:15:41,230 --> 00:15:46,910
+Unknown: one of the things their pool node was doing in the templates it constructed was rejecting
+
+107
+00:15:46,910 --> 00:15:49,310
+the TX zero transactions
+
+108
+00:15:49,390 --> 00:15:55,525
+that were setting outputs up to be inputs for future Whirlpool
+
+109
+00:15:55,525 --> 00:15:57,525
+rounds for CoinJoin.
+
+110
+00:15:57,525 --> 00:16:12,940
+And that was a big issue for the Samurai Wallet community who were using TX Zero, which had this op return output in it, which was the issue for the guys at Ocean. And so it's you know, that is that is peer to peer electronic
+
+111
+00:16:12,940 --> 00:16:14,460
+cash transaction,
+
+112
+00:16:14,540 --> 00:16:15,740
+privacy preserving,
+
+113
+00:16:15,740 --> 00:16:21,420
+coin join feature. And, you know, if that itself isn't a good enough excuse for those
+
+114
+00:16:21,795 --> 00:16:25,475
+guys that are pushing this BIP 110, where does it end?
+
+115
+00:16:25,875 --> 00:16:26,355
+It
+
+116
+00:16:27,955 --> 00:16:33,875
+has to be rooted in the consensus rules, not consensus rules plus this arbitrary
+
+117
+00:16:33,875 --> 00:16:46,899
+standard that can change over time. And I think that's exactly what's gonna happen with BIP one ten, and that's why I don't believe that it's temporary. Yeah. Mean, I'd like to think that that, Ocean didn't intend to censor those samurai, you know,
+
+118
+00:16:47,635 --> 00:16:48,435
+Unknown: processing
+
+119
+00:16:48,515 --> 00:17:07,299
+bits, right, those transactions. But it got caught up in this sort of overarching filter that they set up, which, yeah, like you said, is a is a very good example of, like, the collateral damage from this. Like, you know, when one of your important emails gets sent to your spam mailbox instead. Yeah. It's a good analogy. So what's the
+
+120
+00:17:07,700 --> 00:17:12,580
+Unknown: what are the timelines for BIP 01/2010? The August something initiates.
+
+121
+00:17:12,580 --> 00:17:17,955
+Is that correct? Or you have to signal before then? I don't know the details really. The
+
+122
+00:17:18,035 --> 00:17:19,955
+Unknown: Orange Surf simulator says
+
+123
+00:17:19,955 --> 00:17:36,169
+that mandatory signaling at block nine six one six three two expected around August 2026 is the Okay. What does that mean mandatory? Like, you're gonna signal, if you're if you're a miner and you're gonna signal in your version bits, have to do it before then. Okay. I think that's That's like when the fork starts?
+
+124
+00:17:36,650 --> 00:17:37,289
+It's Yeah.
+
+125
+00:17:37,690 --> 00:17:40,409
+Unknown: I think that's the last difficulty period
+
+126
+00:17:40,490 --> 00:17:48,885
+that miners have to signal their support for BIP one ten or not. And then there's like a one difficulty period, so 2,016
+
+127
+00:17:48,885 --> 00:17:58,669
+block locked in waiting period. And then the following difficulty epoch is when the activation begins. And that's where the risk of
+
+128
+00:17:59,070 --> 00:18:00,270
+fork starts.
+
+129
+00:18:00,670 --> 00:18:01,470
+So
+
+130
+00:18:02,510 --> 00:18:08,510
+for example, if the difficulty window ends with block 961,631
+
+131
+00:18:08,670 --> 00:18:09,150
+for,
+
+132
+00:18:10,115 --> 00:18:12,835
+meeting the threshold of signaling miners,
+
+133
+00:18:12,835 --> 00:18:15,795
+then the first block that
+
+134
+00:18:16,195 --> 00:18:19,475
+we could start seeing fork risks occur is gonna be
+
+135
+00:18:20,035 --> 00:18:21,875
+963,648.
+
+136
+00:18:21,875 --> 00:19:00,120
+Unknown: And then there could be a fork after that, which I think Okay, so that's sort of BIP one tens BIP one ten nodes line in the sand, meaning we will no longer build on top of non BIP one ten compliant blocks after that point. Yeah. I think so. And so if a large percent of a portion of hash rate is our standard blocks, then they'll have basically nothing to build on. Correct. They'll have to revert to their last BIP one ten compliant block to build on. Yeah. Which their chain will just be way slower. Yeah. They'll fork off the hash rate associated with it is. Yeah. Yeah. Depending on the hash rate. Okay. But you can start signaling hash rate now. Do we know what it is? What percentage is it? I think there's various trackers.
+
+137
+00:19:00,280 --> 00:19:16,815
+Unknown: Yeah. This this fork simulator from Orange Surf is actually super helpful, and it's got some learning and explanations on different scenarios for the fork. It's bip one ten dot orange. Surf for anyone listening. Yeah. So there has to be it sounds like there needs to be 55%
+
+138
+00:19:16,815 --> 00:19:22,335
+Unknown: of blocks that have a flag supporting bip one ten in order for that activation
+
+139
+00:19:22,335 --> 00:19:34,740
+to to begin. So so in any one difficulty epoch, there needs to be 55% or more signaling support for BIP one ten. Why is it 55 and not just over 50? I I don't know. That's how the activation
+
+140
+00:19:34,740 --> 00:19:40,904
+rules in Bitcoin were built. I'm not sure what the I'm sure there's, you know, Bitcoin talk forums
+
+141
+00:19:41,065 --> 00:19:52,105
+Unknown: going way back. I see. But it's a it's an explicit decision. I think that is I believe so. What is baked into, like, BIP one ten nodes. Right? Because you you can pick whatever activation you want.
+
+142
+00:19:52,750 --> 00:20:12,144
+And correct me if I'm wrong, but I think that a BIP one ten node will look at that. And on the the the the cutoff time, it will not switch over automatically if that activation if enough miners if the percentage of miners are not signaling or not or percentage of blocks are not signaling is enough. Is that right? That makes that makes sense. So I don't think there's any like core
+
+143
+00:20:12,304 --> 00:20:17,664
+there there core is the wrong word. Sorry. There's no like fundamental part of Bitcoin that says how a
+
+144
+00:20:17,904 --> 00:20:19,744
+soft fork is activated.
+
+145
+00:20:19,825 --> 00:20:31,669
+Gotcha. Okay. Activated soft fork goes. Right? It's just when you write a new node software like NOTS, you can say like, all right, yeah, if it's over 50%, then we're automatically gonna switch over at this block height.
+
+146
+00:20:32,230 --> 00:20:40,585
+Right. And start rejecting non compliant blocks or not building on top of non compliant blocks. That sounds right. And so that means that they just pick 55%
+
+147
+00:20:40,585 --> 00:20:42,345
+as what they want. I
+
+148
+00:20:42,825 --> 00:20:48,185
+I seem to recall reading that previous software proposals had a much higher threshold.
+
+149
+00:20:48,185 --> 00:20:54,345
+Unknown: I'm just sending a link. Wicked made a really cool live dashboard for the signaling. They have 7.4
+
+150
+00:20:53,809 --> 00:20:58,450
+exahash signaling for it right now. Who does? Cool. BIP one ten has 7.4
+
+151
+00:20:58,450 --> 00:20:59,330
+exahash,
+
+152
+00:20:59,330 --> 00:21:11,465
+which is around point 5%. How much of that is rented? I wonder. I'm sure, like, five of that exahash or four, whatever it is, is ocean. Right? I think ocean has more hash rate than that. Right? But that I don't think ocean pool requires
+
+153
+00:21:11,465 --> 00:21:13,144
+Unknown: Bitcoin 10 signaling either.
+
+154
+00:21:13,385 --> 00:21:24,105
+Unknown: You're right. Ocean has 25x hash. So what does this mean? What does this mean for the average pleb? So being that the Bitcoin's gonna die, no? I think it's a nothing burger that's been a massive distraction
+
+155
+00:21:24,780 --> 00:21:35,340
+Unknown: and taken away from more important efforts like getting the Samurai wallet developers out of prison. And I just think it's been a real drain and anchor on the Bitcoin community overall.
+
+156
+00:21:36,140 --> 00:21:38,380
+Think when this activation
+
+157
+00:21:38,380 --> 00:21:46,144
+occurs around August 22 or whatever it is, I don't think BIP one hundred is going to have the support it needs to even activate.
+
+158
+00:21:46,225 --> 00:21:49,825
+And if by some miracle they do get 55%
+
+159
+00:21:49,825 --> 00:22:06,730
+Unknown: and they hit that activation window, I think they're quickly going to be forked off. Yeah, I think that's right. And that's a huge risk for large miner or large mining pools to jump on this because if they're not building on the latest latest chain tip, then the All that work gets rewards not gonna be worth anything. Right? The the subsidies
+
+160
+00:22:07,625 --> 00:22:14,105
+are not valid. Yeah, a 100%. All that work gets lost. And we're talking about large miners that have,
+
+161
+00:22:14,345 --> 00:22:21,145
+you know, million dollar a month electricity bills. It's no joke. Yeah. And how long are these guys that are renting Hashrate
+
+162
+00:22:21,420 --> 00:22:33,420
+Unknown: to pump up the signaling numbers for BIP 110? Like how long are they gonna pay for the premium on the hash rate to rent it just for this signaling and then have those
+
+163
+00:22:33,660 --> 00:22:34,300
+blocks
+
+164
+00:22:34,585 --> 00:23:03,570
+Unknown: on a secondary chain anyways. It's not worth anything. Yeah. I mean, renting hash rate that is significant is very expensive. And to keep con continuing to do that as the odds of of actual activation get worse and worse doesn't seem like it's sustainable. I don't I don't think anyone is realistically gonna do that. It's it's easy to do right now because your rewards are good. Right? You can signal, and there's no penalty for signaling. So you can just, you know, wave your banner of support for BIP one ten, and it doesn't cost you anything. But when there's an actual
+
+165
+00:23:04,105 --> 00:23:08,264
+risk, to doing it, I don't think we're gonna see many people doing that. Yeah. So this
+
+166
+00:23:08,585 --> 00:23:09,464
+Unknown: will create
+
+167
+00:23:09,625 --> 00:23:16,264
+Unknown: a separate coin if it fails? Well, yeah, it'd be like, you know, like when Bitcoin cash. Forked
+
+168
+00:23:16,050 --> 00:23:22,050
+Unknown: off. I thought that was called a hard fork though. This is a soft fork. Yeah. I think I think that if,
+
+169
+00:23:22,290 --> 00:23:30,210
+Unknown: you know, if there are people building on top of the the old chain tip that BIP one ten is on once it's activated,
+
+170
+00:23:30,210 --> 00:23:33,085
+then, yeah, you do have coins on that chain. Right? And so that
+
+171
+00:23:34,285 --> 00:23:36,445
+Unknown: That's
+
+172
+00:23:36,445 --> 00:23:54,409
+why it's soft. Yeah. The normal blocks will build on top of BIP 110 blocks. They don't care. But the BIP 110 blocks won't build on top of normal blocks. Yeah. Yeah. That's right. So they're still linked. It's not like they both refuse to build on top of one another. Yeah. And that might be the difference between a soft fork and a hard fork. Okay. This is funny listening to miners try and talk about protocol node.
+
+173
+00:23:54,649 --> 00:23:56,409
+Right. Welcome to podtivity six.
+
+174
+00:23:59,065 --> 00:24:04,105
+Unknown: We speculate on how this stuff works. Yeah. The I think the only time I've seen anything like this was when
+
+175
+00:24:04,345 --> 00:24:05,625
+SegWit was
+
+176
+00:24:05,865 --> 00:24:11,864
+or sorry, Taproot. When Taproot was activated and miners were signaling support for Taproot activation.
+
+177
+00:24:11,945 --> 00:24:23,470
+But at that time, it seemed like anyone opposing Taproot activation was very few and far between. There was wide support from miners to software developers
+
+178
+00:24:23,550 --> 00:24:38,215
+to industry participants all across the spectrum. This is a pretty bonehead embarrassing question, but is Taproot what gave us the ability to do Lightning? No. That was SegWit, I believe. Okay. So, yeah, the SegWit gave us the ability to do Lightning.
+
+179
+00:24:38,295 --> 00:24:38,935
+And Okay.
+
+180
+00:24:40,150 --> 00:24:41,990
+If I'm not mistaken,
+
+181
+00:24:42,310 --> 00:24:50,790
+was I don't know if it was SegWit itself or something in Taproot that enabled this whole problem with inscribing arbitrary
+
+182
+00:24:50,790 --> 00:25:00,005
+data on chain. There was like something about I'm not even gonna try to stumble my way through it. I I don't fully understand it. I mean, if I sat down and reread
+
+183
+00:25:00,725 --> 00:25:09,010
+the information on it, I might be able to regurgitate it. But somewhere in there, suffice it to say that either through Segway or through Taproot,
+
+184
+00:25:09,170 --> 00:25:13,250
+that kind of opened up this potential for people to put data
+
+185
+00:25:13,330 --> 00:25:24,205
+in places that are not the op return and do it in ways where they pay less in fees than they would otherwise. And so that's caused a number of projects
+
+186
+00:25:24,445 --> 00:25:27,165
+to pop up where people are essentially
+
+187
+00:25:27,405 --> 00:25:35,660
+shitcoining on the Bitcoin blockchain and, you know, giving us these problems that that we have now, which suck, don't get me wrong, but I
+
+188
+00:25:35,980 --> 00:25:42,380
+think it's really been blown out of proportion because it's not like blocks were already suffering from
+
+189
+00:25:42,780 --> 00:25:44,700
+not enough block space anyways.
+
+190
+00:25:45,500 --> 00:26:07,590
+The demand for transacting peer to peer just isn't there at the end of the day. So I think all of this is overstated problems that don't really have that big of an effect at the end of the day. And I think most of these image and inscription projects that are occurring are just to spite Luke because he's so adamant about fighting it. And I think if he wasn't so triggered and,
+
+191
+00:26:07,750 --> 00:26:22,195
+like, causing such a big stink about this, I think there would actually be a lot less of this going on. I think a lot of it is happening just to spite him. There seems to be a lot of people who have this, protest revolutionary attitude in Bitcoin. That's not a surprise.
+
+192
+00:26:22,674 --> 00:26:23,394
+Unknown: Mhmm.
+
+193
+00:26:24,115 --> 00:26:24,754
+Unknown: And
+
+194
+00:26:24,995 --> 00:26:26,835
+I think that they see this as,
+
+195
+00:26:27,235 --> 00:26:42,260
+you know, we're fighting the man, which is core by by supporting BIP one ten. Right? We're we're not gonna stand for this large or influential. They're not large, but influential group of Bitcoin developers telling us what we can and can't do kind of thing. It seems a little bit misguided,
+
+196
+00:26:42,260 --> 00:26:49,745
+but there there is some merit to the to the claim that, the Bitcoin Core Group has an outsized an oversized
+
+197
+00:26:49,745 --> 00:26:54,945
+effect on Bitcoin. I've always thought, know, we need more node implementations.
+
+198
+00:26:54,945 --> 00:26:59,025
+Right? The the fact that we just have one is can be problematic. Right?
+
+199
+00:26:59,690 --> 00:27:00,409
+Mhmm.
+
+200
+00:27:00,730 --> 00:27:17,784
+We're we're relying on that relatively small group to, have the network's best interests in mind, and whether they do or not could change as time goes on. So I wish and I think I think Bitcoin Core is working on this with the libbitcoin kernel stuff and, you know, trying to come up with ways to make it easier for other node implementations,
+
+201
+00:27:17,785 --> 00:27:22,424
+which is cool. It's good to see that. Right now, it's hard to do another node implementation stuff because
+
+202
+00:27:22,585 --> 00:27:27,785
+the consensus logic is so difficult. Right? That's the risk is when you make a new node implementation
+
+203
+00:27:28,110 --> 00:27:39,870
+is that your consensus logic isn't right, and you have created a you've created node software that can't be a is not consensus valid on the network and just, like, create some sort of weird split,
+
+204
+00:27:40,190 --> 00:27:47,514
+through some, you know, little bug or detail in in consensus. Yeah. I mean, I I think I agree that,
+
+205
+00:27:48,875 --> 00:27:51,674
+Unknown: yeah, there there's a small group of people maintaining
+
+206
+00:27:51,835 --> 00:27:53,595
+Bitcoin Core. It's the
+
+207
+00:27:54,250 --> 00:27:57,369
+largest and most popular node implementation.
+
+208
+00:27:57,450 --> 00:28:01,529
+There are others, as we know, like you mentioned, Libbitcoin and,
+
+209
+00:28:01,770 --> 00:28:07,210
+Unknown: Bitcoin Notts. Like I said, I mentioned Libbitcoin kernel, which is a Bitcoin Core project, is different than Libbitcoin.
+
+210
+00:28:07,210 --> 00:28:09,850
+Libbitcoin is is rad. Eric Voskul is,
+
+211
+00:28:10,384 --> 00:28:13,184
+like, he is a a motivated
+
+212
+00:28:13,184 --> 00:28:37,450
+dude. And it's from what he says, from what I've heard, done some really cool work on his node implementation, Libbitcoin. Yeah. That guy's a boss. Yeah. Good follower on Twitter if you're not following him. It's a really hard job right now. And I think that's the the main problem that we have here. It's a really hard job to make your own node implementation. Right? Like, knots is a fork of Bitcoin Core because it's so hard to make your own from the ground up. Right.
+
+213
+00:28:37,850 --> 00:28:40,810
+Unknown: Yeah. And and, you know, there's just there's more eyes
+
+214
+00:28:40,985 --> 00:28:42,985
+on Bitcoin Core
+
+215
+00:28:42,985 --> 00:28:59,380
+than any other project. And very few people can get in there and understand exactly what the code's doing. I certainly can't do it. I don't understand how to write code and to interpret code. And so, you know, I kind of rely on this social
+
+216
+00:28:59,380 --> 00:29:16,815
+layer of people that, you know, I put my trust in others that they know, you know, what good or malicious software looks like or what's problematic and what's not. And, you know, I try to inform myself with their opinions to assess my own risks and decide if I want to use,
+
+217
+00:29:16,975 --> 00:29:18,735
+you know, that software or not.
+
+218
+00:29:19,135 --> 00:29:29,539
+And I think that's easy to do when it comes to Bitcoin Core just because it's become the industry standard and there's so many eyes on it. But in doing so, to your point, I think, perhaps
+
+219
+00:29:29,860 --> 00:29:30,899
+Bitcoiners
+
+220
+00:29:30,980 --> 00:29:33,859
+in large have extended too much trust.
+
+221
+00:29:34,019 --> 00:29:34,419
+And
+
+222
+00:29:34,820 --> 00:29:48,684
+I don't know, maybe maybe it's just a lack of understanding how it really works. Maybe these guys don't have as much control as we think. Maybe they do. Maybe there's some risk there. It's all it's all good food for thought in any case. Yeah. It is. It is. And I definitely applaud efforts
+
+223
+00:29:48,845 --> 00:29:51,404
+Unknown: to make alternate node implementations,
+
+224
+00:29:51,565 --> 00:30:04,210
+you know, the efforts on Bitcoin Core side to break up the the different aspects of node software into more modular pieces such that other people could potentially incorporate that in their own node implementations.
+
+225
+00:30:04,210 --> 00:30:43,904
+Unknown: There there's there's several node implementation projects. I think there's but they just they're, like, unheard of. Right? It's hard enough for people to wrap their heads around running a node, much less, like, which software you choose and what the pros and cons are. I think there's too much trust and not enough eyes on those other projects to be like, well, yeah, I'm gonna run this node software instead. It's just if you don't understand exactly what the code's doing and you you know, you can't open up the repo and look in there and be like, oh, yeah, this is totally legit. Like, if you can't make those executive decisions yourself, I think it's really difficult to to venture off of Bitcoin Core and run some other node software. I think Luke's been able to do it with Bitcoin knots
+
+226
+00:30:44,065 --> 00:31:20,764
+to some degree, but a lot of people have criticized that he's the only maintainer on that project, and people are putting their trust in one person to do what's right or, you know, not make some critical mistake that's gonna wind up screwing the end user over in the end. And, you know, there's other criticisms about a software like it if you if you don't update it after a certain amount of time, it quits working, something like that. Yeah. That's right. That's right. It has like an expiration date. Yeah. There's there's just a couple weird things about it. I don't know. I I don't run it because I don't trust it. So It's funny, this thought experiment of me trying to wrap my head around
+
+227
+00:31:21,005 --> 00:31:22,605
+Unknown: node protocol implementations
+
+228
+00:31:22,605 --> 00:31:56,840
+Unknown: and soft forks and hard forks. This is what it must feel like for the protocol people to think about mining firmware. They just are they can't grasp it because this feels totally out of my wheelhouse. Yeah. It's very abstract to me. Yeah. I'm not a dev. Yeah. Mean, all devs are you have to trust at some level. Right? There's very few, if any people that are, like, implementing everything they use from, like, first principles. Right? That just takes a really long time and is really hard to do, and you're much more likely to increase or, you know, add bugs when you're doing that. Right? Yeah. What's the this is also some
+
+229
+00:31:57,080 --> 00:32:07,160
+Unknown: I don't know if it's a threat vector, but just something I I think most people don't realize. Like, the the the actual Bitcoin core GitHub repo, there's a select number of maintainers.
+
+230
+00:32:07,160 --> 00:32:07,400
+Right?
+
+231
+00:32:08,395 --> 00:32:35,530
+Unknown: Mhmm. Is is that a problem or no? Is there kind of some gatekeeping happening, I guess, what I'm asking? Well, there've been lots of sort of I would classify them as hit pieces by Bitcoin 10 proponents against the people, the the very small group of people that do have maintainer status on the main Bitcoin core repo. Obviously, as you might imagine, there's tons of drama surrounding that. Who gets to pick? Who's in charge? Because there there needs to be someone. Right. Because anyone can submit a PR, but the maintainers get to approve or deny things.
+
+232
+00:32:36,305 --> 00:32:47,745
+Yeah. So there's some control there in what gets added or removed from the code base. Yeah. I mean, that repo is is owned by a small by a small group of people. And so they get to decide what is
+
+233
+00:32:48,080 --> 00:32:53,039
+merged in and released as they should. Right? Because it is their project.
+
+234
+00:32:53,680 --> 00:32:54,399
+Unknown: Right?
+
+235
+00:32:55,040 --> 00:32:57,120
+Unknown: So they get to control exclusively
+
+236
+00:32:57,120 --> 00:33:16,950
+what gets merged in and what comes out as a release. The cool thing is that it's open source. Right? So anyone can take it and fork it and change it. And if they wanted to if there's a PR that they wanna merge, they can do that. They can compile it for themselves. They can share it with anyone that they want. That's you know, for proprietary software, that's not an option. So that ties back to the the other implementations
+
+237
+00:33:16,950 --> 00:33:18,150
+Unknown: of the protocol.
+
+238
+00:33:18,150 --> 00:33:42,054
+Unknown: Not, for example. Like, if if if Bitcoin Core and their maintainers aren't merging what you're hoping for, you can just start your own implementation. Yeah. Not even from the ground up. Right? You can just you just, you know, grab grab the the Git repo from any commit that you want and, you know, merge your PR if that was if that's your initiative, and you can run that. I think there are lots of people out there, miners included, that run slightly customized versions of Bitcoin Core,
+
+239
+00:33:42,630 --> 00:33:55,830
+you know, to add features that they want. They're probably not changing consensus logic because that's like you can't mess that up. But, there's lots of other stuff that goes on it that, you know, like creating block templates, things like that that you can pretty safely modify.
+
+240
+00:33:55,830 --> 00:34:06,365
+Yeah. Yeah. It's a tough problem, and it it it really goes against, I think, a lot of people's, like, mental model of how software works to have it be open source, permissionless,
+
+241
+00:34:06,365 --> 00:34:25,130
+like anarchy, essentially, where anyone can do what they want. We see a lot of people complaining, like, well, creating hit pieces about Bitcoin Core developers or like, you know, lobbying that Bitcoin Core should do this and that. And I think that that's I mean, obviously, you're free to say whatever you want, but I think that's a little bit misguided because Bitcoin Core
+
+242
+00:34:25,375 --> 00:34:27,375
+is it's a it's an organization,
+
+243
+00:34:27,775 --> 00:34:28,175
+and
+
+244
+00:34:28,735 --> 00:34:29,455
+the releases,
+
+245
+00:34:29,855 --> 00:34:46,060
+the code that comes out of there is their project. They can do whatever they want. They don't they don't work for me or you. They can do whatever they want. Like, it's their project. But the cool thing is that it's open source, So if you disagree, you can modify it and do it however you want. Yeah. And that's exactly what Luke has done with Bitcoin As
+
+246
+00:34:47,099 --> 00:34:59,135
+Unknown: as anyone should if they really disagree that much with the way the project's moving. So pat on the back to Luke for taking the initiative to do that. But then I think going as far as
+
+247
+00:34:59,935 --> 00:35:05,775
+this BIP 110 fork, hey, I hope it works out for them. I don't think it will realistically though.
+
+248
+00:35:06,440 --> 00:35:07,080
+Yeah.
+
+249
+00:35:07,240 --> 00:35:27,065
+Unknown: This is this is the super fascinating part about open source projects is this is we're watching it all play out in in real time. Yeah. No. As as annoying as it is to follow all this stuff on Twitter, I think that, you know, having these fork proposals, software proposals is part of a healthy open network. Yeah. Yeah. Disagreement there.
+
+250
+00:35:27,704 --> 00:35:48,480
+It's gonna be interesting to watch for sure. We're just trying to make firmware and hash boards over here. So Yeah. That's how I feel most times. It's like, alright. Well, that's that's cool. We got a healthy ecosystem going. I'm kind of focused on some other stuff, which unfortunately is, I would say, a way less healthy ecosystem. Yeah. That's for sure. Yeah. It's like we have 80% of the network running firmware.
+
+251
+00:35:49,185 --> 00:35:52,385
+Well, I guess a 100% of the network or 99.99%
+
+252
+00:35:52,385 --> 00:36:17,090
+of the network running firmware that is not open source that they do not control. They can't see how it works, and they can't just fork it to do what they want. Right? You have to, like, create it from first principles, which is what we're trying to do with Magina. And that's that is a very challenging endeavor to make these things again from first principles. Probably not as hard as creating Bitcoin, node implementation from first principles, but it's yeah. It's hard to do.
+
+253
+00:36:17,865 --> 00:36:40,000
+Yeah. Because we're finding out. Yeah. But I I don't think getting disagreement from you guys, but this is an, you know, essential part of how all of Bitcoin works that is open source. You can see how it works. You can change what you disagree with and run what you want. Yeah. And we believe mining should be the same. Yes. Mhmm. And we're making progress. There's been some some sweet stuff. I mean, I I feel like every day
+
+254
+00:36:40,320 --> 00:36:59,430
+every other day now I go on on X or on Twitter and someone's posting some cool thing they did with Mugena, at least in my circle, the people I follow. Yeah. Should we talk about some of the cool stuff that's happened in Mugena? Feel like the last two weeks since we last talked. Yes. Yeah. Yeah. Because we skipped pod two fifty six last week. I mean, the the what Schnitzel did just the other day, like, blew my mind.
+
+255
+00:36:59,990 --> 00:37:05,910
+Unknown: Do you wanna talk about that, Tyler? Well, he did two things. He showed extremely fast, probably world record power ramping.
+
+256
+00:37:06,630 --> 00:37:15,145
+Yes. And then and then last night, he teased to important? Why is ramping the power quickly important? Not every mining operation is aiming to optimize
+
+257
+00:37:15,145 --> 00:38:03,420
+for highest hash rate. Right? Or a hash rate target. Right? Some of them are managing complex energy systems, whether it's us heat punks that need a specific amount of heat entering the building or if you have really sensitive curtailment requirements. Right? Or I know the the story that that Janet and Philip and Eric told me from Gridless is, like, they need to to be able to control their power properly so they don't, like, kill the generator in the middle of rural Africa. Right? That would be catastrophic and detrimental to not just that site, but also potentially impact the power distribution to an entire village. So there are sensitive energy systems, and many of these stock firmwares have atrocious power control. Right? They expect you just run them with consistent power near a 100% uptime, and you want hash rate. And then on the aftermarket firmware implementations,
+
+258
+00:38:03,420 --> 00:38:04,300
+they introduce
+
+259
+00:38:04,380 --> 00:38:13,515
+more control. You can set power targets. Some of them even have performance scaling where they will walk down if they get too hot, some unique power adjustments, step changes.
+
+260
+00:38:14,075 --> 00:38:31,750
+And then Schnitzel just comes in, I think. What did he say? He he texted the group. He was like, how fast does it do it on Luxe? Cause he's trying to beat it, and he and he proceeds to show a video of it ramping from, like, zero to two two thousand watts in a couple of seconds, which was wicked fast. Yeah. It's been a while since I looked at Luxe, but I think it's on the order of of minutes.
+
+261
+00:38:33,205 --> 00:38:36,724
+Yeah. It step changes very carefully and I imagine that has to do with
+
+262
+00:38:38,005 --> 00:38:39,205
+because this is not
+
+263
+00:38:39,845 --> 00:39:19,240
+Unknown: chip specific frequency tuning. Right? We're not there yet in Mugena so this is just applied blank slate to all of them and maybe that's a trade off. If that's the trade off to get really fast response, then I know the heat punks would take that trade off. Yeah. It seems like you could if you knew to adjust fast, you just do it. Right? Maybe you when you get to your new target, you're not as efficient as you could be. But then you could kinda settle into that after the fact. Yeah. That's what was thinking. You could kinda settle into it, and all the efficiency in the world doesn't get you anything if your, like, generator just blew up because you couldn't ramp down fast enough. Exactly. Or you killed power to the whole site. Right? Like, that's the other that's what people do now, right, is they'll, like, tell machines to just turn off.
+
+264
+00:39:21,320 --> 00:39:37,905
+Unknown: Yeah. And when you have very, like that's not really tracking what you need to do. Right? You can always turn off the machines, but that's And that seems to work if you have a thousand machines. Right? Because then you have a pretty tight resolution with 3,000 watts at a time. It doesn't really work if you have two machines. That's right.
+
+265
+00:39:37,984 --> 00:39:49,480
+Yeah. Yeah. No. It was it was an epic demo. I got us really pumped when I saw that. And then another teaser from last night is, I saw a miner running with hash boards from different original
+
+266
+00:39:49,560 --> 00:40:04,085
+OEM machines controlled by one control board all on Mugena. So Mugena does not care if your hash boards don't match. You connect them and it can control it all as one system, which is so cool. That is really cool, especially for the people buying older used miners,
+
+267
+00:40:04,325 --> 00:40:09,685
+Unknown: building up their own systems from components that they get, you know, like essentially e waste components from industry.
+
+268
+00:40:10,440 --> 00:40:28,625
+Is like you can get some more life out of them if you have mismatched components. Maybe your power supply isn't the right one for your machine. It'll technically work, but it doesn't have that, you know, that version number that is in your in your firmware's database of what's supported. Right? So you can you can make it work. Right now, this is all at your own risk, but I think that
+
+269
+00:40:28,945 --> 00:41:00,125
+Unknown: I think there's a lot of people who would be willing to take this risk. Big time. Big time. I mean, and it just highlights the the customization and the ability of Magena to to do things that have people don't even know if this has been impossible before. Why have none of the other firmware manufacturers done it? I mean, I felt this pain point even when it's a simple feature like temperature tuning or whatever, and you're talking to an aftermarket firmware manufacturer and they're like, yeah, we could do it, or you don't get a solid answer and it doesn't fit their roadmap. Right? And this, back to the starting point of the conversation, just highlights that beauty of open source is
+
+270
+00:41:00,445 --> 00:41:25,395
+Unknown: you don't have to wait on anyone to build what you need. Especially with five coding tools now. Right? You can try this stuff. You gotta be careful. You can blow up your machines. I know Schnitzel's done that to a couple, but, you know, there's several people now, and I think that the number of people will be growing who they have a good sense of how this stuff works, and they want to try things, and they can make it work. They're willing to take their risks, and they're, you know, for the for the rewards that they can get,
+
+271
+00:41:25,715 --> 00:41:54,885
+you know, extracting some more performance, whatever area that might be out of their machines, out of their mining setup. Yeah. What did what did iXTECH just post? He he's doing something with Mugena and Bitaxe and a cool dashboard. Yeah. Sean I think it was Sean from iXTECH messaged me a while back. I I get a fair amount of these messages that are like, hey. Like, I wanna try Mugena. Like, I'm like, okay. Yeah. Have at it. And, you know, I have to tell them, like, we we don't have, a an image for you that you can just flash on your machine. You gotta, like, do that yourself.
+
+272
+00:41:55,045 --> 00:42:25,685
+We're we're working on that, like, releases for different machines, but right now, you gotta just do it yourself. And so he's he's got sort of the Mugena development kit, which is just Mugena running on a computer and a Bitaxe to mine too. And it was pretty cool. Like, he got back to me, I think, like, the next day and was like, boom. I got it working. I got this set up. And then I think like the next message was like, oh, I wanted to change the fan control. So I added that. And then he added this dashboard that looks totally rad showing, you know, all the metrics that he cares about on his mining firmware dashboard that he made for Mugena.
+
+273
+00:43:23,570 --> 00:43:34,850
+Unknown: I'm just trying to think like what I've done before with some miners. Sometimes like with LuxOS, you buy their or you install their commander software. Right? And you and it's just software on your computer that can identify the miners on the network and then it can facilitate
+
+274
+00:43:35,330 --> 00:43:44,845
+Unknown: that update. How does this work if you don't have a tool like that? Do we need a tool like that? We do need a tool like that. Ryan, I know, has been working on that. I started to create my own called Mugenaloader,
+
+275
+00:43:44,845 --> 00:43:45,645
+but basically,
+
+276
+00:43:45,964 --> 00:43:52,285
+you know, it's some software that runs on your computer so that you can easily update the firmware on a machine. Right? You don't have to SSH
+
+277
+00:43:52,180 --> 00:43:56,420
+in and run some command line stuff. Right? Just Or don't do SD cards or whatever.
+
+278
+00:43:57,220 --> 00:44:06,260
+Yeah. Yeah. And it kinda depends on the miner what the available upgrade methods are for you. But I think what we're talking about is because Mugena is like,
+
+279
+00:44:07,464 --> 00:44:13,704
+we're calling it the Linux kernel of mining. Right? So it's it's it's just one bit of software that does that mining function.
+
+280
+00:44:13,945 --> 00:44:21,704
+It's not a firmware. It's not a mining firmware. It's just one bit of a, you know, a complete breakfast that is a mining firmware. Mhmm. And so
+
+281
+00:44:22,820 --> 00:45:08,245
+what we would do and what I hope what I I know Ryan's working on, and I hope the community will also be doing this, is taking Mugena, configuring it for a particular machine, bundling up all the necessary tools, and collecting that all into an image that can be installed to a machine. And as soon as you install it to a machine, like, it's just gonna work on that machine. And it could be installed by flashing it to an SD card and putting that in your machine or via a loader app like Mugena Loader. There's a bunch of different ways to do this. Control boards are kinda locked down, so you're a little bit limited into, like, what methods you use. But, yeah, it's just taking Mugena and packaging it up so it's, like, sort of plug and play for different machines. So some decisions have to be made to make the more comprehensive image kit. Right? Like, it will need a UI, at least on the local net in the in the browser.
+
+282
+00:45:08,405 --> 00:45:28,980
+Yeah. Yeah. That's right. That's right. And that Mugena doesn't have one. I think that's a that's a very, the the you know, Mugena doesn't come with the default dashboard UI, and I think that's by design, is that one can be created for whatever situation you might need. I'm sure a sort of de facto one will emerge that can be included in these these builds
+
+283
+00:45:29,060 --> 00:45:41,755
+for different machines and these images because you want that. I mean but on the flip side, like, if you're running a a farm with several machines, you actually don't need the dashboard because you're not gonna, like, connect to each machine individually
+
+284
+00:45:41,755 --> 00:46:00,485
+and, like, click through a bunch of options when you have more than a handful of machines. All over API. Too much work. Right? You want you want to do it all via an API. And so in those cases, you actually don't even need a dashboard. Right? You just need a good API. Yeah. Which which Mugena definitely has. And so then you could imagine a tool like a fleet management tool, Proto Fleet, MDK,
+
+285
+00:46:00,565 --> 00:46:01,925
+all these different options,
+
+286
+00:46:02,165 --> 00:46:37,825
+Unknown: but you can imagine a fleet management tool that's like, yeah, it just notices all your devices on the network. It configures them however you, you know, batch configures them via the API. Because you're never gonna like go into your browser and type in, you know, one nine two one six eight point one point four dot five dot six and do it all manually. That's insane. Mhmm. Yeah. I remember that from the proto launch. And I've played around with Fleet. It's open source. Check it out. MDK as well. Download them. Give them a go. But they're they're great at identifying miners on the network. Like, you even me at my house. I rarely need to go into the dashboard of the firmware of the machine. These tools are getting so good, be it DHCP identification
+
+287
+00:46:37,825 --> 00:46:39,585
+through Home Assistant or
+
+288
+00:46:39,665 --> 00:46:58,955
+Unknown: Fleet. I haven't tried MDK. I need to try it. But, yeah, it's like that is the method to set up the machine. Yeah. We're actually seeing this happen with Bitaxes too. There have been a bunch of cool projects that have come out that are essentially like Bitax fleet managers, and they're really slick. There was one I saw. I saw it just today. It's so cool. Hold on. I wanna it's by this guy on OSMU
+
+289
+00:46:58,955 --> 00:47:06,395
+called Old School, and he calls his solution hold on. I definitely wanna call this out. It's called SoloStrike.
+
+290
+00:47:06,395 --> 00:47:08,555
+It's open source, SoloStrike.
+
+291
+00:47:08,635 --> 00:47:11,595
+It runs on Umbral, but it's got this beautiful dashboard
+
+292
+00:47:12,210 --> 00:47:24,050
+that ties in with your node. It ties in with all your miners and shows you everything that's going on. So if you have something like that, that's essentially capable of replacing each is each devices, you know, on unit dashboard,
+
+293
+00:47:24,609 --> 00:48:06,465
+Unknown: then you're good to go. Yeah. So that's what's going on with Mugena. There's biweekly dev calls that anyone listening is welcome to join to see how some of the the sauce is made. And those have been pretty good because I know it's early stages. We're kinda defining the architecture as it expands and features. Right? There's a lot of decisions that remain undecided right now. You know? So that's that's really cool opportunity right now to to get involved with the actual architecture of Mugena. Yeah. Yeah. If you like the software architecture stuff and you like Bitcoin and you like Bitcoin mining, like, this is a very cool project Mugena is to get involved with. Man, it's so cool. And it's moving really fast. And there's just an insane amount of potential too. So yeah, check it out. Mugena.org.
+
+294
+00:48:06,465 --> 00:48:19,800
+Unknown: Sweet. What else do you guys wanna talk about? What else is going on? Well, let's let's get a shout out to the hashers at dash dot two five six f dot org. Let's do it. 136
+
+295
+00:48:19,800 --> 00:48:23,880
+Unknown: terahash. Woah. It's been pretty consistent. Yeah. It has. Thanks to Tesserae.
+
+296
+00:48:24,295 --> 00:48:33,895
+They've been a long large supporter for a long time. Large in the sense that it's not just a bunch of bit axes. They've got 50 terahash or so in first place. So shout out to Tesserae. Second,
+
+297
+00:48:33,895 --> 00:48:52,605
+we've got in current hash rate, Pizzandy. Shout out to Pizzandy. I know he's doing some awesome work with Adi on the proof of print mining stuff. Those three those three nerd axes slash bit axes at Bitcoin Park that we set up at at Thames are still pointing our way, so that's nice to see. Good job. Zarca.
+
+298
+00:48:52,605 --> 00:48:55,965
+Shout out to Zarca with a fleet of different Bitaxes
+
+299
+00:48:56,125 --> 00:49:06,045
+as well as Thack seven seven seven, another fleet. Eco. He's got the Nerdax, the Apollo, and a Bitaxe. That's a good diversified set there. Thanks. Hardestblocks.org,
+
+300
+00:49:06,045 --> 00:49:10,260
+myself, d plus plus, Backwater Mining Collective, Satoki,
+
+301
+00:49:10,260 --> 00:49:13,460
+Tubaloo, Dylan, Scott, p Buttweiler,
+
+302
+00:49:13,460 --> 00:49:25,565
+Nord. Is that a new one? New one? Yeah. Shout out Nord. Woodminer, Schnitzel, and Jotty nine. Thank you guys for your support. Man, that difficulty leaderboard doesn't look like it's changed since tems. 5,600,000,000,000
+
+303
+00:49:25,565 --> 00:49:32,845
+is gonna be hard to beat. Yeah. Come on, guys. And and Schnitzel and Dylan did a good job of not losing their streak.
+
+304
+00:49:33,005 --> 00:49:34,525
+So they've got Bidaxes
+
+305
+00:49:34,525 --> 00:49:41,430
+maintaining their streak from their rented hash rate. So they are top two in the loyalty leaderboards followed by Tessera. We've got
+
+306
+00:49:41,910 --> 00:49:45,270
+Unknown: Wrigley block party telehash on second
+
+307
+00:49:45,589 --> 00:49:47,670
+place on the difficulty leaderboard.
+
+308
+00:49:47,670 --> 00:49:55,805
+And I think it's worth mentioning, they they found a block recently and I think they had, if I recall correctly, somewhere around 135
+
+309
+00:49:55,805 --> 00:49:56,765
+petahash
+
+310
+00:49:56,765 --> 00:49:57,565
+when they Yeah. Found
+
+311
+00:49:59,005 --> 00:50:07,400
+And then they did another block party and got, I believe over three exahash at one point and did not find a That's how it works. That's how it works.
+
+312
+00:50:07,640 --> 00:50:10,040
+Yeah. We know how that goes with our own telehashes.
+
+313
+00:50:10,040 --> 00:50:40,210
+Unknown: Yeah. That's right. It's crazy. Well, the the that's a great shout out because the real Wrigley block party is a is a really cool way to kind of participate in in what are recurring scheduled telehashes, so to speak, but they're not in solo mining mode. So they they do them just to chance large payouts if you wanna participate that fun gamified way to kinda gamble with some hash rate. So it's cool. Cool. Well, we've been at it for an hour and ten minutes. I think this is a good place to wrap up, and, you know, I hope the BIP one ten conversation
+
+314
+00:50:40,210 --> 00:50:42,770
+Unknown: was enjoyable for anyone who's
+
+315
+00:50:42,930 --> 00:50:46,450
+been curious about our opinions on it. There you go. Sorry,
+
+316
+00:50:47,465 --> 00:50:48,665
+Unknown: Now you know.
+
+317
+00:50:48,985 --> 00:50:51,465
+And if yeah. Yeah. If weren't anything.
+
+318
+00:50:52,025 --> 00:50:57,785
+Unknown: Yeah. If you weren't interested in that, well, sorry. We'll do better next time. Speaking of which, we actually
+
+319
+00:50:58,185 --> 00:51:01,625
+it sounds like we have a very exciting guest on deck
+
+320
+00:51:02,630 --> 00:51:24,085
+Yes. To join us on pod two fifty six soon. So stay tuned for that. I'm trying to think of a hint that I can drop without without saying too much. He knows a lot about making Asics, I think. Here we He's been at it for a long time too. Yeah. So we'll leave you with that teaser. It'll be worth it. Trust me. Indeed. Otherwise, anything else from you guys? No. Sounds good. Tune in next time. Alright.
+
+321
+00:51:24,244 --> 00:51:26,005
+Unknown: Catch you guys. Thanks everybody.
+

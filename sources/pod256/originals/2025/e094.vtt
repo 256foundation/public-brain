@@ -1,0 +1,5012 @@
+WEBVTT
+
+NOTE
+Transcription provided by Podhome.fm
+Created: 11/12/2025 9:43:11 PM
+Duration: 4674.377
+Channels: 1
+
+1
+00:00:02.480 --> 00:00:06.580
+<v Unknown> Welcome to pod two fifty six, episode 94.
+
+2
+00:00:06.720 --> 00:00:10.660
+Today is 11/12/2025.
+
+3
+00:00:11.040 --> 00:00:13.460
+It is currently fourteen hundred hours
+
+4
+00:00:14.240 --> 00:00:15.380
+Nashville time.
+
+5
+00:00:15.715 --> 00:00:16.935
+Tyler, how are you doing?
+
+6
+00:00:17.395 --> 00:00:23.015
+<v Unknown> Doing well, man. This year is flying by. Almost pod 100 too. That's wild.
+
+7
+00:00:23.795 --> 00:00:24.295
+<v Unknown> Yeah.
+
+8
+00:00:24.595 --> 00:00:31.650
+We we've been doing it every week except for a short period where we were doing it, like, once a month for a couple months. Okay.
+
+9
+00:00:32.030 --> 00:00:33.730
+But, you know, we just got
+
+10
+00:00:34.270 --> 00:00:36.130
+totally inundated with
+
+11
+00:00:36.670 --> 00:00:41.650
+letters of support and requests from our two to 10,000,000 listeners and Right.
+
+12
+00:00:42.510 --> 00:00:44.430
+Had to bring it back up to one week,
+
+13
+00:00:44.910 --> 00:00:45.890
+one week interval.
+
+14
+00:00:46.355 --> 00:00:48.935
+<v Unknown> Can't leave them hanging. No. No, sir.
+
+15
+00:00:49.875 --> 00:00:51.415
+What's been going on in Nashville?
+
+16
+00:00:53.155 --> 00:00:55.735
+<v Unknown> What hasn't been going on in Nashville
+
+17
+00:00:56.035 --> 00:00:56.935
+is the question.
+
+18
+00:00:58.115 --> 00:01:01.095
+We had the Bitcoin veterans here this week.
+
+19
+00:01:01.590 --> 00:01:03.690
+<v Unknown> I saw they had a telehashed too.
+
+20
+00:01:04.150 --> 00:01:06.410
+<v Unknown> Yeah. Where did you see that? Because,
+
+21
+00:01:06.950 --> 00:01:15.770
+I was searching around Twitter, and I don't think they posted about it from the Bitcoin veterans Twitter handle, did they? If they did certainly saw it on Twitter somewhere.
+
+22
+00:01:16.845 --> 00:01:22.545
+<v Unknown> It might have been just an individual account or the fact that you're, like, shadow banned and a second class citizen.
+
+23
+00:01:23.245 --> 00:01:27.665
+<v Unknown> Yeah. There is that. Even though I got somebody bought me a blue check, I'm still,
+
+24
+00:01:30.340 --> 00:01:32.680
+I I don't think I'm getting the whole Twitter experience.
+
+25
+00:01:33.140 --> 00:01:34.440
+Just leave it there.
+
+26
+00:01:36.180 --> 00:01:36.680
+<v Unknown> Yeah.
+
+27
+00:01:37.620 --> 00:01:40.360
+<v Unknown> Did you did they say how much hash rate they
+
+28
+00:01:40.740 --> 00:01:51.935
+<v Unknown> received? I saw 98 and a half petahash at one point. That was the highest I saw in a couple calls to get over that 100 petahash mark. Okay. Awesome. Yeah. I thought they were getting close to a 100. That's great. Yeah.
+
+29
+00:01:52.955 --> 00:01:56.015
+<v Unknown> Sweet. I take it they didn't they did not find a block?
+
+30
+00:01:57.170 --> 00:02:02.070
+Or I think they they were doing it with Ocean. Right? Yeah. So they were just doing it as a fundraiser.
+
+31
+00:02:02.689 --> 00:02:04.469
+They wanted the sats.
+
+32
+00:02:04.929 --> 00:02:10.150
+<v Unknown> Which is interesting with the share window to choose Ocean. Right? That could work out
+
+33
+00:02:11.595 --> 00:02:17.295
+against them or for them depending on I mean, they'll still be getting some sats after the telehash concluded most likely.
+
+34
+00:02:17.915 --> 00:02:19.055
+<v Unknown> Yeah. I mean,
+
+35
+00:02:20.235 --> 00:02:21.215
+yeah, it could
+
+36
+00:02:21.595 --> 00:02:28.459
+work against them if Yeah. Ocean has a bad luck streak while they have their hash rate pointed at the pool.
+
+37
+00:02:29.080 --> 00:02:30.520
+Right? In that case, then,
+
+38
+00:02:32.840 --> 00:02:35.160
+if they don't have any shares in that share window
+
+39
+00:02:35.685 --> 00:02:38.105
+you know, if their hash rate goes in
+
+40
+00:02:38.405 --> 00:02:43.224
+and peaks and plateaus and decays and drifts out of that share window,
+
+41
+00:02:43.525 --> 00:02:45.065
+then they wouldn't be getting any
+
+42
+00:02:45.605 --> 00:02:46.665
+sats for that.
+
+43
+00:02:46.965 --> 00:02:47.465
+<v Unknown> Exactly.
+
+44
+00:02:48.530 --> 00:02:52.549
+<v Unknown> You know, so it's only in the event that Ocean finds a block and they have
+
+45
+00:02:54.049 --> 00:02:55.269
+shares in the window
+
+46
+00:02:55.569 --> 00:02:56.790
+that they get compensated.
+
+47
+00:02:57.330 --> 00:03:09.115
+So yeah. I mean, that could go either way. On the other hand, if if Ocean had a good luck streak while they have their hash rate pointed there, then they can make bank. That was kind of the fun thing about mining with,
+
+48
+00:03:10.855 --> 00:03:15.115
+Slush Pool, which later became Brains Pool when they were doing PPLNS.
+
+49
+00:03:16.000 --> 00:03:17.540
+Mhmm. Because, like, some days,
+
+50
+00:03:18.480 --> 00:03:25.700
+you know, you wouldn't get any sats. And then other days, you would just be killing it. And it was just you never knew what you were gonna get.
+
+51
+00:03:26.000 --> 00:03:26.500
+<v Unknown> Yeah.
+
+52
+00:03:27.975 --> 00:03:29.435
+I'm glad that was a success.
+
+53
+00:03:30.055 --> 00:03:30.555
+<v Unknown> Yeah.
+
+54
+00:03:30.935 --> 00:03:31.915
+That's Yeah.
+
+55
+00:03:32.615 --> 00:03:34.155
+So they were here. They did
+
+56
+00:03:34.455 --> 00:03:37.915
+a summit on Monday, and there were several panels
+
+57
+00:03:38.455 --> 00:03:39.915
+focused around the intersection
+
+58
+00:03:40.295 --> 00:03:42.075
+of veterans and Bitcoiners.
+
+59
+00:03:42.900 --> 00:03:43.540
+And then,
+
+60
+00:03:43.940 --> 00:03:45.800
+yesterday on Veterans Day,
+
+61
+00:03:46.660 --> 00:03:47.800
+they held a,
+
+62
+00:03:48.500 --> 00:03:51.080
+range event where a number of participants
+
+63
+00:03:51.380 --> 00:03:52.340
+went out to,
+
+64
+00:03:52.660 --> 00:03:53.560
+shooting range
+
+65
+00:03:53.940 --> 00:03:55.060
+and did some arms
+
+66
+00:03:55.620 --> 00:03:57.160
+some weapons systems
+
+67
+00:03:57.460 --> 00:03:57.960
+practicing.
+
+68
+00:03:58.815 --> 00:03:59.315
+So
+
+69
+00:04:00.015 --> 00:04:01.635
+<v Unknown> That's sweet. Yeah.
+
+70
+00:04:02.175 --> 00:04:03.955
+I, I went to the range
+
+71
+00:04:04.815 --> 00:04:06.275
+after visiting the park,
+
+72
+00:04:06.735 --> 00:04:09.474
+what was it, last month and shot my first full auto
+
+73
+00:04:10.015 --> 00:04:11.474
+AR. Oh, sweet. That was cool.
+
+74
+00:04:13.295 --> 00:04:13.795
+<v Unknown> What?
+
+75
+00:04:14.240 --> 00:04:22.820
+Is it yours or someone else's or you rented it from the range? Yeah. I rented it from the FSL. Yeah. Is it, Dragon Man or which range?
+
+76
+00:04:23.520 --> 00:04:24.340
+<v Unknown> Glock store.
+
+77
+00:04:24.880 --> 00:04:26.340
+<v Unknown> Oh, okay. Yeah.
+
+78
+00:04:26.720 --> 00:04:28.900
+<v Unknown> Cool. I think that's what it's called. It's Glock focused.
+
+79
+00:04:29.224 --> 00:04:33.785
+<v Unknown> Yeah. Yeah. Yeah. Yeah. There's a Glock store down here in Nashville too. And,
+
+80
+00:04:34.985 --> 00:04:40.504
+their ranges I think I assume it's like this at all their locations where it's like a 270
+
+81
+00:04:40.504 --> 00:04:43.130
+degree view instead of just like a narrow
+
+82
+00:04:43.590 --> 00:04:47.050
+alley that you're shooting down. Yeah. It was really cool. Yeah.
+
+83
+00:04:47.830 --> 00:04:48.330
+Fun.
+
+84
+00:04:48.789 --> 00:04:50.070
+What do you think of the,
+
+85
+00:04:50.789 --> 00:04:53.050
+full auto versus semi auto?
+
+86
+00:04:54.150 --> 00:04:55.210
+<v Unknown> It goes fast.
+
+87
+00:04:55.685 --> 00:04:59.785
+Yeah. Yeah. That was really fun. I couldn't get a smile off my face. So
+
+88
+00:05:01.125 --> 00:05:05.384
+<v Unknown> Are you gonna put a auto sear in in your AR 15 now?
+
+89
+00:05:06.805 --> 00:05:07.944
+<v Unknown> What AR 15?
+
+90
+00:05:08.310 --> 00:05:10.250
+<v Unknown> Yeah. Exactly. Good answer.
+
+91
+00:05:13.350 --> 00:05:14.730
+What else is going on?
+
+92
+00:05:16.470 --> 00:05:17.690
+<v Unknown> Big week with
+
+93
+00:05:18.630 --> 00:05:20.730
+the Square stuff. That's been cool to watch.
+
+94
+00:05:21.905 --> 00:05:23.585
+<v Unknown> What are they doing? They're rolling out,
+
+95
+00:05:24.145 --> 00:05:24.645
+Lightning
+
+96
+00:05:25.025 --> 00:05:25.525
+integration?
+
+97
+00:05:25.905 --> 00:05:38.500
+<v Unknown> Or Yeah. Can you do on chain too? Is it up to the I think it's Lightning only. They rolled out, like, a Bitcoin acceptance map in Cash App, which is also owned by Block. And I was curious when I went to look at it. Okay.
+
+98
+00:05:38.880 --> 00:05:45.700
+Is every Square terminal by default enabled? And I think the answer is no just because there is only a handful here in Denver.
+
+99
+00:05:46.080 --> 00:05:50.260
+And I know that half the city uses Square at retail stores. So
+
+100
+00:05:50.960 --> 00:05:51.700
+that incentivizes
+
+101
+00:05:52.405 --> 00:05:56.505
+Bitcoiners going out and trying to get them to enable that, turn it on, which was cool,
+
+102
+00:05:57.044 --> 00:06:00.985
+to to do. I I checked it out at a bar in Buena Vista yesterday.
+
+103
+00:06:01.365 --> 00:06:02.824
+Paid with Bitcoin on Square.
+
+104
+00:06:03.604 --> 00:06:04.425
+It was flawless.
+
+105
+00:06:05.290 --> 00:06:09.310
+<v Unknown> Oh, yeah. I saw you post that picture. What brought you down to Buena Vista?
+
+106
+00:06:09.690 --> 00:06:12.590
+<v Unknown> I was installing a Hashrate heating system, brother.
+
+107
+00:06:13.130 --> 00:06:13.870
+<v Unknown> Oh, nice.
+
+108
+00:06:14.490 --> 00:06:23.294
+Yeah. Oh, is that the one with the the dude's got what is it? Like, 40 kilowatt resistive heater? Yes. And you're supposed to be boiler I've ever seen.
+
+109
+00:06:23.995 --> 00:06:24.815
+That's amazing.
+
+110
+00:06:26.074 --> 00:06:30.735
+<v Unknown> Yeah. He's gonna make bank. 6¢ power too. I mean, he can just dump heat outside.
+
+111
+00:06:32.730 --> 00:06:33.230
+<v Unknown> Wow.
+
+112
+00:06:33.930 --> 00:06:35.470
+Yeah. Why wouldn't he?
+
+113
+00:06:35.850 --> 00:06:37.230
+<v Unknown> It's it's actually interesting
+
+114
+00:06:37.770 --> 00:06:42.110
+<v Unknown> If the miners are efficient enough. Right? Which is going, like pretty competitive.
+
+115
+00:06:42.650 --> 00:06:46.025
+Brand new gen or what? No. He went $250
+
+116
+00:06:46.025 --> 00:06:47.324
+<v Unknown> s nineteens because he's
+
+117
+00:06:47.945 --> 00:06:50.604
+effectively got zero hash rate in that resistive boiler,
+
+118
+00:06:51.305 --> 00:06:52.604
+but he's paying for it.
+
+119
+00:06:52.905 --> 00:07:03.220
+Yeah. But if he's dumping all the heat outside, would it still make sense for him to Probably not with s nineteen's. We went immersion for him though, so he could just swap in s 20 ones which
+
+120
+00:07:03.840 --> 00:07:05.860
+Great. If if if he's listening,
+
+121
+00:07:06.320 --> 00:07:10.000
+immersion has some pros and cons. I I'm not a fan myself. I,
+
+122
+00:07:11.040 --> 00:07:12.320
+I over tightened the,
+
+123
+00:07:13.535 --> 00:07:21.955
+the fitting for the tube to the dry cooler, and I blew out a gasket. And I just leaked immersion oil all over this gentleman's basement like an idiot.
+
+124
+00:07:22.815 --> 00:07:23.555
+<v Unknown> You know,
+
+125
+00:07:23.855 --> 00:07:24.595
+it happens
+
+126
+00:07:24.975 --> 00:07:26.275
+to the best of us.
+
+127
+00:07:26.720 --> 00:07:27.860
+That's how we learn.
+
+128
+00:07:28.560 --> 00:07:29.540
+<v Unknown> Gotta go back.
+
+129
+00:07:30.240 --> 00:07:30.740
+<v Unknown> Yeah.
+
+130
+00:07:31.520 --> 00:07:32.100
+You know,
+
+131
+00:07:32.639 --> 00:07:34.580
+that's just one of the risks you're on.
+
+132
+00:07:35.039 --> 00:07:35.539
+<v Unknown> Yep.
+
+133
+00:07:36.240 --> 00:07:39.300
+Yep. But he was a cool dude. He had a JDM
+
+134
+00:07:39.600 --> 00:07:42.045
+swapped turbo diesel 95
+
+135
+00:07:42.285 --> 00:07:50.865
+Toyota pickup, which was sweet, and a 100 series Land Cruiser with a v eight all built out. Wow. Ego. That sounds good. Ego and I like cars, so
+
+136
+00:07:51.485 --> 00:07:53.905
+I had to comment on that. Especially Toyotas.
+
+137
+00:07:54.525 --> 00:07:57.470
+<v Unknown> Yeah. What year was the the diesel?
+
+138
+00:07:58.169 --> 00:07:59.470
+<v Unknown> It's a '95.
+
+139
+00:07:59.610 --> 00:08:04.669
+A '95. Okay. Sick. But it's the powertrain out of the Hilux that he swapped into it. Wow.
+
+140
+00:08:06.569 --> 00:08:07.630
+<v Unknown> That sounds amazing.
+
+141
+00:08:08.009 --> 00:08:08.509
+<v Unknown> Yeah.
+
+142
+00:08:09.130 --> 00:08:09.949
+It's rad.
+
+143
+00:08:10.645 --> 00:08:20.745
+What I was gonna say about that, though, was interesting. So 6¢ power, I think there's some program out there because he's got such a giant resistive boiler, 40 kilowatts.
+
+144
+00:08:21.685 --> 00:08:31.540
+He has this little box in his utility room where whatever is wired into that gets 6¢ power, but the rest of the house is metered at a a higher rate.
+
+145
+00:08:33.280 --> 00:08:36.420
+And so his heat is subsidized in that sense, and I was like,
+
+146
+00:08:36.935 --> 00:08:41.834
+well, we called an electrician to come out of 50 amp, and he just connected to that thing. And I was like, what's stopping
+
+147
+00:08:42.295 --> 00:08:48.955
+other people from doing that and just mining off of it or running your whole as much of your house as possible off that little box? I didn't even know that existed.
+
+148
+00:08:50.880 --> 00:08:52.500
+<v Unknown> I've never heard of that before.
+
+149
+00:08:52.880 --> 00:08:55.060
+<v Unknown> Yeah. I need to look into it more.
+
+150
+00:08:55.520 --> 00:08:56.000
+<v Unknown> Is that
+
+151
+00:08:56.800 --> 00:09:02.340
+I mean, you think that's just unique to his area or what? It must be some program with the utility. No?
+
+152
+00:09:03.305 --> 00:09:05.165
+<v Unknown> I guess. In that area. Yeah.
+
+153
+00:09:06.425 --> 00:09:09.885
+<v Unknown> Do you know who the utility company is down there? Black Hills?
+
+154
+00:09:11.305 --> 00:09:13.805
+<v Unknown> Not off the top of my head. I'll look at his bills.
+
+155
+00:09:17.220 --> 00:09:22.440
+Yeah. But, yeah, that was cool. Buena Vista is really nice. I I had never been before.
+
+156
+00:09:22.899 --> 00:09:24.760
+Oh, really? Yeah. Beautiful.
+
+157
+00:09:25.140 --> 00:09:30.920
+<v Unknown> Yeah. I used to go up there all the time for work. It's a very beautiful area. Nice drive. Did you take Highway 50?
+
+158
+00:09:32.555 --> 00:09:34.574
+Or, no, you probably went down 285.
+
+159
+00:09:35.035 --> 00:09:35.535
+<v Unknown> Yep.
+
+160
+00:09:35.915 --> 00:09:39.535
+That's right. Okay. Through Fair Play. Is a beautiful drive too. Yeah. It
+
+161
+00:09:41.035 --> 00:09:42.014
+is. Yeah.
+
+162
+00:09:43.035 --> 00:09:43.774
+His bills.
+
+163
+00:09:45.790 --> 00:09:47.970
+Sangre de Cristo Electric Association.
+
+164
+00:09:48.510 --> 00:09:49.250
+<v Unknown> Oh, interesting.
+
+165
+00:09:53.150 --> 00:09:57.650
+Well, that's good. So Exergy is up and running, and you're
+
+166
+00:09:58.110 --> 00:09:59.810
+you're doing the thing. Right?
+
+167
+00:10:00.185 --> 00:10:05.245
+<v Unknown> Doing the thing. Doing the thing. It's yeah. I was chatting with Dylan on the drive back. It's interesting because,
+
+168
+00:10:06.345 --> 00:10:21.230
+you know, the plumbing or the wiring, the electricians can figure that out. The HVAC guy can figure that out. The plumber can figure that out. It's really necessary to have I mean, this gentleman's a Bitcoiner. He's never mined before. He's got a BitX, I guess, so that's not true, but never at scale. And Mhmm.
+
+169
+00:10:22.170 --> 00:10:33.495
+We had to go there to do the hand holding for the pool setup, and we did some home assistant stuff that Schnitzel's a pro at, and we learned a lot from him to actually get it to tie into the boiler and the thermostat. So
+
+170
+00:10:33.875 --> 00:10:43.095
+That's great. It it's really just some special sauce that gets added on top. I hope one day the plumbers just learn that, you know, as an extra skill, and you can Right. Offer superior services.
+
+171
+00:10:43.649 --> 00:10:49.170
+<v Unknown> Was this just, like a one day, like, in and out and you got it up and running and installed and
+
+172
+00:10:49.810 --> 00:10:50.949
+<v Unknown> Got it up and running,
+
+173
+00:10:51.410 --> 00:11:01.465
+before I blew the gasket. So it was a one day. We're gonna go back. Okay. I gotta order the right gasket. We did a couple trips to Ace and Hard Tractor Supply to no success.
+
+174
+00:11:02.085 --> 00:11:04.665
+<v Unknown> Yeah. That's the thing about working in those small
+
+175
+00:11:05.045 --> 00:11:11.625
+towns, rural areas. You're just kind of at the whims of, like, your rancher supply store and whatever
+
+176
+00:11:12.190 --> 00:11:15.570
+local hardware store they've got, and oftentimes, it's not much.
+
+177
+00:11:15.950 --> 00:11:16.450
+<v Unknown> Mhmm.
+
+178
+00:11:18.910 --> 00:11:20.430
+But, yeah, it was a good week. I,
+
+179
+00:11:22.110 --> 00:11:25.890
+oh, I wanted to chat about Issa's video, which was really cool to see come out.
+
+180
+00:11:26.495 --> 00:11:30.035
+<v Unknown> Yeah. Yeah. Do you wanna give the backstory on that?
+
+181
+00:11:30.895 --> 00:11:32.835
+<v Unknown> Yeah. So the backstory is
+
+182
+00:11:33.215 --> 00:11:40.035
+Issa Santos. She does a lot of great content creation videos with Bitcoin Magazine and on her own channel and on online. And
+
+183
+00:11:40.460 --> 00:11:52.320
+Iko and I were sitting beside one another at a dinner, and she was across from us, and we started chatting about mining centralization. Some of these things we're trying to solve for with the two five six foundation to dismantle the proprietary mining empire, and
+
+184
+00:11:52.635 --> 00:12:00.735
+she took a keen interest to it. It I think like many Bitcoiners, they they never really hear about this kind of stuff. Right? Mhmm. Especially if they're not mining.
+
+185
+00:12:01.515 --> 00:12:02.335
+And so
+
+186
+00:12:03.195 --> 00:12:09.019
+<v Unknown> she wanted to sing that go ahead. To that point, like, when when I first got into Bitcoin,
+
+187
+00:12:09.560 --> 00:12:12.620
+the last area I explored was mining.
+
+188
+00:12:13.079 --> 00:12:15.079
+Totally. Yeah. You know, like, first, you
+
+189
+00:12:16.200 --> 00:12:19.905
+yeah. You know, you'd like, first, you start with, like,
+
+190
+00:12:20.305 --> 00:12:28.325
+just trying to get it however you can. So typically, people wind up using some KYC service because that's what their friend recommended.
+
+191
+00:12:29.105 --> 00:12:35.045
+Mhmm. And then they're, like, learning how that works and then trying to figure out how to get it off the exchange into
+
+192
+00:12:35.620 --> 00:12:44.520
+self custody, and then figuring out how self custody works, and then how cold storage works. And then and then you wanna run a node so you can verify
+
+193
+00:12:44.900 --> 00:12:45.400
+your
+
+194
+00:12:45.860 --> 00:12:47.320
+address and your
+
+195
+00:12:47.795 --> 00:12:52.055
+Bitcoin holdings using your own node and you go down that route and
+
+196
+00:12:52.514 --> 00:12:53.975
+then start getting into Lightning
+
+197
+00:12:54.355 --> 00:12:59.875
+and hosting your own, like, Lightning infrastructure. I mean, that's the path I took and it just always seemed like
+
+198
+00:13:00.560 --> 00:13:04.480
+you know, especially back when I was getting into this, you know, 2018,
+
+199
+00:13:04.480 --> 00:13:05.300
+2019,
+
+200
+00:13:06.560 --> 00:13:16.260
+it it was very few and far between you would find anyone who would actually recommend you do mining at home. In fact, it was the opposite. The narrative was
+
+201
+00:13:16.695 --> 00:13:21.115
+completely different back then. People would tell you don't do mining at home. You'll just get wrecked,
+
+202
+00:13:21.415 --> 00:13:23.115
+you know, having come off the
+
+203
+00:13:24.375 --> 00:13:31.595
+the heels of, like, the twenty seventeen bull run. Yep. And what happened with, like, the s nine prices and the hash rate. And,
+
+204
+00:13:32.430 --> 00:13:34.770
+so, yeah, everyone would tell you not to mine at home.
+
+205
+00:13:36.350 --> 00:13:38.290
+<v Unknown> And it was before there were
+
+206
+00:13:38.910 --> 00:13:46.700
+so many home mining devices really available. It was this was before the bid act. It was before a lot of the smaller gadgets that you see now. And so it was this weird transitionary phase you were in where the devices were all industrial. Yep.
+
+207
+00:13:48.015 --> 00:13:48.515
+Devices
+
+208
+00:13:49.175 --> 00:13:49.675
+were
+
+209
+00:13:50.335 --> 00:13:52.355
+all industrial. Yep.
+
+210
+00:13:53.215 --> 00:13:55.635
+<v Unknown> Yeah. A lot of s nines, s seventeens,
+
+211
+00:13:56.575 --> 00:13:57.315
+what's miners,
+
+212
+00:13:58.735 --> 00:14:00.595
+you know, if it hadn't been for diverter's
+
+213
+00:14:01.140 --> 00:14:04.920
+Guide mining for the streets, like, I never would have,
+
+214
+00:14:05.300 --> 00:14:05.960
+like, even,
+
+215
+00:14:07.700 --> 00:14:12.840
+thought to explore that area because everyone was, like, just you you're better off buying it in exchange.
+
+216
+00:14:13.540 --> 00:14:19.515
+Don't waste your money. You're gonna get wrecked. You're gonna get scammed. It's just all negative narratives all the way down. But,
+
+217
+00:14:20.635 --> 00:14:24.575
+but, yeah, back to Issa's video, you know, we're having dinner and
+
+218
+00:14:25.835 --> 00:14:26.575
+she's like,
+
+219
+00:14:27.915 --> 00:14:39.980
+two fifty six dismantling the proprietary mining empire. Is it really a mining cartel? Like, you've been a little dramatic. Right? And I'm like, no. No. I'm not being dramatic. That's exactly how this works. And we started talking about
+
+220
+00:14:40.360 --> 00:14:45.020
+Bitmain and how they've got 90% market share and what they've done with
+
+221
+00:14:45.345 --> 00:14:51.285
+ASIC boost and amp bleed and how they're antagonistic towards users and how they don't open
+
+222
+00:14:51.665 --> 00:14:54.084
+any of the designs or communications
+
+223
+00:14:54.385 --> 00:15:00.245
+and how they try to actively stop end users from changing the firmware. And
+
+224
+00:15:01.040 --> 00:15:02.880
+it was a good conversation, and,
+
+225
+00:15:04.560 --> 00:15:16.015
+I didn't expect her to produce that video as quickly as she did. And so that, like, came out of nowhere because it was so fast. Yeah. And, I thought it was great. Like,
+
+226
+00:15:16.475 --> 00:15:20.735
+for people who aren't familiar with this topic, she did a really good job of,
+
+227
+00:15:21.355 --> 00:15:22.654
+like, explaining
+
+228
+00:15:23.115 --> 00:15:33.310
+the issues and, like, all the details in between and connecting it all together. So That was my thought as well because we haven't had, you know, a fifteen minute succinct
+
+229
+00:15:34.009 --> 00:15:35.149
+<v Unknown> bring you up to speed
+
+230
+00:15:35.690 --> 00:15:37.550
+video or story
+
+231
+00:15:38.089 --> 00:15:41.834
+ever before about this. And so that was really cool to see. Yeah.
+
+232
+00:15:42.855 --> 00:15:48.475
+Yeah. Definitely. If you I thought it was well received too. There were some funny replies in the comments and stuff.
+
+233
+00:15:49.095 --> 00:15:54.394
+There was the Casper shills. There were the people saying this is why you're supposed to mine other coins. And then there was
+
+234
+00:15:54.750 --> 00:15:57.090
+a lot of commentary about ASIC resistance
+
+235
+00:15:58.350 --> 00:16:03.410
+to change the mining algorithms so that ASIC chips don't work and you're kind of locked into
+
+236
+00:16:04.430 --> 00:16:07.490
+CPUs. Consumer hardware. Yeah. Consumer hardware. But
+
+237
+00:16:08.350 --> 00:16:16.545
+I was thinking about this yesterday. It's like, I don't think that's the answer because I I do want a a processor that can only do one thing. Like, that is a huge value.
+
+238
+00:16:16.925 --> 00:16:21.345
+<v Unknown> What happens when a state actor just rents all the Amazon
+
+239
+00:16:21.725 --> 00:16:24.305
+CPUs Exactly. That points it at your chain?
+
+240
+00:16:24.740 --> 00:16:25.240
+<v Unknown> Yeah.
+
+241
+00:16:25.620 --> 00:16:30.680
+<v Unknown> Yep. Like, what we're doing with the two fifty six foundation, we are gonna accelerate
+
+242
+00:16:31.300 --> 00:16:32.200
+ASICs becoming
+
+243
+00:16:32.579 --> 00:16:33.639
+consumer hardware.
+
+244
+00:16:34.100 --> 00:16:43.545
+You know? Yes. Like, Amber one is a I mean, first and foremost, like, look at the bid acts. Like, that's as consumer hardware as it gets. Right? Like Yep. Single chip,
+
+245
+00:16:44.805 --> 00:16:46.264
+relatively low cost,
+
+246
+00:16:46.565 --> 00:16:55.480
+and it enables the end user to learn all the thing all the basics about Bitcoin mining. How to connect to a pool, how to set up a wallet, how to
+
+247
+00:16:56.279 --> 00:17:00.220
+what to do with your Sats, how to monitor it, how to find it on your home network.
+
+248
+00:17:01.399 --> 00:17:05.179
+You don't so much have to deal with any heat or noise like with the BitX.
+
+249
+00:17:05.585 --> 00:17:06.085
+But,
+
+250
+00:17:06.705 --> 00:17:10.325
+you know, you learn, like, the functional basics, which I think is awesome.
+
+251
+00:17:11.185 --> 00:17:14.565
+And then, you know, we've got the Ember one, which I've actually
+
+252
+00:17:15.585 --> 00:17:16.805
+we'll go through some,
+
+253
+00:17:17.720 --> 00:17:23.260
+two fifty six foundation updates. But I've got number one on the pick and place machine behind me right now.
+
+254
+00:17:24.920 --> 00:17:28.460
+So, yeah, that's gonna put, you know, roughly a 100 watt
+
+255
+00:17:29.080 --> 00:17:30.695
+12 chip ASIC
+
+256
+00:17:31.075 --> 00:17:33.654
+out there in the hands of whoever wants to use
+
+257
+00:17:33.955 --> 00:17:42.774
+it. All the design files are gonna be out there. So, like, not only is it gonna be consumer hardware, but it's gonna be open source consumer hardware that any consumer can then
+
+258
+00:17:43.210 --> 00:17:46.590
+inspect, modify, and distribute themselves if they want to.
+
+259
+00:17:47.450 --> 00:17:47.950
+<v Unknown> Exactly.
+
+260
+00:17:48.650 --> 00:17:54.110
+<v Unknown> Please adhere to the license and make your changes public for the developers who come along after you.
+
+261
+00:17:55.530 --> 00:18:13.410
+<v Unknown> Yeah. We did a whole two fifty six. Pod two fifty six had a whole episode where I basically prompted Scott to walk through all of the licensed lore and the reasoning behind that. So I think it's a few episodes back, but that's a good listen if you wanna understand why that's the case. Was I gone that day? Yeah. I was the one I think you were gone, but
+
+262
+00:18:14.050 --> 00:18:14.790
+I was
+
+263
+00:18:15.090 --> 00:18:21.430
+kinda squeezing out of Scott because he's got so much knowledge about just different ways to think about this, the analogies of
+
+264
+00:18:21.970 --> 00:18:31.315
+<v Unknown> how MIT plays out versus GPL and yeah. It was a good one. Yeah. Well and it's totally new uncharted territory. Like, open source Bitcoin mining hardware
+
+265
+00:18:31.695 --> 00:18:33.795
+did not exist prior to the BitX.
+
+266
+00:18:34.415 --> 00:18:35.315
+So Yep.
+
+267
+00:18:36.735 --> 00:18:38.115
+<v Unknown> And I'm not worried about
+
+268
+00:18:39.020 --> 00:18:43.919
+ASIC resistance because we need to kill the industrial miners. It's like the industrial miners are facing
+
+269
+00:18:44.539 --> 00:18:51.840
+their own challenges. Like, they're gonna continue to feel the challenges as difficulty goes up. And so Bitcoin has this error correcting
+
+270
+00:18:52.220 --> 00:18:57.225
+feature to it where that's not a problem that we have to solve for. Right. I agree.
+
+271
+00:18:57.605 --> 00:19:01.544
+<v Unknown> I think anyone, like, re recapturing heat is gonna have an advantage.
+
+272
+00:19:03.365 --> 00:19:06.825
+You know, smaller scale mining operations are gonna have an easier
+
+273
+00:19:07.125 --> 00:19:07.445
+time,
+
+274
+00:19:08.430 --> 00:19:10.690
+you know, not leaving a very
+
+275
+00:19:11.550 --> 00:19:12.050
+distinguishable
+
+276
+00:19:12.350 --> 00:19:15.330
+footprint on their local electric grid,
+
+277
+00:19:16.270 --> 00:19:20.445
+you know, in case that ever becomes an issue. Like, for example, like
+
+278
+00:19:21.404 --> 00:19:24.544
+like, when marijuana was illegal or in places where
+
+279
+00:19:25.005 --> 00:19:27.505
+growing and cultivating marijuana is still illegal,
+
+280
+00:19:28.845 --> 00:19:29.345
+oftentimes,
+
+281
+00:19:30.605 --> 00:19:31.105
+authorities,
+
+282
+00:19:31.485 --> 00:19:32.705
+law enforcement agencies
+
+283
+00:19:33.005 --> 00:19:34.465
+will work with the
+
+284
+00:19:34.950 --> 00:19:38.330
+utility companies to monitor electric grid use
+
+285
+00:19:38.630 --> 00:19:40.570
+and search out patterns that match,
+
+286
+00:19:41.510 --> 00:19:42.890
+you know, growing cycles.
+
+287
+00:19:43.750 --> 00:19:47.370
+And that gives them, you know, that makes the growers, like
+
+288
+00:19:47.765 --> 00:19:49.385
+like shooting fish in a barrel.
+
+289
+00:19:49.765 --> 00:19:52.425
+<v Unknown> Mhmm. So Yeah. They're profiling here.
+
+290
+00:19:52.805 --> 00:19:54.825
+<v Unknown> Yeah. And, you know, that's happened in,
+
+291
+00:19:55.205 --> 00:19:56.585
+places like Argentina.
+
+292
+00:19:57.845 --> 00:19:59.145
+There was a lot of,
+
+293
+00:19:59.929 --> 00:20:05.150
+Bitcoin miners who got disrupted, and the government came in and seized their hardware, stole their property,
+
+294
+00:20:05.530 --> 00:20:06.429
+shut them down.
+
+295
+00:20:06.809 --> 00:20:10.590
+<v Unknown> Venezuela as well. Mauricio has got a cool story about that. Yeah.
+
+296
+00:20:11.210 --> 00:20:16.115
+<v Unknown> So yeah. I mean, it's happened before. It could very well happen here. And I think
+
+297
+00:20:16.495 --> 00:20:17.875
+having tools like,
+
+298
+00:20:18.335 --> 00:20:20.195
+like, HydroPull, which makes it,
+
+299
+00:20:21.455 --> 00:20:21.955
+totally,
+
+300
+00:20:23.615 --> 00:20:27.875
+it lowers the barrier to spin up your own Bitcoin mining pool,
+
+301
+00:20:28.950 --> 00:20:30.490
+so anybody can do it.
+
+302
+00:20:32.070 --> 00:20:35.370
+So having tools like that and, you know, smaller
+
+303
+00:20:35.910 --> 00:20:36.650
+power consumption
+
+304
+00:20:37.510 --> 00:20:38.010
+profiles,
+
+305
+00:20:39.110 --> 00:20:40.570
+I think are gonna be helpful
+
+306
+00:20:42.175 --> 00:20:42.675
+stealth
+
+307
+00:20:44.735 --> 00:20:45.235
+tools,
+
+308
+00:20:46.895 --> 00:20:49.395
+shields, if you will, to Mhmm.
+
+309
+00:20:50.255 --> 00:20:53.795
+You know, help Bitcoin mining keep going in the event that
+
+310
+00:20:54.095 --> 00:20:54.675
+the state
+
+311
+00:20:55.060 --> 00:21:05.720
+does turn and wants to start shutting it down. Just never know what they're gonna do next or, like, what administration is gonna be in next? Like, you know, what if we're looking at, like, a Gavin Newsom administration next year
+
+312
+00:21:06.100 --> 00:21:09.095
+or, next next presidential cycle. Like,
+
+313
+00:21:10.275 --> 00:21:15.255
+what you know, how is the, like, war Biden's war on crypto gonna look at that point?
+
+314
+00:21:15.555 --> 00:21:23.980
+It's it's see it's it was supposed to be that we got Trump, and he's crypto friendly and and, like, all this other bullshit. But, like, lo and behold, like,
+
+315
+00:21:24.520 --> 00:21:32.860
+look at what the SDNY just did to the samurai wallet developers or at least one of them has been sentenced. The other one's gonna get sentenced on the nineteenth
+
+316
+00:21:33.255 --> 00:21:34.235
+in seven days,
+
+317
+00:21:36.375 --> 00:21:37.995
+which we'll touch on too. But,
+
+318
+00:21:38.775 --> 00:21:41.675
+all that is to say, like, you just dude, you never know. You
+
+319
+00:21:42.055 --> 00:21:46.600
+you can't trust the government. You have to no one's coming to save you, and you gotta be prepared
+
+320
+00:21:47.060 --> 00:21:48.120
+to defend yourself.
+
+321
+00:21:49.460 --> 00:21:50.520
+<v Unknown> The tools are going
+
+322
+00:21:51.060 --> 00:21:52.760
+mainstream. It's getting easier
+
+323
+00:21:53.060 --> 00:21:54.680
+Yeah. To adopt freedom tech,
+
+324
+00:21:55.620 --> 00:21:56.520
+hack your life.
+
+325
+00:21:56.820 --> 00:22:00.440
+<v Unknown> Yeah. As it should. If you're depending on these tools to, like,
+
+326
+00:22:01.174 --> 00:22:02.395
+live day to day,
+
+327
+00:22:04.135 --> 00:22:06.875
+it'd be nice if they were, like, easy to use and
+
+328
+00:22:07.575 --> 00:22:11.115
+and you didn't have to have, like, a computer science degree to make them work.
+
+329
+00:22:11.655 --> 00:22:13.755
+<v Unknown> Yeah. I was playing around with on that note,
+
+330
+00:22:14.860 --> 00:22:22.000
+Start nine alpha 12, which is for their o four o release, which enables VPN tunneling so you can access
+
+331
+00:22:22.620 --> 00:22:26.159
+your services privately when you're away from home, which is cool.
+
+332
+00:22:26.460 --> 00:22:26.960
+<v Unknown> Great.
+
+333
+00:22:27.485 --> 00:22:34.545
+<v Unknown> Yeah. If anybody's listening and wants to hack on that, I'd recommend going to Start Nine's office hours. They do an office hours every Monday and Thursday
+
+334
+00:22:35.165 --> 00:22:43.549
+at 10AM mountain, and the whole team's there pretty much to just help you try and package services if you have FreedomTech that you want on start nine
+
+335
+00:22:44.009 --> 00:22:46.669
+or run an alpha version and learn how to
+
+336
+00:22:47.450 --> 00:22:50.509
+enable these privacy features for the broader Internet
+
+337
+00:22:50.889 --> 00:22:57.445
+at scale before the the full release. It was really valuable. I I had a lot of fun with that on Monday. That's great. If anyone's,
+
+338
+00:22:58.145 --> 00:23:05.605
+<v Unknown> you know, speaking of Start Nine packaging, if anyone is listening to this, we just really the two fifty six foundation just released,
+
+339
+00:23:06.225 --> 00:23:06.725
+Hydropool.
+
+340
+00:23:08.225 --> 00:23:09.685
+So that is out there
+
+341
+00:23:10.070 --> 00:23:11.450
+for anyone to check out.
+
+342
+00:23:11.990 --> 00:23:12.490
+And
+
+343
+00:23:13.190 --> 00:23:17.450
+we have the Docker files created. If you wanna check out
+
+344
+00:23:18.710 --> 00:23:20.870
+github.com/
+
+345
+00:23:21.510 --> 00:23:22.490
+sorry, Keith.
+
+346
+00:23:23.155 --> 00:23:27.895
+Github.com/256foundation/hydropool.
+
+347
+00:23:29.635 --> 00:23:32.055
+You can see the GitHub repo there.
+
+348
+00:23:32.835 --> 00:23:34.055
+And if you
+
+349
+00:23:34.435 --> 00:23:37.415
+are good at, like, packaging stuff up for
+
+350
+00:23:38.160 --> 00:23:38.660
+start
+
+351
+00:23:39.120 --> 00:23:46.740
+nine OS. I don't know. That's over my head, like, what needs to be done between having a Dockerfile or having the source code and having,
+
+352
+00:23:47.520 --> 00:23:55.575
+something ready for start nine OS. But it's there and open. And if anyone would like to help us with that, please feel free to jump in.
+
+353
+00:23:56.515 --> 00:23:57.735
+<v Unknown> Yeah. That'd be sweet.
+
+354
+00:23:59.235 --> 00:24:01.635
+<v Unknown> Yeah. Because then imagine, like, users can just, like
+
+355
+00:24:02.860 --> 00:24:10.399
+you know, they've got their Star nine OS, and then there's, like, a hydro pool app. They click on that, and then boom, you're running your own pool instance.
+
+356
+00:24:10.700 --> 00:24:11.519
+And it has
+
+357
+00:24:12.059 --> 00:24:15.600
+you know, why would someone wanna do that? Because it has PPLNS
+
+358
+00:24:15.980 --> 00:24:18.975
+accounting. You can share it with your friends
+
+359
+00:24:19.355 --> 00:24:25.535
+or your community. Or if you feel so compelled to host something for the public at large, you could also do that.
+
+360
+00:24:25.995 --> 00:24:30.415
+And you can host your own mining pool. You can configure it to,
+
+361
+00:24:31.340 --> 00:24:33.120
+as a pool operator to
+
+362
+00:24:33.500 --> 00:24:34.000
+take,
+
+363
+00:24:34.460 --> 00:24:36.960
+fees in the event that you find a block.
+
+364
+00:24:38.140 --> 00:24:40.480
+Keep in mind, like, you're not gonna get any,
+
+365
+00:24:41.580 --> 00:24:45.600
+SATs unless someone in your pool finds the block. But because it's PPLNS,
+
+366
+00:24:46.565 --> 00:24:47.785
+anyone who's contributing
+
+367
+00:24:48.245 --> 00:24:48.985
+hash rate
+
+368
+00:24:49.445 --> 00:24:53.465
+to your pool will get sats in proportion to their contributions.
+
+369
+00:24:54.405 --> 00:25:00.105
+And by default, we've set it up so that it supports up to a 100 users in the Coinbase reward,
+
+370
+00:25:00.940 --> 00:25:03.280
+which is a far departure from
+
+371
+00:25:03.740 --> 00:25:07.120
+the limitations that Antminer has in their firmware.
+
+372
+00:25:07.740 --> 00:25:12.000
+So the trade off there is that, if you're running like a stock Antminer,
+
+373
+00:25:12.955 --> 00:25:13.695
+you're probably
+
+374
+00:25:14.075 --> 00:25:15.935
+not gonna want to point it at,
+
+375
+00:25:17.355 --> 00:25:22.815
+hydro pull instance that has more than I think their limit is like 16 or seventeen,
+
+376
+00:25:23.595 --> 00:25:24.975
+eighteen, maybe 20
+
+377
+00:25:25.500 --> 00:25:27.200
+addresses in the Coinbase reward.
+
+378
+00:25:28.380 --> 00:25:29.760
+I don't think the
+
+379
+00:25:30.220 --> 00:25:33.760
+I don't know what'll happen, but, you know, that's Antminer's problem.
+
+380
+00:25:34.460 --> 00:25:36.240
+The future, in my opinion,
+
+381
+00:25:36.940 --> 00:25:37.440
+is
+
+382
+00:25:38.355 --> 00:25:38.855
+smaller
+
+383
+00:25:39.794 --> 00:25:40.294
+communities
+
+384
+00:25:40.674 --> 00:25:41.575
+hashing together
+
+385
+00:25:41.955 --> 00:25:43.495
+and then sharing the rewards,
+
+386
+00:25:44.434 --> 00:25:49.095
+paid directly out from the Coinbase so that there's no custodial issues involved whatsoever.
+
+387
+00:25:50.275 --> 00:25:52.054
+<v Unknown> Is there an upper limit to that
+
+388
+00:25:52.710 --> 00:25:53.210
+theoretically?
+
+389
+00:25:53.669 --> 00:25:54.809
+<v Unknown> Yeah. It's four megabytes.
+
+390
+00:25:55.669 --> 00:25:56.169
+Okay.
+
+391
+00:25:57.030 --> 00:25:57.850
+Get it?
+
+392
+00:25:59.429 --> 00:25:59.929
+Like,
+
+393
+00:26:00.230 --> 00:26:06.570
+I mean, like, if you wanted to, you could, like, fill the entire Coinbase reward with just your Hasher's
+
+394
+00:26:06.950 --> 00:26:07.450
+addresses.
+
+395
+00:26:08.245 --> 00:26:10.105
+Yeah. So, you know, ideally,
+
+396
+00:26:11.284 --> 00:26:12.985
+you don't want so many,
+
+397
+00:26:15.605 --> 00:26:18.985
+addresses included in your Coinbase reward that you're
+
+398
+00:26:19.365 --> 00:26:23.940
+excluding transactions that would have paid you a fee on top of the block reward. Right?
+
+399
+00:26:25.040 --> 00:26:26.500
+So you know? But
+
+400
+00:26:27.760 --> 00:26:32.580
+there's a way to, like, balance or to, like, go into hydro pull and change,
+
+401
+00:26:33.600 --> 00:26:39.220
+the I think it's the block max block weight or, like, one of those flags, it's in there.
+
+402
+00:26:39.815 --> 00:26:40.315
+<v Unknown> Yeah.
+
+403
+00:26:40.695 --> 00:26:48.395
+<v Unknown> And you can change that. So it'll open up space in the Coinbase reward for more addresses. So Jungle's got a calculation,
+
+404
+00:26:49.655 --> 00:26:54.555
+on the GitHub read me that explains all this. So, basically, like, the more
+
+405
+00:26:55.120 --> 00:26:56.580
+addresses you want to include,
+
+406
+00:26:57.440 --> 00:27:03.460
+you adjust that block weight setting, and then that that opens up that space in the coinbase reward.
+
+407
+00:27:04.720 --> 00:27:07.700
+<v Unknown> That's sweet. I'm gonna get it running on our Proxmox server.
+
+408
+00:27:08.025 --> 00:27:10.825
+This week is my plan. Try it out. Yeah.
+
+409
+00:27:11.545 --> 00:27:15.165
+<v Unknown> I'm gonna set up I'm gonna self host a server here.
+
+410
+00:27:16.745 --> 00:27:19.885
+And, eventually, I wanna have, like, all the people,
+
+411
+00:27:20.340 --> 00:27:23.940
+all of our listeners who are pointing us at Hash rate at,
+
+412
+00:27:24.660 --> 00:27:27.640
+like, Lincoin and Solo CK pool and Ocean
+
+413
+00:27:28.340 --> 00:27:29.960
+and Public Pool.
+
+414
+00:27:30.580 --> 00:27:36.245
+I wanna get all those Hashers migrated over to our own self hosted instance of of hydro
+
+415
+00:27:36.545 --> 00:27:37.045
+pool.
+
+416
+00:27:38.145 --> 00:27:46.805
+And then, you know, then we can read out the hashers from there. And the way I'll configure it on the back end is that a 100% of the block reward will go to
+
+417
+00:27:47.185 --> 00:27:50.310
+the two fifty six foundation in the event that we find a block.
+
+418
+00:27:52.230 --> 00:27:55.690
+The other nice thing that we added, at least I think it's nice, is, like,
+
+419
+00:27:56.630 --> 00:27:57.130
+if
+
+420
+00:27:57.510 --> 00:27:59.770
+the user doesn't wanna trust
+
+421
+00:28:00.390 --> 00:28:08.255
+that the pool operator is being honest, we opened up an an API. We provide an API for the for anyone to, like,
+
+422
+00:28:09.115 --> 00:28:13.615
+see what shares the pool or to see all the shares that the pool is validating.
+
+423
+00:28:13.995 --> 00:28:20.049
+And so any user can just, like, stream those shares and download them into their own
+
+424
+00:28:20.350 --> 00:28:21.809
+database and then
+
+425
+00:28:22.110 --> 00:28:23.970
+do the comparison and
+
+426
+00:28:24.590 --> 00:28:27.490
+and see if the pool operator is being honest.
+
+427
+00:28:29.075 --> 00:28:37.235
+<v Unknown> Yeah. Do any pools offer that? I I think with the ocean API, which you have to ask for, you can do it. But do any others let you do that? I know,
+
+428
+00:28:37.795 --> 00:28:38.295
+<v Unknown> Slushpool
+
+429
+00:28:39.475 --> 00:28:39.975
+had
+
+430
+00:28:40.275 --> 00:28:45.230
+some documentation about how to do that on their pool a while ago.
+
+431
+00:28:47.450 --> 00:28:48.110
+It was
+
+432
+00:28:48.490 --> 00:28:49.710
+it was complex
+
+433
+00:28:51.210 --> 00:28:54.830
+to say the least. You know, for a non developer, it was con complex.
+
+434
+00:28:57.705 --> 00:28:58.205
+But,
+
+435
+00:28:58.664 --> 00:29:01.645
+yeah, I as other than that, I'm not really
+
+436
+00:29:02.025 --> 00:29:02.525
+sure.
+
+437
+00:29:04.424 --> 00:29:05.245
+I don't know.
+
+438
+00:29:05.784 --> 00:29:08.525
+I think it's just kind of a trust don't verify.
+
+439
+00:29:09.065 --> 00:29:10.525
+That's what we're trying to
+
+440
+00:29:11.065 --> 00:29:11.804
+to flip.
+
+441
+00:29:13.169 --> 00:29:21.029
+<v Unknown> Apart for the course for the Bitcoin mining industry. Right. Yeah. Which is insane. But yeah. What about the other projects? Let's get into them.
+
+442
+00:29:21.649 --> 00:29:23.590
+<v Unknown> Okay. Sure. So like I mentioned,
+
+443
+00:29:24.210 --> 00:29:27.835
+I've got an Ember One on the pick and place machine.
+
+444
+00:29:28.215 --> 00:29:29.674
+In fact, here, I've got
+
+445
+00:29:30.215 --> 00:29:31.434
+hang on one second.
+
+446
+00:29:34.054 --> 00:29:35.115
+I've got the
+
+447
+00:29:35.895 --> 00:29:39.035
+Ember One hash boards here that I can show
+
+448
+00:29:39.495 --> 00:29:40.395
+all the viewers.
+
+449
+00:29:41.730 --> 00:29:42.550
+So this
+
+450
+00:29:47.410 --> 00:29:50.950
+is this is what you get from the manufacturer.
+
+451
+00:29:52.210 --> 00:29:52.710
+Nice.
+
+452
+00:29:53.275 --> 00:29:58.495
+So this is the front of the board or the top of the board where the 12 ASIC chips will get placed.
+
+453
+00:29:59.195 --> 00:29:59.935
+And then,
+
+454
+00:30:01.835 --> 00:30:05.695
+on the back of the board, we've got the two fifty six foundation logo.
+
+455
+00:30:06.870 --> 00:30:12.890
+And so now my job at this point is, like, everywhere you see these little, like, gold pads
+
+456
+00:30:13.670 --> 00:30:18.170
+is where a little tiny component, either like a resistor or a capacitor
+
+457
+00:30:18.470 --> 00:30:19.930
+or a diode or,
+
+458
+00:30:20.935 --> 00:30:22.875
+an ASIC chip or, you know,
+
+459
+00:30:24.215 --> 00:30:26.075
+integrated circuit of some sort.
+
+460
+00:30:26.935 --> 00:30:28.715
+So, you know, there's about,
+
+461
+00:30:30.935 --> 00:30:33.575
+I can't remember, like, some 120
+
+462
+00:30:33.575 --> 00:30:35.435
+components or something on this board.
+
+463
+00:30:37.090 --> 00:30:37.590
+They
+
+464
+00:30:38.290 --> 00:30:40.710
+I've got them all in, like, little,
+
+465
+00:30:41.250 --> 00:30:42.630
+cut pieces of tape.
+
+466
+00:30:43.010 --> 00:30:46.710
+And so now the jaw the my job is to
+
+467
+00:30:47.890 --> 00:30:51.190
+put them load all those into the pick and place machine,
+
+468
+00:30:52.505 --> 00:30:58.924
+program the pick and place machine so it knows exactly where all the components are at and it knows exactly where,
+
+469
+00:31:00.184 --> 00:31:02.125
+that component is supposed to go
+
+470
+00:31:02.745 --> 00:31:06.205
+on the hash board and what direction it's supposed to be rotated.
+
+471
+00:31:07.480 --> 00:31:14.620
+So I have to, like, program all that up. It's very tedious, and I'm I have no idea what I'm doing, so I'm trying to figure it out.
+
+472
+00:31:16.360 --> 00:31:19.899
+And then hopefully, in the next couple days here, I've got
+
+473
+00:31:20.279 --> 00:31:21.019
+a complete,
+
+474
+00:31:22.105 --> 00:31:24.845
+Ember One dashboard. So my goal is to,
+
+475
+00:31:25.625 --> 00:31:29.965
+hack on this all day tomorrow and Friday, and I'm hoping that I have it done,
+
+476
+00:31:30.904 --> 00:31:32.365
+in time for the
+
+477
+00:31:32.745 --> 00:31:34.205
+Durham, North Carolina
+
+478
+00:31:34.505 --> 00:31:36.044
+BTC plus plus
+
+479
+00:31:36.585 --> 00:31:37.085
+conference
+
+480
+00:31:37.760 --> 00:31:42.260
+on Saturday because I wanna bring the board out there with me so I can hand it off to Scott
+
+481
+00:31:42.799 --> 00:31:45.299
+so he can start validating the,
+
+482
+00:31:45.679 --> 00:31:46.980
+version five design.
+
+483
+00:31:47.679 --> 00:31:48.820
+Once that's validated,
+
+484
+00:31:49.695 --> 00:31:50.654
+then I'm gonna,
+
+485
+00:31:51.135 --> 00:31:54.515
+do, like I'm gonna buy materials and do, like, a 100
+
+486
+00:31:55.215 --> 00:31:56.355
+Ember one boards,
+
+487
+00:31:56.895 --> 00:31:58.515
+like a little production run.
+
+488
+00:32:00.015 --> 00:32:03.635
+<v Unknown> Do you have to program the pick and place machine to do,
+
+489
+00:32:04.220 --> 00:32:08.460
+say, all of the ASIC chips first, or do you put all of the 120
+
+490
+00:32:08.460 --> 00:32:12.400
+different parts that go on to one board and then it chips away at one board?
+
+491
+00:32:12.860 --> 00:32:15.120
+How does it work? So it's,
+
+492
+00:32:15.980 --> 00:32:16.480
+<v Unknown> there's
+
+493
+00:32:16.995 --> 00:32:25.495
+since this board has components placed on two sides of it Mhmm. Like, on the top side and the bottom side, I I'm gonna do one side at a time.
+
+494
+00:32:26.195 --> 00:32:27.095
+So all
+
+495
+00:32:27.715 --> 00:32:29.270
+in the CAD software,
+
+496
+00:32:29.570 --> 00:32:32.150
+you can export placement files that
+
+497
+00:32:32.530 --> 00:32:34.790
+tells you the location of each component
+
+498
+00:32:35.490 --> 00:32:36.630
+and the
+
+499
+00:32:37.490 --> 00:32:41.745
+it'll break it out into components on the top side and components on the bottom side.
+
+500
+00:32:42.305 --> 00:32:45.605
+So I take like like I start with the bottom side, for example,
+
+501
+00:32:46.385 --> 00:32:50.405
+and I'll take all those component placements and load them into the machine,
+
+502
+00:32:51.425 --> 00:32:52.405
+into the software
+
+503
+00:32:53.025 --> 00:32:56.645
+so the machine knows exactly where all those components need to go.
+
+504
+00:32:57.320 --> 00:32:57.820
+But
+
+505
+00:32:58.440 --> 00:33:02.380
+each of those components needs to physically be loaded on the machine as well,
+
+506
+00:33:03.240 --> 00:33:08.955
+for the machine to, like, grab that component and place it where it needs to go. So, yeah, I've got to put,
+
+507
+00:33:09.914 --> 00:33:13.135
+I've got to find a way to put all those components on there.
+
+508
+00:33:13.595 --> 00:33:17.054
+And then I need to tell the pick and place machine where each of those components
+
+509
+00:33:17.754 --> 00:33:18.254
+is,
+
+510
+00:33:19.674 --> 00:33:21.375
+to pull from and then
+
+511
+00:33:21.720 --> 00:33:30.140
+tell it where that component needs to go and which way it needs to be rotated. And then, like, the little work head will go pick up the component and then it'll look at it with a camera
+
+512
+00:33:30.520 --> 00:33:35.340
+to determine that one, it has the right component and two, that it's oriented the right direction.
+
+513
+00:33:35.875 --> 00:33:39.255
+And then it'll go and place it on the circuit board.
+
+514
+00:33:39.875 --> 00:33:42.434
+That's so cool. Yeah. So I'll be,
+
+515
+00:33:42.835 --> 00:33:44.534
+I'll be, like, making, like
+
+516
+00:33:45.715 --> 00:33:47.975
+my intention is to do, like, video content.
+
+517
+00:33:48.440 --> 00:33:50.620
+I wanna start a video series Yeah. Called,
+
+518
+00:33:51.000 --> 00:33:52.059
+assembling freedom
+
+519
+00:33:52.520 --> 00:33:53.660
+where I explain
+
+520
+00:33:54.280 --> 00:33:59.020
+step by step, top to bottom, how this whole process is is is done.
+
+521
+00:33:59.720 --> 00:34:03.245
+<v Unknown> Do you get your $90 back from that one component supplier?
+
+522
+00:34:03.545 --> 00:34:10.125
+<v Unknown> Yes. They gave yeah. So if anyone missed last episode or two episodes ago, I had ordered some components.
+
+523
+00:34:10.665 --> 00:34:14.765
+Something went wrong in shipping and handling, and the US Customs
+
+524
+00:34:15.579 --> 00:34:16.079
+Agency
+
+525
+00:34:16.700 --> 00:34:17.200
+destroyed
+
+526
+00:34:17.579 --> 00:34:18.319
+my components.
+
+527
+00:34:18.700 --> 00:34:19.760
+Thank you very much.
+
+528
+00:34:20.380 --> 00:34:20.880
+And,
+
+529
+00:34:22.060 --> 00:34:23.359
+I had to get the,
+
+530
+00:34:24.540 --> 00:34:26.480
+shipper to refund me,
+
+531
+00:34:27.035 --> 00:34:29.835
+except they didn't wanna refund me the tax or the,
+
+532
+00:34:30.315 --> 00:34:31.375
+packaging fee.
+
+533
+00:34:31.835 --> 00:34:33.055
+And I
+
+534
+00:34:33.755 --> 00:34:40.495
+took issue with that, and they corrected it by giving me a credit to their online store. So that
+
+535
+00:34:40.875 --> 00:34:42.335
+that sufficed for me.
+
+536
+00:34:44.110 --> 00:34:48.370
+And I took the credit, and I reordered the components. So, yeah, those are in transit right now.
+
+537
+00:34:50.190 --> 00:34:51.570
+<v Unknown> Until they're destroyed again.
+
+538
+00:34:52.030 --> 00:34:56.050
+<v Unknown> Yeah. Hopefully not. I don't I don't think these ones will be. I used a different carrier this time.
+
+539
+00:34:57.555 --> 00:35:03.315
+So, yeah, I've got all the components and circuit boards to do the prototype ember ones.
+
+540
+00:35:04.835 --> 00:35:07.095
+I've got all the components
+
+541
+00:35:07.875 --> 00:35:09.175
+and circuit boards
+
+542
+00:35:10.280 --> 00:35:10.859
+to do
+
+543
+00:35:12.599 --> 00:35:13.580
+the Ant Hats
+
+544
+00:35:16.599 --> 00:35:17.000
+which,
+
+545
+00:35:17.560 --> 00:35:18.460
+are is like
+
+546
+00:35:18.840 --> 00:35:23.494
+a little circuit board you put on top of a Raspberry Pi so you can control
+
+547
+00:35:23.875 --> 00:35:25.414
+the fans in your,
+
+548
+00:35:26.515 --> 00:35:27.015
+Antminer.
+
+549
+00:35:28.914 --> 00:35:30.134
+And then I've got
+
+550
+00:35:30.674 --> 00:35:33.815
+the circuit boards but not the components because they were destroyed
+
+551
+00:35:34.115 --> 00:35:38.920
+to do the edit boards which is another little circuit board you put on your
+
+552
+00:35:39.380 --> 00:35:39.880
+Antminer
+
+553
+00:35:40.420 --> 00:35:42.040
+hash board data communication
+
+554
+00:35:42.579 --> 00:35:46.200
+port so that you can talk to it over USB C.
+
+555
+00:35:48.915 --> 00:35:49.415
+And,
+
+556
+00:35:51.395 --> 00:36:00.775
+I just got the circuit boards for the Libri board. So schnitzel's got the Libri board design all dialed in, at least for the prototyping phase. I've got those
+
+557
+00:36:01.075 --> 00:36:02.935
+printed circuit boards in hand.
+
+558
+00:36:03.620 --> 00:36:06.120
+I'm gonna order all the components tomorrow,
+
+559
+00:36:06.900 --> 00:36:10.840
+and then I'll be, doing the prototypes on the Lieber board as well.
+
+560
+00:36:12.420 --> 00:36:12.920
+<v Unknown> Fantastic.
+
+561
+00:36:13.620 --> 00:36:14.120
+Yeah.
+
+562
+00:36:14.500 --> 00:36:18.665
+So there was a question that came up in the heat pump chat this week, which is,
+
+563
+00:36:19.125 --> 00:36:22.825
+can folks go to these GitHub repos and get the dimensions of these PCBs?
+
+564
+00:36:23.125 --> 00:36:23.625
+Because
+
+565
+00:36:23.925 --> 00:36:30.905
+what would be great is for someone to go build a water block. Right? Or a a special larger different heat sink for these,
+
+566
+00:36:31.390 --> 00:36:35.250
+reference designs that we can start prototyping different use cases and applications?
+
+567
+00:36:36.270 --> 00:36:37.390
+<v Unknown> Yeah. Yeah. So,
+
+568
+00:36:37.869 --> 00:36:39.410
+everything is on GitHub.
+
+569
+00:36:40.990 --> 00:36:47.405
+Let me see. Let me get the URL. Yeah. It's just github.com/256foundation.
+
+570
+00:36:48.025 --> 00:36:49.085
+So you go there,
+
+571
+00:36:50.185 --> 00:36:51.725
+and then you go to our repositories
+
+572
+00:36:52.025 --> 00:36:52.525
+tab.
+
+573
+00:36:53.785 --> 00:36:54.285
+And,
+
+574
+00:36:57.065 --> 00:37:03.760
+if you want the hash board dimensions, for example, if you wanted to do a water block, you'd go to ember one zero zero dash
+
+575
+00:37:04.060 --> 00:37:04.560
+pcb.
+
+576
+00:37:05.820 --> 00:37:07.840
+And you you click on that repo.
+
+577
+00:37:09.420 --> 00:37:12.240
+In there, there's the master branch, which is currently
+
+578
+00:37:12.860 --> 00:37:15.440
+the release on that one is version three.
+
+579
+00:37:15.855 --> 00:37:19.555
+So you would wanna, like, do the drop down on the master
+
+580
+00:37:20.255 --> 00:37:23.555
+branch there and go down to version five. So the
+
+581
+00:37:24.095 --> 00:37:37.050
+the dashboard that I was just showing, this one here, this is version five. So that's the one we're working on now. The reason it's not pushed to the main branch is because I need to build the prototypes and we need to validate that design
+
+582
+00:37:37.750 --> 00:37:41.369
+Right. Physically before we, push it out as a release.
+
+583
+00:37:41.990 --> 00:37:42.230
+So,
+
+584
+00:37:43.875 --> 00:37:46.535
+but yeah, you can go in there and you can download
+
+585
+00:37:46.835 --> 00:37:47.655
+all the files
+
+586
+00:37:48.355 --> 00:37:50.935
+and load them up in KiCad which
+
+587
+00:37:51.315 --> 00:37:52.935
+is free and open source
+
+588
+00:37:53.315 --> 00:37:54.855
+electronics CAD software
+
+589
+00:37:55.890 --> 00:37:58.150
+and, it'll give you all the dimensions,
+
+590
+00:37:58.849 --> 00:37:59.829
+three d renderings.
+
+591
+00:38:00.289 --> 00:38:01.670
+You can get, like,
+
+592
+00:38:01.970 --> 00:38:02.470
+exact
+
+593
+00:38:02.849 --> 00:38:05.349
+placement of components down to,
+
+594
+00:38:06.770 --> 00:38:08.549
+one one hundredth of a millimeter.
+
+595
+00:38:08.930 --> 00:38:14.525
+<v Unknown> So Okay. So it's through KiCad. That's what our buddy Neil Ronan was asking to to go and grab those dimensions.
+
+596
+00:38:14.985 --> 00:38:19.165
+<v Unknown> Yeah. Yeah. Yeah. It's all in KiCad. So, yeah, you can download KiCad for free.
+
+597
+00:38:19.945 --> 00:38:22.765
+And then you can you wanna open up the
+
+598
+00:38:23.625 --> 00:38:30.079
+you'll see, like like, once you get your you would just want to like get the zip file off of GitHub,
+
+599
+00:38:30.619 --> 00:38:34.480
+download that onto your local computer, unpack that zip file,
+
+600
+00:38:34.859 --> 00:38:38.240
+go in there, and find the folder that's labeled manufacturing
+
+601
+00:38:38.619 --> 00:38:39.119
+files.
+
+602
+00:38:39.845 --> 00:38:42.825
+And then in there you should see one labeled,
+
+603
+00:38:43.924 --> 00:38:48.085
+like Ember100V5DotPro.
+
+604
+00:38:48.085 --> 00:38:50.105
+You want to find that dot pro file
+
+605
+00:38:50.565 --> 00:39:06.165
+and you open that with KiCad and that'll load the that'll grab all the other files from that directory, and it'll load up the PCB viewer, the schematic viewer. Like, it'll grab all the dimensions, the libraries. It it'll populate all that information in there.
+
+606
+00:39:07.125 --> 00:39:09.705
+Nice. And then, like, if you need help with KiCad,
+
+607
+00:39:10.405 --> 00:39:11.945
+like, jump in
+
+608
+00:39:13.125 --> 00:39:14.425
+the 256,
+
+609
+00:39:15.125 --> 00:39:16.185
+Telegram channel.
+
+610
+00:39:16.965 --> 00:39:17.465
+That's,
+
+611
+00:39:18.005 --> 00:39:20.640
+t.me/the
+
+612
+00:39:20.799 --> 00:39:22.099
+two five six foundation.
+
+613
+00:39:23.920 --> 00:39:25.700
+You can find us on the OSMU
+
+614
+00:39:26.319 --> 00:39:29.779
+Discord server as well. I have a two fifty six channel in there.
+
+615
+00:39:31.440 --> 00:39:31.940
+Otherwise,
+
+616
+00:39:32.319 --> 00:39:36.234
+like, there's a bunch of videos and content and articles,
+
+617
+00:39:38.055 --> 00:39:39.914
+Reddit posts on KiCad
+
+618
+00:39:40.535 --> 00:39:50.700
+just in general. And so you can typically find a lot of the, like, basic information and starting tutorials there just to get familiar with how KiCad works. So, like, I've
+
+619
+00:39:51.160 --> 00:40:02.535
+I had absolutely zero experience doing any of this shit, and I've gone from zero to hero now. And I have my own pick and place machine and a reflow oven. I'm buying PCBs. I'm
+
+620
+00:40:02.915 --> 00:40:05.815
+buying components. I'm manufacturing this stuff, prototyping,
+
+621
+00:40:06.515 --> 00:40:07.735
+validating. Like,
+
+622
+00:40:08.595 --> 00:40:12.615
+the world is your oyster, and you can do it. If I can do if if I can do it,
+
+623
+00:40:12.915 --> 00:40:16.295
+anybody can do it. Trust me. Damn right. So
+
+624
+00:40:17.000 --> 00:40:26.859
+<v Unknown> Okay. So I think I, I transitioned to that little tangent. But, are there any more updates on on the Libre board itself? So that needs to be validated as well in the prototyping phase after you build it.
+
+625
+00:40:28.440 --> 00:40:32.220
+<v Unknown> No. Not that's it for Libre board. We're just we're in the prototyping phase.
+
+626
+00:40:32.885 --> 00:40:33.945
+But then Mujina,
+
+627
+00:40:34.964 --> 00:40:35.464
+that's
+
+628
+00:40:36.085 --> 00:40:41.385
+the the other that's the fourth project. I don't think I've said anything about Mujina yet. Correct. That one is,
+
+629
+00:40:42.645 --> 00:40:44.665
+going very well, and we have,
+
+630
+00:40:45.510 --> 00:40:46.010
+plans
+
+631
+00:40:46.310 --> 00:40:50.250
+on Saturday to open up that GitHub repository publicly.
+
+632
+00:40:51.110 --> 00:40:53.530
+It's been set on private this whole time.
+
+633
+00:40:54.550 --> 00:40:57.770
+And so we think we're at a point now where we can open that up.
+
+634
+00:40:58.385 --> 00:41:07.204
+We have a way for people to run Mujina on a BitX if they want to to, like, start getting it working with some hardware that can actually hash.
+
+635
+00:41:08.065 --> 00:41:14.005
+The reason we did that is because, you know, obviously, there's a little bit of work that needs to be done on the Ember one still.
+
+636
+00:41:14.840 --> 00:41:16.780
+But that will work with the BIDX,
+
+637
+00:41:17.960 --> 00:41:22.300
+and people can start looking at the code base. It's written in Rust.
+
+638
+00:41:22.680 --> 00:41:28.385
+I think people are gonna be pleasantly surprised with how clean and well thought out that,
+
+639
+00:41:29.005 --> 00:41:32.065
+you know, Ryan has put all this effort into making Regina.
+
+640
+00:41:33.725 --> 00:41:47.240
+So, yeah, we're we're tentatively planning on releasing that on Saturday at BTC plus plus. Ryan's gonna be out there as well. Nice. Nice. So if anyone is in the Raleigh, Durham, North Carolina area, come see us this weekend.
+
+641
+00:41:47.619 --> 00:41:52.760
+We're gonna be given a panel on two fifty six and the development. Scott will be there as well.
+
+642
+00:41:55.859 --> 00:41:56.359
+Yeah.
+
+643
+00:41:56.715 --> 00:41:59.535
+So we're doing it. It's happening. The boys together.
+
+644
+00:41:59.835 --> 00:42:00.335
+Yeah.
+
+645
+00:42:01.195 --> 00:42:02.735
+<v Unknown> Is Schnitzel gonna make it?
+
+646
+00:42:03.515 --> 00:42:04.575
+<v Unknown> No. He's,
+
+647
+00:42:05.515 --> 00:42:09.535
+I don't wanna dox him, but he's going to a very awesome place.
+
+648
+00:42:10.075 --> 00:42:10.575
+And
+
+649
+00:42:11.920 --> 00:42:12.660
+he can
+
+650
+00:42:12.960 --> 00:42:22.900
+I'll leave it to him to to share where he's going. Yeah. Fair enough. He's a big wig, big important guy. So Yeah. He's he's going somewhere where I've always wanted to go. So I'm jealous.
+
+651
+00:42:23.440 --> 00:42:24.420
+<v Unknown> Jekyll Island?
+
+652
+00:42:25.914 --> 00:42:26.414
+<v Unknown> Maybe.
+
+653
+00:42:27.595 --> 00:42:28.655
+<v Unknown> Good. Who knows?
+
+654
+00:42:29.434 --> 00:42:31.775
+That's sweet. These projects are moving along,
+
+655
+00:42:32.234 --> 00:42:33.214
+tracking for
+
+656
+00:42:33.914 --> 00:42:37.694
+an awesome demo, I hope, at the telehash for NEMS.
+
+657
+00:42:38.180 --> 00:42:40.200
+<v Unknown> Yes. Yeah. So January
+
+658
+00:42:41.300 --> 00:42:43.080
+what January 21?
+
+659
+00:42:43.940 --> 00:42:48.920
+I can't remember. If you go to meetup.com/bitcoinpark,
+
+660
+00:42:49.540 --> 00:42:51.480
+and then search their events there,
+
+661
+00:42:51.945 --> 00:42:52.685
+You can find
+
+662
+00:42:53.465 --> 00:42:54.125
+the telehash.
+
+663
+00:42:55.145 --> 00:43:07.165
+But, yeah, we're gonna do our fundraiser in January. Twenty first. Okay. January 21. Be there. Be square. Watch us make history again as we show off everything we've been building over the last year.
+
+664
+00:43:07.610 --> 00:43:12.750
+We're gonna be eating our own dog food. So we're gonna be running the telehash on
+
+665
+00:43:13.210 --> 00:43:15.790
+the self hosted server I have here,
+
+666
+00:43:16.650 --> 00:43:18.350
+running that instance of hydropole.
+
+667
+00:43:19.770 --> 00:43:22.430
+We're gonna have an ember one here, hashing,
+
+668
+00:43:22.914 --> 00:43:24.934
+being controlled by the Libre board,
+
+669
+00:43:25.315 --> 00:43:28.934
+and using the Mujina firmware to make everything communicate.
+
+670
+00:43:30.115 --> 00:43:35.095
+And then the idea is that, you know, we open it up for public hash rate contributions
+
+671
+00:43:35.660 --> 00:43:38.480
+and mine another block like we did in January.
+
+672
+00:43:40.060 --> 00:43:49.120
+<v Unknown> And our friend d plus plus is gonna try and help us gamify this. Right? Yes. So, if you're not familiar with d plus plus, find her on Twitter.
+
+673
+00:43:49.985 --> 00:43:52.405
+<v Unknown> She's got a knack for
+
+674
+00:43:52.785 --> 00:43:53.925
+gamifying things.
+
+675
+00:43:54.225 --> 00:43:55.525
+We're gonna be integrating
+
+676
+00:43:56.305 --> 00:43:59.285
+Lightning and trying to make some, like, fun competitive
+
+677
+00:43:59.665 --> 00:44:02.165
+ways for people to contribute
+
+678
+00:44:02.790 --> 00:44:05.850
+to the two fifty six Foundation even if they don't have Hashrate,
+
+679
+00:44:06.150 --> 00:44:08.090
+so via lightning or
+
+680
+00:44:08.390 --> 00:44:09.450
+Bitcoin donations.
+
+681
+00:44:11.590 --> 00:44:14.810
+And so she's got some really awesome ideas for, like,
+
+682
+00:44:15.585 --> 00:44:20.485
+overlays on, like, the live stream so we can monitor different metrics and,
+
+683
+00:44:21.425 --> 00:44:23.285
+see progress on a number of fronts.
+
+684
+00:44:23.585 --> 00:44:26.565
+<v Unknown> Oh, it's gonna be awesome. She always cooks up such cool projects.
+
+685
+00:44:27.180 --> 00:44:28.480
+<v Unknown> Yeah. I can't wait.
+
+686
+00:44:29.500 --> 00:44:30.000
+<v Unknown> Yeah.
+
+687
+00:44:30.380 --> 00:44:31.280
+Very good.
+
+688
+00:44:31.740 --> 00:44:36.400
+Alright. What else do you wanna dive into? Did you wanna talk more about the samurai case?
+
+689
+00:44:37.180 --> 00:44:40.095
+<v Unknown> Oh, yeah. So I don't think
+
+690
+00:44:41.275 --> 00:44:42.495
+they had their,
+
+691
+00:44:43.355 --> 00:44:46.095
+sentencing hearing the last time we had our podcast,
+
+692
+00:44:46.395 --> 00:44:47.135
+did they?
+
+693
+00:44:47.435 --> 00:44:51.455
+<v Unknown> Or did I miss last time or something? I think we chatted the day before it happened.
+
+694
+00:44:52.130 --> 00:44:59.270
+<v Unknown> Okay. Yeah. So I think since the last time we had our podcast, they had their sentencing hearing or one of the developers
+
+695
+00:44:59.730 --> 00:45:01.270
+had his sentencing hearing,
+
+696
+00:45:02.210 --> 00:45:04.230
+and that was on November 6.
+
+697
+00:45:04.875 --> 00:45:05.375
+And
+
+698
+00:45:05.995 --> 00:45:10.255
+the judge threw the book at him, meaning that
+
+699
+00:45:10.715 --> 00:45:12.415
+he received the maximum
+
+700
+00:45:13.275 --> 00:45:17.055
+sentence for prison time, which is five years, sixty months,
+
+701
+00:45:17.755 --> 00:45:18.975
+and the maximum,
+
+702
+00:45:19.835 --> 00:45:20.335
+monetary
+
+703
+00:45:20.850 --> 00:45:21.510
+fine, which
+
+704
+00:45:21.890 --> 00:45:23.750
+is $250,000.
+
+705
+00:45:24.610 --> 00:45:27.990
+This is on top of the $6,400,000
+
+706
+00:45:28.050 --> 00:45:31.350
+that the developers have already forfeited to the government.
+
+707
+00:45:32.210 --> 00:45:33.430
+This is after
+
+708
+00:45:33.890 --> 00:45:35.190
+not resisting arrest
+
+709
+00:45:35.570 --> 00:45:36.070
+when
+
+710
+00:45:36.494 --> 00:45:41.075
+40 FBI agents kicked in their door and locked them in cages.
+
+711
+00:45:42.734 --> 00:45:43.555
+This is
+
+712
+00:45:43.934 --> 00:45:53.290
+after complying with all bail terms, putting up, one of the developers put up a million dollar bond package. The other developer put up a $3,000,000
+
+713
+00:45:53.290 --> 00:45:54.030
+bond package,
+
+714
+00:45:54.490 --> 00:45:57.869
+which was comprised of all their personal assets and
+
+715
+00:45:58.170 --> 00:46:00.430
+assets belonging to family members.
+
+716
+00:46:01.210 --> 00:46:01.710
+And
+
+717
+00:46:03.695 --> 00:46:12.435
+they complied with all their bail conditions. They had their ankle monitors. They were under house arrest for some, like, five hundred sixty days, like, nineteen months.
+
+718
+00:46:14.175 --> 00:46:14.675
+And
+
+719
+00:46:15.135 --> 00:46:15.635
+they
+
+720
+00:46:16.175 --> 00:46:18.035
+even took the plea agreement,
+
+721
+00:46:18.890 --> 00:46:21.230
+which was offered to them by the SDNY
+
+722
+00:46:21.530 --> 00:46:22.030
+prosecutors.
+
+723
+00:46:23.690 --> 00:46:31.710
+And the judge still gave them the maximum sentence, which is, like, dude, just fucking unheard of. It's in absolutely insane.
+
+724
+00:46:33.305 --> 00:46:36.125
+And then you just you couple that insanity
+
+725
+00:46:36.585 --> 00:46:38.765
+with the fact that we're talking about
+
+726
+00:46:39.385 --> 00:46:40.525
+non custodial
+
+727
+00:46:41.464 --> 00:46:42.924
+Bitcoin wallet developers
+
+728
+00:46:44.265 --> 00:46:46.125
+who were charged with conspiracy
+
+729
+00:46:47.310 --> 00:46:49.730
+to operate an unlicensed money transmitter
+
+730
+00:46:51.390 --> 00:46:52.850
+money transmitting business.
+
+731
+00:46:53.470 --> 00:46:58.370
+So, like, just that fact in itself is completely insane and unheard of and dangerous
+
+732
+00:46:58.910 --> 00:47:01.810
+because the language they're using is so broad and generalized
+
+733
+00:47:03.295 --> 00:47:04.195
+to, quote unquote,
+
+734
+00:47:04.575 --> 00:47:07.875
+facilitate the transfer of funds by any and all means,
+
+735
+00:47:08.495 --> 00:47:22.430
+which could be used to weaponize and be used against any participant in the Bitcoin ecosystem, be that a node operator, a lightning node operator, a Bitcoin miner, a wallet developer, a hardware wallet developer,
+
+736
+00:47:22.890 --> 00:47:24.990
+like, literally anybody in the ecosystem
+
+737
+00:47:25.530 --> 00:47:29.789
+is helping to facilitate the transfer of funds by any and all means.
+
+738
+00:47:30.730 --> 00:47:31.549
+So it's
+
+739
+00:47:32.454 --> 00:47:33.835
+extremely dangerous rhetoric.
+
+740
+00:47:35.335 --> 00:47:39.835
+And like I said before, like like, imagine we get, like, a Gavin Newsom administration
+
+741
+00:47:40.135 --> 00:47:41.194
+up next or,
+
+742
+00:47:42.775 --> 00:47:46.075
+what's that guy in New York, mom don mom Donnie?
+
+743
+00:47:46.375 --> 00:47:47.755
+Yeah. Like, dude,
+
+744
+00:47:48.830 --> 00:47:54.510
+you never know what the government is gonna do next or how it's gonna be weaponized and used against you next. And,
+
+745
+00:47:56.510 --> 00:47:57.010
+so
+
+746
+00:47:58.270 --> 00:48:00.050
+yeah. All that is to say,
+
+747
+00:48:01.230 --> 00:48:02.610
+it's it's very
+
+748
+00:48:05.215 --> 00:48:05.715
+chilling,
+
+749
+00:48:06.734 --> 00:48:10.994
+this war on crypto that the Biden administration has started. And it's,
+
+750
+00:48:11.535 --> 00:48:12.675
+it's devastating
+
+751
+00:48:13.135 --> 00:48:13.635
+and,
+
+752
+00:48:14.655 --> 00:48:15.155
+just
+
+753
+00:48:15.615 --> 00:48:17.474
+frustrating that the Trump administration
+
+754
+00:48:17.855 --> 00:48:23.119
+has been continuing this war on crypto despite all the things that they
+
+755
+00:48:23.420 --> 00:48:27.200
+say positively about Bitcoin and Trump being the Bitcoin president.
+
+756
+00:48:28.300 --> 00:48:31.520
+It's it's completely bullshit and a bold faced lie to
+
+757
+00:48:31.955 --> 00:48:33.015
+to put it bluntly.
+
+758
+00:48:33.715 --> 00:48:34.855
+You can't have
+
+759
+00:48:35.795 --> 00:48:37.175
+open source, noncustodial
+
+760
+00:48:37.635 --> 00:48:38.935
+Bitcoin wallet developers
+
+761
+00:48:39.235 --> 00:48:41.415
+being thrown in prison for five years
+
+762
+00:48:42.035 --> 00:48:43.175
+and simultaneously
+
+763
+00:48:43.715 --> 00:48:45.495
+have a a Bitcoin president.
+
+764
+00:48:46.140 --> 00:48:46.640
+So,
+
+765
+00:48:47.020 --> 00:48:48.160
+like, the the
+
+766
+00:48:48.539 --> 00:48:51.599
+correction to this is that they they need to be pardoned.
+
+767
+00:48:53.020 --> 00:48:56.880
+So I am working with some other individuals right now
+
+768
+00:48:57.260 --> 00:48:59.599
+to get a petition online.
+
+769
+00:49:00.545 --> 00:49:01.525
+We're putting together
+
+770
+00:49:02.065 --> 00:49:03.445
+a website to, like,
+
+771
+00:49:04.465 --> 00:49:08.245
+put all the resources in one place to support the two developers.
+
+772
+00:49:09.825 --> 00:49:10.325
+And
+
+773
+00:49:10.785 --> 00:49:16.000
+one of the, like, spokes coming off of that hub is gonna be the the online petition.
+
+774
+00:49:16.540 --> 00:49:18.560
+We're gonna go for a 100,000 signatures.
+
+775
+00:49:20.220 --> 00:49:25.280
+Another spoke is gonna be a donation link to support the families of the developers
+
+776
+00:49:25.980 --> 00:49:26.480
+who
+
+777
+00:49:26.955 --> 00:49:27.455
+have
+
+778
+00:49:27.835 --> 00:49:32.495
+been completely financially wrecked by this on top of all the emotional turmoil.
+
+779
+00:49:33.435 --> 00:49:33.935
+And,
+
+780
+00:49:35.275 --> 00:49:36.655
+you know, we gotta get
+
+781
+00:49:36.955 --> 00:49:38.815
+the this this crypto
+
+782
+00:49:39.195 --> 00:49:40.335
+friendly president
+
+783
+00:49:40.875 --> 00:49:42.255
+to pardon these guys.
+
+784
+00:49:42.740 --> 00:49:44.359
+So we think we can do it,
+
+785
+00:49:45.059 --> 00:49:52.440
+but we're gonna need a lot of support from the community to to demonstrate that we have broad industry support on this issue.
+
+786
+00:49:53.940 --> 00:49:55.220
+<v Unknown> That's my fear is,
+
+787
+00:49:56.020 --> 00:49:57.400
+well said, by the way,
+
+788
+00:49:57.845 --> 00:50:00.184
+is that you don't get the facts straight about
+
+789
+00:50:00.565 --> 00:50:07.944
+what's allowed and hammer this in while you do supposedly have the pro crypto president. And then the pendulum swings back, and everything's just
+
+790
+00:50:08.244 --> 00:50:13.305
+rugged underneath all these new developers and new people in the ecosystem. Right? And so
+
+791
+00:50:13.820 --> 00:50:17.680
+the time is now to get it done and set the facts straight. Right.
+
+792
+00:50:17.980 --> 00:50:19.680
+<v Unknown> Yeah. Yeah. It it would be
+
+793
+00:50:19.980 --> 00:50:21.200
+great to have,
+
+794
+00:50:22.460 --> 00:50:24.080
+have the samurai wallet developers
+
+795
+00:50:24.780 --> 00:50:30.065
+pardoned and have that to point back to. You know, like, looking ahead, like, say we're in
+
+796
+00:50:30.525 --> 00:50:33.825
+a future where we have this dystopian administration
+
+797
+00:50:35.165 --> 00:50:40.385
+and, you know, it'd be great to be able to look back and point to the Samurai Wallet developers getting pardoned.
+
+798
+00:50:41.790 --> 00:50:42.290
+There's
+
+799
+00:50:43.390 --> 00:50:45.090
+a bill in progress
+
+800
+00:50:45.390 --> 00:50:47.090
+called the Blockchain
+
+801
+00:50:47.630 --> 00:50:48.130
+Regulatory
+
+802
+00:50:49.070 --> 00:50:51.810
+Clear Certainty Act or something like that.
+
+803
+00:50:52.670 --> 00:50:56.210
+There's some language in there that's, supposed to help prevent
+
+804
+00:50:56.625 --> 00:50:58.165
+software developers and,
+
+805
+00:50:59.025 --> 00:51:00.645
+blockchain service providers.
+
+806
+00:51:01.425 --> 00:51:06.805
+It's supposed to help prevent those individuals from being charged as unlicensed
+
+807
+00:51:07.105 --> 00:51:07.925
+money transmitters.
+
+808
+00:51:10.090 --> 00:51:12.510
+That's good. That should be codified.
+
+809
+00:51:13.210 --> 00:51:14.030
+I'm not
+
+810
+00:51:14.410 --> 00:51:21.310
+totally confident that's gonna help the samurai wallet developers, but at this point, but, you know, I I don't think it'll do any harm.
+
+811
+00:51:22.005 --> 00:51:24.105
+So it would be great to have that codified,
+
+812
+00:51:24.724 --> 00:51:27.385
+before the next administration comes into office.
+
+813
+00:51:30.085 --> 00:51:32.585
+Yeah. I mean, some some things have got to change.
+
+814
+00:51:34.404 --> 00:51:35.305
+<v Unknown> I love the
+
+815
+00:51:35.930 --> 00:51:43.790
+the depth of knowledge you have on this case way more than me. I have seen online, and this is not me pushing back. It's just me trying to understand better. Sure.
+
+816
+00:51:44.490 --> 00:51:47.630
+People say it wasn't about the fact that it was noncustodial.
+
+817
+00:51:48.170 --> 00:51:50.590
+It was the conspiracy in their commentary
+
+818
+00:51:50.890 --> 00:51:51.555
+and some of the
+
+819
+00:51:52.355 --> 00:51:57.734
+the the comments they made about what you could do with a tool like Samurais Wallet. Mhmm. Do you have any
+
+820
+00:51:58.355 --> 00:52:12.340
+thoughts on that? Because I've seen that argument used for why they've been punished. And and I still agree, like, the punishment is not deserved even if that is the case, but I wanna hear your thoughts. No. And that I see that too. So, like, let's think about that for a second. So they're
+
+821
+00:52:12.640 --> 00:52:14.740
+<v Unknown> basically, you see people arguing that, like,
+
+822
+00:52:15.200 --> 00:52:15.700
+okay.
+
+823
+00:52:16.000 --> 00:52:16.500
+They
+
+824
+00:52:17.135 --> 00:52:24.755
+just got sentenced five years in prison for conspiracy to operate an unlicensed money transmitting business
+
+825
+00:52:25.695 --> 00:52:26.755
+because of
+
+826
+00:52:27.295 --> 00:52:29.155
+what? Something they tweeted?
+
+827
+00:52:31.250 --> 00:52:32.790
+Like so okay.
+
+828
+00:52:33.809 --> 00:52:37.670
+Think about their action. The is is their action aligned with
+
+829
+00:52:38.770 --> 00:52:44.869
+the with the case that's being cited that they broke or the the law that's being cited that they broke?
+
+830
+00:52:45.890 --> 00:52:49.275
+Is it in in in and of itself, is it illegal
+
+831
+00:52:50.295 --> 00:52:52.475
+to say something like that on Twitter?
+
+832
+00:52:53.495 --> 00:52:56.315
+Is it illegal to and you see something,
+
+833
+00:52:56.695 --> 00:52:57.915
+come up about their,
+
+834
+00:53:00.530 --> 00:53:01.190
+a presentation
+
+835
+00:53:02.050 --> 00:53:02.770
+that they,
+
+836
+00:53:04.290 --> 00:53:06.230
+gave to potential investors
+
+837
+00:53:07.730 --> 00:53:09.830
+and how they were,
+
+838
+00:53:10.450 --> 00:53:19.755
+advertising to criminals. So you see this you see this argument come up like, oh, well That's what I'm referring to. Yeah. Yeah. So okay. Let's think let's break that down for a second
+
+839
+00:53:20.375 --> 00:53:22.395
+and and and put some
+
+840
+00:53:22.855 --> 00:53:25.195
+reality perspective in the mix here.
+
+841
+00:53:25.655 --> 00:53:26.555
+First and foremost,
+
+842
+00:53:27.680 --> 00:53:29.620
+that was a presentation
+
+843
+00:53:30.240 --> 00:53:31.300
+that was never
+
+844
+00:53:31.920 --> 00:53:33.380
+provided to the public.
+
+845
+00:53:34.000 --> 00:53:35.620
+That was a private presentation
+
+846
+00:53:36.320 --> 00:53:38.580
+to legitimate businesses and investors
+
+847
+00:53:40.155 --> 00:53:44.415
+while Samurai Wallet was trying to raise funds for their operations.
+
+848
+00:53:45.275 --> 00:53:48.895
+So the idea that this was being solicited to criminals
+
+849
+00:53:49.915 --> 00:53:50.415
+is
+
+850
+00:53:50.795 --> 00:53:52.815
+completely false from the get go.
+
+851
+00:53:53.730 --> 00:53:56.950
+Secondly, if you look at the screenshot
+
+852
+00:53:57.890 --> 00:54:13.115
+of that presentation slide that gets thrown around a lot and you look at what's on that slide and you read it closely, you'll notice that there's only one area in there that even closely resembles this argument that's being made and it's the word restricted.
+
+853
+00:54:14.055 --> 00:54:15.194
+Restricted markets
+
+854
+00:54:15.895 --> 00:54:17.914
+is what they have on that slide.
+
+855
+00:54:18.454 --> 00:54:21.595
+And what they're saying in that slide is that there's potential
+
+856
+00:54:22.214 --> 00:54:23.674
+samurai wallet users
+
+857
+00:54:24.720 --> 00:54:27.300
+who are dealing with restricted markets.
+
+858
+00:54:27.840 --> 00:54:29.619
+So what is restricted markets?
+
+859
+00:54:30.080 --> 00:54:32.100
+Is restricted markets criminals?
+
+860
+00:54:32.960 --> 00:54:35.780
+No. Not necessarily. It's a it's a restricted
+
+861
+00:54:36.080 --> 00:54:37.619
+market. That's what it is.
+
+862
+00:54:38.175 --> 00:54:38.915
+And so
+
+863
+00:54:39.375 --> 00:54:42.835
+what you have is in reality, you have a private
+
+864
+00:54:43.855 --> 00:54:44.355
+PowerPoint
+
+865
+00:54:44.735 --> 00:54:45.235
+presentation
+
+866
+00:54:45.695 --> 00:54:47.715
+that was given to potential investors
+
+867
+00:54:48.495 --> 00:54:51.715
+that mentions the words restricted market on it.
+
+868
+00:54:52.370 --> 00:55:00.470
+And that has now been twisted to mean that samurai wallet was soliciting to criminals that they could launder money using Whirlpool.
+
+869
+00:55:01.010 --> 00:55:03.590
+Do you see how disconnected that is in actuality?
+
+870
+00:55:04.885 --> 00:55:06.025
+<v Unknown> Yes. And
+
+871
+00:55:06.725 --> 00:55:08.265
+I just keep thinking, like,
+
+872
+00:55:08.885 --> 00:55:11.545
+even if that were the case, they they cannot
+
+873
+00:55:12.165 --> 00:55:16.585
+physically operate a money transmitting business if they don't custody the funds. Like, it's still impossible.
+
+874
+00:55:17.120 --> 00:55:22.180
+<v Unknown> Yes. Yes. Exactly. They they they never took custody. It's a noncustodial wallet.
+
+875
+00:55:23.280 --> 00:55:27.060
+They literally could not transmit money on behalf of anyone
+
+876
+00:55:27.440 --> 00:55:29.540
+Mhmm. Despite the SDNY
+
+877
+00:55:30.000 --> 00:55:31.540
+saying that they were,
+
+878
+00:55:33.095 --> 00:55:33.595
+transmitting
+
+879
+00:55:33.974 --> 00:55:37.115
+funds on behalf of the public. That is simply not true.
+
+880
+00:55:37.415 --> 00:55:38.155
+<v Unknown> Yeah. That's
+
+881
+00:55:38.535 --> 00:55:39.035
+insane.
+
+882
+00:55:39.974 --> 00:55:40.795
+<v Unknown> Yeah. It
+
+883
+00:55:41.095 --> 00:55:48.589
+it absolutely is insane. The words of the law have been completely twisted around. Samurai Wallet's own words have been completely twisted around.
+
+884
+00:55:50.089 --> 00:55:50.829
+You know,
+
+885
+00:55:51.609 --> 00:55:56.829
+black markets, gray markets, restricted markets, anytime you hear these terms, they're
+
+886
+00:55:57.290 --> 00:55:57.790
+they're,
+
+887
+00:55:59.695 --> 00:56:00.994
+there's a really good
+
+888
+00:56:02.255 --> 00:56:05.875
+these terms are are completely misunderstood. And if you want a clearer understanding,
+
+889
+00:56:06.255 --> 00:56:08.095
+there's a really good post by,
+
+890
+00:56:09.535 --> 00:56:10.675
+Eric Bosckel
+
+891
+00:56:11.369 --> 00:56:17.789
+in his GitHub, in his lib Bitcoin repository where he explains the difference between a black market and a white market.
+
+892
+00:56:18.569 --> 00:56:19.470
+And to summarize,
+
+893
+00:56:20.170 --> 00:56:21.549
+white markets are permissioned.
+
+894
+00:56:22.170 --> 00:56:22.990
+Black markets
+
+895
+00:56:23.690 --> 00:56:24.190
+are
+
+896
+00:56:24.730 --> 00:56:25.230
+permissionless.
+
+897
+00:56:27.295 --> 00:56:28.595
+That's all that it means.
+
+898
+00:56:29.215 --> 00:56:29.715
+And
+
+899
+00:56:30.655 --> 00:56:32.035
+and when you understand
+
+900
+00:56:32.655 --> 00:56:33.155
+how
+
+901
+00:56:33.535 --> 00:56:37.875
+people in this industry, people who have been building these tools, people who have been
+
+902
+00:56:38.270 --> 00:56:39.250
+aware of
+
+903
+00:56:39.710 --> 00:56:40.609
+why we need
+
+904
+00:56:40.990 --> 00:56:43.490
+decentralized censorship resistant tools
+
+905
+00:56:43.869 --> 00:56:47.970
+to allow individuals to make transactions that they want to make,
+
+906
+00:56:49.310 --> 00:56:53.075
+you you have a deep understanding of what a restricted
+
+907
+00:56:53.535 --> 00:56:57.474
+what a, permission market is and what a permissionless market is.
+
+908
+00:56:58.255 --> 00:57:03.474
+And when you have normies who have, like, never thought about these things
+
+909
+00:57:04.380 --> 00:57:13.279
+and they see words like black market, they just automatically there's, like, something that switches in their brain and they see the word black market and it turns into
+
+910
+00:57:14.059 --> 00:57:14.559
+criminal
+
+911
+00:57:15.420 --> 00:57:15.920
+conduct.
+
+912
+00:57:16.575 --> 00:57:25.555
+And then suddenly, they just develop this narrative that the samurai wallets were soliciting to criminals, which is it's completely false. And they're taking
+
+913
+00:57:26.335 --> 00:57:29.250
+what they're actually seeing and they're getting it all twisted around in
+
+914
+00:57:31.170 --> 00:57:33.910
+their head. And then they're regurgitating it on Twitter and popping up in my threads and
+
+915
+00:57:34.450 --> 00:57:38.630
+and just trying to repeat these narratives that are are flat out wrong.
+
+916
+00:57:39.570 --> 00:57:42.710
+<v Unknown> Well, and to pull on that thread for how these narratives can be interpreted
+
+917
+00:57:43.494 --> 00:57:46.635
+and how it might apply to our listeners too, who I'm sure have
+
+918
+00:57:47.415 --> 00:57:49.994
+a handful of done non KYC private transactions,
+
+919
+00:57:50.295 --> 00:57:53.835
+which would be defined as a permissionless black market. But moreover,
+
+920
+00:57:54.695 --> 00:57:57.275
+think about what they might interpret a
+
+921
+00:57:57.734 --> 00:58:00.370
+a device in your home that is, technically speaking
+
+922
+00:58:00.670 --> 00:58:01.650
+a money printer.
+
+923
+00:58:02.270 --> 00:58:12.050
+<v Unknown> Like, how is that going to be viewed? Right. Exactly. That falls very neatly into the broad and generalized language to facilitate the transfer of funds by any and all means.
+
+924
+00:58:12.350 --> 00:58:12.850
+<v Unknown> Yeah.
+
+925
+00:58:13.310 --> 00:58:14.625
+<v Unknown> So, like, we need
+
+926
+00:58:15.425 --> 00:58:16.325
+to come together
+
+927
+00:58:16.625 --> 00:58:17.125
+as
+
+928
+00:58:18.545 --> 00:58:20.005
+an industry, a community,
+
+929
+00:58:20.305 --> 00:58:23.685
+and support the samurai wallet developers and get them pardoned.
+
+930
+00:58:27.250 --> 00:58:28.390
+Otherwise, we're next.
+
+931
+00:58:28.930 --> 00:58:35.110
+And, you know, it's like it's like the when the tornado cash the tornado case developers were getting arrested
+
+932
+00:58:36.210 --> 00:58:37.270
+broadly across
+
+933
+00:58:37.730 --> 00:58:41.350
+Bitcoin, Twitter, and this ecosystem, people were saying like,
+
+934
+00:58:41.705 --> 00:58:43.005
+well, that's Ethereum.
+
+935
+00:58:44.105 --> 00:58:45.725
+Okay? It's a separate Blockchain.
+
+936
+00:58:46.505 --> 00:58:48.205
+That would never happen on Bitcoin.
+
+937
+00:58:48.585 --> 00:58:54.045
+And then the Bitcoin fog case happened. And Yep. That is on Bitcoin. But people are like, well,
+
+938
+00:58:54.350 --> 00:58:57.410
+you know, that was a custodial mixer.
+
+939
+00:58:57.790 --> 00:59:02.690
+So that's totally different than non custodial tools. And then samurai wallet
+
+940
+00:59:03.310 --> 00:59:05.810
+was arrested. And people were like, well,
+
+941
+00:59:07.230 --> 00:59:09.170
+they were assholes on Twitter.
+
+942
+00:59:10.075 --> 00:59:12.015
+And they said some mean things.
+
+943
+00:59:13.675 --> 00:59:18.895
+You know, so so that's totally different. And they they keep making these fucking excuses.
+
+944
+00:59:19.275 --> 00:59:24.230
+<v Unknown> That's excellent framing. Yes. People do that. And I think that's nail on the head. Yes.
+
+945
+00:59:25.010 --> 00:59:27.990
+<v Unknown> And, dude, it it's gonna con the
+
+946
+00:59:28.290 --> 00:59:32.470
+our rights and freedoms are going to continue to be eroded
+
+947
+00:59:32.930 --> 00:59:34.230
+no matter which administration
+
+948
+00:59:34.530 --> 00:59:35.190
+is in
+
+949
+00:59:35.570 --> 00:59:36.550
+the White House.
+
+950
+00:59:37.010 --> 00:59:37.490
+And,
+
+951
+00:59:39.015 --> 00:59:40.234
+we need to
+
+952
+00:59:41.415 --> 00:59:43.835
+support first and foremost, we need to support
+
+953
+00:59:44.214 --> 00:59:47.835
+the people who are in trouble today, the samurai wallet developers.
+
+954
+00:59:48.535 --> 00:59:51.095
+And, you know, secondary to that, we need to be
+
+955
+00:59:51.840 --> 00:59:57.540
+we need to have very robust tools in place for everybody to to have access to.
+
+956
+00:59:58.000 --> 01:00:03.700
+And we got a question in the chat here from Ryan. Would a reversal on appeal be more helpful?
+
+957
+01:00:04.080 --> 01:00:06.820
+Don't know if a pardon fixes the bad precedent.
+
+958
+01:00:07.265 --> 01:00:10.245
+Okay. Great question. There's two parts to that.
+
+959
+01:00:10.945 --> 01:00:12.485
+First and foremost, the appeal.
+
+960
+01:00:13.345 --> 01:00:16.805
+There is no opportunity to appeal this case because
+
+961
+01:00:18.225 --> 01:00:19.685
+the plea agreement
+
+962
+01:00:20.065 --> 01:00:20.565
+stipulated
+
+963
+01:00:21.099 --> 01:00:23.760
+that the developers give up their right for an appeal.
+
+964
+01:00:24.619 --> 01:00:27.200
+So they, at this point, cannot appeal.
+
+965
+01:00:27.900 --> 01:00:29.359
+To the best of my knowledge,
+
+966
+01:00:30.700 --> 01:00:31.520
+I was actually
+
+967
+01:00:31.980 --> 01:00:32.480
+participating
+
+968
+01:00:32.780 --> 01:00:33.440
+in the,
+
+969
+01:00:34.300 --> 01:00:34.800
+Nashville
+
+970
+01:00:35.735 --> 01:00:36.235
+BitDevs
+
+971
+01:00:36.775 --> 01:00:38.155
+meetup last night,
+
+972
+01:00:38.535 --> 01:00:40.555
+and someone in the audience was asking,
+
+973
+01:00:41.255 --> 01:00:43.895
+could they appeal. And they were trying to point out,
+
+974
+01:00:45.095 --> 01:00:45.595
+that
+
+975
+01:00:45.895 --> 01:00:51.400
+a group like Coin Center should be able to come in and make an appeal procedurally.
+
+976
+01:00:52.579 --> 01:00:57.640
+And I didn't quite understand what this audience member was getting at.
+
+977
+01:00:58.740 --> 01:01:04.975
+But if you happen to be hearing this podcast or you're a lawyer and you you do get what they were insinuating,
+
+978
+01:01:05.835 --> 01:01:14.095
+I'd love to learn more about that. Okay. So that's the appeal piece of the question. Now the second part, don't know if a pardon fixes the bad precedent. Okay. So precedent.
+
+979
+01:01:15.530 --> 01:01:19.869
+First and foremost, there is no precedent set in this case because
+
+980
+01:01:20.250 --> 01:01:22.990
+they took a plea agreement. So it never went to trial.
+
+981
+01:01:23.290 --> 01:01:25.390
+So the judge never had to make a decision.
+
+982
+01:01:25.930 --> 01:01:29.150
+So there there is no precedent set in this case.
+
+983
+01:01:29.664 --> 01:01:32.005
+Second to that, I'll I will point out,
+
+984
+01:01:32.625 --> 01:01:37.525
+the US government does not need precedent to do whatever the fuck they want. So
+
+985
+01:01:38.144 --> 01:01:41.825
+think about 04/24/2024
+
+986
+01:01:41.825 --> 01:01:46.570
+when the samurai wallet developers were arrested the first time. That was completely unprecedented.
+
+987
+01:01:46.950 --> 01:01:51.930
+And there was no precedent for the government to go after them, yet the government did it anyways.
+
+988
+01:01:52.550 --> 01:01:53.050
+So,
+
+989
+01:01:53.510 --> 01:01:59.210
+that's what I mean when I say, we need to have robust systems in place like developers being completely
+
+990
+01:02:00.135 --> 01:02:00.635
+anonymous,
+
+991
+01:02:01.575 --> 01:02:02.075
+and
+
+992
+01:02:02.375 --> 01:02:02.875
+untraceable
+
+993
+01:02:03.655 --> 01:02:06.875
+when they're building tools that touch privacy.
+
+994
+01:02:08.615 --> 01:02:10.555
+Second of all, there's something about,
+
+995
+01:02:11.255 --> 01:02:11.755
+the
+
+996
+01:02:12.210 --> 01:02:13.430
+level of court.
+
+997
+01:02:14.130 --> 01:02:15.270
+So the SDNY
+
+998
+01:02:15.650 --> 01:02:19.510
+being a district court, even if the case had gone to trial,
+
+999
+01:02:21.090 --> 01:02:25.910
+it still wouldn't set precedent because it's not at the supreme court level. I
+
+1000
+01:02:26.445 --> 01:02:30.465
+believe that's how it works. I might have something a little mixed up there, but,
+
+1001
+01:02:31.645 --> 01:02:33.825
+there's something about, like, the court level,
+
+1002
+01:02:34.525 --> 01:02:39.105
+and the SDNY not being up to the level needed to make
+
+1003
+01:02:39.660 --> 01:02:40.880
+case law precedent
+
+1004
+01:02:41.420 --> 01:02:42.240
+in their decisions.
+
+1005
+01:02:42.859 --> 01:02:45.359
+So, yeah, no precedent is set in this case,
+
+1006
+01:02:45.819 --> 01:02:46.319
+and,
+
+1007
+01:02:47.339 --> 01:02:50.720
+I I think there's no option for an appeal.
+
+1008
+01:02:51.579 --> 01:02:54.640
+Would be happy to be proved wrong on either of those cases.
+
+1009
+01:02:55.865 --> 01:03:00.525
+<v Unknown> Points. You are a gold mine of info on this case. I'm glad we dove deep into it.
+
+1010
+01:03:01.145 --> 01:03:01.645
+<v Unknown> Yeah.
+
+1011
+01:03:02.185 --> 01:03:07.325
+You know, I'm an open book. Happy to answer questions at any time. I'm doing everything I can,
+
+1012
+01:03:08.185 --> 01:03:09.724
+behind the scenes to help
+
+1013
+01:03:12.050 --> 01:03:16.790
+may be the change I wanna see in the world. I wanna see these guys pardoned. So,
+
+1014
+01:03:17.330 --> 01:03:20.470
+you know, that's that's what I'm I'm focusing on.
+
+1015
+01:03:21.490 --> 01:03:23.910
+So more news to come on that. Yeah.
+
+1016
+01:03:24.210 --> 01:03:24.710
+Otherwise,
+
+1017
+01:03:27.015 --> 01:03:29.115
+you know, just be on the lookout for
+
+1018
+01:03:30.055 --> 01:03:30.555
+announcements.
+
+1019
+01:03:30.934 --> 01:03:34.875
+You know, there's a number of individuals doing everything they can to help these guys out.
+
+1020
+01:03:35.494 --> 01:03:39.275
+So we'll be using Twitter a lot and this podcast anywhere
+
+1021
+01:03:39.655 --> 01:03:40.155
+anywhere
+
+1022
+01:03:40.535 --> 01:03:44.940
+I can go where people will lend me their ears, I will be talking about this issue.
+
+1023
+01:03:46.359 --> 01:03:58.085
+<v Unknown> Well, I hope this framing was good for yeah. Because I didn't I didn't know that whole context. So that was super helpful for for me. Yeah. So, I mean, like, as far as, like, FUD narratives go, there's like, oh, well, they solicited to criminals.
+
+1024
+01:03:58.865 --> 01:03:59.845
+<v Unknown> No. They didn't.
+
+1025
+01:04:00.625 --> 01:04:08.325
+Oh, well, they were making profit, and that's the issue. No. It wasn't. Look at Tornado Cash. He stopped profiting. He implemented
+
+1026
+01:04:11.030 --> 01:04:11.530
+OFAC
+
+1027
+01:04:11.830 --> 01:04:12.330
+measures.
+
+1028
+01:04:13.030 --> 01:04:16.330
+You can comply all you want. The government's still gonna fucking kill you.
+
+1029
+01:04:17.110 --> 01:04:25.095
+It dude, it doesn't the profit doesn't have anything to do with it. The like, your level of compliance doesn't have anything to do with it.
+
+1030
+01:04:25.655 --> 01:04:29.035
+What this comes down to is the fact that some very
+
+1031
+01:04:29.335 --> 01:04:31.835
+clever developers figured out how to
+
+1032
+01:04:32.535 --> 01:04:33.835
+bolster and enable
+
+1033
+01:04:34.615 --> 01:04:35.115
+individuals'
+
+1034
+01:04:35.895 --> 01:04:36.395
+freedom
+
+1035
+01:04:36.775 --> 01:04:43.010
+and their ability to financially transact and gain anonymity on a public block chain. And that is
+
+1036
+01:04:43.390 --> 01:04:43.890
+territory
+
+1037
+01:04:44.190 --> 01:04:45.970
+that the US government
+
+1038
+01:04:46.270 --> 01:04:48.210
+will do anything and everything
+
+1039
+01:04:48.510 --> 01:04:50.210
+with their monopoly on violence
+
+1040
+01:04:50.670 --> 01:04:51.170
+to
+
+1041
+01:04:51.710 --> 01:04:52.210
+neutralize
+
+1042
+01:04:53.070 --> 01:04:53.890
+that threat.
+
+1043
+01:04:54.805 --> 01:04:58.905
+And case in point, look at the way they handled the samurai wallet situation.
+
+1044
+01:05:00.085 --> 01:05:01.065
+So we've got
+
+1045
+01:05:01.845 --> 01:05:08.025
+the one developer who's been sentenced. The second developer is gonna have his sentencing hearing on November 19
+
+1046
+01:05:08.360 --> 01:05:10.300
+in the Southern District Of New York.
+
+1047
+01:05:11.320 --> 01:05:14.380
+We'll see what happens there. They're asking for,
+
+1048
+01:05:14.920 --> 01:05:16.780
+time served. The defense is asking
+
+1049
+01:05:17.320 --> 01:05:17.820
+for
+
+1050
+01:05:18.120 --> 01:05:19.260
+the judge to
+
+1051
+01:05:20.680 --> 01:05:21.500
+see that
+
+1052
+01:05:23.655 --> 01:05:24.875
+no time is added.
+
+1053
+01:05:25.175 --> 01:05:27.675
+But based on what we've seen so far,
+
+1054
+01:05:30.535 --> 01:05:33.195
+we'll just we'll just have to keep our fingers crossed.
+
+1055
+01:05:35.335 --> 01:05:36.360
+<v Unknown> It feels like
+
+1056
+01:05:37.400 --> 01:05:41.740
+Bitcoin's mainstream in many ways, but this is an example to me where
+
+1057
+01:05:42.120 --> 01:05:42.940
+when you threaten
+
+1058
+01:05:43.480 --> 01:05:48.795
+the power holder and you back them up into a corner, they're gonna start to ask act desperate and lash out.
+
+1059
+01:05:49.355 --> 01:05:55.214
+Makes me worry that there's going to be more examples of this Mhmm. In the Bitcoin ecosystem,
+
+1060
+01:05:56.234 --> 01:05:58.974
+perhaps eventually in the mining ecosystem, why it's super
+
+1061
+01:05:59.674 --> 01:06:02.940
+important to build these open source tools that can't be stopped.
+
+1062
+01:06:03.420 --> 01:06:07.359
+<v Unknown> Yeah. I mean, make no make no mistake. This is a territory war.
+
+1063
+01:06:07.740 --> 01:06:08.240
+And
+
+1064
+01:06:08.700 --> 01:06:09.200
+the
+
+1065
+01:06:09.579 --> 01:06:10.079
+ability
+
+1066
+01:06:10.460 --> 01:06:11.119
+to have
+
+1067
+01:06:11.819 --> 01:06:12.319
+permissionless,
+
+1068
+01:06:13.020 --> 01:06:13.520
+censorship
+
+1069
+01:06:13.900 --> 01:06:14.400
+resistant,
+
+1070
+01:06:15.195 --> 01:06:18.015
+digital money that can be transferred instantaneously
+
+1071
+01:06:18.955 --> 01:06:19.455
+is
+
+1072
+01:06:19.755 --> 01:06:20.255
+completely
+
+1073
+01:06:20.555 --> 01:06:21.535
+uncharted territory.
+
+1074
+01:06:22.235 --> 01:06:28.255
+And the US government is trying to gain as much of that territory as they can, and they will use every
+
+1075
+01:06:28.555 --> 01:06:34.180
+tool at their disposal to do it. And they don't care how many fucking lives they destroy in the process.
+
+1076
+01:06:36.160 --> 01:06:37.700
+<v Unknown> Only the paranoid survive.
+
+1077
+01:06:39.600 --> 01:06:41.220
+<v Unknown> It's looking that way. Yeah.
+
+1078
+01:06:42.480 --> 01:06:43.619
+<v Unknown> Get your shit together.
+
+1079
+01:06:45.425 --> 01:06:47.285
+All of us. Right? Do what we can.
+
+1080
+01:06:49.025 --> 01:06:51.605
+<v Unknown> Yeah. Yeah. Well I don't know who's gonna be next.
+
+1081
+01:06:52.545 --> 01:06:55.045
+<v Unknown> Yeah. That's the crazy thing too. It's just like
+
+1082
+01:06:55.665 --> 01:06:57.605
+they choose you. They'll find the crime.
+
+1083
+01:06:58.420 --> 01:07:00.680
+<v Unknown> Yeah. Show me the man. I'll show you the crime.
+
+1084
+01:07:01.300 --> 01:07:05.720
+So, you know, that's why, like, I think what they're doing with that, the blockchain
+
+1085
+01:07:07.780 --> 01:07:13.575
+clarity the fuck. I keep make mixing up the name. The block the right the Blockchain Regulatory
+
+1086
+01:07:14.275 --> 01:07:15.735
+Certainty Act, I think.
+
+1087
+01:07:17.715 --> 01:07:23.095
+That's great and all. But, dude, if the government really wants to go after a developer,
+
+1088
+01:07:25.320 --> 01:07:30.300
+they're just gonna take the next closest law that vaguely even
+
+1089
+01:07:30.840 --> 01:07:31.340
+resembles
+
+1090
+01:07:32.600 --> 01:07:36.540
+what that developer is doing. And then they'll just twist the shit out of that
+
+1091
+01:07:36.954 --> 01:07:43.135
+and frame it in such a way that that the developer broke the law. The same way that they did with,
+
+1092
+01:07:43.755 --> 01:07:45.775
+conspiracy to operate an unlicensed
+
+1093
+01:07:46.075 --> 01:07:47.535
+money transmitting business.
+
+1094
+01:07:48.075 --> 01:07:51.934
+That's not what Samurai Wallet was doing by any measure. Even Finsen
+
+1095
+01:07:52.470 --> 01:07:52.970
+agreed
+
+1096
+01:07:53.510 --> 01:07:54.010
+that
+
+1097
+01:07:54.470 --> 01:07:56.250
+Samurai Wallet did not need
+
+1098
+01:07:56.630 --> 01:07:58.730
+a money transmitting business license,
+
+1099
+01:07:59.350 --> 01:08:02.250
+and the government still used that to
+
+1100
+01:08:02.950 --> 01:08:03.450
+sentence
+
+1101
+01:08:04.150 --> 01:08:05.450
+at least one of the developers
+
+1102
+01:08:05.750 --> 01:08:07.450
+now to five years in prison.
+
+1103
+01:08:09.965 --> 01:08:12.545
+<v Unknown> Well, fingers crossed for the the next developer
+
+1104
+01:08:13.005 --> 01:08:15.905
+Yeah. Who's sentencing is next week. Yep.
+
+1105
+01:08:16.925 --> 01:08:17.425
+<v Unknown> Damn.
+
+1106
+01:08:19.405 --> 01:08:21.360
+<v Unknown> Is there anything else you wanna hit on, Iko?
+
+1107
+01:08:22.320 --> 01:08:24.500
+<v Unknown> What else did we have in the notes? There was,
+
+1108
+01:08:26.880 --> 01:08:32.100
+grant project updates. We did BTC plus plus, samurai wallet.
+
+1109
+01:08:32.719 --> 01:08:35.380
+We talked about Bitcoin veterans and their telehash.
+
+1110
+01:08:37.245 --> 01:08:38.705
+I think that's all I had
+
+1111
+01:08:39.325 --> 01:08:46.705
+<v Unknown> for You know, one other thing was, looping back to Issa's video, which if you haven't seen, go check it out. Kind of fifteen minute
+
+1112
+01:08:47.085 --> 01:08:48.065
+recap on
+
+1113
+01:08:48.440 --> 01:08:53.580
+why we're focused on what we're focused on. But she shot me a message and asked if there's more Bitcoin mining
+
+1114
+01:08:54.679 --> 01:08:55.179
+lore
+
+1115
+01:08:55.560 --> 01:08:56.540
+related to
+
+1116
+01:08:57.719 --> 01:09:02.780
+the fuckery at play. Does anything come to mind immediately to you that wasn't covered in that video?
+
+1117
+01:09:03.755 --> 01:09:04.975
+<v Unknown> I'm trying to think.
+
+1118
+01:09:06.795 --> 01:09:09.615
+I mean, I know there is. I'm just, like,
+
+1119
+01:09:10.475 --> 01:09:11.855
+off the top of my head,
+
+1120
+01:09:12.635 --> 01:09:16.830
+I'm not totally sure. I'd have to, like, I'd have to think about it for a while
+
+1121
+01:09:17.290 --> 01:09:18.750
+and get back to you on that.
+
+1122
+01:09:20.650 --> 01:09:25.870
+<v Unknown> Yeah. Well, regardless, if you haven't seen it, go check out that video. It was a a really good overview of everything.
+
+1123
+01:09:28.090 --> 01:09:31.535
+I can run through the hashes if we wanna do that. Yeah. For sure.
+
+1124
+01:09:32.095 --> 01:09:32.595
+Let's
+
+1125
+01:09:33.155 --> 01:09:33.655
+do
+
+1126
+01:09:34.215 --> 01:09:34.715
+it.
+
+1127
+01:09:35.275 --> 01:09:36.655
+On Link coin,
+
+1128
+01:09:39.275 --> 01:09:40.175
+last seen,
+
+1129
+01:09:41.675 --> 01:09:42.175
+Tubaloo.
+
+1130
+01:09:42.555 --> 01:09:43.615
+Shout out to Tubaloo.
+
+1131
+01:09:44.075 --> 01:09:47.550
+Thank you for donating hash rate on Linkcoin to the two five six foundation.
+
+1132
+01:09:47.850 --> 01:09:52.110
+He's working on some cool stuff with Home Assistant too with the Avalon Kainan APIs.
+
+1133
+01:09:52.490 --> 01:09:54.750
+<v Unknown> Oh, yeah. I think I saw him tweeting about that.
+
+1134
+01:09:55.530 --> 01:09:59.230
+<v Unknown> Yeah. And I saw Scott asking some questions at on that note
+
+1135
+01:10:00.775 --> 01:10:06.235
+to his contact at Kainen, and and I asked too to someone I know at Kainen. And, apparently, that
+
+1136
+01:10:06.855 --> 01:10:10.155
+that repo we found last week that went live that day, you could build
+
+1137
+01:10:11.175 --> 01:10:11.835
+and flash
+
+1138
+01:10:12.570 --> 01:10:14.590
+the firmware, the open source firmware
+
+1139
+01:10:15.210 --> 01:10:18.190
+onto a Canon device and run it. Okay.
+
+1140
+01:10:18.570 --> 01:10:20.910
+So that's cool. Someone should try to do that.
+
+1141
+01:10:23.050 --> 01:10:25.310
+<v Unknown> Yeah. There was something about that license.
+
+1142
+01:10:27.054 --> 01:10:37.395
+It was the business license? Yeah. They used some weird license. It's like it's it was, like, closed for, like, the first four years, and then it became GPL or something like that.
+
+1143
+01:10:39.215 --> 01:10:46.860
+It it was, I mean, dude, there's there's a lot of different open source licenses. So that that was just an interesting one because I had never seen that before.
+
+1144
+01:10:47.640 --> 01:10:54.060
+<v Unknown> But Yeah. Because you can just make one. Right? Whatever terms you want? I believe so. You know, there's certain,
+
+1145
+01:10:54.760 --> 01:10:55.245
+<v Unknown> like,
+
+1146
+01:10:57.405 --> 01:11:01.425
+boxes that need to be checked in order for it to be considered free and open source.
+
+1147
+01:11:03.805 --> 01:11:08.065
+But, yeah, you can just make one. And as long as you check those boxes, then
+
+1148
+01:11:09.005 --> 01:11:10.385
+by technical definition,
+
+1149
+01:11:10.830 --> 01:11:12.610
+it should be free and open source.
+
+1150
+01:11:14.350 --> 01:11:20.210
+<v Unknown> Shout out to Scott Offord from Bitcoin Mining World and Scott Offord from Open Hash Foundation for donating hash rate on Linkcoin
+
+1151
+01:11:20.670 --> 01:11:23.490
+and Schnitzel Fish Tank Axe. Thank you, guys.
+
+1152
+01:11:24.225 --> 01:11:27.125
+Yeah. The four consistent donors there on LINKOIN.
+
+1153
+01:11:27.745 --> 01:11:30.085
+<v Unknown> We'll have to get those guys moved over to,
+
+1154
+01:11:31.025 --> 01:11:35.445
+our own hydro pool instance when we get that set up. That's right. They better be listening.
+
+1155
+01:11:36.420 --> 01:11:42.040
+<v Unknown> On solo c k, we have Jeffrey Epstein did not kill himself, another OG. Been up there a while.
+
+1156
+01:11:42.900 --> 01:11:45.880
+<v Unknown> Schnitzel wall axe. That one's here at Bitcoin Park.
+
+1157
+01:11:46.740 --> 01:11:48.040
+<v Unknown> Oh, it is. Nice.
+
+1158
+01:11:50.420 --> 01:11:51.640
+Wood miners bidaxe,
+
+1159
+01:11:52.395 --> 01:11:54.414
+rockpaperbitcoin.fm,
+
+1160
+01:11:54.715 --> 01:11:58.815
+and boring worker name. We gotta update that one. Oh, I met,
+
+1161
+01:11:59.914 --> 01:12:02.895
+<v Unknown> Business Cat who runs rock paper bitcoin
+
+1162
+01:12:03.434 --> 01:12:03.934
+podcast.
+
+1163
+01:12:04.474 --> 01:12:18.790
+He was at the at the Bitcoin veteran summit, so I got to talk with him for a minute. He's been a guest on pod two fifty six, but that was the first time I met him in person. So Cool. Yeah. It was great to catch up with him as briefly as it was.
+
+1164
+01:12:20.125 --> 01:12:21.825
+<v Unknown> Yeah. Thanks for the hash rate.
+
+1165
+01:12:23.325 --> 01:12:26.125
+On Public Pool, we have hardestblocks.org
+
+1166
+01:12:26.125 --> 01:12:27.345
+and Stalin's Bitaxe,
+
+1167
+01:12:28.285 --> 01:12:29.185
+two more regulars.
+
+1168
+01:12:29.645 --> 01:12:30.145
+<v Unknown> Mhmm.
+
+1169
+01:12:31.005 --> 01:12:34.145
+<v Unknown> And then on Ocean where we've got the longer list,
+
+1170
+01:12:34.960 --> 01:12:35.860
+bible huddle,
+
+1171
+01:12:36.960 --> 01:12:40.880
+recklesssystemsgeyserfund.fund
+
+1172
+01:12:40.880 --> 01:12:41.380
+project
+
+1173
+01:12:41.760 --> 01:12:43.619
+dash satoshi starter.
+
+1174
+01:12:44.159 --> 01:12:48.739
+Cool. That's true. We talked about that last week. Yes. He's got all the things
+
+1175
+01:12:49.155 --> 01:12:49.655
+<v Unknown> necessary
+
+1176
+01:12:50.755 --> 01:12:54.615
+to find him and support him in the name, so that's good. That's right.
+
+1177
+01:12:55.155 --> 01:12:59.715
+<v Unknown> Servingbitcoin.com-1-hourstart-0s-
+
+1178
+01:12:59.715 --> 01:13:04.720
+nodes once had a Fiat job. I'll stop reading dashes. But shout out to servingbitcoin.com.
+
+1179
+01:13:04.720 --> 01:13:06.980
+I I bought a a refurbished Lenovo,
+
+1180
+01:13:08.880 --> 01:13:11.540
+server for StartOS from him last week.
+
+1181
+01:13:12.640 --> 01:13:13.140
+<v Unknown> Oh,
+
+1182
+01:13:13.835 --> 01:13:19.135
+sorry to interrupt, but that reminds me the two fifty six foundation got a donation the other day,
+
+1183
+01:13:20.235 --> 01:13:23.054
+because you comped a ticket
+
+1184
+01:13:23.594 --> 01:13:24.574
+for somebody
+
+1185
+01:13:25.435 --> 01:13:26.815
+to the Heat Punk Summit.
+
+1186
+01:13:27.450 --> 01:13:33.550
+So Oh. Yeah. Shout out to Pizandy who made the donation to the two fifty six foundation. Thank you.
+
+1187
+01:13:34.170 --> 01:13:41.630
+<v Unknown> Very nice. Shout out to Pizandy. Yeah. He'll be here at the Heat Punk Summit. Sick. I can't wait to meet him in person. He's one of the,
+
+1188
+01:13:42.245 --> 01:13:45.705
+<v Unknown> Intel b z m two grant recipients.
+
+1189
+01:13:46.805 --> 01:13:54.185
+So he's working on a three d printer that uses Bitcoin mining to warm the printer bed.
+
+1190
+01:13:55.730 --> 01:13:56.550
+<v Unknown> So epic.
+
+1191
+01:13:57.410 --> 01:14:01.030
+All the print farms, they're gonna have so much hash rate. They should.
+
+1192
+01:14:01.890 --> 01:14:02.550
+That's right.
+
+1193
+01:14:03.650 --> 01:14:04.790
+Shout out to Hub.
+
+1194
+01:14:06.450 --> 01:14:08.615
+Just Hub? My favorite. Just Hub.
+
+1195
+01:14:09.315 --> 01:14:12.135
+<v Unknown> What is is that a a thing? What is it?
+
+1196
+01:14:12.675 --> 01:14:13.175
+<v Unknown> Just
+
+1197
+01:14:13.475 --> 01:14:17.735
+worker name is h u b. Alright. Half a terra hash. Hell, yeah.
+
+1198
+01:14:18.435 --> 01:14:26.219
+Next one is Pizandy proof of print, Bitaxe won. Thank you, Andy. There we go. Looking forward to seeing you. Another one from servingbitcoin.com.
+
+1199
+01:14:27.239 --> 01:14:27.739
+Awesome.
+
+1200
+01:14:28.120 --> 01:14:28.620
+<v Unknown> Wow.
+
+1201
+01:14:29.719 --> 01:14:30.700
+<v Unknown> Zirca Sehash.
+
+1202
+01:14:31.400 --> 01:14:34.540
+Nice. Western Mass Bitcoin Meetup. Okay. Forced.
+
+1203
+01:14:34.995 --> 01:14:51.390
+And Good. Wanna Be just an s 17 pro. Classic. That's all of them. So thank you everybody for donating Hashrate to the two five six foundation. Yeah. Thank you. We need all the hacks we can get. I think people kinda set these and forget them, but,
+
+1204
+01:14:52.990 --> 01:14:55.490
+I'm just trying to think. Is there a way where you could have it
+
+1205
+01:14:55.870 --> 01:14:58.210
+automated so you could change your worker name?
+
+1206
+01:14:58.590 --> 01:15:01.810
+I guess you just go into the pool dashboard, like, for every episode.
+
+1207
+01:15:02.270 --> 01:15:04.485
+How How do we get these guys more engaged for
+
+1208
+01:15:04.945 --> 01:15:05.764
+funny messages?
+
+1209
+01:15:08.304 --> 01:15:08.804
+<v Unknown> We
+
+1210
+01:15:09.184 --> 01:15:10.164
+point to,
+
+1211
+01:15:13.264 --> 01:15:19.020
+well, I get I was gonna say we point them to hydro pool, and then when hydro pool is mining all the blocks,
+
+1212
+01:15:19.640 --> 01:15:20.380
+but their
+
+1213
+01:15:20.840 --> 01:15:23.500
+their worker name wouldn't show up in the coinbase reward.
+
+1214
+01:15:24.600 --> 01:15:25.340
+In fact,
+
+1215
+01:15:26.040 --> 01:15:31.275
+none of them would show up in the coinbase reward because the way I'd have the pool configured is so that all
+
+1216
+01:15:31.655 --> 01:15:34.555
+the block reward goes to the two fifty six foundation.
+
+1217
+01:15:35.735 --> 01:15:36.235
+<v Unknown> True.
+
+1218
+01:15:36.935 --> 01:15:44.020
+<v Unknown> I don't know. That's an interesting problem. I don't know how to if I knew how to We can't lose the shout outs, man. No. No. We won't.
+
+1219
+01:15:44.960 --> 01:15:46.820
+I'll still see their
+
+1220
+01:15:47.360 --> 01:15:48.980
+worker names in the dashboard.
+
+1221
+01:15:49.600 --> 01:15:56.100
+Right. And so, like, if anyone wants to go to, like, test.hydropool.org,
+
+1222
+01:15:56.645 --> 01:16:00.505
+you can see an example of a hydropool dashboard
+
+1223
+01:16:01.765 --> 01:16:07.225
+and what it looks like. So you'll still be able we'll still be able to see those worker names and give shout outs.
+
+1224
+01:16:08.165 --> 01:16:19.350
+It's just that and we'll actually be able to see how the hash rate distribution is divvied up. So, like Yeah. That might be a way to, like, gamify it a little bit and be like, oh, look at that. Like, Pizandy
+
+1225
+01:16:19.890 --> 01:16:21.410
+has 25
+
+1226
+01:16:21.410 --> 01:16:22.550
+of the hash rate
+
+1227
+01:16:27.035 --> 01:16:30.495
+of the four terra hash rate. Someone's gonna have, like, 99%.
+
+1228
+01:16:30.955 --> 01:16:31.455
+Yeah.
+
+1229
+01:16:33.195 --> 01:16:34.175
+But, yeah, it's
+
+1230
+01:16:35.915 --> 01:16:39.215
+that dashboard is built using Grafana with Prometheus
+
+1231
+01:16:39.515 --> 01:16:40.290
+database in
+
+1232
+01:16:41.010 --> 01:16:43.990
+the back end. It's pretty slick. I like the way it turned out.
+
+1233
+01:16:44.370 --> 01:16:50.790
+Yeah. There's nine workers right now. Yeah. And we can see our best difficulty is, what, like, three point something billion.
+
+1234
+01:16:51.330 --> 01:16:51.830
+<v Unknown> Yep.
+
+1235
+01:16:53.276 --> 01:16:54.795
+<v Unknown> So 3.47.
+
+1236
+01:16:57.594 --> 01:16:58.735
+Yeah. There's that.
+
+1237
+01:17:00.955 --> 01:17:01.455
+<v Unknown> Amazing.
+
+1238
+01:17:02.315 --> 01:17:02.815
+<v Unknown> Yeah.
+
+1239
+01:17:03.355 --> 01:17:06.975
+It is. It's amazing what happens when things are open source.
+
+1240
+01:17:08.235 --> 01:17:16.250
+<v Unknown> It's been a wild rabbit hole. I learned what Prometheus and Grafana were, like, last week, and now I'm trying to set one up on our Proxmox server. Sick.
+
+1241
+01:17:17.750 --> 01:17:20.330
+The world is zero oyster. Yeah. It is.
+
+1242
+01:17:23.190 --> 01:17:25.505
+Awesome, man. Well, have fun
+
+1243
+01:17:26.685 --> 01:17:27.665
+in North Carolina.
+
+1244
+01:17:28.045 --> 01:17:29.505
+<v Unknown> Thank you. I will.
+
+1245
+01:17:29.885 --> 01:17:32.145
+<v Unknown> I'm jealous. Get all the guys together.
+
+1246
+01:17:32.525 --> 01:17:33.425
+<v Unknown> It'll be fun.
+
+1247
+01:17:33.804 --> 01:17:35.425
+<v Unknown> Yeah. Looking forward to some updates.
+
+1248
+01:17:36.125 --> 01:17:41.650
+Hope you get the ember one out there for sure. Yeah. Thank you. I'll keep you posted for sure. Nice.
+
+1249
+01:17:42.750 --> 01:17:43.250
+<v Unknown> And,
+
+1250
+01:17:44.670 --> 01:17:51.010
+yeah, I guess I guess that's it for this week. So thanks for tuning in, and we'll see you next time. Goodbye.
+
+1251
+01:17:51.710 --> 01:17:52.210
+<v Unknown> Later.
+

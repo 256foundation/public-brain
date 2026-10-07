@@ -1,0 +1,5364 @@
+1
+00:00:00,000 --> 00:00:01,839
+Unknown: Seriously, like You are.
+
+2
+00:00:02,879 --> 00:00:03,199
+The
+
+3
+00:00:05,040 --> 00:00:18,164
+I am, like, always 72 messages behind in the group chat with you guys. And whenever I just do the scroll to just catch up, it just like that's super dope. That's super dope. That's super dope.
+
+4
+00:00:19,285 --> 00:00:21,365
+Really good stuff on this hashtag.
+
+5
+00:00:21,925 --> 00:00:30,690
+Unknown: Thanks, man. Well, I know you're a busy man. Actually, Scott told me a couple months ago that the only way to actually get your undivided attention
+
+6
+00:00:31,010 --> 00:00:33,170
+would be to come on the podcast.
+
+7
+00:00:33,170 --> 00:00:33,890
+Unknown: See there.
+
+8
+00:00:35,330 --> 00:00:38,210
+Now we're all busy, but, like, in a good way.
+
+9
+00:00:39,090 --> 00:00:39,970
+So
+
+10
+00:00:39,970 --> 00:00:44,395
+straight up, like, okay. How about we just jump right into it? What did you create?
+
+11
+00:00:45,435 --> 00:00:48,635
+Unknown: Alright. So hydro pool, which I wanna know more about
+
+12
+00:00:49,275 --> 00:00:51,355
+did y'all create hydro pool?
+
+13
+00:00:52,475 --> 00:00:57,550
+Iko, go. Yeah. Hydro pool was It's a fork of c k or public
+
+14
+00:00:57,870 --> 00:00:59,309
+or public pool.
+
+15
+00:00:59,629 --> 00:01:03,070
+Unknown: So it's a it's it's one of four projects that
+
+16
+00:01:03,070 --> 00:01:06,590
+the two fifty six foundation is championing,
+
+17
+00:01:06,670 --> 00:01:07,150
+and
+
+18
+00:01:07,549 --> 00:01:10,270
+Jungly is running point on Hydro pool.
+
+19
+00:01:11,505 --> 00:01:16,625
+When we won the block last year, we were able to fund the four projects,
+
+20
+00:01:17,025 --> 00:01:20,865
+and the goal was to, like, open source the whole Bitcoin mining stack.
+
+21
+00:01:21,025 --> 00:01:26,305
+So one of them was a open source hash board. One was a open source control board.
+
+22
+00:01:26,820 --> 00:01:29,220
+One was open source firmware.
+
+23
+00:01:29,460 --> 00:01:34,260
+And then the fourth one was the open source pool. And so HydroPool is
+
+24
+00:01:34,660 --> 00:01:35,300
+the,
+
+25
+00:01:36,260 --> 00:01:37,540
+pool component.
+
+26
+00:01:38,340 --> 00:01:38,900
+And,
+
+27
+00:01:39,860 --> 00:01:46,715
+a lot of the it's not directly a fork of CK Pool, but because it's built from the ground up in rust.
+
+28
+00:01:47,354 --> 00:01:49,515
+But a lot of what
+
+29
+00:01:50,075 --> 00:01:54,314
+Khan Kalabas built in CK Pool was inspired
+
+30
+00:01:55,800 --> 00:01:59,560
+some of Jung Lee's decisions in in how he constructed
+
+31
+00:01:59,560 --> 00:02:00,440
+hydro pool.
+
+32
+00:02:01,160 --> 00:02:13,005
+And then a lot of it also ties in with p to pool v two because he's also working on that. So hydro pool is like the stratum server component and then,
+
+33
+00:02:13,405 --> 00:02:16,925
+p to pool v two is like the share chain component
+
+34
+00:02:16,925 --> 00:02:17,805
+of it all.
+
+35
+00:02:18,205 --> 00:02:19,325
+And on
+
+36
+00:02:19,405 --> 00:02:24,720
+the on the road map, eventually, want HydraPool and p to pool v two working together.
+
+37
+00:02:28,640 --> 00:02:33,200
+Unknown: Cool. Well, from my vantage point, I just wanted a way to see what HydraPool
+
+38
+00:02:33,200 --> 00:02:33,760
+was doing.
+
+39
+00:02:34,784 --> 00:02:36,385
+And that Grafana
+
+40
+00:02:36,625 --> 00:02:46,385
+visualizer thing, like, was not available to me because that's run locally. Right? Yep. So I didn't have any way of looking at it. Also, didn't really know kinda where to click in Grafana to see stuff
+
+41
+00:02:47,040 --> 00:02:49,040
+on one of the test instances.
+
+42
+00:02:49,040 --> 00:02:51,200
+So so I made the Hashdash,
+
+43
+00:02:51,360 --> 00:02:59,600
+which allows me to see what Hydro Pool is doing. Then for, of course, the Tele Hash, we all wanna be watching it like a hawk in real time.
+
+44
+00:03:00,255 --> 00:03:03,135
+And I wanna actually talk to you guys about
+
+45
+00:03:03,694 --> 00:03:06,175
+the Hashdash and ask you some questions
+
+46
+00:03:06,895 --> 00:03:07,615
+about
+
+47
+00:03:08,255 --> 00:03:11,295
+what we can maybe improve or what types of things you'd like to see.
+
+48
+00:03:12,090 --> 00:03:16,490
+Can we, like, share our screen? Yeah. We can share our screen on here. I can just go ahead and
+
+49
+00:03:16,810 --> 00:03:19,290
+Unknown: There should be a icon at the bottom.
+
+50
+00:03:20,090 --> 00:03:21,850
+Yeah. The share icon.
+
+51
+00:03:23,290 --> 00:03:24,170
+Unknown: Okay.
+
+52
+00:03:25,450 --> 00:03:29,035
+So I'm gonna share the hash dash, which is the visualizer
+
+53
+00:03:29,035 --> 00:03:29,675
+for
+
+54
+00:03:30,155 --> 00:03:31,195
+hydro pool.
+
+55
+00:03:35,275 --> 00:03:38,875
+Unknown: Dude, I just saw your tweet, Eco. The rumor mill edition.
+
+56
+00:03:40,395 --> 00:03:41,195
+Unknown: Spicy
+
+57
+00:03:41,355 --> 00:03:43,115
+spicy rumor mill edition.
+
+58
+00:03:44,180 --> 00:03:46,020
+Unknown: Look at this, the hashtag.
+
+59
+00:03:46,340 --> 00:03:51,140
+Unknown: This looks amazing. This is the best this dashboard. You crushed it on this project. For
+
+60
+00:03:52,340 --> 00:03:55,380
+Unknown: our millions of of listeners who are just listening,
+
+61
+00:03:55,620 --> 00:03:57,860
+what you can't see right now is
+
+62
+00:03:58,225 --> 00:04:00,385
+the most epic looking dashboard ever.
+
+63
+00:04:00,705 --> 00:04:01,505
+Unknown: Just to summarize.
+
+64
+00:04:02,385 --> 00:04:06,465
+Love you guys. I'm such a fan of whatever you guys do. So
+
+65
+00:04:06,865 --> 00:04:15,440
+any way that I can help. So, yeah, I just for my own purposes, I wanted to see what you guys were up to with regard to your hash rate. So couple questions for y'all.
+
+66
+00:04:17,600 --> 00:04:24,720
+I have the five minute hash rate, the average hash rate. Because the graph is showing the five minute hash rate, it's kinda choppy.
+
+67
+00:04:25,040 --> 00:04:28,395
+It might make sense to have, like, the average overlaid
+
+68
+00:04:28,395 --> 00:04:31,675
+on top of this like I saw in Grafana.
+
+69
+00:04:31,755 --> 00:04:36,635
+But my question for y'all is, like, should that be the one hour hash rate
+
+70
+00:04:38,235 --> 00:04:38,794
+average?
+
+71
+00:04:40,830 --> 00:04:44,750
+Unknown: I think a lot of times people will put multiple lines on the graph.
+
+72
+00:04:46,350 --> 00:04:47,870
+Sometimes the one hour
+
+73
+00:04:48,910 --> 00:04:52,350
+tends to smooth over exciting events like when new miners join.
+
+74
+00:04:53,095 --> 00:05:04,534
+Unknown: Well, I'm gonna do both. So, like, kinda leave this how it is kinda choppy, but then put another line on top. And my question for y'all was with the second line, would that be one hour? Is that how it's generally done?
+
+75
+00:05:06,110 --> 00:05:10,030
+Unknown: I think one hour is good. Let me check-in Grafana.
+
+76
+00:05:11,150 --> 00:05:12,270
+Unknown: Yeah. What is it?
+
+77
+00:05:12,750 --> 00:05:15,390
+Unknown: It's Yeah. What does Grafana do? The yellow
+
+78
+00:05:15,710 --> 00:05:17,885
+And then do you guys like the last six hours
+
+79
+00:05:18,604 --> 00:05:23,885
+or should this be eight hours for the for the graph? Yeah. I would do, like, eight or twelve hours.
+
+80
+00:05:24,604 --> 00:05:31,164
+Unknown: Grafana does five minute and one hour. Okay. I'll do that. Yeah. I think that's good. I mean, the hash
+
+81
+00:05:31,870 --> 00:05:36,510
+Unknown: the telehash is like eight hours, right? So maybe this maybe the Hash Read History graph should be eight hours.
+
+82
+00:05:37,230 --> 00:05:41,390
+Unknown: What do think? Yeah. That'd be cool to see it all by the end. Yeah.
+
+83
+00:05:41,390 --> 00:05:46,430
+Unknown: So it starts at 1PM and then concludes, I believe, at seven or 8PM. So
+
+84
+00:05:47,305 --> 00:05:49,305
+Unknown: Okay. So I'm gonna do that.
+
+85
+00:05:49,945 --> 00:05:52,905
+And then I'm gonna add the best share
+
+86
+00:05:53,225 --> 00:05:55,625
+for the whole pool. That'll be, like, up here
+
+87
+00:05:56,185 --> 00:06:01,225
+with the overview metrics. And then my question for y'all is, like, the best share is in
+
+88
+00:06:01,840 --> 00:06:06,480
+difficulty. Right? Which is, like, the number of times harder it is to find a block
+
+89
+00:06:07,120 --> 00:06:12,640
+versus the Genesis block, which started at one. Yep. And I've seen the difficulty represented
+
+90
+00:06:14,560 --> 00:06:16,805
+with, like, tera, giga,
+
+91
+00:06:17,365 --> 00:06:18,165
+mega
+
+92
+00:06:18,565 --> 00:06:21,765
+units, and I've also seen it with, like, million, billion, trillion.
+
+93
+00:06:21,925 --> 00:06:25,285
+What's interesting is we're currently at, like, one forty six
+
+94
+00:06:25,685 --> 00:06:26,565
+trillion,
+
+95
+00:06:27,045 --> 00:06:34,760
+and I've seen some people use, like, Terra, and I've seen some people use trillion. So like which unit is better for the difficulty?
+
+96
+00:06:36,040 --> 00:06:40,760
+Unknown: Or does it not matter? I prefer trillion as opposed to a matter of style.
+
+97
+00:06:40,760 --> 00:06:45,675
+Unknown: I've seen people use both. I mean, the the the big deal is is with billion
+
+98
+00:06:46,955 --> 00:06:47,755
+and
+
+99
+00:06:47,835 --> 00:06:52,795
+giga. Right? Because that's the only one that has a different letter. Like, lot of times, you just put the first letter the same.
+
+100
+00:06:53,435 --> 00:06:58,870
+Yeah. But yeah. So billion and giga are the same, but it would be b versus g. So
+
+101
+00:07:01,910 --> 00:07:07,430
+Unknown: I think the numeric is simpler because then you separate it from hash rate. You know? You think what simpler?
+
+102
+00:07:08,115 --> 00:07:11,315
+The million billion, like, the straight up numeric, not
+
+103
+00:07:11,875 --> 00:07:16,435
+Unknown: this analog to hash rate. How many of you vote million billion?
+
+104
+00:07:18,115 --> 00:07:21,475
+Tyler? Me. One. And how many of you vote mega,
+
+105
+00:07:21,555 --> 00:07:22,035
+giga,
+
+106
+00:07:22,370 --> 00:07:23,090
+terra?
+
+107
+00:07:23,250 --> 00:07:26,610
+Unknown: Oh, I want I wanna be in the million billion camp. Scott.
+
+108
+00:07:27,890 --> 00:07:30,450
+Unknown: I think on the bid x, we've we've settled on
+
+109
+00:07:31,410 --> 00:07:32,210
+giga.
+
+110
+00:07:32,690 --> 00:07:45,885
+Unknown: Eco's a million billion guy. Yeah. So now it's two against one, but I'm curious, Rod. Rod. What do think? Should should difficulty be does that be represented with with millions and trillions or megas and teras?
+
+111
+00:07:46,444 --> 00:07:51,320
+Megas and teras. Oh, yeah. Megas and terras. I'm the tiebreaker. I vote
+
+112
+00:07:52,360 --> 00:07:56,840
+megas and terras too. Let's go. I'm gonna break this tie.
+
+113
+00:07:57,720 --> 00:08:05,375
+Unknown: Let's go. It's alright. Iko and I are gonna be the ones talking on the telehash. We'll just we'll we'll just say it differently. Mhmm.
+
+114
+00:08:07,534 --> 00:08:12,014
+Unknown: Yeah. I'll keep You can't just put the first letter too. That that's like a crap loser.
+
+115
+00:08:12,335 --> 00:08:15,330
+Unknown: Yeah. I'm gonna put the first letter, but if it's
+
+116
+00:08:15,810 --> 00:08:16,770
+billion,
+
+117
+00:08:17,250 --> 00:08:18,370
+it's gonna be
+
+118
+00:08:19,729 --> 00:08:22,290
+Unknown: Yeah. Billion and giga. So finish.
+
+119
+00:08:22,370 --> 00:08:28,130
+Unknown: Art. Yes. G. But isn't Zetta the same in both camps, which is where we'll be at? So
+
+120
+00:08:28,855 --> 00:08:30,855
+Unknown: No. Because it's a quadrillion.
+
+121
+00:08:31,015 --> 00:08:32,375
+Unknown: Oh, it's a quadrillion.
+
+122
+00:08:32,455 --> 00:08:33,175
+Okay.
+
+123
+00:08:34,775 --> 00:08:36,535
+Unknown: Ryan's trying to vote in the chat.
+
+124
+00:08:37,415 --> 00:08:38,215
+Unknown: No
+
+125
+00:08:38,615 --> 00:08:39,975
+no audience votes.
+
+126
+00:08:40,135 --> 00:08:43,015
+Unknown: What is Ryan? What does Ryan vote for? And where's the chat?
+
+127
+00:08:44,100 --> 00:08:48,260
+Million, billions, trillion. There should be a public chat. Oh, he's trying to break the I
+
+128
+00:08:50,980 --> 00:08:52,260
+found the chat. Okay.
+
+129
+00:08:54,980 --> 00:08:56,340
+Unknown: Actually, I didn't.
+
+130
+00:08:56,820 --> 00:08:57,460
+So
+
+131
+00:08:57,895 --> 00:09:01,735
+Unknown: this is all Okay, so live that's done. So we're have the best.
+
+132
+00:09:04,615 --> 00:09:06,535
+Sorry, go ahead. Yeah, this is live.
+
+133
+00:09:07,335 --> 00:09:12,055
+So we're gonna do the best share. And then what I'm also gonna do is when you come down here to the workers,
+
+134
+00:09:12,870 --> 00:09:18,470
+when you hover over the different workers, I'll show the best share from like each individual worker.
+
+135
+00:09:19,110 --> 00:09:19,830
+Unknown: Cool.
+
+136
+00:09:20,070 --> 00:09:23,830
+Unknown: Which will be cool. That's awesome. Maybe the best share also for the
+
+137
+00:09:24,230 --> 00:09:24,950
+user.
+
+138
+00:09:25,830 --> 00:09:29,785
+Then Scott, of course, you wanted this where you just don't even see
+
+139
+00:09:30,105 --> 00:09:31,945
+the users. It's just
+
+140
+00:09:32,345 --> 00:09:33,465
+everyone's equal.
+
+141
+00:09:34,985 --> 00:09:36,345
+This is actually a cool
+
+142
+00:09:37,225 --> 00:09:39,625
+Unknown: worker name, which I'm all in on. It does.
+
+143
+00:09:39,785 --> 00:09:43,820
+Unknown: It does. Yeah. And then what's cool is when you hover over the worker,
+
+144
+00:09:44,060 --> 00:09:53,660
+it still shows you what their Bitcoin address is. So, yeah, one of the quirks of HydraPool is that your username has to be a valid Bitcoin address.
+
+145
+00:09:53,660 --> 00:09:55,339
+And, of course, I didn't know that initially,
+
+146
+00:09:55,904 --> 00:09:57,745
+so I wasn't initially connected
+
+147
+00:09:58,144 --> 00:09:59,185
+to the pool.
+
+148
+00:09:59,665 --> 00:10:00,545
+And I thought,
+
+149
+00:10:01,264 --> 00:10:07,185
+maybe I'll try putting a Bitcoin address in there. Everyone else seems to be doing it. And as soon as I did, it was like, I'm in.
+
+150
+00:10:07,920 --> 00:10:12,720
+But I had to kinda intuit that, and I don't know that everyone will. So my question for y'all is,
+
+151
+00:10:13,440 --> 00:10:16,000
+are we gonna nuke that for the telehash or no?
+
+152
+00:10:16,880 --> 00:10:18,800
+That requirement? I'm
+
+153
+00:10:18,800 --> 00:10:24,285
+Unknown: not sure we got a straight answer on that, but that is an important distinction because last year,
+
+154
+00:10:24,765 --> 00:10:28,525
+we were able to have people just put in, like, any vanity
+
+155
+00:10:28,605 --> 00:10:34,365
+worker name. They didn't have to oh, wait. No. They did they had to use our address. Username.
+
+156
+00:10:35,050 --> 00:10:43,850
+Unknown: I think for NAMs, the first one, had to use our address. They had to use a Yes. A valid address that was ours. I think actually, I don't remember
+
+157
+00:10:44,090 --> 00:10:46,010
+TEMs if we had changed that.
+
+158
+00:10:46,410 --> 00:10:48,250
+Unknown: Yeah. I don't think we did. Okay.
+
+159
+00:10:48,885 --> 00:10:57,045
+Unknown: I think it'd be really slick. We we should talk to Jungly and see how much of the lift this is. But if people can just put in something rad and not worry about
+
+160
+00:10:57,365 --> 00:11:01,525
+a valid Bitcoin address it's a little bit counterintuitive for the
+
+161
+00:11:01,820 --> 00:11:04,460
+telehash because it doesn't matter
+
+162
+00:11:04,940 --> 00:11:12,060
+what address you put in. Right? All all the the winnings go to the two fifty six foundation. Yeah. So my concern was like,
+
+163
+00:11:12,540 --> 00:11:17,575
+Unknown: what if I just put my address in there and I think that if I get the pockets coming to me,
+
+164
+00:11:17,975 --> 00:11:20,375
+what might I, you know, be mad?
+
+165
+00:11:20,695 --> 00:11:22,535
+Unknown: Yeah. That's that's a little confusing.
+
+166
+00:11:23,015 --> 00:11:27,575
+Unknown: Think I think you captured that well in the
+
+167
+00:11:28,730 --> 00:11:29,770
+interface
+
+168
+00:11:29,930 --> 00:11:32,730
+with the instructions where it says point your hash rate.
+
+169
+00:11:33,610 --> 00:11:34,410
+Unknown: It says
+
+170
+00:11:34,810 --> 00:11:39,530
+Unknown: donate. Yeah. Because the the title of that section is hash rate donations.
+
+171
+00:11:40,649 --> 00:11:42,570
+But, I mean, to be explicitly clear, like,
+
+172
+00:11:43,355 --> 00:11:46,315
+all the hash rate is getting donated
+
+173
+00:11:46,315 --> 00:11:51,274
+to the two fifty six foundations so that in the event a block is found,
+
+174
+00:11:51,995 --> 00:11:55,595
+that Bitcoin goes to support the open source projects.
+
+175
+00:11:57,070 --> 00:11:58,430
+And I think that's
+
+176
+00:11:58,670 --> 00:12:03,630
+pretty clear for anyone who's pointing us hash rate. I don't think there's gonna be any expectation that
+
+177
+00:12:04,510 --> 00:12:08,990
+those rewards are shared. And, you know, I'll certainly be saying that when we're live streaming.
+
+178
+00:12:11,605 --> 00:12:17,045
+But I think just having that word donation there in that header section makes it pretty clear.
+
+179
+00:12:17,365 --> 00:12:18,725
+I don't know. What do you guys think?
+
+180
+00:12:19,685 --> 00:12:22,805
+Unknown: Well so Tyler, you're also running Hydro Pool.
+
+181
+00:12:23,365 --> 00:12:24,005
+Unknown: Mhmm.
+
+182
+00:12:24,565 --> 00:12:25,524
+Unknown: But for y'all,
+
+183
+00:12:27,470 --> 00:12:39,150
+Unknown: does the person who puts in their Bitcoin address get the entire block subsidy block reward? I don't know how Dylan configured it. It's not really relevant to this teledush though, but Sort
+
+184
+00:12:40,190 --> 00:12:41,470
+Unknown: it out later. Yeah.
+
+185
+00:12:42,935 --> 00:12:43,895
+Unknown: What
+
+186
+00:12:43,895 --> 00:12:49,495
+I think is it's cool that we're able to have this conversation about what the hell we wanna change with a mining pool.
+
+187
+00:12:49,655 --> 00:12:52,615
+Right? Because it's free and open source and you can do whatever you want.
+
+188
+00:12:53,175 --> 00:12:55,175
+Unknown: Right. Right. I think that's
+
+189
+00:12:56,050 --> 00:13:00,370
+the the the problem here is that HydroPool itself is not specifically
+
+190
+00:13:01,010 --> 00:13:04,130
+for the telehash. It's the general Yeah. Mining
+
+191
+00:13:04,530 --> 00:13:05,330
+pool.
+
+192
+00:13:05,810 --> 00:13:08,815
+And so in that case, definitely would wanna have users
+
+193
+00:13:08,895 --> 00:13:11,615
+put their reward address in there.
+
+194
+00:13:12,015 --> 00:13:14,415
+So I guess the question is whether or not we can,
+
+195
+00:13:15,215 --> 00:13:17,535
+in the final hours here, put together
+
+196
+00:13:17,855 --> 00:13:20,670
+a change to HydroPool to support,
+
+197
+00:13:22,830 --> 00:13:32,910
+Unknown: you know, not having a valid address in the word name or in the But but outside of telehash, hydro pool operates like CK pool and that it's like a solo pool of sorts
+
+198
+00:13:33,955 --> 00:13:36,195
+where you get Yeah. It's the entire
+
+199
+00:13:36,675 --> 00:13:49,800
+Unknown: reward if you find the block. Yep. It's it's meant for people to Right. Self host their own mining pool, and then they can set it up however they want. So that could be, like, just one person running a Baymax at home,
+
+200
+00:13:50,120 --> 00:13:57,560
+or that could be, like, somebody like Tyler who's hosting it for a number of people who are involved with his community.
+
+201
+00:13:58,199 --> 00:14:04,285
+And then, you know, they have the ability to go in there and change how they want the reward split.
+
+202
+00:14:05,645 --> 00:14:08,445
+It can it can just be strictly based on,
+
+203
+00:14:08,845 --> 00:14:11,725
+you know, proportional to the hash rate contributed.
+
+204
+00:14:12,525 --> 00:14:15,325
+So it does support the, like, PPL and S model.
+
+205
+00:14:16,740 --> 00:14:24,820
+Or, you know, the person who's hosting it can change that so that, like, say they wanna get, like, 2%. Like, if you hit a block with CK pool,
+
+206
+00:14:25,460 --> 00:14:32,725
+2% goes to CK pool, and then the the miner who hit the golden nonce gets the rest.
+
+207
+00:14:34,005 --> 00:14:36,645
+So that you know, it's just we wanted to give as many
+
+208
+00:14:37,685 --> 00:14:41,445
+Okay. Configurable options to the end users as possible.
+
+209
+00:14:42,485 --> 00:14:48,300
+Unknown: I think that's an important distinction, though, is HydroPool does allow PPL on its mining. So you can do shared mining.
+
+210
+00:14:48,380 --> 00:14:55,019
+Unknown: Got it. PKPool is is strictly solo. You just need a big enough team to get routine payouts.
+
+211
+00:14:56,060 --> 00:14:56,380
+Unknown: Yeah.
+
+212
+00:14:58,125 --> 00:15:00,845
+Unknown: And that's that's another good point. So,
+
+213
+00:15:01,725 --> 00:15:04,125
+because of the way Bitmain did things,
+
+214
+00:15:04,605 --> 00:15:07,165
+this has been an ongoing problem for,
+
+215
+00:15:08,125 --> 00:15:15,520
+Bitcoin mining pools is the custody part of it, where the pool usually retains custody and then pays out the miners later
+
+216
+00:15:15,760 --> 00:15:19,360
+because they can't fit all the miners in the Coinbase reward.
+
+217
+00:15:19,920 --> 00:15:20,560
+We
+
+218
+00:15:21,920 --> 00:15:23,440
+took that limitation
+
+219
+00:15:23,440 --> 00:15:23,760
+away.
+
+220
+00:15:24,635 --> 00:15:26,155
+And by default,
+
+221
+00:15:26,155 --> 00:15:28,315
+when you spin up a hydro pool instance,
+
+222
+00:15:28,475 --> 00:15:31,915
+you can put up to a 100 addresses in the Coinbase reward.
+
+223
+00:15:32,475 --> 00:15:37,595
+Whereas, like, with other pools, I think they're capped at, like, 15 or 16 addresses.
+
+224
+00:15:41,160 --> 00:15:43,000
+Unknown: Yeah. But I mean, their
+
+225
+00:15:43,560 --> 00:15:45,000
+dominant firmware,
+
+226
+00:15:45,000 --> 00:15:48,279
+they just truncate that field. You can't do
+
+227
+00:15:48,519 --> 00:15:49,320
+payouts
+
+228
+00:15:49,480 --> 00:15:52,120
+in like non custodian in the Coinbase.
+
+229
+00:15:54,285 --> 00:15:58,125
+Unknown: I don't know what'll happen if, like, stock Antminer
+
+230
+00:15:58,685 --> 00:16:03,725
+receives a template from Hydropool with, like, a 100 addresses in it, but
+
+231
+00:16:04,125 --> 00:16:06,045
+that's Bitmain's problem in my opinion.
+
+232
+00:16:07,420 --> 00:16:10,779
+Unknown: That is a good question. I wonder I wonder what happens. Like, if you
+
+233
+00:16:12,380 --> 00:16:20,060
+it might just be an invalid transaction and no one gets paid. Right. Which would be sad, but that's Bitmain's fault.
+
+234
+00:16:21,019 --> 00:16:21,339
+Yeah.
+
+235
+00:16:22,685 --> 00:16:23,805
+Fix it, guys.
+
+236
+00:16:24,365 --> 00:16:33,005
+Unknown: Alright. Can we so this is awesome. And this is gonna be super rad because d plus plus, you're gonna be here next week also, right? To see it all live.
+
+237
+00:16:34,205 --> 00:16:36,285
+Unknown: Yes. And I'm making you another dashboard.
+
+238
+00:16:37,439 --> 00:16:38,959
+The teledash.
+
+239
+00:16:38,959 --> 00:16:40,480
+The teledash. I
+
+240
+00:16:40,800 --> 00:16:51,439
+like that. And this will be open source. Anyone could use it. Correct? Or no? Yeah. I want them to, of course. Yeah. I want everyone that's a user of HydroPool to have their own instance of the hash dash.
+
+241
+00:16:52,205 --> 00:16:54,605
+So rad. Yeah. So rad.
+
+242
+00:16:55,645 --> 00:17:04,365
+Unknown: We're talking about Bitmain. So should we do you wanna join us for this pod, by the way, d plus plus? So we go through, like, kind of, like, the stats, some news items,
+
+243
+00:17:04,685 --> 00:17:12,720
+and and then we're gonna talk about the telehash more and then and then I don't wanna monopolize your time. And I'm glad we did the visualization here.
+
+244
+00:17:13,920 --> 00:17:21,054
+Unknown: We should hear about the the plans for the teledash. Well, yeah. I want because I wanted to run that by you guys and get some feedback
+
+245
+00:17:21,855 --> 00:17:26,174
+Unknown: Sure. You got the Teladash. Million people listening right now, so go for it.
+
+246
+00:17:26,894 --> 00:17:27,534
+Unknown: Well,
+
+247
+00:17:27,934 --> 00:17:38,570
+I had initially just planned on making one dashboard for you guys. I ended up making a secondary one simply because Eco told me there wasn't going to be a public facing facing dashboard
+
+248
+00:17:39,050 --> 00:17:40,809
+for the Telehash,
+
+249
+00:17:41,050 --> 00:17:43,690
+so I made this one. But my original idea
+
+250
+00:17:44,415 --> 00:17:47,535
+that I haven't made yet is the teledash,
+
+251
+00:17:48,335 --> 00:17:50,335
+which is gonna be an overlay
+
+252
+00:17:50,575 --> 00:18:03,020
+for the stream that will display all the things that are happening currently in the telehash to the viewers on line. So that's gonna be how much money you've raised, how many blocks you've hit, what's the total hash rate,
+
+253
+00:18:03,740 --> 00:18:10,220
+what's the best share. There's gonna be a chat interface. Like, all the things that I wanted to see when I was watching the last
+
+254
+00:18:10,575 --> 00:18:20,975
+Telehash because you guys had two different pools at that time. And so I was, like, mentally trying to crunch the numbers, like, how much hash rate do they have now? What is it now? And just, adding up those numbers in my head.
+
+255
+00:18:21,695 --> 00:18:23,855
+But I wanna be able to see it all on stream.
+
+256
+00:18:24,990 --> 00:18:27,950
+And so my question to you guys is gonna be, like,
+
+257
+00:18:28,590 --> 00:18:32,669
+what's gonna be the must haves for the Teladash?
+
+258
+00:18:33,070 --> 00:18:35,630
+Obviously, the hash rate. Do we need the average?
+
+259
+00:18:36,430 --> 00:18:39,155
+Unknown: I don't know. The hash rate is good. Odds.
+
+260
+00:18:39,155 --> 00:18:42,755
+Odds would be cool to see, like, as hash rate increases your odds of winning.
+
+261
+00:18:43,075 --> 00:18:47,795
+Unknown: That was another thing I was always crunching in my mind was like, what are the chances?
+
+262
+00:18:47,955 --> 00:18:49,715
+Unknown: Maybe like the the highest
+
+263
+00:18:50,429 --> 00:18:51,949
+the highest hash rate
+
+264
+00:18:52,269 --> 00:18:59,389
+worker name, like, gets moved to the top rung or, like Leaderboard? Yeah. The leaderboard. Maybe there's, like, the top three or something.
+
+265
+00:19:02,985 --> 00:19:11,625
+Unknown: Totally. Leaderboard in hash rate or best share too would be cool. Yeah. Best share. So keep in mind, like, the majority of the real estate on the screen is gonna be y'all,
+
+266
+00:19:12,345 --> 00:19:13,544
+like your video.
+
+267
+00:19:13,545 --> 00:19:17,465
+Yeah. And then around the video is gonna be all the cool things that are happening.
+
+268
+00:19:18,630 --> 00:19:23,990
+I like it. Including, like, how close you guys are to your goal. So one thing one thing you guys didn't have last time
+
+269
+00:19:24,310 --> 00:19:27,190
+was the ability to receive Bitcoin donations.
+
+270
+00:19:27,830 --> 00:19:31,750
+So I'm gonna add an interface for that. So if people wanna just send you Bitcoin,
+
+271
+00:19:31,750 --> 00:19:33,910
+it's gonna pop up on the Teladash.
+
+272
+00:19:34,205 --> 00:19:35,645
+Unknown: Let's go. Closer
+
+273
+00:19:35,645 --> 00:19:39,644
+Unknown: to your goal. Change the trajectory of this whole thing,
+
+274
+00:19:39,885 --> 00:19:40,605
+honestly.
+
+275
+00:19:41,005 --> 00:19:47,725
+Unknown: Well, it's I think it's gonna help get people engaged because if I don't have miners, I still wanna support. So I'm gonna be sending Bitcoins.
+
+276
+00:19:47,940 --> 00:19:49,860
+We're gonna have cool animations
+
+277
+00:19:49,860 --> 00:19:53,619
+that pop up when you guys receive bitcoins. We're gonna have, like, a goal.
+
+278
+00:19:54,259 --> 00:19:56,019
+I was gonna put the goal
+
+279
+00:19:56,500 --> 00:19:57,779
+to 3.125
+
+280
+00:19:57,779 --> 00:19:58,980
+bitcoins initially.
+
+281
+00:20:00,674 --> 00:20:05,234
+And then I figure, like, once we reach those goals, it's like GoFundMe, you could increase
+
+282
+00:20:05,554 --> 00:20:07,714
+the goal to be 6.25.
+
+283
+00:20:08,274 --> 00:20:08,835
+But
+
+284
+00:20:09,154 --> 00:20:10,994
+you also get Lightning Sats.
+
+285
+00:20:11,235 --> 00:20:16,299
+So the other thing too is if someone sends you Bitcoin on chain or someone sends you lightning stats,
+
+286
+00:20:17,419 --> 00:20:31,004
+the total increases the total amount that you've received. But they can attach a message to the donations as well that'll pop up in like a little chat window. So with Lightning, what I usually do is the comment field I'll use as the chat.
+
+287
+00:20:32,205 --> 00:20:37,565
+This might be a little spicy, but I was thinking for the on chain ones, I can just grab the op return
+
+288
+00:20:38,524 --> 00:20:40,845
+data carrier and put that as the message.
+
+289
+00:20:41,750 --> 00:20:42,390
+Yeah.
+
+290
+00:20:42,710 --> 00:20:46,150
+Yeah. Yeah. As long as no one wants to cancel Okay. The
+
+291
+00:20:47,430 --> 00:20:49,510
+Yeah. So that'll be, like, the message. Yes.
+
+292
+00:20:49,990 --> 00:20:50,550
+But you can
+
+293
+00:20:52,070 --> 00:21:03,575
+should have a minimum amount to get your message on the screen, by the Well, I was thinking we'd start the minimum kind of low to get people's, like, you know, grease the wheels of the chat. Right. Like, one Maybe it's, like, 5 sats.
+
+294
+00:21:03,575 --> 00:21:04,934
+And then, like, as the day
+
+295
+00:21:05,175 --> 00:21:08,615
+continues, like, that we can we can dynamically change it
+
+296
+00:21:09,030 --> 00:21:17,830
+to be like, okay. Now you have to pay a 100, like, a 100 k stats just to show up. Whatever we want. Like, it's the whole thing with the Hashdash is, like, it will be dynamic.
+
+297
+00:21:18,230 --> 00:21:21,030
+So I can always make changes to it as we go.
+
+298
+00:21:22,414 --> 00:21:34,014
+So it's so cool. It's cool. Right? Yeah. I have to make it. Thanks, man. Yeah. It's gonna be awesome. I'm I'm excited for it. So there's the chat. There's the goals. There's the amount raised.
+
+299
+00:21:35,135 --> 00:21:36,895
+I had some, like, nice to haves.
+
+300
+00:21:41,029 --> 00:21:43,429
+Unknown: You know, do you want random idea. Price
+
+301
+00:21:43,990 --> 00:21:46,149
+Unknown: on there? Yay or nay?
+
+302
+00:21:46,549 --> 00:21:53,125
+Because if we hit I think a 100 k by Telahash King. Price do you need to have there as well? Yeah. Okay. We'll we'll do the Bitcoin price. Yeah.
+
+303
+00:21:53,605 --> 00:21:54,885
+Unknown: On the tele
+
+304
+00:21:55,605 --> 00:21:58,325
+the hash dash, the leaderboard we're you
+
+305
+00:21:58,565 --> 00:22:10,390
+actually were just looking at, is there a way to fingerprint what kind of miners people are using to point at us? That would be kind of interesting to see. So that's a question about the Prometheus API. So anything that I can get from Prometheus,
+
+306
+00:22:11,030 --> 00:22:11,750
+Unknown: yes.
+
+307
+00:22:12,470 --> 00:22:13,430
+I haven't
+
+308
+00:22:13,430 --> 00:22:14,790
+seen that in Prometheus.
+
+309
+00:22:15,350 --> 00:22:23,105
+Unknown: We should definitely see if we can add that. Because all miners when they first connect to the pool, they send their user agent which will include the minor type.
+
+310
+00:22:24,465 --> 00:22:27,825
+Unknown: Yeah, we can add that. If we have jungly
+
+311
+00:22:28,145 --> 00:22:30,065
+Unknown: propagate that to the API,
+
+312
+00:22:30,785 --> 00:22:31,265
+that
+
+313
+00:22:31,985 --> 00:22:32,865
+would be really slick.
+
+314
+00:22:34,820 --> 00:22:38,019
+Unknown: We gotta see a breakdown of which companies to bully. So
+
+315
+00:22:40,100 --> 00:22:40,979
+Yeah.
+
+316
+00:22:44,019 --> 00:22:45,860
+Unknown: I'm trying to think of what else should be on there.
+
+317
+00:22:46,735 --> 00:22:49,695
+What were some of the nice to haves you were thinking, Dee?
+
+318
+00:22:52,015 --> 00:22:57,054
+Unknown: Well, so for me, the must haves are gonna be the total current hash rate,
+
+319
+00:22:57,215 --> 00:22:58,654
+total active workers.
+
+320
+00:22:58,975 --> 00:23:01,855
+I wasn't sure if I was gonna put users on there because
+
+321
+00:23:02,890 --> 00:23:08,169
+that's not entirely clear and that a lot of folks are gonna be using the same Bitcoin address.
+
+322
+00:23:08,650 --> 00:23:09,289
+Unknown: Yeah.
+
+323
+00:23:09,690 --> 00:23:13,210
+Unknown: How much funds we've raised total and how close we are to our goal.
+
+324
+00:23:14,330 --> 00:23:19,205
+The message little window from the Onchain and Lightning donations,
+
+325
+00:23:20,485 --> 00:23:22,804
+the current block height, current Bitcoin price,
+
+326
+00:23:23,125 --> 00:23:25,285
+QR codes for the donations,
+
+327
+00:23:26,325 --> 00:23:32,299
+and then the instructions for how to point your hash rate. Oh, that Those are, like, the must haves for me. The nice to haves were, like, doing
+
+328
+00:23:33,020 --> 00:23:33,740
+yeah.
+
+329
+00:23:34,140 --> 00:23:39,820
+Instructions, like, at the bottom. Yeah. And the nice the nice to haves, like, pass like, possibly maybe.
+
+330
+00:23:40,299 --> 00:23:43,340
+Do we want the average hash rate? Do we want the total active users?
+
+331
+00:23:44,105 --> 00:23:47,705
+Do we want like tweets that people tag Teladash
+
+332
+00:23:47,705 --> 00:23:52,184
+or Telahash in? The worker spotlight, that was something Tyler mentioned.
+
+333
+00:23:53,305 --> 00:23:54,345
+Best share,
+
+334
+00:23:54,745 --> 00:23:57,225
+do we want the graph on there? I don't know if it'll fit.
+
+335
+00:23:59,020 --> 00:24:00,860
+The current network difficulty,
+
+336
+00:24:00,860 --> 00:24:02,300
+that's not really gonna change much.
+
+337
+00:24:03,100 --> 00:24:05,340
+Around $146,000,000,000,000
+
+338
+00:24:05,340 --> 00:24:06,460
+or tariff.
+
+339
+00:24:07,100 --> 00:24:07,580
+Unknown: Part
+
+340
+00:24:08,060 --> 00:24:15,795
+of the a big part of the screen is gonna be the that jumbotron that's behind us too. Right. And so if we're, like, pulling if we've got the
+
+341
+00:24:16,675 --> 00:24:17,315
+the
+
+342
+00:24:18,035 --> 00:24:20,675
+hash dash pulled up on our laptop
+
+343
+00:24:20,915 --> 00:24:25,075
+and that's on the Jumbotron, then we can show the graph there.
+
+344
+00:24:25,555 --> 00:24:25,795
+Right?
+
+345
+00:24:26,520 --> 00:24:29,960
+So we like, that's like another way we can Well, that's okay. So that's another
+
+346
+00:24:30,920 --> 00:24:32,360
+Unknown: that's a separate
+
+347
+00:24:32,440 --> 00:24:33,559
+teledash.
+
+348
+00:24:33,960 --> 00:24:43,874
+So basically, there's the teledash that's the overlay on top of the stream Right. For the folks that are watching at home. And then there's gonna be a separate teledash that goes on the Jumbotron
+
+349
+00:24:43,875 --> 00:24:46,594
+for the people that are actually there in person.
+
+350
+00:24:48,434 --> 00:24:56,835
+That is gonna be behind us too. So for people watching, kinda see both. They're see both. Yeah. Because There's like a third? The one behind you.
+
+351
+00:24:59,400 --> 00:25:00,119
+It's like a one.
+
+352
+00:25:01,480 --> 00:25:03,320
+Awesome. And there's a fourth one.
+
+353
+00:25:03,880 --> 00:25:08,999
+So you can like see that. There's gonna be a fourth one because you have to find a way to be able to chat without latency
+
+354
+00:25:09,720 --> 00:25:11,720
+because there's a latency on the
+
+355
+00:25:12,875 --> 00:25:16,315
+On the stream. Yeah. So if you were at home, like, you know,
+
+356
+00:25:16,715 --> 00:25:20,795
+furiously typing in the chat, you're gonna wanna see, like, a quicker response.
+
+357
+00:25:21,595 --> 00:25:23,595
+So there's There's four dashboards.
+
+358
+00:25:23,755 --> 00:25:25,355
+Unknown: Wow. Okay. Awesome.
+
+359
+00:25:28,090 --> 00:25:31,929
+Unknown: This is gonna be amazing. Yeah. We're seriously leveling up here.
+
+360
+00:25:33,529 --> 00:25:39,610
+Unknown: Well, also if it's open source too, like you just built the blueprint to do for anyone to do a telehash.
+
+361
+00:25:39,610 --> 00:25:40,009
+Unknown: Yes.
+
+362
+00:25:40,885 --> 00:25:42,005
+That's the idea.
+
+363
+00:25:43,285 --> 00:25:44,325
+Unknown: That's awesome.
+
+364
+00:25:45,205 --> 00:25:46,085
+Did they
+
+365
+00:25:46,405 --> 00:25:49,605
+give you what you needed to know about OBS?
+
+366
+00:25:50,005 --> 00:25:53,845
+And, like, are they gonna have the ability to use OBS here?
+
+367
+00:25:56,540 --> 00:26:03,659
+Unknown: Yeah. I talked to XFrog. I think he's actually really relieved that we're not using Riverside for the telehash.
+
+368
+00:26:03,820 --> 00:26:05,179
+Cool. So,
+
+369
+00:26:05,660 --> 00:26:10,220
+yeah, we're so OBS is really cool because it allows you to layer different sources
+
+370
+00:26:10,380 --> 00:26:11,340
+for a stream.
+
+371
+00:26:11,955 --> 00:26:18,754
+And so, obviously, the video is gonna be the main one with the teledash overlayed on top of it. So OBS is what makes that happen,
+
+372
+00:26:19,075 --> 00:26:21,234
+and it sounds like that's what they're gonna use
+
+373
+00:26:21,715 --> 00:26:24,754
+Unknown: for y'all. Perfect. Okay. Cool.
+
+374
+00:26:25,475 --> 00:26:25,955
+Unknown: Yeah.
+
+375
+00:26:28,230 --> 00:26:29,030
+Unknown: I'm excited.
+
+376
+00:26:29,590 --> 00:26:32,710
+Unknown: This is amazing. Can we get into the spice too?
+
+377
+00:26:33,350 --> 00:26:34,470
+Unknown: Yeah. Yeah.
+
+378
+00:26:34,790 --> 00:26:35,670
+Unknown: Hit us.
+
+379
+00:26:36,870 --> 00:26:38,550
+Unknown: So you mentioned
+
+380
+00:26:39,110 --> 00:26:40,645
+minors. You know?
+
+381
+00:26:41,365 --> 00:26:42,405
+Have you guys heard any
+
+382
+00:26:44,005 --> 00:26:47,445
+what what's happening in the world of Bitmain? We keep mentioning Bitmain.
+
+383
+00:26:47,445 --> 00:26:49,284
+You know, Jihan follows Iko,
+
+384
+00:26:49,285 --> 00:26:53,445
+and they're obviously DMing each other. It's some stuff I don't know about. But
+
+385
+00:26:55,360 --> 00:26:57,200
+Unknown: Yeah. What are you talking to Gian about?
+
+386
+00:26:58,080 --> 00:26:59,279
+Insider trading.
+
+387
+00:27:00,160 --> 00:27:02,399
+Unknown: Did you actually DM him? No.
+
+388
+00:27:03,360 --> 00:27:06,240
+Why? You said you were going to. We
+
+389
+00:27:06,575 --> 00:27:08,655
+Unknown: I can't remember why I didn't. There was
+
+390
+00:27:09,615 --> 00:27:12,815
+we were waiting for something. We wanted to figure something out before
+
+391
+00:27:12,895 --> 00:27:14,255
+we messaged him.
+
+392
+00:27:14,815 --> 00:27:17,135
+I can't now I I just can't recall what it was.
+
+393
+00:27:18,335 --> 00:27:27,070
+Just send him like a, yo, what's up, Tico? Alright. I mean, he's well, he doesn't follow Econo Alchemist. He follows the two fifty six Foundation.
+
+394
+00:27:27,390 --> 00:27:28,350
+Yeah.
+
+395
+00:27:28,350 --> 00:27:30,429
+Unknown: Yeah. Which he knows is Eko.
+
+396
+00:27:31,550 --> 00:27:34,909
+I heard a rumor that the s 20 threes
+
+397
+00:27:35,070 --> 00:27:36,735
+are no longer shipping.
+
+398
+00:27:38,575 --> 00:27:49,935
+Unknown: Heard this rumor as well. You said they were off their website too, Scott, or Schnitzel said that maybe? The yeah. The so the the s 23, which is the the follow-up to the s 21,
+
+399
+00:27:51,820 --> 00:27:54,300
+is been in the works for a long time.
+
+400
+00:27:55,100 --> 00:28:01,179
+And they had on their website, they had pitched several different models. They had an air cooled model and a hydro
+
+401
+00:28:01,260 --> 00:28:01,980
+version.
+
+402
+00:28:02,860 --> 00:28:06,465
+And the air cooled one is gone from their website.
+
+403
+00:28:06,545 --> 00:28:13,665
+Yeah, the hydro is still there. But the air cooled one, which is in my mind, the flagship miner from Bitmain, right? That's,
+
+404
+00:28:15,025 --> 00:28:18,305
+you know, in previous versions, that's been the most popular,
+
+405
+00:28:18,780 --> 00:28:21,420
+but it's gone. And the rumors,
+
+406
+00:28:21,660 --> 00:28:26,540
+you know, that that's fact that it's not on their website anymore. But the rumors are is that they canceled preorders
+
+407
+00:28:26,860 --> 00:28:29,340
+of the air cooled s 23,
+
+408
+00:28:29,900 --> 00:28:31,340
+which is is pretty spicy.
+
+409
+00:28:32,805 --> 00:28:33,765
+Unknown: Why would they I do
+
+410
+00:28:35,685 --> 00:28:38,565
+Unknown: don't know. I don't know why would they do that. Maybe,
+
+411
+00:28:39,125 --> 00:28:41,765
+you know, maybe the chips are not
+
+412
+00:28:42,085 --> 00:28:45,925
+performing like they had hoped. Of course, these are supposed to be two nanometer
+
+413
+00:28:46,890 --> 00:28:48,490
+ASICs out of TSMC.
+
+414
+00:28:48,730 --> 00:28:49,530
+That's
+
+415
+00:28:50,250 --> 00:28:53,930
+that's like cutting edge. That's, you know, what Apple
+
+416
+00:28:53,930 --> 00:29:04,675
+and NVIDIA are also making. So they're very expensive. I would assume they're very difficult to make. Maybe, again, just speculating, maybe they weren't performing as well as they hoped or maybe
+
+417
+00:29:04,915 --> 00:29:09,875
+yield wasn't like they hoped. So they just don't have as many chips. So they had to prioritize something.
+
+418
+00:29:10,115 --> 00:29:11,235
+I don't know. Or
+
+419
+00:29:12,355 --> 00:29:15,475
+Unknown: in my opinion, the demand really wasn't there.
+
+420
+00:29:16,080 --> 00:29:22,399
+Right? Because if you see where this potential market's going, where a lot of these bigger bigger
+
+421
+00:29:22,720 --> 00:29:23,679
+pubcos
+
+422
+00:29:23,679 --> 00:29:28,799
+who normally do these insane purchase orders. Right? So you have a a big buyer
+
+423
+00:29:29,075 --> 00:29:32,995
+that typically comes in and says, hey. I wanna buy a 100,000,
+
+424
+00:29:32,995 --> 00:29:33,955
+500,000,
+
+425
+00:29:33,955 --> 00:29:35,075
+a million units,
+
+426
+00:29:35,235 --> 00:29:36,755
+is no longer there.
+
+427
+00:29:36,915 --> 00:29:48,320
+You just put all this r and d and all this effort, and you're gonna about create those products. It's like, well, hold up. Pump the brakes. We got all this already inventory in place. Let's not just sell all this stuff and recoup
+
+428
+00:29:49,760 --> 00:29:51,039
+all that money back.
+
+429
+00:29:51,440 --> 00:29:58,335
+Unknown: That's I mean, they're they're supposed to be shipping this month. That was kind of the story all along is, you know, they're taking preorders for
+
+430
+00:29:58,975 --> 00:30:05,054
+a long time, you know, several months, and they were supposed to be shipping in January. So they should have been
+
+431
+00:30:05,695 --> 00:30:12,940
+out by now. It's it's kind of a a big deal. I heard some rumors that there was only a couple thousand air cooled machines actually made.
+
+432
+00:30:13,420 --> 00:30:14,300
+Well,
+
+433
+00:30:15,820 --> 00:30:19,260
+Unknown: that aligns with when we saw the 70 series launch from MicroBT,
+
+434
+00:30:19,260 --> 00:30:23,420
+like, seven of those 10 machines they announced were all hydro u form factor,
+
+435
+00:30:24,025 --> 00:30:28,745
+more traditional data center, 380 volts. And we were talking about how
+
+436
+00:30:29,225 --> 00:30:41,580
+the manufacturers are kind of they they pushed it out of the house, like, can't run on one twenty anymore, then it went two forty, and now it's like you can't even use your dryer outlet anymore. Like, you need a straight up full on data center if you wanna mine Bitcoin because that's all that's available.
+
+437
+00:30:41,980 --> 00:30:45,419
+It seems to be trending that direction. I wonder too if there's some reasoning
+
+438
+00:30:45,980 --> 00:30:48,620
+with the pubcos going shifting towards AI.
+
+439
+00:30:48,940 --> 00:30:52,140
+If this is kind of like an overlap in some of the infrastructure. Right?
+
+440
+00:30:52,924 --> 00:31:02,284
+If it's easier in that sense, if they were to do a blended model. I don't know if they're at the same sites. I could be ignorant on all this, but it it seems to me like the the hydro u form factor
+
+441
+00:31:02,525 --> 00:31:06,765
+20 kilowatt Bitcoin miners are much more similar to
+
+442
+00:31:07,020 --> 00:31:15,020
+the actual infrastructure they have for AI servers as well. That makes a ton of sense to me. I have a hard time believing the mining manufacturers
+
+443
+00:31:15,180 --> 00:31:17,179
+Unknown: would cater to
+
+444
+00:31:18,060 --> 00:31:20,140
+something that would be helpful to the end user.
+
+445
+00:31:23,595 --> 00:31:24,955
+Unknown: Track record of that.
+
+446
+00:31:26,395 --> 00:31:28,154
+But I I think Rod's right. Like, they
+
+447
+00:31:28,794 --> 00:31:32,554
+you know, if they get a, like, a lot of orders for
+
+448
+00:31:32,794 --> 00:31:46,029
+the hydro miners and not enough for the air cooled, it's like, you know, we're not gonna make these things just to Totally. Let them sit on the shelf. The I suspect the FBI found the back door in the air cool There we go. S 20 threes
+
+449
+00:31:46,670 --> 00:31:47,950
+Unknown: in their investigation. Plus,
+
+450
+00:31:48,670 --> 00:31:49,070
+Unknown: to
+
+451
+00:31:49,515 --> 00:31:52,635
+conspiracy corner. This is where eco goes off.
+
+452
+00:31:53,035 --> 00:31:54,475
+Unknown: One of us will be right.
+
+453
+00:31:55,195 --> 00:31:57,595
+Unknown: Yeah. I think we've covered all the bases.
+
+454
+00:31:59,595 --> 00:32:01,915
+Unknown: Yeah. What was that operation called? I forget.
+
+455
+00:32:03,110 --> 00:32:04,789
+Unknown: Dee, what do you think it is?
+
+456
+00:32:05,590 --> 00:32:06,229
+Yeah.
+
+457
+00:32:09,110 --> 00:32:12,469
+Unknown: I don't know, man. I don't really know much about Bitmain.
+
+458
+00:32:13,990 --> 00:32:15,349
+Unknown: Yeah. That's fair.
+
+459
+00:32:15,669 --> 00:32:16,309
+What
+
+460
+00:32:16,710 --> 00:32:29,215
+what we while we got Dee here, we we also do a shout out to the folks that are pointing this hash, which I think is fun. And Tyler's gonna read those. But I'll hey. Should we go through the network stats real quick?
+
+461
+00:32:30,015 --> 00:32:32,095
+And then we'll get this more spicy topics.
+
+462
+00:32:32,815 --> 00:32:33,135
+Unknown: Sure.
+
+463
+00:32:33,910 --> 00:32:39,110
+Unknown: Eco, do you want me to do it? Do you wanna do it? Yeah. I don't I don't open Google Docs. Network
+
+464
+00:32:40,150 --> 00:32:42,950
+Unknown: stats. You're supposed to have these tabs bookmarked, dude.
+
+465
+00:32:43,590 --> 00:32:44,149
+Oh.
+
+466
+00:32:44,870 --> 00:32:50,405
+Having countdown, I see I see I always butcher state of the network because Eco did it so masterfully
+
+467
+00:32:50,405 --> 00:32:51,924
+and routine
+
+468
+00:32:52,405 --> 00:32:55,284
+for however a 100 episodes basically.
+
+469
+00:32:56,325 --> 00:33:05,609
+Unknown: And now I'm like By the way, quick tangent. If there's another dashboard project you wanna work on d plus plus that'll help the two fifty six foundation.
+
+470
+00:33:06,490 --> 00:33:07,450
+It's like
+
+471
+00:33:07,610 --> 00:33:13,210
+when we do these network stats, we're pulling in different sources from mempool. We're pulling it from
+
+472
+00:33:14,525 --> 00:33:17,644
+Luxor or wherever. If we could have it on
+
+473
+00:33:17,885 --> 00:33:22,684
+the 25625256f.org
+
+474
+00:33:22,684 --> 00:33:24,524
+forward slash dashboard,
+
+475
+00:33:24,684 --> 00:33:29,405
+and it's like the dashboard we just read off. Yeah. And then if you wanna
+
+476
+00:33:29,080 --> 00:33:30,920
+1 Bitcoin per section,
+
+477
+00:33:31,320 --> 00:33:36,360
+you sponsor it for the year. That's all. And you get your logo there. It's but it's 1 Bitcoin.
+
+478
+00:33:37,000 --> 00:33:42,200
+We'll say supported by, you know, you. And then, honestly, those 4 Bitcoins in those four sections
+
+479
+00:33:42,440 --> 00:33:47,624
+will fund the majority of these projects that have been just so badass
+
+480
+00:33:47,784 --> 00:33:48,904
+to watch,
+
+481
+00:33:49,144 --> 00:33:50,824
+to eat some popcorn,
+
+482
+00:33:50,985 --> 00:33:52,825
+and watch these guys cook.
+
+483
+00:33:52,825 --> 00:33:56,985
+It has been unbelievable this year. Unbelievable. And we're gonna bring that to life
+
+484
+00:33:58,260 --> 00:34:02,020
+during the telehash and really do a recap of 2025.
+
+485
+00:34:02,020 --> 00:34:03,860
+So anyways, d plus plus,
+
+486
+00:34:04,420 --> 00:34:10,340
+Unknown: just an idea. Well, I think you guys need I think you guys need a dashboard for the February
+
+487
+00:34:10,340 --> 00:34:11,860
+or pod February.
+
+488
+00:34:11,860 --> 00:34:15,585
+Right? So when people are watching this podcast, they see y'all,
+
+489
+00:34:16,145 --> 00:34:19,265
+but then overlaid on top of the stream
+
+490
+00:34:19,745 --> 00:34:20,945
+are these stats.
+
+491
+00:34:21,025 --> 00:34:25,185
+Unknown: Yeah. Yeah. Totally. But I'm even saying I'm 100%
+
+492
+00:34:25,185 --> 00:34:34,280
+that that would be awesome. But if we could even kill two birds with one stone to make it like a living dashboard Yeah. Such that there's fundraising against those different stat sections.
+
+493
+00:34:34,520 --> 00:34:41,400
+And maybe that just becomes somebody's like personal dashboard like, hey, I wanna see what the hash rate's all about. Hey, I wanna see what miners prices are about.
+
+494
+00:34:41,720 --> 00:34:47,765
+And then, you know, they see Tyler's face and they're they're afraid to put 3 Bitcoin instead of one.
+
+495
+00:34:49,685 --> 00:34:50,885
+Unknown: I will make another
+
+496
+00:34:51,365 --> 00:34:52,965
+dashboard for you, Rod.
+
+497
+00:34:53,205 --> 00:34:56,565
+Unknown: Let's go. Let's go. Stay to the network dashboard.
+
+498
+00:34:56,565 --> 00:35:01,230
+Unknown: Yeah. It needs a catchy name though, like Hashdash or Teladash.
+
+499
+00:35:01,390 --> 00:35:07,390
+Unknown: I know. We'll think We'll think of it and then you'll come to For sure. Maybe forward slash g han.
+
+500
+00:35:11,085 --> 00:35:15,805
+Unknown: I got the state of the network up, Iko. You don't have to make a fake Google account right now.
+
+501
+00:35:17,165 --> 00:35:17,885
+Unknown: Thanks.
+
+502
+00:35:18,445 --> 00:35:21,484
+Unknown: As of 01/14/2026,
+
+503
+00:35:21,484 --> 00:35:24,845
+we're at Block Height 932289.
+
+504
+00:35:26,259 --> 00:35:27,460
+On mempool.
+
+505
+00:35:27,460 --> 00:35:28,180
+Space.
+
+506
+00:35:28,339 --> 00:35:30,980
+Let's see. The total network hash rate
+
+507
+00:35:31,220 --> 00:35:31,859
+is
+
+508
+00:35:33,940 --> 00:35:35,700
+1.01
+
+509
+00:35:35,700 --> 00:35:40,595
+zeta hash. Probably gonna shift up a little bit with that price rip past couple days.
+
+510
+00:35:40,755 --> 00:35:44,755
+Difficulty, 146,470,000,000,000.00,
+
+511
+00:35:44,755 --> 00:35:46,275
+not Terra. Terra.
+
+512
+00:35:46,515 --> 00:35:47,635
+Unknown: Team Terra.
+
+513
+00:35:48,435 --> 00:35:49,555
+Unknown: Let's
+
+514
+00:35:49,555 --> 00:35:57,440
+see. Can I really do a good job at this? Over at Altair, Bitcoin Antminer Bitmain Antminer s 21 XP, 270 terahash,
+
+515
+00:35:57,440 --> 00:35:59,280
+around $4,900,
+
+516
+00:35:59,840 --> 00:36:00,480
+which is
+
+517
+00:36:01,120 --> 00:36:02,320
+$27
+
+518
+00:36:02,320 --> 00:36:05,920
+per terahash. I hate that miners have this, like, commodity unit basis.
+
+519
+00:36:06,365 --> 00:36:07,645
+How you know we're
+
+520
+00:36:08,285 --> 00:36:10,045
+we're controlled by like
+
+521
+00:36:11,244 --> 00:36:12,445
+a monopoly.
+
+522
+00:36:14,285 --> 00:36:15,805
+273
+
+523
+00:36:15,805 --> 00:36:17,085
+b m $13.70
+
+524
+00:36:17,085 --> 00:36:19,325
+chips on that bad boy. $27
+
+525
+00:36:19,325 --> 00:36:20,924
+a piece. That's crazy. Isn't it, Scott?
+
+526
+00:36:21,960 --> 00:36:22,920
+Unknown: It's insane.
+
+527
+00:36:23,240 --> 00:36:23,960
+Unknown: Yeah.
+
+528
+00:36:25,000 --> 00:36:31,080
+Unknown: Hash value is around Here. Quick tangent. Yeah. Yeah. And and and for the group, a question.
+
+529
+00:36:31,720 --> 00:36:33,960
+What if one of the largest
+
+530
+00:36:34,325 --> 00:36:36,405
+Bitcoin mining manufacturers
+
+531
+00:36:36,405 --> 00:36:39,365
+just gets completely out of the Bitcoin mining game?
+
+532
+00:36:39,605 --> 00:36:40,565
+What would happen?
+
+533
+00:36:41,605 --> 00:36:45,605
+We would Well wanna speculate, but let's just say what if that happened.
+
+534
+00:36:46,165 --> 00:36:49,685
+Unknown: I mean, depends on which one it is. We know that Bitmain
+
+535
+00:36:49,685 --> 00:36:53,490
+has a huge share, somewhere in the neighborhood of 80%.
+
+536
+00:36:54,049 --> 00:36:56,930
+So everyone else is a severe underdog
+
+537
+00:36:56,930 --> 00:36:59,089
+in this case. And if one of them got out
+
+538
+00:37:00,690 --> 00:37:04,295
+if if one of the the smaller players got out,
+
+539
+00:37:04,694 --> 00:37:09,415
+probably wouldn't make that much of a difference at this point. This isn't how it should be, though. Yeah.
+
+540
+00:37:10,454 --> 00:37:13,815
+Unknown: Yeah. Really, Bitmain was the one, that'd be big news.
+
+541
+00:37:14,135 --> 00:37:19,360
+Unknown: Is the industry really shrinking that much where Bitmain is pulling products
+
+542
+00:37:19,440 --> 00:37:23,440
+off the shelf and competitors are dropping out of the races?
+
+543
+00:37:23,760 --> 00:37:24,480
+Unknown: Potentially.
+
+544
+00:37:25,680 --> 00:37:28,560
+I will say this could be like a proto.
+
+545
+00:37:28,800 --> 00:37:40,185
+Like, they could just potentially be if this is like a horse analogy, all of a sudden, they're just like coming up along and along and along. And those folks that are off grid mining
+
+546
+00:37:40,585 --> 00:37:43,704
+or have smaller on grid footprints
+
+547
+00:37:43,800 --> 00:37:45,320
+are like, holy smokes.
+
+548
+00:37:45,720 --> 00:37:46,600
+I need
+
+549
+00:37:47,000 --> 00:37:47,960
+durability.
+
+550
+00:37:48,040 --> 00:37:49,400
+I need reliability.
+
+551
+00:37:50,040 --> 00:38:01,615
+I need longevity of a business not to be like, hey, man. We're just gonna discontinue this, you know, whole business. We don't believe in Bitcoin anymore. We're gonna go, you know, full on over here. So it'll be interesting to see
+
+552
+00:38:02,255 --> 00:38:04,975
+how it works out for them. Why are you laughing, Tyler?
+
+553
+00:38:05,295 --> 00:38:10,575
+Unknown: Because I got ahead of myself when I looked at some of the worker names from people donating cash rates.
+
+554
+00:38:11,214 --> 00:38:11,855
+Unknown: Let's
+
+555
+00:38:12,095 --> 00:38:12,815
+Let's go.
+
+556
+00:38:13,370 --> 00:38:16,650
+Unknown: Alright. Wait. Wait. Ron, this is such a wild speculation.
+
+557
+00:38:16,650 --> 00:38:19,050
+Why would you ever say something like that?
+
+558
+00:38:20,090 --> 00:38:20,650
+Unknown: Well,
+
+559
+00:38:21,290 --> 00:38:25,690
+why would I, like, say it? Because I like to keep it spicy. Eco, you know me.
+
+560
+00:38:26,330 --> 00:38:27,770
+That's one. And two, it
+
+561
+00:38:28,695 --> 00:38:34,055
+keeps going back. I mean, even on the pod the past, like, year, two years, it's just slowly seeing
+
+562
+00:38:34,535 --> 00:38:38,855
+Rod, spill the beans. There's no beans to spill. It's all speculation.
+
+563
+00:38:38,855 --> 00:38:50,140
+I literally know nothing. I'm I'm being truthful about that. I hear rumors, and then I like to jam with you guys on them and then just see how that plays out. Yeah. I heard TMZ moved their headquarters to the park.
+
+564
+00:38:50,460 --> 00:38:52,220
+That's true. That's facts.
+
+565
+00:38:53,580 --> 00:38:58,595
+Unknown: I just say it's it's gotta be really hard for these underdog ASIC manufacturers
+
+566
+00:38:58,595 --> 00:39:03,315
+to to make their way. Right? They have the the same insane tape out costs
+
+567
+00:39:03,395 --> 00:39:04,755
+as everyone else,
+
+568
+00:39:04,915 --> 00:39:06,835
+but they're selling dramatically less
+
+569
+00:39:07,555 --> 00:39:08,515
+chips.
+
+570
+00:39:08,915 --> 00:39:09,235
+Right?
+
+571
+00:39:09,780 --> 00:39:11,220
+You know, in my opinion,
+
+572
+00:39:11,620 --> 00:39:21,300
+they need to start working with us. Right? We're gonna start selling, you know, lots of miners. We're gonna enable huge new markets for them. They need to start working with us. Like, competing with Bitmain,
+
+573
+00:39:21,795 --> 00:39:22,755
+good luck.
+
+574
+00:39:23,555 --> 00:39:37,234
+Unknown: Yeah. And proto aside, I think a lot of the other underdogs have said, okay. Let me just copy what Bitmain does. I wanna be like Bitmain. They're not really thinking outside the box and and saying, wait. Let's just do it differently, and maybe that will attract more customers.
+
+575
+00:39:38,660 --> 00:39:44,340
+Unknown: This is why Rod and I make such a good team because I'll say the things that he doesn't wanna say.
+
+576
+00:39:45,540 --> 00:39:50,900
+Because our two to 10,000,000 listeners come here for mining alpha, and they're gonna get it today.
+
+577
+00:39:51,575 --> 00:39:56,055
+What's miner is dropping out of the Bitcoin mining industry? You heard it here first, folks.
+
+578
+00:39:59,575 --> 00:40:02,695
+Unknown: Let's go. I don't know about that. But
+
+579
+00:40:03,415 --> 00:40:07,450
+Unknown: I I I have heard someone else repeat that rumor that
+
+580
+00:40:08,170 --> 00:40:13,370
+didn't talk to you. So there's at least two people out there. Yep. Wow. Mhmm.
+
+581
+00:40:14,490 --> 00:40:23,065
+And it's it's particularly interesting because some of the or one of the, at least, the biggest miners, you know, the biggest mining companies is very
+
+582
+00:40:23,065 --> 00:40:23,945
+exclusively
+
+583
+00:40:23,945 --> 00:40:25,945
+using micro BT. So
+
+584
+00:40:27,545 --> 00:40:32,105
+Unknown: Just gonna see how that goes. Does does micro BT make other chips? Yeah.
+
+585
+00:40:33,690 --> 00:40:34,730
+Unknown: Yeah. Go
+
+586
+00:40:35,930 --> 00:40:36,490
+ahead.
+
+587
+00:40:37,290 --> 00:40:39,450
+Unknown: Yeah. I think all the ASIC manufacturers,
+
+588
+00:40:39,450 --> 00:40:42,170
+even Bitmain, they make other non
+
+589
+00:40:42,890 --> 00:40:44,730
+SHA-two 56 ASICs.
+
+590
+00:40:44,810 --> 00:40:51,665
+Unknown: Yeah. Because they were kind of special specialists at ASICs in general is my understanding some of them prior to the Bitcoin ASIC.
+
+591
+00:40:51,745 --> 00:40:52,545
+Is that correct?
+
+592
+00:40:53,265 --> 00:40:54,785
+Unknown: Yeah. Yeah. I saw
+
+593
+00:40:55,025 --> 00:40:56,465
+years ago MicroBT
+
+594
+00:40:56,465 --> 00:40:57,985
+at CES,
+
+595
+00:40:58,145 --> 00:41:04,870
+and they had a whole booth full of stuff and no no Bitcoin mining things there. Oh, really? Wow.
+
+596
+00:41:06,070 --> 00:41:08,390
+Unknown: I heard some of them make chips for
+
+597
+00:41:09,030 --> 00:41:14,150
+Chinese spyware cameras. That's how you know these are really good companies that care about freedom and Bitcoin. Yeah.
+
+598
+00:41:14,630 --> 00:41:15,430
+Unknown: Preach.
+
+599
+00:41:15,670 --> 00:41:15,990
+Yeah.
+
+600
+00:41:17,315 --> 00:41:18,275
+Huawei.
+
+601
+00:41:19,555 --> 00:41:22,195
+Yeah. Bitmain works with with Huawei.
+
+602
+00:41:24,595 --> 00:41:34,600
+Unknown: I got I I really wanna get to the hashers because I have twelve minutes before I to jump, but, like, I wanna keep going, but I wanna hear these hasher names. So Okay. The one that made me laugh, I'm on Link coin.
+
+603
+00:41:35,240 --> 00:41:35,960
+Unknown: I
+
+604
+00:41:36,440 --> 00:41:38,520
+gotta laugh first to get it out. It's
+
+605
+00:41:38,680 --> 00:41:40,040
+a wooga.
+
+606
+00:41:40,040 --> 00:41:41,560
+Tyler, please just make the noise.
+
+607
+00:41:45,975 --> 00:41:49,735
+Unknown: Where where are you finding these? Because these aren't in the hash dash.
+
+608
+00:41:50,535 --> 00:41:52,615
+Unknown: Hugo, you wanna tell her? So
+
+609
+00:41:52,695 --> 00:41:53,735
+Unknown: before
+
+610
+00:41:53,735 --> 00:41:55,175
+we created
+
+611
+00:41:55,175 --> 00:41:56,055
+HydraPool,
+
+612
+00:41:57,255 --> 00:42:02,779
+we just managed a number of, like, mining pool accounts with, like, LinCoin
+
+613
+00:42:02,779 --> 00:42:03,579
+and
+
+614
+00:42:03,900 --> 00:42:05,740
+Right. CK Pool and Ocean.
+
+615
+00:42:06,299 --> 00:42:08,700
+And so for the last, what, like,
+
+616
+00:42:09,259 --> 00:42:09,740
+three years,
+
+617
+00:42:10,585 --> 00:42:15,625
+we've been encouraging people who wanna support the podcast to point their hash rate to one of those accounts,
+
+618
+00:42:17,385 --> 00:42:19,145
+which brings up a good
+
+619
+00:42:20,905 --> 00:42:21,785
+point.
+
+620
+00:42:22,265 --> 00:42:31,250
+We're now encouraging all of those who want to support the podcast to point your hash rate to pool.256foundation.org
+
+621
+00:42:31,329 --> 00:42:33,330
+port 3330three,
+
+622
+00:42:33,809 --> 00:42:34,369
+because
+
+623
+00:42:34,849 --> 00:42:36,210
+we're gonna keep this
+
+624
+00:42:36,769 --> 00:42:39,875
+Unknown: telegraph. Must be a Bitcoin address.
+
+625
+00:42:40,035 --> 00:42:42,835
+Unknown: Yeah. The username must be a Bitcoin address.
+
+626
+00:42:43,795 --> 00:42:47,235
+But the way that pool is gonna be configured is the same for
+
+627
+00:42:47,875 --> 00:42:51,315
+it's it's act it's the exact same server we'll be using for the telehash.
+
+628
+00:42:52,220 --> 00:42:52,859
+So,
+
+629
+00:42:53,579 --> 00:42:57,580
+you know, use whatever Bitcoin address you want. Just don't expect any sats in return.
+
+630
+00:43:00,220 --> 00:43:03,740
+Unknown: On LingCoin, we also have Blackwater Mining Collective,
+
+631
+00:43:04,619 --> 00:43:05,500
+Tubaloo,
+
+632
+00:43:05,500 --> 00:43:12,665
+Unknown: and schnitzel fish tank axe. Some OGs in there. Blackwater mining What is the hash rate for these auxiliary pools?
+
+633
+00:43:14,905 --> 00:43:16,665
+Unknown: Like, for terahash
+
+634
+00:43:18,265 --> 00:43:19,625
+on Linkcoin?
+
+635
+00:43:20,345 --> 00:43:21,940
+12. 12.
+
+636
+00:43:23,460 --> 00:43:24,740
+You know Blackwater?
+
+637
+00:43:25,140 --> 00:43:27,140
+Unknown: No, it's just that's a new one.
+
+638
+00:43:27,540 --> 00:43:30,580
+Is it? That one is new, think. Like hosting provider or something?
+
+639
+00:43:31,060 --> 00:43:34,020
+Unknown: I don't know. There's not a site. Just Blackwater Mining Collective.
+
+640
+00:43:36,245 --> 00:43:37,685
+On Solo CK,
+
+641
+00:43:38,085 --> 00:43:46,165
+this is usually where Eco's favorites are. Shout out to Jeffrey Epstein did not kill himself. Shout out to Woodminers Bitaxe,
+
+642
+00:43:46,725 --> 00:43:48,725
+rockpaperbitcoin.fm.
+
+643
+00:43:48,725 --> 00:43:49,205
+Nice.
+
+644
+00:43:49,650 --> 00:43:51,090
+Boring worker name.
+
+645
+00:43:51,250 --> 00:43:53,730
+Ocean Pool is centralized and custodial.
+
+646
+00:43:55,010 --> 00:43:56,210
+3.
+
+647
+00:43:57,010 --> 00:43:58,210
+205.
+
+648
+00:43:59,010 --> 00:44:00,849
+Central Pennsylvania Bitcoiners
+
+649
+00:44:00,849 --> 00:44:03,595
+meetup. Oh, that sounds new. Go check that out.
+
+650
+00:44:04,395 --> 00:44:05,915
+Bitcoingunshop.com
+
+651
+00:44:05,915 --> 00:44:07,915
+follow on x four updates.
+
+652
+00:44:08,315 --> 00:44:09,035
+Unknown: Alright.
+
+653
+00:44:09,275 --> 00:44:11,355
+Unknown: I follow Mugina Bitaxe Gamma.
+
+654
+00:44:12,635 --> 00:44:13,275
+Yeah.
+
+655
+00:44:13,915 --> 00:44:15,435
+I need to like round up
+
+656
+00:44:16,070 --> 00:44:18,790
+Unknown: this hash rate for the Teladash or no?
+
+657
+00:44:19,350 --> 00:44:20,150
+Unknown: No.
+
+658
+00:44:21,110 --> 00:44:27,830
+Unknown: No. These guys gotta move their pool. Yeah. They're gonna move. Okay. Yeah. We're trying to get them to migrate over to it. The Okay. Hydra Pool server.
+
+659
+00:44:29,345 --> 00:44:32,545
+Unknown: On Publix Pool, we got hardestblocks.org.
+
+660
+00:44:32,545 --> 00:44:36,224
+Cool website. Go check it out. Stalin's Bitaxe.
+
+661
+00:44:36,625 --> 00:44:37,825
+And then finally,
+
+662
+00:44:38,065 --> 00:44:39,185
+on Ocean,
+
+663
+00:44:39,984 --> 00:44:41,265
+we have bible huddle
+
+664
+00:44:41,790 --> 00:44:43,150
+serving bitcoin.com
+
+665
+00:44:43,150 --> 00:44:46,910
+sells refurbished bitcoin nodes that run start OS.
+
+666
+00:44:47,870 --> 00:44:51,310
+Rekkles Systems Geyser Fund projects, Satoshi starter,
+
+667
+00:44:52,110 --> 00:44:53,470
+serving bitcoin.com.
+
+668
+00:44:53,470 --> 00:44:54,830
+Unknown: Those guys are making traction.
+
+669
+00:44:55,575 --> 00:44:58,055
+I saw some pictures in the telegram group.
+
+670
+00:44:58,454 --> 00:45:01,015
+Unknown: Yeah. Rekkles posted some sweet pics.
+
+671
+00:45:02,615 --> 00:45:04,055
+Serving bitcoin.com.
+
+672
+00:45:04,055 --> 00:45:07,015
+Serve yourself by serving bitcoin from your own node.
+
+673
+00:45:08,280 --> 00:45:14,120
+Pizandy proof of print, Bitaxe one, Western Mass, Bitcoin Meetup, loves open source mining tech.
+
+674
+00:45:14,520 --> 00:45:15,800
+Circus Say Hash,
+
+675
+00:45:16,520 --> 00:45:17,720
+serving bitcoin.com
+
+676
+00:45:17,720 --> 00:45:19,960
+two, you stay classy San Diego
+
+677
+00:45:20,280 --> 00:45:22,184
+and serving bitcoin.com
+
+678
+00:45:22,184 --> 00:45:24,505
+one. Anything you type, Stevens will read.
+
+679
+00:45:24,904 --> 00:45:28,665
+Mhmm. It's true. Shout out to all those hashers. That's a good group.
+
+680
+00:45:29,944 --> 00:45:30,905
+Unknown: I also
+
+681
+00:45:31,065 --> 00:45:32,265
+while Rod's still here,
+
+682
+00:45:33,450 --> 00:45:36,330
+I was running a promotion the last few days to
+
+683
+00:45:36,490 --> 00:45:40,170
+generate donations to the Samurai Wallet developers' families.
+
+684
+00:45:40,410 --> 00:45:43,210
+Yeah. And Solo Satoshi agreed to
+
+685
+00:45:43,690 --> 00:45:46,490
+send the person who donated the most,
+
+686
+00:45:46,730 --> 00:45:48,490
+nerd q axe plus plus.
+
+687
+00:45:49,715 --> 00:45:51,955
+And the highest donation
+
+688
+00:45:52,275 --> 00:45:55,075
+that has come in was a thousand dollars.
+
+689
+00:45:55,395 --> 00:45:57,715
+Nice. And there was also in a non
+
+690
+00:45:58,435 --> 00:45:59,395
+contributor
+
+691
+00:45:59,795 --> 00:46:02,035
+who agreed to match the highest donation.
+
+692
+00:46:04,270 --> 00:46:05,630
+Yeah. So we raised
+
+693
+00:46:05,870 --> 00:46:07,630
+at least $2,000
+
+694
+00:46:08,190 --> 00:46:12,430
+for the Samurai Wallet developers' families. So thank you to everyone who's contributed.
+
+695
+00:46:13,790 --> 00:46:17,645
+And then I've just gotta figure out how I'm gonna
+
+696
+00:46:19,244 --> 00:46:22,045
+that whoever donated the thousand dollars,
+
+697
+00:46:22,925 --> 00:46:28,125
+we gotta get you in touch with Solo Satoshi so they can send you your your prize.
+
+698
+00:46:28,925 --> 00:46:33,230
+But I'll I'll I'll have more details on that after the pod.
+
+699
+00:46:33,550 --> 00:46:36,110
+Unknown: And Bitcoin donations are now live. Yeah?
+
+700
+00:46:36,829 --> 00:46:41,310
+Unknown: For Bill and Keone? Yeah. So if you go to billandkeone.org,
+
+701
+00:46:41,550 --> 00:46:46,270
+you can see all the available donation options there, which now include Bitcoin.
+
+702
+00:46:47,045 --> 00:46:49,125
+Thank you to ZapRite for
+
+703
+00:46:51,765 --> 00:46:54,645
+for helping us out there. A 100%.
+
+704
+00:46:55,525 --> 00:46:58,565
+Unknown: Yo. So Wednesday, January 21,
+
+705
+00:46:59,280 --> 00:47:01,600
+tele hash, 1PM central.
+
+706
+00:47:01,840 --> 00:47:06,320
+These folks, beautiful folks are gonna be there. We're gonna kick it off.
+
+707
+00:47:06,720 --> 00:47:17,494
+I mean, you could point your hash right now. Warm it up. Warm up the pool. We gotta warm up the pool right now. So we might as well get the hash rate It's true. You know, pointed there. Tyler, you're hop in the hot tub?
+
+708
+00:47:17,895 --> 00:47:18,935
+Unknown: Oh, definitely.
+
+709
+00:47:19,255 --> 00:47:21,335
+Unknown: Good. We're gonna have a hot tub going.
+
+710
+00:47:21,655 --> 00:47:31,340
+We have a lot of things going. I mean, the weather's gonna be shit as normal. A Bitcoin heated hot Bitcoin miner heated hot tub. That's right. That's right. Is it gonna be as cold as two years ago?
+
+711
+00:47:32,060 --> 00:47:35,260
+It's gonna probably be more miserable than it was
+
+712
+00:47:35,500 --> 00:47:37,500
+one or two years ago. But it's okay.
+
+713
+00:47:38,220 --> 00:47:40,140
+We're gonna have a good time. And
+
+714
+00:47:41,180 --> 00:47:41,980
+knock on wood,
+
+715
+00:47:42,975 --> 00:47:50,815
+we not only mine a block, but we raised some money because I'm again, you know, just to, like, wrap before I jump off here in a couple minutes.
+
+716
+00:47:51,615 --> 00:47:52,815
+What Scott,
+
+717
+00:47:52,975 --> 00:47:54,495
+Iko, Schnitzel,
+
+718
+00:47:55,080 --> 00:47:56,600
+Ryan, Jungly,
+
+719
+00:47:56,840 --> 00:48:02,040
+and all the folks that have been working on these projects have done is simply amazing.
+
+720
+00:48:02,360 --> 00:48:08,040
+My only feedback to them or or ask throughout the process was like, please me familiar ship.
+
+721
+00:48:08,120 --> 00:48:13,485
+Like, we got this. The money's out for you guys to ship, and they freaking shipped.
+
+722
+00:48:14,205 --> 00:48:14,765
+And
+
+723
+00:48:15,005 --> 00:48:17,245
+I'm so excited for them to showcase
+
+724
+00:48:17,645 --> 00:48:20,845
+during the telehash what they've accomplished and also
+
+725
+00:48:21,165 --> 00:48:28,960
+where we're going with the sole focus of dismantling the proprietary Bitcoin mining empire even though it feels like they're
+
+726
+00:48:29,120 --> 00:48:30,960
+self inflicting themselves,
+
+727
+00:48:30,960 --> 00:48:34,480
+but we'll see how that works out. Yeah. It looks like it's crumbling.
+
+728
+00:48:36,000 --> 00:48:39,185
+Unknown: Well, in fear of the two fifty six foundation.
+
+729
+00:48:39,505 --> 00:48:41,825
+Unknown: It's the time that is acceleration
+
+730
+00:48:41,825 --> 00:48:47,265
+right now and it's to stay focused on building out all these tools because and these building blocks. I mean,
+
+731
+00:48:48,385 --> 00:48:58,890
+it'll just be so cool. And then we got someone amazing like d plus plus that's like, hey, Here's what you guys you knuckleheads really need is this and just built it without any real permission.
+
+732
+00:48:59,130 --> 00:49:04,970
+And now it gets to come and put on the big LED wall and and make it happen with all of us. So I can't thank you enough, Dee,
+
+733
+00:49:05,369 --> 00:49:06,730
+for lending
+
+734
+00:49:06,730 --> 00:49:08,285
+your time and expertise.
+
+735
+00:49:08,525 --> 00:49:13,485
+Unknown: I can't thank you enough. I told I told Scott that the Telehash is like my
+
+736
+00:49:13,885 --> 00:49:16,445
+Roman empire. It's like our Super Bowl.
+
+737
+00:49:17,565 --> 00:49:19,325
+It's Yes. Really exciting.
+
+738
+00:49:19,405 --> 00:49:27,410
+I've That's all. I've enjoyed it so much watching at home, and I just basically made the tools that I wanted to see as an audience member.
+
+739
+00:49:28,850 --> 00:49:31,330
+Unknown: That's awesome. We definitely needed the help.
+
+740
+00:49:32,210 --> 00:49:33,330
+Unknown: A 100%.
+
+741
+00:49:33,650 --> 00:49:34,690
+100%.
+
+742
+00:49:36,315 --> 00:49:41,515
+Well, I'll let you guys if you guys wanna keep jamming and so on. I'm sorry I have to roll here,
+
+743
+00:49:42,474 --> 00:49:51,994
+but thanks for including me. And we may have some more exciting updates as it relates to or we're gonna have some more exciting updates as it relates to the two fifty six Foundation. That's for sure, which I am
+
+744
+00:49:52,490 --> 00:49:54,250
+very excited about as well.
+
+745
+00:49:55,450 --> 00:49:58,170
+Unknown: Thanks for joining us, Rod. 100%.
+
+746
+00:49:58,170 --> 00:50:00,890
+Unknown: Hell, yeah. See you next week. See you.
+
+747
+00:50:03,530 --> 00:50:06,485
+Alright. Now we can really have Now we can get crazy.
+
+748
+00:50:06,485 --> 00:50:10,245
+Unknown: Sorry about my dog barking in the background. I don't know if you guys can hear that, but
+
+749
+00:50:10,885 --> 00:50:11,685
+Unknown: Tad.
+
+750
+00:50:11,685 --> 00:50:13,125
+Okay. Just a tad.
+
+751
+00:50:17,685 --> 00:50:20,965
+Unknown: Gotta fend off the intruders. Right? Everyone's coming for 02:56 now.
+
+752
+00:50:22,390 --> 00:50:23,110
+Unknown: Yeah.
+
+753
+00:50:23,350 --> 00:50:23,990
+Yeah. It's
+
+754
+00:50:24,470 --> 00:50:27,590
+I gotta travel with this dog to protect me. Who knows?
+
+755
+00:50:28,150 --> 00:50:31,110
+Two fifty six foundations got a target on its back.
+
+756
+00:50:32,630 --> 00:50:33,350
+But,
+
+757
+00:50:33,830 --> 00:50:35,270
+Scott, speaking of
+
+758
+00:50:36,150 --> 00:50:39,645
+what Rod was was talking about as he was closing there,
+
+759
+00:50:40,285 --> 00:50:48,285
+have you had a chance to dig into that ember well, first of all, was that ember one delivered? And if it was, have you had a chance to look at it yet?
+
+760
+00:50:49,085 --> 00:50:54,590
+Unknown: Yes. It was delivered. I went and got it, and I have been feverishly digging into it.
+
+761
+00:50:54,990 --> 00:50:55,550
+I
+
+762
+00:50:56,830 --> 00:51:00,830
+guess it's not working yet, but there's still time.
+
+763
+00:51:02,525 --> 00:51:08,205
+So, you know, this is this is the first time I've got my hands on v five to check it out, and
+
+764
+00:51:09,085 --> 00:51:12,845
+I was a little bummed that it didn't work first plugging it in, but
+
+765
+00:51:13,645 --> 00:51:16,125
+it looks like a great build. Good job, Ico.
+
+766
+00:51:17,840 --> 00:51:23,520
+Unknown: Literally I think we'll get it first. So Like, one of the first pieces of electronics I've ever built.
+
+767
+00:51:24,000 --> 00:51:34,335
+Unknown: And it's not like this isn't some little intro project either. Like, this is a very complicated board to build. I'm I'm sure you struggle with all those a six and the zillion
+
+768
+00:51:34,335 --> 00:51:35,135
+microscopic
+
+769
+00:51:35,135 --> 00:51:37,375
+little components on both sides
+
+770
+00:51:37,535 --> 00:51:41,695
+Yeah. Of the board. So, yeah, good job there. I think we'll get it working.
+
+771
+00:51:42,015 --> 00:51:43,295
+Ryan's got some.
+
+772
+00:51:43,615 --> 00:51:49,770
+You sent me two, so I got I got those to bang on. And, yeah, we'll get we'll get this sorted out
+
+773
+00:51:50,410 --> 00:51:51,130
+because
+
+774
+00:51:51,610 --> 00:51:54,330
+we shout out to Ryan
+
+775
+00:51:54,650 --> 00:51:55,370
+from
+
+776
+00:51:56,490 --> 00:51:58,090
+Unknown: Cryobyte. Cryobyte.
+
+777
+00:51:58,090 --> 00:51:59,050
+Unknown: Right. Thank you.
+
+778
+00:51:59,915 --> 00:52:00,555
+He
+
+779
+00:52:00,795 --> 00:52:02,075
+he just
+
+780
+00:52:02,474 --> 00:52:09,275
+you know, one of these people just shows up and was like, I wanna make something cool and did it. He, like, milled some water blocks specifically for
+
+781
+00:52:09,994 --> 00:52:21,110
+the Ember one hash board. They look fantastic. So, hopefully, if this all works out, we'll be able to strap a couple of those onto some Ember one hash boards and have some water cooled
+
+782
+00:52:21,430 --> 00:52:23,270
+open source mining glory.
+
+783
+00:52:24,870 --> 00:52:36,625
+Yeah. We wanna have those on display during the tele hash. Yeah. That's that's gonna be really neat. Ryan's been sending you with those pictures and they look so cool. He just like he's got his own CNC milling machine and bang them out. It's got
+
+784
+00:52:37,105 --> 00:52:44,580
+Unknown: acrylic on the top and aluminum on the bottom. Looks so slick. He sent some newer photos with the the board strapped to it.
+
+785
+00:52:45,140 --> 00:52:47,620
+Unknown: Oh, really? Yeah. Oh my gosh. Haven't seen that.
+
+786
+00:52:47,940 --> 00:52:50,180
+Unknown: Oh, did he look he got the board already?
+
+787
+00:52:50,420 --> 00:52:51,140
+Unknown: Yes,
+
+788
+00:52:51,300 --> 00:52:53,860
+Unknown: he did. Awesome. Is that in telegram?
+
+789
+00:52:54,635 --> 00:52:55,355
+Unknown: Yep.
+
+790
+00:52:55,994 --> 00:53:00,155
+Oh, I gotta check that out. That's that's really neat. Yeah. Amazing.
+
+791
+00:53:00,555 --> 00:53:01,595
+I mean, is
+
+792
+00:53:01,835 --> 00:53:06,155
+this is exactly what we're trying to inspire is this kind of stuff, like people who wanna build,
+
+793
+00:53:06,650 --> 00:53:07,850
+they just can't.
+
+794
+00:53:08,330 --> 00:53:08,730
+Unknown: Exactly.
+
+795
+00:53:09,850 --> 00:53:11,690
+Like And and he went
+
+796
+00:53:12,570 --> 00:53:28,025
+super simple with the water block. Know, I mean, not to say there wasn't a lot of hard work, but he he made all the fittings like standard PC cooling fittings and components. So you can just order a bunch of cheap stuff on Amazon or go to a micro center and get a pump and a reservoir and some tubes and
+
+797
+00:53:28,424 --> 00:53:31,625
+slap your ember one to it and use it for something rad.
+
+798
+00:53:33,305 --> 00:53:39,339
+Unknown: Right? Like, it's still early days. It's not exactly working yet, but we're already seeing the benefits of this. It's like you just
+
+799
+00:53:39,900 --> 00:53:44,940
+you can go and get the designs, the CAD files for this all, and and just jump start building
+
+800
+00:53:45,099 --> 00:53:46,299
+the next rad
+
+801
+00:53:46,665 --> 00:53:47,465
+miner.
+
+802
+00:53:47,545 --> 00:53:50,745
+Unknown: Yeah. It's amazing to see. Those are some cool pictures.
+
+803
+00:53:51,225 --> 00:53:52,905
+I can't wait to see the world.
+
+804
+00:53:53,145 --> 00:53:54,665
+Unknown: Even the telehash
+
+805
+00:53:55,705 --> 00:53:57,865
+chat that we've had working with Dee here,
+
+806
+00:53:58,520 --> 00:54:06,360
+it was so cool that we're like, we could do this. We could do this. We could do this. And because everything's open source, we literally can do whatever we want. I mean, it's so awesome.
+
+807
+00:54:07,000 --> 00:54:08,440
+Unknown: Yeah. It's pretty amazing.
+
+808
+00:54:10,119 --> 00:54:17,165
+Where, like, the chats I'm used to being in for, like, Bitcoin mining is like, hey. Does does anyone know how to, like,
+
+809
+00:54:17,724 --> 00:54:22,525
+like, change this fitting? Or, like, how how do I get my miner to do like,
+
+810
+00:54:23,164 --> 00:54:26,330
+you're just you're so boxed in with, like, Antminer
+
+811
+00:54:26,330 --> 00:54:27,370
+and Whatsminer.
+
+812
+00:54:27,370 --> 00:54:32,650
+So it's a good thing that their coins are crumbling, and they're dropping out of the Bitcoin mining scene,
+
+813
+00:54:33,370 --> 00:54:34,970
+we're inheriting the world.
+
+814
+00:54:36,490 --> 00:54:43,635
+Unknown: What's happening? What does this mean for hand me down miners if everything goes to these giant 20 kilowatt hydro miners?
+
+815
+00:54:44,595 --> 00:54:46,835
+There there will be none. So I mean,
+
+816
+00:54:47,315 --> 00:54:51,635
+the the people who wanna mine at home and in small scale or in their business or whatever,
+
+817
+00:54:53,079 --> 00:54:57,320
+I hope that encourages them to go build it from these building blocks.
+
+818
+00:54:57,800 --> 00:55:01,240
+Unknown: Mean, first thing that comes to my mind is chip harvesting.
+
+819
+00:55:02,200 --> 00:55:04,440
+Like you say, like it's such a
+
+820
+00:55:04,935 --> 00:55:05,735
+infrastructure
+
+821
+00:55:05,735 --> 00:55:10,455
+upgrade to make the leap from, like, a residential setting to an industrial setting.
+
+822
+00:55:11,255 --> 00:55:17,095
+I think it makes sense that the hand me downs wouldn't just be used directly as they exist. But
+
+823
+00:55:18,569 --> 00:55:20,010
+if we've got enough
+
+824
+00:55:20,650 --> 00:55:22,810
+open source tooling out there for people,
+
+825
+00:55:23,130 --> 00:55:26,250
+I think we could see a lot of that stuff getting recycled.
+
+826
+00:55:26,569 --> 00:55:27,369
+Unknown: I
+
+827
+00:55:27,369 --> 00:55:29,049
+wonder how this is going to affect
+
+828
+00:55:29,655 --> 00:55:31,815
+the market and the prices for
+
+829
+00:55:32,375 --> 00:55:33,575
+previous generation
+
+830
+00:55:33,975 --> 00:55:34,855
+hardware,
+
+831
+00:55:34,855 --> 00:55:40,855
+right? It might go up. You know, there's no s 23 air cool to replace the s 20.
+
+832
+00:55:42,535 --> 00:55:46,360
+Are they ever gonna? Are they ever gonna drop in price? I mean, that's kind of the last,
+
+833
+00:55:46,920 --> 00:55:50,040
+like, hackable machine that people can use.
+
+834
+00:55:50,840 --> 00:55:54,920
+Unknown: Were the s 23 chips that, like, that really big ASIC footprint?
+
+835
+00:55:55,560 --> 00:56:02,395
+Unknown: Mhmm. I think so. I think so. I I a little birdie sent me some chips that were,
+
+836
+00:56:02,795 --> 00:56:04,955
+in theory, from an s 23.
+
+837
+00:56:05,355 --> 00:56:15,560
+And, yeah, they were they're quite a bit bigger. They're supposed to be Those are double the hash rate. The ones that fell off the back of that truck? Yeah. Yeah. Literally, it looked like they fell off the back of our truck. They were pretty hurt.
+
+838
+00:56:17,480 --> 00:56:18,759
+But yeah. I mean, that
+
+839
+00:56:19,400 --> 00:56:24,280
+you know, it's supposed to be the chips are supposed to be significantly more efficient and
+
+840
+00:56:24,440 --> 00:56:26,039
+also higher hash rate each,
+
+841
+00:56:27,065 --> 00:56:27,705
+but,
+
+842
+00:56:28,345 --> 00:56:29,865
+you know, very expensive.
+
+843
+00:56:30,665 --> 00:56:33,945
+Unknown: Scott, what do you mean by the last hackable model?
+
+844
+00:56:34,185 --> 00:56:35,225
+What does that mean?
+
+845
+00:56:35,625 --> 00:56:38,345
+Unknown: I think a lot of the people making Loki rigs
+
+846
+00:56:38,505 --> 00:56:39,145
+and
+
+847
+00:56:39,465 --> 00:56:40,345
+doing
+
+848
+00:56:40,345 --> 00:56:47,010
+hash rate heating projects who Okay. Kinda hack on ant miners. You know, they go for the air cooled ones. They're the cheapest.
+
+849
+00:56:48,849 --> 00:56:55,970
+And then the power supplies are kind of the last ones you can actually hope to plug in in anything but an industrial setting.
+
+850
+00:56:56,290 --> 00:57:00,755
+And if we just don't have a new generation coming out with s 23 air cooled,
+
+851
+00:57:01,155 --> 00:57:02,995
+it seems like it could get rough there.
+
+852
+00:57:03,875 --> 00:57:11,870
+Unknown: Yeah. I didn't even see an immersion one. There's no immersion s 23 on their website either. Don't know if they ever announced one. I forget, but it's just Hydros.
+
+853
+00:57:11,950 --> 00:57:12,670
+Unknown: And
+
+854
+00:57:13,950 --> 00:57:16,590
+not shipping until March, so we gotta wait even longer.
+
+855
+00:57:17,550 --> 00:57:19,310
+That was I was eagerly
+
+856
+00:57:19,310 --> 00:57:20,110
+awaiting
+
+857
+00:57:20,110 --> 00:57:21,630
+the s 23
+
+858
+00:57:22,030 --> 00:57:23,310
+being released because
+
+859
+00:57:23,835 --> 00:57:32,475
+to reverse engineer these chips, we need to get our hands on an actual machine running firmware so that we can hook it up to the logic analyzer and see how it actually communicates with the chip.
+
+860
+00:57:33,115 --> 00:57:33,755
+But
+
+861
+00:57:34,795 --> 00:57:42,670
+I'm a little bit rubbed on that. And then, you know, I don't it's gonna be a lot harder to do this with a three phase machine.
+
+862
+00:57:42,830 --> 00:57:43,310
+So
+
+863
+00:57:45,230 --> 00:57:49,869
+Yeah. Maybe they're just trying to stifle us. Let that ship sail away. Let's just
+
+864
+00:57:50,235 --> 00:57:52,395
+Unknown: turn our back on Bitmain and move on.
+
+865
+00:57:53,755 --> 00:57:56,315
+I know it's probably easier said than done. But
+
+866
+00:57:57,195 --> 00:58:03,195
+Unknown: Well, I've gotten a lot of interest, especially lately, from other ASIC manufacturers. So maybe they're seeing this opportunity.
+
+867
+00:58:03,275 --> 00:58:03,915
+And,
+
+868
+00:58:04,235 --> 00:58:05,915
+you know, we're we're on the map now.
+
+869
+00:58:07,410 --> 00:58:08,130
+Like,
+
+870
+00:58:08,450 --> 00:58:13,650
+people are very aware of the projects of Bidax and the two two six foundation projects.
+
+871
+00:58:13,730 --> 00:58:14,290
+And,
+
+872
+00:58:15,089 --> 00:58:19,730
+you know, I think they're seeing the potential. So this is exciting. It's amazing.
+
+873
+00:58:19,810 --> 00:58:20,369
+Unknown: Love it.
+
+874
+00:58:22,095 --> 00:58:25,055
+Well, guys, we're at an hour. Should we
+
+875
+00:58:25,935 --> 00:58:33,215
+go with any closing thoughts and wrap it up, or was there anything else you wanted to touch on before the end of the show?
+
+876
+00:58:37,140 --> 00:58:39,620
+Unknown: No. I'm excited to see you guys all next week.
+
+877
+00:58:40,660 --> 00:58:46,340
+Unknown: I have to We got the Heat Punk Summit coming up next month. And we're doing the Heat Punk Summit. That'll be sweet.
+
+878
+00:58:48,055 --> 00:58:48,855
+Unknown: Yes.
+
+879
+00:58:49,575 --> 00:58:54,535
+I had our electrician here yesterday trying to squeeze out as much juice from this building that we can get.
+
+880
+00:58:56,135 --> 00:59:00,295
+Unknown: Getting ready for everyone to bring all their crazy Yeah. Hashry heating project.
+
+881
+00:59:00,615 --> 00:59:02,135
+Unknown: Getting a 400 amp service.
+
+882
+00:59:03,440 --> 00:59:05,200
+Unknown: Oh, really? Yeah.
+
+883
+00:59:05,200 --> 00:59:06,080
+Wow.
+
+884
+00:59:06,319 --> 00:59:09,680
+Unknown: I need it. You know, we're decarbonizing the atmosphere.
+
+885
+00:59:10,559 --> 00:59:11,520
+So I need wire
+
+886
+00:59:12,640 --> 00:59:14,000
+Unknown: in three phase while they're at it?
+
+887
+00:59:14,815 --> 00:59:16,175
+Unknown: That was a hard no.
+
+888
+00:59:16,975 --> 00:59:18,815
+That one was a hard no.
+
+889
+00:59:20,415 --> 00:59:21,775
+Unknown: Yeah, three phase.
+
+890
+00:59:22,335 --> 00:59:25,695
+That doesn't. That does not exist in light commercial.
+
+891
+00:59:26,280 --> 00:59:28,280
+Definitely not residential like,
+
+892
+00:59:28,760 --> 00:59:30,680
+Unknown: no, that's the real deal.
+
+893
+00:59:32,040 --> 00:59:34,440
+Even some Yeah, light commercial
+
+894
+00:59:35,160 --> 00:59:38,280
+is what is it $2.82 $0.08 is another
+
+895
+00:59:38,280 --> 00:59:39,320
+$2.00 8. Yeah.
+
+896
+00:59:40,965 --> 00:59:43,205
+Can you just get a step up transformer though?
+
+897
+00:59:44,325 --> 00:59:46,965
+Unknown: I don't know enough about electricity. You can get you can get a
+
+898
+00:59:47,845 --> 00:59:50,005
+I mean, a transformer will do it.
+
+899
+00:59:50,485 --> 00:59:58,130
+Yeah. You're ready for enough current, but a transformer will do it. So it could be a big device, but which will also just act as a giant heater.
+
+900
+00:59:59,410 --> 01:00:13,835
+Yeah. Yeah. If it's not very efficient. But so, know, increasing or decreasing the AC voltage, that's easy. But adding another phase, that's difficult. There are phase converters that you can get, so it can be done, but those are not subtle
+
+901
+01:00:13,835 --> 01:00:16,954
+little pieces of equipment, especially at higher current.
+
+902
+01:00:20,580 --> 01:00:23,540
+Unknown: I've got a 800 amp distribution
+
+903
+01:00:23,540 --> 01:00:27,140
+box from my previous build out and a couple
+
+904
+01:00:27,700 --> 01:00:28,980
+two forty volt
+
+905
+01:00:29,780 --> 01:00:30,900
+fuse breaker
+
+906
+01:00:30,900 --> 01:00:31,700
+boxes.
+
+907
+01:00:31,940 --> 01:00:36,595
+If I don't know if you've already, like, spent money on the upgrades you're doing, but I've got
+
+908
+01:00:36,915 --> 01:00:38,195
+barely used
+
+909
+01:00:38,435 --> 01:00:40,515
+Unknown: electric Not ones that caught on fire?
+
+910
+01:00:40,835 --> 01:00:43,555
+Unknown: No. They these didn't catch on fire. Gotcha.
+
+911
+01:00:44,530 --> 01:00:46,930
+Unknown: That's good to know. Yeah. There's still time.
+
+912
+01:00:48,530 --> 01:00:50,850
+Unknown: Yeah. It's mining. It's easy and fun.
+
+913
+01:00:52,290 --> 01:00:55,490
+And you can't blow anything up. Where there's risk, there's reward.
+
+914
+01:00:55,730 --> 01:00:56,770
+That's right.
+
+915
+01:00:57,330 --> 01:00:57,730
+Yeah.
+
+916
+01:00:59,184 --> 01:01:01,265
+Unknown: What what amp service did you have before?
+
+917
+01:01:01,904 --> 01:01:02,625
+Unknown: So
+
+918
+01:01:02,865 --> 01:01:07,105
+we have two services on this building for the north and south side.
+
+919
+01:01:07,664 --> 01:01:09,585
+They're both 200 amp
+
+920
+01:01:09,904 --> 01:01:10,465
+from
+
+921
+01:01:11,184 --> 01:01:12,065
+the utility,
+
+922
+01:01:13,110 --> 01:01:17,750
+but then our panel boxes are not using our maximum headroom.
+
+923
+01:01:18,230 --> 01:01:21,430
+So we just, like, have been hardware limited choking ourselves
+
+924
+01:01:21,750 --> 01:01:22,710
+a little bit.
+
+925
+01:01:23,990 --> 01:01:24,310
+Yeah.
+
+926
+01:01:25,555 --> 01:01:28,595
+Unknown: So you don't need you don't need to upgrade the, main breaker.
+
+927
+01:01:28,675 --> 01:01:29,315
+Unknown: Mhmm.
+
+928
+01:01:29,475 --> 01:01:35,555
+Unknown: Just the branches. Okay. That's good. Updating the main breaker then. But we don't have to update the the meter,
+
+929
+01:01:35,635 --> 01:01:37,715
+Unknown: the the the utility ownership
+
+930
+01:01:37,715 --> 01:01:38,915
+part, which is good.
+
+931
+01:01:39,395 --> 01:01:44,050
+So hopefully, they don't have to be a part of whatever the heck we're doing. Just a good electrician
+
+932
+01:01:44,210 --> 01:01:47,970
+Unknown: will solve the job. Do you think you'll have it done before the
+
+933
+01:01:48,210 --> 01:01:49,090
+summit?
+
+934
+01:01:50,130 --> 01:01:52,930
+Unknown: That is so the electrician was here yesterday,
+
+935
+01:01:53,010 --> 01:01:54,050
+and one of the
+
+936
+01:01:54,905 --> 01:02:00,105
+meters is old, like, probably 30 years old. And there has been some questionable
+
+937
+01:02:00,585 --> 01:02:02,905
+electrical upgrades done to it since.
+
+938
+01:02:03,785 --> 01:02:13,560
+So he's gonna apply for on one of the boxes, for a permit to upgrade it. And our fear is the utility is gonna say, wait a second. What were you doing there?
+
+939
+01:02:14,359 --> 01:02:20,520
+And they might just shut off the power to that side of the building, which would nuke the summit. So Wait. Why would they do that?
+
+940
+01:02:21,720 --> 01:02:22,680
+There
+
+941
+01:02:22,680 --> 01:02:23,560
+are
+
+942
+01:02:23,560 --> 01:02:23,880
+some
+
+943
+01:02:24,635 --> 01:02:26,795
+100 amp subpanels
+
+944
+01:02:26,795 --> 01:02:29,115
+coming off of 50 amp mains
+
+945
+01:02:29,115 --> 01:02:31,435
+and some it's a clusterfuck.
+
+946
+01:02:31,595 --> 01:02:32,235
+Oh,
+
+947
+01:02:32,474 --> 01:02:34,795
+Unknown: so you're saying they might look at that and say,
+
+948
+01:02:35,115 --> 01:02:38,714
+like, we don't we can't let you run this for safety reasons.
+
+949
+01:02:39,300 --> 01:02:43,780
+Unknown: Right. They might just shut it down until it's fixed. And I wanna be careful
+
+950
+01:02:44,020 --> 01:02:49,940
+because I don't wanna be reliant on the utility schedule when you're trying to host a conference. Yeah. No. Uh-uh.
+
+951
+01:02:50,820 --> 01:02:52,340
+Maybe a generator's in works.
+
+952
+01:02:54,635 --> 01:02:57,275
+But shout out, we are getting
+
+953
+01:02:57,355 --> 01:02:58,635
+early February.
+
+954
+01:02:58,955 --> 01:03:01,915
+Shout out to snorkelhottubsnorkel.com.
+
+955
+01:03:02,955 --> 01:03:09,970
+I think I've mentioned it before. Hot tub from the movie Hot Tub Time Machine just delivered one up to Steamboat for the current season of The Bachelorette.
+
+956
+01:03:10,130 --> 01:03:14,050
+Bitcoiner owns the company. He's building a Bitcoin ASIC heated model.
+
+957
+01:03:14,370 --> 01:03:17,410
+We're gonna have the first one ever here for the summit.
+
+958
+01:03:17,810 --> 01:03:18,370
+And
+
+959
+01:03:18,610 --> 01:03:25,475
+it's all cedar, no chlorine. It weighs 7,000 pounds with water. This sucker is being placed permanently. We're trenching.
+
+960
+01:03:25,635 --> 01:03:27,875
+It's a big job. Wow. Awesome.
+
+961
+01:03:28,035 --> 01:03:30,275
+Unknown: What miners does he run-in it?
+
+962
+01:03:31,075 --> 01:03:41,980
+Unknown: So working with my buddy Dane from Hashrate or Hash House. Hashrate House. Hashrate House. He was here yesterday. He makes really cool two miner immersion tanks. He's working on a hydro solution too. He likes the Auradines.
+
+963
+01:03:42,859 --> 01:03:47,180
+The Auradine immersions, they're a little pricey, but they have the really slick
+
+964
+01:03:47,500 --> 01:03:51,260
+power ramping scaling and super easy APIs.
+
+965
+01:03:52,065 --> 01:03:55,345
+So that's the tentative plan. Otherwise, we'll just throw some
+
+966
+01:03:55,665 --> 01:03:59,825
+s 20 ones in it. We were working with Kanan to get some Kanan miners in it.
+
+967
+01:04:00,385 --> 01:04:07,425
+And this this goes back to our comment about, like, some of the underdogs trying to be too much like Bitmain. I was a little frustrated to hear this. They were like,
+
+968
+01:04:08,170 --> 01:04:17,450
+you can't put air cooled miners in immersion. And I was like, guys, come on. Like, every immersion miner on Earth is probably an air cooled miner. Most of them. Right. And
+
+969
+01:04:18,170 --> 01:04:23,665
+so they were gonna donate two miners to us, but their engineers were like, well, technically, no.
+
+970
+01:04:23,985 --> 01:04:24,625
+So
+
+971
+01:04:25,745 --> 01:04:27,185
+I was bummed to hear that.
+
+972
+01:04:27,505 --> 01:04:30,065
+Unknown: Do they offer an immersion alternative?
+
+973
+01:04:30,385 --> 01:04:32,305
+Unknown: They have an immersion only miner.
+
+974
+01:04:32,465 --> 01:04:32,865
+Unknown: Okay.
+
+975
+01:04:34,360 --> 01:04:40,680
+Unknown: Will they give you one? I don't know how the control work. I don't know anyone that's ever tested it. So we're a little hesitant to use it for that.
+
+976
+01:04:41,160 --> 01:04:42,760
+Unknown: Will they give you one?
+
+977
+01:04:43,240 --> 01:04:44,120
+Perhaps.
+
+978
+01:04:44,680 --> 01:04:46,760
+Mean, if they're like trying to tie your hands
+
+979
+01:04:47,435 --> 01:04:51,195
+in one area, they could just help you out by giving you one.
+
+980
+01:04:51,435 --> 01:04:52,075
+Unknown: Yeah.
+
+981
+01:04:53,035 --> 01:04:56,875
+Yeah. Because the hot tub needs 50 amps. I mean, it's it's big.
+
+982
+01:04:57,755 --> 01:04:58,795
+Two miners.
+
+983
+01:04:59,515 --> 01:05:00,315
+Tank.
+
+984
+01:05:00,715 --> 01:05:01,515
+It's gonna be sweet.
+
+985
+01:05:03,210 --> 01:05:06,490
+We're all gonna get in it. Right? Well, I'm sure. Yeah.
+
+986
+01:05:07,130 --> 01:05:08,010
+We're getting
+
+987
+01:05:08,890 --> 01:05:12,090
+bathing in hash rate robes for everyone at the Heat Punk Summit. So
+
+988
+01:05:14,490 --> 01:05:16,490
+That'll
+
+989
+01:05:16,490 --> 01:05:17,450
+be your take home gift.
+
+990
+01:05:18,065 --> 01:05:19,105
+Unknown: That's fun.
+
+991
+01:05:21,105 --> 01:05:21,905
+Unknown: Nice.
+
+992
+01:05:22,465 --> 01:05:24,305
+Cool. I'm looking forward to it.
+
+993
+01:05:24,705 --> 01:05:27,985
+Unknown: Thank you. Yeah. And of course, looking forward to seeing you all next week.
+
+994
+01:05:28,225 --> 01:05:34,810
+Unknown: Oh, it's gonna be awesome. It'll be fun. Pressure's on. Got a lot to do between now and then.
+
+995
+01:05:35,450 --> 01:05:36,570
+I'm building
+
+996
+01:05:36,570 --> 01:05:40,490
+a lever board on the pick and place machine behind me as we speak.
+
+997
+01:05:40,810 --> 01:05:41,530
+Unknown: Nice. And,
+
+998
+01:05:43,964 --> 01:05:47,805
+Unknown: Scott, you've already got the Ember one in your hands now. So
+
+999
+01:05:50,045 --> 01:05:53,885
+that's what I'm trying to get done is just get the hardware built and,
+
+1000
+01:05:54,204 --> 01:05:56,125
+you know, hopefully have it working.
+
+1001
+01:05:58,720 --> 01:06:03,840
+Unknown: One last comment. There were some questions, Scott, I saw on the two five six Telegram folks asking
+
+1002
+01:06:04,800 --> 01:06:05,600
+about
+
+1003
+01:06:05,680 --> 01:06:07,360
+other hash board support
+
+1004
+01:06:07,520 --> 01:06:08,320
+from
+
+1005
+01:06:08,320 --> 01:06:09,120
+Eugenia,
+
+1006
+01:06:09,575 --> 01:06:11,335
+Iko, and Scott. Yeah.
+
+1007
+01:06:11,815 --> 01:06:16,855
+What's that road map look like, and how do folks contribute or help make that happen sooner?
+
+1008
+01:06:18,855 --> 01:06:20,855
+Unknown: Well, ideally, Mugena will support
+
+1009
+01:06:21,270 --> 01:06:22,070
+whatever.
+
+1010
+01:06:22,390 --> 01:06:26,070
+It just needs the appropriate ASIC driver added to it.
+
+1011
+01:06:27,270 --> 01:06:29,270
+We use the Bitmain ASICs
+
+1012
+01:06:29,270 --> 01:06:35,830
+from the s 19 j pro on the Ember one, so that will probably you know, getting a s nine like, a proper
+
+1013
+01:06:36,065 --> 01:06:42,225
+s 19 j pro working with Magena would probably be the lowest hanging fruit. I think that'll be pretty easy.
+
+1014
+01:06:42,785 --> 01:06:46,865
+But it, you know, it should be able to support any miner if you're willing to
+
+1015
+01:06:47,850 --> 01:06:52,410
+Unknown: add add the driver to it. So it's not gonna be separate images
+
+1016
+01:06:52,650 --> 01:06:55,290
+for different miners. It's the
+
+1017
+01:06:55,290 --> 01:06:59,690
+firmware has a a larger list that it it's compatible with over time.
+
+1018
+01:07:00,890 --> 01:07:03,295
+Unknown: Yeah. Ryan and I were talking a bit about this,
+
+1019
+01:07:03,535 --> 01:07:07,855
+about how you would configure Magina to work with different miners. We have a little bit of problem
+
+1020
+01:07:08,575 --> 01:07:09,935
+working with existing
+
+1021
+01:07:10,175 --> 01:07:16,735
+miners as they don't very they don't identify themselves very well, so it it could be a little bit difficult for the miner to
+
+1022
+01:07:17,109 --> 01:07:21,030
+for the for Magina to know, you know, sort of what driver do I need to load.
+
+1023
+01:07:21,349 --> 01:07:25,590
+So we're we were talking about that a bit. I think that still needs to be fleshed out.
+
+1024
+01:07:25,910 --> 01:07:32,470
+Obviously, for for Ember one, we can identify that very easily because we control the firmware that's running on the hash board.
+
+1025
+01:07:34,285 --> 01:07:35,645
+But, yeah, I
+
+1026
+01:07:36,365 --> 01:07:46,285
+think it's flexible and open enough that that we can sort this out. You know? At the end of the day, can imagine a situation where it's like, you're like, I wanna run Mugena on my stock
+
+1027
+01:07:47,400 --> 01:07:50,360
+s 21 control board. And so
+
+1028
+01:07:50,680 --> 01:07:57,560
+someone could build a specific image for that that you could just flash to it, and that would be specific to that miner.
+
+1029
+01:07:57,960 --> 01:08:04,005
+But that would be kind of a, an image built with Magena and custom configured for it. Mhmm.
+
+1030
+01:08:05,765 --> 01:08:10,405
+That's awesome. Because we also have, a couple sort of auxiliary projects
+
+1031
+01:08:10,405 --> 01:08:15,109
+like the added board and the bit crane, which will help you retrofit
+
+1032
+01:08:15,109 --> 01:08:16,710
+your ant miners,
+
+1033
+01:08:17,270 --> 01:08:18,869
+to use with Magena.
+
+1034
+01:08:20,070 --> 01:08:24,230
+I think that's probably the easiest way to go if you wanna support one of these miners.
+
+1035
+01:08:24,310 --> 01:08:27,605
+Unknown: We're saving so much e waste. We should get a grant.
+
+1036
+01:08:28,085 --> 01:08:29,125
+Unknown: We should.
+
+1037
+01:08:29,445 --> 01:08:30,245
+Unknown: Greenpeace.
+
+1038
+01:08:30,325 --> 01:08:31,525
+Unknown: Greenpeace.
+
+1039
+01:08:31,525 --> 01:08:32,485
+There you go.
+
+1040
+01:08:33,445 --> 01:08:34,165
+Unknown: Yeah.
+
+1041
+01:08:35,685 --> 01:08:37,045
+Imagine if we got a
+
+1042
+01:08:38,165 --> 01:08:39,445
+check from Greenpeace.
+
+1043
+01:08:40,470 --> 01:08:42,470
+Unknown: The World Economic Forum.
+
+1044
+01:08:42,870 --> 01:08:50,470
+Unknown: Department of Energy. We'll send Iko down there to to get the giant check. Yeah. I think you're the right guy for that conversation, Iko. Definitely.
+
+1045
+01:08:51,830 --> 01:08:53,190
+Unknown: I'll close the deal.
+
+1046
+01:08:54,390 --> 01:08:54,710
+Unknown: Yeah.
+
+1047
+01:08:55,305 --> 01:08:57,065
+You should go message Jihan.
+
+1048
+01:08:57,945 --> 01:09:04,105
+Unknown: What so wait. Run me by what what do I what do you guys want me to say to him?
+
+1049
+01:09:04,425 --> 01:09:10,745
+Unknown: I think Rod wanted you to ask for a billion Bitcoin or something from him. Oh. To get a hash rate donated.
+
+1050
+01:09:12,090 --> 01:09:12,969
+Unknown: Telehash.
+
+1051
+01:09:13,210 --> 01:09:14,489
+Unknown: Yeah. That's what it was.
+
+1052
+01:09:15,050 --> 01:09:23,690
+Right? All of the specifically ask for all of the miners that are currently running to recoup their production costs, but haven't been sold yet to consumers.
+
+1053
+01:09:23,929 --> 01:09:28,885
+If they could point all of that break in period hash rate to the telehash for
+
+1054
+01:09:29,125 --> 01:09:32,405
+the next ten days, that'd be great. I'll work on the
+
+1055
+01:09:32,645 --> 01:09:38,005
+Unknown: on the phrasing, but yeah. I'll Okay. Yeah. I like I like where your head's at.
+
+1056
+01:09:38,645 --> 01:09:46,709
+Unknown: You can just just play it cool. Like, hey. We're doing this telehash thing. You know, we'd love to have some hash rate donated. I know you've got a bunch over there at BitDeer. Like,
+
+1057
+01:09:47,429 --> 01:09:51,510
+you know, point some our way. It goes to a good cause. I know you're a fan. I
+
+1058
+01:09:51,909 --> 01:10:00,355
+Unknown: remember what we were waiting for. We were waiting to have a public facing interface, which now we have, thanks to Dee. That's what that's what the holdup was.
+
+1059
+01:10:01,315 --> 01:10:02,514
+Unknown: Bag secured.
+
+1060
+01:10:02,515 --> 01:10:03,155
+Unknown: Yeah.
+
+1061
+01:10:03,955 --> 01:10:05,954
+Because this came up, what, like,
+
+1062
+01:10:06,515 --> 01:10:08,835
+two Two weeks ago. Weeks ago or
+
+1063
+01:10:10,780 --> 01:10:15,020
+I think it was two weeks ago. And I was like, okay. Well, I'll message you. Really? I didn't know that
+
+1064
+01:10:17,900 --> 01:10:18,539
+So,
+
+1065
+01:10:19,180 --> 01:10:23,180
+yeah, Gi hun, I got this notification on the
+
+1066
+01:10:23,585 --> 01:10:25,905
+two fifty six foundation Twitter account
+
+1067
+01:10:26,625 --> 01:10:28,704
+that Jihan Wu was following
+
+1068
+01:10:28,945 --> 01:10:35,425
+the two fifty six foundation. I'm like, okay. It's just, you know, a troll who copied the avatar and the name,
+
+1069
+01:10:36,690 --> 01:10:38,050
+like so many others.
+
+1070
+01:10:38,450 --> 01:10:40,770
+And I clicked on it and
+
+1071
+01:10:40,930 --> 01:10:44,289
+on the profile, and it was actually Jihan Wu
+
+1072
+01:10:45,570 --> 01:10:47,969
+following the two fifty six foundation.
+
+1073
+01:10:48,210 --> 01:10:49,170
+And so
+
+1074
+01:10:49,650 --> 01:11:01,015
+when I told Rod, he he suggested that I DM him since he's following the two fifty six Foundation account now and encourage him to donate to the foundation
+
+1075
+01:11:01,655 --> 01:11:02,775
+either through
+
+1076
+01:11:03,175 --> 01:11:09,490
+Bitcoin donation or by pointing hash rate to us during the telehash. I was like, okay. I'll go with the telehash idea
+
+1077
+01:11:10,130 --> 01:11:12,130
+and see if he'll point hash rate.
+
+1078
+01:11:12,530 --> 01:11:13,810
+It's worth a shot,
+
+1079
+01:11:15,730 --> 01:11:19,330
+but I need to wait until we get the HydroPool server
+
+1080
+01:11:19,570 --> 01:11:21,170
+open to the public
+
+1081
+01:11:21,645 --> 01:11:26,284
+so that there's actually, like, something to look at. And so that that's what we were waiting on.
+
+1082
+01:11:26,605 --> 01:11:37,280
+And then that just happened recently, and then and then you came out of left field with this amazing dashboard. So now I can just send that to him, and it's got the instructions on it. So,
+
+1083
+01:11:38,480 --> 01:11:39,360
+we'll see.
+
+1084
+01:11:39,680 --> 01:11:41,360
+Unknown: See, I didn't even know that you
+
+1085
+01:11:41,680 --> 01:11:42,719
+wanted one.
+
+1086
+01:11:44,160 --> 01:11:49,440
+I didn't even know that you wanted a dashboard. I just made it as, like, the pregame to the Teladash.
+
+1087
+01:11:50,215 --> 01:11:58,375
+Unknown: Yeah. I don't I don't think we we really knew what we wanted either actually. Because like like we had the Grafana one for like our own internal
+
+1088
+01:11:58,614 --> 01:11:59,414
+purposes,
+
+1089
+01:11:59,415 --> 01:12:03,735
+and then we were like, you know, we had to open the port on the Bitcoin parks router for
+
+1090
+01:12:04,250 --> 01:12:05,610
+the hash rate.
+
+1091
+01:12:06,010 --> 01:12:09,369
+But then we were like, well, if we wanna open up the dashboard,
+
+1092
+01:12:09,449 --> 01:12:13,370
+we're gonna have to open up Port 80. And we were discussing
+
+1093
+01:12:13,370 --> 01:12:14,969
+the security trade offs,
+
+1094
+01:12:15,290 --> 01:12:17,130
+and we were like, let's let's not
+
+1095
+01:12:17,530 --> 01:12:18,810
+open that up to the public.
+
+1096
+01:12:19,505 --> 01:12:23,264
+And then that was, like, right around the time that you were like, hey. How do I
+
+1097
+01:12:24,304 --> 01:12:30,224
+see this? And then you made that dashboard. So, like, it all just kinda worked itself out.
+
+1098
+01:12:31,344 --> 01:12:37,170
+Unknown: Well, yeah. Now you can That's crazy. Point them to it. The the competition is starting. I see another
+
+1099
+01:12:37,170 --> 01:12:38,369
+110
+
+1100
+01:12:38,369 --> 01:12:40,209
+terahash just joined from
+
+1101
+01:12:40,610 --> 01:12:45,329
+a worker name with an an NPUB as a worker name, which is cool. No. Yeah.
+
+1102
+01:12:45,570 --> 01:12:45,969
+Unknown: Look at that.
+
+1103
+01:12:48,054 --> 01:12:52,054
+Unknown: Oh, yeah. That's cool. We were talking about that. I think that's got some potential there.
+
+1104
+01:12:52,295 --> 01:12:56,534
+Unknown: Yeah. Wait. So that's fresh. Okay. So if they have an NPUB,
+
+1105
+01:12:58,215 --> 01:12:59,655
+I need to make it clickable.
+
+1106
+01:13:00,220 --> 01:13:04,300
+So it just goes to, like, Primal. Oh, that's a cool idea. Yeah. Yeah.
+
+1107
+01:13:05,420 --> 01:13:08,219
+Unknown: Scott, run me through this end pub idea.
+
+1108
+01:13:09,660 --> 01:13:12,860
+Unknown: I don't fully grasp it. Well, I've been I've been talking
+
+1109
+01:13:13,635 --> 01:13:17,874
+recently with Ben from public pool, and he had this neat idea of using
+
+1110
+01:13:21,155 --> 01:13:24,514
+proof of work to to back Nostrapost,
+
+1111
+01:13:24,514 --> 01:13:28,114
+which I think is a fantastic idea, kinda like cut down on spam.
+
+1112
+01:13:29,040 --> 01:13:36,959
+And then so we were just kinda riffing on that, but it would I think an easier sort of more immediate goal would be let's
+
+1113
+01:13:37,599 --> 01:13:42,399
+let users attach their end pump, their their, like, sort of nostril profile
+
+1114
+01:13:42,559 --> 01:13:43,280
+to
+
+1115
+01:13:43,440 --> 01:13:48,915
+their worker. Right? And then you could you could put all kinds of interesting stats from their profile.
+
+1116
+01:13:50,595 --> 01:13:56,755
+And you could sort of make Bitcoin mining more social, which I think it absolutely needs to be. Oh, interesting.
+
+1117
+01:13:57,315 --> 01:14:06,659
+Unknown: Well, yeah, I've got a lot of ideas on that front. I mean, for the tele hash, tel dash, hash dash, like, if I see it in pub, I can obviously just very easily
+
+1118
+01:14:07,219 --> 01:14:08,579
+make that clickable.
+
+1119
+01:14:09,140 --> 01:14:09,699
+But
+
+1120
+01:14:10,020 --> 01:14:11,540
+I can do a lot of other stuff too.
+
+1121
+01:14:12,215 --> 01:14:21,734
+Like, I could make, like, a whole profile page where you can attach, like, your MPUB, your Twitter, your Telegram, and bio, and avatar, like, all of those things because
+
+1122
+01:14:22,375 --> 01:14:23,175
+well,
+
+1123
+01:14:23,735 --> 01:14:30,500
+if we are using the Bitcoin addresses. If we're not using the Bitcoin addresses, I can't really do that. Because if we're using the Bitcoin addresses,
+
+1124
+01:14:30,740 --> 01:14:34,500
+then I can have a way of authenticating you into the Hashdash
+
+1125
+01:14:34,900 --> 01:14:38,340
+because you sign a message with that address,
+
+1126
+01:14:38,580 --> 01:14:44,034
+with a private key associated with the address. Of course, you've got to put the private key on assigning device, but,
+
+1127
+01:14:44,515 --> 01:14:48,435
+that would be cool. That'd be a cool way of making it, like, more social and
+
+1128
+01:14:49,155 --> 01:14:51,315
+Unknown: Could the could the hash dash,
+
+1129
+01:14:51,875 --> 01:14:54,034
+like, query the
+
+1130
+01:14:54,595 --> 01:14:58,870
+user's profile and just suck in all that information automatically just if the
+
+1131
+01:14:59,590 --> 01:15:01,510
+worker name is the end pub?
+
+1132
+01:15:02,310 --> 01:15:02,950
+Unknown: Yeah.
+
+1133
+01:15:03,510 --> 01:15:05,350
+That's an easier way of doing it.
+
+1134
+01:15:06,070 --> 01:15:11,030
+Unknown: That'd be pretty cool because now you got, like, sort of a a a name and an icon
+
+1135
+01:15:11,270 --> 01:15:16,934
+Unknown: and a link to all the quotes. And Yeah. So instead of just linking to,
+
+1136
+01:15:17,495 --> 01:15:20,054
+like, Primal, I actually grabbed their profile
+
+1137
+01:15:20,614 --> 01:15:24,534
+and popped that info on the hashtag. That's easy.
+
+1138
+01:15:24,775 --> 01:15:27,575
+Unknown: Is That would be so cool. Easy for you.
+
+1139
+01:15:29,380 --> 01:15:30,419
+Unknown: That's I mean, yeah.
+
+1140
+01:15:31,219 --> 01:15:45,875
+Unknown: Is this I mean, that'd a neat way to get, like, you know, an icon, a picture, a profile picture in there, like, next to your worker name and a a pretty name, and then maybe you could have a link to, like, their full profile or something like that. Yeah. Some quick information about them.
+
+1141
+01:15:46,195 --> 01:15:49,235
+And you can have longer strings for Tyler to read.
+
+1142
+01:15:49,715 --> 01:15:51,074
+Unknown: Yeah. I mean, I think,
+
+1143
+01:15:51,795 --> 01:15:55,955
+like, what's cool about having them authenticate with their Bitcoin address
+
+1144
+01:15:57,780 --> 01:15:58,659
+is that
+
+1145
+01:15:59,700 --> 01:16:02,020
+their profile can apply to all their workers.
+
+1146
+01:16:02,500 --> 01:16:08,659
+Whereas, if they have their NPUB in the worker name, then they have to, like, have it for each worker, which is, I guess, fine.
+
+1147
+01:16:08,980 --> 01:16:09,780
+Unknown: Mhmm. But,
+
+1148
+01:16:10,575 --> 01:16:17,534
+Unknown: yeah, that's fresh. Okay. I'll I'll I'll add that today. I've got this is your last chance for feature requests.
+
+1149
+01:16:18,335 --> 01:16:23,855
+It's like this type of idea. I think I can Did you write them down? Don't forget what we talked about. Yeah. No. I'm I'm writing them down.
+
+1150
+01:16:25,300 --> 01:16:26,739
+One question is, like,
+
+1151
+01:16:27,220 --> 01:16:29,780
+Prometheus shows these idle workers,
+
+1152
+01:16:30,020 --> 01:16:30,739
+and I
+
+1153
+01:16:30,980 --> 01:16:34,180
+added a little toggle that allows you to turn those on and off.
+
+1154
+01:16:34,980 --> 01:16:38,500
+But, like, do they ever fall off of the API call? Are they just
+
+1155
+01:16:39,255 --> 01:16:41,255
+there forever? Because I might wanna
+
+1156
+01:16:41,574 --> 01:16:49,094
+Unknown: I might wanna, like, clear out some of the really old ones. I think Prometheus will hold on. It it it has a persistent
+
+1157
+01:16:49,175 --> 01:16:51,094
+time frame of seven days, I believe.
+
+1158
+01:16:52,450 --> 01:16:57,650
+Unknown: And I I think after seven days, it'll drop off. After seven days? I think so.
+
+1159
+01:16:57,970 --> 01:16:58,690
+Unknown: Okay.
+
+1160
+01:17:00,370 --> 01:17:01,730
+But we wanted to, like
+
+1161
+01:17:04,130 --> 01:17:06,610
+you know, we were trying to balance, like, how much,
+
+1162
+01:17:07,735 --> 01:17:08,454
+like,
+
+1163
+01:17:11,094 --> 01:17:14,534
+how much demand there should be on the server for, like, maintaining
+
+1164
+01:17:14,855 --> 01:17:16,454
+the that information.
+
+1165
+01:17:18,135 --> 01:17:29,170
+And it it seemed like we wanted to keep that kinda minimal on the server end, but we also wanted the end users to be able to, like, verify that the pool operator is being honest.
+
+1166
+01:17:29,570 --> 01:17:31,650
+So there's an API endpoint
+
+1167
+01:17:32,530 --> 01:17:37,555
+where users can see all the shares that the pool is validating.
+
+1168
+01:17:38,115 --> 01:17:45,875
+And the end user can just collect those shares for eternity if they want, and, like, make their own database,
+
+1169
+01:17:45,875 --> 01:17:46,515
+and then
+
+1170
+01:17:47,310 --> 01:17:48,909
+check that to verify
+
+1171
+01:17:49,150 --> 01:17:51,949
+that the pool is being honest about the,
+
+1172
+01:17:52,990 --> 01:17:54,750
+coin base split and
+
+1173
+01:17:55,230 --> 01:17:57,390
+how they're divvying up hash rate.
+
+1174
+01:17:58,110 --> 01:18:04,505
+But I think the I think hydro pool itself by default will just cut it off after seven days. That's all it retains.
+
+1175
+01:18:07,545 --> 01:18:09,385
+Unknown: So we need that NPUB
+
+1176
+01:18:09,705 --> 01:18:10,505
+worker
+
+1177
+01:18:11,065 --> 01:18:15,070
+that's donating a 101 terahash to keep it up for
+
+1178
+01:18:16,030 --> 01:18:21,550
+Unknown: as we do some development. Right, Tee? Yeah. Don't fall off, at least for the next day,
+
+1179
+01:18:22,190 --> 01:18:23,230
+so I can test it.
+
+1180
+01:18:26,685 --> 01:18:28,044
+Keep on keeping on.
+
+1181
+01:18:28,364 --> 01:18:29,965
+They have a legacy address.
+
+1182
+01:18:32,445 --> 01:18:34,045
+Unknown: Yeah. 1A1C,
+
+1183
+01:18:34,045 --> 01:18:36,604
+Unknown: that's fresh. Okay, that's Satoshi's address.
+
+1184
+01:18:37,565 --> 01:18:38,925
+That's Satoshi's original
+
+1185
+01:18:39,530 --> 01:18:42,410
+Base 58 address from Might be Satoshi.
+
+1186
+01:18:43,290 --> 01:18:45,850
+Unknown: It's Satoshi. They should sign a message.
+
+1187
+01:18:47,050 --> 01:18:49,610
+Unknown: Satoshi, thanks for your support. Yep.
+
+1188
+01:18:52,330 --> 01:18:53,450
+Unknown: One a one z.
+
+1189
+01:18:55,415 --> 01:19:01,255
+Unknown: Dylan is cooking me so hard right now running all these heaters in the building just to have 500 hash.
+
+1190
+01:19:02,055 --> 01:19:04,614
+Unknown: That's probably where all the hash rate's coming from.
+
+1191
+01:19:04,935 --> 01:19:06,775
+Unknown: Yeah. I'm sweating bad.
+
+1192
+01:19:07,815 --> 01:19:08,775
+Unknown: That's awesome.
+
+1193
+01:19:09,829 --> 01:19:10,789
+I love it.
+
+1194
+01:19:12,230 --> 01:19:13,269
+Yeah.
+
+1195
+01:19:13,510 --> 01:19:17,429
+Unknown: I see him over there. That's funny. He's saying in the chat, he can go higher.
+
+1196
+01:19:17,590 --> 01:19:18,309
+Unknown: Yeah.
+
+1197
+01:19:19,269 --> 01:19:21,909
+It's gonna be hot at the space next week. So
+
+1198
+01:19:22,710 --> 01:19:23,590
+don't come
+
+1199
+01:19:23,995 --> 01:19:24,715
+during
+
+1200
+01:19:24,875 --> 01:19:26,235
+the twenty first
+
+1201
+01:19:27,035 --> 01:19:28,554
+if you wanna be cool.
+
+1202
+01:19:30,715 --> 01:19:34,475
+Unknown: Oh, because you guys are gonna be running for the I guess the Yeah.
+
+1203
+01:19:37,820 --> 01:19:39,500
+Unknown: I love that. What are gonna say, Amy?
+
+1204
+01:19:39,900 --> 01:19:40,940
+Unknown: Oh, just
+
+1205
+01:19:41,420 --> 01:19:43,100
+speaking of workers,
+
+1206
+01:19:43,580 --> 01:19:47,980
+I guess someone's doing, like, a, like, a stress test today.
+
+1207
+01:19:48,940 --> 01:19:52,060
+Unknown: Yeah. Tonight at seven central. Gonna be
+
+1208
+01:19:53,135 --> 01:19:54,415
+Are you gonna be there?
+
+1209
+01:19:55,695 --> 01:19:56,415
+Or
+
+1210
+01:19:56,895 --> 01:19:57,295
+Unknown: seven
+
+1211
+01:19:58,095 --> 01:20:02,495
+yeah. Yeah. Because I wanna see what the dashboard does. They're gonna do, like, 10,000
+
+1212
+01:20:02,895 --> 01:20:04,575
+CPU workers or something.
+
+1213
+01:20:04,975 --> 01:20:06,735
+Unknown: Yeah. At 8PM
+
+1214
+01:20:06,735 --> 01:20:07,135
+eastern,
+
+1215
+01:20:08,890 --> 01:20:11,050
+Schnitzel and Ryan,
+
+1216
+01:20:11,690 --> 01:20:15,449
+and I'll probably still be here in the lab, so I'll probably join the call too.
+
+1217
+01:20:17,450 --> 01:20:18,090
+We're gonna
+
+1218
+01:20:18,730 --> 01:20:19,930
+they they wanna
+
+1219
+01:20:20,265 --> 01:20:26,505
+check a couple of things. They wanna make sure, like, the router here at Bitcoin Park can handle the incoming connections
+
+1220
+01:20:26,825 --> 01:20:32,265
+and also the cert you know, primarily the server because it's just a Dell
+
+1221
+01:20:32,679 --> 01:20:33,480
+Optiplex
+
+1222
+01:20:33,480 --> 01:20:37,959
+ninety twenty sitting here on my desk. So not the greatest hardware,
+
+1223
+01:20:38,360 --> 01:20:40,999
+but we wanna see at
+
+1224
+01:20:41,880 --> 01:20:43,719
+what point it it fails.
+
+1225
+01:20:44,440 --> 01:20:49,034
+So we're gonna slowly start ramping up the number of connections on it tonight
+
+1226
+01:20:49,994 --> 01:20:52,635
+and see if we can make it all the way up to 10,000.
+
+1227
+01:20:53,355 --> 01:20:55,754
+I think when we did the first
+
+1228
+01:20:56,155 --> 01:20:56,795
+telehash,
+
+1229
+01:20:57,930 --> 01:21:03,369
+if I recall correctly, we had somewhere around, like, 300 to 400
+
+1230
+01:21:03,690 --> 01:21:04,969
+unique workers,
+
+1231
+01:21:05,610 --> 01:21:06,170
+but
+
+1232
+01:21:06,730 --> 01:21:09,370
+it was some of them had to have been proxied
+
+1233
+01:21:09,865 --> 01:21:13,784
+and, like like, having several miners come in on just one connection
+
+1234
+01:21:13,945 --> 01:21:17,304
+because we had, like, over one exahash at
+
+1235
+01:21:17,705 --> 01:21:18,505
+one point.
+
+1236
+01:21:18,985 --> 01:21:19,625
+So,
+
+1237
+01:21:20,905 --> 01:21:23,065
+you know, that should have taken several thousand
+
+1238
+01:21:23,750 --> 01:21:24,789
+machines,
+
+1239
+01:21:25,110 --> 01:21:26,550
+yet we only saw,
+
+1240
+01:21:26,710 --> 01:21:27,989
+you know, a few 100,
+
+1241
+01:21:28,630 --> 01:21:31,829
+unique connections being made to the server. So
+
+1242
+01:21:32,230 --> 01:21:34,789
+I'm a 100% sure if
+
+1243
+01:21:35,350 --> 01:21:40,875
+I was getting completely accurate information on the interface I was looking at or if
+
+1244
+01:21:41,115 --> 01:21:51,595
+if, like, multiple people were just using proxies for all those miners. But I know we got over an extra hash, and there had to have been, like, thousands of machines involved in that. So,
+
+1245
+01:21:53,410 --> 01:21:57,329
+anyways, we just we just kinda need the confidence boost that, like,
+
+1246
+01:21:57,890 --> 01:22:01,570
+in the event a bunch of people get into the telehash,
+
+1247
+01:22:01,570 --> 01:22:05,650
+like, and start pointing miners that it's not gonna crash and ruin the vibe. So
+
+1248
+01:22:06,845 --> 01:22:12,125
+Unknown: Yeah. When when Gihan points the the BitJare fleet over, we need to be ready. Exactly.
+
+1249
+01:22:12,125 --> 01:22:12,765
+Unknown: Yes.
+
+1250
+01:22:14,605 --> 01:22:16,685
+So, yeah, we're gonna try it tonight.
+
+1251
+01:22:17,485 --> 01:22:18,285
+Unknown: Cool.
+
+1252
+01:22:19,085 --> 01:22:22,070
+How much hash rate does a CPU miner have?
+
+1253
+01:22:22,710 --> 01:22:25,429
+Unknown: Not a lot, but it's just the connection Yeah. That
+
+1254
+01:22:28,630 --> 01:22:31,750
+Unknown: We'll see one terahash added with 10,000
+
+1255
+01:22:31,750 --> 01:22:33,030
+Unknown: workers. Maybe.
+
+1256
+01:22:33,429 --> 01:22:35,110
+Not one terahash,
+
+1257
+01:22:35,385 --> 01:22:36,425
+Definitely not.
+
+1258
+01:22:38,025 --> 01:22:39,385
+That's gonna be interesting.
+
+1259
+01:22:40,825 --> 01:22:44,344
+Unknown: Yeah. It might break the dashboard because I don't have, like, pagination
+
+1260
+01:22:45,065 --> 01:22:45,945
+turned on.
+
+1261
+01:22:46,265 --> 01:22:49,225
+Oh. So I have to fix that in real time.
+
+1262
+01:22:50,970 --> 01:22:55,370
+Yeah, I don't I don't think it like separates the data by
+
+1263
+01:22:55,930 --> 01:22:56,650
+page.
+
+1264
+01:22:56,970 --> 01:22:57,690
+Okay.
+
+1265
+01:22:58,650 --> 01:23:02,010
+Unknown: You could just select some metric and pick the top,
+
+1266
+01:23:02,650 --> 01:23:04,410
+you know, so many workers.
+
+1267
+01:23:09,645 --> 01:23:12,684
+Unknown: Dee, for all of our listeners who want to be as cool as you,
+
+1268
+01:23:13,165 --> 01:23:15,085
+vibing these awesome dashboards,
+
+1269
+01:23:15,165 --> 01:23:19,005
+how do they do it if they're new? What's your, like, favorite recommendation
+
+1270
+01:23:19,005 --> 01:23:20,125
+to go
+
+1271
+01:23:21,410 --> 01:23:25,489
+start this? I don't know if you have a favorite AI tool or something like that.
+
+1272
+01:23:26,610 --> 01:23:28,050
+Unknown: Yeah. Good question.
+
+1273
+01:23:31,410 --> 01:23:35,090
+I don't know. I march to the beat of my own drum. I like doing everything in the browser.
+
+1274
+01:23:35,495 --> 01:23:36,455
+Always have.
+
+1275
+01:23:38,535 --> 01:23:39,094
+And
+
+1276
+01:23:40,535 --> 01:23:45,335
+that's just kinda a little quirk. Like, if you view the source code of the
+
+1277
+01:23:45,735 --> 01:23:50,215
+hash dash, you're gonna see it's, like, very d. It's very, like, jQuery in the browser.
+
+1278
+01:23:51,360 --> 01:23:54,559
+I just never taught myself, like, React or
+
+1279
+01:23:55,280 --> 01:23:56,559
+any of those frameworks.
+
+1280
+01:23:57,840 --> 01:23:58,479
+So
+
+1281
+01:24:00,639 --> 01:24:05,520
+but, yeah, I've I've heard a lot of good things about Claude Opus. I haven't really used it ever.
+
+1282
+01:24:06,505 --> 01:24:08,585
+I want to, but it's, like, paid.
+
+1283
+01:24:09,225 --> 01:24:10,985
+I've had a lot of luck with
+
+1284
+01:24:11,865 --> 01:24:12,825
+Gemini.
+
+1285
+01:24:13,305 --> 01:24:13,865
+And
+
+1286
+01:24:17,305 --> 01:24:19,545
+I don't know. What models do you guys use in these days?
+
+1287
+01:24:20,260 --> 01:24:22,499
+Unknown: Well, I just learned how to basically
+
+1288
+01:24:22,900 --> 01:24:27,139
+use Git like this past month. So I feel kind of superhuman
+
+1289
+01:24:27,139 --> 01:24:32,179
+with the AI tools, but that's probably ignorant of me. So I wanted to ask. But Git is
+
+1290
+01:24:32,739 --> 01:24:36,235
+Unknown: very good. Git is very hard. It is hard.
+
+1291
+01:24:36,715 --> 01:24:43,435
+Unknown: Yeah. But now that I have the bare minimum where I can, like, undo a massive mess up, I feel amazing.
+
+1292
+01:24:43,995 --> 01:24:54,949
+Unknown: You know? Better at it than I am then because I I really can't do that. I think just understanding sort of roughly the structure of how it works means now you can Yeah. AI generate those commands for you.
+
+1293
+01:24:55,750 --> 01:24:56,389
+Unknown: Yeah.
+
+1294
+01:24:57,270 --> 01:24:59,749
+Unknown: Yeah. And we need to get you, Tyler,
+
+1295
+01:24:59,830 --> 01:25:02,310
+an instance of the hash dash for y'alls.
+
+1296
+01:25:02,995 --> 01:25:06,355
+Unknown: Yeah. Yeah. We could do something for the Heatpunk Summit too,
+
+1297
+01:25:07,075 --> 01:25:08,914
+which would be cool. Yeah.
+
+1298
+01:25:09,235 --> 01:25:11,395
+Unknown: We just want to, like, live in perpetuity
+
+1299
+01:25:11,475 --> 01:25:14,914
+Unknown: as well. True. Yep. We'll host it. Totally.
+
+1300
+01:25:16,275 --> 01:25:17,474
+I don't know about
+
+1301
+01:25:17,790 --> 01:25:19,469
+We got open ports, baby.
+
+1302
+01:25:20,350 --> 01:25:21,630
+Unknown: Well yeah. Think
+
+1303
+01:25:22,590 --> 01:25:27,310
+Unknown: It's just I think we're running traffic we're running a traffic server. So Well, so
+
+1304
+01:25:27,710 --> 01:25:28,830
+Unknown: I'm just using
+
+1305
+01:25:30,045 --> 01:25:34,525
+y'all didn't expose anything to me. I had to fucking do it myself with
+
+1306
+01:25:34,685 --> 01:25:35,565
+Tailscale.
+
+1307
+01:25:35,885 --> 01:25:36,525
+Yeah.
+
+1308
+01:25:38,045 --> 01:25:41,485
+Unknown: So where's where there's a Tailscale's awesome. Yeah. Because even
+
+1309
+01:25:41,910 --> 01:25:46,230
+Unknown: even Ryan and, Schnitzel and Jungly didn't have
+
+1310
+01:25:47,110 --> 01:25:48,790
+the access. They just
+
+1311
+01:25:49,030 --> 01:25:54,790
+because we were talking about it and we were like, well, should we open up port 80? And and Schnitzel was like, why don't we just use Tailscale?
+
+1312
+01:25:55,295 --> 01:26:01,054
+So they had me run a few commands, and then next thing you know, my whole system is completely compromised. So
+
+1313
+01:26:03,775 --> 01:26:10,415
+Unknown: We're moving fast and breaking things over here. So thank you, Dee, for just jumping in and making it happen. Yeah, man. I love it.
+
+1314
+01:26:11,230 --> 01:26:17,150
+Unknown: I love helping however I can. I really am passionate about what you guys are doing, and I'm your biggest fan.
+
+1315
+01:26:17,950 --> 01:26:20,430
+Unknown: It's awesome. Thank you. Let's I'm
+
+1316
+01:26:20,430 --> 01:26:21,550
+Unknown: your biggest fan.
+
+1317
+01:26:22,270 --> 01:26:22,989
+Yeah.
+
+1318
+01:26:23,230 --> 01:26:24,830
+What you guys are doing is really important.
+
+1319
+01:26:26,955 --> 01:26:29,914
+Unknown: It's pretty fun too. It's super fun.
+
+1320
+01:26:30,235 --> 01:26:35,114
+Unknown: Mining is so fun especially when you see that you can fully participate
+
+1321
+01:26:35,114 --> 01:26:36,715
+and it's easier than you think.
+
+1322
+01:26:38,235 --> 01:26:39,994
+Unknown: I didn't say mining was fun.
+
+1323
+01:26:40,315 --> 01:26:41,114
+Unknown: Mining is fun.
+
+1324
+01:26:43,350 --> 01:26:45,349
+You got a miner on there I saw.
+
+1325
+01:26:45,830 --> 01:26:49,269
+Unknown: You got a couple bit axes. I got a few miners. Yeah. But
+
+1326
+01:26:51,670 --> 01:26:54,230
+Couple Mugena. I didn't get, like, the mining bug.
+
+1327
+01:26:56,715 --> 01:26:57,275
+Unknown: Well.
+
+1328
+01:26:57,594 --> 01:26:58,795
+There's still time.
+
+1329
+01:26:58,955 --> 01:26:59,675
+It
+
+1330
+01:27:01,515 --> 01:27:03,594
+usually comes with a lot of frustration
+
+1331
+01:27:04,235 --> 01:27:11,570
+because everything was closed source. So now we're starting to see the light and it's so exciting, Right? Yeah. Lowering that barrier to entry.
+
+1332
+01:27:12,130 --> 01:27:12,849
+Unknown: Yeah.
+
+1333
+01:27:15,170 --> 01:27:18,689
+Unknown: Speaking of that, we got a bunch of stuff to do before this event next week.
+
+1334
+01:27:19,969 --> 01:27:23,264
+Unknown: Back to work. Let's wrap it up. And,
+
+1335
+01:27:25,265 --> 01:27:28,784
+well, I guess next week will be the the telehash.
+
+1336
+01:27:29,265 --> 01:27:33,264
+So pod two fifty six will just be the telehash next week. So
+
+1337
+01:27:33,745 --> 01:27:37,980
+tune in live on Twitter and wherever else we're streaming,
+
+1338
+01:27:38,460 --> 01:27:39,980
+and we'll see you all there.
+
+1339
+01:27:40,780 --> 01:27:41,739
+And
+
+1340
+01:27:41,980 --> 01:27:46,139
+for our participants on the show, don't hang up,
+
+1341
+01:27:46,780 --> 01:27:49,980
+but I'm gonna end the livestream now. Thanks. See you. Everybody.
+

@@ -1,0 +1,4308 @@
+WEBVTT
+
+NOTE
+Transcription provided by Podhome.fm
+Created: 9/3/2025 9:57:38 PM
+Duration: 4346.384
+Channels: 1
+
+1
+00:00:02.560 --> 00:00:04.740
+<v Unknown> Okay. It's going live.
+
+2
+00:00:05.600 --> 00:00:12.820
+I don't know why we're live on Riverside, but, apparently, that's an option, and we are doing it. And we should be live on Twitter.
+
+3
+00:00:13.695 --> 00:00:17.055
+Today is 09/03/2025.
+
+4
+00:00:17.055 --> 00:00:20.675
+This is pod two fifty six episode 83.
+
+5
+00:00:21.375 --> 00:00:23.395
+Welcome, Scott. Welcome, Tyler.
+
+6
+00:00:23.855 --> 00:00:26.195
+Hey. Hey. Yeah. Cohost, Iko.
+
+7
+00:00:26.650 --> 00:00:28.910
+Welcome to the show. Guys, how you doing?
+
+8
+00:00:30.010 --> 00:00:31.550
+<v Unknown> Living it. Fantastic.
+
+9
+00:00:32.170 --> 00:00:42.295
+We got a lot of fun stuff to talk about. Yeah. It's been an exciting week, and it's only Wednesday. Well, you know what I noticed? Because this is you know, graciously joined you guys. Happy to be a part of this is,
+
+10
+00:00:42.754 --> 00:00:43.394
+it's nice to,
+
+11
+00:00:44.035 --> 00:00:50.855
+organize, like, holy crap. This is what I got done in the past week. This is what other cool stuff has gotten done in the industry in the past week. This is awesome. Yeah.
+
+12
+00:00:51.795 --> 00:00:53.735
+<v Unknown> Yeah. It's crazy. I've been, like,
+
+13
+00:00:54.060 --> 00:00:54.560
+chronicling
+
+14
+00:00:55.020 --> 00:00:55.920
+the developments
+
+15
+00:00:56.300 --> 00:00:58.400
+in Bitcoin mining specifically
+
+16
+00:00:58.860 --> 00:00:59.360
+since,
+
+17
+00:01:00.780 --> 00:01:03.739
+like, the beginning of 2022
+
+18
+00:01:04.140 --> 00:01:05.920
+Yeah. When I started the hash cast.
+
+19
+00:01:06.845 --> 00:01:14.545
+So, like, checking in on everything. And it's just, like, dude, just wild the amount of development that's taken place in this space.
+
+20
+00:01:15.085 --> 00:01:15.585
+And,
+
+21
+00:01:17.085 --> 00:01:19.025
+it makes me really bullish about
+
+22
+00:01:20.159 --> 00:01:27.380
+the, you know, getting, like, these these proto or the sorry. Not proto. See the Intel chips behind me,
+
+23
+00:01:28.479 --> 00:01:35.195
+receiving these chips finally and being able to get those out to builders that wanna build cool open source stuff with them,
+
+24
+00:01:36.375 --> 00:01:39.515
+and just, like, turning our backs away from
+
+25
+00:01:39.895 --> 00:01:41.275
+the days of desoldering
+
+26
+00:01:42.135 --> 00:01:45.195
+ASIC chips from bit main hash boards to
+
+27
+00:01:45.735 --> 00:01:46.235
+build
+
+28
+00:01:46.760 --> 00:01:48.540
+the hardware that we wanna develop.
+
+29
+00:01:49.640 --> 00:01:51.020
+I'm just, you know,
+
+30
+00:01:51.480 --> 00:01:56.380
+the future's bright, and I think things are gonna pick up pretty quickly
+
+31
+00:01:56.680 --> 00:01:58.700
+in, relative terms. So
+
+32
+00:02:00.040 --> 00:02:00.540
+yeah.
+
+33
+00:02:03.175 --> 00:02:06.875
+<v Unknown> So did you have a forklift or that looks like a pretty big crate. How'd you get all those?
+
+34
+00:02:08.775 --> 00:02:09.355
+<v Unknown> A a
+
+35
+00:02:10.215 --> 00:02:10.715
+logistics
+
+36
+00:02:11.175 --> 00:02:13.675
+truck, like, you know, one of the
+
+37
+00:02:13.975 --> 00:02:14.955
+major carriers
+
+38
+00:02:15.480 --> 00:02:18.140
+dropped it off with a lift gate here at Bitcoin Park.
+
+39
+00:02:19.400 --> 00:02:29.100
+And, and the dude had the driver had a pallet jack, so he just brought it close to the door. And then I broke the pallet down and brought all the boxes in with the dolly.
+
+40
+00:02:29.705 --> 00:02:31.785
+But, yeah, that's like 76
+
+41
+00:02:31.785 --> 00:02:39.165
+<v Unknown> petahash worth of Intel b z m two chips sitting behind me. I was excited to see that they are indeed on reels, not trays.
+
+42
+00:02:39.705 --> 00:02:43.245
+<v Unknown> Oh, yeah. I thought they were gonna be on trays, but they're on reels. Yeah.
+
+43
+00:02:44.290 --> 00:02:50.069
+Which is great for, like, throwing them in your pick and place machine. So trays can't be used in those machines?
+
+44
+00:02:50.370 --> 00:02:54.550
+They can. It's just it takes up some real estate on the,
+
+45
+00:02:55.810 --> 00:02:59.190
+on the bed where the Uh-huh. Pickup head is picking up stuff.
+
+46
+00:02:59.765 --> 00:03:00.265
+So
+
+47
+00:03:00.805 --> 00:03:03.705
+you can save a lot of that real estate if your,
+
+48
+00:03:04.805 --> 00:03:07.145
+all your components are coming in on reels.
+
+49
+00:03:07.525 --> 00:03:14.665
+And if you have more real estate for your head to be dropping components down, that means you can fit more,
+
+50
+00:03:15.790 --> 00:03:17.330
+PCBs in a panelized
+
+51
+00:03:17.630 --> 00:03:18.130
+board
+
+52
+00:03:18.590 --> 00:03:19.810
+on your work area.
+
+53
+00:03:20.190 --> 00:03:24.290
+And the more PCBs you can fit in a panelized board in that work area,
+
+54
+00:03:24.750 --> 00:03:26.450
+then the less you have to, like,
+
+55
+00:03:26.830 --> 00:03:43.200
+set up the machine and and swap everything out because it's very time consuming and tedious to get everything dialed in. So the less you have to, like, do that and the more circuit boards you can print in, like, one job, then the faster you can, like, roll this stuff off your assembly line.
+
+56
+00:03:43.980 --> 00:03:46.080
+<v Unknown> That's a really interesting point. Like, you think,
+
+57
+00:03:46.380 --> 00:04:00.795
+you know, the the reel, it sort of like the the sort of active chip to be picked up only takes up, like, a little bit wider than the chip itself. Right? Right. Because if you have a tray, you gotta have that whole tray Yep. In there. Mhmm. And those are not small trays.
+
+58
+00:04:02.615 --> 00:04:04.235
+<v Unknown> Yeah. Yeah. There's a lot
+
+59
+00:04:04.655 --> 00:04:05.155
+of,
+
+60
+00:04:05.735 --> 00:04:08.315
+dude, this rabbit hole of, like,
+
+61
+00:04:09.175 --> 00:04:09.675
+PCB
+
+62
+00:04:10.135 --> 00:04:11.575
+assembly and just like,
+
+63
+00:04:12.215 --> 00:04:12.875
+I was
+
+64
+00:04:13.240 --> 00:04:16.140
+surfing through the OSMU Discord this morning,
+
+65
+00:04:16.840 --> 00:04:21.180
+and k one had posted a video of this dude that was,
+
+66
+00:04:21.720 --> 00:04:22.940
+like, doing homemade
+
+67
+00:04:23.720 --> 00:04:24.620
+photo lithography.
+
+68
+00:04:25.785 --> 00:04:30.765
+I don't know if you saw this. But, like, he converted, like, a projector that he bought off of Amazon
+
+69
+00:04:31.305 --> 00:04:33.645
+and, like, mounted it on top of a microscope
+
+70
+00:04:34.265 --> 00:04:40.045
+and, like, just steps through his whole process on, like, how he's making his own microchips
+
+71
+00:04:40.585 --> 00:04:45.379
+in his basement. It was crazy. And it was from, like, four or five years ago too.
+
+72
+00:04:47.039 --> 00:04:51.460
+That's so crazy. Yeah. It was awesome. I mean, dude, there's, like, no end to
+
+73
+00:04:51.840 --> 00:04:53.060
+this rabbit hole.
+
+74
+00:04:53.759 --> 00:04:55.379
+<v Unknown> So what's next with the reels?
+
+75
+00:04:57.504 --> 00:04:58.004
+<v Unknown> So
+
+76
+00:04:58.785 --> 00:04:59.604
+right now,
+
+77
+00:05:00.224 --> 00:05:01.444
+I'm waiting for,
+
+78
+00:05:02.544 --> 00:05:04.164
+the recipients of the chips
+
+79
+00:05:04.865 --> 00:05:07.284
+to let me know how they want them shipped.
+
+80
+00:05:07.585 --> 00:05:08.085
+Mhmm.
+
+81
+00:05:09.264 --> 00:05:09.764
+So,
+
+82
+00:05:10.370 --> 00:05:14.790
+I gave them a quote what it would cost me to ship them with the carrier.
+
+83
+00:05:15.650 --> 00:05:22.150
+So I gave them the the weights and the dimensions of the boxes. So if they wanna, like, get their own quote, they can do that.
+
+84
+00:05:22.865 --> 00:05:24.965
+But once we figure out
+
+85
+00:05:25.345 --> 00:05:26.005
+the shipping,
+
+86
+00:05:26.544 --> 00:05:29.205
+then these boxes are all getting sent out.
+
+87
+00:05:30.225 --> 00:05:30.725
+So
+
+88
+00:05:32.305 --> 00:05:35.044
+so let me just back up for any listeners that, like,
+
+89
+00:05:35.420 --> 00:05:39.840
+are like, what's going on? What are all these chips from? So the two fifty six Foundation
+
+90
+00:05:40.700 --> 00:05:41.200
+held,
+
+91
+00:05:41.660 --> 00:05:44.640
+the our first fundraiser in January,
+
+92
+00:05:45.260 --> 00:05:47.280
+at Bitcoin Park. And,
+
+93
+00:05:48.380 --> 00:05:49.280
+during that
+
+94
+00:05:49.875 --> 00:05:50.375
+event,
+
+95
+00:05:50.914 --> 00:05:54.215
+Proto announced that they were gonna donate 256,000
+
+96
+00:05:54.435 --> 00:05:56.694
+Intel b z m two chips to the foundation
+
+97
+00:05:57.155 --> 00:05:59.574
+for the purpose of handing them out to
+
+98
+00:06:00.354 --> 00:06:02.694
+developers who wanted to build,
+
+99
+00:06:03.600 --> 00:06:05.300
+open source hardware
+
+100
+00:06:05.680 --> 00:06:06.180
+technology,
+
+101
+00:06:07.600 --> 00:06:09.060
+projects, what have you.
+
+102
+00:06:10.479 --> 00:06:10.979
+So
+
+103
+00:06:11.680 --> 00:06:13.520
+it took us a while, but
+
+104
+00:06:15.875 --> 00:06:20.935
+so here's the thing though. They're, like, it was just the chips. There was no supporting documentation included.
+
+105
+00:06:21.795 --> 00:06:24.455
+And Scott, like, as you can attest to,
+
+106
+00:06:24.835 --> 00:06:26.055
+like, reverse engineering
+
+107
+00:06:26.675 --> 00:06:27.175
+these
+
+108
+00:06:27.715 --> 00:06:28.775
+hash board designs
+
+109
+00:06:29.600 --> 00:06:31.280
+without any documentation is,
+
+110
+00:06:32.720 --> 00:06:36.660
+I don't know. What would you say? A little difficult on a scale from one to two?
+
+111
+00:06:37.040 --> 00:06:44.580
+It's, it's challenging. Yeah. It's, it's a whole rabbit hole before you can even get started laying out and designing your miner.
+
+112
+00:06:44.995 --> 00:06:45.495
+Right.
+
+113
+00:06:46.035 --> 00:06:50.615
+So without that supporting documentation, it was, you know, it was kinda like this,
+
+114
+00:06:51.875 --> 00:06:53.175
+chicken and egg problem
+
+115
+00:06:53.634 --> 00:06:57.095
+where it's like, well, okay. The chips are there, but there's no
+
+116
+00:06:57.680 --> 00:07:00.900
+design. So it's gonna be a pain in the ass to build anything with them.
+
+117
+00:07:02.000 --> 00:07:09.379
+But we can't really build anything with them unless, like, we have the chips and, like, can reverse engineer them. So
+
+118
+00:07:10.455 --> 00:07:14.555
+that I think that, like, really, like, kinda put a damper on everything,
+
+119
+00:07:15.414 --> 00:07:23.594
+because it's not like people could just, like, take the chip and have a data sheet and know everything about it that they needed and get off to the races with building stuff.
+
+120
+00:07:24.600 --> 00:07:26.540
+So it took some time, but,
+
+121
+00:07:27.560 --> 00:07:31.980
+I'm not gonna name names yet, but there's a couple people working on open sourcing,
+
+122
+00:07:33.160 --> 00:07:35.980
+subset of all the intel documentation
+
+123
+00:07:36.360 --> 00:07:37.740
+related to those chips.
+
+124
+00:07:39.035 --> 00:07:39.775
+And then,
+
+125
+00:07:40.235 --> 00:07:41.055
+there's also
+
+126
+00:07:41.435 --> 00:07:50.735
+other, like, reference designs like, Scott, you're working on the BitX with the Intel chips. Mhmm. We're gonna be working on the number one with Intel chips.
+
+127
+00:07:51.500 --> 00:07:53.440
+And so there will be supporting documentation
+
+128
+00:07:54.060 --> 00:07:55.520
+for those reference designs.
+
+129
+00:07:56.620 --> 00:07:58.320
+Stop me if I say anything inaccurate.
+
+130
+00:08:00.580 --> 00:08:01.080
+And
+
+131
+00:08:01.980 --> 00:08:09.175
+<v Unknown> Absolutely. That's the plan. Yeah. For people that don't know these chips, they're they're the few years old. Like, they're several years old. This was a
+
+132
+00:08:09.475 --> 00:08:11.255
+an Intel project that
+
+133
+00:08:11.955 --> 00:08:16.134
+sort of against all odds, Intel started making Bitcoin mining ASICs,
+
+134
+00:08:16.914 --> 00:08:17.550
+which is
+
+135
+00:08:18.190 --> 00:08:19.009
+pretty rad.
+
+136
+00:08:19.389 --> 00:08:30.370
+And they they went through several revisions. I believe this is the second major revision, hence, the BZM two. The code name was for the chip was Bonanza Mine. So I think that's where the BZM
+
+137
+00:08:30.750 --> 00:08:31.970
+is comes from.
+
+138
+00:08:32.565 --> 00:08:35.785
+And, yeah, they they made them and millions of chips were produced.
+
+139
+00:08:36.565 --> 00:08:37.065
+And
+
+140
+00:08:37.845 --> 00:08:38.345
+several,
+
+141
+00:08:38.965 --> 00:08:41.225
+Pubco miners and other mining designing,
+
+142
+00:08:41.765 --> 00:08:43.305
+miner designing entities
+
+143
+00:08:43.685 --> 00:08:44.665
+bought these chips.
+
+144
+00:08:45.045 --> 00:08:45.545
+And
+
+145
+00:08:46.565 --> 00:08:49.780
+a couple miner designs couple miners were actually made.
+
+146
+00:08:50.320 --> 00:08:52.020
+I believe Hive made one.
+
+147
+00:08:52.640 --> 00:08:55.380
+Hive Mining made one and had some machines produced.
+
+148
+00:08:56.320 --> 00:09:02.500
+But it seems like the majority of these chips just sat in boxes very much like those ones behind Eco there.
+
+149
+00:09:02.880 --> 00:09:05.285
+And And they sat there for a long time. And,
+
+150
+00:09:06.485 --> 00:09:06.985
+until
+
+151
+00:09:07.845 --> 00:09:09.305
+from what I understand, Intel,
+
+152
+00:09:09.925 --> 00:09:11.704
+like, a VP or something
+
+153
+00:09:12.084 --> 00:09:14.505
+left, and then they were having a
+
+154
+00:09:14.885 --> 00:09:21.550
+a crisis with and they canceled a bunch of projects, like, all over the board, like routers and graphics chips and things like that. And
+
+155
+00:09:22.170 --> 00:09:27.390
+surprise, surprise, this pesky Bitcoin mining project also just got canceled.
+
+156
+00:09:29.290 --> 00:09:37.035
+It was it was a shame. I think that some of the people I definitely know that some of the people working on it were very passionate about this, and they're making a lot of good progress. Intel
+
+157
+00:09:37.415 --> 00:09:42.714
+obviously has some experience in making semiconductors, and so they were doing quite well.
+
+158
+00:09:45.740 --> 00:09:51.920
+That team was mostly disbanded at Intel, and then all the people who had bought the chips were kinda, like,
+
+159
+00:09:52.459 --> 00:09:52.959
+just
+
+160
+00:09:53.980 --> 00:09:54.879
+left with them.
+
+161
+00:09:55.180 --> 00:09:58.815
+And they kinda sat around, and now they're they're they're old.
+
+162
+00:09:59.615 --> 00:10:00.355
+I have
+
+163
+00:10:00.815 --> 00:10:07.875
+some of the specs here. They're, like, nominally, they're, like, 29 joules per terahash. So that's, like,
+
+164
+00:10:08.495 --> 00:10:09.315
+s 19,
+
+165
+00:10:10.175 --> 00:10:12.595
+j pro kinda era chips.
+
+166
+00:10:13.570 --> 00:10:15.490
+They're nominally 350
+
+167
+00:10:16.370 --> 00:10:18.950
+let's see. Actually, maybe more like $3.75,
+
+168
+00:10:20.450 --> 00:10:22.310
+gigahash each. So that's
+
+169
+00:10:22.690 --> 00:10:26.870
+like a third or a quarter maybe of what modern,
+
+170
+00:10:28.065 --> 00:10:30.644
+hash rate modern chips hash rate is.
+
+171
+00:10:31.024 --> 00:10:33.605
+So definitely old. But because
+
+172
+00:10:34.785 --> 00:10:36.084
+these chips are now
+
+173
+00:10:36.785 --> 00:10:37.285
+just
+
+174
+00:10:38.144 --> 00:10:38.644
+useless,
+
+175
+00:10:39.505 --> 00:10:48.190
+for any sort of industrial mining purpose. Like, no one would go through the trouble of creating designing a whole new miner to use these chips just to have an outdated design,
+
+176
+00:10:49.050 --> 00:10:50.350
+especially for, like, industrial
+
+177
+00:10:51.130 --> 00:10:51.950
+grid mining.
+
+178
+00:10:52.490 --> 00:10:53.470
+The chips are,
+
+179
+00:10:54.010 --> 00:10:56.590
+yeah, they're available for free. So
+
+180
+00:10:56.915 --> 00:10:59.655
+the dollars per terra hash on these chips is great.
+
+181
+00:11:00.275 --> 00:11:01.555
+It is real good.
+
+182
+00:11:02.035 --> 00:11:06.855
+The efficiency, not so much, but whatever. I think that home miners, heat reuse people,
+
+183
+00:11:07.635 --> 00:11:09.975
+can definitely benefit of this because we can just
+
+184
+00:11:10.350 --> 00:11:11.250
+do these designs
+
+185
+00:11:12.430 --> 00:11:17.170
+packing in a ton of chips. Right? There's not a huge downside to that.
+
+186
+00:11:18.829 --> 00:11:20.209
+<v Unknown> And then the documentation
+
+187
+00:11:20.510 --> 00:11:26.305
+is what's going to make it accessible. Right? I mean, that's when you're actually laying out your PCB designs,
+
+188
+00:11:27.005 --> 00:11:33.185
+kinda knowing what needs what voltage, what needs what frequency. Otherwise, you're just doing guesswork. That was what you've been doing.
+
+189
+00:11:33.805 --> 00:11:35.185
+<v Unknown> Yeah. Yeah. And so
+
+190
+00:11:35.725 --> 00:11:36.225
+Intel
+
+191
+00:11:37.370 --> 00:11:42.649
+being a very, you know, professional established company made a lot of documentation for these.
+
+192
+00:11:43.450 --> 00:11:46.190
+Unfortunately, the documentation is still mired in, like,
+
+193
+00:11:46.730 --> 00:11:47.230
+existing
+
+194
+00:11:48.089 --> 00:11:48.589
+nondisclosure
+
+195
+00:11:48.890 --> 00:11:50.910
+agreements and legal kind of stuff.
+
+196
+00:11:52.055 --> 00:11:58.954
+But they did they did sell these tips to a number of customers, and those customers were provided with the documentation. So it's out there.
+
+197
+00:12:00.855 --> 00:12:01.355
+And,
+
+198
+00:12:03.175 --> 00:12:09.940
+yeah, some people it's not ideal, but some people have access to it, and they can't they can't share it. But what they can do is
+
+199
+00:12:10.320 --> 00:12:10.820
+design,
+
+200
+00:12:12.000 --> 00:12:14.340
+you know, rework the documentation,
+
+201
+00:12:15.200 --> 00:12:21.620
+also design sort of make reference designs and publish that open source. And so that's what's in progress right now. Mhmm.
+
+202
+00:12:22.085 --> 00:12:25.865
+Admittedly, right now as it is, I think getting these chips,
+
+203
+00:12:26.245 --> 00:12:28.105
+you're not gonna be able to do anything with them,
+
+204
+00:12:28.645 --> 00:12:30.665
+assuming you don't wanna reverse engineer them.
+
+205
+00:12:31.285 --> 00:12:31.785
+But,
+
+206
+00:12:32.405 --> 00:12:37.145
+you know, have faith. I think that these these reference designs and open source documentation
+
+207
+00:12:37.959 --> 00:12:42.140
+will come out. Mhmm. And then, I think that will allow us to really, really unlock,
+
+208
+00:12:42.839 --> 00:12:50.060
+<v Unknown> the the benefits here of having these. Yeah. So, I mean, these the couple guys that I'm thinking of, they've been working on,
+
+209
+00:12:50.760 --> 00:12:52.220
+creating this, like, subset
+
+210
+00:12:52.745 --> 00:12:54.045
+of the intel documentation
+
+211
+00:12:54.505 --> 00:12:56.925
+and the reference designs for months,
+
+212
+00:12:57.865 --> 00:12:59.324
+leading up to these chips,
+
+213
+00:12:59.785 --> 00:13:00.285
+getting
+
+214
+00:13:00.665 --> 00:13:01.485
+handed out,
+
+215
+00:13:02.185 --> 00:13:06.845
+via proto to, you know, to the two fifty six foundation and then to the end users.
+
+216
+00:13:08.430 --> 00:13:10.370
+So now that that's actually happening,
+
+217
+00:13:10.750 --> 00:13:11.310
+I think,
+
+218
+00:13:11.950 --> 00:13:15.010
+they'll probably be a little bit more motivated to,
+
+219
+00:13:15.390 --> 00:13:17.090
+get the documentation out there.
+
+220
+00:13:18.670 --> 00:13:22.770
+So, yeah, it should be soon. But then, you know, once that documentation's out there,
+
+221
+00:13:23.465 --> 00:13:25.245
+that I think that was really the holdup.
+
+222
+00:13:26.025 --> 00:13:28.685
+And so now we're gonna see developers,
+
+223
+00:13:29.785 --> 00:13:36.125
+integrate these chips in all sorts of neat and new form factors and use cases. And,
+
+224
+00:13:37.620 --> 00:13:46.200
+you know, to your point, it's like I I was mentioning this to somebody on Telegram this morning. It's like the they were like, well, it's like a dead chip. So, you know, this isn't
+
+225
+00:13:46.980 --> 00:13:53.885
+the vibe was that it wasn't, like, a very exciting announcement. And it's like, yeah, it's it's an old chip, you know. Industrial
+
+226
+00:13:54.265 --> 00:13:59.485
+miners don't really have a use for it, so it's trash to them, but treasured open source developers
+
+227
+00:14:00.025 --> 00:14:02.045
+who are just trying to
+
+228
+00:14:02.585 --> 00:14:04.605
+get away from having to desolder
+
+229
+00:14:05.399 --> 00:14:13.660
+chips from bit main hash boards and reverse engineer them to build this tech. So, you know, I think we're gonna see a lot of cool designs
+
+230
+00:14:14.199 --> 00:14:26.565
+and, hopefully, intelligent designs like we're doing with the Ember one. It's like, yeah, this will just be a passing phase, and there's not gonna be, like, multiple generations of, ember ones with Intel chips.
+
+231
+00:14:27.025 --> 00:14:34.645
+But the ember ones are standardized, so, you know, the whole idea is it doesn't matter which chip is on there. The form factor stays the same.
+
+232
+00:14:35.260 --> 00:14:36.000
+So, you
+
+233
+00:14:36.779 --> 00:14:48.000
+know, it there'll there will be an Intel version of the Ember one, and that'll just be one of several that fit into the same chassis and use the same fans, use the same control board, and everything else stays the same.
+
+234
+00:14:48.495 --> 00:14:49.475
+<v Unknown> And like everything
+
+235
+00:14:49.855 --> 00:14:50.355
+that,
+
+236
+00:14:50.815 --> 00:14:52.995
+you know, the two fifty six Foundation does,
+
+237
+00:14:53.535 --> 00:15:01.235
+all the designs are fully open source. So we hope that, you know, when these get out there, it can serve as kind of a a proxy for
+
+238
+00:15:01.680 --> 00:15:04.660
+the documentation and people can can run with these designs.
+
+239
+00:15:05.040 --> 00:15:05.540
+We'll
+
+240
+00:15:05.840 --> 00:15:08.340
+have several different firmware implementations,
+
+241
+00:15:09.600 --> 00:15:10.660
+that people can,
+
+242
+00:15:10.960 --> 00:15:12.900
+you know, fully check out the source
+
+243
+00:15:13.280 --> 00:15:15.755
+and either build these units themselves,
+
+244
+00:15:16.695 --> 00:15:19.915
+as they are or modify it and make new stuff.
+
+245
+00:15:20.535 --> 00:15:24.795
+<v Unknown> Yeah. And, you know, I think the just the more people we get involved in this, the better.
+
+246
+00:15:25.815 --> 00:15:29.115
+You know, the more people we have, like, working on open source tech,
+
+247
+00:15:29.970 --> 00:15:31.590
+the better. And there's gonna be
+
+248
+00:15:32.530 --> 00:15:40.950
+some people who see the opportunity here and, like, jump on it and start getting involved, and those are gonna be the people who are very well positioned
+
+249
+00:15:41.725 --> 00:15:42.225
+for
+
+250
+00:15:42.685 --> 00:15:46.705
+what's what I anticipate coming down the road, which is more chip manufacturers
+
+251
+00:15:47.485 --> 00:15:49.265
+selling their chips a la carte
+
+252
+00:15:49.725 --> 00:15:52.305
+and providing that supporting documentation.
+
+253
+00:15:53.805 --> 00:15:56.785
+And that that's the phase that I'm really excited for,
+
+254
+00:15:58.269 --> 00:16:02.850
+because the people who are getting involved now are gonna be really well positioned to just
+
+255
+00:16:03.550 --> 00:16:10.529
+start integrating all sorts of new designs into their assembly lines and, you know, building these businesses on top of
+
+256
+00:16:10.964 --> 00:16:11.464
+this
+
+257
+00:16:11.925 --> 00:16:13.785
+foundation of free and open source
+
+258
+00:16:14.725 --> 00:16:18.904
+software and hardware, you know, whether that's, you know, distribution business or,
+
+259
+00:16:19.845 --> 00:16:26.200
+manufacturing business or support tech support business, you know, whatever it is, there's a number of opportunities
+
+260
+00:16:26.580 --> 00:16:29.240
+out there that I think can exist
+
+261
+00:16:30.260 --> 00:16:33.560
+on on a foundation of these open source designs.
+
+262
+00:16:35.140 --> 00:16:39.080
+<v Unknown> It's super exciting. I mean, you can think of them as dead chips. But,
+
+263
+00:16:40.165 --> 00:16:50.505
+essentially, we have these machines that mine Bitcoin and they have little engines inside of them. And someone invented this engine and no one's told the world how the engine works. And so everyone's just eager to have an engine
+
+264
+00:16:50.885 --> 00:16:55.050
+to document and tinker with. And then everyone will follow suit, and it becomes
+
+265
+00:16:55.670 --> 00:16:59.610
+like a commodity that anyone can build off that platform. Yeah. Yep.
+
+266
+00:17:00.390 --> 00:17:06.715
+<v Unknown> Yeah. I think that's the way it needs to go too. I mean, that's the way it is for the rest of electronics market too. It's like there's
+
+267
+00:17:07.335 --> 00:17:12.635
+chip manufacturers and in most cases, they don't make the systems. They they sell those chips
+
+268
+00:17:13.015 --> 00:17:13.755
+to others
+
+269
+00:17:14.055 --> 00:17:28.240
+at a profit who are making systems, who can build and value add features on top of that that different markets wanna see, and of course, also profit on top of that. Mhmm. And I think adding the open source element to it, of course, is going to be,
+
+270
+00:17:28.620 --> 00:17:30.880
+keeping with the Bitcoin ethos, which is pretty important.
+
+271
+00:17:32.140 --> 00:17:33.280
+<v Unknown> Yeah. The last pillar.
+
+272
+00:17:33.855 --> 00:17:36.115
+<v Unknown> And I think Right. Yeah. Exactly. It it'll
+
+273
+00:17:36.575 --> 00:17:48.035
+also, like, speed up development too. Like like we were saying at the beginning of the show, dude, like, things have been happening at a breakneck pace for the last few years in the home mining,
+
+274
+00:17:49.860 --> 00:17:51.800
+facet of the Bitcoin ecosystem.
+
+275
+00:17:54.500 --> 00:17:59.640
+<v Unknown> Yeah. As it should be. There's always a cool new home miner every week. I saw some
+
+276
+00:18:00.580 --> 00:18:02.280
+solar projects this week.
+
+277
+00:18:04.034 --> 00:18:12.054
+<v Unknown> Sunlight power. Did you see that one? Business cat? From business cat? Yeah. Yeah. That was awesome. That was awesome. Dude, like, it was only four years ago that I was, like,
+
+278
+00:18:12.835 --> 00:18:17.654
+sticking a What's Miner in my basement in a wooden box that I had built and, like,
+
+279
+00:18:17.990 --> 00:18:22.410
+tormenting my family with the whining of the fans while that thing just hashed away.
+
+280
+00:18:23.430 --> 00:18:43.985
+<v Unknown> So, you know, we've come a long way in a pretty short period of time. I still have here at the Space Center Basement, we have Rob Warren's original, like, wooden silenced s nine box prototype. I'm keeping it. It's a relic. Yeah. The one he had in his, he had it in his bathroom in his apartment. Right? Yeah. Yeah. We have it. That's awesome. It's a piece of history. Yeah. It belongs in a museum.
+
+281
+00:18:44.285 --> 00:18:44.785
+<v Unknown> Yeah.
+
+282
+00:18:47.325 --> 00:18:47.985
+<v Unknown> It does.
+
+283
+00:18:48.559 --> 00:18:52.820
+<v Unknown> Yeah. What, talk about business cats post. That was awesome to see.
+
+284
+00:18:53.679 --> 00:18:55.620
+<v Unknown> Yeah. So it's a brains mini miner,
+
+285
+00:18:56.000 --> 00:19:08.355
+which is I have one at they're pretty cool. They have that full LED display on them that can cycle through all the the network metrics. Yep. And the hash point of the two fouse two five six foundation, obviously, we'll shout out the hashers.
+
+286
+00:19:09.295 --> 00:19:10.515
+I'm pulling up the post.
+
+287
+00:19:11.855 --> 00:19:14.575
+<v Unknown> What I really liked about his post is it was like
+
+288
+00:19:15.710 --> 00:19:20.530
+it just made me think that, like, dude, there's there's solar panels charging the battery.
+
+289
+00:19:20.910 --> 00:19:22.430
+The battery pack has,
+
+290
+00:19:22.910 --> 00:19:26.450
+inverter on it. It's outputting a 120 volts that's powering the miner.
+
+291
+00:19:27.310 --> 00:19:41.895
+<v Unknown> And then he had it hooked up to Starlink. Right? Yeah. And this is, like, a camping solar kit that folds out into a little tote bag. Like, it's anyone can do this anywhere, anytime. Right. And it just made me think, like, dude, you can't stop this sort of,
+
+292
+00:19:42.355 --> 00:19:42.855
+<v Unknown> like,
+
+293
+00:19:43.475 --> 00:19:46.615
+technology. You you can't stop Bitcoin mining. No.
+
+294
+00:19:47.440 --> 00:19:47.940
+<v Unknown> That,
+
+295
+00:19:48.400 --> 00:19:49.300
+like, sort
+
+296
+00:19:50.480 --> 00:19:53.540
+of fuck around and find out weekend project stuff
+
+297
+00:19:53.840 --> 00:19:55.220
+is so cool because, you
+
+298
+00:19:55.520 --> 00:19:59.380
+know, in some of those cases, it's going to progress into
+
+299
+00:20:00.240 --> 00:20:01.300
+a major industry,
+
+300
+00:20:02.000 --> 00:20:03.060
+which is so exciting.
+
+301
+00:20:03.674 --> 00:20:05.534
+<v Unknown> Speaking of fuck around and find out,
+
+302
+00:20:06.554 --> 00:20:09.455
+Dylan cooked up something really cool this week that I'll show.
+
+303
+00:20:10.235 --> 00:20:12.075
+This is, like, a $50
+
+304
+00:20:12.075 --> 00:20:12.975
+Android tablet
+
+305
+00:20:13.355 --> 00:20:16.815
+with a kiosk mode of home assistant, so you can't leave the dashboard.
+
+306
+00:20:17.210 --> 00:20:21.230
+And underneath is Hass miner and Pi ASICs. So shout out to Schnitzel and Brett Rowan.
+
+307
+00:20:21.610 --> 00:20:22.430
+But this is
+
+308
+00:20:22.970 --> 00:20:25.230
+our office and upstairs conference room
+
+309
+00:20:25.850 --> 00:20:26.350
+thermostats,
+
+310
+00:20:27.050 --> 00:20:36.595
+and you can change the temperature. And underneath, it shows your hash rate and if the miner's on or not. And this is talking to temperature sensors just littered throughout our building. So it's not actually
+
+311
+00:20:37.134 --> 00:20:39.955
+responding to the internal machine temperature sensor.
+
+312
+00:20:40.654 --> 00:20:42.434
+It's behaving like a heating system.
+
+313
+00:20:42.815 --> 00:20:44.274
+<v Unknown> That's amazing. Awesome.
+
+314
+00:20:44.659 --> 00:20:46.519
+<v Unknown> So we're gonna try and package this up,
+
+315
+00:20:46.820 --> 00:20:50.120
+open source it, put it on home on Home Assistant services,
+
+316
+00:20:50.580 --> 00:20:57.720
+and then you just, like, download this and it says, you know, connect your Zigbee temperature sensor for $10 and tell me the miner's IP address.
+
+317
+00:20:58.105 --> 00:21:05.325
+It'll pull home pass miner, pyasic. You'll get all the API variables that's done on the back end. And then you can essentially turn any miner into,
+
+318
+00:21:05.625 --> 00:21:06.605
+like, a responsive
+
+319
+00:21:07.304 --> 00:21:09.485
+room heating system. Dude, that's amazing.
+
+320
+00:21:10.585 --> 00:21:12.605
+It is. Dylan's a wizard at home assistant.
+
+321
+00:21:13.100 --> 00:21:13.920
+<v Unknown> That's so
+
+322
+00:21:14.260 --> 00:21:14.760
+cool.
+
+323
+00:21:15.100 --> 00:21:16.240
+I need one of those.
+
+324
+00:21:18.060 --> 00:21:19.840
+Yeah. This weekend, actually.
+
+325
+00:21:21.420 --> 00:21:24.240
+<v Unknown> I I wanna get home assistant packaged for
+
+326
+00:21:24.780 --> 00:21:29.155
+a lot of nodes that people have, like umbrells and start nines and, I don't know, future bit too because
+
+327
+00:21:29.535 --> 00:21:36.035
+that's, like, one thing that we have to have this little additional Raspberry Pi for just on the side to run Home Assistant OS.
+
+328
+00:21:37.375 --> 00:21:43.890
+<v Unknown> But, yeah, there's so many cool features you can do with it. You could just run it right on the Libri board once we have those done. Or that.
+
+329
+00:21:44.190 --> 00:21:45.250
+<v Unknown> Yeah. Exactly.
+
+330
+00:21:46.190 --> 00:21:50.850
+<v Unknown> Pretty excited about that. Libri board with the Raspberry Pi right on it. You can run your mining application.
+
+331
+00:21:51.310 --> 00:21:53.250
+And then on the same system,
+
+332
+00:21:53.790 --> 00:21:54.850
+you know, run your
+
+333
+00:21:55.455 --> 00:21:57.615
+home assistant plugins or or,
+
+334
+00:21:58.495 --> 00:21:59.955
+<v Unknown> Does it have to be two VMs?
+
+335
+00:22:00.335 --> 00:22:02.995
+Do they have to be isolated or how does it work?
+
+336
+00:22:03.855 --> 00:22:13.570
+<v Unknown> It shouldn't have to be. No. No. Definitely not. I mean, it's just think of it as two different applications running on any system. Gotcha. It's just like any other Linux OS.
+
+337
+00:22:14.990 --> 00:22:15.490
+<v Unknown> Amazing.
+
+338
+00:22:15.790 --> 00:22:22.445
+<v Unknown> Yeah. I mean, it it will be eventually. Maybe not like the very first iteration of the firmware, Magina. But,
+
+339
+00:22:22.905 --> 00:22:25.165
+yeah, that's what we wanna do.
+
+340
+00:22:26.905 --> 00:22:34.630
+<v Unknown> It's it is. I mean, we've talked about this many times before, but it just blows my mind. Like, all the big miners out there are running Linux, and they have, like, fairly capable,
+
+341
+00:22:35.330 --> 00:22:37.830
+processors and RAM on the control board. Like,
+
+342
+00:22:38.610 --> 00:22:39.110
+if
+
+343
+00:22:39.490 --> 00:22:40.789
+we were allowed to,
+
+344
+00:22:41.169 --> 00:22:42.950
+you could you could definitely
+
+345
+00:22:43.809 --> 00:22:47.590
+load arbitrary software on there to do what you wanna do or modify
+
+346
+00:22:47.890 --> 00:22:48.825
+what's on there.
+
+347
+00:22:49.625 --> 00:22:50.365
+You know, there's
+
+348
+00:22:51.065 --> 00:22:55.245
+people have done really neat stuff with sort of external stuff like Bombsta's,
+
+349
+00:22:57.385 --> 00:22:58.684
+Loki board. Yeah.
+
+350
+00:22:59.625 --> 00:23:06.870
+And, there was a a project. I forget who did it now, but it was just to add a little, like, LCD display to their miner.
+
+351
+00:23:08.210 --> 00:23:09.670
+These are these are all, like,
+
+352
+00:23:10.530 --> 00:23:11.590
+trivial projects
+
+353
+00:23:11.890 --> 00:23:16.935
+with a Raspberry Pi. So now imagine that Raspberry Pi is also running your mining application and has
+
+354
+00:23:17.895 --> 00:23:20.395
+hardware to control your miner. Like,
+
+355
+00:23:20.695 --> 00:23:23.035
+you could add a touch screen, you could add
+
+356
+00:23:23.975 --> 00:23:27.595
+all kinds of cool stuff. Excited to see what people come up with there. Exactly.
+
+357
+00:23:28.215 --> 00:23:28.875
+<v Unknown> Oh, yeah.
+
+358
+00:23:29.255 --> 00:23:31.595
+And that's where the firmware comes in too. Just
+
+359
+00:23:32.059 --> 00:23:34.160
+laying the groundwork for all this to be able to work.
+
+360
+00:23:34.620 --> 00:23:36.480
+Speaking of firmware, did you guys see
+
+361
+00:23:37.260 --> 00:23:38.400
+SastStack and Pleb's
+
+362
+00:23:38.780 --> 00:23:41.440
+little poll he ran on favorite third party firmwares?
+
+363
+00:23:41.820 --> 00:23:49.595
+<v Unknown> I did not vote in that. There was no good options. Yeah. I I didn't vote either. What were the options? I didn't see that. Brains, Luxe, and Vanish.
+
+364
+00:23:50.135 --> 00:23:50.715
+<v Unknown> And then
+
+365
+00:23:51.815 --> 00:23:57.835
+the the the comment that was so funny from agent p was, These all suck. LuxOS forgets my pool settings after reboot.
+
+366
+00:23:58.200 --> 00:24:09.340
+After the dev fee server debacle shutting down Venetian miners worldwide, I'm never ever touching them again. Brain's dev fee goes to Antpool. Epic tried to toast my XP board during the boot up sequence. There are no great options
+
+367
+00:24:09.720 --> 00:24:11.775
+until LibriBoard and Mugena are released.
+
+368
+00:24:13.375 --> 00:24:14.995
+<v Unknown> Damn. Burn. True facts.
+
+369
+00:24:15.375 --> 00:24:21.075
+<v Unknown> I think I did see that actually, now that you mentioned it. Yeah. He went hard in the paint, but,
+
+370
+00:24:21.775 --> 00:24:25.100
+<v Unknown> I mean, he's highlighting pinpoints with Yeah. All of them.
+
+371
+00:24:26.200 --> 00:24:28.220
+And they have great teams doing great work,
+
+372
+00:24:28.679 --> 00:24:37.660
+and they were solving for a challenge that has kind of been the status quo of the industry for so many years, which is literally just jailbreaking these machines because the OEMs aren't
+
+373
+00:24:38.200 --> 00:24:38.700
+accommodating.
+
+374
+00:24:40.585 --> 00:24:47.804
+But Yep. It really makes sense to just have it open source from start. Yeah. You're not gonna have to worry about dev fees with Magina.
+
+375
+00:24:48.345 --> 00:24:53.804
+<v Unknown> The boards are gonna be hot swappable. There's gonna be multiple drivers for different kinds of ASIC chips.
+
+376
+00:24:55.040 --> 00:24:59.140
+The thing that I'm just a little foggy on is how we make Mujin
+
+377
+00:24:59.520 --> 00:25:04.020
+Mujina able to be loaded on, like, a Antminer or a Wattsminer.
+
+378
+00:25:04.400 --> 00:25:06.740
+I don't know what that's gonna look like. But,
+
+379
+00:25:08.315 --> 00:25:10.575
+<v Unknown> I think the easy way is to make a compatible
+
+380
+00:25:11.275 --> 00:25:11.775
+control
+
+381
+00:25:12.315 --> 00:25:13.775
+board Yeah. For those miners.
+
+382
+00:25:14.715 --> 00:25:15.695
+You know, you could
+
+383
+00:25:16.075 --> 00:25:16.815
+you could
+
+384
+00:25:17.355 --> 00:25:21.215
+I guess the the jailbreaks are out there. There might be proprietary
+
+385
+00:25:21.674 --> 00:25:23.740
+information of, like, Luxor
+
+386
+00:25:24.200 --> 00:25:29.680
+and Brains and stuff, like, how they actually have jailbreak in the latest control boards from,
+
+387
+00:25:30.660 --> 00:25:31.900
+from Bitmain.
+
+388
+00:25:32.360 --> 00:25:32.860
+But
+
+389
+00:25:33.800 --> 00:25:41.755
+I think you the the route that, that Epic took was like, you know what? Like, the board isn't even that complicated. Let's just do a new control board.
+
+390
+00:25:43.015 --> 00:25:43.515
+Mhmm.
+
+391
+00:25:43.815 --> 00:25:45.995
+And then so that that's what the
+
+392
+00:25:46.535 --> 00:25:53.010
+the Libra board could be. And so you could imagine the Libra board made into the same form factor that snaps right into your,
+
+393
+00:25:53.490 --> 00:25:56.310
+Antminer into the top. Has the connectors for,
+
+394
+00:25:57.330 --> 00:26:01.270
+your hash boards or USB if you wanna use the, the dashboard.
+
+395
+00:26:01.650 --> 00:26:02.150
+<v Unknown> Right.
+
+396
+00:26:03.170 --> 00:26:03.830
+<v Unknown> But then
+
+397
+00:26:04.615 --> 00:26:05.835
+then it's it's
+
+398
+00:26:06.215 --> 00:26:11.595
+it's trivial. It's it's encouraged to load your own software on there. Like, you can just SSH
+
+399
+00:26:12.054 --> 00:26:12.875
+into your,
+
+400
+00:26:13.414 --> 00:26:17.835
+control board, into the processor that's running on there. You could load the software on there. You could
+
+401
+00:26:18.230 --> 00:26:20.090
+you could, like, get clone the source
+
+402
+00:26:20.390 --> 00:26:24.250
+on your board and build it there right on your board. It's a computer.
+
+403
+00:26:25.670 --> 00:26:28.010
+So when we're not actively battling,
+
+404
+00:26:28.550 --> 00:26:31.130
+like, vendor lock in, you can
+
+405
+00:26:31.750 --> 00:26:33.610
+you can get a lot done. Yeah.
+
+406
+00:26:33.990 --> 00:26:40.945
+<v Unknown> So So all this happens at the control board level? Is it from my understanding, and maybe some in the audience too aren't as keen like myself, but
+
+407
+00:26:41.565 --> 00:26:45.245
+it's not the hash boards you have to trick. It's the control boards. They just get their
+
+408
+00:26:45.965 --> 00:26:57.300
+you're sending, like, current and flow rate, which is, you know, voltage pressure. That's how I view it in my engineer mind. Like, current and flow rate is flow rate, and, voltage is pressure. Like, as long as they get their inputs, they'll hash.
+
+409
+00:26:57.680 --> 00:27:01.665
+And then the control board's gotta be hacked and have the right communication.
+
+410
+00:27:02.045 --> 00:27:09.025
+<v Unknown> Is that fair to say? Yeah. Yeah. If we're speaking about Antminers, which is by far the most common miner out there, it
+
+411
+00:27:09.405 --> 00:27:10.225
+the the
+
+412
+00:27:10.765 --> 00:27:16.200
+the link between the control board and the hash boards is just serial. It's straight up
+
+413
+00:27:16.600 --> 00:27:17.820
+like plain Jane's serial
+
+414
+00:27:18.600 --> 00:27:19.100
+and,
+
+415
+00:27:20.440 --> 00:27:25.100
+any reasonable computer can output that serial to the control boards. And it
+
+416
+00:27:25.639 --> 00:27:28.059
+it's really basic in that like
+
+417
+00:27:28.485 --> 00:27:38.025
+over that serial link, you are sending the commands to the chips. There's no, like, smartness or anything going on in the hash. You're saying the the data that the chips want, which is
+
+418
+00:27:38.725 --> 00:27:39.785
+essentially just
+
+419
+00:27:41.940 --> 00:27:44.120
+is just the work. It's like the the,
+
+420
+00:27:44.820 --> 00:27:45.940
+block header that
+
+421
+00:27:46.260 --> 00:27:52.280
+Gotcha. The template that you wanna mine. You want the chips to mine. And then getting the responses back from them, which would be
+
+422
+00:27:53.644 --> 00:27:56.945
+the nonces essentially that that make that,
+
+423
+00:27:58.205 --> 00:27:59.904
+that make that hash. So,
+
+424
+00:28:00.764 --> 00:28:01.904
+you know, there's a there's
+
+425
+00:28:02.845 --> 00:28:08.520
+I guess, actually, on the newer Bitmain machines, you don't even control the voltage. Like, that's taken care of by the power supply.
+
+426
+00:28:09.460 --> 00:28:10.280
+So, like,
+
+427
+00:28:10.740 --> 00:28:12.120
+you just give them power,
+
+428
+00:28:13.700 --> 00:28:14.200
+and
+
+429
+00:28:15.300 --> 00:28:18.760
+send them the data so that they can start mining. There's like an init sequence.
+
+430
+00:28:19.380 --> 00:28:22.120
+Gotcha. We've we've got that under control. So
+
+431
+00:28:22.475 --> 00:28:24.335
+<v Unknown> we can get these ramped up pretty quickly.
+
+432
+00:28:24.715 --> 00:28:26.235
+Didn't didn't you say the,
+
+433
+00:28:27.435 --> 00:28:30.255
+the Intel chips use nine bit serial?
+
+434
+00:28:31.035 --> 00:28:33.615
+<v Unknown> Yeah. This is this is a really weird thing.
+
+435
+00:28:35.570 --> 00:28:36.070
+So
+
+436
+00:28:36.690 --> 00:28:40.790
+standard, like, asynchronous serial is there's, like, eight bits.
+
+437
+00:28:41.650 --> 00:28:43.670
+And that's how a lot of,
+
+438
+00:28:44.290 --> 00:28:45.270
+CPU hardware
+
+439
+00:28:45.730 --> 00:28:48.390
+is, like, essentially hard coded to do serial.
+
+440
+00:28:48.850 --> 00:28:54.785
+So So it sends out, you know, these bytes that are eight bits, and then there's like a start and stop bit on each end. But
+
+441
+00:28:55.805 --> 00:28:57.665
+from way, way back in the day,
+
+442
+00:28:58.845 --> 00:29:03.169
+people did use different numbers of bits in sort of their in their serial,
+
+443
+00:29:03.710 --> 00:29:04.210
+bytes.
+
+444
+00:29:04.590 --> 00:29:05.090
+And
+
+445
+00:29:06.910 --> 00:29:09.330
+people have standardized on eight bits since,
+
+446
+00:29:09.950 --> 00:29:10.450
+but
+
+447
+00:29:10.750 --> 00:29:17.085
+apparently, Intel decided they wanted to do nine bit, which is probably the first nine bit serial thing I've run into since,
+
+448
+00:29:18.125 --> 00:29:20.385
+you know, like, certainly the last couple decades.
+
+449
+00:29:21.965 --> 00:29:23.505
+So it's tough. Not all
+
+450
+00:29:23.965 --> 00:29:24.705
+not all
+
+451
+00:29:25.164 --> 00:29:28.625
+CPU hardware can actually support nine bit serial.
+
+452
+00:29:29.245 --> 00:29:32.860
+So you gotta do some tricks to, to get it to work. Luckily,
+
+453
+00:29:33.240 --> 00:29:41.100
+the data sheet exists. So it tells you how exactly to format the nine bits. And you there's some tricks and workarounds and hacks and stuff to get,
+
+454
+00:29:42.200 --> 00:29:46.940
+CPUs, microcontrollers, and things like ESP 32 to to do nine bit serial.
+
+455
+00:29:48.135 --> 00:29:53.995
+<v Unknown> Dude, imagine if, like, Bitmain had designed theirs with nine bit serial. Like, do you think we'd be here today?
+
+456
+00:29:54.295 --> 00:29:56.315
+Like, do you think bit acts would have ever happened?
+
+457
+00:29:57.495 --> 00:29:58.955
+<v Unknown> Oh, yeah. Yeah. Yeah. We
+
+458
+00:29:59.335 --> 00:30:08.649
+we we will figure it out. Can't stop, Scott. We've spent quite a long time looking at it. It definitely is great that they they've been being used eight bit serial because that makes
+
+459
+00:30:09.029 --> 00:30:11.590
+anything can just control it out of the box. But,
+
+460
+00:30:12.230 --> 00:30:16.395
+we get it to work. Now some of the other attitude. Some of the other lesser,
+
+461
+00:30:17.175 --> 00:30:18.395
+less popular manufacturers,
+
+462
+00:30:19.255 --> 00:30:25.675
+use more complicated serial protocols like, microBT on the Whatsminer has a more complicated protocol.
+
+463
+00:30:26.055 --> 00:30:28.235
+It's, like, encrypted in a way,
+
+464
+00:30:29.175 --> 00:30:29.675
+which
+
+465
+00:30:30.630 --> 00:30:31.850
+makes it less trivial
+
+466
+00:30:32.150 --> 00:30:34.570
+to do. Mhmm. Kanaan uses
+
+467
+00:30:36.230 --> 00:30:37.210
+kind of a nonstandard
+
+468
+00:30:37.670 --> 00:30:38.170
+thing.
+
+469
+00:30:38.950 --> 00:30:47.445
+But actually, interestingly, the new chips from from block use don't use regular serial. They use this sort of new protocol called Sling.
+
+470
+00:30:49.184 --> 00:30:50.405
+That's like a bidirectional
+
+471
+00:30:50.945 --> 00:30:52.804
+dual SPI thing. But
+
+472
+00:30:53.424 --> 00:31:00.725
+the these are things that you kinda just have to figure out once and you write yourself like a modular driver and you can kinda drop it in anywhere.
+
+473
+00:31:01.050 --> 00:31:01.550
+Gotcha.
+
+474
+00:31:04.730 --> 00:31:09.950
+Dang. Yeah. Yeah. We we got this. No problem. Yes. Alright. I like your attitude.
+
+475
+00:31:10.410 --> 00:31:11.230
+<v Unknown> Let's go.
+
+476
+00:31:11.770 --> 00:31:13.950
+<v Unknown> Eko, what made you get a blue check mark finally?
+
+477
+00:31:14.965 --> 00:31:18.505
+<v Unknown> That was gifted to me by one of my followers, actually.
+
+478
+00:31:19.924 --> 00:31:24.105
+Nice. Yeah. Nice. So, like, never You didn't cave.
+
+479
+00:31:24.644 --> 00:31:26.245
+No. I didn't I didn't buy it.
+
+480
+00:31:27.044 --> 00:31:29.065
+One of my follower I got a notification
+
+481
+00:31:29.365 --> 00:31:30.105
+one day,
+
+482
+00:31:31.260 --> 00:31:34.400
+you know, in the depths of my shadow band,
+
+483
+00:31:35.260 --> 00:31:35.760
+like,
+
+484
+00:31:36.620 --> 00:31:37.760
+unseen account.
+
+485
+00:31:38.300 --> 00:31:40.960
+Like, I would rarely ever get any notifications.
+
+486
+00:31:41.340 --> 00:31:43.840
+And one day, I got a notification and
+
+487
+00:31:44.465 --> 00:31:46.085
+looked at it, and it said,
+
+488
+00:31:47.185 --> 00:31:49.845
+your account is being reviewed for
+
+489
+00:31:50.465 --> 00:31:51.765
+your blue check mark.
+
+490
+00:31:52.545 --> 00:31:54.565
+And I'm like, oh, that's interesting.
+
+491
+00:31:55.985 --> 00:32:04.440
+Because I I heard that, like, if you have a certain number of followers that have blue check marks, then you automatically get a blue check mark.
+
+492
+00:32:05.539 --> 00:32:07.880
+So I thought that's what was going on at first.
+
+493
+00:32:08.740 --> 00:32:11.480
+But then I clicked on it and it said,
+
+494
+00:32:11.914 --> 00:32:12.575
+you know,
+
+495
+00:32:12.955 --> 00:32:13.695
+this person
+
+496
+00:32:14.154 --> 00:32:14.654
+has,
+
+497
+00:32:15.115 --> 00:32:17.695
+gifted you a blue check mark subscription.
+
+498
+00:32:18.395 --> 00:32:19.135
+A premium
+
+499
+00:32:19.515 --> 00:32:20.735
+I think it's called premium.
+
+500
+00:32:21.115 --> 00:32:24.095
+They've gifted you a premium subscription for one year.
+
+501
+00:32:24.395 --> 00:32:27.690
+So you know who you are. Thank you very much.
+
+502
+00:32:27.990 --> 00:32:29.770
+The shadow ban is over, bitches.
+
+503
+00:32:30.230 --> 00:32:31.610
+Yeah. Let's go.
+
+504
+00:32:32.309 --> 00:32:33.450
+Now I can post,
+
+505
+00:32:34.630 --> 00:32:36.950
+tweets that are longer than 280
+
+506
+00:32:36.950 --> 00:32:37.450
+characters.
+
+507
+00:32:38.485 --> 00:32:40.024
+Grok responds to me.
+
+508
+00:32:40.325 --> 00:32:42.585
+I actually started getting followers again.
+
+509
+00:32:44.725 --> 00:32:47.544
+Yeah. Building momentum. All sorts of fun things.
+
+510
+00:32:49.125 --> 00:32:51.065
+<v Unknown> And you didn't have to, like,
+
+511
+00:32:52.130 --> 00:33:01.190
+give any personal information to get it? Uh-uh. Because they're not billing you. That's amazing. Yeah. And I from what I understand, I think you can pay
+
+512
+00:33:01.570 --> 00:33:04.230
+<v Unknown> for your premium subscription in cryptocurrency.
+
+513
+00:33:05.804 --> 00:33:08.144
+Oh. So I think if done right,
+
+514
+00:33:08.445 --> 00:33:10.865
+even this person didn't have to provide any,
+
+515
+00:33:11.725 --> 00:33:12.865
+identifying information
+
+516
+00:33:14.284 --> 00:33:15.745
+to to get that subscription.
+
+517
+00:33:18.320 --> 00:33:21.700
+<v Unknown> I you know, obviously, these centralized services have gotta go.
+
+518
+00:33:22.000 --> 00:33:28.340
+But sometimes when there's one that provides a lot of value and they provide an option to pay for it to eliminate ads,
+
+519
+00:33:29.440 --> 00:33:34.495
+that's that's pretty tempting in my book because ads suck. Yeah. I hate the ads.
+
+520
+00:33:35.515 --> 00:33:36.335
+<v Unknown> Yeah. I
+
+521
+00:33:36.715 --> 00:33:41.775
+I was really torn because, like, the blue check mark thing came about during COVID,
+
+522
+00:33:42.154 --> 00:33:43.054
+like, when,
+
+523
+00:33:43.515 --> 00:33:50.550
+vaccine passports were Yeah. Going around. And so, like, immediately, I saw this correlation between, like,
+
+524
+00:33:51.970 --> 00:33:52.710
+you know,
+
+525
+00:33:53.010 --> 00:33:54.630
+only being, you know,
+
+526
+00:33:55.970 --> 00:33:57.110
+physically being
+
+527
+00:33:58.130 --> 00:33:59.430
+barred from certain
+
+528
+00:33:59.835 --> 00:34:01.375
+services in real life,
+
+529
+00:34:02.155 --> 00:34:03.294
+due to your
+
+530
+00:34:04.315 --> 00:34:04.815
+vaccination
+
+531
+00:34:05.115 --> 00:34:06.975
+status or any other arbitrary
+
+532
+00:34:07.755 --> 00:34:08.255
+variable
+
+533
+00:34:08.795 --> 00:34:10.335
+the state wants to choose.
+
+534
+00:34:11.035 --> 00:34:15.849
+And and then suddenly this, like, now you have a online identity.
+
+535
+00:34:16.470 --> 00:34:20.410
+And if you're verified, you get these certain perks. And if you're not verified,
+
+536
+00:34:20.950 --> 00:34:22.809
+then, you know, you're just, like,
+
+537
+00:34:24.790 --> 00:34:29.325
+the algorithm can ignore you and and you essentially get shadow banned.
+
+538
+00:34:30.265 --> 00:34:35.405
+So I just I saw, like, a direct correlation between that and was, like, really upset about
+
+539
+00:34:35.705 --> 00:34:41.440
+the blue check mark and what it had turned into after Elon Musk took over Twitter. And then Odell famously
+
+540
+00:34:41.900 --> 00:34:45.119
+Yeah. Received his blue check mark because of the number of
+
+541
+00:34:45.420 --> 00:34:49.920
+followers he he had who were verify or who had the blue check mark.
+
+542
+00:34:50.779 --> 00:34:55.434
+And then he deleted his Twitter account with some, I don't know, like, 260,000
+
+543
+00:34:55.434 --> 00:34:55.934
+followers,
+
+544
+00:34:57.115 --> 00:35:00.335
+which was a very bold move and eye opening.
+
+545
+00:35:01.515 --> 00:35:02.255
+And so,
+
+546
+00:35:02.555 --> 00:35:05.855
+you know, seeing him do that, I was like, you know, I'm I'm never gonna
+
+547
+00:35:06.234 --> 00:35:11.020
+get a blue check mark myself. But then someone gifted me one, and I'm like, oh, this is interesting.
+
+548
+00:35:12.600 --> 00:35:17.260
+I don't really I'm not really a fan of this the blue check mark system because of what it represents.
+
+549
+00:35:17.960 --> 00:35:21.580
+But at the same time, it just fell into my lap.
+
+550
+00:35:21.935 --> 00:35:22.435
+And,
+
+551
+00:35:24.095 --> 00:35:27.635
+Twitter kinda sucks without it because, like, you get very little engagement.
+
+552
+00:35:28.415 --> 00:35:28.915
+And,
+
+553
+00:35:30.815 --> 00:35:34.675
+yeah, I don't know. It's it's only for a year, and then it'll go away. And then,
+
+554
+00:35:35.600 --> 00:35:39.780
+<v Unknown> Yeah. We'll get we'll get your review one year from now. Yeah. Yeah. Let's see what happens.
+
+555
+00:35:40.960 --> 00:35:41.460
+<v Unknown> Nice.
+
+556
+00:35:43.200 --> 00:35:47.940
+<v Unknown> So I I got this cool message from our friend Neil Ronan, Ronan Miner. Yeah.
+
+557
+00:35:48.800 --> 00:35:49.040
+He
+
+558
+00:35:49.704 --> 00:35:55.645
+he's working on figuring out if he can get a US safety certification for the m 64.
+
+559
+00:35:56.184 --> 00:35:58.045
+And it and it brings up a good
+
+560
+00:35:58.585 --> 00:36:00.204
+talking point, which I think is,
+
+561
+00:36:01.464 --> 00:36:03.165
+why are none of the miners
+
+562
+00:36:03.990 --> 00:36:06.170
+built to any standards or certifications?
+
+563
+00:36:06.470 --> 00:36:07.770
+I mean, these are big
+
+564
+00:36:08.070 --> 00:36:15.530
+multimillion dollar businesses buying them in huge quantities. They have big insurance premiums, just to talk about the large mining ops for a second.
+
+565
+00:36:16.470 --> 00:36:16.970
+And,
+
+566
+00:36:17.835 --> 00:36:23.775
+obviously, for the the punk movement, the plebs, like, do what you want. It's your house. It's your project, and that very much lives on.
+
+567
+00:36:24.155 --> 00:36:25.775
+But I've even run into that,
+
+568
+00:36:26.075 --> 00:36:35.550
+like, oh, I'm gonna put this heater in your house. And someone says, well, can I get, does it fall under my homeowner's insurance? And it's kind of disqualified because it doesn't have a UL certification.
+
+569
+00:36:35.850 --> 00:36:36.350
+So
+
+570
+00:36:36.970 --> 00:36:43.230
+Right. Why and and this is something related too with the the products that eventually get built from
+
+571
+00:36:44.335 --> 00:36:53.235
+the groundwork of the two fifty six Foundation, right? Which is you should really be able to go and certify anything. Is it purely a cost savings thing? Because I imagine these processes are
+
+572
+00:36:53.535 --> 00:36:55.800
+these centralized institutions that kind of just
+
+573
+00:36:56.280 --> 00:37:12.105
+set the norm that you gotta have this check mark, speaking of check marks. Right? Right. And if you wanna get into this house or in this business and use it for this or that, you gotta pay up the big bucks and we'll give you a stamp. Yeah. Otherwise, like, no insurance company is gonna put their stamp of approval on it. Exactly. No one's gonna use your product
+
+574
+00:37:12.565 --> 00:37:14.184
+<v Unknown> and you're just dead in the water.
+
+575
+00:37:14.565 --> 00:37:15.785
+<v Unknown> I've been through this process
+
+576
+00:37:16.244 --> 00:37:21.065
+for non Bitcoin related stuff Sure. In previous life several times. And
+
+577
+00:37:21.924 --> 00:37:22.505
+I think
+
+578
+00:37:22.839 --> 00:37:25.339
+it's important to remember that no safety certification
+
+579
+00:37:25.800 --> 00:37:26.859
+is required
+
+580
+00:37:27.160 --> 00:37:33.579
+by law for any of these things. It's not like an FCC ID where there's some government organization that says you gotta have it,
+
+581
+00:37:33.960 --> 00:37:36.619
+like theirs with the FCC ID stuff. But that's for,
+
+582
+00:37:37.000 --> 00:37:37.935
+wireless communications
+
+583
+00:37:38.975 --> 00:37:45.155
+and noise interference stuff. But as far as the safety certification go, like, UL is probably the most famous one.
+
+584
+00:37:45.855 --> 00:37:47.315
+Those are just private
+
+585
+00:37:47.615 --> 00:37:51.795
+industries or private companies. Like, UL has been around forever doing this.
+
+586
+00:37:52.175 --> 00:37:52.675
+But
+
+587
+00:37:53.460 --> 00:37:53.960
+they,
+
+588
+00:37:54.580 --> 00:37:57.000
+you know, at a high level, they just say,
+
+589
+00:37:57.300 --> 00:38:00.119
+you know, we have created these
+
+590
+00:38:00.420 --> 00:38:00.920
+standards,
+
+591
+00:38:01.700 --> 00:38:02.200
+and,
+
+592
+00:38:03.060 --> 00:38:04.920
+we can certify that these devices
+
+593
+00:38:05.595 --> 00:38:06.655
+meet those standards.
+
+594
+00:38:07.835 --> 00:38:08.575
+And so
+
+595
+00:38:08.955 --> 00:38:12.494
+I think, like you like you mentioned, some insurance companies will be like,
+
+596
+00:38:12.875 --> 00:38:14.015
+alright. You know,
+
+597
+00:38:14.315 --> 00:38:22.310
+we will give you a better deal or we will, you know, insure you at all, you know, if the devices have these safety certifications.
+
+598
+00:38:23.490 --> 00:38:24.310
+And that's just
+
+599
+00:38:25.170 --> 00:38:29.750
+them being lame like insurance companies are and wanting to kinda pass off some of the,
+
+600
+00:38:31.410 --> 00:38:37.725
+maybe some of the risk, I guess. Yeah. On these products. But it's it's it's also really important to remember that
+
+601
+00:38:39.145 --> 00:38:58.790
+the certifications are are very specific. Right? It's not just like you take a device and it gets UL certified and now it's, like, good for everything. Like, if you look into these UL ones, they each have, I figure what they're called, like, some sort of category numbers. It'll be, like, the UL logo and then a number below it. And that is the, like, very specific certifications that it has.
+
+602
+00:38:59.345 --> 00:39:00.404
+And so you can get,
+
+603
+00:39:00.785 --> 00:39:01.605
+like, a little
+
+604
+00:39:02.144 --> 00:39:02.644
+capacitor,
+
+605
+00:39:03.664 --> 00:39:06.404
+or any, like, component in a device certified.
+
+606
+00:39:06.785 --> 00:39:14.565
+And so that now means Right. Like, certified to be this capacitor. But that doesn't mean it's a safe water heater to put in your house. Mhmm. So if you wanna get
+
+607
+00:39:15.240 --> 00:39:18.619
+you wanna get this highest level possible for a system
+
+608
+00:39:18.920 --> 00:39:21.260
+Yeah. Then you have to get that whole system
+
+609
+00:39:21.960 --> 00:39:39.055
+certified. So certifying number one doesn't solve the problem? Sort of it well, you can you can get number one certified, but that just means that it's like, you know, under these very specific use cases, it's certified. But it doesn't mean that you could put it into a water heater and it's good to go. It kinda means that it's, like,
+
+610
+00:39:39.835 --> 00:39:40.335
+certified
+
+611
+00:39:40.635 --> 00:39:44.974
+<v Unknown> as a number one. Man, it's kinda like the mob. It sounds like they they rake in big bucks.
+
+612
+00:39:45.290 --> 00:39:51.630
+<v Unknown> Yeah. So it's definitely a cartel. Yeah. UL is the, like, kingpin here. They're the most popular, but there's several other companies.
+
+613
+00:39:54.890 --> 00:40:01.085
+And there's different, you know, there's different companies that compete with UL, but then there's other companies that specialize in different things.
+
+614
+00:40:01.625 --> 00:40:08.845
+I worked on a project that was actually a, hydronic energy storage unit, and they were getting it certified by a company called IAPMO,
+
+615
+00:40:09.785 --> 00:40:12.880
+which is it's cheaper. It's less popular.
+
+616
+00:40:13.500 --> 00:40:19.360
+But the IAPMO will definitely certify your thing, and you can be like to the insurance company, like, yes, it's safety certified,
+
+617
+00:40:19.980 --> 00:40:20.480
+IAPMO.
+
+618
+00:40:21.740 --> 00:40:24.640
+And if they don't require you well, then maybe that's good.
+
+619
+00:40:25.020 --> 00:40:25.520
+But
+
+620
+00:40:26.555 --> 00:40:29.055
+the whole certification process is so,
+
+621
+00:40:29.515 --> 00:40:37.215
+like It's so lame. It's so lame because they don't care about safety. Right? No. What they want you to do is buy
+
+622
+00:40:38.315 --> 00:40:39.455
+their documentation.
+
+623
+00:40:39.835 --> 00:40:42.040
+They they want you to buy the certification
+
+624
+00:40:42.340 --> 00:40:42.840
+document,
+
+625
+00:40:43.859 --> 00:40:49.000
+and they're very expensive to buy these documents. And it's very hard to figure out which one is actually applicable to your device.
+
+626
+00:40:49.700 --> 00:40:53.085
+So you gotta buy these things, and it's it's not like you just buy one. It's like
+
+627
+00:40:53.964 --> 00:41:00.945
+you get the the cheap one, and it's it just references all these other documents. You gotta go and buy all those. Right? So now you've you've got
+
+628
+00:41:01.484 --> 00:41:07.425
+this very bureaucratic stupid document that doesn't tell you how to do anything, but it kinda just lists, like, all the
+
+629
+00:41:08.520 --> 00:41:09.260
+safety categories
+
+630
+00:41:09.800 --> 00:41:10.940
+that you need to hit.
+
+631
+00:41:11.400 --> 00:41:12.780
+And so then it's on you
+
+632
+00:41:13.080 --> 00:41:15.500
+to build it to follow those.
+
+633
+00:41:16.200 --> 00:41:27.484
+And then once you do that, then you can pay UL or whoever, like, a ton of money to verify that you've actually done it right. Where they, like, go through and test it to Yeah. Yeah. They'll go through and test it.
+
+634
+00:41:28.285 --> 00:41:28.785
+But
+
+635
+00:41:29.165 --> 00:41:31.105
+it's a racket. Right? It's not, like,
+
+636
+00:41:31.484 --> 00:41:31.984
+necessarily
+
+637
+00:41:33.005 --> 00:41:36.625
+verifying that it's safe. It's verifying that you, like,
+
+638
+00:41:37.484 --> 00:41:41.560
+match this community this this, like, committee document and
+
+639
+00:41:42.900 --> 00:41:46.280
+that you've, like, paid them a lot of money. It's a shame because
+
+640
+00:41:46.740 --> 00:41:57.575
+<v Unknown> I'm not trying to talk about boring subjects. Like, we wanna open source mining and get Hashrate decentralized and get plebs and homes and businesses. But, like, this is something that I keep getting asked. It's,
+
+641
+00:41:58.035 --> 00:41:59.975
+hey, can I put this in my house legit?
+
+642
+00:42:00.275 --> 00:42:03.495
+<v Unknown> Yeah. So with the open source stuff, like, keep in mind,
+
+643
+00:42:04.355 --> 00:42:07.500
+open source is, like, also a very,
+
+644
+00:42:08.359 --> 00:42:11.819
+you know, despite what you may see on Twitter, it is a very,
+
+645
+00:42:12.839 --> 00:42:13.740
+well defined,
+
+646
+00:42:14.680 --> 00:42:15.980
+and clear cut
+
+647
+00:42:16.519 --> 00:42:17.019
+definition
+
+648
+00:42:17.400 --> 00:42:17.900
+of
+
+649
+00:42:19.785 --> 00:42:20.605
+of standards.
+
+650
+00:42:21.545 --> 00:42:27.645
+And, you know, one of the one of this, like, standard parts of the definition is that this
+
+651
+00:42:28.025 --> 00:42:36.810
+especially as it relates to free and open source hardware is that this device I don't have it open in front of me, so I'm gonna butcher the definition.
+
+652
+00:42:37.510 --> 00:42:39.450
+But it's something to the effect of,
+
+653
+00:42:40.150 --> 00:42:40.970
+this device
+
+654
+00:42:41.270 --> 00:42:43.370
+ships with no warrant
+
+655
+00:42:43.830 --> 00:42:44.330
+warranty
+
+656
+00:42:45.485 --> 00:42:50.625
+or expectation that it'll even do what it purports to do because it's open source hardware.
+
+657
+00:42:51.085 --> 00:42:54.145
+Right? So, like, that's something that I think just needs to be,
+
+658
+00:42:54.685 --> 00:42:55.665
+clearly communicated,
+
+659
+00:42:55.965 --> 00:43:06.630
+like, on sale like, wherever these devices are for sale. Like, this is free and open source hardware, and there's, like, no expectation that it's safe or it'll, like, do what it's supposed to do or,
+
+660
+00:43:07.650 --> 00:43:08.390
+you know,
+
+661
+00:43:08.930 --> 00:43:13.349
+whatever it says in the open source license. Like, it gotta follow that standard.
+
+662
+00:43:16.945 --> 00:43:17.985
+<v Unknown> Yeah. These these,
+
+663
+00:43:18.785 --> 00:43:19.285
+which
+
+664
+00:43:19.825 --> 00:43:21.605
+Which which It's a pushes gotta make their money somehow.
+
+665
+00:43:21.905 --> 00:43:25.605
+<v Unknown> It's a risk that the the end user is taking on. It's like,
+
+666
+00:43:26.410 --> 00:43:35.390
+okay. Well, jeez, when you, like, kinda lay it out like that, it's kinda sketchy. Like, do I really wanna bring But does that mean you can't does that mean you can't really have products
+
+667
+00:43:35.690 --> 00:43:36.350
+<v Unknown> that are
+
+668
+00:43:37.130 --> 00:43:39.070
+based off of open source software?
+
+669
+00:43:39.530 --> 00:43:44.085
+If because it seems contradictory. Right? If the open source license says
+
+670
+00:43:44.465 --> 00:43:49.285
+it doesn't meet all these expectations, but then you go through, like, a safety certification that says it doesn't meet all these criteria.
+
+671
+00:43:51.185 --> 00:44:01.770
+<v Unknown> You you definitely can. Right? You're you're sort of well, I mean, okay. If you're doing Ember one itself, I see what you're saying. But if you're doing, like, a higher level system, like, say say you designed, like, a
+
+672
+00:44:02.230 --> 00:44:12.265
+home water heater that had ember ones or whatever integrated into it, you're certifying that system as a whole. The package. Yeah. Yeah. And you you could you could also
+
+673
+00:44:12.565 --> 00:44:15.705
+<v Unknown> certify Amber one if you wanted to. Right? Because
+
+674
+00:44:16.325 --> 00:44:21.145
+you could you could safety certify it, but what I think that the open source license is saying is that, like,
+
+675
+00:44:22.725 --> 00:44:24.550
+don't come back to February
+
+676
+00:44:24.550 --> 00:44:28.650
+or any of the open source contributors about it. Like, all you know, no
+
+677
+00:44:29.030 --> 00:44:29.770
+no warranty.
+
+678
+00:44:30.630 --> 00:44:32.250
+We take no responsibility
+
+679
+00:44:32.630 --> 00:44:36.435
+for this. You know? It's provided as is. But if you wanna take that
+
+680
+00:44:36.915 --> 00:44:37.495
+and then,
+
+681
+00:44:38.435 --> 00:44:39.335
+get it certified,
+
+682
+00:44:40.355 --> 00:44:52.609
+that's totally up to you. And I would argue there might be a better place to do that because you can actually have the full source of it. And if any changes need to be made to meet whatever arbitrary safety certification you're going for, you can just
+
+683
+00:44:52.910 --> 00:45:05.569
+<v Unknown> do it. The good news is that open source mining and these projects that everyone's working on is so cool that it will attract the people who can check off these boring tasks that we aren't that interested in, but, ultimately, may need to be done.
+
+684
+00:45:05.955 --> 00:45:09.095
+<v Unknown> Yeah. Yeah. There there are people who've taken bid access
+
+685
+00:45:09.395 --> 00:45:09.895
+to,
+
+686
+00:45:12.035 --> 00:45:14.375
+like, the European equivalent of the FCC,
+
+687
+00:45:15.075 --> 00:45:16.515
+EE, and gotten those,
+
+688
+00:45:17.970 --> 00:45:21.109
+those they're not safety certifications, but those regulatory approvals,
+
+689
+00:45:21.570 --> 00:45:23.030
+it's it's definitely possible.
+
+690
+00:45:23.330 --> 00:45:24.710
+<v Unknown> And we've seen some home
+
+691
+00:45:25.170 --> 00:45:26.470
+home setups that have,
+
+692
+00:45:27.410 --> 00:45:28.790
+caught a little fire, perhaps.
+
+693
+00:45:30.290 --> 00:45:40.435
+<v Unknown> Hell, yeah. We have. Yeah. Yeah. I mean, you have full license to fuck around and find out. And then Yeah. You don't do it right, you can definitely mess it up. Well, even some some OEM
+
+694
+00:45:41.135 --> 00:45:55.160
+shipped products have sparked some fire Oh, yeah. Before. Yeah. But, you know, like, just because it's UL certified doesn't even like Right. Maybe with that. Because you can run down to Home Depot and get yourself a bunch of UL certified stuff and connect it all up and burn it out. And make a bomb.
+
+695
+00:45:55.460 --> 00:46:06.565
+Right. There there's nothing there. It's just it's like and and these safety certifications are hyper specific about Mhmm. What you're doing. So like, if if you change it at all,
+
+696
+00:46:07.105 --> 00:46:18.980
+it's totally void. Like Right. These guys are very good at covering their ass, these safety certification organizations. So like, you cannot come back to them and be like, but but but it says UL on it. Like, no way. That's not gonna fly.
+
+697
+00:46:19.359 --> 00:46:20.020
+I think
+
+698
+00:46:20.560 --> 00:46:24.740
+the fact that a lot of this mining equipment isn't UL certified is just
+
+699
+00:46:25.040 --> 00:46:26.640
+<v Unknown> Yeah. Why doesn't Bitmain do it? Or
+
+700
+00:46:27.435 --> 00:46:33.615
+<v Unknown> Because it costs a ton of extra money and their customers clearly don't care. Yeah. And they were never designed to be in homes.
+
+701
+00:46:34.395 --> 00:46:37.615
+Right. But in, you know, yield certification in industrial
+
+702
+00:46:37.995 --> 00:46:39.935
+uses is definitely a case.
+
+703
+00:46:40.715 --> 00:46:41.375
+I think
+
+704
+00:46:42.099 --> 00:46:47.480
+it might come about when we have more competition in the market because now different players are looking to provide,
+
+705
+00:46:49.140 --> 00:46:57.400
+value add. Right? Whereas Mhmm. If you're in a facility where your insurance or, you know, your landlord or something, like, requires you all stuff,
+
+706
+00:46:57.965 --> 00:47:02.625
+maybe you'll go with a competitor over a Bitmain or or something like that. But right now that is
+
+707
+00:47:03.005 --> 00:47:03.505
+<v Unknown> getting
+
+708
+00:47:04.125 --> 00:47:12.305
+stamps, building code. I don't wanna give too much away, but I had an architecture team and a mechanical, electrical, and plumbing team and a developer
+
+709
+00:47:12.685 --> 00:47:13.185
+and,
+
+710
+00:47:14.540 --> 00:47:22.720
+the whole stack up of let's build a new building, like everyone involved, all the subs. And they were checking out our heating system, and they were weighing options. And
+
+711
+00:47:23.500 --> 00:47:27.585
+basically, biggest barrier is, well, how the hell do we get this through
+
+712
+00:47:28.285 --> 00:47:29.105
+this county?
+
+713
+00:47:29.805 --> 00:47:34.225
+Right. And, you know, they're cool guys. Some of them are Bitcoiners. And the answer might be,
+
+714
+00:47:34.605 --> 00:47:39.105
+the county will think the heating system is something else, and then we'll come in after and add this.
+
+715
+00:47:40.460 --> 00:47:40.700
+But
+
+716
+00:47:41.260 --> 00:47:47.119
+<v Unknown> I mean, building inspectors and Yeah. Stuff like that, also a racket. It's like who you know and stuff.
+
+717
+00:47:47.819 --> 00:47:54.539
+A really quick tangent, super funny story. For Burning Man, many years ago, I built this amazing project. It was,
+
+718
+00:47:55.395 --> 00:48:07.975
+it was a flamethrower that was powered by an alcohol breathalyzer. So the more drunk you were, the more fire it shot out of it. Fantastic project. Total crowd pleaser. It was great at Burning Man. Burning Man has an event in San Francisco
+
+719
+00:48:08.550 --> 00:48:19.850
+afterwards where people bring a lot of the art projects, and they wanted me to bring it. I brought it, set it up just like on a sidewalk, basically, in this sort of street fair thing that was going on. Except for they're like, oh, but the San Francisco
+
+720
+00:48:20.390 --> 00:48:22.570
+fire marshal does need to approve
+
+721
+00:48:23.525 --> 00:48:26.505
+these things before you can run them. I was like, what?
+
+722
+00:48:26.805 --> 00:48:28.025
+I don't know. Like,
+
+723
+00:48:28.565 --> 00:48:31.145
+let's see what happens. And it was amazing. San Francisco,
+
+724
+00:48:32.565 --> 00:48:38.185
+you know, like, associate fire marshal or whatever is coming over and he's looking at this thing. It's like a propane tank
+
+725
+00:48:38.720 --> 00:48:48.180
+and, like, some actuators and some very, like, handmade electronics. He's, like, looking over it. He's, like, what's that do? And I was, like, that's the valve that lets the, like, liquid propane,
+
+726
+00:48:48.960 --> 00:48:50.079
+out into the,
+
+727
+00:48:51.355 --> 00:48:53.115
+the, like, starter. And,
+
+728
+00:48:53.915 --> 00:48:58.655
+he's like, okay. And he's like spraying some soapy water on it to make sure that the joints are good.
+
+729
+00:48:59.115 --> 00:49:03.900
+And, finally, he was like, yep. Looks good to me. You duped him. That's amazing.
+
+730
+00:49:05.800 --> 00:49:07.420
+So yeah. It's just
+
+731
+00:49:07.960 --> 00:49:11.660
+<v Unknown> it's just a matter of A lot of that going on in the world. Jumping through the hoops.
+
+732
+00:49:12.760 --> 00:49:13.260
+Yeah.
+
+733
+00:49:14.120 --> 00:49:18.700
+<v Unknown> Yeah, dude. And then, like, even if you get everything all, like, checked off and
+
+734
+00:49:19.105 --> 00:49:19.845
+good to
+
+735
+00:49:20.145 --> 00:49:20.645
+go,
+
+736
+00:49:21.505 --> 00:49:29.765
+you know, the what are you gonna like, then you're, like, stuck with the manufacturer firmware? Like, what happens if you wanna, like, change the firmware on your device, but you've got all these, like, certifications
+
+737
+00:49:30.225 --> 00:49:34.885
+and your whole, like, building code and True. Your business operations are hinging on
+
+738
+00:49:35.319 --> 00:49:45.180
+that part. Changing fast. Not being tampered with. Like, it seems like such a crapshoot to even go down, but I I guess I can see where maybe it'd be necessary for some operations.
+
+739
+00:49:46.280 --> 00:49:52.675
+<v Unknown> So Ron and mine are getting a safety certification for the m 33 with m what was it? 64. M 64.
+
+740
+00:49:53.855 --> 00:49:57.155
+I mean, that seems like an interesting exercise to go through, but it might
+
+741
+00:49:57.615 --> 00:50:00.275
+be worth now to think about, like, the the whole
+
+742
+00:50:00.735 --> 00:50:12.150
+<v Unknown> setup. Yeah. He mentioned in the heat pump chat on Telegram, and it's just applicable to us. That's the only hydrominer that is single phase power, so North America can use it. Europe isn't constrained by that.
+
+743
+00:50:12.530 --> 00:50:19.234
+Right. So it's our bread and butter. Check out IAPMO. It's discount safety certificate. Yeah. There we go. I'll let them know.
+
+744
+00:50:21.375 --> 00:50:23.555
+Yeah. Let's get the, the discount one.
+
+745
+00:50:24.494 --> 00:50:33.690
+Iko, did you, I saw some some chatter about Telehash three and and NEMs. Is is that to be announced or we wait for Rod? Or Yeah.
+
+746
+00:50:34.070 --> 00:50:39.450
+<v Unknown> I mean, it's planned for January again. Okay. So at the the day before NEMs,
+
+747
+00:50:40.710 --> 00:50:42.010
+2026,
+
+748
+00:50:42.310 --> 00:50:44.570
+we'll be doing telhash number three.
+
+749
+00:50:45.675 --> 00:50:50.575
+So, you know Get your hash ready. Unfortunately, Rod ditched us to go on another
+
+750
+00:50:50.955 --> 00:50:52.015
+fucking podcast.
+
+751
+00:50:52.635 --> 00:50:55.295
+<v Unknown> Yeah. He's doing a full circuit. Of all things.
+
+752
+00:50:56.955 --> 00:51:02.320
+<v Unknown> He's gonna solve Bitcoin energy and AI. Yeah. No. He's he's on a warpath to
+
+753
+00:51:02.620 --> 00:51:04.960
+to spread the word about ImagineIF. And,
+
+754
+00:51:06.460 --> 00:51:07.680
+Rod, if you're listening,
+
+755
+00:51:08.060 --> 00:51:10.160
+I wish you godspeed on your journey.
+
+756
+00:51:10.940 --> 00:51:13.760
+<v Unknown> I hope he's going to, like, Joe Rogan or something worth worth
+
+757
+00:51:14.424 --> 00:51:17.164
+skipping his podcast for. Yeah. Yeah.
+
+758
+00:51:17.545 --> 00:51:19.164
+<v Unknown> I know. This is pretty important,
+
+759
+00:51:19.464 --> 00:51:19.964
+Rod.
+
+760
+00:51:22.184 --> 00:51:23.404
+<v Unknown> We're doing our best.
+
+761
+00:51:25.224 --> 00:51:26.285
+Yeah. Hell, yeah.
+
+762
+00:51:27.464 --> 00:51:32.539
+<v Unknown> So yeah. I mean, two fifty six Tel Hash number three should be a lot of fun.
+
+763
+00:51:33.799 --> 00:51:34.299
+Tentatively
+
+764
+00:51:35.480 --> 00:51:39.660
+planning on, like, showcasing the work we've been doing for the last year
+
+765
+00:51:39.960 --> 00:51:40.460
+Mhmm.
+
+766
+00:51:40.920 --> 00:51:41.420
+And
+
+767
+00:51:41.960 --> 00:51:43.980
+maybe making it, like, a
+
+768
+00:51:44.685 --> 00:51:47.425
+pseudo, like, product launch kind of party
+
+769
+00:51:48.045 --> 00:51:48.865
+at the telehash,
+
+770
+00:51:50.365 --> 00:51:51.665
+you know, where we're showcasing
+
+771
+00:51:52.845 --> 00:51:59.185
+Ember One and the Libra board and Mujina and Hydropool. We'll be running the telehash on Hydropool
+
+772
+00:51:59.740 --> 00:52:01.920
+one way or another. It would be cool for, like,
+
+773
+00:52:02.460 --> 00:52:04.320
+running the whole telehash from
+
+774
+00:52:04.700 --> 00:52:06.720
+our own Liber board and,
+
+775
+00:52:07.740 --> 00:52:08.720
+Ember one
+
+776
+00:52:09.180 --> 00:52:09.680
+box.
+
+777
+00:52:10.140 --> 00:52:10.640
+Yeah.
+
+778
+00:52:11.100 --> 00:52:20.855
+<v Unknown> So Oh, you're real cool. Somehow, the megawatt guys are gonna get the highest difficulty or win again. Yeah. Probably. They're two for two in terms of best contribution.
+
+779
+00:52:21.395 --> 00:52:23.255
+<v Unknown> Yeah. It's true. They're very lucky.
+
+780
+00:52:24.194 --> 00:52:28.535
+<v Unknown> Yeah. Shout out to megawatt. Those are some good dudes. They are some great dudes. They're awesome.
+
+781
+00:52:29.840 --> 00:52:32.980
+So Do you guys see sorry. Go ahead, Scott. I was just gonna say,
+
+782
+00:52:33.280 --> 00:52:33.780
+Iko,
+
+783
+00:52:34.400 --> 00:52:35.940
+with the announcement you made,
+
+784
+00:52:36.480 --> 00:52:39.620
+I guess it was yesterday about or this morning about getting the chips,
+
+785
+00:52:40.080 --> 00:52:41.940
+a bunch of people have been asking me,
+
+786
+00:52:42.744 --> 00:52:47.325
+like, how how can I get involved? Like, I wanna be a part of this obvious revolution.
+
+787
+00:52:48.905 --> 00:52:54.425
+How can I how can I get involved? I realize it's still a little bit early, but what what's the kinda
+
+788
+00:52:55.385 --> 00:52:57.405
+do we have a a spot to point people?
+
+789
+00:52:57.910 --> 00:52:58.710
+<v Unknown> Yeah. I mean,
+
+790
+00:52:59.750 --> 00:53:05.930
+the best way to get in touch with the two fifty six Foundation, just go to 256foundation.org,
+
+791
+00:53:06.550 --> 00:53:11.690
+and there's a contact form right there on the homepage. Scroll down to the bottom,
+
+792
+00:53:12.105 --> 00:53:14.605
+and you can send us an email and introduce yourself.
+
+793
+00:53:16.585 --> 00:53:18.125
+As far as, like,
+
+794
+00:53:18.505 --> 00:53:19.405
+if you have,
+
+795
+00:53:20.425 --> 00:53:25.485
+like a like a grant idea you wanna share with us, go to the grants page.
+
+796
+00:53:26.020 --> 00:53:26.760
+And then,
+
+797
+00:53:27.940 --> 00:53:31.480
+in the text there, you'll see a link to apply.
+
+798
+00:53:31.940 --> 00:53:34.120
+And that's that's where you can,
+
+799
+00:53:34.500 --> 00:53:37.880
+like, we have a type form set up that'll ask you some questions,
+
+800
+00:53:39.245 --> 00:53:42.465
+and you can, you know, share your idea with us there.
+
+801
+00:53:43.565 --> 00:53:52.145
+But if you just, like, have, like, a general question about the b z m two chips or, like, anything else, just reach out to us through the contact form on the website.
+
+802
+00:53:53.859 --> 00:53:56.440
+Like, as far as these specific chips go,
+
+803
+00:53:57.859 --> 00:53:58.359
+the
+
+804
+00:53:58.820 --> 00:54:01.780
+vast majority of the 256,000
+
+805
+00:54:01.780 --> 00:54:03.960
+chips have been accounted for now.
+
+806
+00:54:04.900 --> 00:54:07.960
+I guess I should, like, close the circle on
+
+807
+00:54:08.305 --> 00:54:09.845
+how we started this podcast.
+
+808
+00:54:10.465 --> 00:54:12.485
+You were asking me about the chips, Tyler.
+
+809
+00:54:13.985 --> 00:54:14.805
+And so,
+
+810
+00:54:15.505 --> 00:54:21.765
+and I was just kinda going through how this all started. So, yeah, we finally, like, received the chips yesterday.
+
+811
+00:54:24.030 --> 00:54:25.650
+And in between the time,
+
+812
+00:54:26.590 --> 00:54:31.170
+we announced that Proto was donating us the chips in January.
+
+813
+00:54:31.310 --> 00:54:37.595
+And when we received the chips, we had basically four serious inquiries about the chips.
+
+814
+00:54:38.295 --> 00:54:43.675
+And so basically, what I've done is just split the all the chips up into
+
+815
+00:54:43.975 --> 00:54:45.195
+pretty equal amounts,
+
+816
+00:54:45.895 --> 00:54:48.075
+and those are going out to those four
+
+817
+00:54:50.120 --> 00:54:50.620
+individuals,
+
+818
+00:54:51.400 --> 00:54:52.940
+in the projects. And I think,
+
+819
+00:54:53.480 --> 00:55:01.340
+after I ship them out, I'll post something online about where they're going and who's working on this stuff just to showcase their projects a little bit.
+
+820
+00:55:03.655 --> 00:55:07.015
+So, like, 200 I think it was, like, 216,000
+
+821
+00:55:07.015 --> 00:55:12.135
+of them, are accounted for with those four individuals. They're each getting 54,000
+
+822
+00:55:12.135 --> 00:55:13.770
+<v Unknown> chips. Holy smokes.
+
+823
+00:55:14.570 --> 00:55:19.130
+<v Unknown> Because that's that's what's in one box. One one of those boxes has 54,000
+
+824
+00:55:19.130 --> 00:55:20.030
+chips in it.
+
+825
+00:55:20.810 --> 00:55:26.590
+So to spare me from, like, having to break things down and divvy things up and
+
+826
+00:55:26.994 --> 00:55:30.375
+do, like, onesies and twosies orders. We we were trying to, like,
+
+827
+00:55:30.835 --> 00:55:32.375
+just find people that,
+
+828
+00:55:33.155 --> 00:55:35.815
+were okay receiving larger quantities of chips.
+
+829
+00:55:37.155 --> 00:55:39.494
+And so the that leaves us with,
+
+830
+00:55:41.790 --> 00:55:45.730
+what is it? I don't know. Some, like, 20,000 chips left over.
+
+831
+00:55:46.510 --> 00:55:53.410
+And so I was planning on using those in this assembly line here to produce ember ones with the Intel chips.
+
+832
+00:55:55.070 --> 00:55:55.570
+If
+
+833
+00:55:56.244 --> 00:56:02.744
+somebody reaches out and they're just like, oh my god. Like, I didn't know you guys were doing this. I absolutely have to have these chips,
+
+834
+00:56:03.365 --> 00:56:05.945
+and they make a good use case. I might, like,
+
+835
+00:56:06.325 --> 00:56:09.065
+use some of those leftover chips to fulfill that.
+
+836
+00:56:10.730 --> 00:56:17.950
+But, you know, unless anyone's, like, really serious about it, I'm probably just gonna use the remainders for the ember ones
+
+837
+00:56:18.410 --> 00:56:20.270
+out of this private assembly line.
+
+838
+00:56:22.650 --> 00:56:23.950
+And then I think
+
+839
+00:56:24.924 --> 00:56:27.984
+I think we're gonna be able to get more Intel chips,
+
+840
+00:56:29.005 --> 00:56:35.424
+down the road if we want. So I don't I don't think this I don't think this will be the end of the Intel chip supply
+
+841
+00:56:35.724 --> 00:56:38.065
+for anyone who's chomping at the bid out there.
+
+842
+00:56:38.365 --> 00:56:39.184
+Pun intended.
+
+843
+00:56:39.590 --> 00:56:43.050
+<v Unknown> I heard a pretty credible rumor that there's millions of these chips available.
+
+844
+00:56:43.350 --> 00:56:46.810
+So Yeah. That's like physically a lot of space. So we couldn't
+
+845
+00:56:47.270 --> 00:56:49.270
+fit them there in the Western Eco. But,
+
+846
+00:56:49.910 --> 00:56:53.905
+I think if people do a good job with these, like like, we hope that they will,
+
+847
+00:56:54.704 --> 00:56:58.405
+<v Unknown> there's potential for more. Yeah. I think so. Well said.
+
+848
+00:56:59.345 --> 00:57:00.645
+<v Unknown> Gotta be used for something.
+
+849
+00:57:01.265 --> 00:57:04.885
+<v Unknown> Yeah. Let's get these chips off the sideline and out there hashing.
+
+850
+00:57:08.319 --> 00:57:09.140
+<v Unknown> Did you see
+
+851
+00:57:10.400 --> 00:57:10.980
+that NiceHash
+
+852
+00:57:11.839 --> 00:57:12.900
+is now offering
+
+853
+00:57:13.599 --> 00:57:18.180
+Datum blocks to their on their Hashrate marketplace? You can choose Ocean Pool.
+
+854
+00:57:18.799 --> 00:57:20.500
+<v Unknown> Yeah. It's kinda interesting.
+
+855
+00:57:21.039 --> 00:57:22.020
+<v Unknown> It was interesting.
+
+856
+00:57:23.235 --> 00:57:25.015
+Was that the big miner that
+
+857
+00:57:25.635 --> 00:57:26.695
+added some difficulty?
+
+858
+00:57:28.035 --> 00:57:40.359
+Not mining difficulty, but it it broke some things over at Ocean? Yeah. They exposed some bugs. Yeah. Oh, really? That was NiceHash that did that? Oh, I I I think so. I don't know. Make sense. Yeah.
+
+859
+00:57:41.059 --> 00:57:44.119
+<v Unknown> I mean, I thought Tether was gonna send all their hash rate to
+
+860
+00:57:44.660 --> 00:57:46.200
+Ocean too, and I haven't
+
+861
+00:57:46.740 --> 00:57:47.720
+seen that happen.
+
+862
+00:57:48.660 --> 00:57:49.400
+<v Unknown> Oh, yeah.
+
+863
+00:57:50.365 --> 00:57:55.185
+<v Unknown> So we're seeing some of it for a while, I think. Okay. I bet they feel good that they saw
+
+864
+00:57:55.725 --> 00:57:57.105
+<v Unknown> squash some bugs, though.
+
+865
+00:57:57.645 --> 00:58:04.225
+<v Unknown> Yeah. What's interesting, though, is, like, the I think the payouts got suspended for a period of time.
+
+866
+00:58:05.250 --> 00:58:08.230
+<v Unknown> Yes. And they were saying that no work has been lost,
+
+867
+00:58:08.610 --> 00:58:10.070
+but the payouts were suspended.
+
+868
+00:58:10.530 --> 00:58:11.030
+<v Unknown> Right.
+
+869
+00:58:11.330 --> 00:58:13.430
+Which is interesting because it
+
+870
+00:58:13.730 --> 00:58:14.710
+kinda highlights,
+
+871
+00:58:16.610 --> 00:58:17.350
+a centralizing
+
+872
+00:58:19.155 --> 00:58:20.535
+element to all this.
+
+873
+00:58:21.155 --> 00:58:25.735
+<v Unknown> Doesn't the payout come from the Coinbase, though? How is it suspended? They can't put them all on the Coinbase.
+
+874
+00:58:26.915 --> 00:58:29.415
+<v Unknown> Yeah. They they sort of manage that Coinbase
+
+875
+00:58:30.115 --> 00:58:31.975
+Gotcha. From, I think, their
+
+876
+00:58:32.720 --> 00:58:33.220
+database
+
+877
+00:58:33.520 --> 00:58:36.980
+of who has what, you know, how many shares.
+
+878
+00:58:37.920 --> 00:58:38.500
+I think,
+
+879
+00:58:39.039 --> 00:58:45.039
+one, because you can't just directly pay out every single little miner from the Coinbase. There isn't that much room
+
+880
+00:58:45.359 --> 00:58:46.510
+<v Unknown> Right. Available.
+
+881
+00:58:47.905 --> 00:58:48.065
+<v Unknown> And,
+
+882
+00:58:49.345 --> 00:58:50.645
+also because of Bitmain,
+
+883
+00:58:51.105 --> 00:58:52.484
+you can't actually
+
+884
+00:58:53.184 --> 00:58:56.484
+utilize even the full extent of the Coinbase transaction,
+
+885
+00:58:56.785 --> 00:58:57.684
+like, field.
+
+886
+00:58:58.145 --> 00:59:06.120
+Right. It's Bitmain can cut or, you know, shortens that. So Right. To keep it due. So Which is something we're ignoring with hydro pool.
+
+887
+00:59:06.500 --> 00:59:09.000
+<v Unknown> Yeah. That would be fun to talk about with Junglee. Yeah.
+
+888
+00:59:10.020 --> 00:59:17.080
+<v Unknown> Yeah. But, you know, Ocean talks talks a big game about how they're sort of decentralizing those payouts. And I think,
+
+889
+00:59:18.055 --> 00:59:20.955
+you know, they still do have a centralized database
+
+890
+00:59:21.255 --> 00:59:21.975
+of Right.
+
+891
+00:59:22.455 --> 00:59:24.695
+Share accounting that they they deal with.
+
+892
+00:59:25.735 --> 00:59:26.475
+And so
+
+893
+00:59:26.855 --> 00:59:27.355
+they
+
+894
+00:59:27.895 --> 00:59:33.560
+yeah. They can suspend payouts. I mean, it is a pool. I think that's generally how those pools how pools
+
+895
+00:59:34.020 --> 00:59:35.480
+<v Unknown> work. When I got my,
+
+896
+00:59:36.260 --> 00:59:39.720
+payout from Ocean, because, like, despite how much,
+
+897
+00:59:41.300 --> 00:59:47.480
+arguing people may see me do with Luke Dash junior on Twitter or mechanic or whatever,
+
+898
+00:59:49.445 --> 00:59:53.385
+like, I really do believe that full pay per share
+
+899
+00:59:54.005 --> 00:59:56.665
+is pretty bad for the Bitcoin ecosystem overall
+
+900
+00:59:57.125 --> 01:00:04.690
+and, like, just couldn't in good conscious point my hash rate to a FPPS pool any longer. So I was using Ocean.
+
+901
+01:00:05.309 --> 01:00:09.730
+I thought that was the, like, best option. Like, despite my criticisms of their marketing
+
+902
+01:00:10.190 --> 01:00:10.690
+and,
+
+903
+01:00:11.230 --> 01:00:12.369
+you know, overstating,
+
+904
+01:00:12.670 --> 01:00:13.569
+in my opinion,
+
+905
+01:00:14.029 --> 01:00:15.730
+the effect of,
+
+906
+01:00:17.214 --> 01:00:20.115
+their work and its contributions to decentralization.
+
+907
+01:00:21.055 --> 01:00:26.115
+I was pointing my hash right there. And but when I got my payout, it didn't come from a Coinbase reward.
+
+908
+01:00:27.454 --> 01:00:29.555
+So, I mean, I don't know how they
+
+909
+01:00:30.820 --> 01:00:34.200
+do it, but they don't they don't always pay out from the Coinbase reward.
+
+910
+01:00:37.619 --> 01:00:41.640
+I imagine that they're just kind of, like, accounting it. And, like, once you hit a certain threshold,
+
+911
+01:00:42.020 --> 01:00:44.815
+then they're just they're paying you out from their wallet. So
+
+912
+01:00:45.755 --> 01:00:47.195
+<v Unknown> It's it's gotta be
+
+913
+01:00:47.595 --> 01:00:51.775
+it's tough. Right? I I don't know how you would actually do that for a large pool.
+
+914
+01:00:53.275 --> 01:00:58.415
+The ocean's small, but even for that size, doing it all in the Coinbase just I don't think it scales.
+
+915
+01:00:58.880 --> 01:01:01.940
+<v Unknown> Yeah. And it was, you know, marketed as, like, this, like,
+
+916
+01:01:02.480 --> 01:01:03.220
+non custodial
+
+917
+01:01:03.520 --> 01:01:04.020
+payout
+
+918
+01:01:04.480 --> 01:01:12.100
+system, but I I don't think that's what's going on. Based on what I've seen with my own payouts from Ocean, I don't think it's non custodial.
+
+919
+01:01:12.560 --> 01:01:14.020
+I think Ocean is custodying
+
+920
+01:01:14.934 --> 01:01:18.954
+the payouts and then dispersing them just like the other pools do
+
+921
+01:01:20.934 --> 01:01:21.914
+despite the marketing.
+
+922
+01:01:22.535 --> 01:01:23.994
+<v Unknown> We're running a little test.
+
+923
+01:01:24.694 --> 01:01:29.515
+Dylan's got his s nine on full bore, splitting the hash rate fifty fifty,
+
+924
+01:01:30.060 --> 01:01:31.280
+tied versus FPPS.
+
+925
+01:01:31.740 --> 01:01:36.480
+Just tracking that. Yeah. It's been interesting to see. How long have you been doing that for?
+
+926
+01:01:37.660 --> 01:01:40.240
+<v Unknown> Over two months. Yeah. How's it looking?
+
+927
+01:01:41.500 --> 01:01:44.000
+<v Unknown> Ocean is behind by, like, 3%,
+
+928
+01:01:44.225 --> 01:01:45.365
+which we didn't expect.
+
+929
+01:01:46.065 --> 01:01:56.325
+In shares or payouts or what? In sats payouts. In sats. Okay. And if you look at the blocks they've hit compared to, like, a long time frame past year,
+
+930
+01:01:57.270 --> 01:02:07.770
+It has been a bit of a lull. Like, we started in the bottom of a lull. I guess you could attribute it to that. So we'll probably run the experiment for a while longer, especially as it gets colder. Just makes sense. But Right.
+
+931
+01:02:08.310 --> 01:02:10.555
+Yeah. We've been documenting that on heapunks.org.
+
+932
+01:02:10.555 --> 01:02:12.495
+It's been interesting to see. Cool.
+
+933
+01:02:14.955 --> 01:02:16.895
+<v Unknown> Should we give a shout out to some hashers?
+
+934
+01:02:17.515 --> 01:02:18.255
+<v Unknown> Hell, yeah.
+
+935
+01:02:19.355 --> 01:02:20.735
+I got Linkcoin up.
+
+936
+01:02:22.560 --> 01:02:27.540
+Schnitzel, killing it as always. Fish tank axe, fish tank axe, two,
+
+937
+01:02:28.400 --> 01:02:29.700
+multiple fish tanks,
+
+938
+01:02:30.160 --> 01:02:34.500
+or maybe one one big fish tank. A pool of fish tanks? Yeah.
+
+939
+01:02:36.795 --> 01:02:40.415
+Shout out to Scott Offord of Bitcoin Mining World and the Open Hash Foundation.
+
+940
+01:02:42.475 --> 01:02:45.295
+Pizandy, you're off this week. What the heck, man?
+
+941
+01:02:45.835 --> 01:02:47.615
+Uh-oh. Sorry. I'm losing my mic.
+
+942
+01:02:50.590 --> 01:02:52.290
+Yeah. I don't see if he's Andy online.
+
+943
+01:02:53.150 --> 01:02:55.090
+Solo CK pool, we've got
+
+944
+01:02:56.510 --> 01:03:00.130
+sorry, Rod, out of creator worker names, StackSat, support FOSS.
+
+945
+01:03:00.910 --> 01:03:02.715
+That's a good one. That's pretty creative.
+
+946
+01:03:03.835 --> 01:03:07.695
+I like the messaging. Yeah. I do too. Rock paper bitcoin freedom.
+
+947
+01:03:08.955 --> 01:03:15.135
+Oh, rock paper bitcoin dot f m. Excuse me. Yep. That's Business Cats podcast. Check it out. Hell, yeah.
+
+948
+01:03:15.755 --> 01:03:16.655
+Awesome build.
+
+949
+01:03:17.109 --> 01:03:18.410
+Bitcoin Park Apollo,
+
+950
+01:03:19.109 --> 01:03:19.849
+the winner.
+
+951
+01:03:20.310 --> 01:03:21.609
+Bitcoin Park Apollo.
+
+952
+01:03:22.070 --> 01:03:23.210
+<v Unknown> Yeah. The winner.
+
+953
+01:03:23.829 --> 01:03:26.410
+<v Unknown> Shout out to Jeffrey Epstein, did not kill himself.
+
+954
+01:03:30.845 --> 01:03:32.785
+And URLs don't have backslashes,
+
+955
+01:03:33.244 --> 01:03:35.905
+so you don't have oh my gosh. This is a long one.
+
+956
+01:03:36.605 --> 01:03:41.825
+So you don't have to say forward slash, just say slash for fuck's sake.
+
+957
+01:03:45.359 --> 01:03:49.140
+<v Unknown> I totally noticed that last week, Eko. You clearly said
+
+958
+01:03:49.519 --> 01:03:51.220
+forward slash and it's
+
+959
+01:03:52.640 --> 01:03:53.940
+it's, you know.
+
+960
+01:03:54.480 --> 01:03:57.779
+<v Unknown> That's right. When you were giving out the, the link to the instructions
+
+961
+01:03:58.079 --> 01:03:58.965
+to to hash.
+
+962
+01:03:59.445 --> 01:04:02.425
+<v Unknown> No. The URLs definitely have backslashes.
+
+963
+01:04:05.845 --> 01:04:11.370
+Yeah. There's there's examples of URLs with backslashes. I guarantee it. We were just just for the
+
+964
+01:04:12.090 --> 01:04:22.190
+<v Unknown> slow folks here, like, which one's the forward slash and which one's the backslash? How do you tell? Alright. So a forward slash is where the top of the slash is ahead
+
+965
+01:04:22.810 --> 01:04:26.590
+<v Unknown> of the bottom of the slash as you're leaving it from the right. Yeah.
+
+966
+01:04:27.095 --> 01:04:28.234
+Okay. Alright.
+
+967
+01:04:28.615 --> 01:04:30.555
+<v Unknown> So it's based on the top of the slash.
+
+968
+01:04:31.335 --> 01:04:39.480
+<v Unknown> So you can go to httpscolon//256foundation.org/mining_links.html
+
+969
+01:04:39.720 --> 01:05:04.984
+<v Unknown> for setup instructions to get your your hash rate listed as a supporter of the two five six foundation. Is that right? That's right. And Okay. Thank you. I mean, they technically are called forward slashes. So I think it's appropriate to call to, like, you know, call a spade a spade, man. The forward slash and I'm looking forward to saved our our poor users from trying to go to our URL and typing in backslashes because it's just not gonna work, guys.
+
+970
+01:05:05.365 --> 01:05:12.240
+<v Unknown> I mean, I get I get the listener's point. They're right. Yeah. Next week, he's gonna have a more heinous name. It's gonna be awesome.
+
+971
+01:05:12.860 --> 01:05:16.160
+<v Unknown> I'm pretty sure I've seen URLs that have
+
+972
+01:05:16.540 --> 01:05:19.680
+some backslashes in them in, like, some, like, weird,
+
+973
+01:05:20.145 --> 01:05:20.645
+like,
+
+974
+01:05:21.105 --> 01:05:22.405
+I you know, identifier
+
+975
+01:05:22.785 --> 01:05:25.125
+slug or something at the end. Mhmm.
+
+976
+01:05:25.505 --> 01:05:26.005
+Really?
+
+977
+01:05:26.625 --> 01:05:34.620
+Yeah. It's like some Windows thing probably. That's yeah. Maybe I don't know. Maybe I'm full of shit. I'm gonna ask AI right now.
+
+978
+01:05:35.080 --> 01:05:37.580
+What what do you even use backslashes for?
+
+979
+01:05:42.280 --> 01:05:43.100
+<v Unknown> I don't know.
+
+980
+01:05:44.360 --> 01:05:47.420
+<v Unknown> That's a good ex good question. Not an equation.
+
+981
+01:05:49.295 --> 01:05:49.795
+<v Unknown> No.
+
+982
+01:05:50.335 --> 01:05:53.215
+On Public Pool, we've got hardestblocks.org
+
+983
+01:05:53.215 --> 01:05:56.035
+and stalin's BitX. Shout out to you guys.
+
+984
+01:05:56.575 --> 01:05:58.595
+And someone named Worker.
+
+985
+01:05:58.975 --> 01:06:00.675
+<v Unknown> Keep working. Oh, Worker.
+
+986
+01:06:01.619 --> 01:06:06.099
+<v Unknown> And then finally, on Ocean, we have the Futurebit 1976,
+
+987
+01:06:06.099 --> 01:06:10.200
+Bible HODL. Oh, there's Dezandi with his proof of print bit ax.
+
+988
+01:06:10.819 --> 01:06:11.720
+And Borst,
+
+989
+01:06:12.099 --> 01:06:14.920
+shout out. Thank you for contributing Hashrate as always
+
+990
+01:06:15.444 --> 01:06:18.505
+<v Unknown> to two five six foundation. Alright, guys. I was wrong.
+
+991
+01:06:19.684 --> 01:06:26.184
+I am reading this from the Internet, so you know it's legit. And it says, a URL containing a backslash
+
+992
+01:06:27.204 --> 01:06:31.550
+is not valid according to the URI standard defined in RFC
+
+993
+01:06:31.930 --> 01:06:58.645
+two three nine six. Fucking standards. It's all standards. Yeah. I would Fucking standards. We gotta change this shit right now. No. I was totally wrong. I should you know, they're right. The the listener's right. There is no backslash in the URL. So is it redundant to say forward slash even though that's what the character is called? You should pay a lot of money to change the standard so that backslash is in, and then your argument will be right. Maybe I'm wrong about that. Is it not called a forward slash?
+
+994
+01:07:01.410 --> 01:07:05.589
+<v Unknown> I don't know. I always just said slash like some kind of idiot. You can't have good without evil.
+
+995
+01:07:06.770 --> 01:07:09.670
+<v Unknown> Well, I'll try to remember that going forward.
+
+996
+01:07:10.690 --> 01:07:15.815
+<v Unknown> I wonder if you could like, if you had a backslash in, like, the directory or document name
+
+997
+01:07:16.115 --> 01:07:18.135
+that made a URL, like, would it work?
+
+998
+01:07:19.235 --> 01:07:22.535
+<v Unknown> I think it would come back invalid according to what I just read.
+
+999
+01:07:24.195 --> 01:07:25.815
+<v Unknown> These rules are meant to be broken.
+
+1000
+01:07:26.355 --> 01:07:26.855
+Yeah.
+
+1001
+01:07:28.670 --> 01:07:31.170
+<v Unknown> Last couple shout outs on Ocean. I forgot that
+
+1002
+01:07:31.630 --> 01:07:39.010
+small hasher show up with zero sometimes. Virginia Freedom Tech sells bid access. Let's go. Yeah. Virginia Freedom Tech.
+
+1003
+01:07:39.390 --> 01:07:41.090
+And Zarkasay Hash.
+
+1004
+01:07:42.305 --> 01:07:42.805
+Right.
+
+1005
+01:07:43.105 --> 01:07:45.525
+And someone's got point one Terahash
+
+1006
+01:07:45.825 --> 01:07:50.325
+on Ocean here. So maybe they're online. Hub. Shout out Hub. Hub.
+
+1007
+01:07:52.065 --> 01:07:54.485
+That's good stuff. That is good stuff.
+
+1008
+01:07:56.120 --> 01:07:59.080
+<v Unknown> Well, do you guys have any closing thoughts? We're at,
+
+1009
+01:07:59.560 --> 01:08:01.900
+we're we just hit an hour of record time.
+
+1010
+01:08:03.480 --> 01:08:08.060
+<v Unknown> Keep building. Things are moving fast. It's already September. It's time to lock in.
+
+1011
+01:08:09.395 --> 01:08:10.135
+<v Unknown> Oh my gosh.
+
+1012
+01:08:10.755 --> 01:08:13.175
+<v Unknown> I It's wild. I'm feeling a little overwhelmed,
+
+1013
+01:08:14.994 --> 01:08:15.494
+<v Unknown> honestly.
+
+1014
+01:08:16.275 --> 01:08:18.535
+I've said that to myself today a couple times.
+
+1015
+01:08:19.715 --> 01:08:24.440
+<v Unknown> So many cool things to build. How do you decide? How do you pick one? I know. No. Seriously.
+
+1016
+01:08:24.820 --> 01:08:29.400
+<v Unknown> What I'm trying to do right now is figure out how to panelize the edit board. Okay. And,
+
+1017
+01:08:30.180 --> 01:08:33.800
+turns out panelizing in KiCad is a total pain in the ass.
+
+1018
+01:08:34.900 --> 01:08:40.915
+<v Unknown> But Did you check out some of those tools? There's like plugins and stuff. Right? Yes. That just makes it more difficult.
+
+1019
+01:08:41.935 --> 01:08:42.595
+<v Unknown> No. It,
+
+1020
+01:08:43.455 --> 01:08:52.755
+the plugin I found was amazing. And I'm like, dude, this is exactly what I need. And everything was going great until I tried installing it on Ubuntu,
+
+1021
+01:08:53.590 --> 01:08:55.930
+and it turns out it's, like, not,
+
+1022
+01:08:56.790 --> 01:08:58.330
+capable of working on,
+
+1023
+01:08:58.870 --> 01:08:59.370
+Ubuntu
+
+1024
+01:08:59.830 --> 01:09:00.730
+twenty four
+
+1025
+01:09:01.350 --> 01:09:05.770
+two or whatever I have. So I'm, like, I'm seriously considering, like,
+
+1026
+01:09:06.574 --> 01:09:11.235
+like, switching to, like, Fedora or, like, some other Linux Linux distribution,
+
+1027
+01:09:12.655 --> 01:09:16.034
+to Really? It's like an Ubuntu thing? Like Yeah.
+
+1028
+01:09:16.335 --> 01:09:16.835
+Yep.
+
+1029
+01:09:18.495 --> 01:09:21.235
+Because it it uses this, like, snap
+
+1030
+01:09:21.889 --> 01:09:25.030
+package manager, which I think is part of it and, like, sandboxes
+
+1031
+01:09:25.810 --> 01:09:26.710
+all the applications.
+
+1032
+01:09:27.650 --> 01:09:29.270
+And so you can't have,
+
+1033
+01:09:29.810 --> 01:09:35.510
+like, this is way over my fucking pay grade. I'm probably gonna butcher this. Sorry to any listeners who are, like,
+
+1034
+01:09:35.865 --> 01:09:38.925
+technical enough to know the difference between a forward slash and a backslash.
+
+1035
+01:09:39.625 --> 01:09:40.125
+But,
+
+1036
+01:09:41.385 --> 01:09:43.805
+it's like something about the Python script,
+
+1037
+01:09:44.825 --> 01:09:47.965
+can't is, like, in a different environment than,
+
+1038
+01:09:48.429 --> 01:09:53.170
+KiCad, and they, like, can't talk to each other. And if you try to make them talk to each other,
+
+1039
+01:09:54.030 --> 01:09:55.570
+you get this warning,
+
+1040
+01:09:56.110 --> 01:09:59.650
+and it tells you you're gonna, like, break system packages if
+
+1041
+01:10:00.030 --> 01:10:13.555
+if you try this or you could break system packages. And I I was like, okay. Fine. Break the fucking packages and do it. Let's go. And so it, like, ran and installed the plug in. But then when I tried to verify that the plug in was working, it still failed.
+
+1042
+01:10:14.175 --> 01:10:14.675
+So,
+
+1043
+01:10:15.590 --> 01:10:17.849
+<v Unknown> Are you running this from within KiCad?
+
+1044
+01:10:18.710 --> 01:10:19.210
+<v Unknown> No.
+
+1045
+01:10:19.590 --> 01:10:20.730
+Okay. Through the terminal.
+
+1046
+01:10:21.429 --> 01:10:27.050
+I was following the the plug in's instructions on how to install it, which said to do it through the terminal.
+
+1047
+01:10:28.070 --> 01:10:30.375
+<v Unknown> What, what's this plug in? What's it called?
+
+1048
+01:10:31.815 --> 01:10:34.075
+<v Unknown> This one was give me
+
+1049
+01:10:34.695 --> 01:10:37.115
+I bookmarked it because I knew you're gonna ask.
+
+1050
+01:10:37.655 --> 01:10:39.115
+Oh, hang on. Oh, shit.
+
+1051
+01:10:39.735 --> 01:10:42.955
+Hang on. Let me do this on a different tab so I don't cancel the session.
+
+1052
+01:10:44.880 --> 01:10:50.420
+<v Unknown> Almost crashed the Just do it live. That's probably the reason. It's the laptop. They can't handle two tabs
+
+1053
+01:10:50.880 --> 01:10:54.980
+<v Unknown> for the desktop. Well, this is my desktop now. So my laptop, I run Pop!OS.
+
+1054
+01:10:56.239 --> 01:10:56.980
+<v Unknown> Oh, cool.
+
+1055
+01:10:57.935 --> 01:11:00.835
+<v Unknown> But this I'm running just like a standard Ubuntu
+
+1056
+01:11:01.615 --> 01:11:03.875
+Yeah. On my desktop here.
+
+1057
+01:11:04.335 --> 01:11:05.795
+So this one's called KiKit,
+
+1058
+01:11:06.095 --> 01:11:11.760
+<v Unknown> k I k I two. About that one. I feel like that's that's a popular one. So that's a good sign.
+
+1059
+01:11:12.060 --> 01:11:13.440
+<v Unknown> Yeah. It looks amazing.
+
+1060
+01:11:13.900 --> 01:11:17.120
+I watched some videos on it, and I'm like, holy shit. That is
+
+1061
+01:11:17.580 --> 01:11:19.280
+exactly what I'm trying to do.
+
+1062
+01:11:19.660 --> 01:11:29.895
+<v Unknown> This is this is the power of open source software. So it may leave you with some sort of incompatible Python installation. But someone just made this and it's free and open source software
+
+1063
+01:11:30.195 --> 01:11:32.375
+on top of KiCad, free and open source.
+
+1064
+01:11:32.835 --> 01:11:33.575
+It's fantastic.
+
+1065
+01:11:34.035 --> 01:11:40.410
+<v Unknown> Yeah. Oh, yeah. That is cool. So I think I'm gonna do, like, a different I'm gonna try a different Linux distribution,
+
+1066
+01:11:41.670 --> 01:11:48.010
+and then try it from there. Because this is, like, something I'm gonna be doing day in day out, and I just think I need that to work.
+
+1067
+01:11:48.469 --> 01:11:50.010
+The alternative is, like,
+
+1068
+01:11:50.455 --> 01:11:58.715
+how much time is it gonna take me to, like, do that and, like, set up my desktop environment again and get it working and, like, do this myself going forward versus,
+
+1069
+01:11:59.255 --> 01:12:00.315
+like, just having,
+
+1070
+01:12:01.255 --> 01:12:01.755
+JLCPCB,
+
+1071
+01:12:05.539 --> 01:12:06.920
+panelize the things for me.
+
+1072
+01:12:07.860 --> 01:12:13.400
+<v Unknown> Let's talk after the show. I have some thoughts. Definitely not a Python expert, but some things to try. Okay.
+
+1073
+01:12:14.340 --> 01:12:14.840
+<v Unknown> Alright.
+
+1074
+01:12:15.408 --> 01:12:21.588
+Well, that's the show. I hope everyone enjoyed. Until next time, thank you from the two fifty six foundation.
+
+1075
+01:12:22.448 --> 01:12:23.828
+<v Unknown> Later. Thanks, everyone.
+

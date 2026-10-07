@@ -1,0 +1,1128 @@
+1
+00:00:00,000 --> 00:00:06,240
+Unknown: We're live. We're live. We're live? Okay. Let's do this. We got it this time. Yeah. We're 113
+
+2
+00:00:06,240 --> 00:00:20,935
+shows in and still figuring out how Twitter works. Does anyone really understand how Twitter works? It's the algorithm. We blame the algorithm. I definitely do not understand how Twitter works. I don't understand how Twitter My user experience has just kind of been trending towards zero
+
+3
+00:00:21,095 --> 00:00:30,960
+on Twitter over the years. Do you still have that gifted check mark? Yeah. I think I think that's good for, like, all year. So I don't know. Maybe I've got, like, six months left on it, which
+
+4
+00:00:32,160 --> 00:00:35,920
+Unknown: has been fun. Yeah. Well, what's going on, guys? What's all these crazy photos
+
+5
+00:00:36,080 --> 00:00:50,695
+Unknown: that the two five six Foundation Twitter account's been reposting? Looks like Schnitzel's hacking away. Scott's hacking away. He's been crushing it. What was that? That was, like, over the weekend in the group chat. Everything was going blowing up. I was like, these guys are going crazy tonight. Just building monstrosities.
+
+6
+00:00:50,695 --> 00:00:52,855
+Yeah. What was that? Late Friday?
+
+7
+00:00:53,015 --> 00:01:22,604
+Unknown: Yeah. That was so much fun. I guess we should go over that. Definitely. Yeah. Let's do it. Scott, yeah, start with yourself. What were you working on? Well, I've been working on getting Mugena running on an s 19 j pro, and that's been a lot of fun. I've basically had it working more or less for a while now, but I wanted to kind of combine a bunch of weird little hacky projects that I've that I've done, including getting Wi Fi working on the S 19 J Pro, which is pretty cool. I'm a I'm a Wi Fi miner Maxi.
+
+8
+00:01:22,850 --> 00:01:28,049
+With those little USB dongles? Yeah. Exactly. Exactly. I got a, one of these,
+
+9
+00:01:28,609 --> 00:01:40,495
+you know, cheap little USB Wi Fi dongles. Turns out that the Amlogic control board has USB on it. It's like on stock firmware and aftermarket firmware. The USB port is just disabled,
+
+10
+00:01:40,575 --> 00:01:47,775
+but it's fully wired up. So once you kinda get control over the firmware that's running on there, you can just enable it. And I attach
+
+11
+00:01:48,409 --> 00:01:55,450
+the USB dongle, but first attach a little USB hub to it so I can have multiple USB ports. And then I, attached
+
+12
+00:01:55,450 --> 00:01:56,890
+the the
+
+13
+00:01:56,890 --> 00:01:59,130
+touch screen from Nice.
+
+14
+00:01:59,369 --> 00:02:01,530
+The Bidax GT touch.
+
+15
+00:02:01,845 --> 00:02:16,405
+So that's a OSMU project to add a touch screen to the Bidax GT. And, of course, it's all open source, so I could take that firmware and make it so it's just like a USB controlled touch screen. Plug that into my USB hub, connect it to my
+
+16
+00:02:16,860 --> 00:02:17,740
+J Pro,
+
+17
+00:02:18,299 --> 00:02:22,860
+and, boom. Got it. So that's what I finally got working,
+
+18
+00:02:23,980 --> 00:02:25,500
+Friday night. The
+
+19
+00:02:25,900 --> 00:02:29,180
+the first piece of concept is just to show the
+
+20
+00:02:30,135 --> 00:02:48,110
+the miner's hash rate and voltage and fan speed and all that good stuff on the touch screen. And then, of course, you can have a little chart of your hash rate over time. But, yeah, it works. It's pretty cool. Dude, it's amazing. So I was thinking if I if I had any mechanical engineering skills, it'd be neat to make a new top,
+
+21
+00:02:48,590 --> 00:02:49,310
+cover
+
+22
+00:02:49,390 --> 00:03:06,615
+for the J Pro that has a hole in it for the touch screen. Right. And you can kinda package this all up as a neat little Wi Fi connected touch screen controlled Mugena Miner on the J Pro. That's incredible. Yeah. It's really fun. I think AI can help you with the CAD file so that you could create a
+
+23
+00:03:07,255 --> 00:03:22,820
+Unknown: your three d printed file. Can AI do CAD stuff now? I noticed that. There's a CAD, at least I saw. I'm curious what you saw, Iko. There's one that's browser native called Onshape. That's the one that Yeah. Schnitzel was showing me this morning. And he told it, here's the dimensions
+
+24
+00:03:22,820 --> 00:03:47,030
+Unknown: of the Libre board, and here's the dimensions for a bit axe. And the AI, like, designed the enclosure based on a few parameters he put in and, like, located the holes for those boards. And then Oh my gosh. And then the CAD software has the ability to do the slicing and export the file as a g code file for your three d printer. And then you just put that on your printer and
+
+25
+00:03:47,349 --> 00:04:14,760
+Unknown: you've got Oh, it has a slicer too. That's sweet. It has the slicer built in. My gosh. And is does it have like a chat interface, an AI interface native? Do you know? Something I've been playing around with is just clawed in the Chrome browser. There's a browser extension. So even if the website you're on doesn't have AI, you can just brute force it. It's awesome. Like it clicks around for you? Yeah. It clicks around. Crazy. Re sizing my window to make it look like if you're on an iPad or an iPhone,
+
+26
+00:04:15,000 --> 00:04:20,120
+was doing everything. Oh my gosh. Is So the I was working on the Discourse forum for
+
+27
+00:04:20,440 --> 00:04:21,320
+February
+
+28
+00:04:21,320 --> 00:04:24,759
+that's coming out and the Heatpunk one as well. I was like,
+
+29
+00:04:25,854 --> 00:04:38,655
+I don't feel like because Discourse is like a live site. It's it's live on our server. I was like, I don't feel like digging through a million settings and changing custom CSS. So I just told it what to do and it cranked for thirty minutes and did everything Wild. Live in the browser.
+
+30
+00:04:39,780 --> 00:04:59,445
+Unknown: My gosh. That's great. Alright. Well, I'm gonna give it a try then. Can make up for my inadequate mechanical CAD skills and just Dude, you'll be three d printing the new enclosure for your s 19. My gosh. Alright. Did you try that Blueprint AI yet, Scott, that can do wire diagrams and stuff? I haven't tried that. I've seen a bunch of people hyping that. Yeah. I haven't either.
+
+31
+00:04:59,925 --> 00:05:22,520
+When I was looking at it, it was like talking about Arduino and Raspberry Pi projects. So I guess I gotta dig in and see what its capabilities are. It it kinda blows my mind because there's just like prompting that seems like it could be hard. Right? Because there's just like, you know, there's this whole list of parts, and they're like, I wanna use these parts, and, like, this is what the power is gonna be, and all those sorts of things that are sort of defined in my head.
+
+32
+00:05:23,375 --> 00:05:49,000
+I'm sure a plug in will come out for KiCad one day. Man, that would be sweet. That would be really sweet. I've definitely been using AI for a lot of, like, manual tasks in KiCad. There's a lot of just kinda busy work that goes along with designing a board, like, you know, coming up with part numbers for the bomb and like all that good stuff. And it yeah. It does really good at that, but it's certainly not integrated. There's a lot of, like, copy paste around and stuff. Smile. That would be really cool. Okay. So, Iko, you alluded to
+
+33
+00:05:49,415 --> 00:05:59,335
+Unknown: some of the things Schnitzel's been hacking on because he also had a crazy night on Friday. He was posting some photos on X. Dude, he got Doom to work on LibriBoard.
+
+34
+00:06:00,295 --> 00:06:12,410
+Unknown: It was inevitable. The old video game Doom. So, yeah, dude, he's, you know, we we restarted our grants on April 1 and Schnitzel has just been pedal to the metal, going through LibreBoard,
+
+35
+00:06:12,410 --> 00:06:22,074
+trying to make improvements to the voltage regulator, addressing some of the bugs that we had from versions one and two, getting version three ready to go into production.
+
+36
+00:06:22,155 --> 00:06:29,675
+And part of that process is just validating that everything works. And so he's been plugging in different displays
+
+37
+00:06:29,995 --> 00:06:30,555
+and
+
+38
+00:06:30,910 --> 00:06:43,230
+different devices. And so one of the things he did during the course of testing was he loaded Doom on it and had a Raspberry Pi hat, like, miniature joystick circuit board and LED
+
+39
+00:06:43,230 --> 00:06:52,005
+grid attached to the device. And he was using that to play Doom and display, like, how much armor he had left, and it it worked. So, I mean,
+
+40
+00:06:52,565 --> 00:07:14,505
+he's just going down the list, validating things, and doing cool stuff with it. But, you know, it goes to show that LibreBoard is a lot more than just a control board. And we really wanted it to be something that that the end user would be able to run a full node on and it can do that. And we wanted it to be something that we wanted HydraPool to be easily deployable
+
+41
+00:07:14,505 --> 00:07:16,265
+across a number of platforms,
+
+42
+00:07:16,265 --> 00:07:17,625
+Linux compatible,
+
+43
+00:07:17,705 --> 00:07:21,465
+so you can run HydraPool on a control on a Libre board
+
+44
+00:07:23,670 --> 00:07:37,270
+and be that bridge that integrates with whatever your miners are trying to heat. So it can it can talk to sensors. It can receive data from it can control switches and relays,
+
+45
+00:07:37,270 --> 00:07:54,980
+Unknown: read temperature sensors. Like it can do all the things and it has all the ports to plug into. I was getting excited seeing that because you're exactly right. I mean, this whole home assistant rabbit hole I've been going through has really just been the bridge to connect a smart thermostat over the local net Internet to
+
+46
+00:07:55,380 --> 00:08:02,820
+a miner, which doesn't have a control board that can accept inputs from a thermostat. And now you can just cut that out and just
+
+47
+00:08:03,220 --> 00:08:06,420
+wire your thermostat stage one straight to a Libre board
+
+48
+00:08:07,135 --> 00:08:21,935
+and set up all the control on it so that it's just like one little wall wart. I have this idea where it's like a little minor wart that sticks to your ductwork, and then you connect a wire lead to your thermostat and you're done. Yeah. Exactly. Oh, man. We need to make a thermostat
+
+49
+00:08:21,960 --> 00:09:35,524
+like Raspberry Pi hat that can go on LibreBoard. Yeah. Because a lot of these thermostats like that we've I've seen in homes, they they come out of the box with capability for stage one, stage two. Some homes might have a heat pump and then a backup or whatever. Most homes would just have one stage wired up. But you could easily just configure LibreBoard to be the stage one, sell a little kit with used cheap s 19 j's, the right three d printed case, connect some wires, you're done. And now you got Hashrate heat in your house. Right. So the way those thermostats work, is it, like, there's just wires hanging out of your wall for stage one and stage two? Yeah. So on the back of them when you pull them out, there's all these tiny little wire leads, 24 volt signal. And a lot of the thermostats will have, it looks like, two copies of where you could plug in wires. And most people just have one of them filled. There's a whole array of them vacant. So you'd go get some cheap wires, run it through the wall. I mean, you could just string it along the wires that were already run, and then you got stage two to a minor. Alright. This would be cheap too. You know? Yeah. Yeah. Yeah. My gosh. This would be amazing. So then you can have the miner with the LibreBoard control board, you know, in your you know, wherever those wires from the thermostat go to. Yeah. Your furnace room or basement. Yeah. And then just plug those wires directly into this hat on top of the Libre board that interfaces with that 24 volt
+
+50
+00:09:36,485 --> 00:10:02,725
+signal. And so now And when it calls the signal, it thinks it's turning on the furnace. So it will turn on the circulator fan anyways, meaning you're not reliant on those ripping, screaming loud one twenty millimeter fans on the miner. Right? Like, it's gonna tell the miner to turn on, and it'll turn the furnace fan to turn on the same time. Like, you don't have to do anything. Okay. Okay. We got this. It's on. I think this would be a sweet proof of concept, and someone should like document it and open source it how how they did it. Right? Mhmm.
+
+51
+00:10:03,925 --> 00:10:51,690
+Unknown: That would be epic. Alright. Alright. I got it. It's on. I know how to do this. I know how to do this. Maybe I'll I'll do that this afternoon instead of tomorrow with Onshape. Leave that to the professional. Well, I think you're we're all realizing I mean, that's what this Doom tweet reflects is you can do literally anything. There's so many ideas. I mean, what were we joking about in the chat? Like, your shares getting you ammo in Doom or something? Yeah. Totally. Or like Mugena like holds your shares until like you do certain unlocks in the game and then resubmits all your shares. That'd be epic. Dylan says you could do all this with Home Assistant, easier to tie into multiple Hashrate heaters. But I think isn't the issue is that like everyone's got a thermostat on their wall already and that's how they want to interface with their heater, and that thermostat isn't necessarily Wi Fi connected? Yes. Yes. You could make this work with an analog thermostat.
+
+52
+00:10:51,770 --> 00:11:07,855
+Unknown: I think it doesn't negate the need for Home Assistant. They're kind of like two different things. Some some people might not want all the smart IoT stuff in their house. Right? And they just want a dumb signal to be sent that turns on a miner when they need heat. And if it's too cold, the gas helps out. Done. And you you could run that sort of home assistant
+
+53
+00:11:08,015 --> 00:11:08,815
+Unknown: interface
+
+54
+00:11:08,894 --> 00:11:17,459
+on the Libre board too. Right? Yep. Like, you got this, you know, your dumb thermostat, it's got those 24 volt, like on off signals. That's going to
+
+55
+00:11:18,019 --> 00:11:18,980
+LibreBoard.
+
+56
+00:11:18,980 --> 00:12:08,225
+Unknown: Now, you know, it's like, okay, cool. Thermostat, I understand what you said. I'm also talking to Home Assistant. You can make this whole thing happen. Yeah. Yeah. It's exciting. I think the one thing that home assistant would add that the dumb signal wouldn't is this notion of kind of ramping the miner up and down to help keep your house closer to the temp you want instead of dumping full power heat, waiting for it to leak out. Dump full power heat, wait for it to leak out. The miner should be able to throttle itself. I was telling someone how it works yesterday. They were asking me how heating systems work. It's the equivalent of driving your car full throttle, full brake. Right. And that's not the most efficient way to drive. And miners, luckily, you can can adjust the throttle to a degree. Yeah, so we have, you know, the interface in the car is this like full throttle, you know, stop setting, right? But then we have a controller in the middle that's like, all right, now we're gonna ramp up
+
+57
+00:12:08,440 --> 00:12:16,440
+Unknown: the miner. We're gonna ramp it down. You know, we we basically, the thermostat is just like this binary signal of like, yes
+
+58
+00:12:17,000 --> 00:12:34,035
+or no. So you're like, okay, cool. And then I guess you, well, yeah, I mean, it's just like, is the the room at the temperature set point on the thermostat or not? It's basically that binary signal that it's giving you. And they usually they know that, like, a gas furnace can't respond so quick. So they will have, a two or three degree deadband.
+
+59
+00:12:34,195 --> 00:12:49,810
+Unknown: So if you say I want it 70, but it's 68, still won't tell the furnace to do anything because it's not outside its range enough. Okay. And that's what I think miners can actually solve where you'll get much more comfortable temperatures with less swings, which is cool. Yeah. I mean, it sounds like what you really want is
+
+60
+00:12:50,050 --> 00:12:50,690
+Unknown: just
+
+61
+00:12:51,355 --> 00:13:09,920
+a thermostat that, you know, mounts in the same place so that you can walk up to it when you're cold, but it's just a Wi Fi device. Right? It's just communicating over the network. Like, we don't need these wires in the wall anymore. That's a good point. Yeah. We made a huge mess running some wires through the wall. I I guess you can use that to just power the thermostat because Yeah. Its batteries don't die.
+
+62
+00:13:10,320 --> 00:13:11,279
+But it's like,
+
+63
+00:13:12,000 --> 00:13:21,519
+you know, we don't really we don't really like we don't get any intelligent information from the thermostat. But if it were a Wi Fi thing, then you could it could actually be this communication.
+
+64
+00:13:21,760 --> 00:13:31,635
+And of course we need that thermostat, that WiFi thermostat to be open source. Totally. I think that would be an awesome project. Some heatpunk should do it. What we need to do is root the
+
+65
+00:13:31,954 --> 00:13:35,154
+Google Nest and install our own firmware on the Nest.
+
+66
+00:13:35,490 --> 00:13:52,265
+Unknown: Cause Yeah. It has WiFi. Right. And so then we can just, you know, have it do our bidding. Yeah. These companies really don't want you working on them. The Ecobee used to have public API. That's another popular thermostat and they shut it all down. They don't support Home Assistant anymore. That's why we're gonna delete the firmware
+
+67
+00:13:52,505 --> 00:13:56,585
+Unknown: that's on the thermostat and put our own on there that has
+
+68
+00:13:56,904 --> 00:14:20,615
+Unknown: an open API that doesn't phone home to Google. Oh, someone's gotta be doing that already, right? Someone must have rooted it. Probably. Yeah. All right. We're gonna have that fabulous. We were working with Average Gary yesterday and he was trying to do this PID loop so that his WhatzMiner M64 could ramp up and down according to how much heat his house needed. And we all quickly realized, and he got a little PID integration,
+
+69
+00:14:20,935 --> 00:14:53,045
+some Python scripts in Home Assistant, and it was trying to change the wattage on the m like multiple times per minute in the miner. Just always goes into a tuning state. What what happens is you basically get no hash rate. Yeah. Because you're changing it too frequently. And so that's Sounds like that m 64 needs some new firmware. I know. I know. It's Mugena on an m 64 is high priority, I think, for a lot of folks. It makes me wonder what the upper limit is on how quickly I mean, we just have to keep testing it and trying it, how quickly you could change the tuning of these machines. Right? This is a big problem that all firmware manufacturers
+
+70
+00:14:53,045 --> 00:15:17,245
+Unknown: face. Yeah. I mean, it's not gonna be instant, but No. I think that's the job of the firmware to know what you can and can't do and use that so that you can have the heating or cooling situation that you Yeah. Then, like, maybe document it or something. Oh. That's a good idea. Yeah. Put one of Unheard of. Unheard of. Unheard of. But, yeah, the sentiment is building. People are getting excited. There were so many folks in the replies of your and Scott and Schnitzel's
+
+71
+00:15:17,405 --> 00:15:24,205
+screenshots and pictures they were posting. It's mind blowing. It is. It's really exciting. People are people are digging this. I think that's a
+
+72
+00:15:25,405 --> 00:15:42,700
+Unknown: that's a good sign. It's only gonna get better too the more this gets out there. Because I was just in our private chat. Right? You guys posted a couple pics and descriptions on Twitter. You're talking about on Twitter? Okay. Yeah. Yeah. People are into it. The the the two fifty six Foundation group chat is just fire. Like, I can just tell
+
+73
+00:15:42,700 --> 00:15:48,915
+Unknown: you for everyone else, like, everyone is so fired up. We just get in these just amazingly
+
+74
+00:15:48,915 --> 00:16:17,394
+long, you know, threads of just like, oh my gosh, we could do this. Let's try this. Oh, I did this. Like, let's add that. And this happens like every day. So, It's amazing. You know? I think I think this community is going to is going to really dig it, and it's it is going to grow really fast. Big time. Yeah. I'm curious to see what kind of hardware systems come out of this. Right? Because it really is opening the floodgates to build whatever you want. And so much of the development has been constrained to whatever you could get away with retrofitting
+
+75
+00:16:17,394 --> 00:16:35,500
+Unknown: or hacking or squeezing in an industrial rig into. RIP immersion. I heard you're an immersion minimalist now, Tyler. What's the deal? I've been an immersion doomer for a long time. We do have a beautiful hot tub heated by an immersion miner in S21. It makes a lot of Bitcoin. It keeps me nice and toasty, but we've had a couple leaks that are no fun.
+
+76
+00:16:36,620 --> 00:16:41,185
+Unknown: So like, isn't just like your hot tub is leaking water, it'll
+
+77
+00:16:41,185 --> 00:16:42,945
+drain, right? You're leaking
+
+78
+00:16:43,265 --> 00:16:48,945
+dielectric fluid. Right. Don't tell the environmentalists. That's very inert stuff, so that's good. Yeah.
+
+79
+00:16:49,985 --> 00:16:52,225
+Unknown: We had a friend of ours come over to weld
+
+80
+00:16:52,839 --> 00:17:10,695
+a fitting that we couldn't get to stop leaking. He just welded it a little bit. And sparks were flying and he was like, ah, don't worry. I don't know what the combustion point is of this oil. It should be it should be very inert. So Okay. Yeah. I mean, I guess it everything can combust, but hopefully it's a, it's a not combustible
+
+81
+00:17:10,695 --> 00:17:12,375
+Unknown: or not very combustible,
+
+82
+00:17:12,375 --> 00:17:18,614
+Unknown: easily combustible. Well, I really think getting Mugena on the M 64 will unlock so much for the, the HomeMiner's,
+
+83
+00:17:18,615 --> 00:17:29,389
+you know, something that's interesting about the, the HomeMiner retrofits. What do you guys do for the power supplies? Because those have those screaming tiny fans on them. What are they? Like 60 millimeters or something? Seriously?
+
+84
+00:17:29,950 --> 00:17:32,350
+What's nice about the M64 just finishes,
+
+85
+00:17:32,510 --> 00:17:35,870
+the power supply is also liquid cooled. It's inside the same chassis. So
+
+86
+00:17:36,335 --> 00:18:05,535
+Unknown: you just connect your hot and cold fittings and you're done. So there's no fans on the sixty four? Zero? Yeah. There's no actual replacements that I've seen for those power supply fans. Yeah. Did that on mine. I did that on mine because I I got this on my desk, like, right next to me. And, I actually hooked up a AC Infinity Duct fan because it's much quieter to the minor. But then just I got the Screamer PSU fans in there. So I opened it up, and there's three fans. And I replaced two of them with Noctua fans.
+
+87
+00:18:05,775 --> 00:18:34,434
+And then actually only had two, so I just unplugged the third one. See how it goes. The AC Infinity fan you got talking to Magina. Yeah? Yes. Yeah. Yeah. Yeah. I got the AC Infinity fan talking to Magina. I made a little adapter board called the AC adapter that just converts the USB C plug on those to a standard, like, four pin fan. So that's is that similar to what our friend Zach Bomstad made originally to get the the AC Infinity fans working? Yeah. It's similar. The adapter that he made, the
+
+88
+00:18:35,875 --> 00:18:40,434
+the Nord board, that it's that's a much more sophisticated device
+
+89
+00:18:40,435 --> 00:18:41,955
+because he's
+
+90
+00:18:42,435 --> 00:18:43,235
+he's
+
+91
+00:18:43,315 --> 00:18:56,180
+he's one, adapting it so that it connects to the AC Infinity fan. But two, he also needs to fake that there's four fans present and their RPM back to the minor firmware because it is incapable
+
+92
+00:18:56,180 --> 00:19:00,285
+of running if there aren't four fans all reporting the correct RPM.
+
+93
+00:19:00,445 --> 00:19:23,249
+But with Mugena, you can say don't worry about that. With Mugena, you can say don't worry about that. So the AC adapter is just that first part. It just takes, you know, the PWM set point that you get from the firmware over those four pin fan connectors and converts it to basically just converts it to the voltage that the AC infinity fan needs. But it does so the AC infinity fan does not report its RPM back. Okay. So in Mugena, it'll be like,
+
+94
+00:19:23,809 --> 00:19:57,924
+Unknown: there's no RPM reported. But it's it's fine because we can just say, yeah, we don't care. I see. Well, this is interesting because what what Zach had to go through to develop that little board with all of that logic on it, it's just funny to think about the effort that went into a lot of these hacks and retrofits while there was no open source firmware. And do you think it really was the case that these were easier to solve? Maybe people just had different skill sets than tackling an open source firmware, or we had to wait till AI could really help build the firmware, which is kind of the order of how things played out. Well, yeah. I mean, having the the open source firmware
+
+95
+00:19:58,085 --> 00:19:58,884
+Unknown: helps
+
+96
+00:19:59,125 --> 00:20:00,245
+significantly
+
+97
+00:20:00,245 --> 00:20:32,125
+because now you're not trying to trick the firmware into different things. Right? The low key board tricks the firmware into thinking that the power supply is present. The Nord board tricks the firmware into thinking that the fans are present. So not having to do that, it saves a ton of reverse engineering work to to sort of determine what the firmware wants and to fake it. So that makes things significantly easier. Yeah. Mean, I I think this is gonna be it's gonna be a huge unlock for a lot of these things is you're not like you're not fighting these two battles where it's like, okay. I have to get whatever, you know, fans
+
+98
+00:20:32,125 --> 00:20:38,799
+or control board or, you know, power supply or accessory that I wanna use. You don't have to get that working and trick the firmware.
+
+99
+00:20:39,200 --> 00:20:43,359
+You have to get the accessory working, which Well, now we should see way less
+
+100
+00:20:43,600 --> 00:20:44,399
+Unknown: hardware
+
+101
+00:20:44,480 --> 00:20:49,760
+hacks required because the software is so so flexible. Right? I mean, you really don't have to
+
+102
+00:20:50,825 --> 00:21:12,080
+Unknown: do all these extra steps or add extra components and extra parts to make these really picky firmwares happy Yeah. Anymore. Yeah. It's right. That's right. I mean, both, you know, I we've talked with Zach about this a bunch and he he definitely is aware, but, like, the the features that the Loki board and the Nord board offer is just like a, you know, a small change to the firmware
+
+103
+00:21:12,160 --> 00:21:13,680
+and to,
+
+104
+00:21:13,680 --> 00:21:15,840
+to sort of eliminate the need for that. And,
+
+105
+00:21:16,960 --> 00:21:22,225
+you know, now we can do that small change to the firmware. So yeah, it, it makes it gives these things
+
+106
+00:21:22,545 --> 00:21:29,504
+these other options like first class support from the firmware. And, of course, adding that first class support gets even significantly
+
+107
+00:21:29,505 --> 00:21:37,129
+more easy with the advent of AI because you can just be like, here's what I got. Go. Yep. What about the power supply
+
+108
+00:21:37,289 --> 00:21:38,330
+Unknown: modification
+
+109
+00:21:38,330 --> 00:21:49,370
+that Zach came up with to so you can run your s 19 power supply on a 120 volts. Is that something that can be changed in the firmware too? I think LuxOS just did it. So there's a couple of things there.
+
+110
+00:21:50,195 --> 00:21:53,394
+Unknown: The the first question, changing the power supply to support,
+
+111
+00:21:54,115 --> 00:22:14,279
+a 120 volts input is not a firmware change. It's an actual hardware change. And Zach came up with the 120 volt, APW 12 unlock, which involves opening up the power supply and soldering a resistor onto the to the brownout circuit so that it it can it will physically turn on. Because before that, if you plugged
+
+112
+00:22:14,600 --> 00:22:28,274
+a two twenty power supply in to one ten, it just it won't even turn on. There's just like nothing happens because it it just rejects that input voltage. It's too low. Which we found out the hard way with Rod's vacuum.
+
+113
+00:22:28,675 --> 00:22:29,795
+That was the best.
+
+114
+00:22:30,440 --> 00:22:43,480
+Well, poor RIP. RIP Rod's vacuum. Sorry. I still owe you a new vacuum rod. I know that was a wedding gift. Sorry. Yeah. Yeah. Yeah. We'll get that sorted out for him. I mean, that was the other way that was plugging two twenty into a thing that wants one ten.
+
+115
+00:22:44,054 --> 00:22:49,414
+We're we're trying to go the other way and plug one ten into a thing that wants two twenty. So it's a little bit less dicey.
+
+116
+00:22:50,294 --> 00:22:55,494
+So, yeah, we still you still have to modify these these bit main power supplies to accept one ten.
+
+117
+00:22:55,735 --> 00:22:56,695
+Actually,
+
+118
+00:22:57,014 --> 00:22:58,774
+right before this call, I
+
+119
+00:22:59,510 --> 00:23:00,230
+was
+
+120
+00:23:00,630 --> 00:23:02,630
+dig digging pretty deep into this
+
+121
+00:23:03,030 --> 00:23:05,350
+exact topic. I have accumulated
+
+122
+00:23:05,350 --> 00:23:09,350
+over the years a couple of these APW three power supplies.
+
+123
+00:23:09,430 --> 00:23:25,275
+That's the like power S nine one. They came with S nine. I I somehow ended up with a bunch of them that are minimum input of 200 volts. So they're two twenty power supplies. And I was like, my gosh. Wait. Can we can we do the same modification to these APW threes
+
+124
+00:23:25,570 --> 00:23:37,890
+that we did to the APW twelves so that they will work on 120 volts? And it's too early to say exactly how well it'll work, but I did the modification, and I plugged it in to a 120 volts, and it did not explode.
+
+125
+00:23:37,970 --> 00:23:39,810
+In fact, it turned on and outputted
+
+126
+00:23:39,970 --> 00:23:43,455
+output 12 volts. So Woah. Cautiously optimistic
+
+127
+00:23:43,455 --> 00:24:03,370
+about this. That's a good start. Yeah. I think it can work. I haven't tested it under load. I just, you know, stood back and, like, plugged it in and didn't touch it and then measured the output and it was on. So that's that's cool. What was the I thought Luxor came out with a firmware update that enabled something to do with one twenty. So Luxor
+
+128
+00:24:03,690 --> 00:24:04,410
+added
+
+129
+00:24:04,650 --> 00:24:05,370
+a,
+
+130
+00:24:05,530 --> 00:24:08,650
+essentially, a checkbox to their firmware that
+
+131
+00:24:10,045 --> 00:24:13,325
+makes it so that it ignores the power supply. So that
+
+132
+00:24:14,125 --> 00:24:25,005
+it will still run if that data communication link with the power supply isn't there. Mhmm. So basically that what Luxor added eliminates the need for the low key. I see. So if you wanna power your
+
+133
+00:24:26,210 --> 00:24:28,050
+s 19 with
+
+134
+00:24:28,050 --> 00:24:31,730
+this s nine power supply and you don't have that data connection,
+
+135
+00:24:32,130 --> 00:24:36,770
+which which is the like that's this is the basis for a low key rig, you can do that.
+
+136
+00:24:37,490 --> 00:24:39,810
+Because stock firmware and
+
+137
+00:24:40,825 --> 00:24:42,825
+LuxOS previous to this change
+
+138
+00:24:43,225 --> 00:24:43,864
+would
+
+139
+00:24:44,505 --> 00:25:14,825
+boot up. They would try to communicate with the power supply. And when it wasn't there, they would just refuse to to mine. Shout out to David Urlacher. I have a feeling he was a champion of that at Luxor. Yeah. Probably so. I mean, is an example of what we were talking about of like, it's just a small change to the firmware to eliminate the need for the low key board. And so that's exactly what they did. Yeah. I mean, it's a great feature. It's a bummer. It took so long or someone who wanted that feature a year ago couldn't have forked it, did it. Yeah. This is a symptom of closed source software.
+
+140
+00:25:14,825 --> 00:25:15,705
+Right? It's like
+
+141
+00:25:16,184 --> 00:25:18,024
+Unknown: There's always a big backlogs of things to do.
+
+142
+00:25:18,900 --> 00:25:24,020
+Unknown: And, you know, they have to, they have to look at their, Luxor has to look at their engineers'
+
+143
+00:25:24,020 --> 00:25:44,715
+time and what makes them money and their customers and think about, you know, is this a feature that we want to add and sort of justify it that way? I assume that's why it took so long to do is because Mhmm. There isn't currently a huge demand for that. But, yeah, shout out to them for adding that. That's cool. I think that when we're in this glorious new open source firmware future, that will be
+
+144
+00:25:45,289 --> 00:25:59,850
+will be a thing of the past. Right? You don't have to lobby a software company, a proprietary software company to add features that you want. You can just do things. Gents, gotta run because we started a little late today, but carry on without me. Alright. Thanks, Tyler. We will. Good to see you. Alright. See you guys. See you.
+
+145
+00:26:01,415 --> 00:26:12,695
+Unknown: In other open hardware news, did you see the OpenSaaS Impact Report? I did. I did. Very cool. Two fifty six Foundation was featured. Bitaxe. Yeah. BitShaka,
+
+146
+00:26:12,695 --> 00:26:16,590
+CRUSS. Yeah. Let's dive into it. So it opens with Bidax,
+
+147
+00:26:16,750 --> 00:26:35,034
+Unknown: which is awesome to see Bidax getting the coverage. And I see you quoted in the impact report too. Yeah. Yeah. I think, but I don't know for sure, but I think that Bidax was one of OpenSet's first hardware projects. I know when I was initially talking to them, I was like, you know, I think I think it was kind of a a new idea of open source hardware
+
+148
+00:26:35,195 --> 00:26:37,115
+and support from OpenSets.
+
+149
+00:26:37,115 --> 00:26:43,259
+But shout out to them. They embraced it and supported the project early on, which was instrumental
+
+150
+00:26:43,260 --> 00:27:01,585
+Unknown: to me being able to spend more time on it. Yeah. Yeah. Massively appreciate their support. Yeah. It's awesome. And then they got the I like that they put the BitShaka in there too. I didn't realize they were supporting that project, but I'm glad to see it. So for anyone who doesn't know, Bit Shaka is like a would it be proper to say a Bitaxe fork?
+
+151
+00:27:02,465 --> 00:27:03,184
+Unknown: Yes.
+
+152
+00:27:04,545 --> 00:27:05,745
+Unknown: And it's
+
+153
+00:27:06,385 --> 00:27:10,785
+based out of Nairobi, Kenya, if I understand correctly. And, basically,
+
+154
+00:27:11,610 --> 00:27:16,409
+the first version of it was just kind of them getting their feet wet with the project,
+
+155
+00:27:16,570 --> 00:27:20,570
+doing, you know, pretty low level modifications like changing the logo,
+
+156
+00:27:20,890 --> 00:27:29,415
+but getting a good grasp on all the resources at their fingertips in the Bidax repo. Right? And, like, how to work with those key CAD files,
+
+157
+00:27:29,735 --> 00:27:43,380
+how to modify those designs, how to make changes. And from there, they've now been able to start producing the BitShaka locally and sourcing all the materials to do that. Because when you and I were out there in December
+
+158
+00:27:43,380 --> 00:27:44,540
+2024
+
+159
+00:27:44,540 --> 00:28:06,635
+for the Africa Bitcoin conference, there were no Bidax distributors on the continent that I was aware of, or at least not in Nairobi. Yeah. I don't think there was there's well, there may have been some people working on importing and selling Bitaxes, but there certainly was no local manufacturers on the continent. And and fast forward to today, and that's changed now with this BitShaka project. I believe Shaka is
+
+160
+00:28:07,060 --> 00:28:21,705
+Swahili for axe. But then they it took it a step further, and now now they're I see they're reverse engineering the What's Miner ASIC chip and creating a version of Bitaxe with that What's Miner chip. Yeah. That's that's the exciting part. Yes.
+
+161
+00:28:24,025 --> 00:28:27,705
+Unknown: The guy working on it, k e u r n g, has,
+
+162
+00:28:28,585 --> 00:28:31,225
+has been active in the, OSMU
+
+163
+00:28:31,225 --> 00:28:31,945
+forum,
+
+164
+00:28:32,184 --> 00:28:36,750
+and, he's been doing a lot of research into how the MicroBT
+
+165
+00:28:36,750 --> 00:28:56,894
+What's Minor chips work and reverse engineering that and making some progress with getting a a BITAX variant, a BITSOKA in this case, Style Minor with the What's Miner chips, which is a huge unlock. I mean, we were just talking about how amazing it would be to have an open source firmware for What's Miner. And this this is the first step towards that
+
+166
+00:28:57,135 --> 00:28:57,774
+Unknown: Right.
+
+167
+00:28:58,174 --> 00:29:01,695
+Unknown: Which is very exciting to see. But also, you know, a cool new miner,
+
+168
+00:29:02,660 --> 00:29:06,100
+a cool new open source home miner using WhatsMiner chips.
+
+169
+00:29:06,420 --> 00:29:11,619
+Unknown: Yeah. And then the $2.56 Foundation was also featured in that impact report,
+
+170
+00:29:11,860 --> 00:29:23,315
+Unknown: and they touched on all four of our projects, which was awesome to get that recognition. So, yeah. Open Sets has been a big support of the two fifty six Foundation too, which has been pretty awesome. Good to have their support. Couldn't do it without them.
+
+171
+00:29:23,635 --> 00:29:24,674
+Ongoing support.
+
+172
+00:29:24,915 --> 00:29:25,875
+Much appreciated.
+
+173
+00:29:25,875 --> 00:29:39,309
+Unknown: Yeah. It's good to see, you know, there's enough of a open source hardware movement happening that it warrants an impact report. Well, I guess two things. One, it it warrants the attention of a foundation like OpenSats to
+
+174
+00:29:39,309 --> 00:29:42,030
+put money there and allocate resources. And two,
+
+175
+00:29:43,445 --> 00:29:44,085
+the
+
+176
+00:29:45,205 --> 00:30:43,215
+progress that that money has helped move forward in this space is enough to warrant an impact report like the one that they just put out. So it's good. We're trending in the right direction. It is. It's really good. I feel like people are starting to, you know, become aware of this stuff now and starting you know, it's it's, what is it? The zeitgeist. It's a it's approaching the zeitgeist that that Bitcoin mining, you know, needs to be open source, that this is something that can be done. This is something that people will work on. It's great to see. In other news, the first stratum v two solo pool, this comes from Stacker News. You can find it by searching for blitz pool, b l I t z pool, a zero fee fully stratum v two compatible solo mining pool where you keep 100% of the block award, open source, located in Switzerland, and according to the official stratum v two working group, currently the only s v two solo pool in production. Built by a single dev, not a company with millions in VC backing like brains.
+
+177
+00:30:44,255 --> 00:30:56,200
+Unknown: That was a quote from the Stacker News article. So, yeah, what do you think about that? This is the way. Right? We gotta these things need to get built. These are, you know, these are important tools for mining decentralization
+
+178
+00:30:56,440 --> 00:31:14,135
+and they need to get built so that people can use them. I mean, I think this is incredible development. I had, I hadn't even heard of BlitzPool before, but, I'm glad to see it happen. We need we need more miners that support Stratum v two so that you can actually use this. But you know? It says on their roadmap, noncustodial
+
+179
+00:31:14,135 --> 00:31:15,175
+Unknown: PPLNS,
+
+180
+00:31:15,500 --> 00:31:17,260
+solo is great for the lot lot
+
+181
+00:31:17,660 --> 00:31:29,980
+excuse me. Solo is great for the lottery thrill, but for smaller miners, PPL and S makes more sense. We're working on a PPL and S mode based on the DATAM style noncustodial
+
+182
+00:31:29,980 --> 00:31:44,455
+payout model, meaning every miner gets paid directly to their own BTC address in the coin based transaction. No pool wallet holding your coins. No trust required. No withdrawal minimums. The pool never takes custody period. So this sounds familiar to something
+
+183
+00:31:44,960 --> 00:31:58,480
+h and p has been working on and kinda similar to HydroPool in that HydroPool supports PPL and S out of the box paid out from the Coinbase reward. I'll be curious to find out what these guys do about the Antminer
+
+184
+00:31:58,640 --> 00:31:59,679
+limitations
+
+185
+00:31:59,840 --> 00:32:01,864
+and having more than
+
+186
+00:32:02,424 --> 00:32:03,065
+a,
+
+187
+00:32:03,304 --> 00:32:13,225
+you know, 15 to 20 addresses in the Coinbase reward. But I see that they also had a issue or a pull request in the Bidax repo trying to get
+
+188
+00:32:13,860 --> 00:32:19,940
+the Bidax to become a SP2 client. What do you think about that? Yeah. I think that
+
+189
+00:32:20,420 --> 00:32:24,260
+Unknown: progress has been underway. There's been a number of people championing that from
+
+190
+00:32:24,740 --> 00:32:37,875
+the SP2 side of things. You know, I think that it would be fantastic to have it added. You know, I'm a little bit skeptical on what, if any, benefits Stratum v two adds to the Bidax because,
+
+191
+00:32:38,755 --> 00:32:52,989
+you know, the Bidax isn't running a node, so it's not going to be Right. It's not gonna be able to construct its own block templates locally. So then you kind of it doesn't really do much more than SV one does from the BidX, like, client side.
+
+192
+00:32:53,309 --> 00:32:53,630
+Right.
+
+193
+00:32:54,184 --> 00:32:57,384
+There's a couple other benefits to Stratum v two, like,
+
+194
+00:32:58,505 --> 00:33:09,785
+Unknown: encryption and a binary format, a more succinct binary format for the packets. Do you think I mean, is the idea that the like, if I'm an end user, I've got a Bidaxe, is the idea then
+
+195
+00:33:10,780 --> 00:33:28,845
+I can spin up my own node at home and then tell my Bidaxe to to grab the block templates from there for the s v two capability to build my own templates? Do you think that's where they're going with That that to me is what makes the most sense. I think that's the only way to do it. Right? If you wanna be building block templates yourself,
+
+196
+00:33:28,925 --> 00:33:30,524
+Unknown: it needs to happen on a node.
+
+197
+00:33:30,845 --> 00:33:37,429
+Right. That's what Datum does. It just, Datum interfaces with the Miner client over SV1.
+
+198
+00:33:37,429 --> 00:33:43,269
+I think what we, what we really need is, is a easy single click install Stratum interface
+
+199
+00:33:43,509 --> 00:33:47,269
+like Datum that just runs on your node. So you can, you can mine to
+
+200
+00:33:47,935 --> 00:33:50,655
+a pool that supports Stratum V2,
+
+201
+00:33:50,815 --> 00:34:11,650
+run this app on your node, and then you're creating the block templates on your node, and then you can point your miner at it over Stratum V1 to start. Obviously, that's what most miners support these days, but it could be that sort of paired down Stratum V future. Yeah. Yeah. I mean, I think I think that's gotta be where it's headed. Love to see it. Yeah. Because we wanna do we wanna implement Stratum v two and Mugena,
+
+202
+00:34:12,210 --> 00:34:14,930
+Unknown: you know? And I think the idea there is then anything
+
+203
+00:34:14,930 --> 00:34:19,765
+that Mugena can run on. So as we make headway with S 19,
+
+204
+00:34:19,845 --> 00:34:21,525
+potentially with WhatsMiners,
+
+205
+00:34:21,525 --> 00:34:29,605
+those can all become Stratum V2 clients. If Mugena supports it out of the box. But yeah, I mean, I guess the idea is
+
+206
+00:34:30,005 --> 00:34:33,270
+it can support Datum or SV2, whatever.
+
+207
+00:34:33,270 --> 00:34:37,990
+Or maybe there's even another implementation that comes down the pike. I think one of the
+
+208
+00:34:38,390 --> 00:34:41,270
+Unknown: big problems with Datum is that it only supports
+
+209
+00:34:41,430 --> 00:34:42,150
+Ocean.
+
+210
+00:34:42,790 --> 00:34:44,950
+That's
+
+211
+00:34:44,950 --> 00:34:45,990
+not very decentralized.
+
+212
+00:34:46,175 --> 00:34:50,735
+Right? What we need to have, and I think this is where Stratum v two really shines, is
+
+213
+00:34:51,775 --> 00:34:57,535
+people can spin up pools with their, you know, PPL and S pools probably or whatever
+
+214
+00:34:57,775 --> 00:35:27,325
+sort of, pooling strategy they wanna use. And then that communicates with Strativ two to this app on your node that is interfaced to all your local mining clients. Yeah. And then that, you know, have the server side, obviously the server side and the app that runs on your node be open source so that anyone's free to develop with this. I think that's Yep. That's what's lacking with Atom right now. Yeah. I've gotta jump at the bottom of the hour. So I just wanna give a shout out to some miners real quick Yeah. On -.256f.org.
+
+215
+00:35:27,405 --> 00:35:35,370
+Unknown: Exergy is in first place. Classy. Hash rate has been creeping up all morning. We started at about a 100 terahash,
+
+216
+00:35:35,370 --> 00:35:40,010
+and we got up to, like, a half a petahash today. So thanks, everybody.
+
+217
+00:35:40,250 --> 00:35:40,970
+Unknown: Alright.
+
+218
+00:35:41,290 --> 00:35:41,930
+Let's go.
+
+219
+00:35:42,810 --> 00:35:47,130
+Unknown: So, yeah, Exergy is in first place. Got a bunch of miners online. Tesserae?
+
+220
+00:35:47,345 --> 00:35:50,305
+Test tesser. Tessere.
+
+221
+00:35:50,385 --> 00:35:52,865
+Tessere. Supports
+
+222
+00:35:52,865 --> 00:35:55,984
+Hashrate heat punks. That's gotta be Tessere.
+
+223
+00:35:55,984 --> 00:36:00,545
+Unknown: Rehash heating. That Rehash heating. That's new. Right? I don't think we've seen them. Yeah. I think so.
+
+224
+00:36:01,710 --> 00:36:03,310
+Unknown: Let's see. Rehash
+
+225
+00:36:03,550 --> 00:36:11,870
+heating at coin s dot I o. That must be their lightning address. Very cool. Shout out to rehash heating in their test bench. Yeah. There they are.
+
+226
+00:36:12,349 --> 00:36:14,589
+We got thac triple seven
+
+227
+00:36:15,605 --> 00:36:19,205
+coming in with a fleet of miners. We got Scott 9,000.
+
+228
+00:36:19,525 --> 00:36:21,445
+You've got three miners pointed
+
+229
+00:36:21,684 --> 00:36:24,805
+for oh, you you're just under 10 terahash.
+
+230
+00:36:24,964 --> 00:36:25,765
+Baller.
+
+231
+00:36:25,925 --> 00:36:26,805
+Baller.
+
+232
+00:36:27,845 --> 00:36:29,285
+Canadian Hash and Coin.
+
+233
+00:36:29,740 --> 00:36:36,780
+I'm on there. I've got three miners online now. I just plugged in my Apollo. So coming in at 7.2 terahash.
+
+234
+00:36:36,780 --> 00:36:39,020
+Unknown: Got the quiver. Hardestblocks.org.
+
+235
+00:36:39,020 --> 00:36:41,020
+Unknown: Oh, they added a new feature recently.
+
+236
+00:36:41,180 --> 00:36:43,340
+Unknown: Yeah. Yeah. That was really cool.
+
+237
+00:36:44,380 --> 00:36:51,945
+Added a well, one thing I think we were talking about on the podcast, I think this is, we just sort of memed it into reality, guess, is that
+
+238
+00:36:52,185 --> 00:36:55,305
+it would be neat to see how much of an overachiever
+
+239
+00:36:55,305 --> 00:37:07,010
+each block was, right? Cause we, you know, the, the difficulty is is a 100 and something trillion. Right? But we're seeing these like e blocks, which is like quadrillion or something like that. So Yeah. It's just kinda abstract.
+
+240
+00:37:07,010 --> 00:37:08,210
+Yeah. It's like
+
+241
+00:37:08,610 --> 00:37:16,445
+how much how much of an overachiever they are. And so, hardest blocks added that. Now on every hardest block entry, can see
+
+242
+00:37:17,005 --> 00:37:18,605
+how much over
+
+243
+00:37:18,765 --> 00:37:20,925
+the difficulty at the time they were.
+
+244
+00:37:21,405 --> 00:37:24,525
+And I thought that was pretty interesting. The current, like,
+
+245
+00:37:24,765 --> 00:37:26,765
+champion, you know, overachiever
+
+246
+00:37:26,850 --> 00:37:29,810
+with like, I think it's like 32E
+
+247
+00:37:29,890 --> 00:37:30,930
+difficulty
+
+248
+00:37:31,250 --> 00:37:38,290
+was like a million times the network difficulty at the time. That's insane. Yeah. Yeah. It's insane. I mean,
+
+249
+00:37:38,930 --> 00:37:49,795
+yeah. And that this was like several years ago Yeah. Which is pretty cool. I think that's just a neat thing to see. And then they also added, HardistBlox also added a open source blocks. So Yeah. Bitaxes,
+
+250
+00:37:49,795 --> 00:37:51,954
+hopefully soon, MaginaMiners,
+
+251
+00:37:51,954 --> 00:38:01,290
+but there's, you know, all the the known open source firmware mine blocks out there Right. On this list. Let's see. We've got one, two, three,
+
+252
+00:38:01,370 --> 00:38:15,815
+four, five, six, seven. Looks like eight open source blocks so far. Only the beginning. Yeah. That's great. Yeah. And there's some there's some pretty decent overachievers on there. Yeah. Definitely. So that's pretty cool. Cool. Shout out to, hardestblocks.org.
+
+253
+00:38:15,815 --> 00:38:20,055
+Unknown: Yeah. Jeez. Yeah. Check out the website. It's looking great. And then we've got,
+
+254
+00:38:21,175 --> 00:38:28,400
+d plus plus. She's expanding her fleet with four miners. Look at her. Oh, she's got a BitForge Nano on there now. Oh,
+
+255
+00:38:28,480 --> 00:38:34,240
+Unknown: that's pretty hot. BitForge Nano is a new open source miner from WantClue
+
+256
+00:38:34,320 --> 00:38:38,640
+and a couple of folks, couple, people he's been working with from OSMU.
+
+257
+00:38:38,994 --> 00:38:42,835
+Looks like a pretty slick device. I want one. It's awesome. They got a nice case
+
+258
+00:38:43,155 --> 00:38:48,994
+for it. It looks very, very nice and, very well done. And then we've got Sarca
+
+259
+00:38:48,994 --> 00:38:51,635
+Unknown: coming in with a fleet of four miners,
+
+260
+00:38:51,635 --> 00:38:52,755
+Hashrate Heatpunks,
+
+261
+00:38:53,060 --> 00:38:55,220
+Tyler Stevens, Satoki,
+
+262
+00:38:55,220 --> 00:38:56,100
+Montani,
+
+263
+00:38:56,100 --> 00:38:57,859
+Backwater Mining Collective,
+
+264
+00:38:57,859 --> 00:38:59,220
+p Buttweiler.
+
+265
+00:38:59,220 --> 00:39:00,340
+Unknown: P Buttweiler.
+
+266
+00:39:00,420 --> 00:39:06,340
+Unknown: And random Bitcoin address. We got average Bitcoiner with his war is gay miner. We got Piz
+
+267
+00:39:07,045 --> 00:39:09,925
+Pizandy in there, who's just featured in
+
+268
+00:39:10,165 --> 00:39:15,205
+Tom's hardware after getting a booth at a conference showing off his hardware.
+
+269
+00:39:15,285 --> 00:39:16,565
+Did you see he had a,
+
+270
+00:39:16,885 --> 00:39:25,480
+Unknown: like, a filament dryer? Yeah. The filament dryer run off off hash rate. That's pretty slick. He makes really clean builds. I was Yeah.
+
+271
+00:39:25,880 --> 00:39:31,720
+I was looking at his stuff that was featured in that article, and it's just super clean. Yeah. We got Woodminer,
+
+272
+00:39:31,720 --> 00:39:32,600
+Unknown: Tubaloo,
+
+273
+00:39:32,760 --> 00:39:33,560
+Schnitzel,
+
+274
+00:39:33,560 --> 00:39:40,335
+and Western Mass Bitcoin Meetup. And the highest difficulty right now is attributed to Hashrate Heatpunks.
+
+275
+00:39:40,335 --> 00:39:43,775
+So there you have it. Thank you, everybody. Yeah.
+
+276
+00:39:45,055 --> 00:39:48,415
+Of course, it's billion. True. Not to be confused with thousand.
+
+277
+00:39:50,150 --> 00:40:00,950
+These units, man, they're tough. Alright. Well, on that note, I've gotta jump. So we're gonna shut the show down there. Sorry. It took us, like, forty five minutes to figure out how to broadcast the show,
+
+278
+00:40:01,555 --> 00:40:11,955
+but I hope you all have enjoyed. It was worth the wait. Okay. Good deal. Alright. We will see you all next week. Bye, everyone. Thank you. Wait. No. Not next week. Not that's right. Next
+
+279
+00:40:11,955 --> 00:40:17,440
+week is the conference. So if you're in Vegas, make sure you check out the two fifty six team doing a panel
+
+280
+00:40:17,600 --> 00:40:22,960
+on the power of open source hardware and then also doing a panel on the HRF
+
+281
+00:40:22,960 --> 00:40:29,520
+Freedom Go Upstage. So make sure you catch the two fifty six crew out there for that. Gonna be awesome. Yep. I can't wait.
+
+282
+00:40:30,080 --> 00:40:31,920
+Unknown: Alright. Thanks, everybody. Bye. Bye bye.
+
