@@ -50,3 +50,11 @@
 - Raw: raw/inbox/2026-10-07-x-256foundation-2023.md
 - Raw: raw/inbox/2026-10-07-x-256foundation-2024-origin.md
 - Raw: raw/inbox/2026-10-07-x-notable-bitaxe-ultra-supra.md
+
+## [2026-10-07] ingest | GitHub ecosystem metrics + blocks-found snapshots (github batch 1)
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-github-bitaxeorg-org-snapshot.md
+- Raw: raw/inbox/2026-10-07-github-256foundation-org-snapshot.md
+- Raw: raw/inbox/2026-10-07-github-ecosystem-contributor-metrics.md
+- Raw: raw/inbox/2026-10-07-github-legitlist-vendor-regions.md
+- Raw: raw/inbox/2026-10-07-bitaxe-open-source-mining-blocks-found.md
