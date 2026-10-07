@@ -44,3 +44,9 @@
 - Raw: raw/inbox/2026-10-07-x-notable-jungly-hydrapool.md
 - Raw: raw/inbox/2026-10-07-x-notable-wantclue.md
 - Raw: raw/inbox/2026-10-07-x-notable-public-pool.md
+
+## [2026-10-07] ingest | X archive inbox dump (batch 4)
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-x-256foundation-2023.md
+- Raw: raw/inbox/2026-10-07-x-256foundation-2024-origin.md
+- Raw: raw/inbox/2026-10-07-x-notable-bitaxe-ultra-supra.md
