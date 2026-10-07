@@ -921,3 +921,113 @@
 - Raw: raw/pod256/2024-04-19-pod256-044-state-of-the-network-news-tangents-home-miner-of.md
 - Raw: raw/pod256/2024-05-24-pod256-046-no-holds-barred-w-special-guest-luke-dashjr-chair.md
 - Raw: raw/pod256/2024-06-06-pod256-047-wilson-mining-s-game-changing-pool-launch-a-low-f.md
+
+## [2026-10-07] ingest | Foundation Progress Timeline, 2025
+- Disposition: New
+- Raw: raw/newsletter/2025-05-05-bitcoin-mining-will-not-be-decentralized-until-it-is-open-so.md
+- Raw: raw/newsletter/2025-06-19-you-know-i-m-something-of-a-decentralized-pool-myself.md
+- Raw: raw/newsletter/2025-07-15-the-bigger-they-are-the-harder-they-fall.md
+- Raw: raw/newsletter/2025-08-18-is-open-source-communism.md
+- Raw: raw/newsletter/2025-09-25-rig-bitcoin-mining-re-imagined.md
+- Raw: raw/newsletter/2025-10-28-assembling-freedom-10.md
+- Raw: raw/newsletter/2025-11-24-assembling-freedom-11.md
+- Raw: raw/newsletter/2025-12-22-assembling-freedom-12.md
+
+## [2026-10-07] ingest | Foundation Progress Timeline, 2026
+- Disposition: New; Disputed
+- Raw: raw/newsletter/2026-01-14-assembling-freedom-13.md
+- Raw: raw/newsletter/2026-01-30-assembling-freedom-14.md
+- Raw: raw/newsletter/2026-02-05-unlocking-decentralized-mining-deep-dive-into-pod256-episode.md
+- Raw: raw/newsletter/2026-02-11-assembling-freedom-16-ai-open-source-bitcoin-mining-and-batt.md
+- Raw: raw/newsletter/2026-02-19-assembling-freedom-17-unpacking-pod256-episode-105-chips-cha.md
+- Raw: raw/newsletter/2026-03-04-assembling-freedom-18-high-signal-in-the-hashtub-workshops-o.md
+- Raw: raw/newsletter/2026-03-11-assembling-freedom-19-revolutionizing-bitcoin-mining-hacking.md
+- Raw: raw/newsletter/2026-03-18-pod256-episode-108-breakdown-from-mixers-to-miners-why-samou.md
+- Raw: raw/newsletter/2026-03-25-assembling-freedom-21.md
+- Raw: raw/newsletter/2026-04-05-pod256-episode-110-newsletter-april-fools-real-progress-open.md
+- Raw: raw/newsletter/2026-04-11-assembling-freedom-23.md
+- Raw: raw/newsletter/2026-04-15-assembling-freedom-24-bitcoin-mining-renaissance-stratum-v2.md
+- Raw: raw/newsletter/2026-04-22-assembling-freedom-25.md
+- Raw: raw/newsletter/2026-05-13-assembling-freedom-26.md
+- Raw: raw/newsletter/2026-05-28-assembling-freedom-27.md
+- Raw: raw/newsletter/2025-09-25-rig-bitcoin-mining-re-imagined.md
+
+## [2026-10-07] ingest | Editorial Essays and Arguments, 2025
+- Disposition: New
+- Raw: raw/newsletter/2025-05-05-bitcoin-mining-will-not-be-decentralized-until-it-is-open-so.md
+- Raw: raw/newsletter/2025-06-19-you-know-i-m-something-of-a-decentralized-pool-myself.md
+- Raw: raw/newsletter/2025-07-15-the-bigger-they-are-the-harder-they-fall.md
+- Raw: raw/newsletter/2025-08-18-is-open-source-communism.md
+- Raw: raw/newsletter/2025-09-25-rig-bitcoin-mining-re-imagined.md
+- Raw: raw/newsletter/2025-10-28-assembling-freedom-10.md
+- Raw: raw/newsletter/2025-11-24-assembling-freedom-11.md
+- Raw: raw/newsletter/2025-12-22-assembling-freedom-12.md
+
+## [2026-10-07] ingest | Samourai Wallet Case and Developer Liability
+- Disposition: New; Disputed
+- Raw: raw/newsletter/2025-05-05-bitcoin-mining-will-not-be-decentralized-until-it-is-open-so.md
+- Raw: raw/newsletter/2025-06-19-you-know-i-m-something-of-a-decentralized-pool-myself.md
+- Raw: raw/newsletter/2025-07-15-the-bigger-they-are-the-harder-they-fall.md
+- Raw: raw/newsletter/2025-08-18-is-open-source-communism.md
+- Raw: raw/newsletter/2025-09-25-rig-bitcoin-mining-re-imagined.md
+- Raw: raw/newsletter/2025-12-22-assembling-freedom-12.md
+- Raw: raw/newsletter/2026-01-14-assembling-freedom-13.md
+- Raw: raw/newsletter/2026-02-19-assembling-freedom-17-unpacking-pod256-episode-105-chips-cha.md
+- Raw: raw/newsletter/2026-03-18-pod256-episode-108-breakdown-from-mixers-to-miners-why-samou.md
+
+## [2026-10-07] ingest | State of the Network, April to September 2025
+- Disposition: New; Disputed
+- Raw: raw/newsletter/2025-05-05-bitcoin-mining-will-not-be-decentralized-until-it-is-open-so.md
+- Raw: raw/newsletter/2025-06-19-you-know-i-m-something-of-a-decentralized-pool-myself.md
+- Raw: raw/newsletter/2025-07-15-the-bigger-they-are-the-harder-they-fall.md
+- Raw: raw/newsletter/2025-08-18-is-open-source-communism.md
+- Raw: raw/newsletter/2025-09-25-rig-bitcoin-mining-re-imagined.md
+- Raw: raw/newsletter/2025-10-28-assembling-freedom-10.md
+- Raw: raw/newsletter/2025-11-24-assembling-freedom-11.md
+
+## [2026-10-07] ingest | Hashrate Heat Reuse and the Heatpunk Summit
+- Disposition: New; Disputed
+- Raw: raw/newsletter/2025-05-05-bitcoin-mining-will-not-be-decentralized-until-it-is-open-so.md
+- Raw: raw/newsletter/2025-06-19-you-know-i-m-something-of-a-decentralized-pool-myself.md
+- Raw: raw/newsletter/2025-07-15-the-bigger-they-are-the-harder-they-fall.md
+- Raw: raw/newsletter/2025-08-18-is-open-source-communism.md
+- Raw: raw/newsletter/2025-09-25-rig-bitcoin-mining-re-imagined.md
+- Raw: raw/newsletter/2025-10-28-assembling-freedom-10.md
+- Raw: raw/newsletter/2025-11-24-assembling-freedom-11.md
+- Raw: raw/newsletter/2025-12-22-assembling-freedom-12.md
+- Raw: raw/newsletter/2026-01-30-assembling-freedom-14.md
+- Raw: raw/newsletter/2026-02-05-unlocking-decentralized-mining-deep-dive-into-pod256-episode.md
+- Raw: raw/newsletter/2026-02-11-assembling-freedom-16-ai-open-source-bitcoin-mining-and-batt.md
+- Raw: raw/newsletter/2026-02-19-assembling-freedom-17-unpacking-pod256-episode-105-chips-cha.md
+- Raw: raw/newsletter/2026-03-04-assembling-freedom-18-high-signal-in-the-hashtub-workshops-o.md
+- Raw: raw/newsletter/2026-03-25-assembling-freedom-21.md
+- Raw: raw/newsletter/2026-04-22-assembling-freedom-25.md
+- Raw: raw/newsletter/2026-05-28-assembling-freedom-27.md
+
+## [2026-10-07] ingest | Open Mining Ecosystem News, 2025 to 2026
+- Disposition: New; Disputed
+- Raw: raw/newsletter/2025-05-05-bitcoin-mining-will-not-be-decentralized-until-it-is-open-so.md
+- Raw: raw/newsletter/2025-06-19-you-know-i-m-something-of-a-decentralized-pool-myself.md
+- Raw: raw/newsletter/2025-07-15-the-bigger-they-are-the-harder-they-fall.md
+- Raw: raw/newsletter/2025-08-18-is-open-source-communism.md
+- Raw: raw/newsletter/2025-09-25-rig-bitcoin-mining-re-imagined.md
+- Raw: raw/newsletter/2025-10-28-assembling-freedom-10.md
+- Raw: raw/newsletter/2025-11-24-assembling-freedom-11.md
+- Raw: raw/newsletter/2025-12-22-assembling-freedom-12.md
+- Raw: raw/newsletter/2026-01-14-assembling-freedom-13.md
+- Raw: raw/newsletter/2026-01-30-assembling-freedom-14.md
+- Raw: raw/newsletter/2026-02-05-unlocking-decentralized-mining-deep-dive-into-pod256-episode.md
+- Raw: raw/newsletter/2026-02-19-assembling-freedom-17-unpacking-pod256-episode-105-chips-cha.md
+- Raw: raw/newsletter/2026-04-05-pod256-episode-110-newsletter-april-fools-real-progress-open.md
+- Raw: raw/newsletter/2026-04-11-assembling-freedom-23.md
+- Raw: raw/newsletter/2026-04-15-assembling-freedom-24-bitcoin-mining-renaissance-stratum-v2.md
+- Raw: raw/newsletter/2026-04-22-assembling-freedom-25.md
+- Raw: raw/newsletter/2026-05-13-assembling-freedom-26.md
+- Raw: raw/newsletter/2026-05-28-assembling-freedom-27.md
+
+## [2026-10-07] ingest | Newsletter conflicts with existing articles
+- Disposition: Update; Disputed
+- Raw: raw/newsletter/2026-01-30-assembling-freedom-14.md
+- Raw: raw/newsletter/2026-04-05-pod256-episode-110-newsletter-april-fools-real-progress-open.md
+- Updated: Telehash
+- Updated: Mujina Firmware

@@ -114,3 +114,17 @@ The POD256 podcast: overview, episode guides, guests and themes.
 | [Samourai Wallet and Developer Prosecutions on POD256](pod256/samourai-and-developer-prosecutions.md) | The show's Samourai coverage from 2023 guest spot through plea, sentencing and pardon campaign, plus related privacy topics. | 2026-10-07 |
 | [Home Mining and Heat Reuse on POD256](pod256/home-mining-and-heat-reuse.md) | Home Miner of the Week picks, 120V hardware, hashrate heating practice, Heatpunk Summit, and solar matching. | 2026-10-07 |
 | [State of the Network Snapshots, 2023 to 2024](pod256/state-of-the-network-snapshots.md) | Block heights, halving countdowns, difficulty, hashrate and hashvalue printed in the notes for episodes 005 to 046. | 2026-10-07 |
+
+## newsletter
+
+The Assembling Freedom newsletter: timelines, essays and recurring themes.
+
+| Article | Summary | Updated |
+|---------|---------|---------|
+| [Foundation Progress Timeline, 2025](newsletter/foundation-progress-2025.md) | Month-by-month record of the four grant projects from April to November 2025, with planned dates against what happened. | 2026-10-07 |
+| [Foundation Progress Timeline, 2026](newsletter/foundation-progress-2026.md) | Issue-by-issue record for January to May 2026: Telehash #3, Mujina on Antminers, second grant round, MARA grant, Telehash #4. | 2026-10-07 |
+| [Editorial Essays and Arguments, 2025](newsletter/editorial-essays-2025.md) | The arguments of the 2025 opinion essays: open source and decentralization, centralized pools, closed systems, licenses. | 2026-10-07 |
+| [Samourai Wallet Case and Developer Liability](newsletter/samourai-wallet-case.md) | The Samourai Wallet prosecution as the newsletters followed it, April 2025 to March 2026, and why a mining foundation cares. | 2026-10-07 |
+| [State of the Network, April to September 2025](newsletter/state-of-the-network-2025.md) | Monthly hashrate, difficulty, ASIC price, hashvalue and halving-countdown figures from the six issues that carried the section. | 2026-10-07 |
+| [Hashrate Heat Reuse and the Heatpunk Summit](newsletter/hashrate-heat-reuse.md) | Mining heat reuse builds from 2025, the TEMS cooling panel, the foundation's demos, and Heatpunk Summit 2026 with the Hashtub. | 2026-10-07 |
+| [Open Mining Ecosystem News, 2025 to 2026](newsletter/open-mining-ecosystem-news.md) | Pool concentration, Stratum v2 and other pool designs, solo block finds, Bitaxe ecosystem news, and vendor moves including Proto Rig. | 2026-10-07 |
