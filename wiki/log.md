@@ -11,3 +11,8 @@
 - Context: Incorporated the latest upstream newsletter move into raw/.
 - Evidence: 0 fidelity suspects and 0 evidence errors.
 - Backlog: 315 raw source files have not been referenced by compiled wiki articles.
+
+## [2026-10-07] lint | 365 issues found, 0 auto-fixed
+- Context: Relocated the POD256 transcript archive into raw/pod256/transcripts/2026-10-07/ and added source metadata headers.
+- Evidence: 0 fidelity suspects and 0 evidence errors; all transcript bodies and original file checksums verified.
+- Backlog: 365 raw Markdown documents await references from compiled wiki articles, including the transcript snapshot index.

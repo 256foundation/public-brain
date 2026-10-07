@@ -28,6 +28,13 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def write_bytes(path, content):
+    if path.exists():
+        if path.read_bytes() != content:
+            raise FileExistsError(
+                f"Raw snapshots are immutable: {path}. Use a new --collected date "
+                "or a different --output directory."
+            )
+        return
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_name(path.name + ".part")
     temporary.write_bytes(content)
@@ -165,7 +172,7 @@ def read_episodes(feed, start, end):
     return episodes, len(root.findall("./channel/item"))
 
 
-def archive_episode(episode, output, refresh, previous_files):
+def archive_episode(episode, output, refresh, previous_files, collected):
     if episode["status"] == "not_published":
         return episode
     year = episode["date"][:4]
@@ -203,6 +210,9 @@ def archive_episode(episode, output, refresh, previous_files):
     )
     document = (
         f"# {markdown(episode['title'])}\n\n"
+        f"> Source: {next(f['url'] for f in episode['original_files'] if f['type'] == 'text/html')}\n"
+        f"> Collected: {collected}\n"
+        f"> Published: {episode['date']}\n\n"
         f"- Episode: {episode['episode']}\n"
         f"- Published: {episode['date']} (America/Chicago)\n"
         f"- Publication timestamp: {episode['published_at']}\n"
@@ -225,6 +235,9 @@ def write_index(output, manifest):
     available = sum(e["status"] == "published" for e in episodes)
     lines = [
         "# POD256 transcript archive", "",
+        f"> Source: {FEED_URL}",
+        f"> Collected: {manifest['collected_date']}",
+        "> Published: Unknown", "",
         f"Publication window: **{manifest['start_date']} through {manifest['end_date']}**, "
         "inclusive, using America/Chicago publication dates.", "",
         f"The [publisher's RSS feed]({FEED_URL}) contains **{len(episodes)} episodes** "
@@ -256,17 +269,23 @@ def write_index(output, manifest):
         if episode["status"] == "not_published":
             lines.append(f"- {episode['date']} — E{episode['episode']:03d}: "
                          f"[{markdown(episode['title'])}]({episode['episode_url']})")
-    lines += ["", "## Refreshing the archive", "", "From the repository root:", "", "```sh",
+    lines += ["", "## Reproducing this snapshot", "", "From the repository root:", "", "```sh",
               "python3 scripts/download_pod256.py --start " + manifest["start_date"]
-              + " --end " + manifest["end_date"], "```", "",
-              "Python 3.9+ and curl are the only requirements. Existing originals are "
-              "reused; pass `--refresh` to download them again. Omit the dates to select "
-              "the two years ending today in America/Chicago. To reproduce the existing "
-              "inventory without fetching a new feed, pass "
-              "`--feed-file sources/pod256/feed.xml` and the same dates. "
-              "Use a different `--output` directory for a separate date window; "
-              "files from earlier runs are retained and the index describes only the "
-              "current selection.", ""]
+              + " --end " + manifest["end_date"]
+              + " --collected " + manifest["collected_date"]
+              + " --feed-file raw/pod256/transcripts/" + manifest["collected_date"] + "/feed.xml",
+              "```", "",
+              "Python 3.9+ and curl are the only requirements. Existing identical files "
+              "are reused. Raw snapshots are immutable: changed content is rejected "
+              "instead of overwriting source material.", "",
+              "## Collecting a new snapshot", "",
+              "Omit the dates to select the two years ending today in America/Chicago. "
+              "New collections go into `raw/pod256/transcripts/<collected-date>/`. "
+              "Use a different `--output` directory for another collection on the same "
+              "day. `--refresh` requests the original files again; corrected transcripts "
+              "must be saved in a new snapshot. When using a custom output directory, "
+              "pass it with `--output` and point `--feed-file` at that directory's "
+              "`feed.xml` to reproduce it.", ""]
     write_text(output / "README.md", "\n".join(lines))
 
 
@@ -279,13 +298,15 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--start", type=date.fromisoformat, default=two_years_ago)
     parser.add_argument("--end", type=date.fromisoformat, default=today)
-    parser.add_argument("--output", type=Path, default=ROOT / "sources" / "pod256")
+    parser.add_argument("--collected", type=date.fromisoformat, default=today,
+                        help="Collection date and default snapshot directory name")
+    parser.add_argument("--output", type=Path, help="New snapshot directory")
     parser.add_argument("--feed-file", type=Path, help="Use a saved RSS snapshot")
     parser.add_argument("--refresh", action="store_true")
     args = parser.parse_args()
     if args.start > args.end:
         parser.error("--start must be on or before --end")
-    output = args.output.resolve()
+    output = (args.output or ROOT / "raw" / "pod256" / "transcripts" / args.collected.isoformat()).resolve()
     feed = args.feed_file.read_bytes() if args.feed_file else download(FEED_URL)
     episodes, total = read_episodes(feed, args.start, args.end)
     if not episodes:
@@ -293,10 +314,21 @@ def main():
     previous_files = {}
     if (output / "manifest.json").exists():
         previous = json.loads((output / "manifest.json").read_text())
+        expected = {
+            "start_date": args.start.isoformat(), "end_date": args.end.isoformat(),
+            "collected_date": args.collected.isoformat(),
+            "feed_sha256": hashlib.sha256(feed).hexdigest(),
+        }
+        if any(previous.get(key) != value for key, value in expected.items()):
+            raise FileExistsError(
+                "This raw snapshot already exists with a different feed, date window, "
+                "or collection date. Use a new --collected date or --output directory."
+            )
         previous_files = {f["path"]: f for e in previous["episodes"] for f in e["original_files"]}
     errors = []
     with ThreadPoolExecutor(max_workers=4) as pool:
-        futures = {pool.submit(archive_episode, e, output, args.refresh, previous_files): e
+        futures = {pool.submit(archive_episode, e, output, args.refresh, previous_files,
+                               args.collected.isoformat()): e
                    for e in episodes}
         for future in as_completed(futures):
             episode = futures[future]
@@ -310,6 +342,7 @@ def main():
     manifest = {
         "schema_version": 1, "show": "POD256", "feed_url": FEED_URL,
         "start_date": args.start.isoformat(), "end_date": args.end.isoformat(),
+        "collected_date": args.collected.isoformat(),
         "publication_timezone": str(TIMEZONE), "feed_episode_count": total,
         "feed_sha256": hashlib.sha256(feed).hexdigest(),
         "episode_count": len(episodes),

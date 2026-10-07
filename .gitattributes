@@ -16,5 +16,5 @@ wiki/index.md merge=union
 # raw/ files are unique per source (date + slug); no special merge needed.
 
 # Preserve publisher bytes so archived checksums survive Git checkouts.
-sources/pod256/originals/** -text
-sources/pod256/feed.xml -text
+raw/pod256/transcripts/**/originals/** -text
+raw/pod256/transcripts/**/feed.xml -text

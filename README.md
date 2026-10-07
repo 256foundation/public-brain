@@ -9,8 +9,8 @@ This repo is an **LLM wiki**: a knowledge system where an LLM maintains structur
 ```
 public-brain/
 ├── raw/            ← Immutable source material (web pages, docs, papers), organized by topic
-│   └── <topic>/YYYY-MM-DD-source-slug.md
-├── sources/pod256/ ← POD256 transcript archive, original files, and provenance
+│   ├── <topic>/YYYY-MM-DD-source-slug.md
+│   └── pod256/transcripts/<collected-date>/ ← Immutable transcript snapshots
 ├── scripts/        ← Reusable source downloaders
 ├── wiki/           ← Compiled knowledge articles, maintained by the LLM
 │   ├── <topic>/<article>.md
@@ -27,17 +27,17 @@ public-brain/
 
 ## Source collections
 
-- [POD256 transcript archive](sources/pod256/README.md): 49 published transcripts from the October 7, 2024–October 7, 2026 window, with original HTML, SRT, and VTT files, episode metadata, and checksums. The index covers all 70 feed episodes in the window and identifies the 21 without published transcripts. This collection complements the episode descriptions in [raw/pod256](raw/pod256).
+- [POD256 transcript archive](raw/pod256/transcripts/2026-10-07/README.md): 49 published transcripts from the October 7, 2024–October 7, 2026 window, with original HTML, SRT, and VTT files, episode metadata, and checksums. The index covers all 70 feed episodes in the window and identifies the 21 without published transcripts. This collection complements the episode descriptions in [raw/pod256](raw/pod256).
 
-### Updating POD256
+### Collecting POD256 snapshots
 
 Run from the repository root with Python 3.9+ and curl:
 
 ```sh
-python3 scripts/download_pod256.py --start 2024-10-07 --end 2026-10-07
+python3 scripts/download_pod256.py
 ```
 
-Omit the date arguments to select the past two years ending today. See the [archive README](sources/pod256/README.md) for refresh and reproduction options. Original source URLs and SHA-256 checksums are recorded in the manifest. Machine transcripts retain the publisher's wording; names, technical terms, quotations, and speaker identities need verification against the audio when accuracy matters.
+This selects the past two years ending today and saves a dated snapshot under `raw/pod256/transcripts/`. Existing raw snapshots are immutable; use a new `--output` directory for another collection on the same day. See the [archive README](raw/pod256/transcripts/2026-10-07/README.md) for refresh and reproduction options. Original source URLs and SHA-256 checksums are recorded in the manifest. Machine transcripts retain the publisher's wording; names, technical terms, quotations, and speaker identities need verification against the audio when accuracy matters.
 
 ## Using the brain
 
@@ -71,4 +71,4 @@ Knowledge lives in curated markdown pages, synthesized at ingest time — so it 
 
 Content: [CC0](https://creativecommons.org/public-domain/cc0/) (public domain) unless noted otherwise. Vendored skill: MIT (see `.agents/skills/karpathy-llm-wiki/LICENSE`).
 
-POD256 publisher files and transcript text in `sources/pod256/` retain their source copyright and licensing; this repository does not assign a new license to that material.
+POD256 publisher files and transcript text in `raw/pod256/transcripts/2026-10-07/` retain their source copyright and licensing; this repository does not assign a new license to that material.
