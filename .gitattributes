@@ -1,0 +1,20 @@
+# Consistent line endings for a mixed-OS team
+* text=auto
+*.md text eol=lf
+
+# Concurrency guardrails for shared wiki state #################################
+
+# wiki/log.md is append-only. Union merge keeps BOTH sides' entries on
+# conflict, so concurrent ingests by teammates never clobber each other.
+wiki/log.md merge=union
+
+# wiki/index.md is reconstructed by `lint` (missing entries are a safe-fix).
+# Union merge prevents a merge conflict from silently dropping a teammate's
+# entry; duplicates, if they ever appear, are trivial to clean up.
+wiki/index.md merge=union
+
+# raw/ files are unique per source (date + slug); no special merge needed.
+
+# Preserve publisher bytes so archived checksums survive Git checkouts.
+sources/pod256/originals/** -text
+sources/pod256/feed.xml -text

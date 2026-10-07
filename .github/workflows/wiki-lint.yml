@@ -1,0 +1,43 @@
+name: Wiki Evidence Check
+
+# Reports on the health of the brain on every push and PR. Fails only on
+# "evidence errors" — articles with a missing/broken Raw link, or Raw links
+# escaping raw/ — because those make knowledge unverifiable. Fidelity
+# suspects and unreferenced raws are printed as an informational report
+# (they are candidates for human judgment, not verdicts).
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  evidence:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run evidence check
+        id: check
+        run: |
+          python3 .agents/skills/karpathy-llm-wiki/scripts/check_evidence.py . | tee report.txt
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: evidence-report
+          path: report.txt
+          retention-days: 14
+
+      - name: Fail on evidence errors
+        run: |
+          summary=$(grep -E '^[0-9]+ fidelity suspect\(s\), [0-9]+ evidence error\(s\), [0-9]+ unreferenced raw file\(s\)$' report.txt | tail -1)
+          echo "Summary: $summary"
+          errors=$(echo "$summary" | sed -E 's/^[0-9]+ fidelity suspect\(s\), ([0-9]+) evidence error\(s\),.*/\1/')
+          if [ "$errors" != "0" ]; then
+            echo "❌ $errors evidence error(s) — every wiki article must have a valid Raw field pointing into raw/. See report above."
+            exit 1
+          fi
+          echo "✅ No evidence errors."
