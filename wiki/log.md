@@ -67,3 +67,12 @@
 - Raw: raw/inbox/2026-10-07-github-ecosystem-discovery.md
 - Raw: raw/inbox/2026-10-07-press-media-talks-research.md
 - Raw: raw/inbox/2026-10-07-research-proto-braidpool-canaan-grants.md
+## [2026-10-07] ingest | Gap-list live sources (pool, Telegram, Nostr, CleanPool, Heatpunks forum, test.hydrapool.org)
+- Disposition: New
+- Raw: raw/hydrapool/2026-10-07-pool-256foundation-operator.md
+- Raw: raw/ecosystem/2026-10-07-telegram-public-groups.md
+- Raw: raw/hydrapool/2026-10-07-cleanpool-caylon.md
+- Raw: raw/hydrapool/2026-10-07-cleanpool-payouts-filters-prom.md
+- Raw: raw/foundation/2026-10-07-nostr-256foundation-profile.md
+- Raw: raw/foundation/2026-10-07-forum-heatpunks-latest.md
+- Raw: raw/hydrapool/2026-10-07-test-hydrapool-org.md
