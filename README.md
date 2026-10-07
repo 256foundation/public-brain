@@ -16,6 +16,7 @@ public-brain/
 │   ├── <topic>/<article>.md
 │   ├── index.md    ← Global table of contents
 │   └── log.md      ← Append-only operation log
+├── brand/          ← Official 256 Foundation logo kit (PNG + EPS) — see brand/README.md
 └── .agents/skills/karpathy-llm-wiki/   ← The skill that defines the workflow
 ```
 
@@ -54,6 +55,10 @@ Then just ask:
 - *"Lint the wiki"*
 
 The full workflow rules (triage, source fidelity, cascade updates, log format) are defined in [`.agents/skills/karpathy-llm-wiki/SKILL.md`](.agents/skills/karpathy-llm-wiki/SKILL.md). See also [AGENTS.md](AGENTS.md) for contributor guidance.
+
+## Feeding the brain
+
+**Teammates start here: [TEAM.md](TEAM.md)** — setup + copy-paste prompts for ingesting sources.
 
 ## Working concurrently
 
