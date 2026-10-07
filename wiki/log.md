@@ -35,3 +35,12 @@
 - Raw: raw/inbox/2026-10-07-x-osmu-global-2024.md
 - Raw: raw/inbox/2026-10-07-x-notable-canaan-mujina-port.md
 - Raw: raw/inbox/2026-10-07-x-notable-skot-bitaxe.md
+
+## [2026-10-07] ingest | X archive inbox dump (batch 3)
+- Disposition: New
+- Raw: raw/inbox/2026-10-07-x-256foundation-2024-q1.md
+- Raw: raw/inbox/2026-10-07-x-osmu-global-2024-q1.md
+- Raw: raw/inbox/2026-10-07-x-notable-bitaxe-gamma.md
+- Raw: raw/inbox/2026-10-07-x-notable-jungly-hydrapool.md
+- Raw: raw/inbox/2026-10-07-x-notable-wantclue.md
+- Raw: raw/inbox/2026-10-07-x-notable-public-pool.md
