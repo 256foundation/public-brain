@@ -76,3 +76,15 @@
 - Raw: raw/foundation/2026-10-07-nostr-256foundation-profile.md
 - Raw: raw/foundation/2026-10-07-forum-heatpunks-latest.md
 - Raw: raw/hydrapool/2026-10-07-test-hydrapool-org.md
+
+## [2026-10-07] ingest | Public GitHub README mirrors + org visibility
+- Disposition: New
+- Raw: raw/hardware/github-256foundation-bcb100.md
+- Raw: raw/hardware/github-256foundation-bos-build.md
+- Raw: raw/hardware/github-256foundation-ember-one-website.md
+- Raw: raw/hardware/github-256foundation-libre-board-website.md
+- Raw: raw/hydrapool/github-256foundation-hydra-pool-website.md
+- Raw: raw/foundation/github-256foundation-block-watcher-website.md
+- Raw: raw/mujina/github-256foundation-mujina-website.md
+- Raw: raw/foundation/github-256foundation-website-heatpunks.md
+- Raw: raw/inbox/2026-10-07-github-256foundation-visibility.md
